@@ -1,0 +1,906 @@
+
+$iconSetBorderDistance:3.8;
+$iconSetFullDistance:4;
+$toolActionColor:#c9c9c9;
+$iconSetBorderColorActive:#0095c8;
+$iconSetColorActive:#0095c8;
+
+
+$actionWidth:12;
+$actionHeight:4;
+$actionActiveHeight:3.6;
+$iconSetBorderColor:#454545;
+$iconSetColor:#454545;
+$actionColor:#454545;
+$actionHoverColor:#FFD636;
+$actionActive:#0095c8;
+$actionBg:#fafafa;
+$actionBgActive:#fafafa;
+$iconSetNegativeColor:#fafafa;
+$actionLabelColor:#2c2a29;
+
+$ajaxsIcon:url(../images/ajaxLoader.gif) no-repeat;
+
+$ajaxsWIcon:url(../images/ajaxWLoader.GIF) no-repeat;
+
+$ftueSprite:url(../images/sprite-ftue.png) no-repeat;
+
+/* ## Icon Set Positioning
+
+*/
+
+.iconSetPosStyleOne{
+  @extend %floatLeft;
+}
+.iconSetPosStyleTwo{
+  @extend %floatRight;
+}
+/* Round Icon elements Full Color
+Constructs the icon set
+*/
+
+
+.iconSet{
+  @include borderRadius(100);
+  @extend %inlineBlock;
+  @extend %relative;
+  text-align: center;
+  text-decoration: none !important; // win safari  underline fix
+    em{
+      height: 1.6rem;
+      width:1.6rem;
+      margin: auto;
+      @extend %inlineBlock;
+      @include position(absolute, 0px 0px 0px 0px);
+
+
+    }
+  em.iconLetter{
+    @include position(absolute, 0px 0px 0px 0px);
+  }
+
+}
+
+
+/* ### Iconset with border
+  <span class="iconSetBorder">
+      <em class="iconsmsf"><span>Icon Name</span></em>
+  </span>
+
+*/
+
+
+
+// If border Icon
+.iconSetBorder{
+  @extend .iconSet;
+  @include allBorders(1px, solid, $iconSetBorderColor);
+
+  height:$iconSetFullDistance +rem;
+  width:$iconSetFullDistance +rem;
+
+      &:hover{
+        @include allBorders(3px, solid, $iconSetBorderColorActive);
+            em{
+              color:$iconSetColorActive;
+
+            }
+       }
+  &.noHover:hover em {color: $epsilon;}
+}
+.iconSetBorderMod1 {
+  margin-left: 10px
+}
+
+
+//IconSet Border Color
+
+.iconSetBorder.iconSetBorderStyleOne{
+  @include allBorders(1px, solid, $digamma);
+  color: $epsilon;
+}
+
+
+// iconset with add on icon
+
+/* ## Icon with add on
+
+    <a href="accounts.pdf" target="_blank" class="iconSetBorder iconSeticonSetBorderDrop iconSetPosStyleTwo" title="Download">
+          <em class="icondownload"></em>
+          <span class="iconarrowfulldown"></span>
+     </a>
+*/
+
+
+
+.iconSetBorder{
+
+      // Sets Icons for Drop Down menus
+      &.iconSeticonSetBorderDrop{
+      @extend .iconSet;
+
+      &:hover{
+        color:$iconSetColorActive;
+      }
+      em{
+        @include position(absolute, 50% 0 0 50%);
+        margin:-6px 0 0 -10px;
+        }
+      span{
+        @include position(absolute, 50% 0 0 55%);
+        margin:-13px 0 0 2px;
+        text-decoration: none;
+        @include fontSize(1.2);
+
+      }
+    }
+
+  // iconset with heavy border
+  .iconSetBorderHeavy{
+    @include allBorders(3px, solid, $iconSetBorderColor);
+
+    &:hover{
+      @include allBorders(3px, solid, $iconSetBorderColorActive);
+      em{
+        color:$iconSetColorActive;
+      }
+
+    }
+
+  }
+
+}
+
+
+
+
+
+// If a full icon bg reverse
+.iconSetFull{
+  @extend .iconSet;
+  height:$iconSetFullDistance +rem;
+  width:$iconSetFullDistance +rem;
+      em{
+        color:$iconSetNegativeColor;
+    }
+
+}
+
+
+/* ### Full Bg Color
+  <span class="iconSetFull iconSetFullStyleOne">
+      <em class="iconsmsf"><span>Icon Name</span></em>
+  </span>
+
+*/
+.iconNegativeContent{
+  em{
+    color: $shi;
+  }
+}
+
+/* Account types */
+.iconSetAccountType{
+  em{
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    border: 6px solid $beta73;
+    @include borderRadius(100);
+  }
+}
+
+.iconSetFull{
+
+  // Icon Position
+  &.iconSetFullPositionOne{
+    @include blockMargin(0,0,1.5,0);
+  }
+
+
+  // Gray Icon full Style
+  &.iconSetFullStyleOne{
+    background: $beta73;
+  }
+
+
+
+  // Green Icon full Style
+  &.iconSetFullStyleThree{
+    background: $zeta;
+    @extend .iconNegativeContent;
+  }
+
+  // Purple Icon full Style
+  &.iconSetFullStyleFour{
+    background:$epsilon;
+    @extend .iconNegativeContent;
+  }
+
+  // Red Icon full Style
+  &.iconSetFullStyleFive{
+    background:$theta;
+    @extend .iconNegativeContent;    
+  }
+
+  &.iconSetFullStyleSix{
+    background: $beta73;
+    color:$shi;
+    @extend .iconNegativeContent;
+    @include fontSize(2);
+    .iconLetter {
+      font-style: normal;
+      span{
+        @extend .visuallyHidden;
+      }
+   }
+    &.iconSetFullStyleSixMod1 {
+      @extend %floatLeft;
+      clear: left;
+      @include blockMargin(0,2,0,0);
+    }
+  }
+  &.iconSetFullStyleSeven {
+      @include sizeObject(2);
+      @include fontSize(1.2);
+      background: $beta73;
+      color:$shi;
+      .iconLetter {
+        font-style: normal;
+        span{
+          @extend .visuallyHidden;
+        }
+     }
+  }
+  
+}
+
+
+.iconSet.iconSetMod1 {
+  @include blockMargin(0,1,0,0);
+   em.iconsmsf{
+  }
+}
+
+
+
+// If border icon with action
+a.iconSetBorder{
+  color:$iconSetColor;
+  border-color:$iconSetBorderColor;
+    &.active {@include allBorders(3px, solid, $beta73);}
+    &:hover {
+      @include allBorders(3px, solid, $iconSetBorderColorActive);
+        em{
+            color:$iconSetColorActive;
+          text-decoration: none;;
+            //@include position(absolute, 26% 0 0 26%);
+      }
+  }
+}
+
+
+
+
+
+/*  ##Modifiers for for Icons
+
+*/
+
+/*
+####Bpay  e02e
+  <em class="iconbpay iconbpayMod1"></em>
+*/
+.iconbpayMod1{
+  color: #243366;  //TODO:: move colour to _colour.sass
+}
+.bpayLogoWrapper .iconBPAYlandscapeLarge.iconbpayAlignmentMod2 { margin-top: 4.5rem }
+
+.bpayLogoWrapper{
+  height:50px;
+
+  .iconBPAYlandscapeLarge{
+    @include fontSize(5);
+    @include blockMargin(2.2,0,0,0);
+    display: inline-block;
+    @include lineHeight(1.2);
+
+  }
+}
+
+
+
+/*
+
+```
+<em class="iconinformation iconinformationMod1"></em> Code sent to <strong>0400 000 000</strong>. If code not received in a few minutes, try again.
+```
+*/
+
+
+.iconinformationNegativePrimary{
+  color: $shi;
+  background-color: $gamma;
+    &:hover{
+      background-color: $gamma;
+    }
+}
+
+.iconlocationpinMod1{
+  color: $eta;
+  vertical-align: top;
+}
+.xSmallIconSize{
+  @include fontSize(0.5);
+  @include blockMargin(0,0,0.5,0);
+}
+
+.smallIconSize{
+  @include fontSize(0.8);
+}
+
+
+.bpayFontSize{
+  @include fontSize(6);
+}
+
+.closePanelPos{
+  @include position(absolute, 25px 83px 0 0);
+}
+
+
+
+.iconempty{
+  width: 16px;
+  @extend %inlineBlock;
+}
+
+
+/* ## Sub position for drop down icons
+
+*/
+
+
+.iconDropWrapper{
+  position:relative;
+  @extend %inline;
+  .iconarrowfulldown{
+    @include position(absolute, 1px -4px 0 0);
+  }
+}
+
+
+
+
+
+/*
+##Tool Action link
+###Defines tool action links inactive state as a circled element this elements usually have an icon based item;
+
+  <a href="" class="toolAction" title="Click here to delete"><em class="icontrash"></em></a>
+  <a href="" class="toolAction" title="Click here to stop"><em class="iconstop"></em></a>
+  <a href="" class="toolAction" title="Click here to print"><em class="iconprint"></em></a>
+  <a href="" class="toolAction" title="Click here to Filter"><em class="iconfilter"></em></a>
+Defines econdary action buttons without icons ina ctive state
+
+*/
+
+.toolAction{
+  @include borderRadius(100);
+  @include allBorders(1px, solid, $iconSetBorderColor);
+  height:$iconSetFullDistance +rem;
+  width:$iconSetFullDistance +rem;
+  @extend %inlineBlock;
+  box-sizing:border-box;
+  @extend %relative;
+  em{
+    @include fontSize(1.6);
+    @include position(absolute, 30% 0 0 30%);
+
+    //@include position(absolute, 1.2rem 1.1rem 0 0);
+  }
+  &:hover{
+    //@include allBorders(4px, solid, $iconSetBorderColor);
+    em{
+      color:$iconSetBorderColor;
+      //@include position(absolute, 27% 0 0 27%);
+      //@include position(absolute, 0.92rem 0.83rem 0 0);
+    }
+  }
+  /* &:focus{
+        background-color: $actionHoverColor;
+   }*/
+
+}
+
+a.toolAction{
+  color:$actionColor;
+}
+a.toolAction.toolActionActive{
+
+
+}
+
+
+/* Heavier border for toolAction
+
+*/
+
+.toolAction.toolActionHeavy{
+  @include allBorders(3px, solid, $iconSetBorderColor);
+  em{
+    @extend %emphasis;
+    left:27%;
+  }
+}
+
+
+.toolIconsFull.toolIconsMod1{
+  background-color: $eta;
+}
+
+/*  ##Modifiers for for Icons
+
+*/
+
+/*
+####Bpay  e02e
+  <em class="iconbpay iconbpayMod1"></em>
+*/
+.iconbpayMod1{
+  color: #243366;  //TODO:: move colour to _colour.sass
+}
+
+.bpayLogoWrapper{
+  height:50px;
+
+  .iconBPAYlandscapeLarge{
+    @include fontSize(5);
+    @include blockMargin(2.2,0,0,0);
+    display: inline-block;
+
+  }
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+
+}
+
+
+
+/*
+
+```
+<em class="iconinformation iconinformationMod1"></em> Code sent to <strong>0400 000 000</strong>. If code not received in a few minutes, try again.
+```
+*/
+
+
+
+.iconhelpMod1, 
+.iconinformationMod1 {
+  color: $gamma;
+}
+
+.iconlocationpinMod1{
+  color: $eta;
+  vertical-align: top;
+}
+.xSmallIconSize{
+  @include fontSize(0.5);
+  @include blockMargin(0,0,0.5,0);
+}
+
+.smallIconSize{
+  @include fontSize(0.8);
+}
+
+
+.bpayFontSize{
+  @include fontSize(6);
+}
+
+.closePanelPos{
+  @include position(absolute, 25px 83px 0 0);
+}
+
+
+
+.iconempty{
+  width: 16px;
+  @extend %inlineBlock;
+}
+
+
+/* ## Sub position for drop down icons
+
+*/
+
+
+.iconDropWrapper{
+  position:relative;
+  //  width:30px;
+  //height:30px;
+  // @include blockMargin(0,1,0,2);
+  @extend %inline;
+  .iconarrowfulldown{
+    @include position(absolute, 1px -4px 0 0);
+  }
+}
+
+.iconDropWrapperTopNav{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+
+}
+
+/* ## Align Icon with Label
+  <a class="baseLink jq-confirmStopScheduleButton" title="Stop schedule" href="#"><em class="iconlink" title="Stop"><span> Stop</span></em><span class="iconLinkLabel">Stop</span></a>
+  */
+
+
+/* ## Align Icon with Label
+  <a class="baseLink jq-confirmStopScheduleButton" title="Stop schedule" href="#"><em class="iconlink" title="Stop"><span> Stop</span></em><span class="iconLinkLabel">Stop</span></a>
+  */
+
+
+
+.iconLinkLabel {
+  @include blockMargin(-0.5,0,0,0.5);
+  @extend %inlineBlock;
+  vertical-align: middle !important;
+}
+//.iconLinkLabel.iconLinkLabelMod1 {margin-top: -6px}
+  //}
+
+
+.iconLinkLabel.iconLinkLabelMod1 {
+ // @include blockMargin(-0.7,0,0,0.5);
+}
+.iconLinkLabelMod2 {vertical-align: top}
+
+.iconPlaceholder{
+  @extend %inlineBlock;
+}
+
+.iconLinkLabel.iconLinkLabelMod3 {
+	@include blockMargin(-1.0,0,0,0.5);
+}
+
+.iconLinkLabel.iconLinkLabelMod4 {
+	@include blockMargin(-0.2,0,0,0.5);
+}
+
+.baseLinkButtonWithIcon {
+  .iconLinkLabel {
+     margin: 0;
+     .iconlink {
+       @include blockMargin(.2,0.5,0,0);
+     }
+  }
+}
+
+
+.iconPlaceholder{
+  @extend %inlineBlock;
+}
+
+.iconLinkLabelBaseSize{
+  border-bottom: none;
+    .baseLink{
+      border:none;
+    }
+}
+
+
+.labelIcons.labelIconsMod2{
+  background-color: $theta;
+  @include blockMargin(0,0,2,0);
+  em{
+    left:28%
+  }
+}
+
+
+
+.labelIcons{
+  height:40px;
+  width:40px;
+  @extend %inlineBlock;
+  @include borderRadius(100);
+  @include blockMargin(0,1,0,1);
+  @extend %relative;
+  em{
+    @include position(absolute, 30% 0 0 30%);
+    @include fontSize(1.8);
+  }
+}
+
+.labelIcons{
+  background: $beta73;
+  em{
+    color:#fff;
+  }
+}
+
+
+.unclearedTransactions .icontransfer{
+  color:  $textColorLighter;
+  @include fontSize(1.6);
+}
+
+
+/* ### Table Icons
+  <span class="unclearedTransactions">
+  <em class="icontransfer">
+    <span>Uncleared</span>
+  </em>
+
+*/
+
+.clearedTransactions .iconsucess{
+  color:  $positive;
+  @include fontSize(1.6);
+}
+
+.iconLoader {
+  width: 16px;
+  height: 16px;
+  background:$ajaxsIcon;
+  @extend %inlineBlock;
+  @include borderRadius(100);
+  @include blockMargin(0,1,0,1);
+  @extend %relative;
+}
+
+
+.iconWLoader{
+	background:$ajaxsWIcon;
+	width: 16px;
+	height: 16px;
+	@extend %inlineBlock;
+	@include borderRadius(100);
+	@include blockMargin(0,1,0,1);
+	@include position(absolute,22px 0 0 110px );
+}
+
+.iconLoaderMod1 {
+  @include blockMargin(0,1,0,0.6);
+}
+
+.iconretryMod1,
+.iconprimaryMod1{
+  color:$eta;
+}
+
+
+.iconWrapper{
+
+  @extend %relative;
+  @extend %inlineBlock;
+
+  .iconWrapperCalendar{
+    z-index: 100000;
+    @include position(absolute,39px 0 0 0 );
+  }
+  .iconWrapperCalendar.iconWrapperCalendarMonth{
+    left:-4px;
+  }
+  .iconWrapperCalendar.iconWrapperCalendarYear{
+    left:127px;
+  }
+
+
+
+  a{
+    @include position(absolute, 1px 1px 0 0 );
+    color:$textColorDark;
+    @include textDeco(none);
+    @include firstBorder(1px ,solid, $borderColorMiddleLighter);
+    height:4.8rem;
+    width:50px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background:#fff;
+    
+     &.calendarIconLink {
+         .iconarrowfulldown {
+   		    top : 11px !important;
+   		 }
+   		@media screen and (-webkit-min-device-pixel-ratio:0){
+   			.iconarrowfulldown {
+   		    	top:12px !important;
+   			 }
+   		} 
+    }
+        .iconcalendar{
+          @include position(absolute, 50% 0 0 50% );
+          @extend %inlineBlock;
+          @include setSpace(margin, -7px 0 0 -9px);
+
+        }
+        .iconarrowfulldown{
+          @include position(absolute, 13px 6px 0 0 );
+          @include fontSize(1.2);
+        }
+
+        .iconSelect.iconarrowfulldown{
+          @include position(absolute, 50% 0 0 50% );
+          @include fontSize(1.6);
+          @include blockMargin(-0.6,0, 0, -0.8);
+
+        }
+
+
+        &:focus{
+          @include firstBorder(1px ,solid, $beta73);
+        }
+        &.iconclose:focus {border: 0}
+        &.selectButton:focus { 
+          border-left: 1px solid $borderColorMiddleLighter !important; 
+        }
+
+
+      
+      .iconSetBorder .iconarrowfulldown{
+        @include position(absolute, 18px 14px 0 0 );
+        @include fontSize(1.2);
+      
+      
+   }
+
+  }
+
+  .iconsearch{
+    @include position(absolute, 16px 0 0 10px );
+  }
+
+  .iconclose{
+    @include position(absolute, 18px 60px 0 0 );
+    border:none;
+    background-color: transparent;
+    height:auto;
+    width:auto;
+    color: $beta22;
+    &:hover{color: $beta73}
+  }
+  .iconcancel{
+    @include position(absolute, 18px 60px 0 0 );
+    border:none;
+    background-color: transparent;
+    height:auto;
+    width:auto;
+    color: $beta22;
+    &:hover{color: $beta22}
+  }
+  
+  .iconAutosuggestCancel{ 
+   	@include position(absolute, 17px 20px 0 0 );
+  }
+  
+  .iconAutosuggestCancelMod1{ 
+   	@include position(absolute, 22px 20px 0 0 );
+  }
+  
+  .iconclientsearch24{
+  	@include position(absolute, 22px 0 0 15px );
+  }
+
+
+}
+
+.iconWrapperWithIcon{
+  text-indent:15px;
+}
+
+
+.mod180{
+  @include transform(rotate(180deg));
+}
+
+// Sets color of button
+
+.textInputError ~ a.selectButton,
+.textInputError ~ a.calendarIconLink {
+  background:$gamma7;
+  border-color: $delta;
+}
+
+/* ## Approve icon css generated
+    <em class="iconapproved">Approved icon</em>
+
+*/
+
+%circleIcon{
+  @include borderRadius(100);
+  width:1.3rem;
+  height: 1.3rem;
+  @extend %block;
+  @extend %floatLeft;
+  @include blockMargin(0.1,0.5,0,0);
+}
+
+.iconApproved{
+  @extend .icontick;
+  color:$zeta;
+  @extend %block;
+  @extend %floatLeft;
+  @include blockMargin(0.2,0.5,0,0);
+
+}
+.iconNotRegistered{
+  @extend %circleIcon;  
+  @include blockMargin(0.2,0.6,0,0.1);
+  @include allBorders(2px, solid, $beta67);
+}
+
+.iconChangeRequested{
+  @extend .iconrefresh !optional;
+  color: $eta;
+  @extend %block;
+  @extend %floatLeft;
+  @include blockMargin(0.2,0.5,0,0);
+}
+
+
+.iconRegistered{
+  @extend %circleIcon;
+  @include blockMargin(0.2,0.6,0,0.1);
+  @include allBorders(2px, solid, $eta);
+
+}
+
+//Icon with green color
+.iconapproverColorMod1 {
+    color: $zeta
+}
+
+
+
+// Aligns a font icon with a text link and border
+
+.iconAlignMod1{
+  @extend %inlineBlock;
+  @include blockMargin(0.3,0,0,0);
+  vertical-align: top!important;
+}
+
+
+%ftueIcons{
+  width:150px;
+  height:200px ;
+  background: $ftueSprite;
+  @extend %inlineBlock;
+      span{
+        @extend .visuallyHidden;
+      }
+}
+
+.messageFtueIcon{
+   @extend %ftueIcons;
+  background-position: 3px -9px;
+
+ }
+
+.percentFtueIcon{
+  @extend %ftueIcons;
+  background-position: -160px -23px;
+
+}
+
+.accountFtueIcon{
+   @extend %ftueIcons;
+   background-position: -348px -12px;
+
+ }
+
+.moveFtueIcon{
+  @extend %ftueIcons;
+  background-position: -15px -216px;
+
+}
+
+a.iconclose {
+  color: $beta73 !important;
+}

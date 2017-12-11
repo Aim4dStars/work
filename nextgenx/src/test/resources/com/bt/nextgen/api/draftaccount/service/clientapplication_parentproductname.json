@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "parentProductName": "Cash Management Account",
+  "accountType": "individual",
+  "approvalType": "online",
+  "directors": [
+
+  ],
+  "trustees": [
+
+  ],
+  "investors": [
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": true,
+            "value": "123345567"
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Tax File Number provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          },
+          "exemptionReason": {
+            "valid": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": [
+
+        ]
+      },
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Business income\/earnings",
+      "title": "MR",
+      "firstname": "temp",
+      "middlename": "",
+      "lastname": "user",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "02\/02\/1988",
+      "gender": "male",
+      "mobile": {
+        "value": "0534567892"
+      },
+      "email": {
+        "value": "temp@user.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "individual",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "02\/02\/2020",
+            "documentNumber": "34567890",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "33 Patten Place, WHITE PEAK  WA  6532",
+        "AddressIdentifier": "0QOAUEHwXhBwAAAAAIAgEAAAACsz85EAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBQYXR0ZW4gUGxhY2UsIFdISVRFIFBFQUsgIFdBICA2NTMyAA--",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "33 Patten Place, WHITE PEAK  WA  6532",
+            "AddressIdentifier": "0QOAUEHwXhBwAAAAAIAgEAAAACsz85EAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBQYXR0ZW4gUGxhY2UsIFdISVRFIFBFQUsgIFdBICA2NTMyAA--",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "33 Patten Place, WHITE PEAK  WA  6532",
+        "AddressIdentifier": "0QOAUEHwXhBwAAAAAIAgEAAAACsz85EAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBQYXR0ZW4gUGxhY2UsIFdISVRFIFBFQUsgIFdBICA2NTMyAA--",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "33 Patten Place, WHITE PEAK  WA  6532",
+            "AddressIdentifier": "0QOAUEHwXhBwAAAAAIAgEAAAACsz85EAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBQYXR0ZW4gUGxhY2UsIFdISVRFIFBFQUsgIFdBICA2NTMyAA--",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "",
+      "sameasresaddress": "true"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "allpayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Bonus",
+    "powerofattorney": true
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "",
+      "bsb": "",
+      "bsbValidationResultVal": false
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "feeTabEnabled": true,
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

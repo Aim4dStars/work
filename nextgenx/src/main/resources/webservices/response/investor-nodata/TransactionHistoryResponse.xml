@@ -1,0 +1,1917 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_bp_cont_pos_evt" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-10-12 14:30:42.746619000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>true</val></empty_rep>
+    <date_from><val>2014-01-15</val></date_from>
+    <date_to><val>2014-10-08</val></date_to>
+    <current_of_time><val>2014-10-11T21:04:13.231746000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>bp</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>cont</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>pos</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>evt</name>
+            <hira>4</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>bp_id</name>
+          <type>NrFld</type>
+            <lbl>BP ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cont_type_id</name>
+          <type>NrFld</type>
+            <lbl>Container type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cont_id</name>
+          <type>NrFld</type>
+            <lbl>Container ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_id</name>
+          <type>NrFld</type>
+            <lbl>Asset ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos_name</name>
+          <type>TextFld</type>
+            <lbl>Position</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bal</name>
+          <type>NrFld</type>
+            <lbl>Balance</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos_curry_id</name>
+          <type>NrFld</type>
+            <lbl>Reference currency ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>evt_id</name>
+          <type>NrFld</type>
+            <lbl>Event ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>doc_id</name>
+          <type>NrFld</type>
+            <lbl>Doc ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ui_wfs_id</name>
+          <type>NrFld</type>
+            <lbl>UI workflow status ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>evt_status_id</name>
+          <type>NrFld</type>
+            <lbl>Event status ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>meta_typ_id</name>
+          <type>NrFld</type>
+            <lbl>Meta type ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_type_id</name>
+          <type>NrFld</type>
+            <lbl>Order type ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>medium_id</name>
+          <type>NrFld</type>
+            <lbl>Medium ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cancel_status</name>
+          <type>BoolFld</type>
+            <lbl>Cancel status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_trx_timestp</name>
+          <type>DateTimeFld</type>
+            <lbl>Last transaction date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>book_date</name>
+          <type>DateFld</type>
+            <lbl>Book date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>perf_date</name>
+          <type>DateFld</type>
+            <lbl>Performance date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trx_date</name>
+          <type>DateFld</type>
+            <lbl>Trade date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val_date</name>
+          <type>DateFld</type>
+            <lbl>Value date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>veri_date</name>
+          <type>DateFld</type>
+            <lbl>Verification date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_date</name>
+          <type>DateTimeFld</type>
+            <lbl>Order date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>extl_book_text</name>
+          <type>TextFld</type>
+            <lbl>External booking text</lbl>
+        </fld_def>
+        <fld_def>
+          <name>qty</name>
+          <type>NrFld</type>
+            <lbl>Quantity</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ref_asset_id</name>
+          <type>NrFld</type>
+            <lbl>Reference asset ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ins_by_sec_user</name>
+          <type>TextFld</type>
+            <lbl>Last Avaloq user</lbl>
+        </fld_def>
+        <fld_def>
+          <name>key</name>
+          <type>TextFld</type>
+            <lbl>Key</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val</name>
+          <type>TextFld</type>
+            <lbl>Value</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <bp_list>
+    <bp>
+      <bp_head_list>
+        <bp_head id="1" row_type="title" hira="1" level="bp.head">
+          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>31424</id></ctx></annot><val>31424</val></bp_id>
+        </bp_head>
+      </bp_head_list>
+  <cont_list>
+    <cont>
+      <cont_head_list>
+        <cont_head id="2" row_type="subtitle" hira="2" level="cont.head">
+          <cont_type_id><val>7102</val></cont_type_id>
+          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>31425</id></ctx></annot><val>31425</val></cont_id>
+        </cont_head>
+      </cont_head_list>
+  <pos_list>
+  <!--BT Cash -->
+    <pos>
+      <pos_head_list>
+        <pos_head id="3" row_type="subtitle" hira="3" level="pos.head">
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>10757</id></ctx></annot><val>10757</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>31427</id></ctx></annot><val>BT Cash</val></pos_name>
+          <bal><val>7247.69</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="4" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>-2286</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>14444</id></ctx></annot><val>14444</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>-36</id></ctx></annot><val>-36</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-1047</id></ctx></annot><val>-1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:33:31+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-15</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-05-14</val></trx_date>
+          <val_date><val>2014-05-17</val></val_date>
+          <veri_date><val>2014-03-17</val></veri_date>
+          <order_date><val>2014-03-15T11:27:19+11:00</val></order_date>
+          <extl_book_text><val>Transaction 1</val></extl_book_text>
+          <qty><val>5500</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="5" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2286</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>14444</id></ctx></annot><val>14444</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>36</id></ctx></annot><val>36</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:33:31+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-15</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-03-15</val></trx_date>
+          <val_date><val>2014-03-17</val></val_date>
+          <veri_date><val>2014-03-15</val></veri_date>
+          <order_date><val>2014-03-15T11:27:19+11:00</val></order_date>
+          <extl_book_text><val>Transaction 2</val></extl_book_text>
+          <qty><val>10000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="6" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2330</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>14662</id></ctx></annot><val>14662</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:43:55+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-17</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-03-17</val></trx_date>
+          <val_date><val>2014-03-17</val></val_date>
+          <veri_date><val>2014-03-17</val></veri_date>
+          <order_date><val>2014-03-17T13:33:56+11:00</val></order_date>
+          <extl_book_text><val>Transaction 3</val></extl_book_text>
+          <qty><val>10200</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>566</id></ctx></annot><val>person-120_709 (Service &amp;amp; Operations)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="7" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2725</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15518</id></ctx></annot><val>15518</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:16+10:00</val></last_trx_timestp>
+          <book_date><val>2014-03-24</val></book_date>
+          <perf_date><val>2014-03-24</val></perf_date>
+          <trx_date><val>2014-03-24</val></trx_date>
+          <val_date><val>2014-03-24</val></val_date>
+          <veri_date><val>2014-03-24</val></veri_date>
+          <order_date><val>2014-03-24T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 4</val></extl_book_text>
+          <qty><val>-176</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="8" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2831</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15773</id></ctx></annot><val>15773</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-26T11:01:03+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-26</val></book_date>
+          <perf_date><val>2014-03-26</val></perf_date>
+          <trx_date><val>2014-03-26</val></trx_date>
+          <val_date><val>2014-03-26</val></val_date>
+          <veri_date><val>2014-03-26</val></veri_date>
+          <order_date><val>2014-03-26T10:57:47+11:00</val></order_date>
+          <extl_book_text><val>Opened St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity 1</val></extl_book_text>
+          <qty><val>-5000</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>564</id></ctx></annot><val>person-120_2155 (Service &amp;amp; Operations)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="9" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2849</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15833</id></ctx></annot><val>15833</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:23+10:00</val></last_trx_timestp>
+          <book_date><val>2014-03-26</val></book_date>
+          <perf_date><val>2014-03-26</val></perf_date>
+          <trx_date><val>2014-03-26</val></trx_date>
+          <val_date><val>2014-03-26</val></val_date>
+          <veri_date><val>2014-03-26</val></veri_date>
+          <order_date><val>2014-03-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 6</val></extl_book_text>
+          <qty><val>-88</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="10" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2882</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15882</id></ctx></annot><val>15882</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1113</id></ctx></annot><val>1113</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:23+10:00</val></last_trx_timestp>
+          <book_date><val>2014-03-27</val></book_date>
+          <perf_date><val>2014-03-27</val></perf_date>
+          <trx_date><val>2014-03-27</val></trx_date>
+          <val_date><val>2014-03-27</val></val_date>
+          <veri_date><val>2014-03-27</val></veri_date>
+          <order_date><val>2014-03-27T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 7</val></extl_book_text>
+          <qty><val>-1003</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="11" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3013</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>17130</id></ctx></annot><val>17130</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-01T01:41:18+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-31</val></book_date>
+          <perf_date><val>2014-03-31</val></perf_date>
+          <trx_date><val>2014-03-31</val></trx_date>
+          <val_date><val>2014-03-31</val></val_date>
+          <veri_date><val>2014-03-31</val></veri_date>
+          <order_date><val>2014-04-01T01:41:18+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 1</val></extl_book_text>
+          <qty><val>7.61</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="12" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3021</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>17139</id></ctx></annot><val>17139</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:26+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-01</val></book_date>
+          <perf_date><val>2014-04-01</val></perf_date>
+          <trx_date><val>2014-04-01</val></trx_date>
+          <val_date><val>2014-04-01</val></val_date>
+          <veri_date><val>2014-04-01</val></veri_date>
+          <order_date><val>2014-04-01T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 8</val></extl_book_text>
+          <qty><val>-1001.93</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="13" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3045</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>17189</id></ctx></annot><val>17189</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-01T13:49:26+11:00</val></last_trx_timestp>
+          <book_date><val>2014-04-01</val></book_date>
+          <perf_date><val>2014-04-01</val></perf_date>
+          <trx_date><val>2014-10-11</val></trx_date>
+          <val_date><val>2014-10-12</val></val_date>
+          <veri_date><val>2014-04-01</val></veri_date>
+          <order_date><val>2014-04-01T15:49:25+11:00</val></order_date>
+          <extl_book_text><val>Transaction 5</val></extl_book_text>
+          <qty><val>100</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="14" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3151</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>18077</id></ctx></annot><val>18077</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:30+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-04</val></book_date>
+          <perf_date><val>2014-04-04</val></perf_date>
+          <trx_date><val>2014-04-04</val></trx_date>
+          <val_date><val>2014-04-04</val></val_date>
+          <veri_date><val>2014-04-04</val></veri_date>
+          <order_date><val>2014-04-04T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 9</val></extl_book_text>
+          <qty><val>-88</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="15" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3405</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>21401</id></ctx></annot><val>21401</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1113</id></ctx></annot><val>1113</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:32+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-24</val></book_date>
+          <perf_date><val>2014-04-24</val></perf_date>
+          <trx_date><val>2014-04-24</val></trx_date>
+          <val_date><val>2014-04-24</val></val_date>
+          <veri_date><val>2014-04-24</val></veri_date>
+          <order_date><val>2014-04-24T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 10</val></extl_book_text>
+          <qty><val>-5428</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="16" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3479</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>28586</id></ctx></annot><val>28586</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-01T00:53:00+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-30</val></book_date>
+          <perf_date><val>2014-04-30</val></perf_date>
+          <trx_date><val>2014-04-30</val></trx_date>
+          <val_date><val>2014-04-30</val></val_date>
+          <veri_date><val>2014-04-30</val></veri_date>
+          <order_date><val>2014-05-01T00:53:00+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 2</val></extl_book_text>
+          <qty><val>14.29</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="17" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3928</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>46297</id></ctx></annot><val>46297</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-15T11:20:36+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-15</val></book_date>
+          <perf_date><val>2014-05-15</val></perf_date>
+          <trx_date><val>2014-05-15</val></trx_date>
+          <val_date><val>2014-05-15</val></val_date>
+          <veri_date><val>2014-05-15</val></veri_date>
+          <order_date><val>2014-05-15T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 7</val></extl_book_text>
+          <qty><val>-88</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="18" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>4335</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>51727</id></ctx></annot><val>51727</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1111</id></ctx></annot><val>1111</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-27T15:20:41+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-26</val></book_date>
+          <perf_date><val>2014-05-26</val></perf_date>
+          <trx_date><val>2014-05-26</val></trx_date>
+          <val_date><val>2014-05-26</val></val_date>
+          <veri_date><val>2014-05-26</val></veri_date>
+          <order_date><val>2014-05-26T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 9</val></extl_book_text>
+          <qty><val>-354</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="19" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>4644</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>54738</id></ctx></annot><val>54738</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-01T00:10:54+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-31</val></book_date>
+          <perf_date><val>2014-05-31</val></perf_date>
+          <trx_date><val>2014-05-31</val></trx_date>
+          <val_date><val>2014-05-31</val></val_date>
+          <veri_date><val>2014-05-31</val></veri_date>
+          <order_date><val>2014-06-01T00:10:54+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 3</val></extl_book_text>
+          <qty><val>5.66</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="20" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5791</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76170</id></ctx></annot><val>76170</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-25T15:20:42+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-25</val></book_date>
+          <perf_date><val>2014-06-25</val></perf_date>
+          <trx_date><val>2014-06-25</val></trx_date>
+          <val_date><val>2014-06-25</val></val_date>
+          <veri_date><val>2014-06-25</val></veri_date>
+          <order_date><val>2014-06-25T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>transaction1</val></extl_book_text>
+          <qty><val>-176</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="21" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5825</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76923</id></ctx></annot><val>76923</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>786</id></ctx></annot><val>786</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-26T04:00:20+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-26</val></book_date>
+          <perf_date><val>2014-06-26</val></perf_date>
+          <trx_date><val>2014-06-26</val></trx_date>
+          <val_date><val>2014-06-26</val></val_date>
+          <veri_date><val>2014-06-26</val></veri_date>
+          <order_date><val>2014-06-26T04:00:16+10:00</val></order_date>
+          <extl_book_text><val>Maturity St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity 1</val></extl_book_text>
+          <qty><val>5043.48</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="22" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>6114</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>80154</id></ctx></annot><val>80154</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-07-01T00:53:05+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-30</val></book_date>
+          <perf_date><val>2014-06-30</val></perf_date>
+          <trx_date><val>2014-06-30</val></trx_date>
+          <val_date><val>2014-06-30</val></val_date>
+          <veri_date><val>2014-06-30</val></veri_date>
+          <order_date><val>2014-07-01T00:53:05+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 8</val></extl_book_text>
+          <qty><val>6.11</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="23" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>8665</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>114668</id></ctx></annot><val>114668</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-01T00:52:55+10:00</val></last_trx_timestp>
+          <book_date><val>2014-07-31</val></book_date>
+          <perf_date><val>2014-07-31</val></perf_date>
+          <trx_date><val>2014-07-31</val></trx_date>
+          <val_date><val>2014-07-31</val></val_date>
+          <veri_date><val>2014-07-31</val></veri_date>
+          <order_date><val>2014-08-01T00:52:55+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 2</val></extl_book_text>
+          <qty><val>15.29</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="24" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>12029</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>157742</id></ctx></annot><val>157742</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-01T00:10:45+10:00</val></last_trx_timestp>
+          <book_date><val>2014-08-31</val></book_date>
+          <perf_date><val>2014-08-31</val></perf_date>
+          <trx_date><val>2014-08-31</val></trx_date>
+          <val_date><val>2014-08-31</val></val_date>
+          <veri_date><val>2014-08-31</val></veri_date>
+          <order_date><val>2014-09-01T00:10:44+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 3</val></extl_book_text>
+          <qty><val>15.32</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="25" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>23714</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>247072</id></ctx></annot><val>247072</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-10-11T06:04:04+11:00</val></last_trx_timestp>
+          <book_date><val>2014-09-30</val></book_date>
+          <perf_date><val>2014-09-30</val></perf_date>
+          <trx_date><val>2014-09-30</val></trx_date>
+          <val_date><val>2014-09-30</val></val_date>
+          <veri_date><val>2014-09-30</val></veri_date>
+          <order_date><val>2014-10-11T06:04:04+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 4</val></extl_book_text>
+          <qty><val>14.86</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>person-120_689person-120_689person-120_689</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+   <evt>
+      <evt_head_list>
+        <evt_head id="4" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>-2286</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>14444</id></ctx></annot><val>14444</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>-36</id></ctx></annot><val>-36</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-1047</id></ctx></annot><val>-1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:33:31+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-15</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-05-14</val></trx_date>
+          <val_date><val>2014-05-17</val></val_date>
+          <veri_date><val>2014-03-17</val></veri_date>
+          <order_date><val>2014-03-15T11:27:19+11:00</val></order_date>
+          <extl_book_text><val>Transaction 1</val></extl_book_text>
+          <qty><val>5500</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="5" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2286</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>14444</id></ctx></annot><val>14444</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>36</id></ctx></annot><val>36</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:33:31+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-15</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-03-15</val></trx_date>
+          <val_date><val>2014-03-17</val></val_date>
+          <veri_date><val>2014-03-15</val></veri_date>
+          <order_date><val>2014-03-15T11:27:19+11:00</val></order_date>
+          <extl_book_text><val>Transaction 2</val></extl_book_text>
+          <qty><val>10000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="6" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2330</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>14662</id></ctx></annot><val>14662</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:43:55+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-17</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-03-17</val></trx_date>
+          <val_date><val>2014-03-17</val></val_date>
+          <veri_date><val>2014-03-17</val></veri_date>
+          <order_date><val>2014-03-17T13:33:56+11:00</val></order_date>
+          <extl_book_text><val>Transaction 3</val></extl_book_text>
+          <qty><val>10200</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>566</id></ctx></annot><val>person-120_709 (Service &amp;amp; Operations)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="7" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2725</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15518</id></ctx></annot><val>15518</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:16+10:00</val></last_trx_timestp>
+          <book_date><val>2014-03-24</val></book_date>
+          <perf_date><val>2014-03-24</val></perf_date>
+          <trx_date><val>2014-03-24</val></trx_date>
+          <val_date><val>2014-03-24</val></val_date>
+          <veri_date><val>2014-03-24</val></veri_date>
+          <order_date><val>2014-03-24T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 4</val></extl_book_text>
+          <qty><val>-176</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="8" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2831</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15773</id></ctx></annot><val>15773</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-26T11:01:03+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-26</val></book_date>
+          <perf_date><val>2014-03-26</val></perf_date>
+          <trx_date><val>2014-03-26</val></trx_date>
+          <val_date><val>2014-03-26</val></val_date>
+          <veri_date><val>2014-03-26</val></veri_date>
+          <order_date><val>2014-03-26T10:57:47+11:00</val></order_date>
+          <extl_book_text><val>Opened St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity 1</val></extl_book_text>
+          <qty><val>-5000</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>564</id></ctx></annot><val>person-120_2155 (Service &amp;amp; Operations)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="9" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2849</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15833</id></ctx></annot><val>15833</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:23+10:00</val></last_trx_timestp>
+          <book_date><val>2014-03-26</val></book_date>
+          <perf_date><val>2014-03-26</val></perf_date>
+          <trx_date><val>2014-03-26</val></trx_date>
+          <val_date><val>2014-03-26</val></val_date>
+          <veri_date><val>2014-03-26</val></veri_date>
+          <order_date><val>2014-03-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 6</val></extl_book_text>
+          <qty><val>-88</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="110" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2882</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15882</id></ctx></annot><val>15882</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1113</id></ctx></annot><val>1113</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:23+10:00</val></last_trx_timestp>
+          <book_date><val>2014-03-27</val></book_date>
+          <perf_date><val>2014-03-27</val></perf_date>
+          <trx_date><val>2014-03-27</val></trx_date>
+          <val_date><val>2014-03-27</val></val_date>
+          <veri_date><val>2014-03-27</val></veri_date>
+          <order_date><val>2014-03-27T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 7</val></extl_book_text>
+          <qty><val>-1003</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="111" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3013</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>17130</id></ctx></annot><val>17130</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-01T01:41:18+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-31</val></book_date>
+          <perf_date><val>2014-03-31</val></perf_date>
+          <trx_date><val>2014-03-31</val></trx_date>
+          <val_date><val>2014-03-31</val></val_date>
+          <veri_date><val>2014-03-31</val></veri_date>
+          <order_date><val>2014-04-01T01:41:18+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 1</val></extl_book_text>
+          <qty><val>7.61</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="112" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3021</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>17139</id></ctx></annot><val>17139</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:26+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-01</val></book_date>
+          <perf_date><val>2014-04-01</val></perf_date>
+          <trx_date><val>2014-04-01</val></trx_date>
+          <val_date><val>2014-04-01</val></val_date>
+          <veri_date><val>2014-04-01</val></veri_date>
+          <order_date><val>2014-04-01T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 8</val></extl_book_text>
+          <qty><val>-1001.93</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="113" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3045</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>17189</id></ctx></annot><val>17189</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-01T13:49:26+11:00</val></last_trx_timestp>
+          <book_date><val>2014-04-01</val></book_date>
+          <perf_date><val>2014-04-01</val></perf_date>
+          <trx_date><val>2014-10-11</val></trx_date>
+          <val_date><val>2014-10-12</val></val_date>
+          <veri_date><val>2014-04-01</val></veri_date>
+          <order_date><val>2014-04-01T15:49:25+11:00</val></order_date>
+          <extl_book_text><val>Transaction 5</val></extl_book_text>
+          <qty><val>100</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="114" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3151</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>18077</id></ctx></annot><val>18077</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:30+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-04</val></book_date>
+          <perf_date><val>2014-04-04</val></perf_date>
+          <trx_date><val>2014-04-04</val></trx_date>
+          <val_date><val>2014-04-04</val></val_date>
+          <veri_date><val>2014-04-04</val></veri_date>
+          <order_date><val>2014-04-04T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Transaction 9</val></extl_book_text>
+          <qty><val>-88</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="115" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3405</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>21401</id></ctx></annot><val>21401</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1113</id></ctx></annot><val>1113</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-04-29T15:47:32+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-24</val></book_date>
+          <perf_date><val>2014-04-24</val></perf_date>
+          <trx_date><val>2014-04-24</val></trx_date>
+          <val_date><val>2014-04-24</val></val_date>
+          <veri_date><val>2014-04-24</val></veri_date>
+          <order_date><val>2014-04-24T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 10</val></extl_book_text>
+          <qty><val>-5428</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="116" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3479</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>28586</id></ctx></annot><val>28586</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-01T00:53:00+10:00</val></last_trx_timestp>
+          <book_date><val>2014-04-30</val></book_date>
+          <perf_date><val>2014-04-30</val></perf_date>
+          <trx_date><val>2014-04-30</val></trx_date>
+          <val_date><val>2014-04-30</val></val_date>
+          <veri_date><val>2014-04-30</val></veri_date>
+          <order_date><val>2014-05-01T00:53:00+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 2</val></extl_book_text>
+          <qty><val>14.29</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="117" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>3928</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>46297</id></ctx></annot><val>46297</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-15T11:20:36+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-15</val></book_date>
+          <perf_date><val>2014-05-15</val></perf_date>
+          <trx_date><val>2014-05-15</val></trx_date>
+          <val_date><val>2014-05-15</val></val_date>
+          <veri_date><val>2014-05-15</val></veri_date>
+          <order_date><val>2014-05-15T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 7</val></extl_book_text>
+          <qty><val>-88</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="118" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>4335</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>51727</id></ctx></annot><val>51727</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1111</id></ctx></annot><val>1111</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-27T15:20:41+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-26</val></book_date>
+          <perf_date><val>2014-05-26</val></perf_date>
+          <trx_date><val>2014-05-26</val></trx_date>
+          <val_date><val>2014-05-26</val></val_date>
+          <veri_date><val>2014-05-26</val></veri_date>
+          <order_date><val>2014-05-26T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 9</val></extl_book_text>
+          <qty><val>-354</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="119" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>4644</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>54738</id></ctx></annot><val>54738</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-01T00:10:54+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-31</val></book_date>
+          <perf_date><val>2014-05-31</val></perf_date>
+          <trx_date><val>2014-05-31</val></trx_date>
+          <val_date><val>2014-05-31</val></val_date>
+          <veri_date><val>2014-05-31</val></veri_date>
+          <order_date><val>2014-06-01T00:10:54+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 3</val></extl_book_text>
+          <qty><val>5.66</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="1120" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5791</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76170</id></ctx></annot><val>76170</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-25T15:20:42+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-25</val></book_date>
+          <perf_date><val>2014-06-25</val></perf_date>
+          <trx_date><val>2014-06-25</val></trx_date>
+          <val_date><val>2014-06-25</val></val_date>
+          <veri_date><val>2014-06-25</val></veri_date>
+          <order_date><val>2014-06-25T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>transaction1</val></extl_book_text>
+          <qty><val>-176</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="1121" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5825</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76923</id></ctx></annot><val>76923</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>786</id></ctx></annot><val>786</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-26T04:00:20+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-26</val></book_date>
+          <perf_date><val>2014-06-26</val></perf_date>
+          <trx_date><val>2014-06-26</val></trx_date>
+          <val_date><val>2014-06-26</val></val_date>
+          <veri_date><val>2014-06-26</val></veri_date>
+          <order_date><val>2014-06-26T04:00:16+10:00</val></order_date>
+          <extl_book_text><val>Maturity St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity 1</val></extl_book_text>
+          <qty><val>5043.48</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="1122" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>6114</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>80154</id></ctx></annot><val>80154</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-07-01T00:53:05+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-30</val></book_date>
+          <perf_date><val>2014-06-30</val></perf_date>
+          <trx_date><val>2014-06-30</val></trx_date>
+          <val_date><val>2014-06-30</val></val_date>
+          <veri_date><val>2014-06-30</val></veri_date>
+          <order_date><val>2014-07-01T00:53:05+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 8</val></extl_book_text>
+          <qty><val>6.11</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="1123" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>8665</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>114668</id></ctx></annot><val>114668</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-01T00:52:55+10:00</val></last_trx_timestp>
+          <book_date><val>2014-07-31</val></book_date>
+          <perf_date><val>2014-07-31</val></perf_date>
+          <trx_date><val>2014-07-31</val></trx_date>
+          <val_date><val>2014-07-31</val></val_date>
+          <veri_date><val>2014-07-31</val></veri_date>
+          <order_date><val>2014-08-01T00:52:55+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 2</val></extl_book_text>
+          <qty><val>15.29</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="1124" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>12029</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>157742</id></ctx></annot><val>157742</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-01T00:10:45+10:00</val></last_trx_timestp>
+          <book_date><val>2014-08-31</val></book_date>
+          <perf_date><val>2014-08-31</val></perf_date>
+          <trx_date><val>2014-08-31</val></trx_date>
+          <val_date><val>2014-08-31</val></val_date>
+          <veri_date><val>2014-08-31</val></veri_date>
+          <order_date><val>2014-09-01T00:10:44+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 3</val></extl_book_text>
+          <qty><val>15.32</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="125" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>23714</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>247072</id></ctx></annot><val>247072</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-10-11T06:04:04+11:00</val></last_trx_timestp>
+          <book_date><val>2014-09-30</val></book_date>
+          <perf_date><val>2014-09-30</val></perf_date>
+          <trx_date><val>2014-09-30</val></trx_date>
+          <val_date><val>2014-09-30</val></val_date>
+          <veri_date><val>2014-09-30</val></veri_date>
+          <order_date><val>2014-10-11T06:04:04+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 4</val></extl_book_text>
+          <qty><val>14.86</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>person-120_689person-120_689person-120_689</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+  <evt>
+      <evt_head_list>
+        <evt_head id="126" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>23714</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>247072</id></ctx></annot><val>247072</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-10-11T06:04:04+11:00</val></last_trx_timestp>
+          <book_date><val>2014-09-30</val></book_date>
+          <perf_date><val>2014-09-30</val></perf_date>
+          <trx_date><val>2014-09-30</val></trx_date>
+          <val_date><val>2014-09-30</val></val_date>
+          <veri_date><val>2014-09-30</val></veri_date>
+          <order_date><val>2014-10-11T06:04:04+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 4</val></extl_book_text>
+          <qty><val>14.86</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>person-120_689person-120_689person-120_689</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+      <evt>
+      <evt_head_list>
+        <evt_head id="218" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>4335</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>51727</id></ctx></annot><val>51727</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1111</id></ctx></annot><val>1111</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-05-27T15:20:41+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-26</val></book_date>
+          <perf_date><val>2014-05-26</val></perf_date>
+          <trx_date><val>2014-05-26</val></trx_date>
+          <val_date><val>2014-05-26</val></val_date>
+          <veri_date><val>2014-05-26</val></veri_date>
+          <order_date><val>2014-05-26T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Transaction 9</val></extl_book_text>
+          <qty><val>-354</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="219" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>4644</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>54738</id></ctx></annot><val>54738</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-01T00:10:54+10:00</val></last_trx_timestp>
+          <book_date><val>2014-05-31</val></book_date>
+          <perf_date><val>2014-05-31</val></perf_date>
+          <trx_date><val>2014-05-31</val></trx_date>
+          <val_date><val>2014-05-31</val></val_date>
+          <veri_date><val>2014-05-31</val></veri_date>
+          <order_date><val>2014-06-01T00:10:54+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 3</val></extl_book_text>
+          <qty><val>5.66</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="2120" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5791</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76170</id></ctx></annot><val>76170</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-25T15:20:42+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-25</val></book_date>
+          <perf_date><val>2014-06-25</val></perf_date>
+          <trx_date><val>2014-06-25</val></trx_date>
+          <val_date><val>2014-06-25</val></val_date>
+          <veri_date><val>2014-06-25</val></veri_date>
+          <order_date><val>2014-06-25T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>transaction1</val></extl_book_text>
+          <qty><val>-176</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="2121" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5825</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76923</id></ctx></annot><val>76923</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>786</id></ctx></annot><val>786</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-26T04:00:20+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-26</val></book_date>
+          <perf_date><val>2014-06-26</val></perf_date>
+          <trx_date><val>2014-06-26</val></trx_date>
+          <val_date><val>2014-06-26</val></val_date>
+          <veri_date><val>2014-06-26</val></veri_date>
+          <order_date><val>2014-06-26T04:00:16+10:00</val></order_date>
+          <extl_book_text><val>Maturity St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity 1</val></extl_book_text>
+          <qty><val>5043.48</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="2122" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>6114</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>80154</id></ctx></annot><val>80154</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-07-01T00:53:05+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-30</val></book_date>
+          <perf_date><val>2014-06-30</val></perf_date>
+          <trx_date><val>2014-06-30</val></trx_date>
+          <val_date><val>2014-06-30</val></val_date>
+          <veri_date><val>2014-06-30</val></veri_date>
+          <order_date><val>2014-07-01T00:53:05+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 8</val></extl_book_text>
+          <qty><val>6.11</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="2123" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>8665</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>114668</id></ctx></annot><val>114668</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-01T00:52:55+10:00</val></last_trx_timestp>
+          <book_date><val>2014-07-31</val></book_date>
+          <perf_date><val>2014-07-31</val></perf_date>
+          <trx_date><val>2014-07-31</val></trx_date>
+          <val_date><val>2014-07-31</val></val_date>
+          <veri_date><val>2014-07-31</val></veri_date>
+          <order_date><val>2014-08-01T00:52:55+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 2</val></extl_book_text>
+          <qty><val>15.29</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="2124" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>12029</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>157742</id></ctx></annot><val>157742</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-01T00:10:45+10:00</val></last_trx_timestp>
+          <book_date><val>2014-08-31</val></book_date>
+          <perf_date><val>2014-08-31</val></perf_date>
+          <trx_date><val>2014-08-31</val></trx_date>
+          <val_date><val>2014-08-31</val></val_date>
+          <veri_date><val>2014-08-31</val></veri_date>
+          <order_date><val>2014-09-01T00:10:44+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 3</val></extl_book_text>
+          <qty><val>15.32</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="225" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>23714</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>247072</id></ctx></annot><val>247072</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-10-11T06:04:04+11:00</val></last_trx_timestp>
+          <book_date><val>2014-09-30</val></book_date>
+          <perf_date><val>2014-09-30</val></perf_date>
+          <trx_date><val>2014-09-30</val></trx_date>
+          <val_date><val>2014-09-30</val></val_date>
+          <veri_date><val>2014-09-30</val></veri_date>
+          <order_date><val>2014-10-11T06:04:04+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 4</val></extl_book_text>
+          <qty><val>14.86</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>person-120_689person-120_689person-120_689</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+  <evt>
+      <evt_head_list>
+        <evt_head id="226" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>23714</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>247072</id></ctx></annot><val>247072</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-10-11T06:04:04+11:00</val></last_trx_timestp>
+          <book_date><val>2014-09-30</val></book_date>
+          <perf_date><val>2014-09-30</val></perf_date>
+          <trx_date><val>2014-09-30</val></trx_date>
+          <val_date><val>2014-09-30</val></val_date>
+          <veri_date><val>2014-09-30</val></veri_date>
+          <order_date><val>2014-10-11T06:04:04+11:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash 4</val></extl_book_text>
+          <qty><val>14.86</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>person-120_689person-120_689person-120_689</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+  
+  
+  
+  
+  
+  </evt_list>
+    </pos>
+   
+	<!--Term Deposits-->
+	<pos>
+      <pos_head_list>
+        <pos_head id="30" row_type="subtitle" hira="3" level="pos.head">
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>31795</id></ctx></annot><val>St.George Term Deposit</val></pos_name>
+          <bal><val>0</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="31" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2831</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>15773</id></ctx></annot><val>15773</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-26T11:01:03+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-27</val></book_date>
+          <perf_date><val>2014-03-26</val></perf_date>
+          <trx_date><val>2014-03-28</val></trx_date>
+          <val_date><val>2014-03-29</val></val_date>
+          <veri_date><val>2014-03-26</val></veri_date>
+          <order_date><val>2014-03-26T10:57:47+11:00</val></order_date>
+          <extl_book_text><val>Opened St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity of TD cont</val></extl_book_text>
+          <qty><val>5000</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>564</id></ctx></annot><val>person-120_2155 (Service &amp;amp; Operations)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="32" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>5825</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>76923</id></ctx></annot><val>76923</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>786</id></ctx></annot><val>786</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-06-26T04:00:20+10:00</val></last_trx_timestp>
+          <book_date><val>2014-06-26</val></book_date>
+          <perf_date><val>2014-06-26</val></perf_date>
+          <trx_date><val>2014-06-26</val></trx_date>
+          <val_date><val>2014-06-26</val></val_date>
+          <veri_date><val>2014-06-26</val></veri_date>
+          <order_date><val>2014-06-26T04:00:16+10:00</val></order_date>
+          <extl_book_text><val>Maturity St.George Term Deposit at 3.45% pa, 3 months interest payment at maturity of TD COnt 1</val></extl_book_text>
+          <qty><val>-5000</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>31793</id></ctx></annot><val>31793</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+  </evt_list>
+    </pos>
+ 
+  </pos_list>
+    </cont>
+    
+    
+    <cont>
+      <cont_head_list>
+        <cont_head id="2" row_type="subtitle" hira="2" level="cont.head">
+          <cont_type_id><val>7105</val></cont_type_id>
+          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>44953</id></ctx></annot><val>44953</val></cont_id>
+          <asset_id><val>55386</val></asset_id>          
+        </cont_head>
+      </cont_head_list>
+  <pos_list>
+  <!--MP Cash -->
+    <pos>
+      <pos_head_list>
+        <pos_head id="3" row_type="subtitle" hira="3" level="pos.head">          
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>44954</id></ctx></annot><val>MP Cash</val></pos_name>
+          <bal><val>7247.69</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="4" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>-2286</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>74444</id></ctx></annot><val>74444</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>-36</id></ctx></annot><val>-36</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:33:31+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-15</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-03-15</val></trx_date>
+          <val_date><val>2014-03-17</val></val_date>
+          <veri_date><val>2014-03-17</val></veri_date>
+          <order_date><val>2014-03-15T11:27:19+11:00</val></order_date>
+          <extl_book_text><val>This is MP Cash</val></extl_book_text>
+          <qty><val>10000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="5" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2286</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>94444</id></ctx></annot><val>94444</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>36</id></ctx></annot><val>36</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-17T13:33:31+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-15</val></book_date>
+          <perf_date><val>2014-03-17</val></perf_date>
+          <trx_date><val>2014-03-15</val></trx_date>
+          <val_date><val>2014-03-17</val></val_date>
+          <veri_date><val>2014-03-15</val></veri_date>
+          <order_date><val>2014-03-15T11:27:19+11:00</val></order_date>
+          <extl_book_text><val>This is MP Cash 2</val></extl_book_text>
+          <qty><val>10000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    </evt_list>
+    </pos>
+<!--balanced fund -->	
+    <pos>
+      <pos_head_list>
+        <pos_head id="27" row_type="subtitle" hira="3" level="pos.head">          
+          <asset_id><val>57490</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>31795</id></ctx></annot><val>RFA0815AU BT Wholesale Active Balanced Fund</val></pos_name>
+          <bal><val>0</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="28" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2670</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>35468</id></ctx></annot><val>35468</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-21T19:50:44+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-24</val></book_date>
+          <perf_date><val>2014-03-21</val></perf_date>
+          <trx_date><val>2014-05-26</val></trx_date>
+          <val_date><val>2014-05-28</val></val_date>
+          <veri_date><val>2014-03-21</val></veri_date>
+          <order_date><val>2014-03-24T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>New standing order (BPay): AUD in MP Cash in TH</val></extl_book_text>
+          <qty><val>7865</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="29" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2726</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>35519</id></ctx></annot><val>35519</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>552</id></ctx></annot><val>552</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-24T04:00:43+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-24</val></book_date>
+          <perf_date><val>2014-03-24</val></perf_date>
+          <trx_date><val>2014-03-24</val></trx_date>
+          <val_date><val>2014-03-24</val></val_date>
+          <veri_date><val>2014-03-24</val></veri_date>
+          <order_date><val>2014-03-24T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Close standing order (Domestic): AUD of MP cash</val></extl_book_text>
+          <qty><val>-1</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+	
+	
+	
+	
+	
+	
+	
+  </evt_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="30" row_type="subtitle" hira="3" level="pos.head">          
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>57490</id></ctx></annot><val>57490</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>31795</id></ctx></annot><val>RFA0815AU BT Wholesale Active Balanced Fund</val></pos_name>
+          <bal><val>0</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="31" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2670</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>35468</id></ctx></annot><val>35468</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-21T19:50:44+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-24</val></book_date>
+          <perf_date><val>2014-03-21</val></perf_date>
+          <trx_date><val>2014-05-26</val></trx_date>
+          <val_date><val>2014-05-28</val></val_date>
+          <veri_date><val>2014-03-21</val></veri_date>
+          <order_date><val>2014-03-24T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>New standing order (BPay): AUD in MP Cash in TH</val></extl_book_text>
+          <qty><val>7865</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1292</id></ctx></annot><val>person-120_689 (Investor)</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="34" row_type="data" hira="4" level="evt.head">
+          <evt_id><val>2726</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>35519</id></ctx></annot><val>35519</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>552</id></ctx></annot><val>552</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-03-24T04:00:43+11:00</val></last_trx_timestp>
+          <book_date><val>2014-03-24</val></book_date>
+          <perf_date><val>2014-03-24</val></perf_date>
+          <trx_date><val>2014-03-24</val></trx_date>
+          <val_date><val>2014-03-24</val></val_date>
+          <veri_date><val>2014-03-24</val></veri_date>
+          <order_date><val>2014-03-24T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Close standing order (Domestic): AUD of MP cash</val></extl_book_text>
+          <qty><val>-1</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>22</id></ctx></annot><val>End of Day</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+	
+	
+	
+	
+	
+	
+	
+  </evt_list>
+    </pos>
+    
+	</pos_list>
+    </cont>
+   
+  </cont_list>
+    </bp>
+  </bp_list>
+
+  </data>
+</rep:rep>
+<!-- b8044fca-60ba-4431-8d4f-d27a579d9a95 at 2014-10-12T03:30:42.835591000Z on AFD030A by AVALOQ -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,326 @@
+{
+  "trustType": "family",
+  "version": "1.0.0",
+  "accountType": "corporateTrust",
+  "trustdetails": {
+    "trustname": "qreqre",
+    "businessname": "ewrwrw",
+    "abn": "34343343",
+    "regdate": "03/03/2001",
+    "registrationstate": "NT",
+    "registeredforgst": "no",
+    "trusttype": "family",
+    "wealthsource": "Controlled money account",
+    "settloroftrust": "individual",
+    "title": "MS",
+    "firstname": "eere",
+    "middlename": "erere",
+    "lastname": "ererer",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "669744"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": false,
+      "valid": true
+    },
+    "trustverification": {
+      "identitydocument": "letteridv",
+      "letteridv": {
+        "fullname": "ffff",
+        "documentdate": "10/10/2015",
+        "documentnumber": "44444",
+        "verifiedfrom": "certifiedcopy"
+      }
+    },
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "companytrustee": {
+    "companyname": "dfdfdfddfd",
+    "asicregisteredname": "dfdfdddfffdfd",
+    "acn": "3343433",
+    "companyabn": "34343434",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "117243"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "475521",
+      "addressType": "residential",
+      "id": "475521",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "475521"
+        }
+      ]
+    },
+    "docissuer": "ASIC",
+    "issuedate": "17 Feb 2016",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "1ADB6DB83860F5E5A1CAC48C723EED7D03434B34D87471EA"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201602112",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "gender": "Male",
+      "accountType": "corporateTrust",
+      "firstname": "Personbcaciag",
+      "middlename": "Personbcaciag",
+      "lastname": "Personbcaciag",
+      "dateofbirth": "01 Jan 1980",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": true
+    },
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "8521DB85938A74A17A2E6A0209DF73034578B6916384EBCC"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201604187",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "gender": "Female",
+      "accountType": "corporateTrust",
+      "firstname": "Personbcadaea",
+      "middlename": "Personbcadaea",
+      "lastname": "Personbcadaea",
+      "dateofbirth": "01 Nov 1911",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": true
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Additional Sources",
+    "additionalsourceoffunds": "fdfdf"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "needsBeneficialOwner": true,
+    "accountType": "corporateTrust",
+    "isMajorShareholder": "yes",
+    "hasbeneficiaryclasses": "yes",
+    "beneficiaryclassdetails": "trettert",
+    "investorsWithRoles": [
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      },
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "no",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "wrewrwe",
+      "bsb": "2323232",
+      "accountnumber": "dsfd34343",
+      "nickname": "fdfdfdf",
+      "directdebitamount": "23.00"
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

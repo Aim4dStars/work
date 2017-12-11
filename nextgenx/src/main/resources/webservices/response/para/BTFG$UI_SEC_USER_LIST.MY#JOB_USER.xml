@@ -1,0 +1,88 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse><rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_sec_user_list_job_user" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-10-27 10:58:35.380682000 on afd030a by INIT_UI_LOGIN -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <current_of_time><val>2014-10-26T23:58:35.381588000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>user</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>sec_user_id</name>
+          <type>NrFld</type>
+            <lbl>User ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>person_job</name>
+          <type>TextFld</type>
+            <lbl>Job person</lbl>
+        </fld_def>
+        <fld_def>
+          <name>job_type</name>
+          <type>NrFld</type>
+            <lbl>Job type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>job_auth_level_id</name>
+          <type>NrFld</type>
+            <lbl>Job auth level ID</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <user_list>
+    <user>
+      <user_head_list>
+        <user_head id="1" row_type="data" hira="0" level="user.head">
+          <sec_user_id><annot><ctx><type>user</type><id>1531</id></ctx></annot><val>1531</val></sec_user_id>
+          <person_job><annot><ctx><type>person</type><id>72705</id></ctx></annot><val>person-120_913 (Paraplanner) for OE.AVSR_POS.2107</val></person_job>
+          <job_type><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>660274</id></ctx></annot><val>660274</val></job_type>
+          <job_auth_level_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>660335</id></ctx></annot><val>660335</val></job_auth_level_id>
+        </user_head>
+      </user_head_list>
+    </user>
+     <user>
+      <user_head_list>
+        <user_head id="2" row_type="data" hira="0" level="user.head">
+          <sec_user_id><annot><ctx><type>user</type><id>8993</id></ctx></annot><val>8993</val></sec_user_id>
+          <person_job><annot><ctx><type>person</type><id>83430</id></ctx></annot><val>person-120_913person-120_913person-120_913 (Paraplanner)</val></person_job>
+          <job_type><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>660274</id></ctx></annot><val>660274</val></job_type>
+          <job_auth_level_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>660337</id></ctx></annot><val>660337</val></job_auth_level_id>
+        </user_head>
+      </user_head_list>
+    </user>
+  </user_list>
+
+  </data>
+</rep:rep>
+<!-- fe212941-4ec2-34cd-e044-2c768a52a819 at 2014-10-26T23:58:35.639748000Z on AFD030A by INIT_UI_LOGIN -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

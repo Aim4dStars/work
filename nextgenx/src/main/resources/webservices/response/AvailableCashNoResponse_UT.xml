@@ -1,0 +1,71 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_avl_cash" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-05-27 19:08:48.402644000 on NGWD2 by AVALOQ -->
+  <metadata>
+    <empty_rep><val>-</val></empty_rep>
+  </metadata>
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>pos</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>info</name>
+          <type>TextFld</type>
+            <lbl>info</lbl>
+        </fld_def>
+        <fld_def>
+          <name>avl_cash</name>
+          <type>NrFld</type>
+            <lbl>avl_cash</lbl>
+        </fld_def>
+        <fld_def>
+          <name>avl_cash_tra</name>
+          <type>NrFld</type>
+            <lbl>avl_cash_tra</lbl>
+        </fld_def>
+        <fld_def>
+          <name>open_flow_out</name>
+          <type>NrFld</type>
+            <lbl>open_out_flow</lbl>
+        </fld_def>
+        <fld_def>
+          <name>open_flow_in</name>
+          <type>NrFld</type>
+            <lbl>open_in_flow</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bal_avl_ls</name>
+          <type>NrFld</type>
+            <lbl>bal_avl_ls</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bal_avl_fd</name>
+          <type>NrFld</type>
+            <lbl>bal_avl_fd</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <pos_list>
+    <pos>      
+    </pos>
+  </pos_list>
+
+  </data>
+</rep:rep>

@@ -1,0 +1,67 @@
+#postOp parameters reference
+#postOp status={SUCCESS||FAIL} ExternalTablePrefix timestamp target={bsb||bpay_biller} dataFileName nomastertablecreated={0||1}
+
+nomastertable=${6:-0}
+
+dropTable() {
+$ORACLE_HOME/bin/sqlplus -s / << EOF
+set head off
+set verify off
+set feed off
+set echo off
+whenever sqlerror exit sql.sqlcode;
+drop table $1 ;
+exit
+EOF
+}
+
+archiveFile() {
+#Check archive folder access 
+if [ ! -d $1 ];
+then
+	echo "Archive folder error!"	
+	exit 2
+fi
+#Archive the data file
+/usr/bin/mv $2/$3 $1
+}
+
+#Archive the data file
+#dataFolder=`${BASEDIR}/util/getDir ${4}_TAB`
+arcFolder=$dataFolder/archive
+
+#echo "dropping ${2}_${3}"
+#drop the just created external table
+dropTable ${2}_${3}
+
+#Only on success clean up the past master tables
+if [ "${1}" = "SUCCESS" ];
+then
+	#Reset the view to the successfully loaded table
+	${BASEDIR}/util/resetView $4 $3 $TARGET_SCHEMA $BATCH_SCHEMA
+	if [ "${?}" != "0" ];
+	then
+		echo "SQL error: View reset failed!"
+		#since the critical view reset operation failed clean out the just created master table
+		#dropTable ${4}_MST_${3}
+		archiveFile $arcFolder $dataFolder $5
+		exit 2
+	fi
+	#drop the past master tables no longer needed
+	targettabs=`${BASEDIR}/util/getTablename ${4} ${3}`
+	#echo "Target Tables: " $targettabs
+	#targettabs=`echo $tabs|sed 's/ /,/g'`
+
+	for tabNames in $targettabs
+	do
+		#echo $tabNames
+		dropTable $tabNames
+	done
+elif [ "${nomastertable}" = "0" ];
+then
+	#Drop the bad master that may have been created depending on where the error happened in the main script
+	dropTable $4_mst_${ENV_NAME}_$3
+fi
+
+archiveFile $arcFolder $dataFolder $5
+exit 0

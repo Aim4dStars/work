@@ -1,0 +1,29 @@
+<included>
+
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <logger name="com.bt.nextgen.core.security.SamlAuthenticationDetailsSource" level="DEBUG">
+            />
+    </logger>
+    
+    <logger name="com.bt.nextgen.core.security.filter.RefreshSamlFilter" level="DEBUG">
+           />
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache.cachesearch.EhCacheLuceneSearcher" level="DEBUG"/>
+      
+    <logger name="com.btfin.panorama.core.security.saml.SamlToken" level="DEBUG">
+           />
+    </logger>
+      
+    <logger name="com.bt.nextgen.api.adviser.service.AdviserDetailDtoServiceImpl" level="DEBUG">
+            />
+    </logger>
+    <logger name="com.bt.nextgen.api.logon.service.LogonUpdateUserNameDtoServiceImpl" level="DEBUG">
+       />
+    </logger>
+
+    <logger name="com.bt.nextgen.core.web.interceptor.ApplicationStatusCheckFilter" level="DEBUG"/>
+</included>

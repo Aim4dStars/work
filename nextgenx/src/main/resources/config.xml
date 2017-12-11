@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<configuration>
+    <system/>
+    <properties fileName="services.properties"/>
+    <properties fileName="errorMapping.properties"/>
+    <properties fileName="searchparamsMapping.properties"/>
+    <properties fileName="version-app.properties"/>
+    <properties fileName="cmsmapping.properties" config-optional="true"/>
+    <properties fileName="env.properties"/>
+    <properties fileName="common.properties"/>
+</configuration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+    <SOAP-ENV:Body>
+        <ns:LinkedAccountListResponse xmlns:ns="ns://btfin.com/nextgen/services/schemas">
+            <LinkedAccount>
+                <Status>OK</Status>
+                <Type>Nominee</Type>
+                <AccountName>Steve W</AccountName>
+                <Bsb>203436</Bsb>
+                <AccountNumber>123456789</AccountNumber>
+            </LinkedAccount>
+            <LinkedAccount>
+                <Status>OK</Status>
+                <Type>Secondary</Type>
+                <AccountName>Mark W</AccountName>
+                <Bsb>203336</Bsb>
+                <AccountNumber>987654321</AccountNumber>
+            </LinkedAccount>
+        </ns:LinkedAccountListResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

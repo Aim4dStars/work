@@ -1,0 +1,224 @@
+{
+  "trustType": "invscheme",
+  "version": "1.0.0",
+  "accountType": "individualTrust",
+  "trustdetails": {
+    "trustname": "sdsds",
+    "businessname": "dsdsds",
+    "abn": "",
+    "arsn": "010499966",
+    "regdate": "02/02/2010",
+    "registrationstate": "NT",
+    "registeredforgst": "yes",
+    "trusttype": "invscheme",
+    "trustconfirmed": "Verified",
+    "wealthsource": "Business profits",
+    "industry": {
+      "industry": "Other",
+      "industrydivision": "Communication Services",
+      "industrysubdivision": "Communication Services",
+      "industrygroup": "Communication Services",
+      "industryclass": "7112",
+      "anzsiccode": "7112",
+      "ucmcode": "SIC 0349"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "737336"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "trustees": [
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "E9267AFDF43F4411F6CBAF07806CBB9441427C85B89297F7"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201602112",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "title": "Dr",
+      "gender": "Male",
+      "accountType": "individualTrust",
+      "firstname": "Personbcaciag",
+      "middlename": "Personbcaciag",
+      "lastname": "Personbcaciag",
+      "dateofbirth": "01 Jan 1980",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": true
+    },
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "01D1B44C2483629398F0EF145563A27128D1C059402E4D57"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201604187",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "title": "Dr",
+      "gender": "Female",
+      "accountType": "individualTrust",
+      "firstname": "Personbcadaea",
+      "middlename": "Personbcadaea",
+      "lastname": "Personbcadaea",
+      "dateofbirth": "01 Nov 1911",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": true
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 1,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Business income/earnings"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "accountType": "individualTrust",
+    "hasbeneficiaryclasses": "yes",
+    "beneficiaryclassdetails": "asaasasa",
+    "investorsWithRoles": [
+      {
+        "isBeneficiary": "no",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      },
+      {
+        "isBeneficiary": "yes",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      }
+    ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "aasaa",
+      "bsb": "082124",
+      "accountnumber": "7623372",
+      "nickname": "hdks",
+      "directdebitamount": "33.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

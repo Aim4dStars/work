@@ -1,0 +1,420 @@
+{
+  "version": "1.0.0",
+  "accountType": "individualTrust",
+  "trustType": "family",
+  "approvalType": "online",
+  "trustdetails": {
+    "trustname": "Trust Test",
+    "businessname": "Trust 1234",
+    "regdate": "01\/06\/2015",
+    "registrationstate": "NSW",
+    "registeredforgst": "no",
+    "tfn": "123456782",
+    "settloroftrust": "organisation",
+    "taxoption": "Tax File Number provided",
+    "wealthsource": "Business income\/earnings",
+    "abn": "",
+    "trusttype": "family",
+    "organisationName": "Org",
+    "industry": {
+      "anzsiccode": "7412",
+      "industry": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "address": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "33",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "292129",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        }
+      ]
+    },
+    "taxdetails": {
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        }
+      },
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": false
+      },
+      "overseasTaxDetails": []
+    },
+    "trustverification": {
+      "identitydocument": "letteridv",
+      "letteridv": {
+        "fullname": "F456852",
+        "documentdate": "02\/06\/2015",
+        "documentnumber": "",
+        "verifiedfrom": "original"
+      }
+    },
+    "personalinvestmententity": true
+  },
+  "directors": [
+
+  ],
+  "trustees": [
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "title": "MR",
+      "firstname": "Deep",
+      "middlename": "",
+      "lastname": "Test",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "02\/02\/1984",
+      "gender": "male",
+      "mobile": {
+        "value": "0456852111"
+      },
+      "email": {
+        "value": "Deep01@gmail.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "individualTrust",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NT",
+            "expiryDate": "02\/02\/2018",
+            "documentNumber": "L45685215",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "taxdetails": {
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": []
+      },
+      "resaddress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "515555",
+        "sameasaddress": "515555",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "515555",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "919603",
+        "sameasaddress": "919603",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "919603",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "investors": [
+
+  ],
+  "shareholderandmembers": {
+    "hasbeneficiaryclasses": "no",
+    "needsShareholder": false,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "accountType": "individualTrust",
+    "investorsWithRoles": [
+      {
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isBeneficiary": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": ["beneficiary"],
+        "title": "MR",
+        "firstname": "Bene",
+        "middlename": "",
+        "lastname": "Test",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      },
+      {
+        "persontype": ["controlleroftrust"],
+        "title": "MR",
+        "firstname": "Resp",
+        "middlename": "",
+        "lastname": "Test",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "dateofbirth": "02\/02\/1985",
+        "resaddress": {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "67272",
+          "sameasaddress": "67272",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "addressType": "residential",
+              "unitNumber": "",
+              "streetNumber": "33",
+              "streetName": "Pitt",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "id": "67272",
+              "sameasaddress": "0",
+              "confirmed": true,
+              "valid": true,
+              "verified": true,
+              "existingAddressList": [
+
+              ]
+            }
+          ]
+        },
+        "additionalshareholdergender": "male",
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "QLD",
+              "expiryDate": "02\/02\/2017",
+              "documentNumber": "Q56788",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        }
+      },
+      {
+        "persontype": ["beneficiaryAndController"],
+        "title": "MS",
+        "firstname": "BeneResp",
+        "middlename": "",
+        "lastname": "Test",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "dateofbirth": "01\/02\/1985",
+        "resaddress": {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "497647",
+          "sameasaddress": "497647",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "addressType": "residential",
+              "unitNumber": "",
+              "streetNumber": "33",
+              "streetName": "Pitt",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "id": "497647",
+              "sameasaddress": "0",
+              "confirmed": true,
+              "valid": true,
+              "verified": true,
+              "existingAddressList": [
+
+              ]
+            }
+          ]
+        },
+        "additionalshareholdergender": "female",
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "SA",
+              "expiryDate": "02\/03\/2017",
+              "documentNumber": "SA45623",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        }
+      }
+    ]
+  },
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true,
+        "isApprover": "true"
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Brett St Pierre",
+    "adviserLocation": "Queensland",
+    "sourceoffunds": "Business profits",
+    "powerofattorney": true
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Test",
+      "bsb": "083636",
+      "accountnumber": "3654545",
+      "nickname": "",
+      "directdebitamount": "2000.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "150.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

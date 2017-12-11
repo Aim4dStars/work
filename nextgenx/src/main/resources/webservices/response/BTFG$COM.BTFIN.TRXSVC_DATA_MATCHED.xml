@@ -1,0 +1,27 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <reguser:data_valid_rsp xmlns:reguser="http://btfin.com/ABS/TrxService/DataValid/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <hdr>
+                            <req_id>a91cfb49-747e-5528-8373-a3786fb80db51</req_id>
+                        </hdr>
+                        <data>
+                            <tfn>
+                                <val>648188480</val>
+                            </tfn>
+                            <person_id>
+                                <val>185415</val>
+                            </person_id>
+                            <person_tfn_exist>
+                                <val>true</val>
+                            </person_tfn_exist>
+                        </data>
+                    </reguser:data_valid_rsp>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

@@ -1,0 +1,324 @@
+{
+  "version": "1.0.0",
+  "accountType": "joint",
+  "investors": [
+    {
+      "emails": [],
+      "personRoles": [],
+      "phones": [],
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": false
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Tax File Number or exemption not provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": false
+          },
+          "exemptionReason": {
+            "valid": true
+          }
+        },
+        "overseasTaxDetails": [
+          {
+            "tin": {
+              "valid": true
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "Exemption Reason provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "BD"
+            },
+            "tinExemptionReason": {
+              "valid": true,
+              "value": "btfg$tin_never_iss"
+            }
+          },
+          {
+            "tin": {
+              "valid": true,
+              "value": "ARGENTINATAXNO"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "TIN provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "AR"
+            },
+            "tinExemptionReason": {
+              "valid": true
+            }
+          },
+          {
+            "tin": {
+              "valid": true
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "Exemption Reason provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "BR"
+            },
+            "tinExemptionReason": {
+              "valid": true,
+              "value": "btfg$under_aged"
+            }
+          },
+          {
+            "tin": {
+              "valid": true
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "Exemption Reason provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "KH"
+            },
+            "tinExemptionReason": {
+              "valid": true,
+              "value": "btfg$tin_pend"
+            }
+          }
+        ],
+        "selectedOverseasTaxCountry": {
+          "valid": true,
+          "value": "BR"
+        }
+      },
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Business profits",
+      "title": "MR",
+      "firstname": "A",
+      "middlename": "",
+      "lastname": "AA",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01/01/1980",
+      "gender": "male",
+      "mobile": {
+        "value": "0432098766"
+      },
+      "email": {
+        "value": "tester@email.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "joint",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NSW",
+            "expiryDate": "01/01/2030",
+            "documentNumber": "P123",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+        "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+            "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+        "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+            "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "",
+      "sameasresaddress": "true"
+    },
+    {
+      "emails": [],
+      "personRoles": [],
+      "phones": [],
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": false
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Exemption Reason provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          },
+          "exemptionReason": {
+            "valid": true,
+            "value": "pensioner"
+          }
+        },
+        "overseasTaxDetails": []
+      },
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Compensation payment",
+      "title": "MR",
+      "firstname": "B",
+      "middlename": "",
+      "lastname": "BB",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01/01/1980",
+      "gender": "male",
+      "mobile": {
+        "value": "0432098765"
+      },
+      "email": {
+        "value": "TESTb@email.com"
+      },
+      "preferredcontact": "email",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "joint",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NT",
+            "expiryDate": "01/01/2030",
+            "documentNumber": "P1234",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+        "valid": true,
+        "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+        "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+            "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+        "valid": true,
+        "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+        "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "2 Berry Street, DOWNER  ACT  2602",
+            "AddressIdentifier": "0VOAUEHwjgBwAAAAAIAgEAAAAAB7MLkAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAABCZXJyeSBTdHJlZXQA",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "",
+      "sameasresaddress": "true"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "allpayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      },
+      {
+        "paymentSetting": "allpayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business profits"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TEST ACNT",
+      "bsb": "062062",
+      "accountnumber": "123456",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "label": "Percentage fee component",
+          "listedSecurities": "2.00",
+          "managedFund": "1.00",
+          "managedPortfolio": "0.00",
+          "cash": "0.00",
+          "termDeposit": "0.00",
+          "slidingScaleFeeTier": [],
+          "valid": true
+        }
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

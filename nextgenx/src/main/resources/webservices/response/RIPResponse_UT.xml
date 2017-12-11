@@ -1,0 +1,198 @@
+<trx_bdl:trx_bdl_rsp xmlns:trx_bdl="http://btfin.com/ABS/TrxService/TrxBdl/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>3be65b91-c83d-41d2-baaf-6519796e03ef</req_id>
+  </hdr>
+  <data>
+    <medium_id>
+      <annot>
+        <displ_text>btfg$web_ui</displ_text>
+        <ctx>
+          <type>code_medium</type>
+          <id>34</id>
+        </ctx>
+      </annot>
+      <val>34</val>
+    </medium_id>
+    <trx_cont_id>
+      <annot>
+        <displ_text>120032628/AUD</displ_text>
+        <ctx>
+          <type>obj_cont</type>
+          <id>149849</id>
+        </ctx>
+      </annot>
+      <val>149849</val>
+    </trx_cont_id>
+    <description>
+      <val>reference</val>
+    </description>
+    <owner_id>
+      <annot>
+        <displ_text>N Mr Dennis Di Bartolo</displ_text>
+        <ctx>
+          <type>obj_person</type>
+          <id>29827</id>
+        </ctx>
+      </annot>
+      <val>29827</val>
+    </owner_id>
+    <method_id>
+      <annot>
+        <displ_text>all</displ_text>
+        <ctx>
+          <type>btfg$code_trx_bdl_method</type>
+          <id>3</id>
+        </ctx>
+      </annot>
+      <val>3</val>
+    </method_id>
+    <first_exec>
+      <val>2015-07-20</val>
+    </first_exec>
+    <redo_period_id>
+      <annot>
+        <displ_text>mth</displ_text>
+        <ctx>
+          <type>btfg$code_trx_bdl_period</type>
+          <id>3</id>
+        </ctx>
+      </annot>
+      <val>3</val>
+    </redo_period_id>
+    <trigpos_id>
+      <val avqxsi:nil="true"/>
+    </trigpos_id>
+    <min_bal>
+      <val avqxsi:nil="true"/>
+    </min_bal>
+    <keep_bal>
+      <val avqxsi:nil="true"/>
+    </keep_bal>
+    <rd_lot>
+      <val avqxsi:nil="true"/>
+    </rd_lot>
+    <max_take>
+      <val avqxsi:nil="true"/>
+    </max_take>
+    <last_exec>
+      <val>2015-07-20</val>
+    </last_exec>
+    <last_trans>
+      <val avqxsi:nil="true"/>
+    </last_trans>
+    <order_type>
+      <annot>
+        <displ_text>form#btfg$trx_bdl_tra_screen</displ_text>
+        <ctx>
+          <type>code_order_type</type>
+          <id>9514</id>
+        </ctx>
+      </annot>
+      <val>9514</val>
+    </order_type>
+    <order_date>
+      <val>2015-07-20</val>
+    </order_date>
+    <ref_doc_id>
+      <val avqxsi:nil="true"/>
+    </ref_doc_id>
+    <trx_list>
+      <trx_item>
+        <type_id>
+          <annot>
+            <displ_text>fd</displ_text>
+            <ctx>
+              <type>btfg$code_trx_bdl_type</type>
+              <id>2</id>
+            </ctx>
+          </annot>
+          <val>2</val>
+        </type_id>
+        <dir_id>
+          <annot>
+            <displ_text>buy</displ_text>
+            <ctx>
+              <type>code_order_type_grp</type>
+              <id>101</id>
+            </ctx>
+          </annot>
+          <val>101</val>
+        </dir_id>
+        <bp_id>
+          <annot>
+            <displ_text>Andy  Roddick</displ_text>
+            <ctx>
+              <type>obj_bp</type>
+              <id>149848</id>
+            </ctx>
+          </annot>
+          <val>149848</val>
+        </bp_id>
+        <cont_id>
+          <annot>
+            <displ_text>120032628/AUD</displ_text>
+            <ctx>
+              <type>obj_cont</type>
+              <id>149849</id>
+            </ctx>
+          </annot>
+          <val>149849</val>
+        </cont_id>
+        <asset_id>
+          <annot>
+            <displ_text>BT Balanced Equity Income Fund</displ_text>
+            <ctx>
+              <type>obj_asset</type>
+              <id>111277</id>
+            </ctx>
+          </annot>
+          <val>111277</val>
+        </asset_id>
+        <expir_type_id>
+          <val avqxsi:nil="true"/>
+        </expir_type_id>
+        <exec_type_id>
+          <val avqxsi:nil="true"/>
+        </exec_type_id>
+        <ips_id>
+          <val avqxsi:nil="true"/>
+        </ips_id>
+        <pos_id>
+          <val avqxsi:nil="true"/>
+        </pos_id>
+        <macc_id>
+          <val avqxsi:nil="true"/>
+        </macc_id>
+        <qty>
+          <val>7000</val>
+        </qty>
+        <price>
+          <val avqxsi:nil="true"/>
+        </price>
+        <is_full>
+          <val>false</val>
+        </is_full>
+        <xfer_amount_id>
+          <val avqxsi:nil="true"/>
+        </xfer_amount_id>
+        <xfer_amount_pct>
+          <val avqxsi:nil="true"/>
+        </xfer_amount_pct>
+        <order_nr>
+          <val avqxsi:nil="true"/>
+        </order_nr>
+        <bank_clear_nr>
+          <val avqxsi:nil="true"/>
+        </bank_clear_nr>
+        <payer_acc>
+          <val avqxsi:nil="true"/>
+        </payer_acc>
+      </trx_item>
+    </trx_list>
+  </data>
+  <rsp>
+    <valid>
+      <action>do</action>
+    </valid>
+  </rsp>
+</trx_bdl:trx_bdl_rsp>

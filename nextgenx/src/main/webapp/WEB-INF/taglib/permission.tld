@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="2.0">
+
+    <tlibversion>1.0</tlibversion>
+    <jspversion>2.1</jspversion>
+    <shortname>content</shortname>
+    <tlib-version>2.0</tlib-version>
+     <tag>
+        <description>
+            Allows inclusion of a tag body if the current Authentication
+            has one of the specified permissions to the presented
+            domain object instance.
+        </description>
+        <name>permission</name>
+        <tag-class>com.bt.nextgen.core.web.taglib.PermissionTag</tag-class>
+        <body-content>JSP</body-content>
+
+        <attribute>
+            <description>
+                A comma separated list of permissions, which will be converted to
+                Permission instances by the configured PermissionFactory.
+            </description>
+            <name>access</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>
+                The actual domain object instance for which permissions
+                are being evaluated.
+            </description>
+            <name>targetType</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <description>
+                A page scoped variable into which the boolean result of the tag evaluation will be written, allowing the
+                same condition to be reused subsequently in the page without re-evaluation.
+            </description>
+            <name>targetId</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+</taglib>

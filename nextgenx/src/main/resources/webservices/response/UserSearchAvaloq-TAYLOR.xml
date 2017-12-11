@@ -1,0 +1,41 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>&lt;srch:srch_rsp xmlns:srch="http://btfin.com/ABS/SrchService/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj"&gt;
+						 <srch:srch_rsp xmlns:srch="http://btfin.com/ABS/SrchService/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj">
+						  <data>
+                              <person_list>
+                                    <person>
+                                      <person id="32636" ctxId="32636" ctxType="obj_person">Martin Taylor</person>
+                                      <is_benef>false</is_benef>
+                                      <oracle_user>010000705</oracle_user>
+                                      <first_name>Martin</first_name>
+                                      <middle_name/>
+                                      <last_name>Taylor</last_name>
+                                      <full_name>Martin Taylor</full_name>
+                                      <primary_email/>
+                                      <primary_mobile/>
+                                      <domi_suburb>Wyndham Vale</domi_suburb>
+                                      <domi_state>Victoria</domi_state>
+                                      <open_date val="2014-02-24">24/02/2014</open_date>
+                                        <user_role>
+                                            <annot>
+                                                <displ_text>660277</displ_text>
+                                                <ctx>
+                                                    <type/>
+                                                    <id>660277</id>
+                                                </ctx>
+                                            </annot>
+                                            <val>660277</val>
+                                        </user_role>
+                                    </person>
+                              </person_list>
+						  </data>
+						</srch:srch_rsp>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

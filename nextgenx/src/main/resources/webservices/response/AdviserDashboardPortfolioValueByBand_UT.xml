@@ -1,0 +1,172 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet_avsr_dshbrd_pv_band" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-08-27 11:09:17.810791000 on afd031k by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>19-JAN-2015</val></date_from>
+    <date_to><val>19-JAN-2015</val></date_to>
+    <current_of_time><val>2014-08-25T19:11:10.683637000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>period</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period_det</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_id</name>
+          <type>NrFld</type>
+            <lbl>Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_sop</name>
+          <type>DateFld</type>
+            <lbl>Start of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_eop</name>
+          <type>DateFld</type>
+            <lbl>End of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>tot_fua</name>
+          <type>NrFld</type>
+            <lbl>Total portfolio value</lbl>
+        </fld_def>
+        <fld_def>
+          <name>avg_fua</name>
+          <type>NrFld</type>
+            <lbl>Average portfolio value</lbl>
+        </fld_def>
+        <fld_def>
+          <name>med_fua</name>
+          <type>NrFld</type>
+            <lbl>Median portfolio value</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band1</name>
+          <type>NrFld</type>
+            <lbl>0-100000 Count</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band1_fua</name>
+          <type>NrFld</type>
+            <lbl>0-100000 FUA</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band2</name>
+          <type>NrFld</type>
+            <lbl>100000-250000 Count</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band2_fua</name>
+          <type>NrFld</type>
+            <lbl>0-100000 FUA</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band3</name>
+          <type>NrFld</type>
+            <lbl>250000-500000 Count</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band3_fua</name>
+          <type>NrFld</type>
+            <lbl>0-100000 FUA</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band4</name>
+          <type>NrFld</type>
+            <lbl>500000-750000 Count</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band4_fua</name>
+          <type>NrFld</type>
+            <lbl>0-100000 FUA</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band5</name>
+          <type>NrFld</type>
+            <lbl>750000-1000000 Count</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band5_fua</name>
+          <type>NrFld</type>
+            <lbl>0-100000 FUA</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band6</name>
+          <type>NrFld</type>
+            <lbl>1000000-0 Count</lbl>
+        </fld_def>
+        <fld_def>
+          <name>band6_fua</name>
+          <type>NrFld</type>
+            <lbl>0-100000 FUA</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <period_list>
+    <period>
+      <period_head_list>
+        <period_head id="1" row_type="title" hira="1" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>8</id></ctx></annot><val>8</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="2" row_type="subtitle" hira="2" level="period_det.head">
+          <period_sop><val>2015-01-19</val></period_sop>
+          <period_eop><val>2015-01-19</val></period_eop>
+          <tot_fua><annot><displ_text></displ_text></annot><val>261179049.96</val></tot_fua>
+          <avg_fua><annot><displ_text></displ_text></annot><val>18655646.42571428571428571428571428571429</val></avg_fua>
+          <med_fua><annot><displ_text></displ_text></annot><val>0</val></med_fua>
+          <band1><val>10</val></band1>
+          <band1_fua><val>0</val></band1_fua>
+          <band2><val>0</val></band2>
+          <band2_fua><val>0</val></band2_fua>
+          <band3><val>0</val></band3>
+          <band3_fua><val>0</val></band3_fua>
+          <band4><val>0</val></band4>
+          <band4_fua><val>0</val></band4_fua>
+          <band5><val>0</val></band5>
+          <band5_fua><val>0</val></band5_fua>
+          <band6><val>4</val></band6>
+          <band6_fua><val>261179049.96</val></band6_fua>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+  </period_det_list>
+    </period>
+  </period_list>
+
+  </data>
+</rep:rep>

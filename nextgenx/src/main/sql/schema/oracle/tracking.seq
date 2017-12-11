@@ -1,0 +1,4 @@
+create sequence ui_application_id_seq start with 1 increment by 1;
+create sequence ui_party_id_seq start with 1 increment by 1;
+create sequence ui_account_id_seq start with 1 increment by 1;
+create sequence ui_address_id_seq start with 1 increment by 1;

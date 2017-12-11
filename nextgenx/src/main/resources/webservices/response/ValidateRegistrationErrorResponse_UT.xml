@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v31:ValidatePartySMSOneTimePasswordChallengeResponseMsg xmlns:v31="ns://btfin.com/Product/Panorama/OnboardingService/OnboardingResponse/V3_0">
+   <Status>Error</Status>
+   <ResponseDetails>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <ErrorResponses>
+         <!--1 or more repetitions:-->
+         <ErrorResponse>
+            <Code>Sender</Code>
+            <SubCode>InvalidParameter</SubCode>
+            <Description>Invalid date.</Description>
+            <Reason>Invalid date.</Reason>
+         </ErrorResponse>
+      </ErrorResponses>
+   </ResponseDetails>
+</v31:ValidatePartySMSOneTimePasswordChallengeResponseMsg>
+
+<!--
+<v1:ValidatePartyAndSMSOneTimePasswordChallengeResponseMsg xmlns:v1="ns://private.btfin.com/NextGen/Onboarding/OnboardingResponse/V1_0">
+         <Status>Error</Status>
+         <ResponseDetails>
+            <ErrorResponses>
+               <ErrorResponse>
+                  <Code>Sender</Code>
+                  <SubCode>InvalidParameter</SubCode>
+                  <Description>Invalid date.</Description>
+                  <Reason>Invalid date.</Reason>
+               </ErrorResponse>
+            </ErrorResponses>
+         </ResponseDetails>
+      </v1:ValidatePartyAndSMSOneTimePasswordChallengeResponseMsg>
+-->

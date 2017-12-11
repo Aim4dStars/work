@@ -1,0 +1,28 @@
+CREATE OR REPLACE PROCEDURE update_account_status(account_id IN NUMBER, account_status IN VARCHAR2) IS
+account_count INTEGER := 0;
+BEGIN
+
+SELECT
+count(*)
+INTO account_count
+FROM account
+WHERE ui_account_id = account_id;
+
+IF account_count = 0
+THEN
+raise_application_error(-20002, CONCAT('Account Not Found. Account ID: ', account_id));
+ELSE
+UPDATE account
+SET status = account_status
+WHERE ui_account_id = account_id;
+END IF;
+
+EXCEPTION
+WHEN OTHERS
+THEN
+DBMS_OUTPUT.put_line(SQLERRM);
+DBMS_OUTPUT.put_line('   ');
+RAISE;
+
+END update_account_status;
+/

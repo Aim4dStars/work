@@ -1,0 +1,9 @@
+$ORACLE_HOME/bin/sqlplus -s / << EOF
+set head off
+set verify off
+set feed off
+set echo off
+whenever sqlerror exit sql.sqlcode;
+select table_name from user_tables where table_name != upper('${1}_MST_${ENV_NAME}_${2}') and table_name like upper('${1}_MST_${ENV_NAME}_%');
+exit;
+EOF

@@ -1,0 +1,28 @@
+FROM tomcat:7-jre7
+
+MAINTAINER "Julian Gamble <julian.gamble@btfinancialgroup.com>"
+
+RUN rm /etc/localtime \
+  && ln -s /usr/share/zoneinfo/Australia/Sydney /etc/localtime \
+  && echo "Australia/Sydney" > /etc/timezone
+
+RUN apt-get update \
+  && apt-get install -y vim less \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
+COPY src/main/docker/bootstrap.sh /bin/bootstrap.sh
+
+CMD ["/bin/bootstrap.sh"]
+
+COPY target/dependency/annotations-3.0.0.jar \
+  target/dependency/aspectjrt-1.7.2.jar \
+  target/dependency/aspectjweaver-1.7.2.jar \
+  target/dependency/j2ee-6.0.jar \
+  target/dependency/sparrow-security-1.0.8a.jar \
+  target/dependency/validation-api-1.0.0.GA.jar \
+  target/dependency/websphereHelper-1.0.jar /usr/local/tomcat/endorsed/
+
+ADD src/test/resources/keystore/dwgps0022.btfin.com.jks /usr/local/tomcat/lib/
+ADD src/main/docker/tomcat-users.xml /usr/local/tomcat/conf/
+

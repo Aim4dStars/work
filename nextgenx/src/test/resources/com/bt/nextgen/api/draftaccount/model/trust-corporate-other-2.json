@@ -1,0 +1,292 @@
+{
+  "trustType": "other",
+  "version": "1.0.0",
+  "accountType": "corporateTrust",
+  "trustdetails": {
+    "trustdescription": "testamentary",
+    "trustname": "dsdsds",
+    "businessname": "",
+    "abn": "",
+    "regdate": "02/02/2000",
+    "registrationstate": "NSW",
+    "registeredforgst": "no",
+    "trusttype": "other",
+    "wealthsource": "Additional Sources",
+    "additionalsourceofwealth": "dasdasd",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "205",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "confirmed": false,
+      "valid": true
+    },
+    "trustverification": {
+      "identitydocument": "letteridv",
+      "letteridv": {
+        "fullname": "sdsdsds",
+        "documentdate": "12/12/2015",
+        "documentnumber": ""
+      }
+    },
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "companytrustee": {
+    "companyname": "sdsd",
+    "asicregisteredname": "sdsd",
+    "acn": "2222",
+    "companyabn": "22222",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "companyoffice": {
+      "componentised": false,
+      "addressLine1": "Unit 205",
+      "addressLine2": "28 West St",
+      "country": "AU",
+      "suburb": "NORTH SYDNEY",
+      "postcode": "2060",
+      "state": "NSW",
+      "verified": false,
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "confirmed": false,
+      "valid": true
+    },
+    "placeofbusiness": {
+      "componentised": false,
+      "addressLine1": "Kent St",
+      "addressLine2": "",
+      "country": "AU",
+      "suburb": "NORT",
+      "postcode": "2000",
+      "state": "NSW",
+      "verified": false,
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "confirmed": false,
+      "valid": true
+    },
+    "docissuer": "ASIC",
+    "issuedate": "17 Feb 2016",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "39F36D7263D220ABCAA973C0DA20DD1AFFF251FB89A3DF49"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201602112",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "gender": "Male",
+      "accountType": "corporateTrust",
+      "firstname": "Personbcaciag",
+      "middlename": "Personbcaciag",
+      "lastname": "Personbcaciag",
+      "dateofbirth": "01 Jan 1980",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": false
+    },
+    {
+      "title": "MR",
+      "firstname": "dsd",
+      "middlename": "dsds",
+      "lastname": "ds",
+      "preferredname": "sds",
+      "formername": "",
+      "dateofbirth": "02/02/1978",
+      "gender": "male",
+      "mobile": {
+        "value": ""
+      },
+      "email": {
+        "value": ""
+      },
+      "preferredcontact": "email",
+      "isvalid": false,
+      "accountType": "corporateTrust",
+      "alternatename": "sdsd",
+      "identitydocument": {
+        "nonphotodocuments": {
+          "valid": false
+        }
+      },
+      "resaddress": {
+        "componentised": false,
+        "addressLine1": "Sds",
+        "addressLine2": "Sds",
+        "country": "AX",
+        "city": "sds",
+        "pin": "2222",
+        "verified": true,
+        "addressType": "residential",
+        "existingAddressList": [
+          {
+            "componentised": false,
+            "addressLine1": "Sds",
+            "addressLine2": "Sds",
+            "country": "AX",
+            "city": "sds",
+            "pin": "2222",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "198120"
+          }
+        ],
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true
+      },
+      "postaladdress": {
+        "componentised": false,
+        "addressLine1": "Sds",
+        "addressLine2": "Sds",
+        "country": "AX",
+        "city": "sds",
+        "pin": "2222",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "122299",
+        "addressType": "residential",
+        "id": "122299",
+        "existingAddressList": [
+          {
+            "componentised": false,
+            "addressLine1": "Sds",
+            "addressLine2": "Sds",
+            "country": "AX",
+            "city": "sds",
+            "pin": "2222",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "122299"
+          }
+        ]
+      }
+    }
+  ],
+  "accountsettings": {
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Bonus"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "needsBeneficialOwner": true,
+    "accountType": "corporateTrust",
+    "hasbeneficiaryclasses": "yes",
+    "beneficiaryclassdetails": "sssss",
+    "isMajorShareholder": "no",
+    "investorsWithRoles": [
+      {
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isBeneficialOwner": "yes",
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "no"
+      },
+      {
+        "isBeneficiary": "no",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isBeneficialOwner": "no",
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "no"
+      }
+    ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "ssssssss",
+      "bsb": ""
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

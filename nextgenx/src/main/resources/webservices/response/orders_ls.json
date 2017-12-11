@@ -1,0 +1,99 @@
+{  
+   "orders":[        
+      {  
+         "orderType":"buy",
+         "amount":1000,
+         "asset":{  
+            "assetId":"28115",
+            "type":"ShareAsset"
+         },
+         "sellAll":false,
+         "estimated":1000,
+         "adminFeeRate":0,
+         "assetType":"Listed security",
+         "units":1000,
+         "price":10,
+         "expiry":"GFD",
+         "priceType":"lim",
+         "estimated":null,
+         "distributionMethod":"Cash",         
+         "fundsAllocation":[  
+            {  
+               "accountId":"BC12D90DB5098F5F965F29C9B19B0D128C38A0DAD7CA42D4",
+               "allocation":1
+            }
+         ]
+      },
+		{
+			"orderType": "sell",
+			"amount": 12,
+			"asset": {
+				"assetId": "110486",
+				"type": "ShareAsset"
+			},
+			"sellAll": false,
+			"assetType": "Listed security",
+			"distributionMethod": "Cash",
+			"units": 12,
+			"price": 1.135,
+			"fundsAllocation": [{
+					"accountId": "BC12D90DB5098F5F965F29C9B19B0D128C38A0DAD7CA42D4",
+					"allocation": 1
+				}
+			],
+			"expiry": "GFD",
+			"priceType": "mkt"
+		},
+      {  
+         "orderType":"buy",
+         "amount":2000,
+         "asset":{  
+            "assetId":"28115",
+            "type":"ShareAsset"
+         },
+         "sellAll":false,
+         "estimated":2000,
+         "adminFeeRate":0,
+         "assetType":"Listed security",
+         "units":2000,
+         "price":10,
+         "expiry":"GFD",
+         "priceType":"mkt",
+         "estimated":null,
+         "fundsAllocation":[  
+            {  
+               "accountId":"BC12D90DB5098F5F965F29C9B19B0D128C38A0DAD7CA42D4",
+               "allocation":1
+            }
+         ]
+      },
+		{
+			"orderType": "sell",
+			"amount": 20,
+			"asset": {
+				"assetId": "110486",
+				"type": "ShareAsset"
+			},
+			"sellAll": true,
+			"assetType": "Listed security",
+			"distributionMethod": "Cash",
+			"units": 20,
+			"price": 1.136,
+			"fundsAllocation": [{
+					"accountId": "BC12D90DB5098F5F965F29C9B19B0D128C38A0DAD7CA42D4",
+					"allocation": 1
+				}
+			],
+			"expiry": "GFD",
+			"priceType": "lim"
+		}
+   ],
+   "warnings":[  
+      {  
+         "errorId":"btfg$mp_dupl_ctrl",
+         "domain":"28115",
+         "errorType":"warning",
+         "message":"A duplicate order has already been submitted today."
+      }
+   ]
+}

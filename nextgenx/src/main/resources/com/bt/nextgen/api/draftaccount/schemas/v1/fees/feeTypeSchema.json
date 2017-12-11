@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.fees.FeesComponentType",
+  "properties": {
+    "feesComponent": {
+      "type": "array",
+      "items": {
+        "$ref": "feeComponentSchema.json"
+      }
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": ["feesComponent", "type"],
+  "additionalProperties": false
+}

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientlist>
+<client>
+	<clientId>11918</clientId>
+	<firstName>Andy</firstName>
+	<lastName>Barker</lastName>
+	<adviserName>Monica Salimen</adviserName>
+	<clientIdEncoded>11918</clientIdEncoded>
+	<primaryContactName>Andy  Barker</primaryContactName>
+	<clientName>Andy  Barker</clientName>
+	<email>andrew.barker@btfinancialgroup.com</email>
+	<wrapAccounts>
+		<accountId>12150</accountId>
+		<accountName>Andy  Barker</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11918</clientId>
+		<portfolioId>12150</portfolioId>
+		<adviserPermission>Full transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>	
+</client>
+<!-- <client>
+	<clientId>11861</clientId>
+	<firstName>Martin</firstName>
+	<lastName>Taylor</lastName>
+	<adviserName>Monica Salimen</adviserName>
+	<primaryContactName>Taylor Martin</primaryContactName>
+	<clientName>Taylor Martin</clientName>
+	<clientIdEncoded>11861</clientIdEncoded>
+	<email>TM@gmail.com</email>
+	<wrapAccounts>
+		<accountId>12147</accountId>
+		<accountName>Taylor Martin</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11861</clientId>
+		<portfolioId>12147</portfolioId>
+		<adviserPermission>Full transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+	<wrapAccounts>
+		<accountId>12147</accountId>
+		<accountName>Ricky Martin</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11861</clientId>
+		<portfolioId>12147</portfolioId>
+		<adviserPermission>Full transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+	<wrapAccounts>
+		<accountId>12147</accountId>
+		<accountName>John Martin</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11861</clientId>
+		<portfolioId>12147</portfolioId>
+		<adviserPermission>Full transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+</client>
+<client>
+	<clientId>11862</clientId>
+	<firstName>Olivia</firstName>
+	<lastName>Brown</lastName>
+	<adviserName>Monica Salimen</adviserName>
+	<clientIdEncoded>11862</clientIdEncoded>
+	<primaryContactName>Brown Olivia</primaryContactName>
+	<clientName>Brown Olivia</clientName>
+	<email>BO@gmail.com</email>
+	<wrapAccounts>
+		<accountId>12148</accountId>
+		<accountName>Brown Olivia</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11862</clientId>
+		<portfolioId>12148</portfolioId>
+		<adviserPermission>Limited transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+</client>
+<client>
+	<clientId>11864</clientId>
+	<firstName>Anthony</firstName>
+	<lastName>White</lastName>
+	<adviserName>Monica Salimen</adviserName>
+	<clientIdEncoded>11864</clientIdEncoded>
+	<primaryContactName>White Anthony</primaryContactName>
+	<clientName>White Anthony</clientName>
+	<email>AW@gmail.com</email>
+	<wrapAccounts>
+		<accountId>12150</accountId>
+		<accountName>White Anthony</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11864</clientId>
+		<portfolioId>12150</portfolioId>
+		<adviserPermission>Full transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+	<wrapAccounts>
+		<accountId>12150</accountId>
+		<accountName>Black Anthony</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11864</clientId>
+		<portfolioId>12150</portfolioId>
+		<adviserPermission>Full transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+</client>
+<client>
+	<clientId>11862</clientId>
+	<firstName>Olivia</firstName>
+	<lastName>Brown</lastName>
+	<adviserName>Monica Salimen</adviserName>
+	<clientIdEncoded>11862</clientIdEncoded>
+	<primaryContactName>Brown Olivia</primaryContactName>
+	<clientName>Brown Olivia</clientName>
+	<email>BO@gmail.com</email>
+	<wrapAccounts>
+		<accountId>12148</accountId>
+		<accountName>Brown Olivia</accountName>
+		<accountType>Individual</accountType>
+		<registerDate>10 May 2013</registerDate>
+		<adviserFirstName>Salminen</adviserFirstName>
+		<adviserLastName>Monica</adviserLastName>
+		<adviserId>11806</adviserId>
+		<clientId>11862</clientId>
+		<portfolioId>12148</portfolioId>
+		<adviserPermission>Limited transaction</adviserPermission>
+		<balance>10021892.46</balance>
+		<cashAccountNumber>10000005</cashAccountNumber>
+		<availableBalance>9391142.16</availableBalance>
+	</wrapAccounts>
+</client>-->
+</clientlist>

@@ -1,0 +1,9 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type": "string",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.base.DirectAdviceTypeEnum",
+  "enum": [
+    "NoAdvice"
+  ],
+  "description": "used for direct (BT Invest) only"
+}

@@ -1,0 +1,43 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Header>
+      <ns1:esbHeader xmlns:v3="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:v4="ns://btfin.com/Product/Insurance/LifeInsurance/Policy/PolicyService/PolicyRequest/V4_2" xmlns:ns1="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+         <ns1:messageAttributes>
+            <ns1:id>NS001.a89e429f-01d5-46fc-9357-1e8eab153221</ns1:id>
+            <ns1:correlationId>NS001.a89e429f-01d5-46fc-9357-1e8eab153221</ns1:correlationId>
+            <ns1:createdTimestamp>2016-08-03T20:34:23</ns1:createdTimestamp>
+         </ns1:messageAttributes>
+         <ns1:channelAttributes>
+            <ns1:organisationId>BTFG</ns1:organisationId>
+            <ns1:brandSilo>BTFG</ns1:brandSilo>
+            <ns1:channelType>Online</ns1:channelType>
+            <ns1:originatingSystemId>NG-001</ns1:originatingSystemId>
+            <ns1:requester>
+               <ns1:requesterType>System</ns1:requesterType>
+               <ns1:requesterId>BT-ESB</ns1:requesterId>
+            </ns1:requester>
+            <ns1:location>
+               <ns1:locationId/>
+               <ns1:locationType>Middleware</ns1:locationType>
+            </ns1:location>
+         </ns1:channelAttributes>
+      </ns1:esbHeader>
+   </soap:Header>
+   <soap:Body>
+      <ns1:SearchPolicyByCustomerNumberResponseMsg xmlns:ns0="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="ns://btfin.com/Product/Insurance/LifeInsurance/Policy/PolicyService/PolicyReply/V4_2">
+         <Context>
+            <Version>4_2</Version>
+            <TrackingID>12675901-4691-4563-bf83-fcd17cb03caa</TrackingID>
+            <RequestReceivedDateTime>2016-08-03T20:34:24.015+10:00</RequestReceivedDateTime>
+            <ResponseSentDateTime>2016-08-03T20:34:24.671+10:00</ResponseSentDateTime>
+         </Context>
+         <Status>Error</Status>
+         <ResponseDetails>
+            <ResponseDetail>
+               <ErrorResponse>
+                  <Description>Error in response</Description>
+               </ErrorResponse>
+            </ResponseDetail>
+         </ResponseDetails>
+      </ns1:SearchPolicyByCustomerNumberResponseMsg>
+   </soap:Body>
+</soap:Envelope>

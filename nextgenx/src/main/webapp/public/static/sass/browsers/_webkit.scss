@@ -1,0 +1,103 @@
+/* ## Webkithacks
+
+*/
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0){
+
+  // Start Webkit hack all code below
+
+
+	.optionalField {
+		.formFieldMessageError {
+			@include blockMargin(-1.1,0,0,0);
+		}
+ 	}
+ 	
+ 	.noticeBox {
+ 	 .noticeBoxTextSmallBox {
+        width: 79%;
+     }
+	}	
+
+
+
+// Bubble Arrow fix
+
+      .contentDialog{
+        &.helpBubble{
+          &.helpBubblePosStyleOne{
+            .expandArrow{
+              @include position(absolute, 7.1rem 0 0 0.9rem);
+            }
+            }
+          }
+        }
+
+
+
+//Help Tool Box
+
+    .helpToolBox{
+          &.helpToolBoxPos1{
+             @include position(absolute, -13px 0 0 235px);
+          }
+          &.helpToolBoxPos2{
+            @include position(absolute, -22px 0 0 235px);
+          }
+          &.helpToolBoxPos3{
+            @include position(absolute, -22px 0 0 235px);
+          }
+          &.helpToolBoxPos5 {
+            @include position(absolute, -8px 0 0 323px);
+          }
+
+  }
+
+ // Adjust the Incon beside every link
+
+  .iconLinkLabel{
+    @include blockMargin(-0.4,0,0,0.5);
+  }
+
+  // adjust the down arrow in transactions
+
+  .stageInsetBridge em{
+    @include fontSize(2.1);
+    @include position(absolute, -8px -1px 0 0);
+
+  }
+
+  // Aligns the expand arrow with the text
+
+  .dataExpandCell a{
+    @include setSpace(margin,-0.1rem 0rem 0rem 0rem );
+  }
+
+ // sets Padding for password fields
+
+  .formTextInput[type=password],
+  .dk_input[type=password] {
+      @include blockPadding(1,0.5,1,1.7);
+    }
+
+
+// Last Webkit bracket end all code above this line
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

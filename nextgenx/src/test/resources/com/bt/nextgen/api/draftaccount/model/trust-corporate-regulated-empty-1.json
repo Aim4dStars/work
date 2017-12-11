@@ -1,0 +1,97 @@
+{
+  "trustType": "regulated",
+  "version": "1.0.0",
+  "accountType": "corporateTrust",
+  "trustdetails": {
+    "trustname": "",
+    "abn": "",
+    "trusttype": "regulated",
+    "industry": {
+    },
+    "address": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "valid": false
+    }
+  },
+  "companytrustee": {
+    "companyabn": "",
+    "industry": {
+    },
+    "companyoffice": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "valid": false
+    },
+    "placeofbusiness": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "valid": false
+    }
+  },
+  "directors": [{
+    "title": "",
+    "firstname": "",
+    "middlename": "",
+    "lastname": "",
+    "preferredname": "",
+    "formername": "",
+    "gender": "",
+    "mobile": {
+      "value": ""
+    },
+    "email": {
+      "value": ""
+    },
+    "preferredcontact": "",
+    "isvalid": false,
+    "accountType": "corporateTrust",
+    "alternatename": ""
+  }],
+  "accountsettings": {
+    "investorAccountSettings": [{
+      "isApprover": "true",
+      "hasRoles": false,
+      "hasApprovers": true
+    }],
+    "primarycontact": 0,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "needsBeneficialOwner": true,
+    "accountType": "corporateTrust",
+    "investorsWithRoles": [{
+      "needsShareholder": true,
+      "needsMember": false,
+      "needsBeneficiary": true,
+      "needsBeneficialOwner": true
+    }],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

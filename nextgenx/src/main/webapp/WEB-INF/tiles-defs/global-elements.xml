@@ -1,0 +1,14 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+    <definition name="adviserDetailsHeader" extends="cash.commonLayout">
+        <put-attribute name="body" value="/WEB-INF/jsp/globalelements/adviserDetailsHeader.jsp"/>
+    </definition>
+
+    <definition name="contactus" extends="cash.commonLayout">
+        <put-attribute name="title" value="Contact Us | BT Panorama"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/globalelements/contactus.jsp"/>
+    </definition>
+</tiles-definitions>

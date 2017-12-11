@@ -1,0 +1,6 @@
+mvn -Pci -Dmaven.test.failure.ignore=true -Denvironment=CI -Ddependency.locations.enabled=false post-site
+
+# rsync required here
+echo "Clearing old site..."
+echo "Uploading new site..."
+find target/site

@@ -1,0 +1,362 @@
+{
+  "trustType": "invscheme",
+  "accountType": "corporateTrust",
+  "approvalType":"online",
+  "trustdetails": {
+    "trustname": "Corp MIS trust",
+    "businessname": "",
+    "abn": "",
+    "arsn": "987654321",
+    "regdate": "01\/01\/1984",
+    "registrationstate": "ACT",
+    "registeredforgst": "yes",
+    "trusttype": "invscheme",
+    "trustconfirmed": "Verified",
+    "familyOrOtherTrust": false,
+    "wealthsource": "Business profits",
+    "additionalsourceofwealth": null,
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "218218"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "companytrustee": {
+    "companyname": "Comp",
+    "asicregisteredname": "Comp",
+    "acn": "000000019",
+    "companyabn": "",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "484074",
+      "addressType": "residential",
+      "id": "484074",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "484074"
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "794580",
+      "addressType": "residential",
+      "id": "794580",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "794580"
+        }
+      ]
+    },
+    "docissuer": "ASIC",
+    "issuedate": "15 Sep 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "fullName": "Mr Director one",
+      "title": "mr",
+      "firstname": "Director",
+      "middlename": "",
+      "lastname": "one",
+      "preferredname": "DirectorOne",
+      "dateofbirth": "01\/01\/1981",
+      "gender": "male",
+      "mobile": {
+        "value": "0456456456"
+      },
+      "email": {
+        "value": "director@one.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "existing": true,
+      "alternatename": "OneDirector",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "01\/01\/2020",
+            "documentNumber": "ASDf124",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "751907",
+        "addressType": "residential",
+        "id": "751907",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "751907"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "418105",
+        "addressType": "residential",
+        "id": "418105",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "418105"
+          }
+        ]
+      }
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": "0",
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Additional Sources",
+    "additionalsourceoffunds":"additional"
+  },
+  "shareholderandmembers": {
+    "controllerId": 436,
+    "sectionSubtitle": "Beneficiaries \/ shareholders",
+    "additionalSectionSubtitle": "Additional beneficiaries \/ shareholders",
+    "addButtonTitle": "beneficiary \/ shareholder",
+    "nominationSectionDescription": {
+      "string": "You are required under the <i>Anti-Money Laundering and Counter-Terrorism Financing Act 2006<\/i> to identify anyone who directly or indirectly owns 25% or more of the company acting as trustee. Ensure you also record the details of anyone who is a beneficiary of the trust."
+    },
+    "additionalPersonSectionDescription": "Add any additional beneficiaries of the trust or shareholders of the trustee company with a 25% or more share ownership.",
+    "personRoleBothDescription": "Both beneficiary and shareholder",
+    "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder details",
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "familyOrOther": {
+      "sectionTitle": "Beneficiaries, shareholders and beneficial owners",
+      "sectionSubtitle": "Beneficiaries \/ shareholders \/ Beneficial Owners",
+      "additionalSectionSubtitle": "Additional beneficiaries \/ shareholders \/ beneficial owners",
+      "addButtonTitle": "beneficiary \/ shareholder \/ beneficial owner",
+      "nominationSectionDescription": {
+        "string": "You are required under the <i>Anti-Money Laundering and Counter-Terrorism Financing Act 2006<\/i> to identify anyone who directly or indirectly owns 25% or more of the company acting as trustee.If you cannot identify these people, identify anyone who directly or indirectly controls the company acting as trustee or the trust.You must also record the details of anyone who is a beneficiary of the trust."
+      },
+      "additionalPersonSectionDescription": "Add any additional beneficiaries of the trust, or shareholders of the trustee company with a 25% or more share ownership, or beneficial owners who are entitled to 25% or more of the trust or someone who directly or indirectly controls the trust.",
+      "personRoleBothDescription": "Both beneficiary and shareholder",
+      "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder \/ Beneficial owner details",
+      "needsShareholder": true,
+      "needsMember": false,
+      "needsBeneficiary": true,
+      "needsBeneficialOwner": true,
+      "personTypeDropdownOptions": [
+        {
+          "value": "beneficiary",
+          "label": "Beneficiary"
+        },
+        {
+          "value": "shareholder",
+          "label": "Shareholder"
+        },
+        {
+          "value": "beneficiaryAndShareholder",
+          "label": "Both beneficiary and shareholder"
+        },
+        {
+          "value": "beneficialOwner",
+          "label": "Beneficial owner"
+        }
+      ]
+    },
+    "hasEnoughTrustees": false,
+    "hasbeneficiaryclasses": "no",
+    "investorsWithRoles": [
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "MIS Trust Account",
+      "bsb": "062003",
+      "accountnumber": "32163541",
+      "nickname": "",
+      "directdebitamount": "1000.00",
+      "existing": true,
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+      
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+        
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

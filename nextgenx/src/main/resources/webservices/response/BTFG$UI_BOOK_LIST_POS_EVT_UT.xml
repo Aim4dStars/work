@@ -1,0 +1,629 @@
+
+        
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_bp_cont_pos_evt" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-08-14 21:38:42.519698000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>20-JAN-2014</val></date_from>
+    <date_to><val>31-DEC-4712</val></date_to>
+    <current_of_time><val>2014-08-14T09:34:04.165744000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>bp</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>cont</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>pos</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>evt</name>
+            <hira>4</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>bp_id</name>
+          <type>NrFld</type>
+            <lbl>BP ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cont_type_id</name>
+          <type>NrFld</type>
+            <lbl>Container type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cont_id</name>
+          <type>NrFld</type>
+            <lbl>Container</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_id</name>
+          <type>NrFld</type>
+            <lbl>Asset</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos_name</name>
+          <type>TextFld</type>
+            <lbl>Position</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bal</name>
+          <type>NrFld</type>
+            <lbl>Balance</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos_curry_id</name>
+          <type>NrFld</type>
+            <lbl>Reference currency</lbl>
+        </fld_def>
+        <fld_def>
+          <name>doc_id</name>
+          <type>NrFld</type>
+            <lbl>Order number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ui_wfs_id</name>
+          <type>NrFld</type>
+            <lbl>UI workflow status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>evt_status_id</name>
+          <type>NrFld</type>
+            <lbl>Event status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>meta_typ_id</name>
+          <type>NrFld</type>
+            <lbl>Meta type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_type_id</name>
+          <type>NrFld</type>
+            <lbl>Order type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>medium_id</name>
+          <type>NrFld</type>
+            <lbl>Medium</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cancel_status</name>
+          <type>BoolFld</type>
+            <lbl>Cancel status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_trx_timestp</name>
+          <type>DateTimeFld</type>
+            <lbl>Last transaction date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>book_date</name>
+          <type>DateFld</type>
+            <lbl>Book date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>perf_date</name>
+          <type>DateFld</type>
+            <lbl>Performance date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trx_date</name>
+          <type>DateFld</type>
+            <lbl>Trade date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val_date</name>
+          <type>DateFld</type>
+            <lbl>Value date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>veri_date</name>
+          <type>DateFld</type>
+            <lbl>Verification date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_date</name>
+          <type>DateTimeFld</type>
+            <lbl>Order date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>extl_book_text</name>
+          <type>TextFld</type>
+            <lbl>External booking text</lbl>
+        </fld_def>
+        <fld_def>
+          <name>qty</name>
+          <type>NrFld</type>
+            <lbl>Quantity</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ref_asset_id</name>
+          <type>NrFld</type>
+            <lbl>Reference asset</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ins_by_sec_user</name>
+          <type>TextFld</type>
+            <lbl>Last Avaloq user</lbl>
+        </fld_def>
+        <fld_def>
+          <name>key</name>
+          <type>TextFld</type>
+            <lbl>Key</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val</name>
+          <type>TextFld</type>
+            <lbl>Value</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <bp_list>
+    <bp>
+      <bp_head_list>
+        <bp_head id="1" row_type="title" hira="1" level="bp.head">
+          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>58662</id></ctx></annot><val>58662</val></bp_id>
+        </bp_head>
+      </bp_head_list>
+  <cont_list>
+    <cont>
+      <cont_head_list>
+        <cont_head id="2" row_type="subtitle" hira="2" level="cont.head">
+          <cont_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>7102</id></ctx></annot><val>7102</val></cont_type_id>
+          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>58665</id></ctx></annot><val>58665</val></cont_id>
+        </cont_head>
+      </cont_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="3" row_type="subtitle" hira="3" level="pos.head">
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>10757</id></ctx></annot><val>10757</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>58667</id></ctx></annot><val>BT Cash</val></pos_name>
+          <bal><val>99947038.29</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="4" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>0</id></ctx></annot><val>0</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>124769</id></ctx></annot><val>124769</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:07:00+10:00</val></last_trx_timestp>
+          <book_date><val>2015-01-19</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2015-01-19</val></trx_date>
+          <val_date><val>2015-01-19</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-14T03:07:00+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from Linked Account Name 01</val></extl_book_text>
+          <qty><val>50000000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>378</id></ctx></annot><val>Client onboarding Tech. User</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="5" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-01-22</val></val>
+            </detail>
+            <detail id="6" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120005657</val></val>
+            </detail>
+            <detail id="7" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="8" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+            <detail id="9" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>123456789</val></val>
+            </detail>
+            <detail id="10" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>036081</val></val>
+            </detail>
+            <detail id="11" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Linked Account Name 01</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="12" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>1</id></ctx></annot><val>1</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126448</id></ctx></annot><val>126448</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>7</id></ctx></annot><val>7</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>90</id></ctx></annot><val>90</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:20:44+10:00</val></last_trx_timestp>
+          <book_date><val>2014-07-20</val></book_date>
+          <perf_date><val>2014-07-20</val></perf_date>
+          <trx_date><val>2014-07-20</val></trx_date>
+          <val_date><val>2014-07-20</val></val_date>
+          <veri_date><val>2014-07-20</val></veri_date>
+          <order_date><val>2014-08-14T03:20:38+10:00</val></order_date>
+          <extl_book_text><val>Migration</val></extl_book_text>
+          <qty><val>50000000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>69</id></ctx></annot><val>Automatic Data Transfer</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="13" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>2</id></ctx></annot><val>2</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126878</id></ctx></annot><val>126878</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:21:50+10:00</val></last_trx_timestp>
+          <book_date><val>2015-01-19</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2015-01-19</val></trx_date>
+          <val_date><val>2015-01-19</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-14T03:21:46+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from Linked Account Name 01</val></extl_book_text>
+          <qty><val>50000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>69</id></ctx></annot><val>Automatic Data Transfer</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="14" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2014-09-15</val></val>
+            </detail>
+            <detail id="15" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120005657</val></val>
+            </detail>
+            <detail id="16" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="17" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+            <detail id="18" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>123456789</val></val>
+            </detail>
+            <detail id="19" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>036081</val></val>
+            </detail>
+            <detail id="20" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Linked Account Name 01</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="21" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>3</id></ctx></annot><val>3</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126902</id></ctx></annot><val>126902</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1044</id></ctx></annot><val>1044</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:21:54+10:00</val></last_trx_timestp>
+          <book_date><val>2014-09-10</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2014-09-10</val></trx_date>
+          <val_date><val>2014-09-10</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-14T03:21:54+10:00</val></order_date>
+          <extl_book_text><val>Direct Credit </val></extl_book_text>
+          <qty><val>2345.87</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>69</id></ctx></annot><val>Automatic Data Transfer</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="22" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2014-09-10</val></val>
+            </detail>
+            <detail id="23" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120005657</val></val>
+            </detail>
+            <detail id="24" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="25" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>34298347</val></val>
+            </detail>
+            <detail id="27" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>036152</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="28" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>4</id></ctx></annot><val>4</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126906</id></ctx></annot><val>126906</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>16</id></ctx></annot><val>16</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>161</id></ctx></annot><val>161</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:21:59+10:00</val></last_trx_timestp>
+          <book_date><val>2014-07-31</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2014-07-21</val></trx_date>
+          <val_date><val>2014-07-31</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-14T03:21:58+10:00</val></order_date>
+          <extl_book_text><val>Income payment for BT Cash</val></extl_book_text>
+          <qty><val>1200</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="29" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="30" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>5</id></ctx></annot><val>5</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126953</id></ctx></annot><val>126953</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:22:57+10:00</val></last_trx_timestp>
+          <book_date><val>2014-08-27</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2014-08-27</val></trx_date>
+          <val_date><val>2015-01-19</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-27T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>BPAY payment to TELSTRA MOBILE</val></extl_book_text>
+          <qty><val>-1500</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="31" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>$no_mt950$</val></val>
+            </detail>
+            <detail id="32" row_type="data" hira="5" level="detail">
+              <key><val>payee_custr_ref</val></key>
+              <val><val>3123123</val></val>
+            </detail>
+            <detail id="33" row_type="data" hira="5" level="detail">
+              <key><val>payee_biller_code</val></key>
+              <val><val>7799</val></val>
+            </detail>
+            <detail id="34" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120005657</val></val>
+            </detail>
+            <detail id="35" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="36" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="37" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>6</id></ctx></annot><val>6</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126954</id></ctx></annot><val>126954</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:23:12+10:00</val></last_trx_timestp>
+          <book_date><val>2014-09-10</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2014-09-10</val></trx_date>
+          <val_date><val>2015-01-19</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-09-10T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>BPAY payment to ZAL LIFE INSURANCE</val></extl_book_text>
+          <qty><val>-2750</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="38" row_type="data" hira="5" level="detail">
+              <key><val>payee_custr_ref</val></key>
+              <val><val>1456456</val></val>
+            </detail>
+            <detail id="39" row_type="data" hira="5" level="detail">
+              <key><val>payee_biller_code</val></key>
+              <val><val>787853</val></val>
+            </detail>
+            <detail id="40" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120005657</val></val>
+            </detail>
+            <detail id="41" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="42" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="43" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>7</id></ctx></annot><val>7</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126959</id></ctx></annot><val>126959</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1111</id></ctx></annot><val>1111</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:23:57+10:00</val></last_trx_timestp>
+          <book_date><val>2014-09-10</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2014-09-10</val></trx_date>
+          <val_date><val>2015-01-19</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-09-10T00:00:00+10:00</val></order_date>
+          <extl_book_text><val>Payment to</val></extl_book_text>
+          <qty><val>-1750</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="44" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>benef 1</val></val>
+            </detail>
+            <detail id="45" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>484654457</val></val>
+            </detail>
+            <detail id="46" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>032008</val></val>
+            </detail>
+            <detail id="47" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120005657</val></val>
+            </detail>
+            <detail id="48" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="49" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="50" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>8</id></ctx></annot><val>8</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>126980</id></ctx></annot><val>126980</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>32</id></ctx></annot><val>32</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>620</id></ctx></annot><val>620</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:24:49+10:00</val></last_trx_timestp>
+          <book_date><val>2014-07-25</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2014-07-25</val></trx_date>
+          <val_date><val>2014-07-25</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-14T03:24:48+10:00</val></order_date>
+          <extl_book_text><val>Good Value Payment</val></extl_book_text>
+          <qty><val>50</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="51" row_type="data" hira="4" level="evt.head">
+          <evt_id><annot><ctx><type>doc</type><id>9</id></ctx></annot><val>9</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>127010</id></ctx></annot><val>127010</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-08-14T03:25:18+10:00</val></last_trx_timestp>
+          <book_date><val>2015-01-19</val></book_date>
+          <perf_date><val>2015-01-19</val></perf_date>
+          <trx_date><val>2015-01-19</val></trx_date>
+          <val_date><val>2015-01-19</val></val_date>
+          <veri_date><val>2015-01-19</val></veri_date>
+          <order_date><val>2014-08-14T03:25:17+10:00</val></order_date>
+          <extl_book_text><val>Opened St.George Term Deposit</val></extl_book_text>
+          <qty><val>-450000</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>59456</id></ctx></annot><val>59456</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="52" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Adrian Demo Smith</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+  </evt_list>
+    </pos>
+  </pos_list>
+    </cont>
+  </cont_list>
+    </bp>
+  </bp_list>
+
+  </data>
+</rep:rep>
+

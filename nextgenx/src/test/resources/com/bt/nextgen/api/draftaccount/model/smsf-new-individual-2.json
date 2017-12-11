@@ -1,0 +1,311 @@
+{
+  "accountType": "newIndividualSMSF",
+  "version": "1.0.0",
+  "smsfdetails": {
+    "smsfabn": "",
+    "regdate": "",
+    "registeredforgst": "yes",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "wealthsource": "Additional Sources",
+    "additionalsourceofwealth": "sssss",
+    "smsfname": "ssssssss",
+    "smsfaddress": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "568113"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "registrationstate": "NSW"
+  },
+  "trustees": [
+    {
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "title": "MR",
+      "firstname": "sss",
+      "middlename": "ss",
+      "lastname": "ssss",
+      "preferredname": "sss",
+      "formername": "",
+      "dateofbirth": "01/01/1978",
+      "gender": "male",
+      "mobile": {
+        "value": "0422343434"
+      },
+      "email": {
+        "value": "saaasa@wmail.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": false,
+      "accountType": "newIndividualSMSF",
+      "alternatename": "ssss",
+      "eligibletrustee": "Confirmed",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NT",
+            "expiryDate": "12/12/2020",
+            "documentNumber": "2323232",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "303088",
+        "addressType": "residential",
+        "id": "303088",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "28",
+            "streetName": "West",
+            "streetType": "STREET",
+            "suburb": "NORTH SYDNEY",
+            "state": "NSW",
+            "postcode": "2060",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "303088"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "819261",
+        "addressType": "residential",
+        "id": "819261",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "28",
+            "streetName": "West",
+            "streetType": "STREET",
+            "suburb": "NORTH SYDNEY",
+            "state": "NSW",
+            "postcode": "2060",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "819261"
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "Tax File Number provided",
+      "tfn": "232322"
+    },
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "0DDA4B8A476BF04C304B7DF9A6CC031C332BD1297B3B86D1"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "TestCoreSMSFfivetwosixteen@email.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0425462316",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": true,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "237329650",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "cisId": "20444910070",
+      "title": "Mr",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "accountType": "newIndividualSMSF",
+      "firstname": "Testcoresmsffivetwosixteen",
+      "formername": "FormerName",
+      "lastname": "First",
+      "preferredname": "Prefname",
+      "dateofbirth": "01 May 1986",
+      "mobile": {
+        "value": "0425462316"
+      },
+      "email": {
+        "value": "TestCoreSMSFfivetwosixteen@email.com"
+      },
+      "isDuplicate": false,
+      "eligibletrustee": "Confirmed"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Michelle Hicks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Additional Sources",
+    "additionalsourceoffunds": "sdsds"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": true,
+    "needsTrustees": true,
+    "needsBeneficiary": false,
+    "accountType": "newIndividualSMSF",
+    "investorsWithRoles": [
+      {
+        "isMember": "yes",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false
+      },
+      {
+        "isMember": "no",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false
+      }
+    ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "sdsdssd",
+      "bsb": "082124",
+      "accountnumber": "27362832",
+      "nickname": "dsd",
+      "directdebitamount": "23.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "3.00",
+    "ongoingFees": {
+      "feesComponent": [
+        {
+          "listedSecurities": "1.00",
+          "managedFund": "0.00",
+          "managedPortfolio": "0.00",
+          "termDeposit": "1.00",
+          "cash": "0.00",
+          "label": "Percentage fee component",
+          "valid": true
+        }
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "managedFund": "true",
+          "termDeposit": "true",
+          "slidingScaleFeeTier": [
+            {
+              "lowerBound": "0.00",
+              "upperBound": "111111.00",
+              "percentage": "1.00"
+            },
+            {
+              "lowerBound": "111111.00",
+              "upperBound": "",
+              "percentage": "1.00"
+            }
+          ],
+          "label": "Sliding scale fee component"
+        }
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

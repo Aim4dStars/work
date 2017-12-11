@@ -1,0 +1,305 @@
+{
+  "accountType": "corporateSMSF",
+  "smsfdetails": {
+    "smsfname": "Foobar",
+    "smsfabn": "20000241127",
+    "regdate": "01/01/1982",
+    "registrationstate": "NSW",
+    "registeredforgst": "no",
+    "taxoption": "Tax File Number or exemption not provided",
+    "tfn": "",
+    "exemptionreason": "",
+    "smsfaddress": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "108645"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true
+    },
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340"
+    },
+    "agree": "Verified",
+    "docissuer": "www.superfundlookup.gov.au",
+    "issuedate": "15 Jan 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "companytrustee": {
+    "companyname": "Sam Corp",
+    "asicregisteredname": "Sam Corp",
+    "acn": "000000019",
+    "companyabn": "",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340"
+    },
+    "agreeconditions": "agreed",
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "78116",
+      "addressType": "residential",
+      "id": "78116",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "78116"
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "323957",
+      "addressType": "residential",
+      "id": "323957",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "323957"
+        }
+      ]
+    },
+    "docissuer": "www.asic.gov.au",
+    "issuedate": "15 Jan 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "fullName": "Mr Sam Gibson",
+      "title": "mr",
+      "firstname": "Sam",
+      "middlename": "",
+      "lastname": "Gibson",
+      "preferredname": "",
+      "dateofbirth": "01/01/1982",
+      "gender": "male",
+      "mobile": {
+        "value": "0467970000"
+      },
+      "email": {
+        "value": "sam@ifdow.net"
+      },
+      "preferredcontact": "mobile",
+      "identitydocument": "nonphotodocuments",
+      "isvalid": true,
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "797950",
+        "addressType": "residential",
+        "id": "797950",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "797950"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "481159",
+        "addressType": "residential",
+        "id": "481159",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "481159"
+          }
+        ]
+      },
+      "nonphotodocuments": {
+        "citizenshipdocument": {
+          "documentIssuer": "Australian Government",
+          "issueDate": "01/01/1982",
+          "documentNumber": "1234123",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable"
+        },
+        "financialbenefits": {
+          "documentIssuer": "Foobar",
+          "issueDate": "12/12/2014",
+          "expiryDate": null,
+          "documentNumber": "0101010",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable"
+        },
+        "valid": true
+      }
+    }
+  ],
+  "accountsettings": {
+    "primarycontact": "0",
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "role:": "director",
+        "paymentSetting":"nopayments"
+      },{
+        "isApprover": "true",
+        "role:": "director",
+        "paymentSetting":"nopayments"
+      },{
+        "isApprover": "true",
+        "role:": "director",
+        "paymentSetting":"nopayments"
+      }
+    ]
+  },
+  "shareholderandmembers": {
+      "investorsWithRoles": [
+          {
+              "isShareholder": "no",
+              "isMember": "yes"
+          }
+      ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Sam Account",
+      "bsb": "062000",
+      "accountnumber": "120120",
+      "nickname": "",
+      "directdebitamount": "1000.00"
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    },
+    "estamount": "1000.00"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "accountType": "newIndividualSMSF",
+  "approvalType": "offline",
+  "version": "1.0.0",
+  "smsfdetails": {
+    "smsfabn": "",
+    "regdate": "",
+    "registeredforgst": "no",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "smsfname": "",
+    "smsfaddress": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "valid": false
+    }
+  },
+  "trustees": [{
+    "displayTaxOptions": true,
+    "cismandatory": true,
+    "title": "",
+    "firstname": "",
+    "middlename": "",
+    "lastname": "",
+    "preferredname": "",
+    "formername": "",
+    "gender": "",
+    "mobile": {
+      "value": ""
+    },
+    "email": {
+      "value": ""
+    },
+    "preferredcontact": "",
+    "isvalid": false,
+    "accountType": "newIndividualSMSF",
+    "alternatename": "",
+    "taxcountry": "AU",
+    "taxoption": ""
+  }],
+  "accountsettings": {
+    "investorAccountSettings": [{
+      "isApprover": "true",
+      "hasRoles": false,
+      "hasApprovers": true
+    }],
+    "primarycontact": 0,
+    "adviserName": "Michelle Hicks",
+    "adviserLocation": "South Australia"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": true,
+    "needsTrustees": true,
+    "needsBeneficiary": false,
+    "accountType": "newIndividualSMSF",
+    "investorsWithRoles": [{
+      "isMember": "yes",
+      "needsShareholder": false,
+      "needsMember": true,
+      "needsBeneficiary": false
+    }],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

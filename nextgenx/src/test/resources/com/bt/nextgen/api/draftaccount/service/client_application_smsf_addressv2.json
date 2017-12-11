@@ -1,0 +1,310 @@
+{
+  "version": "1.0.0",
+  "accountType": "newIndividualSMSF",
+  "approvalType": "offline",
+  "smsfdetails": {
+    "smsfabn": "",
+    "smsfname": "NewIndSMSF",
+    "wealthsource": "Additional Sources",
+    "regdate": "",
+    "industry": {
+      "anzsiccode": "7340",
+      "industry": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "registeredforgst": "no",
+    "additionalsourceofwealth": "test",
+    "smsfaddressv2": {
+      "addressType": "residential",
+      "country": "AU",
+      "sameasaddress": "0",
+      "valid": true,
+      "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+      "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+      "existingAddressList": [
+        {
+          "country": "AU",
+          "sameasaddress": "0",
+          "valid": true,
+          "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+          "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+          "existingAddressList": [
+
+          ]
+        }
+      ]
+    }
+  },
+  "directors": [
+
+  ],
+  "trustees": [
+    {
+      "eligibletrustee": "Confirmed",
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "title": "MR",
+      "firstname": "TrusteeOnee",
+      "middlename": "mid",
+      "lastname": "test",
+      "preferredname": "pre",
+      "formername": "",
+      "dateofbirth": "04\/02\/1989",
+      "gender": "male",
+      "mobile": {
+        "value": "0414055555"
+      },
+      "email": {
+        "value": "test1@c.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "alt",
+      "accountType": "newIndividualSMSF",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "04\/02\/2020",
+            "documentNumber": "3214",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "valid": true,
+        "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+        "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+            "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "valid": true,
+        "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+        "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+            "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "Tax File Number provided",
+      "tfn": "555000555",
+      "sameasresaddress": "true"
+    },
+    {
+      "eligibletrustee": "Confirmed",
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "title": "MR",
+      "firstname": "trusteeTwo",
+      "middlename": "mid",
+      "lastname": "test",
+      "preferredname": "pre",
+      "formername": "",
+      "dateofbirth": "04\/02\/1989",
+      "gender": "male",
+      "mobile": {
+        "value": "0454654454"
+      },
+      "email": {
+        "value": "test2@c.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "alt",
+      "accountType": "newIndividualSMSF",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "04\/02\/2020",
+            "documentNumber": "321404",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "valid": true,
+        "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+        "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+            "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "valid": true,
+        "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+        "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "33 Pitt Town Road, MCGRATHS HILL  NSW  2756",
+            "AddressIdentifier": "04OAUEHwjgBwAAAAAIAgEAAAAA4XZ10ADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHQA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "Tax File Number provided",
+      "tfn": "555000555",
+      "sameasresaddress": "true"
+    }
+  ],
+  "investors": [
+
+  ],
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": true,
+    "needsTrustees": true,
+    "needsBeneficiary": false,
+    "accountType": "newIndividualSMSF",
+    "investorsWithRoles": [
+      {
+        "isMember": "yes",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false
+      },
+      {
+        "isMember": "yes",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+
+    ]
+  },
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true,
+        "isApprover": "true"
+      },
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true,
+        "isApprover": "true"
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Bonus"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "test",
+      "bsb": "633133",
+      "accountnumber": "321321",
+      "nickname": "test",
+      "directdebitamount": "10.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "10.00",
+    "ongoingFees": {
+      "feesComponent": [
+        {
+          "cpiindex": true,
+          "amount": "10.00",
+          "label": "Dollar fee component",
+          "slidingScaleFeeTier": [
+
+          ]
+        },
+        {
+          "label": "Percentage fee component",
+          "listedSecurities": "1.00",
+          "managedFund": "1.00",
+          "managedPortfolio": "1.00",
+          "cash": "1.00",
+          "termDeposit": "1.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        }
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

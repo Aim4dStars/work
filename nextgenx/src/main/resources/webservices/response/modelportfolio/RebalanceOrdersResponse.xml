@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_rebal_trig_doc_doc_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2016-03-09 11:54:32.206184000 on afp010c by 201667385 -->
+
+<metadata>
+<empty_rep><val>false</val></empty_rep>
+<current_of_time><val>2016-03-09T00:54:32+11:00</val></current_of_time>
+</metadata>
+
+<def>
+<version>2.0</version>
+<rep_def>
+<style>hira</style>
+<lang id="1">en</lang>
+<hira_def>
+<grp_list>
+<grp_def>
+<name>rebal_det</name>
+<hira>1</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+</grp_list>
+</hira_def>
+<row_def>
+<fld_list>
+<fld_def>
+<name>dummy</name>
+<type>TextFld</type>
+<lbl> </lbl>
+</fld_def>
+<fld_def>
+<name>rebal_det_doc_id</name>
+<type>NrFld</type>
+<lbl>Rebal Details DOC ID</lbl>
+</fld_def>
+<fld_def>
+<name>rebal_date</name>
+<type>DateFld</type>
+<lbl>Rebal Date</lbl>
+</fld_def>
+<fld_def>
+<name>model_name</name>
+<type>TextFld</type>
+<lbl>Model Name</lbl>
+</fld_def>
+<fld_def>
+<name>model_sym</name>
+<type>TextFld</type>
+<lbl>Model Key</lbl>
+</fld_def>
+<fld_def>
+<name>avsr_id</name>
+<type>TextFld</type>
+<lbl>Adviser</lbl>
+</fld_def>
+<fld_def>
+<name>client</name>
+<type>TextFld</type>
+<lbl>Client</lbl>
+</fld_def>
+<fld_def>
+<name>asset</name>
+<type>TextFld</type>
+<lbl>Asset</lbl>
+</fld_def>
+<fld_def>
+<name>mp_pref</name>
+<type>TextFld</type>
+<lbl>Preference</lbl>
+</fld_def>
+<fld_def>
+<name>model_wgt</name>
+<type>NrFld</type>
+<lbl>Optimum Weight</lbl>
+</fld_def>
+<fld_def>
+<name>trg_wgt</name>
+<type>NrFld</type>
+<lbl>Target Weight</lbl>
+</fld_def>
+<fld_def>
+<name>curr_wgt</name>
+<type>NrFld</type>
+<lbl>Actual Weight</lbl>
+</fld_def>
+<fld_def>
+<name>diff_wgt</name>
+<type>NrFld</type>
+<lbl>Diff Weight</lbl>
+</fld_def>
+<fld_def>
+<name>estim_trg_val</name>
+<type>NrFld</type>
+<lbl>Target Value</lbl>
+</fld_def>
+<fld_def>
+<name>curr_val</name>
+<type>NrFld</type>
+<lbl>Actual Value</lbl>
+</fld_def>
+<fld_def>
+<name>estim_diff_val</name>
+<type>NrFld</type>
+<lbl>Diff. Val. From</lbl>
+</fld_def>
+<fld_def>
+<name>estim_trg_qty</name>
+<type>NrFld</type>
+<lbl>Target Quantity</lbl>
+</fld_def>
+<fld_def>
+<name>curr_qty</name>
+<type>NrFld</type>
+<lbl>Actual Quantity</lbl>
+</fld_def>
+<fld_def>
+<name>estim_diff_qty</name>
+<type>NrFld</type>
+<lbl>Difference Quantity</lbl>
+</fld_def>
+<fld_def>
+<name>buy_sell</name>
+<type>TextFld</type>
+<lbl>Buy/Sell</lbl>
+</fld_def>
+<fld_def>
+<name>sell_off</name>
+<type>BoolFld</type>
+<lbl>Sell Off</lbl>
+</fld_def>
+<fld_def>
+<name>order_val</name>
+<type>NrFld</type>
+<lbl>Order Value</lbl>
+</fld_def>
+<fld_def>
+<name>order_qty</name>
+<type>NrFld</type>
+<lbl>Order Quantity</lbl>
+</fld_def>
+<fld_def>
+<name>estim_final_wgt</name>
+<type>NrFld</type>
+<lbl>Estimated Final Weight</lbl>
+</fld_def>
+<fld_def>
+<name>estim_final_val</name>
+<type>NrFld</type>
+<lbl>Estimated Final Value</lbl>
+</fld_def>
+<fld_def>
+<name>estim_final_qty</name>
+<type>NrFld</type>
+<lbl>Estimated Final Quantity</lbl>
+</fld_def>
+<fld_def>
+<name>reason_for_excl</name>
+<type>TextFld</type>
+<lbl>Reason for Exclusion</lbl>
+</fld_def>
+
+</fld_list>
+</row_def>
+</rep_def>
+</def>
+
+<data>
+<rebal_det_list>
+<rebal_det>
+<rebal_det_head_list>
+<rebal_det_head id="2-1" row_type="data" hira="1" level="rebal_det.head">
+<rebal_det_doc_id><val>2930837</val></rebal_det_doc_id>
+<rebal_date><val>2016-03-07</val></rebal_date>
+<model_name><val>TMP Test</val></model_name>
+<model_sym><val>TMPTEST100</val></model_sym>
+<avsr_id><annot><displ_text>OE Dennis  Di Bartolo (Adviser Position)</displ_text><ctx><type>person</type><id>100793</id></ctx></annot><val>100793</val></avsr_id>
+<det_list>
+<det id="4-2" row_type="data" hira="2" level="det">
+<client><annot><displ_text>L personbcbdaji</displ_text><ctx><type>bp</type><id>134442</id></ctx></annot><val>134442</val></client>
+<asset><annot><displ_text>BHP Billiton Limited</displ_text><ctx><type>asset</type><id>110523</id></ctx></annot><val>110523</val></asset>
+<mp_pref><val>test preference</val></mp_pref>
+<model_wgt><val>90</val></model_wgt>
+<trg_wgt><val>90</val></trg_wgt>
+<curr_wgt><val>0</val></curr_wgt>
+<diff_wgt><val>90</val></diff_wgt>
+<estim_trg_val><val>44999.98</val></estim_trg_val>
+<curr_val><val>0</val></curr_val>
+<estim_diff_val><val>44999.98</val></estim_diff_val>
+<estim_trg_qty><val>2709.21</val></estim_trg_qty>
+<curr_qty><val>0</val></curr_qty>
+<estim_diff_qty><val>2709.21</val></estim_diff_qty>
+<buy_sell><val>Buy</val></buy_sell>
+<sell_off><val>false</val></sell_off>
+<order_val><val>44996.49</val></order_val>
+<price><val>20</val></price>
+<order_qty><val>2709</val></order_qty>
+<estim_final_wgt><annot><displ_text></displ_text></annot><val>.9</val></estim_final_wgt>
+<estim_final_val><val>44996.49</val></estim_final_val>
+<estim_final_qty><annot><displ_text></displ_text></annot><val>2709</val></estim_final_qty>
+<reason_for_excl><val>Good reason</val></reason_for_excl>
+</det>
+</det_list>
+</rebal_det_head>
+</rebal_det_head_list>
+</rebal_det>
+<rebal_det>
+<rebal_det_head_list>
+<rebal_det_head id="6-3" row_type="data" hira="1" level="rebal_det.head">
+<rebal_det_doc_id><val>2930836</val></rebal_det_doc_id>
+<rebal_date><val>2016-03-07</val></rebal_date>
+<model_name><val>TMP Test</val></model_name>
+<model_sym><val>TMPTEST100</val></model_sym>
+<avsr_id><annot><displ_text>OE Dennis  Di Bartolo (Adviser Position)</displ_text><ctx><type>person</type><id>100793</id></ctx></annot><val>100793</val></avsr_id>
+<det_list>
+<det id="8-4" row_type="data" hira="2" level="det">
+<client><annot><displ_text>N personbcacgig</displ_text><ctx><type>bp</type><id>337107</id></ctx></annot><val>337107</val></client>
+<asset><annot><displ_text>BHP Billiton Limited</displ_text><ctx><type>asset</type><id>110523</id></ctx></annot><val>110523</val></asset>
+<model_wgt><val>90</val></model_wgt>
+<trg_wgt><val>90</val></trg_wgt>
+<curr_wgt><val>0</val></curr_wgt>
+<diff_wgt><val>90</val></diff_wgt>
+<estim_trg_val><val>26999.99</val></estim_trg_val>
+<curr_val><val>0</val></curr_val>
+<estim_diff_val><val>26999.99</val></estim_diff_val>
+<estim_trg_qty><val>1625.53</val></estim_trg_qty>
+<curr_qty><val>0</val></curr_qty>
+<estim_diff_qty><val>1625.53</val></estim_diff_qty>
+<buy_sell><val>Buy</val></buy_sell>
+<sell_off><val>false</val></sell_off>
+<order_qty><val>1625</val></order_qty>
+<estim_final_wgt><annot><displ_text></displ_text></annot><val>.89970622402129356784146298950701207196</val></estim_final_wgt>
+<estim_final_val><val>26991.1867206388070352438896852103621588</val></estim_final_val>
+<estim_final_qty><annot><displ_text></displ_text></annot><val>1625</val></estim_final_qty>
+</det>
+</det_list>
+</rebal_det_head>
+</rebal_det_head_list>
+</rebal_det>
+</rebal_det_list>
+
+</data>
+</rep:rep>

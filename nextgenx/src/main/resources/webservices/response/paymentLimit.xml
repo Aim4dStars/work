@@ -1,0 +1,19 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>&lt;bp:bp_rsp xmlns:bp="http://btfin.com/ABS/TrxService/BP/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj"&gt;
+                    &lt;data&gt;
+                    &lt;bp id="11658" ctxId="11658" ctxType="obj_bp"&gt;Taylor Martin&lt;/bp&gt;
+                    &lt;/data&gt;
+                    &lt;rsp_list&gt;
+                    &lt;exec doc_id="4249"&gt;
+                    &lt;action&gt;do&lt;/action&gt;
+                    &lt;/exec&gt;
+                    &lt;/rsp_list&gt;
+                    &lt;/bp:bp_rsp&gt;</SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

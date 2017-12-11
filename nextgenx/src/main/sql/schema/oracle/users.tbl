@@ -1,0 +1,11 @@
+BEGIN
+   EXECUTE IMMEDIATE 'DROP TABLE users';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE != -942 THEN
+         RAISE;
+      END IF;
+END;
+/
+create table users(user_id varchar(20) primary key, adviser_id varchar(20), isfirsttime_loggedin char(1), tnc_accepted char(1), tnc_accepted_on date);
+

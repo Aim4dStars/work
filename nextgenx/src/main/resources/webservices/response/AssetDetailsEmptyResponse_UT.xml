@@ -1,0 +1,79 @@
+
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_asset_list_asset" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<!-- 2014-06-10 19:28:19.915236000 on afd030a by AVALOQ -->
+
+		 <metadata>
+		 <empty_rep><val>true</val></empty_rep>
+		  </metadata>
+
+		  <def>
+		    <version>2.0</version>
+		    <rep_def>
+		      <style>flat</style>
+		      <lang id="1">en</lang>
+		      <hira_def>
+			<grp_list>
+			  <grp_def>
+			    <name>asset</name>
+			    <hira>1</hira>
+			    <has_head>true</has_head>
+			    <has_foot>false</has_foot>
+			  </grp_def>
+			</grp_list>
+		      </hira_def>
+		      <row_def>
+			<fld_list>
+			<fld_def>
+			  <name>name</name>
+			  <type>TextFld</type>
+			    <lbl>Name</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>issuer</name>
+			  <type>TextFld</type>
+			    <lbl>Issuer</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>grp</name>
+			  <type>TextFld</type>
+			    <lbl>Group</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>clustr</name>
+			  <type>TextFld</type>
+			    <lbl>Cluster</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>class</name>
+			  <type>TextFld</type>
+			    <lbl>Class</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>msc_sec</name>
+			  <type>TextFld</type>
+			    <lbl>Sector</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>msc_grp</name>
+			  <type>TextFld</type>
+			    <lbl>Industry group</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>key</name>
+			  <type>TextFld</type>
+			    <lbl>Key</lbl>
+			</fld_def>
+			<fld_def>
+			  <name>maturity_date</name>
+			  <type>DateFld</type>
+			    <lbl>Maturity date</lbl>
+			</fld_def>
+
+			</fld_list>
+		      </row_def>
+		    </rep_def>
+		  </def>
+
+		  <data>
+		  </data>
+		</rep:rep>

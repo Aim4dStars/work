@@ -1,0 +1,77 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header />
+	<env:Body>
+		<ns3:AvaloqGatewayResponseMsg
+			xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+			<ResponseDetails>
+				<SuccessResponse>
+					<!-- 2014-04-04 21:28:00 on AFD030S by AVALOQ -->
+					<srch:srch_rsp xmlns:srch="http://btfin.com/ABS/SrchService/V1_0"
+						xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj">
+						<hdr>
+							<req_id>8dg934t3-d22g-4cc2-8t90-51c9b62f3294</req_id>
+						</hdr>
+						<data>
+                            <person_list>
+                                <person>
+                                    <person>
+                                        <annot>
+                                            <displ_text>Deepshikha Singh</displ_text>
+                                            <ctx>
+                                                <type>obj_person</type>
+                                                <id>83351</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>83351</val>
+                                    </person>
+                                    <oracle_user>
+                                        <val>10000667</val>
+                                    </oracle_user>
+                                    <first_name>
+                                        <val>Deepshikha</val>
+                                    </first_name>
+                                    <middle_name>
+                                        <val />
+                                    </middle_name>
+                                    <last_name>
+                                        <val>Singh</val>
+                                    </last_name>
+                                    <full_name>
+                                        <val>Deepshikha Singh</val>
+                                    </full_name>
+                                    <primary_email>
+                                        <val>abc@gmail.com</val>
+                                    </primary_email>
+                                    <primary_mobile>
+                                        <val />
+                                    </primary_mobile>
+                                    <domi_suburb>
+                                        <val>Kirribilli</val>
+                                    </domi_suburb>
+                                    <domi_state>
+                                        <val>New South Wales</val>
+                                    </domi_state>
+                                    <open_date>
+                                        <val>2015-01-20</val>
+                                    </open_date>
+                                    <user_role>
+                                        <annot>
+                                            <displ_text>660277</displ_text>
+                                            <ctx>
+                                                <type/>
+                                                <id>660277</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>660277</val>
+                                    </user_role>
+                                </person>
+                            </person_list>
+						</data>
+					</srch:srch_rsp>
+
+
+				</SuccessResponse>
+			</ResponseDetails>
+		</ns3:AvaloqGatewayResponseMsg>
+	</env:Body>
+</env:Envelope>

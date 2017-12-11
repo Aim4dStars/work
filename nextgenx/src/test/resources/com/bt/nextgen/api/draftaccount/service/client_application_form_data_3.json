@@ -1,0 +1,120 @@
+{
+    "brokerpositionid": "BROKER_ID",
+    "productid": "A13EEBEC6074850121E40555F623A1A479986A9E316B5F70",
+    "accountType": "individual",
+    "investors": [{
+    "title": "miss",
+    "firstname": "Emmy",
+    "lastname": "Loo",
+    "preferredname": "Em",
+    "dateofbirth": "12/12/1899",
+    "gender": "female",
+    "taxcountry": "AW",
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "norfolk_island_res",
+    "mobile": {
+        "value": "45000777"
+    },
+    "email": {
+        "value": "mail@email.tv"
+    },
+    "resaddress": {
+        "componentised": false,
+        "addressLine1": "10 First May St",
+        "addressLine2": "",
+        "country": "AW",
+        "city": "Vologda",
+        "pin": "124443",
+        "state": "Vologodskaya",
+        "verified": true,
+        "addressType": "residential",
+        "sameasaddress": "0"
+    },
+    "postaladdress": {
+        "componentised": false,
+        "addressLine1": "7/9 Lulu St",
+        "addressLine2": "",
+        "country": "CI",
+        "city": "Lu",
+        "pin": "000",
+        "state": "-",
+        "verified": true,
+        "addressType": "postal",
+        "existingAddressList": [
+            {
+                "componentised": false,
+                "addressLine1": "10 First May St",
+                "addressLine2": "",
+                "country": "AW",
+                "city": "Vologda",
+                "pin": "124443",
+                "state": "Vologodskaya",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "0",
+                "id": "636200"
+            }
+        ],
+        "sameasaddress": "0"
+    },
+    "secondarymobile": {
+        "value": "867845453899"
+    },
+    "homenumber": {
+        "value": "65777"
+    },
+    "worknumber": {
+        "value": "4000"
+    },
+    "internationaldocuments": {
+        "passport": {
+            "documentIssuer": "GS",
+            "issueDate": "05/06/2011",
+            "expiryDate": "30/11/2222",
+            "documentNumber": "31418",
+            "verificationSource": "certifiedcopy",
+            "englishTranslation": "notapplicable"
+        }
+    },
+    "preferredcontact": "homenumber"
+}], "accountsettings": {
+    "investorAccountSettings": [
+        {
+            "paymentSetting":"linkedaccountsonly"
+        }
+    ],
+    "professionalspayment": "linkedaccountsonly"
+}, "linkedaccounts": {
+    "primaryLinkedAccount": {
+        "accountname": "LiiiLuuu",
+        "bsb": "062005",
+        "accountnumber": "333666",
+        "nickname": "Yow",
+        "directdebitamount": "300.00"
+    },
+    "otherLinkedAccount": []
+}, "fees": {
+    "ongoingFees": {
+        "feesComponent": [
+            {
+                "cpiindex": false,
+                "amount": "0.00",
+                "label": "Dollar fee component"
+            }
+        ],
+        "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+        "feesComponent": [
+            {
+            	"managedFund": "10.00",
+                "managedPortfolio": "100.00",
+                "termDeposit": "99.00",
+                "cash": "1.00",
+                "label": "Percentage fee component"
+            }
+        ],
+        "type": "Licensee advice fee"
+    },
+    "estamount": "0.00"
+}}

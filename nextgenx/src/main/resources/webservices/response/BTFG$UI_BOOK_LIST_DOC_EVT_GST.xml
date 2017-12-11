@@ -1,0 +1,1020 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header />
+	<env:Body>
+		<ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+			<ResponseDetails>
+				<SuccessResponse>
+
+			<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_dg_avsr_evt_gst" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+			<!-- 2014-09-30 14:19:49.837891000 on afd030n by 201601388 -->
+			
+			  <metadata>
+			    <empty_rep><val>false</val></empty_rep>
+			    <current_of_time><val>2014-09-30T04:13:22.778002000Z</val></current_of_time>
+			  </metadata>
+			
+			  <def>
+			    <version>2.0</version>
+			    <rep_def>
+			      <style>hira</style>
+			      <lang id="1">en</lang>
+			      <hira_def>
+			        <grp_list>
+			          <grp_def>
+			            <name>dg</name>
+			            <hira>1</hira>
+			            <has_head>true</has_head>
+			            <has_foot>false</has_foot>
+			          </grp_def>
+			          <grp_def>
+			            <name>avsr</name>
+			            <hira>2</hira>
+			            <has_head>true</has_head>
+			            <has_foot>false</has_foot>
+			          </grp_def>
+			          <grp_def>
+			            <name>evt</name>
+			            <hira>3</hira>
+			            <has_head>true</has_head>
+			            <has_foot>false</has_foot>
+			          </grp_def>
+			        </grp_list>
+			      </hira_def>
+			      <row_def>
+			        <fld_list>
+			        <fld_def>
+			          <name>left</name>
+			          <type>TextFld</type>
+			            <lbl></lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>dg_oe_owner</name>
+			          <type>TextFld</type>
+			            <lbl>Dealer group OE owner</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>dg_oe_owner_abn</name>
+			          <type>TextFld</type>
+			            <lbl>Dealer group OE owner ABN</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>avsr_person</name>
+			          <type>TextFld</type>
+			            <lbl>Adviser person</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>avsr_person_phone</name>
+			          <type>TextFld</type>
+			            <lbl>Adviser person phone</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>doc_id</name>
+			          <type>NrFld</type>
+			            <lbl>Order ID</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>order_type_id</name>
+			          <type>NrFld</type>
+			            <lbl>Order Type ID</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>veri_date</name>
+			          <type>DateFld</type>
+			            <lbl>Verification date</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>trx_date</name>
+			          <type>DateFld</type>
+			            <lbl>Trade date</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>val_date</name>
+			          <type>DateFld</type>
+			            <lbl>Value date</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>bp_id</name>
+			          <type>NrFld</type>
+			            <lbl>Business partner</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>cont_id</name>
+			          <type>NrFld</type>
+			            <lbl>Container</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>pos</name>
+			          <type>TextFld</type>
+			            <lbl>Position</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>book_text</name>
+			          <type>TextFld</type>
+			            <lbl>Booking text</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>amt_wo_gst</name>
+			          <type>NrFld</type>
+			            <lbl>Fee excl. GST</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>gst</name>
+			          <type>NrFld</type>
+			            <lbl>GST</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>amt_w_gst</name>
+			          <type>NrFld</type>
+			            <lbl>Fee incl. GST</lbl>
+			        </fld_def>
+			        <fld_def>
+			          <name>pos_curry_id</name>
+			          <type>NrFld</type>
+			            <lbl>Currency</lbl>
+			        </fld_def>
+			
+			        </fld_list>
+			      </row_def>
+			    </rep_def>
+			  </def>
+			
+			  <data>
+			  <dg_list>
+			    <dg>
+			      <dg_head_list>
+			        <dg_head id="1" row_type="title" hira="1" level="dg.head">
+			          <dg_oe_owner><val>Not Available</val></dg_oe_owner>
+			          <amt_wo_gst><val>50045172.24</val></amt_wo_gst>
+			          <gst><val>-87.98</val></gst>
+			          <amt_w_gst><val>50045084.26</val></amt_w_gst>
+			        </dg_head>
+			      </dg_head_list>
+			  <avsr_list>
+			    <avsr>
+			      <avsr_head_list>
+			        <avsr_head id="2" row_type="subtitle" hira="2" level="avsr.head">
+			          <avsr_person><val>Not Available</val></avsr_person>
+			          <amt_wo_gst><val>50045172.24</val></amt_wo_gst>
+			          <gst><val>-87.98</val></gst>
+			          <amt_w_gst><val>50045084.26</val></amt_w_gst>
+			        </avsr_head>
+			      </avsr_head_list>
+			  <evt_list>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="3" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217966</id></ctx></annot><val>217966</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>293</id></ctx></annot><val>293</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2014-10-08</val></trx_date>
+			          <val_date><val>2014-10-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>74127</id></ctx></annot><val>74127</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>74214</id></ctx></annot><val>WBC Westpac Banking Corp</val></pos>
+			          <book_text><val>In Specie Transfer Out: WBC Westpac Banking Corp</val></book_text>
+			          <amt_wo_gst><val>-3000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-3000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="4" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217969</id></ctx></annot><val>217969</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>293</id></ctx></annot><val>293</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2014-10-08</val></trx_date>
+			          <val_date><val>2014-10-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>74127</id></ctx></annot><val>74127</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>74309</id></ctx></annot><val>TEN Ten Network Holdings Limited</val></pos>
+			          <book_text><val>In Specie Transfer Out: TEN Ten Network Holdings Limited</val></book_text>
+			          <amt_wo_gst><val>-1000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-1000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="5" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223543</id></ctx></annot><val>223543</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-623</id></ctx></annot><val>-623</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-02</val></trx_date>
+			          <val_date><val>2015-03-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>On-Going Advice Fee</val></book_text>
+			          <amt_wo_gst><val>1813.2</val></amt_wo_gst>
+			          <gst><val>181.32</val></gst>
+			          <amt_w_gst><val>1994.52</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="6" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223552</id></ctx></annot><val>223552</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-624</id></ctx></annot><val>-624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2014-10-02</val></trx_date>
+			          <val_date><val>2014-10-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>120.81</val></amt_wo_gst>
+			          <gst><val>12.08</val></gst>
+			          <amt_w_gst><val>132.89</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="7" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223561</id></ctx></annot><val>223561</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-624</id></ctx></annot><val>-624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2014-11-02</val></trx_date>
+			          <val_date><val>2014-11-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>1970.35</val></amt_wo_gst>
+			          <gst><val>197.04</val></gst>
+			          <amt_w_gst><val>2167.39</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="8" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223570</id></ctx></annot><val>223570</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-624</id></ctx></annot><val>-624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2014-12-02</val></trx_date>
+			          <val_date><val>2014-12-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>4351.16</val></amt_wo_gst>
+			          <gst><val>435.12</val></gst>
+			          <amt_w_gst><val>4786.28</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="9" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223579</id></ctx></annot><val>223579</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-624</id></ctx></annot><val>-624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-01-02</val></trx_date>
+			          <val_date><val>2015-01-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>6351.31</val></amt_wo_gst>
+			          <gst><val>635.13</val></gst>
+			          <amt_w_gst><val>6986.44</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="10" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223588</id></ctx></annot><val>223588</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-624</id></ctx></annot><val>-624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-02-02</val></trx_date>
+			          <val_date><val>2015-02-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>6419.55</val></amt_wo_gst>
+			          <gst><val>641.95</val></gst>
+			          <amt_w_gst><val>7061.5</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="11" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223597</id></ctx></annot><val>223597</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-624</id></ctx></annot><val>-624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-02</val></trx_date>
+			          <val_date><val>2015-03-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>5799.23</val></amt_wo_gst>
+			          <gst><val>579.92</val></gst>
+			          <amt_w_gst><val>6379.15</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="12" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225553</id></ctx></annot><val>225553</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>622</id></ctx></annot><val>622</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>AVSR One-Off Advice fee</val></book_text>
+			          <amt_wo_gst><val>-181.82</val></amt_wo_gst>
+			          <gst><val>-18.18</val></gst>
+			          <amt_w_gst><val>-200</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="13" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225556</id></ctx></annot><val>225556</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Opened BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>-5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="14" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225556</id></ctx></annot><val>225556</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76071</id></ctx></annot><val>BT Term Deposit</val></pos>
+			          <book_text><val>Opened BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="15" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225653</id></ctx></annot><val>225653</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Opened BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>-5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="16" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225653</id></ctx></annot><val>225653</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76105</id></ctx></annot><val>BT Term Deposit</val></pos>
+			          <book_text><val>Opened BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="17" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225658</id></ctx></annot><val>225658</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Opened BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>-5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="18" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225658</id></ctx></annot><val>225658</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76111</id></ctx></annot><val>BT Term Deposit</val></pos>
+			          <book_text><val>Opened BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="19" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225665</id></ctx></annot><val>225665</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>5801</id></ctx></annot><val>5801</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Withdrawal BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="20" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225665</id></ctx></annot><val>225665</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>5801</id></ctx></annot><val>5801</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76111</id></ctx></annot><val>BT Term Deposit</val></pos>
+			          <book_text><val>Withdrawal BT Term Deposit</val></book_text>
+			          <amt_wo_gst><val>-5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="21" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225723</id></ctx></annot><val>225723</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-1174</id></ctx></annot><val>-1174</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Application for </val></book_text>
+			          <amt_wo_gst><val>25000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>25000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="22" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225723</id></ctx></annot><val>225723</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1174</id></ctx></annot><val>1174</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Application for </val></book_text>
+			          <amt_wo_gst><val>-25000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-25000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="23" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225723</id></ctx></annot><val>225723</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-1174</id></ctx></annot><val>-1174</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>74127</id></ctx></annot><val>74127</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>74129</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Application for </val></book_text>
+			          <amt_wo_gst><val>-25000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-25000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="24" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225723</id></ctx></annot><val>225723</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1174</id></ctx></annot><val>1174</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>74127</id></ctx></annot><val>74127</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>74129</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Application for </val></book_text>
+			          <amt_wo_gst><val>25000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>25000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="25" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225727</id></ctx></annot><val>225727</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>555</id></ctx></annot><val>555</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-16</val></trx_date>
+			          <val_date><val>2015-03-16</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76143</id></ctx></annot><val>CLT.01.PORTF_DIR Standing Order (Domestic), AUD 1,000.00 Monthly (Rolling) (16.03.2015-13.04.2015) (781)</val></pos>
+			          <book_text><val>New standing order (Pay Anyone): AUD</val></book_text>
+			          <amt_wo_gst><val>1</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>1</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="26" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225728</id></ctx></annot><val>225728</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>553</id></ctx></annot><val>553</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-16</val></trx_date>
+			          <val_date><val>2015-03-16</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76145</id></ctx></annot><val>CLT.01.PORTF_DIR Standing Order (Domestic), AUD 1,000.00 Monthly (Rolling) (16.03.2015-13.04.2015) (782)</val></pos>
+			          <book_text><val>New standing order (BPay): AUD</val></book_text>
+			          <amt_wo_gst><val>1</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>1</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="27" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>225729</id></ctx></annot><val>225729</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>554</id></ctx></annot><val>554</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-16</val></trx_date>
+			          <val_date><val>2015-03-16</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>76147</id></ctx></annot><val>CLT.01.PORTF_DIR Standing Order (Domestic), AUD 1,000.00 Monthly (Rolling) (16.03.2015-13.04.2015) (783)</val></pos>
+			          <book_text><val>New standing order (BPay - ATO): AUD</val></book_text>
+			          <amt_wo_gst><val>1</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>1</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="28" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>215599</id></ctx></annot><val>215599</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-12</val></trx_date>
+			          <val_date><val>2015-03-12</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Direct Debit Deposit from Linked Account Name 01</val></book_text>
+			          <amt_wo_gst><val>50000000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>50000000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="29" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217039</id></ctx></annot><val>217039</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-12</val></trx_date>
+			          <val_date><val>2015-03-12</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Direct Debit Deposit from Linked Account Name 01</val></book_text>
+			          <amt_wo_gst><val>50000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>50000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="30" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217174</id></ctx></annot><val>217174</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-12</val></trx_date>
+			          <val_date><val>2015-03-12</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Opened St.George Term Deposit</val></book_text>
+			          <amt_wo_gst><val>-450000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-450000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="31" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217174</id></ctx></annot><val>217174</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-12</val></trx_date>
+			          <val_date><val>2015-03-12</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73861</id></ctx></annot><val>St.George Term Deposit</val></pos>
+			          <book_text><val>Opened St.George Term Deposit</val></book_text>
+			          <amt_wo_gst><val>450000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>450000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="32" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217205</id></ctx></annot><val>217205</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-12</val></trx_date>
+			          <val_date><val>2015-03-12</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Opened BankSA Term Deposit</val></book_text>
+			          <amt_wo_gst><val>-5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>-5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="33" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>217205</id></ctx></annot><val>217205</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-12</val></trx_date>
+			          <val_date><val>2015-03-12</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73886</id></ctx></annot><val>BankSA Term Deposit</val></pos>
+			          <book_text><val>Opened BankSA Term Deposit</val></book_text>
+			          <amt_wo_gst><val>5000</val></amt_wo_gst>
+			          <gst><val>0</val></gst>
+			          <amt_w_gst><val>5000</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="34" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223543</id></ctx></annot><val>223543</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>623</id></ctx></annot><val>623</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-02</val></trx_date>
+			          <val_date><val>2015-03-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>On-Going Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-1813.2</val></amt_wo_gst>
+			          <gst><val>-181.32</val></gst>
+			          <amt_w_gst><val>-1994.52</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="35" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223552</id></ctx></annot><val>223552</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2014-10-02</val></trx_date>
+			          <val_date><val>2014-10-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-120.81</val></amt_wo_gst>
+			          <gst><val>-12.08</val></gst>
+			          <amt_w_gst><val>-132.89</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="36" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223561</id></ctx></annot><val>223561</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2014-11-02</val></trx_date>
+			          <val_date><val>2014-11-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-1970.35</val></amt_wo_gst>
+			          <gst><val>-197.04</val></gst>
+			          <amt_w_gst><val>-2167.39</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="37" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223570</id></ctx></annot><val>223570</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2014-12-02</val></trx_date>
+			          <val_date><val>2014-12-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-4351.16</val></amt_wo_gst>
+			          <gst><val>-435.12</val></gst>
+			          <amt_w_gst><val>-4786.28</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="38" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223579</id></ctx></annot><val>223579</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-01-02</val></trx_date>
+			          <val_date><val>2015-01-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-6351.31</val></amt_wo_gst>
+			          <gst><val>-635.13</val></gst>
+			          <amt_w_gst><val>-6986.44</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="39" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223588</id></ctx></annot><val>223588</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-02-02</val></trx_date>
+			          <val_date><val>2015-02-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-6419.55</val></amt_wo_gst>
+			          <gst><val>-641.95</val></gst>
+			          <amt_w_gst><val>-7061.5</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="40" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223597</id></ctx></annot><val>223597</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2015-03-02</val></trx_date>
+			          <val_date><val>2015-03-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-5799.23</val></amt_wo_gst>
+			          <gst><val>-579.92</val></gst>
+			          <amt_w_gst><val>-6379.15</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="41" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>223611</id></ctx></annot><val>223611</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>633</id></ctx></annot><val>633</val></order_type_id>
+			          <veri_date><val>2015-03-12</val></veri_date>
+			          <trx_date><val>2014-10-02</val></trx_date>
+			          <val_date><val>2014-10-02</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>74164</id></ctx></annot><val>74164</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>74166</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Investment Management Fee</val></book_text>
+			          <amt_wo_gst><val>-648.94</val></amt_wo_gst>
+			          <gst><val>-69.8</val></gst>
+			          <amt_w_gst><val>-718.74</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			  </evt_list>
+			    </avsr>
+			  </avsr_list>
+			    </dg>
+			    <dg>
+			      <dg_head_list>
+			        <dg_head id="42" row_type="title" hira="1" level="dg.head">
+			          <dg_oe_owner><annot><ctx><type>person</type><id>10505</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg_oe_owner>
+			          <dg_oe_owner_abn><val>33007457141</val></dg_oe_owner_abn>
+			          <amt_wo_gst><val>-7612.43</val></amt_wo_gst>
+			          <gst><val>-761.24</val></gst>
+			          <amt_w_gst><val>-8373.67</val></amt_w_gst>
+			        </dg_head>
+			      </dg_head_list>
+			  <avsr_list>
+			    <avsr>
+			      <avsr_head_list>
+			        <avsr_head id="43" row_type="subtitle" hira="2" level="avsr.head">
+			          <avsr_person><annot><ctx><type>person</type><id>69828</id></ctx></annot><val>Roger DEMO AVSR Federer</val></avsr_person>
+			          <avsr_person_phone><val>0414222333</val></avsr_person_phone>
+			          <amt_wo_gst><val>-7612.43</val></amt_wo_gst>
+			          <gst><val>-761.24</val></gst>
+			          <amt_w_gst><val>-8373.67</val></amt_w_gst>
+			        </avsr_head>
+			      </avsr_head_list>
+			  <evt_list>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="44" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>227551</id></ctx></annot><val>227551</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>624</id></ctx></annot><val>624</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>Licensee Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-5799.23</val></amt_wo_gst>
+			          <gst><val>-579.92</val></gst>
+			          <amt_w_gst><val>-6379.15</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="45" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>227552</id></ctx></annot><val>227552</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>-623</id></ctx></annot><val>-623</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>On-Going Advice Fee</val></book_text>
+			          <amt_wo_gst><val>1813.2</val></amt_wo_gst>
+			          <gst><val>181.32</val></gst>
+			          <amt_w_gst><val>1994.52</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="46" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>227552</id></ctx></annot><val>227552</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>623</id></ctx></annot><val>623</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>On-Going Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-1813.2</val></amt_wo_gst>
+			          <gst><val>-181.32</val></gst>
+			          <amt_w_gst><val>-1994.52</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			    <evt>
+			      <evt_head_list>
+			        <evt_head id="47" row_type="data" hira="3" level="evt.head">
+			          <doc_id><annot><ctx><type>doc</type><id>227555</id></ctx></annot><val>227555</val></doc_id>
+			          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>623</id></ctx></annot><val>623</val></order_type_id>
+			          <veri_date><val>2015-03-13</val></veri_date>
+			          <trx_date><val>2015-03-13</val></trx_date>
+			          <val_date><val>2015-03-13</val></val_date>
+			          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>73351</id></ctx></annot><val>73351</val></bp_id>
+			          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>73354</id></ctx></annot><val>73354</val></cont_id>
+			          <pos><annot><ctx><type>pos</type><id>73357</id></ctx></annot><val>AUD</val></pos>
+			          <book_text><val>On-Going Advice Fee</val></book_text>
+			          <amt_wo_gst><val>-1813.2</val></amt_wo_gst>
+			          <gst><val>-181.32</val></gst>
+			          <amt_w_gst><val>-1994.52</val></amt_w_gst>
+			          <pos_curry_id><annot><displ_text></displ_text><ctx><type>curry</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+			        </evt_head>
+			      </evt_head_list>
+			    </evt>
+			  </evt_list>
+			    </avsr>
+			   </avsr_list>
+			    </dg>
+			  </dg_list>
+			
+			  </data>
+			</rep:rep>
+			<!-- 62599d09-c265-42fc-a4a2-c9f4e56f0a4f at 2014-09-30T04:19:49.908873000Z on AFD030N by 201601388 -->
+
+			</SuccessResponse>
+			</ResponseDetails>
+		</ns3:AvaloqGatewayResponseMsg>
+	</env:Body>
+</env:Envelope>

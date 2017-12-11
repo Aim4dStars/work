@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	<configuration>
+		<custom-converters>
+			<converter type="com.bt.nextgen.core.mapping.DateTimeConverter">
+				<class-a>org.joda.time.DateTime</class-a>
+				<class-b>org.apache.xerces.jaxp.datatype.XMLGregorianCalendarImpl</class-b>
+			</converter>
+		</custom-converters>
+	</configuration>
+	
+	<!-- mapping needs as per the new XSD  BTFG$UI_BOOK_LIST.BP_CONT_POS_EVT.XSD -->
+	<mapping>
+		<class-a>com.avaloq.abs.screen_rep.hira.btfg$ui_book_list_bp_cont_pos_evt.EvtHead
+		</class-a>
+		<class-b>com.bt.nextgen.service.avaloq.order.OrderImpl</class-b>
+		<field>
+			<a>docId.val</a>
+			<b>orderId</b>
+		</field>
+		<field>
+			<a>uiDocId.val</a>
+			<b>displayOrderId</b>
+		</field>				
+		<field>
+			<a>orderDate.val</a>
+			<b>createDate</b>
+		</field>
+		<field>
+			<a>refAssetId.val</a>
+			<b>assetId</b>
+		</field>
+		<field>
+			<a>qty.val</a>
+			<b>amount</b>
+		</field>
+		<field>
+			<a>cancelStatus.val</a>
+			<b>cancellable</b>
+		</field>
+	</mapping>
+</mappings> 

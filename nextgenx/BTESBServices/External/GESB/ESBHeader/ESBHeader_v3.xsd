@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><xsd:schema elementFormDefault="qualified" targetNamespace="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" version="3.2" xmlns:hdr="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:annotation>
+    <xsd:documentation xml:lang="en">	
+            Group ESB Message Header Schema
+            Copyright (C) 2009, 2010 Westpac
+            Version 3.2
+            
+                        
+            Change Log:
+            23/11/11- Yakub- Removed Enums for BrandSilo and OriginatingSystemId.Chnaged length for LocationId,CorelationId,Id.   
+           3.1-      17/05/12- Guy Swift - Added System Info as an optional element.   
+           3.2     26/06/12- Guy Swift/Krishna Moorthy -BusinessUnit added to enumeration for locationType for Veda service SVC0327-Retrieve IP Details             From Bureau, Updated Date/Datetime fields with Nillable=true   </xsd:documentation>
+  </xsd:annotation>
+  <xsd:complexType name="ChannelAttributes">
+    <xsd:sequence>
+      <xsd:element form="qualified" name="organisationId" type="hdr:OrganisationId"/>
+      <xsd:element form="qualified" name="brandSilo" type="hdr:BrandSilo"/>
+      <xsd:element form="qualified" name="channelType" type="hdr:ChannelType"/>
+      <xsd:element form="qualified" name="originatingSystemId" type="hdr:OriginatingSystemId"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="requester" type="hdr:Requester"/>
+      <xsd:element maxOccurs="unbounded" minOccurs="0" name="location" type="hdr:Location"/>
+      <xsd:element minOccurs="0" name="systemInfo" type="hdr:SystemInfo"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="ChannelType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Branch"/>
+      <xsd:enumeration value="Online"/>
+      <xsd:enumeration value="Contact Centre"/>
+      <xsd:enumeration value="ATM"/>
+      <xsd:enumeration value="Mobile"/>
+      <xsd:enumeration value="IVR Telephony"/>
+      <xsd:enumeration value="Relationship Managed"/>
+      <xsd:enumeration value="External Broker"/>
+      <xsd:enumeration value="External EFA"/>
+      <xsd:enumeration value="External"/>
+      <xsd:enumeration value="Unknown"/>
+      <xsd:enumeration value="Internal"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:element name="esbHeader" type="hdr:GroupESBMessageHeader"/>
+  <xsd:complexType name="GroupESBMessageHeader">
+    <xsd:sequence>
+      <xsd:element form="qualified" name="messageAttributes" type="hdr:MessageAttributes"/>
+      <xsd:element form="qualified" name="channelAttributes" type="hdr:ChannelAttributes"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="Id">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="65"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="MessageAttributes">
+    <xsd:sequence>
+      <xsd:element form="qualified" name="id" type="hdr:Id"/>
+      <xsd:element form="qualified" minOccurs="0" name="correlationId" type="hdr:CorrelationId"/>
+      <xsd:element form="qualified" name="createdTimestamp" nillable="true" type="xsd:dateTime"/>
+      <xsd:element form="qualified" minOccurs="0" name="expiryTimestamp" nillable="true" type="xsd:dateTime"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="OrganisationId">
+    <xsd:restriction base="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="OriginatingSystemId">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="6"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="RequesterId">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="20"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="LocationType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="BSB"/>
+      <xsd:enumeration value="Workstation"/>
+      <xsd:enumeration value="Server"/>
+      <xsd:enumeration value="Middleware"/>
+      <xsd:enumeration value="IP Address"/>
+      <xsd:enumeration value="Machine Name"/>
+      <xsd:enumeration value="Host Integration"/>
+      <xsd:enumeration value="Terminal"/>
+      <xsd:enumeration value="BusinessUnit"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="RequesterType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Staff"/>
+      <xsd:enumeration value="Customer"/>
+      <xsd:enumeration value="Partner"/>
+      <xsd:enumeration value="Intermediary"/>
+      <xsd:enumeration value="System"/>
+      <xsd:enumeration value="Profile Owner"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="CorrelationId">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="65"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="Location">
+    <xsd:sequence>
+      <xsd:element name="locationId" type="hdr:LocationId"/>
+      <xsd:element name="locationType" type="hdr:LocationType"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="LocationId">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="32"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="Requester">
+    <xsd:sequence>
+      <xsd:element name="requesterType" type="hdr:RequesterType"/>
+      <xsd:element minOccurs="0" name="requesterId" type="hdr:RequesterId"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="BrandSilo">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="30"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:complexType name="SystemInfo">
+    <xsd:sequence>
+      <xsd:element maxOccurs="unbounded" name="codeValue" type="hdr:CodeValue"/>
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="CodeValue">
+    <xsd:sequence>
+      <xsd:element name="code" type="xsd:string"/>
+      <xsd:element name="value" type="xsd:string"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

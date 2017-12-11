@@ -1,0 +1,14 @@
+/* line 2, ../../sass/badge/bt.scss */
+.logoWrap {
+  background-image: url(images/btLogo.png);
+}
+/* line 4, ../../sass/badge/bt.scss */
+.logoWrap.logoWrapLarge {
+  background-image: url(images/btLogo-large.png);
+  background-position: 0 50%;
+}
+
+/* line 10, ../../sass/badge/bt.scss */
+.logoWrapPos {
+  margin: 20px;
+}

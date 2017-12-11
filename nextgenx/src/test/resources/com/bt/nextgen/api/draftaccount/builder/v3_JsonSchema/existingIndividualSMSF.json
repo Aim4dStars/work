@@ -1,0 +1,485 @@
+{
+   "version":"1.0.0",
+   "accountType":"individualSMSF",
+   "approvalType": "online",
+   "smsfdetails":{
+      "smsfabn":"33007457141",
+      "smsfname":"New Json Existing Individual SMSF",
+      "registrationstate":"NSW",
+      "wealthsource":"Business income/earnings",
+      "agree":"Verified",
+      "docissuer":"www.superfundlookup.gov.au",
+      "documentnumber":"notapplicable",
+      "verificationsource":"Website search",
+      "englishtranslation":"notapplicable",
+      "taxoption":"Tax File Number or exemption not provided",
+      "issuedate":"16 May 2016",
+      "regdate":"01/01/1980",
+      "taxdetails": {
+         "ausTaxDetails": {
+            "isTaxCountryAus": {
+               "valid": true,
+               "value": true
+            }
+         },
+         "isOverseasTaxRes": {
+            "valid": true,
+            "value": false
+         },
+         "overseasTaxDetails": []
+      },
+      "industry":{
+         "anzsiccode":"7412",
+         "industry":"7412",
+         "ucmcode":"SIC 0360"
+      },
+      "registeredforgst":"yes",
+      "smsfaddress":{
+         "componentised":true,
+         "addressType":"residential",
+         "unitNumber":"",
+         "streetNumber":"51-57",
+         "streetName":"Pitt",
+         "streetType":"STREET",
+         "suburb":"SYDNEY",
+         "state":"NSW",
+         "postcode":"2000",
+         "country":"AU",
+         "sameasaddress":"0",
+         "confirmed":true,
+         "valid":true,
+         "verified":true,
+         "existingAddressList":[
+            {
+               "componentised":true,
+               "addressType":"residential",
+               "unitNumber":"",
+               "streetNumber":"51-57",
+               "streetName":"Pitt",
+               "streetType":"STREET",
+               "suburb":"SYDNEY",
+               "state":"NSW",
+               "postcode":"2000",
+               "country":"AU",
+               "id":"799127",
+               "sameasaddress":"0",
+               "confirmed":true,
+               "valid":true,
+               "verified":true,
+               "existingAddressList":[
+
+               ]
+            }
+         ]
+      }
+   },
+   "directors":[
+
+   ],
+   "trustees":[
+      {
+         "emails":[
+
+         ],
+         "personRoles":[
+
+         ],
+         "phones":[
+
+         ],
+         "title":"MR",
+         "firstname":"Trustee",
+         "middlename":"",
+         "lastname":"One",
+         "preferredname":"Preferred Trustee Name",
+         "formername":"",
+         "dateofbirth":"01/01/1980",
+         "gender":"male",
+         "mobile":{
+            "value":"0432098765"
+         },
+         "email":{
+            "value":"testtrusteeone@email.com"
+         },
+         "preferredcontact":"mobile",
+         "isvalid":true,
+         "alternatename":"Alternate Trustee Name",
+         "accountType":"individualSMSF",
+         "identitydocument":{
+            "photodocuments":{
+               "driverlicence":{
+                  "documentIssuer":"NSW",
+                  "expiryDate":"01/01/2030",
+                  "documentNumber":"P12345",
+                  "verificationSource":"original",
+                  "englishTranslation":"Not Applicable",
+                  "accreditedenglishtrans":"notapplicable"
+               },
+               "valid":true
+            }
+         },
+         "taxdetails": {
+            "ausTaxDetails": {
+               "isTaxCountryAus": {
+                  "valid": true,
+                  "value": true
+               }
+            },
+            "isOverseasTaxRes": {
+               "valid": true,
+               "value": false
+            },
+            "overseasTaxDetails": []
+         },
+         "resaddress":{
+            "componentised":true,
+            "addressType":"residential",
+            "unitNumber":"",
+            "streetNumber":"51-57",
+            "streetName":"Pitt",
+            "streetType":"STREET",
+            "suburb":"SYDNEY",
+            "state":"NSW",
+            "postcode":"2000",
+            "country":"AU",
+            "id":"632046",
+            "sameasaddress":"632046",
+            "confirmed":true,
+            "valid":true,
+            "verified":true,
+            "existingAddressList":[
+               {
+                  "componentised":true,
+                  "addressType":"residential",
+                  "unitNumber":"",
+                  "streetNumber":"51-57",
+                  "streetName":"Pitt",
+                  "streetType":"STREET",
+                  "suburb":"SYDNEY",
+                  "state":"NSW",
+                  "postcode":"2000",
+                  "country":"AU",
+                  "id":"632046",
+                  "sameasaddress":"0",
+                  "confirmed":true,
+                  "valid":true,
+                  "verified":true,
+                  "existingAddressList":[
+
+                  ]
+               }
+            ]
+         },
+         "postaladdress":{
+            "componentised":true,
+            "addressType":"residential",
+            "unitNumber":"",
+            "streetNumber":"51-57",
+            "streetName":"Pitt",
+            "streetType":"STREET",
+            "suburb":"SYDNEY",
+            "state":"NSW",
+            "postcode":"2000",
+            "country":"AU",
+            "id":"228221",
+            "sameasaddress":"228221",
+            "confirmed":true,
+            "valid":true,
+            "verified":true,
+            "existingAddressList":[
+               {
+                  "componentised":true,
+                  "addressType":"residential",
+                  "unitNumber":"",
+                  "streetNumber":"51-57",
+                  "streetName":"Pitt",
+                  "streetType":"STREET",
+                  "suburb":"SYDNEY",
+                  "state":"NSW",
+                  "postcode":"2000",
+                  "country":"AU",
+                  "id":"228221",
+                  "sameasaddress":"0",
+                  "confirmed":true,
+                  "valid":true,
+                  "verified":true,
+                  "existingAddressList":[
+
+                  ]
+               }
+            ]
+         }
+      },
+      {
+         "emails":[
+
+         ],
+         "personRoles":[
+
+         ],
+         "phones":[
+
+         ],
+         "title":"MR",
+         "firstname":"Trustee",
+         "middlename":"",
+         "lastname":"Two",
+         "preferredname":"Trustee Preferred",
+         "formername":"",
+         "dateofbirth":"01/01/1970",
+         "gender":"male",
+         "mobile":{
+            "value":"0432098765"
+         },
+         "email":{
+            "value":"trusteetwo@email.com"
+         },
+         "preferredcontact":"mobile",
+         "isvalid":true,
+         "alternatename":"Trustee Alternate",
+         "accountType":"individualSMSF",
+         "identitydocument":{
+            "photodocuments":{
+               "driverlicence":{
+                  "documentIssuer":"NSW",
+                  "expiryDate":"01/01/2030",
+                  "documentNumber":"P123",
+                  "verificationSource":"original",
+                  "englishTranslation":"Not Applicable",
+                  "accreditedenglishtrans":"notapplicable"
+               },
+               "valid":true
+            }
+         },
+         "taxdetails": {
+            "ausTaxDetails": {
+               "isTaxCountryAus": {
+                  "valid": true,
+                  "value": true
+               }
+            },
+            "isOverseasTaxRes": {
+               "valid": true,
+               "value": false
+            },
+            "overseasTaxDetails": []
+         },
+         "resaddress":{
+            "componentised":true,
+            "addressType":"residential",
+            "unitNumber":"",
+            "streetNumber":"51-57",
+            "streetName":"Pitt",
+            "streetType":"STREET",
+            "suburb":"SYDNEY",
+            "state":"NSW",
+            "postcode":"2000",
+            "country":"AU",
+            "id":"844044",
+            "sameasaddress":"844044",
+            "confirmed":true,
+            "valid":true,
+            "verified":true,
+            "existingAddressList":[
+               {
+                  "componentised":true,
+                  "addressType":"residential",
+                  "unitNumber":"",
+                  "streetNumber":"51-57",
+                  "streetName":"Pitt",
+                  "streetType":"STREET",
+                  "suburb":"SYDNEY",
+                  "state":"NSW",
+                  "postcode":"2000",
+                  "country":"AU",
+                  "id":"844044",
+                  "sameasaddress":"0",
+                  "confirmed":true,
+                  "valid":true,
+                  "verified":true,
+                  "existingAddressList":[
+
+                  ]
+               }
+            ]
+         },
+         "postaladdress":{
+            "componentised":true,
+            "addressType":"residential",
+            "unitNumber":"",
+            "streetNumber":"51-57",
+            "streetName":"Pitt",
+            "streetType":"STREET",
+            "suburb":"SYDNEY",
+            "state":"NSW",
+            "postcode":"2000",
+            "country":"AU",
+            "id":"429718",
+            "sameasaddress":"429718",
+            "confirmed":true,
+            "valid":true,
+            "verified":true,
+            "existingAddressList":[
+               {
+                  "componentised":true,
+                  "addressType":"residential",
+                  "unitNumber":"",
+                  "streetNumber":"51-57",
+                  "streetName":"Pitt",
+                  "streetType":"STREET",
+                  "suburb":"SYDNEY",
+                  "state":"NSW",
+                  "postcode":"2000",
+                  "country":"AU",
+                  "id":"429718",
+                  "sameasaddress":"0",
+                  "confirmed":true,
+                  "valid":true,
+                  "verified":true,
+                  "existingAddressList":[
+
+                  ]
+               }
+            ]
+         }
+      }
+   ],
+   "investors":[
+
+   ],
+   "shareholderandmembers":{
+      "needsShareholder":false,
+      "needsMember":true,
+      "needsTrustees":true,
+      "needsBeneficiary":false,
+      "accountType":"individualSMSF",
+      "investorsWithRoles":[
+         {
+            "isMember":"yes",
+            "needsShareholder":false,
+            "needsMember":true,
+            "needsBeneficiary":false
+         },
+         {
+            "isMember":"no",
+            "needsShareholder":false,
+            "needsMember":true,
+            "needsBeneficiary":false
+         }
+      ],
+      "additionalShareHoldersAndMembers":[
+         {
+            "persontype":["member"],
+            "title":"MR",
+            "firstname":"MEMBER",
+            "middlename":"",
+            "lastname":"ONE",
+            "needsShareholder":false,
+            "needsMember":true,
+            "needsBeneficiary":false,
+            "dateofbirth":"01/01/1980",
+            "taxdetails": {
+               "ausTaxDetails": {
+                  "isTaxCountryAus": {
+                     "valid": true,
+                     "value": true
+                  }
+               },
+               "isOverseasTaxRes": {
+                  "valid": true,
+                  "value": false
+               },
+               "overseasTaxDetails": []
+            },
+            "resaddress":{
+               "componentised":true,
+               "addressType":"residential",
+               "unitNumber":"",
+               "streetNumber":"51-57",
+               "streetName":"Pitt",
+               "streetType":"STREET",
+               "suburb":"SYDNEY",
+               "state":"NSW",
+               "postcode":"2000",
+               "country":"AU",
+               "id":"998132",
+               "sameasaddress":"998132",
+               "confirmed":true,
+               "valid":true,
+               "verified":true,
+               "existingAddressList":[
+                  {
+                     "componentised":true,
+                     "addressType":"residential",
+                     "unitNumber":"",
+                     "streetNumber":"51-57",
+                     "streetName":"Pitt",
+                     "streetType":"STREET",
+                     "suburb":"SYDNEY",
+                     "state":"NSW",
+                     "postcode":"2000",
+                     "country":"AU",
+                     "id":"998132",
+                     "sameasaddress":"0",
+                     "confirmed":true,
+                     "valid":true,
+                     "verified":true,
+                     "existingAddressList":[
+
+                     ]
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "accountsettings":{
+      "professionalspayment":"linkedaccountsonly",
+      "investorAccountSettings":[
+         {
+            "paymentSetting":"nopayments",
+            "hasRoles":false,
+            "hasApprovers":true,
+            "isApprover":"true"
+         },
+         {
+            "paymentSetting":"linkedaccountsonly",
+            "hasRoles":false,
+            "hasApprovers":true,
+            "isApprover":"true"
+         }
+      ],
+      "primarycontact":0,
+      "adviserName":"Jordan Kennedy",
+      "adviserLocation":"New South Wales",
+      "sourceoffunds":"Business income/earnings"
+   },
+   "linkedaccounts":{
+      "primaryLinkedAccount":{
+         "accountname":"TEST ACCOUNT",
+         "bsb":"062062",
+         "accountnumber":"123456",
+         "nickname":"",
+         "directdebitamount":"777.00",
+         "bsbValidationResultVal":true
+      },
+      "otherLinkedAccount":[
+
+      ]
+   },
+   "fees":{
+      "estamount":"0.00",
+      "ongoingFees":{
+         "feesComponent":[
+
+         ],
+         "type":"Ongoing advice fee"
+      },
+      "licenseeFees":{
+         "feesComponent":[
+
+         ],
+         "type":"Licensee advice fee"
+      }
+   }
+}

@@ -1,0 +1,461 @@
+{
+  "version": "1.0.0",
+  "accountType": "corporateTrust",
+  "trustType": "other",
+  "trustdetails": {
+    "trustname": "UnregisteredTrust",
+    "firstname": "TrustFirst",
+    "lastname": "Other",
+    "middlename": "",
+    "regdate": "01\/02\/2016",
+    "registrationstate": "NSW",
+    "registeredforgst": "yes",
+    "settloroftrust": "individual",
+    "taxoption": "Tax File Number or exemption not provided",
+    "title": "MR",
+    "wealthsource": "Business profits",
+    "abn": "",
+    "trusttype": "other",
+    "trustdescription": "unregmanagedinv",
+    "industry": {
+      "anzsiccode": "7412",
+      "industry": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "address": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "33",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "492548",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        },
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "819874",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        }
+      ]
+    },
+    "trustverification": {
+      "identitydocument": "letteridv",
+      "letteridv": {
+        "fullname": "dsdddd",
+        "documentdate": "10\/10\/2015",
+        "documentnumber": "4445566",
+        "verifiedfrom": "original"
+      }
+    }
+  },
+  "directors": [
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "title": "MRS",
+      "firstname": "DirectorFamily",
+      "middlename": "",
+      "lastname": "Last",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01\/10\/1986",
+      "gender": "female",
+      "mobile": {
+        "value": "0422408382"
+      },
+      "email": {
+        "value": "asd@email.com"
+      },
+      "preferredcontact": "email",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "corporateTrust",
+      "identitydocument": {
+        "photodocuments": {
+          "passport": {
+            "documentIssuer": "Australia",
+            "issueDate": "01\/10\/2015",
+            "expiryDate": "01\/10\/2017",
+            "documentNumber": "258596314",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "262465",
+        "sameasaddress": "262465",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "262465",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          },
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "430498",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "76657",
+        "sameasaddress": "76657",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "76657",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          },
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "50519",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "trustees": [
+
+  ],
+  "investors": [
+
+  ],
+  "shareholderandmembers": {
+    "hasbeneficiaryclasses": "no",
+    "isMajorShareholder": "yes",
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "needsBeneficialOwner": true,
+    "accountType": "corporateTrust",
+    "investorsWithRoles": [
+      {
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes",
+        "isShareholder": "yes",
+        "isBeneficiary": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+
+    ]
+  },
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true,
+        "isApprover": "true"
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Business profits"
+  },
+  "companytrustee": {
+    "companyname": "unregistered company",
+    "asicregisteredname": "unregistered company",
+    "acn": "004085616",
+    "agreeconditions": "Verified",
+    "docissuer": "ASIC",
+    "documentnumber": "notapplicable",
+    "englishtranslation": "notapplicable",
+    "issuedate": "02 May 2016",
+    "companyabn": "",
+    "industry": {
+      "anzsiccode": "7412",
+      "industry": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "514440",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        },
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "566930",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "id": "379469",
+      "sameasaddress": "379469",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "379469",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        },
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "563333",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        }
+      ]
+    },
+    "verificationsource": "Website search"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccount",
+      "bsb": "062001",
+      "accountnumber": "25896314",
+      "directdebitamount": "10.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

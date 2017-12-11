@@ -1,0 +1,648 @@
+
+
+@import
+        "core/variables",
+		"core/colours",
+		"plugins/bourbon/bourbon",
+		"core/global";
+
+@import
+	    "badge/badge";
+		
+@import  "core/typography",
+		 "icons/font-icon",
+		 "icons/icons",
+		 "widgets/table/widget_table";
+
+
+
+// Imports end
+
+%noDisplay{
+	display:inline-block;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 1px;
+}		
+html {
+    font-family: sans-serif;
+    color: $alpha;
+}
+
+
+.contentSection{
+	@include blockPadding(1,0,0,0);
+}
+
+
+.summaryContentHeader{
+	font-family:$fontTitle;
+	@include fontSize(2);
+		span{
+			color:$textColorLighterLight;
+		}
+		em {
+			@extend %normalFont;
+			
+		}
+}
+.summaryDetails{
+	 dl {
+	 	dd {
+			float:left;
+			width:31%;
+			@include blockMargin(0,0,0,0);
+			min-height:125px;
+		}
+		dd.definitionMod1{
+			min-height:155px;
+		}
+		@include blockMargin(0,0,0,0);
+	 }
+}
+
+.summaryDetailsMod1{
+	 dl {
+	 	dd {
+			@include blockMargin(0,0,0,0);
+		}
+		@include blockMargin(0,0,0,0);
+	 }
+	
+}
+.summaryDetailsMod2{
+	@include endBorder(1px, $borderColor, solid);
+	@include blockPadding(1,0,2,0);	
+}
+.topGutter{
+	@include blockPadding(0.8,0,0.3,0);
+}
+.topGutterMod1 {
+	padding-top:17px;
+}
+
+.firstBorder{
+	@include firstBorder(1px, $borderColor, thin);
+	@include blockPadding(0,0,0,2);
+}	
+
+.reportTitleWrap{
+	float:right;
+	text-align:right!important;
+}
+.clearBoth{
+	clear:both;
+}
+.logoWrap{
+ 	@include hideText; 
+	background-image:url(../images/btLogo.png);
+	height: 40px;
+	width: 80px;
+	float: left;
+}
+
+.logoWrapper{
+    @include blockMargin(0,0,2,0);
+    @include blockPadding(2,0,2,0);
+}
+
+.logoWrapLarge {
+    width: 420px;
+    height: 70px;
+    background-image:url(../images/btLogo-large.png);
+    background-repeat: no-repeat;
+    text-indent: -9000em;
+	float: left;
+	@include blockMargin(-1.8,0,2,0);
+}    
+
+.headerInfoWrapper{
+	@include blockMargin(8,0,1,0);
+	@include blockPadding(0,0,3,0);
+	@include endBorder(1px, $borderColor, solid);
+}
+.headerTitle{
+	@include blockMargin(0,0,0,0);
+	padding-bottom:0px;
+}
+.accountTitle{
+   .headerTitle{
+   	    @include blockMargin(0,0,0,0);
+   }
+}
+.listContent li{
+	@include blockMargin(0.5, 0.5, 0.5, 0);
+	&.xSpace{
+		margin: auto auto 1.5rem auto;
+	}
+	&.xxSpace{
+		margin: auto auto 2rem auto;
+	}
+	list-style:none;
+}
+
+.listContentMod2{
+	 li{
+		@include blockMargin(0.5, 0.5, 0.4, 0);
+		&.xSpace{
+			margin: auto auto 10px auto;
+		}
+		&.xxSpace{
+			margin: auto auto 2px auto;
+		}
+		&.stringTruncate{
+			width:195px;
+  		  	word-wrap:break-word;
+		  	display:inline-block;						  
+		}
+	}
+	.brandLogo{
+		@include blockMargin(0,0,0,0);
+	}
+	list-style:none;
+	@include blockPadding(0,0,0,0);
+	@include blockMargin(0, 0, 0, 0);
+}
+
+.tableHeader h2{
+	@include blockPadding(1,0,0,2);
+}
+.listContent{
+	@include blockPadding(0,0,0,0);
+}
+
+.dataTablePdf{
+	@include allBorders(1px, solid, $borderColor);
+	@include blockMargin(1,0,2,0);
+	
+	
+	  .tableHeader th.dataTableHeader:last-child { padding-right:1rem; }
+	  
+	  .tableHeaderStyleTwo{
+        th{
+             @include allBorders(2px, solid, #000);
+             @include blockPadding(1.4, 1, 1.4, 2);
+         }
+	  }
+	  
+	  
+	  
+    
+     .dataTableRow {
+	  	height:auto !important;
+	    .dataTableHeader{	         
+	        &:first-child{
+			    @include blockPadding(1.4, 1, 1, 2);
+			}
+		}
+		.dataTableCell{
+			font-size:12px;
+			
+			
+      
+		}
+		.dataTableCellMod2{
+			width:50%;
+		}
+		.dataTableCellMod3{
+			width:20%;
+		}
+		.dataTableCellMod4{
+			width:15%;
+		}
+		xMod5{
+			width:60%;
+		}
+
+		td{
+            @include endBorder(1px, solid, $borderColor);
+			
+            &:first-child {
+             	@include blockPadding(1.4, 0, 1, 2);
+            }
+        }
+        .pdfDateCell{
+             .day{@include blockPadding(0, 0, 0, 0);}
+             .month{@include blockPadding(0, 0, 0, 0);}
+             .year{@include blockPadding(0, 0, 0, 0);}
+        }
+        
+	}
+
+	.dataTableRow:last-child{
+	         td{
+                    @include endBorder(0px, dotted, $borderColor);
+                    &:first-child {
+                    			@include blockPadding(1.4, 0, 1, 2);
+                     }
+              }
+	}
+	.dataTableThinRow {
+		height: 2.8rem;
+		.dataTableCellThin {
+			@include blockPadding(0, 0, 1, 2);
+		}
+	}
+	.dataTableSecondaryRow{
+		background-color: #f9f9f9;
+		td:first-child {
+			@include blockPadding(1.4, 0, 1, 2);
+		}
+	}
+	
+	.dataTableTertiaryRow{
+    background-color: #f9f9f9;
+    td:first-child {
+      @include blockPadding(1.4, 0, 1, 2);
+      border-right:none !important;
+    }
+    td{
+       border-bottom:1px solid #E6E6E6 !important;
+       
+    }
+    
+  }
+  
+  .dataTableLightRow{
+    td:first-child {
+      @include blockPadding(1.4, 0, 1, 2);
+    }
+    td{
+       border-bottom:1px solid #E6E6E6 !important; 
+    }
+  }
+	
+	.dataTableNoBorderRow {
+		td {
+			border-bottom: 0px solid #f9f9f9 !important;
+		}
+	}
+	
+	.dataTableTopBorderRow {
+    td {
+      border-top: 1px solid #E6E6E6 !important;
+      border-bottom: 1px solid #E6E6E6 !important;
+    }
+  }
+	
+	 
+}
+.dottedBorder{
+	@include startBorder(1px,#aaa,dotted);
+	@include blockPadding(1, 0, 1, 0);
+	@include blockMargin(0, 1, 0, 0);
+	vertical-align:baseline;
+}
+.inlineBulletList{
+	
+	@include blockMargin(0, 0, 0, 0);
+	@include blockPadding(0, 0, 0, 0);
+	li{
+		float:left;
+		@include blockMargin(0, 0, 0, 1);
+		@include blockPadding(0, 0, 0, 1);
+	}
+	li:first-child{
+		list-style:none;
+		@include blockMargin(0, 0, 0, 0);
+		@include blockPadding(0, 0, 0, 0);
+	}
+}
+.newLine{
+	@include blockPadding(0, 0, 0, 0);
+	@include blockMargin(0, 0, 0, 0);
+}
+.itemValue{
+		@extend %floatLeft;
+}
+
+.itemValueMod1 {
+
+   width:50%;
+}
+
+.itemLabel{
+	@extend %floatLeft;
+	width: 45%;
+	@include blockPadding(0, 1, 0, 0);
+}
+
+.itemLabelMod1{
+	@extend %floatLeft;
+	width: 45%;
+	@include blockPadding(0.5, 1, 0, 0);
+}
+
+.summaryListItem{
+	@include endBorder(1px, solid, $borderColor);
+	@include blockPadding(0, 0, 1, 0);
+}
+
+.summaryListItem2{
+	@include endBorder(1px, solid, #000);
+	@include blockPadding(0, 0, 1, 0);
+}
+.itemValue2{
+	@extend %floatRight;
+	width: 50%;
+}
+.xxSpace{
+	@include blockMargin(3, 0, 0, 0);
+}
+.primaryContact{
+	@include blockPadding(0, 1, 1, 0);
+}
+.detailSection{
+	@include blockPadding(0, 0, 0, 2); 
+}
+
+//Icons for PDFs
+
+
+.icons45px{
+	@extend .inlineBlock;
+	@extend %floatLeft;
+	width: 45px;
+	height: 45px;
+	@include hideText;
+	@extend .clearBoth;
+}
+.icons20px{
+	@extend .inlineBlock;
+	@extend %floatLeft;
+	width: 20px;
+	height: 20px;
+	@include hideText;
+	@extend .clearBoth;
+}
+.iconCircledAccount{
+	background:$backgroundSprite -8px -11px;
+	@extend .icons45px;
+}
+.iconCircledCorporate{
+	background:$backgroundSprite -8px -70px;
+	@extend .icons45px;
+}
+.iconCircledJoint{
+	background:$backgroundSprite -8px -131px;
+	@extend .icons45px;
+}
+.iconCircledContact{
+	background:$backgroundSprite -8px -191px;
+	@extend .icons45px;
+}
+.iconCircledUser{
+	background:$backgroundSprite -8px -251px;
+	@extend .icons45px;
+}
+.iconPrimary{
+	background:$backgroundSprite -80px -89px;
+	@extend .icons20px;
+}
+.iconAdviser{
+	background:$backgroundSprite -80px -155px;
+	@extend .icons20px;
+}
+.iconBiller{
+    background:$backgroundSprite -80px -126px;
+    @extend .icons20px;
+}
+
+.iconCircledAccountSMSF {
+  	background:$backgroundSpritePDF -620px -6px; 
+}
+.iconCircledAccountCompany {
+  	background:$backgroundSpritePDF -620px -66px; 
+}
+.iconCircledAccountJoint {
+  	background:$backgroundSpritePDF -620px -126px; 
+}
+.iconCircledAccountTrust {
+  	background:$backgroundSpritePDF -620px -186px; 
+}
+.iconCircledAccountIndividual {
+  	background:$backgroundSpritePDF -620px -245px; 
+}   
+  
+.receiptDefinition{
+    @include blockMargin(0, 0, 0, 0);
+    font-size: 16px;
+    dt{
+        @include blockPadding(0.4, 0, 0.4, 0);
+        width: 20.4%;
+        text-align: left;
+        @extend %floatLeft;
+    }
+    dd{
+        @include blockPadding(0.4, 0, 0.4, 0);
+    }
+    .accSpace{
+        @include blockPadding(0, 0, 2.5, 0);
+    }
+    .bsbSpaceRight {
+        @include blockMargin(0, 2, 0, 0);
+    }
+}
+.mainHeader {
+    @include blockMargin(0, 0, 5, 0);
+    .headerTextItem {
+        .successRed{
+            color: $textColorTheta;
+        }
+    }
+    .errorMsgTransaction{
+        color: $textColorTheta;
+        @include blockMargin(0, 0, 2, 0);
+    }
+}
+.pdfReceiptContainer{
+    .headerTitle{
+        font-size: 40px;
+    }
+    .headerTextItem{
+        font-size: 30px;
+    }
+}
+
+/* ## Detailed Expanded View
+
+*/
+
+.transactionContainer {
+    .headerTitle{
+        font-size: 35px;
+        @include blockMargin(0,0,0.5,0);
+    }
+    .headerTitleValue{
+        font-size: 28px;
+        @include blockMargin(0,0,0,0);
+    }
+    .pageDetailHeader{
+        @include blockPadding(0,0,0,0);
+        @include blockMargin(0,0,0,0);
+        @extend %floatLeft;
+        .normalText {
+        	position:absolute;
+        	@include blockMargin(-0.5,0,0,1);
+        }
+    }
+    .pagepageDetailSubHeader{
+        @extend %floatRight;
+        @include blockMargin(0.5,0,0,0);
+        @include textAlign(right);
+    }
+}
+
+.detailedViewExpanded{
+    /*@include endBorder(1px, #C5C5C5, solid);*/
+    @include blockPadding(0,0,0,0);
+    @include blockMargin(0,0,0,0);
+    font-size: 12px;    
+  .detailedViewContainer{
+    @extend %floatLeft;
+    min-height: 180px;
+    .header {
+      margin-bottom: 8px;
+      line-height: 32px;
+    }
+  }
+  .detailedViewContainerMod1{
+    @extend %floatLeft;
+    min-height: 120px;
+  }
+  .detailedViewContainer.detailedViewContainerFirst{
+    width:194px;
+    padding-right:10px;
+  }
+
+  .detailedViewContainer.detailedViewContainerSecond{
+    @include firstBorder(1px,#e5e5e5 ,solid);
+    @include lastBorder(1px,#e5e5e5 ,solid);
+
+    width:213px;
+  }
+  .detailedViewContainer.detailedViewContainerThird{
+    width:262px;
+  }
+  .detailedViewContainer.detailedViewContainerLast{
+    width:475px;
+    border-right:0 none;
+  }
+
+  .layoutMainHeaderItem{
+      @extend %block;
+      width: 100%;
+      @include blockMargin(0,0,1,0);
+      .iconSetPosStyleOne {margin-right: 10px}
+    }
+  .detailViewHeader{
+      font-size: 20px;
+    }
+  .headerSummarySubTitle{
+    font-size: 12px;
+    @include blockMargin(0,0,1.3,0);
+  }
+  .spaceWrapper{
+    @include blockPadding(0,1,0,1);
+    @extend %floatLeft;
+    @extend %block;
+  }
+  .primaryContact{
+     line-height:18px;
+  }
+ }
+
+ .dataSummary {
+     @include lineHeight(2);
+     @include blockMargin(-0.28,0,0,0);
+       width: 100%;
+       color: #454545;
+       @extend %floatLeft;
+           dt{
+             width:45%;
+             @extend %floatLeft;
+             @include blockMargin(0,1,.9,0);
+           }
+           dd{
+             width:49%;
+             @extend %floatLeft;
+             @include blockMargin(0,0,.9,0);
+           }
+           dt.shiftDown{
+             @include blockMargin(0,1,0,0);
+           }
+           dd.shiftDown{
+             @include blockMargin(0,0,0,0);
+           }
+ }
+ .investorContainerFirst{
+    .dataSummary{
+       @include blockMargin(-0.33,0,0,0);
+    }
+ }
+ .listContent.listContentMod2Summary{
+   width:95%;
+   @extend %floatRight;
+   @include blockMargin(1.9,0,0,0);
+ }
+ .listContent.listContentMod2Summary li.xSpace{
+   @include blockPadding(0,0,0,0);
+   @include blockMargin(3,0,0.5,0);
+   @include endBorder(1px, #DDDDDD, solid);
+   width:100%
+ }
+ .listContent.listContentMod2Summary li.mod1 {border-bottom: 0;}
+ .listContent.listContentMod2Summary li.mod2 {@include endBorder(2px, #454545, solid);}
+ 
+ .descriptionHeader {
+    @include blockMargin(0,0,0,0);    
+    width:230px;
+    padding-left:5px;
+    display:block;
+    word-wrap:break-word;
+ }
+ .descriptionDuration {
+ 	width:230px;
+ 	padding-left:5px;
+ 	display:block;
+    word-wrap:break-word;
+ }
+ 
+ .listContent.listContentMod3Summary {
+    @include blockMargin(-0.5,0,0,0);
+ }
+
+.disclaimer {
+    font-size: 10px;
+    @include blockMargin(4,0,0,0);
+    .disclaimerMarginTopOn{
+        @include blockMargin(1.5,0,0,0);
+    }
+} 
+
+h3.descriptionHeaderPdf {
+  padding-left: 0;
+}
+
+.receiptDefinitionPdf {
+  line-height: 1.4;
+  font-size: 14px;
+
+ .accSpace {
+    margin: 0;
+  }
+
+  dt, dd {
+    margin: 0 0 5px;
+    &.accSpace {
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.topGutterMod2 {
+	padding-top:19px !important;
+}
+
+

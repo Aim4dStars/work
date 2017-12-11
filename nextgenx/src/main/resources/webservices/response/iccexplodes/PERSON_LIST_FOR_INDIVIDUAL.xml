@@ -1,0 +1,14 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header />
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg
+                xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>
+        <!-- This is a mock response from avaloq which is too big for ICC to handle-->

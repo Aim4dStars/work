@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 2014-09-15T06:28:25.382924000Z on AFD030A by BTFG$CLTPRC -->
+<person:person_rsp xmlns:person="http://btfin.com/ABS/TrxService/Person/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>0315bd91-6e3a-4292-e054-b499bab5f5b4</req_id>
+  </hdr>
+  <data>
+    <doc>
+      <val>197354</val>
+    </doc>
+    <wfc_status>
+      <annot>
+        <displ_text>Done</displ_text>
+        <ctx>
+          <type>wfc_status</type>
+          <id>90</id>
+        </ctx>
+      </annot>
+      <val>90</val>
+    </wfc_status>
+    <person_id>
+      <annot>
+        <displ_text>Adrian Demo Smith</displ_text>
+        <ctx>
+          <type>obj_person</type>
+          <id>69489</id>
+        </ctx>
+      </annot>
+      <val>69489</val>
+    </person_id>
+    <person_modi_seq_nr>
+      <val>4</val>
+    </person_modi_seq_nr>
+    <names>
+      <first_name>
+        <val>Adrian</val>
+      </first_name>
+      <middle_name>
+        <val>Demo</val>
+      </middle_name>
+      <last_name>
+        <val>Smith</val>
+      </last_name>
+      <full_name>
+        <val>Adrian Demo Smith</val>
+      </full_name>
+      <artist_name>
+        <val>Test</val>
+      </artist_name>
+    </names>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+    </exec>
+  </rsp>
+</person:person_rsp>

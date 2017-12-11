@@ -1,0 +1,197 @@
+{
+  "version": "1.0.0",
+  "accountType": "superAccumulation",
+  "investors": [
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": true,
+            "value": "11111111"
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Tax File Number provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          },
+          "exemptionReason": {
+            "valid": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": [
+
+        ]
+      },
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Business profits",
+      "title": "MR",
+      "firstname": "Test",
+      "middlename": "",
+      "lastname": "Last",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01\/10\/1987",
+      "gender": "male",
+      "mobile": {
+        "value": "0456789001"
+      },
+      "email": {
+        "value": "test@test.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "superAccumulation",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NSW",
+            "expiryDate": "01\/10\/2018",
+            "documentNumber": "890123",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+        "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+            "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+        "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+            "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "",
+      "sameasresaddress": "true"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business profits"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccount",
+      "bsb": "062001",
+      "accountnumber": "67890123",
+      "nickname": "",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "feeTabEnabled": true,
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "label": "Percentage fee component",
+          "listedSecurities": "2.00",
+          "managedFund": "1.00",
+          "managedPortfolio": "0.00",
+          "cash": "0.00",
+          "termDeposit": "0.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        }
+      ],
+      "type": "Licensee advice fee"
+    },
+    "contributionFees": {
+      "feesComponent": [
+        {
+          "label": "One-off fee component",
+          "personal": "5.00",
+          "employer": "2.00",
+          "spouse": "6.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        },
+        {
+          "label": "Regular fee component",
+          "personal": "6.00",
+          "spouse": "7.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        }
+      ],
+      "type": "Ongoing contribution fee"
+    }
+  }
+}

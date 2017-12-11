@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+      <v1:SearchImagesResponseMsg xmlns:v1="ns://btfin.com/SharedServices/BPM/Image/ImageService/ImageReply/V1_0">
+         <Context>
+            <Version>1_0</Version>
+            <TrackingID>550e8400-e29b-41d4-a716-446655440000</TrackingID>
+         </Context>
+         <Status>Error</Status>
+         <ResponseDetails>
+            <ErrorResponses>
+               <ErrorResponse>
+                  <SubCode>ER-123</SubCode>
+                  <Description>Error</Description>
+                  <Reason>Basil Error</Reason>
+               </ErrorResponse>
+            </ErrorResponses>
+         </ResponseDetails>
+      </v1:SearchImagesResponseMsg>

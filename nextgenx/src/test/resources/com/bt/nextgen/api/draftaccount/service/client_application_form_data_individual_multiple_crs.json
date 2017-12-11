@@ -1,0 +1,226 @@
+{
+  "version": "1.0.0",
+  "accountType": "individual",
+  "directors": [],
+  "trustees": [],
+  "investors": [{
+    "emails": [],
+    "personRoles": [],
+    "phones": [],
+    "taxdetails": {
+      "ausTaxDetails": {
+        "tfn": {
+          "valid": false
+        },
+        "taxOption": {
+          "valid": true,
+          "value": "Tax File Number or exemption not provided"
+        },
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        },
+        "exemptionReason": {
+          "valid": true
+        }
+      },
+      "overseasTaxDetails": [{
+        "tin": {
+          "valid": true,
+          "value": "34434344"
+        },
+        "tinOption": {
+          "valid": true,
+          "value": "TIN provided"
+        },
+        "overseasTaxCountry": {
+          "valid": true,
+          "value": "AX"
+        },
+        "tinExemptionReason": {
+          "valid": true
+        }
+      }, {
+        "tin": {
+          "valid": true
+        },
+        "tinOption": {
+          "valid": true,
+          "value": "Exemption Reason provided"
+        },
+        "overseasTaxCountry": {
+          "valid": true,
+          "value": "UM"
+        },
+        "tinExemptionReason": {
+          "valid": true,
+          "value": "UNDER_AGED"
+        }
+      }, {
+        "tin": {
+          "valid": true
+        },
+        "tinOption": {
+          "valid": true,
+          "value": "Exemption Reason provided"
+        },
+        "overseasTaxCountry": {
+          "valid": true,
+          "value": "AL"
+        },
+        "tinExemptionReason": {
+          "valid": true,
+          "value": "TIN_PEND"
+        }
+      }]
+    },
+    "displayTaxOptions": true,
+    "cismandatory": true,
+    "wealthsource": "Business income/earnings",
+    "title": "MR",
+    "firstname": "dsds",
+    "middlename": "dsds",
+    "lastname": "dsd",
+    "preferredname": "",
+    "formername": "",
+    "dateofbirth": "05/05/1978",
+    "gender": "male",
+    "mobile": {
+      "value": "0422408382"
+    },
+    "email": {
+      "value": "florin@email.com"
+    },
+    "preferredcontact": "mobile",
+    "isvalid": true,
+    "alternatename": "",
+    "accountType": "individual",
+    "identitydocument": {
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "ACT",
+          "expiryDate": "05/05/2020",
+          "documentNumber": "33443",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    },
+    "resaddress": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [{
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "742438",
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": []
+      }]
+    },
+    "postaladdress": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "id": "602874",
+      "sameasaddress": "602874",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [{
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "602874",
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": []
+      }]
+    },
+    "taxcountry": "AU",
+    "taxoption": "",
+    "sameasresaddress": "true"
+  }],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [{
+      "paymentSetting": "linkedaccountsonly",
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Bonus",
+    "powerofattorney": true
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "dsdss",
+      "bsb": "082124",
+      "accountnumber": "32323333",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [{
+        "label": "Percentage fee component",
+        "listedSecurities": "2.00",
+        "managedFund": "1.00",
+        "managedPortfolio": "0.00",
+        "cash": "0.00",
+        "termDeposit": "0.00",
+        "slidingScaleFeeTier": [],
+        "valid": true
+      }],
+      "type": "Licensee advice fee"
+    }
+  }
+}

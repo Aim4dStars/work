@@ -1,0 +1,96 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns5:AvaloqGatewayResponseMsg xmlns:ns10="http://btfin.com/ABS/TrxService/Fidd/V1_0" xmlns:ns100="http://www.avaloq.com/abs/screen_rep/hira/web_ui_asset_val" xmlns:ns101="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_mp_rebal_oe_dflt_rebal_det" xmlns:ns102="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_au_tax_sa_contri" xmlns:ns103="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp.bp" xmlns:ns104="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet_avsr_dshbrd_pv_band" xmlns:ns105="http://www.avaloq.com/abs/screen_rep/hira/ui_get_td_trx" xmlns:ns106="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list.pos_evt" xmlns:ns107="http://www.avaloq.com/abs/screen_rep/hira/web_ui_fee_schedule_im" xmlns:ns108="http://www.avaloq.com/abs/screen_rep/hira/web_ui_asset_det" xmlns:ns109="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_sec_user_list_user_role_funct_role" xmlns:ns11="http://btfin.com/ABS/TrxService/Ntfcn/V1_0" xmlns:ns110="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_schedule_im" xmlns:ns111="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_cf_list_bp_portf_mvt" xmlns:ns112="http://www.avaloq.com/abs/screen_rep/hira/web_ui_crm_issue" xmlns:ns113="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_asset_list_asset" xmlns:ns114="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_bp_top_bp" xmlns:ns115="http://www.avaloq.com/abs/screen_rep/hira/web_ui_transactionhistory" xmlns:ns116="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_secevt_list_rsp_mngt_doc" xmlns:ns117="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cash_cat_bp_caps" xmlns:ns118="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_secevt_list_rsp_mngt_cnt" xmlns:ns119="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_sectrx_list_bp_cont_assetgrp_pos" xmlns:ns12="http://btfin.com/ABS/TrxService/AccActiv/V1_0" xmlns:ns120="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_settle_doc_list_bp_trans_settle_doc" xmlns:ns121="http://www.avaloq.com/abs/screen_rep/hira/web_ui_staff" xmlns:ns122="http://www.avaloq.com/abs/screen_rep/hira/web_ui_fee_schedule_adv" xmlns:ns123="http://www.avaloq.com/abs/screen_rep/hira/web_ui_imed_struct" xmlns:ns124="http://www.avaloq.com/abs/screen_rep/hira/ui_staff" xmlns:ns125="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_bp_top_bp_cash" xmlns:ns126="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_trans_bp_list_status" xmlns:ns127="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_dec_est_list.doc" xmlns:ns128="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_evt_gst" xmlns:ns129="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_avsr_dshbrd_prd_prddet" xmlns:ns13="http://btfin.com/ABS/TrxService/RegAcc/V1_0" xmlns:ns130="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ips_list_ips" xmlns:ns131="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp_bp_v2" xmlns:ns132="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_ips_shdw_mp_cash" xmlns:ns133="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_mpf_list_mpf" xmlns:ns134="http://www.avaloq.com/abs/screen_rep/hira/web_ui_lov_export" xmlns:ns135="http://btfin.com/ABS/TrxService/NtfcnSubscr/V1_0" xmlns:ns136="http://btfin.com/ABS/TrxService/TrxBdl/V1_0" xmlns:ns137="http://btfin.com/ABS/TrxService/Rebal/V1_0" xmlns:ns138="http://btfin.com/ABS/TrxService/RebalDet/V1_0" xmlns:ns139="http://btfin.com/ABS/TrxService/MP_Cton/V1_0" xmlns:ns14="http://btfin.com/ABS/TrxService/BP/V1_0" xmlns:ns140="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:ns141="http://btfin.com/ABS/Err/V1_0" xmlns:ns142="http://btfin.com/ABS/TrxService/AdvFee/V1_0" xmlns:ns143="http://btfin.com/ABS/TrxService/MdfFee/V1_0" xmlns:ns144="http://btfin.com/ABS/TrxService/Person/V1_0" xmlns:ns145="http://btfin.com/ABS/TrxService/AccActiv/V2_0" xmlns:ns146="http://btfin.com/ABS/TrxService/CancelDoc/V1_0" xmlns:ns147="http://btfin.com/ABS/TrxService/Cont/V1_0" xmlns:ns148="http://btfin.com/ABS/TrxService/MpCancelDoc/V1_0" xmlns:ns149="http://btfin.com/ABS/TrxService/ExtlHold/V1_0" xmlns:ns15="http://btfin.com/ABS/EpiAdviserDownload/V1_0" xmlns:ns150="http://btfin.com/ABS/TrxService/Secevt2ApplyDecsn/V1_0" xmlns:ns151="http://btfin.com/ABS/TrxService/Stex/V1_0" xmlns:ns152="http://btfin.com/ABS/TrxService/CashCat/V1_0" xmlns:ns153="http://btfin.com/ABS/Common/V1_0" xmlns:ns154="http://btfin.com/ABS/TrxService/Customer/V2_0" xmlns:ns155="www.aciworldwide.com/Risk/XF_1_0_0/" xmlns:ns156="http://btfin.com/ABS/TrxService/IPS/V1_0" xmlns:ns157="ns://btfin.com/SharedServices/Common/Contact/V1_1" xmlns:ns16="ns://private.btfin.com/NextGen/Onboarding/OnboardingRequest/V1_0" xmlns:ns17="http://btfin.com/ABS/SrchService/V1_0" xmlns:ns18="http://www.avaloq.com/abs/screen_rep/hira/web_ui_cgt_unrealised" xmlns:ns19="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_rebal_smry_doc_doc_det" xmlns:ns2="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentRequest/V1_0" xmlns:ns20="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_rebal_trig_ips_trig_grp_doc" xmlns:ns21="http://www.avaloq.com/abs/screen_rep/hira/doc_trans_list" xmlns:ns22="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fund_notice_doc" xmlns:ns23="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet" xmlns:ns24="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cont_list_all_custr" xmlns:ns25="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cgt_real_bp_cont_assetgrp_asset" xmlns:ns26="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ntfcn_list_prio_cat_ctr_cnt" xmlns:ns27="http://www.avaloq.com/abs/screen_rep/hira/web_ui_ind_sector_det" xmlns:ns28="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet_avsr_dshbrd" xmlns:ns29="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_code_list_tab_code" xmlns:ns3="ns://btfin.com/nextgen/services/schemas" xmlns:ns30="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_custr_list_bp_person_cont" xmlns:ns31="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_costp_cost" xmlns:ns32="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_pos_avl_cash" xmlns:ns33="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_prod_list_all_prod_det" xmlns:ns34="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_aal_list_aal_asset" xmlns:ns35="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_sectrx_pos" xmlns:ns36="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_list_doc" xmlns:ns37="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cash_recv_list_bp_cont_assetgrp_pos" xmlns:ns38="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ips_list_ips_im_rep_hdr" xmlns:ns39="http://www.avaloq.com/abs/screen_rep/hira/web_ui_acc_activ" xmlns:ns4="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayRequest/V1_0" xmlns:ns40="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_prod_list_prod_ips_det" xmlns:ns41="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_scd_trx_list_pos_trx" xmlns:ns42="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_collect_list_collect_asset" xmlns:ns43="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_rebal_trig_doc_doc_det" xmlns:ns44="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_pos_cacc" xmlns:ns45="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_secevt_poslist_trig_pos" xmlns:ns46="http://www.avaloq.com/abs/screen_rep/hira/web_ui_performances" xmlns:ns47="http://www.avaloq.com/abs/screen_rep/hira/btfg$task_bp_list_sa_cap" xmlns:ns48="http://www.avaloq.com/abs/screen_rep/hira/btfg$task_ui_chg_all_chg" xmlns:ns49="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_bp_bal" xmlns:ns5="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0" xmlns:ns50="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet_bp" xmlns:ns51="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp_list_all_custr" xmlns:ns52="http://www.avaloq.com/abs/screen_rep/hira/btfg$exp_perf_list_invst_mgr_ips_dg" xmlns:ns53="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp_pay_det" xmlns:ns54="http://www.avaloq.com/abs/screen_rep/hira/web_ui_unrealisedcgt_det" xmlns:ns55="http://www.avaloq.com/abs/screen_rep/hira/ui_td_maturity" xmlns:ns56="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_bp_costp" xmlns:ns57="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cont_list.cont" xmlns:ns58="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_custr_list_doc_doc_det" xmlns:ns59="http://www.avaloq.com/abs/screen_rep/hira/web_ui_user_hira" xmlns:ns6="http://btfin.com/ABS/ReportService/ReportRequest/V1_0" xmlns:ns60="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_apl_list_all_prod" xmlns:ns61="http://www.avaloq.com/abs/screen_rep/hira/r1343951" xmlns:ns62="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_user_user_auth" xmlns:ns63="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp_bp" xmlns:ns64="http://www.avaloq.com/abs/screen_rep/hira/web_ui_holdings_det" xmlns:ns65="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_ips_aum" xmlns:ns66="http://www.avaloq.com/abs/screen_rep/generic" xmlns:ns67="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_oe_struct_person_hira" xmlns:ns68="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ntfcn_list_ntfcn" xmlns:ns69="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_asset_x_wgt" xmlns:ns7="http://btfin.com/ABS/TrxService/Pay/V1_0" xmlns:ns70="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_secevt_doc" xmlns:ns71="http://www.avaloq.com/abs/screen_rep/hira/btfg$exp_pos_list_asset_x_wgt_aum" xmlns:ns72="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_person_list_all_invstr" xmlns:ns73="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_bp_cont_assetgrp_pos" xmlns:ns74="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fidd_rate_list_irc_dg" xmlns:ns75="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_invst_mgr_cont_doc_evt_pos_shdw_mp" xmlns:ns76="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_list_invst_status" xmlns:ns77="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_cont_assetgrp_pos" xmlns:ns78="http://www.avaloq.com/abs/screen_rep/hira/btfg$exp_perf_list_invst_mgr_prd_prddet_shdw_mp" xmlns:ns79="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_base_all_system_det" xmlns:ns8="ns://btfin.com/SharedServices/BPM/Image/ImageService/ImageRequest/V1_0" xmlns:ns80="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cont_list_bp_cont_pref" xmlns:ns81="http://www.avaloq.com/abs/screen_rep/hira/ui_staff_det" xmlns:ns82="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_sec_user_list_job_user" xmlns:ns83="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_feedback_list.doc" xmlns:ns84="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_dg_avsr_evt_gst" xmlns:ns85="http://www.avaloq.com/abs/screen_rep/hira/web_ui_realisedcgt_det" xmlns:ns86="http://www.avaloq.com/abs/screen_rep/hira/web_ui_transaction_det" xmlns:ns87="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_person_list_all_invstr_flat" xmlns:ns88="http://www.avaloq.com/abs/screen_rep/hira/btfg$exp_book_list_invst_mgr_cont_doc_evt_pos_shdw_mp" xmlns:ns89="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cash_cat_doc_person" xmlns:ns9="http://btfin.com/ABS/TrxService/Inpay/V1_0" xmlns:ns90="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_pos_fidd" xmlns:ns91="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_person_person_det" xmlns:ns92="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bmrk_list_bmrk" xmlns:ns93="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cgt_unreal_bp_cont_assetgrp_asset" xmlns:ns94="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_trx_bdl_doc" xmlns:ns95="http://www.avaloq.com/abs/screen_rep/hira/ui_ntfcn_unread" xmlns:ns96="http://www.avaloq.com/abs/screen_rep/hira/btfg$exp_ips_list_ips_im_rep_hdr" xmlns:ns97="http://www.avaloq.com/abs/screen_rep/hira/web_ui_ord_tra" xmlns:ns98="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_custr_list_doc" xmlns:ns99="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_bp_cont_pos_evt">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <ns47:rep>
+                        <metadata>
+                            <empty_rep>
+                                <val>false</val>
+                            </empty_rep>
+                            <current_of_time>
+                                <val>2016-06-08T23:39:10+10:00</val>
+                            </current_of_time>
+                        </metadata>
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>flat</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>bp</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>descn</name>
+                                            <type>TextFld</type>
+                                            <lbl></lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>fy_date</name>
+                                            <type>DateTimeFld</type>
+                                            <lbl>FY Date</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>sa_conc_cap</name>
+                                            <type>NrFld</type>
+                                            <lbl>Concessional Cap Amount</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>sa_nconc_cap</name>
+                                            <type>NrFld</type>
+                                            <lbl>Non-Concessional Cap Amount</lbl>
+                                        </fld_def>
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+                        <data>
+                            <bp_list>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head hira="0" id="2-1" level="bp.head" row_type="data">
+                                            <bp_id>
+                                                <annot>
+                                                    <displ_text>Pension Test</displ_text>
+                                                    <ctx>
+                                                        <type>bp</type>
+                                                        <id>440305</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>440305</val>
+                                            </bp_id>
+                                            <fy_date>
+                                                <val>2016-07-01T00:00:00+10:00</val>
+                                            </fy_date>
+                                            <sa_conc_cap>
+                                                <val>35000</val>
+                                            </sa_conc_cap>
+                                            <sa_nconc_cap>
+                                                <val>180000</val>
+                                            </sa_nconc_cap>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                            </bp_list>
+                        </data>
+                    </ns47:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns5:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

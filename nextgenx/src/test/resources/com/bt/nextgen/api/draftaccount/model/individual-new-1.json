@@ -1,0 +1,191 @@
+{
+  "accountType": "individual",
+  "approvalType": "online",
+  "version": "1.0.0",
+  "investors": [{
+    "displayTaxOptions": true,
+    "cismandatory": true,
+    "title": "MR",
+    "firstname": "Florin",
+    "middlename": "middle",
+    "lastname": "test",
+    "preferredname": "flo",
+    "formername": "",
+    "dateofbirth": "16/03/1978",
+    "gender": "male",
+    "mobile": {
+      "value": "0422323234"
+    },
+    "email": {
+      "value": "flado@email.com"
+    },
+    "preferredcontact": "email",
+    "isvalid": true,
+
+    "accountType": "individual",
+    "alternatename": "zoltar",
+    "wealthsource": "Additional Sources",
+    "additionalsourceofwealth": "some additional stuff",
+    "identitydocument": {
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "NSW",
+          "expiryDate": "12/12/2020",
+          "documentNumber": "23232323",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    },
+    "resaddress": {
+      "componentised": true,
+      "unitNumber": "305",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "305",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "73272"
+      }],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "postaladdress": {
+      "componentised": true,
+      "unitNumber": "305",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "624473",
+      "addressType": "residential",
+      "id": "624473",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "305",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "624473"
+      }]
+    },
+    "secondarymobile": {
+      "label": "secondarymobile",
+      "value": "0455656543",
+      "valid": true
+    },
+    "homenumber": {
+      "label": "homenumber",
+      "value": "21323232",
+      "countryCode": "61",
+      "areaCode": "02",
+      "valid": true
+    },
+    "taxcountry": "AU",
+    "taxoption": "Tax File Number provided",
+    "tfn": "865414088"
+  }],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [{
+      "paymentSetting": "linkedaccountsonly",
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Michelle Hicks",
+    "adviserLocation": "NSW",
+    "sourceoffunds": "Additional Sources",
+    "additionalsourceoffunds": "aaaa"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "rewrewr",
+      "bsb": "082124",
+      "accountnumber": "2232323",
+      "nickname": "wqwqwqwq",
+      "directdebitamount": "223.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [{
+      "accountname": "dsdsdsds",
+      "bsb": "082124",
+      "accountnumber": "2323232",
+      "nickname": "eweewe",
+      "directdebitamount": "22.00",
+      "bsbValidationResultVal": true
+    }]
+  },
+  "fees": {
+    "estamount": "4.00",
+    "ongoingFees": {
+      "feesComponent": [{
+        "listedSecurities": "true",
+        "managedFund": "true",
+        "managedPortfolio": "true",
+        "cash": "true",
+        "termDeposit": "true",
+        "slidingScaleFeeTier": [{
+          "lowerBound": "0.00",
+          "upperBound": "20000.00",
+          "percentage": "2.00"
+        }, {
+          "lowerBound": "20000.00",
+          "upperBound": "",
+          "percentage": "1.00"
+        }],
+        "label": "Sliding scale fee component"
+      }],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [{
+        "listedSecurities": "1.00",
+        "managedFund": "1.00",
+        "managedPortfolio": "1.00",
+        "termDeposit": "1.00",
+        "cash": "1.00",
+        "label": "Percentage fee component",
+        "valid": true
+      }],
+      "type": "Licensee advice fee"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personResponse>	
+		<dateOfBirth>20 Jun 1950</dateOfBirth>
+		<salutation>Mr</salutation>
+		<firstName>Dennis</firstName>
+    	<lastName>Beecham</lastName>
+    	<gender>Male</gender>
+    	<age>64</age>
+    	<registeredDate>23 Dec 2013</registeredDate>
+		<tfn>Exemption</tfn>
+		<preferedContactMethod></preferedContactMethod>
+		<dealer>Dealer group name</dealer>
+		<practiceNameandOffice>Practice Name and office</practiceNameandOffice>
+		<fax>(02)9787 87855</fax>
+		<phones>	
+			<phone>
+				<phoneNumber>978787855</phoneNumber>
+				<type>Mobile</type>
+				<primary>true</primary>
+				<smsNotified>true</smsNotified>
+				<preferedContact>false</preferedContact>
+			</phone>
+			<phone>
+				<phoneNumber>8989898989</phoneNumber>
+				<type>Mobile</type>
+				<primary>false</primary>
+				<smsNotified>false</smsNotified>
+				<preferedContact>false</preferedContact>
+			</phone>
+			<phone>
+				<phoneNumber>9787878787</phoneNumber>
+				<type>Mobile</type>
+				<primary>false</primary>
+				<smsNotified>false</smsNotified>
+				<preferedContact>false</preferedContact>
+			</phone>
+			<phone>
+				<phoneNumber>(02) 34557788</phoneNumber>
+				<type>Mobile</type>
+				<primary>false</primary>
+				<smsNotified>false</smsNotified>
+				<preferedContact>false</preferedContact>
+			</phone>
+			<phone>
+				<phoneNumber>(02) 34557333</phoneNumber>
+				<type>Landline</type>
+				<primary>false</primary>
+				<smsNotified>false</smsNotified>
+				<preferedContact>false</preferedContact>
+			</phone>		
+		</phones>
+		<emails>
+			<email>
+				<emailId>adam.r@gmail.com</emailId>
+				<primary>true</primary>
+				<preferedContact>true</preferedContact>	
+			</email>
+			<email>
+				<emailId>pulkit.r@gmail.com</emailId>
+				<primary>false</primary>
+				<preferedContact>false</preferedContact>	
+			</email>
+			<email>
+				<emailId>raj.r@gmail.com</emailId>
+				<primary>false</primary>
+				<preferedContact>false</preferedContact>	
+			</email>
+			<email>
+				<emailId>sam.r@gmail.com</emailId>
+				<primary>false</primary>
+				<preferedContact>false</preferedContact>	
+			</email>	
+		</emails>
+		<addresses>
+			<address>
+				<addressLine1>kent street</addressLine1>
+				<addressLine2>tam road</addressLine2>
+				<city>sydney</city>
+				<state>nsw</state>
+				<country>Australia</country>
+				<pin>1212121</pin>
+				<type>Residential</type>			
+			</address>
+			<address>
+				<addressLine1>PO 12</addressLine1>
+				<addressLine2>new street</addressLine2>
+				<city>melbourne</city>
+				<state>nsw</state>
+				<country>Australia</country>
+				<pin>112211</pin>
+				<type>Postal</type>			
+			</address>
+		</addresses>			
+		
+		
+</personResponse>

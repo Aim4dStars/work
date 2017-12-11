@@ -1,0 +1,366 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header />
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg
+                xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp_list_all_custr" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <!-- 2016-02-22 17:44:41.136985000 on NGWU3 by 201601481 -->
+
+                        <metadata>
+                            <empty_rep><val>false</val></empty_rep>
+                            <current_of_time><val>2016-02-22T06:44:41+11:00</val></current_of_time>
+                            <bp_list><val></val></bp_list>
+                        </metadata>
+
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>hira</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>bp</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>dummy</name>
+                                            <type>TextFld</type>
+                                            <lbl> </lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp</name>
+                                            <type>TextFld</type>
+                                            <lbl>BP</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_nr</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP NR</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>acc_struct_type_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Account structure type</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>prod_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Product ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_acc_status_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Account status ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_is_open</name>
+                                            <type>BoolFld</type>
+                                            <lbl>BP Is Open</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_person_oe_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Adviser OE ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_person_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Adviser Person ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_permission_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Adviser permission ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>has_dg_advcong_fee_trx</name>
+                                            <type>BoolFld</type>
+                                            <lbl>Has Licensee Fee Transaction</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>docm_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Document ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>is_tnc_docm</name>
+                                            <type>BoolFld</type>
+                                            <lbl>Is T&amp;C Document</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>docm_sign_date</name>
+                                            <type>DateFld</type>
+                                            <lbl>Signature Date</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>docm_refer_person_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Related Person</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>cont_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Container ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>owner_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Account Owner ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>auth_role_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Authority Role ID</lbl>
+                                        </fld_def>
+
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+
+                        <data>
+                            <bp_list>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="2-1" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>44853</id></ctx></annot><val>L person-121_2156</val></bp>
+                                            <bp_nr><val>120004601</val></bp_nr>
+                                            <acc_struct_type_id><val>20614</val></acc_struct_type_id>
+                                            <prod_id><val>108285</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><val>101396</val></avsr_person_oe_id>
+                                            <avsr_person_id><val>29724</val></avsr_person_id>
+                                            <has_dg_advcong_fee_trx><annot><displ_text>0</displ_text></annot><val>false</val></has_dg_advcong_fee_trx>
+                                            <bp_docm_list_list>
+                                                <bp_docm_list id="4-2" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>10490</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>0</displ_text></annot><val>false</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2014-07-11</val></docm_sign_date>
+                                                </bp_docm_list>
+                                                <bp_docm_list id="6-3" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>21326</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>1</displ_text></annot><val>true</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2014-07-11</val></docm_sign_date>
+                                                    <docm_refer_person_id><val>44847</val></docm_refer_person_id>
+                                                </bp_docm_list>
+                                            </bp_docm_list_list>
+                                        </bp_head>
+                                        <bp_head id="8-4" row_type="data" hira="1" level="bp.head">
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="10-5" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="12-6" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="14-7" row_type="data" hira="2" level="owner">
+                                                    <owner_id><val>44842</val></owner_id>
+                                                    <auth_role_id><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                        <bp_head id="16-8" row_type="data" hira="1" level="bp.head">
+                                            <cont_list>
+                                                <cont id="18-9" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>44858</val></cont_id>
+                                                </cont>
+                                                <cont id="20-10" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>214517</val></cont_id>
+                                                </cont>
+                                                <cont id="22-11" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>279729</val></cont_id>
+                                                </cont>
+                                                <cont id="24-12" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>289712</val></cont_id>
+                                                </cont>
+                                                <cont id="26-13" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>289867</val></cont_id>
+                                                </cont>
+                                                <cont id="28-14" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>289870</val></cont_id>
+                                                </cont>
+                                                <cont id="30-15" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>289873</val></cont_id>
+                                                </cont>
+                                                <cont id="32-16" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>289974</val></cont_id>
+                                                </cont>
+                                                <cont id="34-17" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>289977</val></cont_id>
+                                                </cont>
+                                            </cont_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="36-18" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>44875</id></ctx></annot><val>L person-121_3322</val></bp>
+                                            <bp_nr><val>120004619</val></bp_nr>
+                                            <acc_struct_type_id><val>20615</val></acc_struct_type_id>
+                                            <prod_id><val>108285</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><val>101396</val></avsr_person_oe_id>
+                                            <avsr_person_id><val>29724</val></avsr_person_id>
+                                            <has_dg_advcong_fee_trx><annot><displ_text>0</displ_text></annot><val>false</val></has_dg_advcong_fee_trx>
+                                            <bp_docm_list_list>
+                                                <bp_docm_list id="38-19" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>10490</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>0</displ_text></annot><val>false</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2014-07-11</val></docm_sign_date>
+                                                </bp_docm_list>
+                                                <bp_docm_list id="40-20" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>21326</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>1</displ_text></annot><val>true</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2014-07-11</val></docm_sign_date>
+                                                    <docm_refer_person_id><val>44867</val></docm_refer_person_id>
+                                                </bp_docm_list>
+                                                <bp_docm_list id="42-21" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>21326</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>1</displ_text></annot><val>true</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2014-07-11</val></docm_sign_date>
+                                                    <docm_refer_person_id><val>44871</val></docm_refer_person_id>
+                                                </bp_docm_list>
+                                            </bp_docm_list_list>
+                                        </bp_head>
+                                        <bp_head id="44-22" row_type="data" hira="1" level="bp.head">
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="46-23" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><val>1124</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="48-24" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="50-25" row_type="data" hira="2" level="owner">
+                                                    <owner_id><val>44862</val></owner_id>
+                                                    <auth_role_id><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                        <bp_head id="52-26" row_type="data" hira="1" level="bp.head">
+                                            <cont_list>
+                                                <cont id="54-27" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>44876</val></cont_id>
+                                                </cont>
+                                                <cont id="56-28" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>98511</val></cont_id>
+                                                </cont>
+                                                <cont id="58-29" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>198277</val></cont_id>
+                                                </cont>
+                                            </cont_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="60-30" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>279719</id></ctx></annot><val>Hello Testing</val></bp>
+                                            <bp_nr><val>120059514</val></bp_nr>
+                                            <acc_struct_type_id><val>20611</val></acc_struct_type_id>
+                                            <prod_id><val>108285</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>0</displ_text></annot><val>false</val></bp_is_open>
+                                            <avsr_person_oe_id><val>101396</val></avsr_person_oe_id>
+                                            <avsr_person_id><val>29724</val></avsr_person_id>
+                                            <has_dg_advcong_fee_trx><annot><displ_text>0</displ_text></annot><val>false</val></has_dg_advcong_fee_trx>
+                                            <bp_docm_list_list>
+                                                <bp_docm_list id="62-31" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>10490</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>0</displ_text></annot><val>false</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2016-02-11</val></docm_sign_date>
+                                                </bp_docm_list>
+                                                <bp_docm_list id="64-32" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>21326</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>1</displ_text></annot><val>true</val></is_tnc_docm>
+                                                    <docm_refer_person_id><val>279717</val></docm_refer_person_id>
+                                                </bp_docm_list>
+                                            </bp_docm_list_list>
+                                        </bp_head>
+                                        <bp_head id="66-33" row_type="data" hira="1" level="bp.head">
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="68-34" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="70-35" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="72-36" row_type="data" hira="2" level="owner">
+                                                    <owner_id><val>279717</val></owner_id>
+                                                    <auth_role_id><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="74-37" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>297680</id></ctx></annot><val>DDtest UAT</val></bp>
+                                            <bp_nr><val>120064993</val></bp_nr>
+                                            <acc_struct_type_id><val>20611</val></acc_struct_type_id>
+                                            <prod_id><val>108285</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><val>101396</val></avsr_person_oe_id>
+                                            <avsr_person_id><val>29724</val></avsr_person_id>
+                                            <has_dg_advcong_fee_trx><annot><displ_text>0</displ_text></annot><val>false</val></has_dg_advcong_fee_trx>
+                                            <bp_docm_list_list>
+                                                <bp_docm_list id="76-38" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>10490</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>0</displ_text></annot><val>false</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2016-02-22</val></docm_sign_date>
+                                                </bp_docm_list>
+                                                <bp_docm_list id="78-39" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id><val>21326</val></docm_id>
+                                                    <is_tnc_docm><annot><displ_text>1</displ_text></annot><val>true</val></is_tnc_docm>
+                                                    <docm_sign_date><val>2016-02-22</val></docm_sign_date>
+                                                    <docm_refer_person_id><val>297678</val></docm_refer_person_id>
+                                                </bp_docm_list>
+                                            </bp_docm_list_list>
+                                        </bp_head>
+                                        <bp_head id="80-40" row_type="data" hira="1" level="bp.head">
+                                            <avsr_person_auth_list>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="82-41" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="84-42" row_type="data" hira="2" level="owner">
+                                                    <owner_id><val>297678</val></owner_id>
+                                                    <auth_role_id><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                        <bp_head id="86-43" row_type="data" hira="1" level="bp.head">
+                                            <cont_list>
+                                                <cont id="88-44" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>297681</val></cont_id>
+                                                </cont>
+                                                <cont id="90-45" row_type="data" hira="2" level="cont">
+                                                    <cont_id><val>297682</val></cont_id>
+                                                </cont>
+                                            </cont_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                            </bp_list>
+
+                        </data>
+                    </rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>
+        <!-- test2222 at 2014-09-27T03:33:45.425667000Z on AFD030A by AVALOQ -->

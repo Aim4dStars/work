@@ -1,0 +1,120 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cash_intr_hist_asset" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <!-- 2015-03-06 02:52:03.537442000 on af237k by 201659386 -->
+   <metadata>
+      <empty_rep>
+         <val>false</val>
+      </empty_rep>
+      <current_of_time>
+         <val>2015-03-06T01:52:03+11:00</val>
+      </current_of_time>
+   </metadata>
+   <def>
+      <version>2.0</version>
+      <rep_def>
+         <style>hira</style>
+         <lang id="1">en</lang>
+         <hira_def>
+            <grp_list>
+               <grp_def>
+                  <name>report</name>
+                  <hira>1</hira>
+                  <has_head>false</has_head>
+                  <has_foot>true</has_foot>
+               </grp_def>
+            </grp_list>
+         </hira_def>
+         <row_def>
+            <fld_list>
+               <fld_def>
+                  <name>dummy</name>
+                  <type>TextFld</type>
+                  <lbl />
+               </fld_def>
+               <fld_def>
+                  <name>asset_id</name>
+                  <type>NrFld</type>
+                  <lbl>Asset ID</lbl>
+               </fld_def>
+               <fld_def>
+                  <name>compo_type_id</name>
+                  <type>NrFld</type>
+                  <lbl>Component Type ID</lbl>
+               </fld_def>
+               <fld_def>
+                  <name>contri_id</name>
+                  <type>NrFld</type>
+                  <lbl>Contribution ID</lbl>
+               </fld_def>
+               <fld_def>
+                  <name>eff_date</name>
+                  <type>DateFld</type>
+                  <lbl>Effective Date</lbl>
+               </fld_def>
+               <fld_def>
+                  <name>intr</name>
+                  <type>NrFld</type>
+                  <lbl>Interest</lbl>
+               </fld_def>
+            </fld_list>
+         </row_def>
+      </rep_def>
+   </def>
+   <data>
+      <report>
+	<report_foot_list>
+		<report_foot id="2-1" row_type="title" hira="-1" level="report.foot">
+			<asset_id><annot><displ_text>BT Cash</displ_text><ctx><type>asset</type><id>10757</id></ctx></annot><val>10757</val></asset_id>
+			<compo_type_id><val>5102</val></compo_type_id>
+			<base_contri_list>
+				<base_contri id="4-2" row_type="title" hira="0" level="base_contri">
+					<contri_id><val>5001</val></contri_id>
+					<eff_date><val>2013-08-21</val></eff_date>
+					<intr><val>1.82</val></intr>
+				</base_contri>
+				<base_contri id="6-3" row_type="title" hira="0" level="base_contri">
+					<eff_date><val>2015-03-10</val></eff_date>
+					<intr><val>2.5</val></intr>
+				</base_contri>
+				<base_contri id="8-4" row_type="title" hira="0" level="base_contri">
+					<eff_date><val>2013-07-31</val></eff_date>
+					<intr><val>1</val></intr>
+				</base_contri>
+				<base_contri id="10-5" row_type="title" hira="0" level="base_contri">
+					<eff_date><val>2015-02-04</val></eff_date>
+					<intr><val>2.25</val></intr>
+				</base_contri>
+			</base_contri_list>
+		</report_foot>
+		<report_foot id="12-6" row_type="title" hira="-1" level="report.foot">
+			<marg_contri_list>
+				<marg_contri id="14-7" row_type="title" hira="0" level="marg_contri">
+					<contri_id><val>5010</val></contri_id>
+					<eff_date><val>2013-08-21</val></eff_date>
+					<intr><val>-.32</val></intr>
+				</marg_contri>
+				<marg_contri id="16-8" row_type="title" hira="0" level="marg_contri">
+					<eff_date><val>2014-03-10</val></eff_date>
+					<intr><val>0</val></intr>
+				</marg_contri>
+				<marg_contri id="18-9" row_type="title" hira="0" level="marg_contri">
+					<eff_date><val>2013-07-31</val></eff_date>
+					<intr><val>-.1</val></intr>
+				</marg_contri>
+			</marg_contri_list>
+		</report_foot>
+	</report_foot_list>
+</report>
+   </data>
+</rep:rep>
+<!-- 1095ee44-6b0f-15d0-e054-d48564c93996 at 2015-03-06T01:52:03.918166000Z on AF237K by 201659386 -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

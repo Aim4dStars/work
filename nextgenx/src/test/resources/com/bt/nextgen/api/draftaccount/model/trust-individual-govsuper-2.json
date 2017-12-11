@@ -1,0 +1,167 @@
+{
+  "trustType": "govsuper",
+  "version": "1.0.0",
+  "accountType": "individualTrust",
+  "approvalType": "offline",
+  "trustdetails": {
+    "trustname": "sfsf",
+    "businessname": "sdfsdf",
+    "abn": "16331126061",
+    "regdate": "02/02/2010",
+    "registrationstate": "NT",
+    "registeredforgst": "yes",
+    "trusttype": "govsuper",
+    "nameoflegislation": "dsfsfsfsd",
+    "nameofwebsite": "etretertetert",
+    "searchdate": "12/12/2015",
+    "wealthsource": "Additional Sources",
+    "additionalsourceofwealth": "sdfsfs",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "87626"
+      }],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "trustees": [{
+    "title": "",
+    "firstname": "",
+    "middlename": "",
+    "lastname": "",
+    "preferredname": "",
+    "formername": "",
+    "gender": "",
+    "mobile": {
+      "value": ""
+    },
+    "email": {
+      "value": ""
+    },
+    "preferredcontact": "",
+    "isvalid": false,
+
+    "accountType": "individualTrust",
+    "alternatename": "",
+    "identitydocument": {},
+    "resaddress": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "residential",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "968566"
+      }],
+      "sameasaddress": "0",
+      "valid": false
+    },
+    "postaladdress": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "postal",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "792321"
+      }],
+      "sameasaddress": "0",
+      "valid": false
+    }
+  }],
+  "accountsettings": {
+    "investorAccountSettings": [{
+      "isApprover": "true",
+      "hasRoles": false,
+      "hasApprovers": true
+    }],
+    "primarycontact": 0,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "accountType": "individualTrust",
+    "investorsWithRoles": [{
+      "needsShareholder": false,
+      "needsMember": false,
+      "needsBeneficiary": true
+    }],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "bsb": ""
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

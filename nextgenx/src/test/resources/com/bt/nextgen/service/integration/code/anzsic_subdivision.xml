@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<tab_list>
+<tab>
+  <tab_head_list>
+    <tab_head id="4940-2470" row_type="title" hira="1" level="tab.head">
+      <tab_name><val>btfg$anzsic_subdiv</val></tab_name>
+    </tab_head>
+  </tab_head_list>
+  <code_list>
+    <code>
+      <code_head_list>
+        <code_head id="4942-2471" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14591</ctx_id>
+          </annot>
+          <code_id><val>14591</val></code_id>
+          <intl_id><val>44</val></intl_id>
+          <user_id><val>44</val></user_id>
+          <name><val>Accommodation</val></name>
+          <extn_fld_list>
+            <extn_fld id="4944-2472" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14590</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4946-2473" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14102</ctx_id>
+          </annot>
+          <code_id><val>14102</val></code_id>
+          <intl_id><val>01</val></intl_id>
+          <user_id><val>01</val></user_id>
+          <name><val>Agriculture</val></name>
+          <extn_fld_list>
+            <extn_fld id="4948-2474" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14101</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4950-2475" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14477</ctx_id>
+          </annot>
+          <code_id><val>14477</val></code_id>
+          <intl_id><val>33</val></intl_id>
+          <user_id><val>33</val></user_id>
+          <name><val>Basic Material Wholesaling</val></name>
+          <extn_fld_list>
+            <extn_fld id="4952-2476" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14476</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4954-2477" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14721</ctx_id>
+          </annot>
+          <code_id><val>14721</val></code_id>
+          <intl_id><val>66</val></intl_id>
+          <user_id><val>66</val></user_id>
+          <name><val>Business Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="4956-2478" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14720</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4958-2479" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14172</ctx_id>
+          </annot>
+          <code_id><val>14172</val></code_id>
+          <intl_id><val>06</val></intl_id>
+          <user_id><val>06</val></user_id>
+          <name><val>Coal Mining</val></name>
+          <extn_fld_list>
+            <extn_fld id="4960-2480" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14171</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4962-2481" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14155</ctx_id>
+          </annot>
+          <code_id><val>14155</val></code_id>
+          <intl_id><val>04</val></intl_id>
+          <user_id><val>04</val></user_id>
+          <name><val>Commercial Fishing</val></name>
+          <extn_fld_list>
+            <extn_fld id="4964-2482" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14101</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4966-2483" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14677</ctx_id>
+          </annot>
+          <code_id><val>14677</val></code_id>
+          <intl_id><val>58</val></intl_id>
+          <user_id><val>58</val></user_id>
+          <name><val>Communication Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="4968-2484" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14649</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4970-2485" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14852</ctx_id>
+          </annot>
+          <code_id><val>14852</val></code_id>
+          <intl_id><val>86</val></intl_id>
+          <user_id><val>86</val></user_id>
+          <name><val>Community Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="4972-2486" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14832</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4974-2487" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14451</ctx_id>
+          </annot>
+          <code_id><val>14451</val></code_id>
+          <intl_id><val>32</val></intl_id>
+          <user_id><val>32</val></user_id>
+          <name><val>Construction Trade Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="4976-2488" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14440</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4978-2489" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14813</ctx_id>
+          </annot>
+          <code_id><val>14813</val></code_id>
+          <intl_id><val>80</val></intl_id>
+          <user_id><val>80</val></user_id>
+          <name><val>Education</val></name>
+          <extn_fld_list>
+            <extn_fld id="4980-2490" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14812</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4982-2491" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14415</ctx_id>
+          </annot>
+          <code_id><val>14415</val></code_id>
+          <intl_id><val>26</val></intl_id>
+          <user_id><val>26</val></user_id>
+          <name><val>Electricity &amp; Gas Supply</val></name>
+          <extn_fld_list>
+            <extn_fld id="4984-2492" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14414</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4986-2493" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14694</ctx_id>
+          </annot>
+          <code_id><val>14694</val></code_id>
+          <intl_id><val>62</val></intl_id>
+          <user_id><val>62</val></user_id>
+          <name><val>Finance</val></name>
+          <extn_fld_list>
+            <extn_fld id="4988-2494" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14693</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4990-2495" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14545</ctx_id>
+          </annot>
+          <code_id><val>14545</val></code_id>
+          <intl_id><val>41</val></intl_id>
+          <user_id><val>41</val></user_id>
+          <name><val>Food Retailing</val></name>
+          <extn_fld_list>
+            <extn_fld id="4992-2496" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14533</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4994-2497" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14201</ctx_id>
+          </annot>
+          <code_id><val>14201</val></code_id>
+          <intl_id><val>11</val></intl_id>
+          <user_id><val>11</val></user_id>
+          <name><val>Food, Beverage &amp; Tobacco Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="4996-2498" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="4998-2499" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14151</ctx_id>
+          </annot>
+          <code_id><val>14151</val></code_id>
+          <intl_id><val>03</val></intl_id>
+          <user_id><val>03</val></user_id>
+          <name><val>Forestry and Logging</val></name>
+          <extn_fld_list>
+            <extn_fld id="5000-2500" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14101</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5002-2501" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14441</ctx_id>
+          </annot>
+          <code_id><val>14441</val></code_id>
+          <intl_id><val>30</val></intl_id>
+          <user_id><val>30</val></user_id>
+          <name><val>General Construction</val></name>
+          <extn_fld_list>
+            <extn_fld id="5004-2502" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14440</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5006-2503" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14788</ctx_id>
+          </annot>
+          <code_id><val>14788</val></code_id>
+          <intl_id><val>75</val></intl_id>
+          <user_id><val>75</val></user_id>
+          <name><val>Government Administration</val></name>
+          <extn_fld_list>
+            <extn_fld id="5008-2504" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14787</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5010-2505" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14837</ctx_id>
+          </annot>
+          <code_id><val>14837</val></code_id>
+          <intl_id><val>85</val></intl_id>
+          <user_id><val>85</val></user_id>
+          <name><val>Health Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="5012-2506" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14832</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5014-2507" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14868</ctx_id>
+          </annot>
+          <code_id><val>14868</val></code_id>
+          <intl_id><val>90</val></intl_id>
+          <user_id><val>90</val></user_id>
+          <name><val>Industr. Instruments For Measurem.,Disp,Control Of Proc Variables;Rel. Prod.</val></name>
+          <extn_fld_list>
+            <extn_fld id="5016-2508" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14861</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5018-2509" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14706</ctx_id>
+          </annot>
+          <code_id><val>14706</val></code_id>
+          <intl_id><val>63</val></intl_id>
+          <user_id><val>63</val></user_id>
+          <name><val>Insurance</val></name>
+          <extn_fld_list>
+            <extn_fld id="5020-2510" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14693</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5022-2511" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14490</ctx_id>
+          </annot>
+          <code_id><val>14490</val></code_id>
+          <intl_id><val>34</val></intl_id>
+          <user_id><val>34</val></user_id>
+          <name><val>Machinery &amp; Motor Vehicle Wholesaling</val></name>
+          <extn_fld_list>
+            <extn_fld id="5024-2512" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14476</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5026-2513" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14377</ctx_id>
+          </annot>
+          <code_id><val>14377</val></code_id>
+          <intl_id><val>24</val></intl_id>
+          <user_id><val>24</val></user_id>
+          <name><val>Machinery and Equipment Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5028-2514" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5030-2515" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14862</ctx_id>
+          </annot>
+          <code_id><val>14862</val></code_id>
+          <intl_id><val>89</val></intl_id>
+          <user_id><val>89</val></user_id>
+          <name><val>Measuring,Analyzing,Controlling Instr;Photogr.,Med.Optical Goods;Watches,Clocks</val></name>
+          <extn_fld_list>
+            <extn_fld id="5032-2516" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14861</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5034-2517" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14331</ctx_id>
+          </annot>
+          <code_id><val>14331</val></code_id>
+          <intl_id><val>21</val></intl_id>
+          <user_id><val>21</val></user_id>
+          <name><val>Metal Product Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5036-2518" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5038-2519" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14534</ctx_id>
+          </annot>
+          <code_id><val>14534</val></code_id>
+          <intl_id><val>39</val></intl_id>
+          <user_id><val>39</val></user_id>
+          <name><val>Motor Vehicle Retailing &amp; Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="5040-2520" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14533</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5042-2521" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14404</ctx_id>
+          </annot>
+          <code_id><val>14404</val></code_id>
+          <intl_id><val>25</val></intl_id>
+          <user_id><val>25</val></user_id>
+          <name><val>Other Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5044-2522" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5046-2523" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14188</ctx_id>
+          </annot>
+          <code_id><val>14188</val></code_id>
+          <intl_id><val>09</val></intl_id>
+          <user_id><val>09</val></user_id>
+          <name><val>Other Mining</val></name>
+          <extn_fld_list>
+            <extn_fld id="5048-2524" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14171</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5050-2525" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14585</ctx_id>
+          </annot>
+          <code_id><val>14585</val></code_id>
+          <intl_id><val>43</val></intl_id>
+          <user_id><val>43</val></user_id>
+          <name><val>Personal &amp; Household Good Retailing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5052-2526" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14533</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5054-2527" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14507</ctx_id>
+          </annot>
+          <code_id><val>14507</val></code_id>
+          <intl_id><val>36</val></intl_id>
+          <user_id><val>36</val></user_id>
+          <name><val>Personal &amp; Household Good Wholesaling</val></name>
+          <extn_fld_list>
+            <extn_fld id="5056-2528" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14476</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5058-2529" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14903</ctx_id>
+          </annot>
+          <code_id><val>14903</val></code_id>
+          <intl_id><val>95</val></intl_id>
+          <user_id><val>95</val></user_id>
+          <name><val>Personal Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="5060-2530" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14890</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5062-2531" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14282</ctx_id>
+          </annot>
+          <code_id><val>14282</val></code_id>
+          <intl_id><val>17</val></intl_id>
+          <user_id><val>17</val></user_id>
+          <name><val>Petroleum, Coal, Chemical &amp; Associated Product Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5064-2532" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5066-2533" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14276</ctx_id>
+          </annot>
+          <code_id><val>14276</val></code_id>
+          <intl_id><val>16</val></intl_id>
+          <user_id><val>16</val></user_id>
+          <name><val>Printing, Publishing &amp; Recorded Media</val></name>
+          <extn_fld_list>
+            <extn_fld id="5068-2534" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5070-2535" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14733</ctx_id>
+          </annot>
+          <code_id><val>14733</val></code_id>
+          <intl_id><val>67</val></intl_id>
+          <user_id><val>67</val></user_id>
+          <name><val>Property Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="5072-2536" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14720</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5074-2537" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14803</ctx_id>
+          </annot>
+          <code_id><val>14803</val></code_id>
+          <intl_id><val>77</val></intl_id>
+          <user_id><val>77</val></user_id>
+          <name><val>Public Order, Safety and Regulatory Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="5076-2538" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14767</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5078-2539" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14604</ctx_id>
+          </annot>
+          <code_id><val>14604</val></code_id>
+          <intl_id><val>46</val></intl_id>
+          <user_id><val>46</val></user_id>
+          <name><val>Road Transport</val></name>
+          <extn_fld_list>
+            <extn_fld id="5080-2540" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14603</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5082-2541" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14164</ctx_id>
+          </annot>
+          <code_id><val>14164</val></code_id>
+          <intl_id><val>05</val></intl_id>
+          <user_id><val>05</val></user_id>
+          <name><val>Services to Agriculture</val></name>
+          <extn_fld_list>
+            <extn_fld id="5084-2542" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14101</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5086-2543" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14194</ctx_id>
+          </annot>
+          <code_id><val>14194</val></code_id>
+          <intl_id><val>10</val></intl_id>
+          <user_id><val>10</val></user_id>
+          <name><val>Services to Mining</val></name>
+          <extn_fld_list>
+            <extn_fld id="5088-2544" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14171</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5090-2545" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14634</ctx_id>
+          </annot>
+          <code_id><val>14634</val></code_id>
+          <intl_id><val>52</val></intl_id>
+          <user_id><val>52</val></user_id>
+          <name><val>Services to Transport</val></name>
+          <extn_fld_list>
+            <extn_fld id="5092-2546" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14603</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5094-2547" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14873</ctx_id>
+          </annot>
+          <code_id><val>14873</val></code_id>
+          <intl_id><val>91</val></intl_id>
+          <user_id><val>91</val></user_id>
+          <name><val>Sport &amp; Recreation</val></name>
+          <extn_fld_list>
+            <extn_fld id="5096-2548" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14861</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5098-2549" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14239</ctx_id>
+          </annot>
+          <code_id><val>14239</val></code_id>
+          <intl_id><val>13</val></intl_id>
+          <user_id><val>13</val></user_id>
+          <name><val>Textile, Clothing, Footwear &amp; Leather Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5100-2550" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5102-2551" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14433</ctx_id>
+          </annot>
+          <code_id><val>14433</val></code_id>
+          <intl_id><val>29</val></intl_id>
+          <user_id><val>29</val></user_id>
+          <name><val>Waste Collection, Treatment and Disposal Services</val></name>
+          <extn_fld_list>
+            <extn_fld id="5104-2552" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14414</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+    <code>
+      <code_head_list>
+        <code_head id="5106-2553" row_type="data" hira="2" level="code.head">
+          <annot>
+            <ctx_type>btfg$anzsic_subdiv</ctx_type><ctx_id>14256</ctx_id>
+          </annot>
+          <code_id><val>14256</val></code_id>
+          <intl_id><val>14</val></intl_id>
+          <user_id><val>14</val></user_id>
+          <name><val>Wood &amp; Paper Product Manufacturing</val></name>
+          <extn_fld_list>
+            <extn_fld id="5108-2554" row_type="data" hira="3" level="extn_fld">
+              <extn_fld_name><val>btfg$anzsic_div_id</val></extn_fld_name>
+              <extn_fld_val><val>14200</val></extn_fld_val>
+            </extn_fld>
+          </extn_fld_list>
+        </code_head>
+      </code_head_list>
+    </code>
+  </code_list>
+</tab>
+</tab_list>
+</data>

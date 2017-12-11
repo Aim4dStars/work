@@ -1,0 +1,283 @@
+{
+  "trustType": "family",
+  "accountType": "individualTrust",
+  "approvalType": "online",
+  "version": "1.0.0",
+  "trustdetails": {
+    "trustname": "assa",
+    "businessname": "asaasa",
+    "abn": "33051775556",
+    "regdate": "01/01/2009",
+    "registrationstate": "NSW",
+    "registeredforgst": "yes",
+    "trusttype": "family",
+    "wealthsource": "Additional Sources",
+    "additionalsourceofwealth": "sdsd",
+    "settloroftrust": "individual",
+    "title": "MR",
+    "firstname": "sdsd",
+    "middlename": "dsds",
+    "lastname": "dsds",
+    "industry": {
+      "industry": "Other",
+      "industrydivision": "Communication Services",
+      "industrysubdivision": "Communication Services",
+      "industrygroup": "Communication Services",
+      "industryclass": "7111",
+      "anzsiccode": "7111",
+      "ucmcode": "SIC 0348"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "384139"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "trustverification": {
+      "identitydocument": "trustdeed",
+      "trustdeed": {
+        "fullname": "dsddsd",
+        "documentdate": "03/03/2010",
+        "documentnumber": "wsdsdss",
+        "verifiedfrom": "original"
+      }
+    },
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "norfolk_island_res"
+  },
+  "trustees": [
+    {
+      "title": "MR",
+      "firstname": "gdf",
+      "middlename": "gfgd",
+      "lastname": "dfgfgd",
+      "preferredname": "fgd",
+      "formername": "",
+      "dateofbirth": "03/03/1979",
+      "gender": "male",
+      "mobile": {
+        "value": "0422408382"
+      },
+      "email": {
+        "value": "asdo@email.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "accountType": "individualTrust",
+      "alternatename": "fdgd",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "04/04/2020",
+            "documentNumber": "3434343",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "507677",
+        "addressType": "residential",
+        "id": "507677",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "28",
+            "streetName": "West",
+            "streetType": "STREET",
+            "suburb": "NORTH SYDNEY",
+            "state": "NSW",
+            "postcode": "2060",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "507677"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "239533",
+        "addressType": "residential",
+        "id": "239533",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "28",
+            "streetName": "West",
+            "streetType": "STREET",
+            "suburb": "NORTH SYDNEY",
+            "state": "NSW",
+            "postcode": "2060",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "239533"
+          }
+        ]
+      }
+    },
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "29CC0A65AC557948D7F373C81835D437FD6218B66AD55124"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201602112",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "title": "Dr",
+      "gender": "Male",
+      "accountType": "individualTrust",
+      "firstname": "Personbcaciag",
+      "middlename": "Personbcaciag",
+      "lastname": "Personbcaciag",
+      "dateofbirth": "01 Jan 1980",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": false
+    }
+  ],
+  "accountsettings": {
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "accountType": "individualTrust",
+    "investorsWithRoles": [
+      {
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      },
+      {
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      }
+    ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "bsb": ""
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

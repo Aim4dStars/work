@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>API smoke test</title>
+    <link rel="stylesheet" href="qunit-1.15.0.css">
+</head>
+<body>
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+
+<script src="qunit-1.15.0.js"></script>
+<script src="../static/js/config/namespace.js"></script>
+<script src="../static/js/lib/underscore.js"></script>
+<script language="javascript" type="text/javascript" src="../static/js/lib/jQuery.js"></script>
+
+<script language="javascript" type="text/javascript">
+    org.bt.url = {
+        logout : "dummyOut",
+        afterLogout : "dummyUrl"
+    };
+
+    org.bt.contextPath = "/"+location.pathname.split("/")[1]+"/";
+</script>
+<script src="../static/js/helpers/utils.js"></script>
+<script language="javascript" type="text/javascript">
+
+QUnit.module("Prerequisite");
+QUnit.test("Must Be Logged On", function( assert ) {
+    $.ajax(org.bt.utils.location.getBaseUrl()+"secure/page/home",{
+        async: false,
+        success: function(ajaxSettings, jqXHR, event){
+            showLoginPage = event.responseText && event.responseText.indexOf
+                        && window.location.href.indexOf('/public/page/') === -1
+                        && event.responseText.indexOf('id="logonPageDisplayed"') > -1;
+            assert.ok(!showLoginPage, "Checking your session status, green good, red bad.");
+        },
+        error : function(jqXHR, textStatus, errorThrown){
+            assert.ok(false, "I don't think you are logged on, expect all tests to fail: " + errorThrown);
+        }
+    });
+});
+ </script>
+<script src="clients.js"></script>
+<script src="products.js"></script>
+<script src="fees.js"></script>
+</body>
+</html>

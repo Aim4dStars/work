@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<v31:ValidatePartySMSOneTimePasswordChallengeResponseMsg xmlns:v31="ns://btfin.com/Product/Panorama/CredentialService/CredentialResponse/V1_0">
+    <Status>Error</Status>
+    <ResponseDetails>
+        <!--You have a CHOICE of the next 2 items at this level-->
+        <ErrorResponses>
+            <!--1 or more repetitions:-->
+            <ErrorResponse>
+                <Code>Sender</Code>
+                <SubCode>InvalidParameter</SubCode>
+                <Description>Invalid date.</Description>
+                <Reason>Invalid date.</Reason>
+            </ErrorResponse>
+        </ErrorResponses>
+    </ResponseDetails>
+</v31:ValidatePartySMSOneTimePasswordChallengeResponseMsg>

@@ -1,0 +1,439 @@
+{
+    "brokerpositionid": "BROKER_ID",
+    "productid": "A13EEBEC6074850121E40555F623A1A479986A9E316B5F70",
+    "accountType": "joint",
+    "investors": [
+        {
+            "title": "dr",
+            "firstname": "Sam",
+            "lastname": "Oopsy-Doopsy",
+            "preferredname": "Furious",
+            "dateofbirth": "30/12/1899",
+            "gender": "other",
+            "taxcountry": "AZ",
+            "taxoption": "Exemption Reason provided",
+            "exemptionreason": "social_ben",
+            "mobile": {
+                "value": "0481087393"
+            },
+            "email": {
+                "value": "sam@ifdown.net"
+            },
+            "resaddress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "0"
+            },
+            "postaladdress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "109099",
+                "id": "109099",
+                "existingAddressList": [
+                    {
+                        "componentised": false,
+                        "addressLine1": "51 Pitt St",
+                        "addressLine2": "",
+                        "country": "KOS",
+                        "city": "Sydney",
+                        "pin": "2000",
+                        "state": "Sydney",
+                        "verified": true,
+                        "addressType": "residential",
+                        "sameasaddress": "0",
+                        "id": "109099"
+                    }
+                ]
+            },
+            "photodocuments": {
+                "driverlicence": {
+                    "documentIssuer": "TAS",
+                    "expiryDate": "15/10/2111",
+                    "documentNumber": "Q23232",
+                    "verificationSource": "original",
+                    "englishTranslation": "Not Applicable",
+                    "accreditedenglishtrans": "notapplicable"
+                }
+            },
+            "preferredcontact": "email"
+        },
+        {
+            "title": "rev",
+            "firstname": "Irina",
+            "middlename": "",
+            "lastname": "Filimonovich",
+            "preferredname": "THE BEAR",
+            "dateofbirth": "04/01/1982",
+            "gender": "female",
+            "taxcountry": "AU",
+            "taxoption": "Exemption Reason provided",
+            "exemptionreason": "pensioner",
+            "mobile": {
+                "value": "0467970000"
+            },
+            "email": {
+                "value": "sam@ifdown.net"
+            },
+            "resaddress": {
+                "componentised": false,
+                "addressLine1": "International Space Station",
+                "addressLine2": "",
+                "country": "WR",
+                "city": "ISS",
+                "pin": "10000",
+                "state": "FREAKING SPACE",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "0"
+            },
+            "postaladdress": {
+                "componentised": false,
+                "addressLine1": "International Space Station",
+                "addressLine2": "",
+                "country": "WR",
+                "city": "ISS",
+                "pin": "10000",
+                "state": "FREAKING SPACE",
+                "verified": true,
+                "addressType": "residential",
+                "existingAddressList": [
+                    {
+                        "componentised": false,
+                        "addressLine1": "International Space Station",
+                        "addressLine2": "",
+                        "country": "WR",
+                        "city": "ISS",
+                        "pin": "10000",
+                        "state": "FREAKING SPACE",
+                        "verified": true,
+                        "addressType": "residential",
+                        "sameasaddress": "0",
+                        "id": "969412"
+                    }
+                ],
+                "sameasaddress": "969412",
+                "id": "969412"
+            },
+            "photodocuments": {
+                "agecard": {
+                    "documentIssuer": "TAS",
+                    "verificationSource": "original",
+                    "englishTranslation": "Not Applicable",
+                    "documentNumber": "123123123",
+                    "expiryDate": "01/01/2022",
+                    "accreditedenglishtrans": "notapplicable"
+                }
+            },
+            "preferredcontact": "email"
+        },
+        {
+            "title": "dr",
+            "firstname": "Sam",
+            "lastname": "Ipsy-Dipsy",
+            "preferredname": "Furious",
+            "dateofbirth": "30/12/1899",
+            "gender": "other",
+            "taxcountry": "AZ",
+            "taxoption": "Exemption Reason provided",
+            "exemptionreason": "alpha_char_tfn",
+            "mobile": {
+                "value": "0481087393"
+            },
+            "email": {
+                "value": "sam@ipsy.net"
+            },
+            "resaddress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "0"
+            },
+            "postaladdress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "109099",
+                "id": "109099",
+                "existingAddressList": [
+                    {
+                        "componentised": false,
+                        "addressLine1": "51 Pitt St",
+                        "addressLine2": "",
+                        "country": "KOS",
+                        "city": "Sydney",
+                        "pin": "2000",
+                        "state": "Sydney",
+                        "verified": true,
+                        "addressType": "residential",
+                        "sameasaddress": "0",
+                        "id": "109099"
+                    }
+                ]
+            },
+            "photodocuments": {
+                "driverlicence": {
+                    "documentIssuer": "TAS",
+                    "expiryDate": "15/10/2111",
+                    "documentNumber": "Q23232",
+                    "verificationSource": "original",
+                    "englishTranslation": "Not Applicable",
+                    "accreditedenglishtrans": "notapplicable"
+                }
+            },
+            "preferredcontact": "email"
+        },
+        {
+            "title": "dr",
+            "firstname": "Sam",
+            "lastname": "Humpty-Dumpty",
+            "preferredname": "Furious",
+            "dateofbirth": "30/12/1899",
+            "gender": "other",
+            "taxcountry": "AZ",
+            "taxoption": "Exemption Reason provided",
+            "exemptionreason": "fin_busi_provid",
+            "mobile": {
+                "value": "0481087393"
+            },
+            "email": {
+                "value": "sam@humpty.net"
+            },
+            "resaddress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "0"
+            },
+            "postaladdress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "109099",
+                "id": "109099",
+                "existingAddressList": [
+                    {
+                        "componentised": false,
+                        "addressLine1": "51 Pitt St",
+                        "addressLine2": "",
+                        "country": "KOS",
+                        "city": "Sydney",
+                        "pin": "2000",
+                        "state": "Sydney",
+                        "verified": true,
+                        "addressType": "residential",
+                        "sameasaddress": "0",
+                        "id": "109099"
+                    }
+                ]
+            },
+            "photodocuments": {
+                "driverlicence": {
+                    "documentIssuer": "TAS",
+                    "expiryDate": "15/10/2111",
+                    "documentNumber": "Q23232",
+                    "verificationSource": "original",
+                    "englishTranslation": "Not Applicable",
+                    "accreditedenglishtrans": "notapplicable"
+                }
+            },
+            "preferredcontact": "email"
+        },
+        {
+            "title": "dr",
+            "firstname": "Sam",
+            "lastname": "Scooby-Doo",
+            "preferredname": "Furious",
+            "dateofbirth": "30/12/1899",
+            "gender": "other",
+            "taxcountry": "AZ",
+            "taxoption": "Exemption Reason provided",
+            "exemptionreason": "tax_exempt",
+            "mobile": {
+                "value": "0481087393"
+            },
+            "email": {
+                "value": "sam@scooby.net"
+            },
+            "resaddress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "0"
+            },
+            "postaladdress": {
+                "componentised": false,
+                "addressLine1": "51 Pitt St",
+                "addressLine2": "",
+                "country": "KOS",
+                "city": "Sydney",
+                "pin": "2000",
+                "state": "Sydney",
+                "verified": true,
+                "addressType": "residential",
+                "sameasaddress": "109099",
+                "id": "109099",
+                "existingAddressList": [
+                    {
+                        "componentised": false,
+                        "addressLine1": "51 Pitt St",
+                        "addressLine2": "",
+                        "country": "KOS",
+                        "city": "Sydney",
+                        "pin": "2000",
+                        "state": "Sydney",
+                        "verified": true,
+                        "addressType": "residential",
+                        "sameasaddress": "0",
+                        "id": "109099"
+                    }
+                ]
+            },
+            "photodocuments": {
+                "driverlicence": {
+                    "documentIssuer": "TAS",
+                    "expiryDate": "15/10/2111",
+                    "documentNumber": "Q23232",
+                    "verificationSource": "original",
+                    "englishTranslation": "Not Applicable",
+                    "accreditedenglishtrans": "notapplicable"
+                }
+            },
+            "preferredcontact": "email"
+        }
+    ],
+    "accountsettings": {
+        "investorAccountSettings": [
+            {
+                "paymentSetting": "nopayments"
+            },
+            {
+                "paymentSetting": "linkedaccountsonly"
+            },
+            {
+                "paymentSetting": "linkedaccountsonly"
+            },
+            {
+                "paymentSetting": "linkedaccountsonly"
+            },
+            {
+                "paymentSetting": "linkedaccountsonly"
+            }
+        ],
+        "primarycontact": "1",
+        "professionalspayment": "linkedaccountsonly"
+    },
+    "linkedaccounts": {
+        "primaryLinkedAccount": {
+            "accountname": "Sammy",
+            "bsb": "062000",
+            "accountnumber": "662606957",
+            "nickname": "Myau",
+            "directdebitamount": "2.00"
+        },
+        "otherLinkedAccount": []
+    },
+     "fees": {
+        "estamount": "500.00",
+        "ongoingFees": {
+          "feesComponent": [
+            {
+              "cpiindex": true,
+              "amount": "17.00",
+              "label": "Dollar fee component"
+            },
+            {
+              "managedFund": "true",
+              "managedPortfolio": "true",
+              "cash": "true",
+              "termDeposit": "true",
+              "slidingScaleFeeTier": [
+                {
+                  "lowerBound": "0.00",
+                  "upperBound": "13.00",
+                  "percentage": "0.50"
+                },
+                {
+                  "lowerBound": "13.00",
+                  "upperBound": "19.00",
+                  "percentage": "0.70"
+                },
+                {
+                  "lowerBound": "19.00",
+                  "upperBound": "23.00",
+                  "percentage": "0.73"
+                },
+                {
+                  "lowerBound": "23.00",
+                  "upperBound": "",
+                  "percentage": "0.91"
+                }
+              ],
+              "label": "Sliding scale fee component"
+            }
+          ],
+          "type": "Ongoing advice fee"
+        },
+        "licenseeFees": {
+          "feesComponent": [
+            {
+              "cpiindex": false,
+              "amount": "45.00",
+              "label": "Dollar fee component"
+            },
+            {
+              "managedFund": "0.44",
+              "managedPortfolio": "0.11",
+              "termDeposit": "0.22",
+              "cash": "0.33",
+              "listedSecurities": "15.00",
+              "label": "Percentage fee component"
+            }
+          ],
+          "type": "Licensee advice fee"
+        }
+      }
+}

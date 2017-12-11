@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./nextgen.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>PERF</marker>
+                <marker>PARSING</marker>
+                <marker>PROFILER</marker>
+            </evaluator>
+            <onMatch>DENY</onMatch>
+        </filter>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>200MB</MaxFileSize>
+        </triggeringPolicy>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>./nextgen.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+    </appender>
+
+    <!-- Stop don't edit this file see : http://dwgps0026/twiki/bin/view/NextGen/HelpDeveloperTips#I_want_my_own_log_settings_witho -->
+    <root level="INFO">
+        <!-- please setup your own logback settings:
+        http://logback.qos.ch/manual/configuration.html#fileInclusion
+        -->
+        <!--<appender-ref ref="STDOUT"/>-->
+        <!--<appender-ref ref="AUDIT"/>-->
+        <!--<appender-ref ref="PERF"/>-->
+        <!--<appender-ref ref="FILE" />-->
+
+    </root>
+
+    <include optional="true" resource="logback-test.${user.name}.xml"/>
+
+</configuration>

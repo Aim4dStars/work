@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_avsr_dshbrd_prd_prddet" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- 2015-09-13 04:07:24.509636000 on NGWD3 by 201601509 -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>2014-08-01</val></date_from>
+    <date_to><val>2015-07-31</val></date_to>
+    <current_of_time><val>2015-09-12T18:07:24+10:00</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>top</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period_det</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>dummy</name>
+            <type>TextFld</type>
+            <lbl></lbl>
+          </fld_def>
+          <fld_def>
+            <name>period_id</name>
+            <type>NrFld</type>
+            <lbl>Period</lbl>
+          </fld_def>
+          <fld_def>
+            <name>period_sop</name>
+            <type>DateFld</type>
+            <lbl>Start of Period</lbl>
+          </fld_def>
+          <fld_def>
+            <name>period_eop</name>
+            <type>DateFld</type>
+            <lbl>End of Period</lbl>
+          </fld_def>
+          <fld_def>
+            <name>obj_cnt</name>
+            <type>NrFld</type>
+            <lbl>Active accounts</lbl>
+          </fld_def>
+          <fld_def>
+            <name>fua</name>
+            <type>NrFld</type>
+            <lbl>Funds under administration</lbl>
+          </fld_def>
+          <fld_def>
+            <name>inflows</name>
+            <type>NrFld</type>
+            <lbl>Inflows</lbl>
+          </fld_def>
+          <fld_def>
+            <name>outflows</name>
+            <type>NrFld</type>
+            <lbl>Outflows</lbl>
+          </fld_def>
+          <fld_def>
+            <name>net_flows</name>
+            <type>NrFld</type>
+            <lbl>Net Flows</lbl>
+          </fld_def>
+          <fld_def>
+            <name>fee</name>
+            <type>NrFld</type>
+            <lbl>Fees</lbl>
+          </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+  <data>
+
+  </data>
+
+</rep:rep>
+        <!-- 59d0c790-577b-48a7-a5b0-bc3827d173f6 at 2015-09-12T18:07:24.551280000Z on NGWD3 by 201601509 -->

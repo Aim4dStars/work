@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_rlov_in_list_doc" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2016-10-25 12:57:45.142866000 on afp010c by 201601553 -->
+
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+	</metadata>
+
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>dtm</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl> </lbl>
+					</fld_def>
+					<fld_def>
+						<name>order_id</name>
+						<type>TextFld</type>
+						<lbl>Rollover ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_name</name>
+						<type>TextFld</type>
+						<lbl>Fund Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_abn</name>
+						<type>TextFld</type>
+						<lbl>Fund ABN</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_usi</name>
+						<type>TextFld</type>
+						<lbl>Fund USI</lbl>
+					</fld_def>
+					<fld_def>
+						<name>mbr_acc_nr</name>
+						<type>TextFld</type>
+						<lbl>Member/AccountNumber</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_estim_amt</name>
+						<type>NrFld</type>
+						<lbl>Amount</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rlov_opt</name>
+						<type>TextFld</type>
+						<lbl>Rollover Option</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rlov_type</name>
+						<type>TextFld</type>
+						<lbl>Rollover type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>is_panorama_init</name>
+						<type>TextFld</type>
+						<lbl>Is Panorama Initiated</lbl>
+					</fld_def>
+					<fld_def>
+						<name>req_status</name>
+						<type>TextFld</type>
+						<lbl>Request Status</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ss_req_dt</name>
+						<type>DateTimeFld</type>
+						<lbl>Date Request sent to Fund</lbl>
+					</fld_def>
+
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+
+	<data>
+		<dtm_list>
+			<dtm>
+				<dtm_head_list>
+					<dtm_head id="2-1" row_type="data" hira="1" level="dtm.head">
+						<order_id>
+							<val>1000</val>
+						</order_id>
+						<fund_name>
+							<val>A super fund</val>
+						</fund_name>
+						<fund_abn>
+							<val>Fund ABN</val>
+						</fund_abn>
+						<fund_usi>
+							<val>Fund USI</val>
+						</fund_usi>
+						<mbr_acc_nr>
+							<val>12345</val>
+						</mbr_acc_nr>
+						<fund_estim_amt>
+							<val>100</val>
+						</fund_estim_amt>
+						<rlov_opt>
+							<val>2</val>
+						</rlov_opt>
+						<rlov_type>
+							<val>1</val>
+						</rlov_type>
+						<is_panorama_init>
+							<val>true</val>
+						</is_panorama_init>
+						<req_status>
+							<val>2</val>
+						</req_status>
+						<ss_req_dt>
+							<val>2016-10-25</val>
+						</ss_req_dt>
+					</dtm_head>
+				</dtm_head_list>
+			</dtm>
+			<dtm>
+				<dtm_head_list>
+					<dtm_head id="4-2" row_type="data" hira="1" level="dtm.head">
+						<order_id>
+							<val>1001</val>
+						</order_id>
+						<fund_name>
+							<val>External super fund</val>
+						</fund_name>
+						<mbr_acc_nr>
+							<val>123</val>
+						</mbr_acc_nr>
+						<fund_estim_amt>
+							<val>2000</val>
+						</fund_estim_amt>
+						<rlov_opt>
+							<val>1</val>
+						</rlov_opt>
+						<rlov_type>
+							<val>2</val>
+						</rlov_type>
+						<is_panorama_init>
+							<val>false</val>
+						</is_panorama_init>
+						<req_status>
+							<val>21</val>
+						</req_status>
+					</dtm_head>
+				</dtm_head_list>
+			</dtm>
+			<dtm>
+				<dtm_head_list>
+					<dtm_head id="4-2" row_type="data" hira="1" level="dtm.head">
+						<order_id>
+							<val>1002</val>
+						</order_id>
+						<fund_name>
+							<val>Pending external super fund</val>
+						</fund_name>
+						<mbr_acc_nr>
+							<val>321</val>
+						</mbr_acc_nr>
+						<fund_estim_amt>
+							<val>2000</val>
+						</fund_estim_amt>
+						<rlov_opt>
+							<val>1</val>
+						</rlov_opt>
+						<rlov_type>
+							<val>1</val>
+						</rlov_type>
+						<is_panorama_init>
+							<val>false</val>
+						</is_panorama_init>
+						<req_status>
+							<val>1</val>
+						</req_status>
+					</dtm_head>
+				</dtm_head_list>
+			</dtm>
+			<dtm>
+				<dtm_head_list>
+					<dtm_head id="4-2" row_type="data" hira="1" level="dtm.head">
+						<order_id>
+							<val>1003</val>
+						</order_id>
+						<fund_name>
+							<val>Saved super fund</val>
+						</fund_name>
+						<mbr_acc_nr>
+							<val>412</val>
+						</mbr_acc_nr>
+						<fund_estim_amt>
+							<val>2000</val>
+						</fund_estim_amt>
+						<rlov_opt>
+							<val>2</val>
+						</rlov_opt>
+						<rlov_type>
+							<val>2</val>
+						</rlov_type>
+						<is_panorama_init>
+							<val>true</val>
+						</is_panorama_init>
+						<req_status>
+							<val>22</val>
+						</req_status>
+					</dtm_head>
+				</dtm_head_list>
+			</dtm>
+			<dtm>
+				<dtm_head_list>
+					<dtm_head id="4-2" row_type="data" hira="1" level="dtm.head">
+						<order_id>
+							<val>1004</val>
+						</order_id>
+						<fund_name>
+							<val>Completed super fund</val>
+						</fund_name>
+						<mbr_acc_nr>
+							<val>412</val>
+						</mbr_acc_nr>
+						<fund_estim_amt>
+							<val>2000</val>
+						</fund_estim_amt>
+						<rlov_opt>
+							<val>2</val>
+						</rlov_opt>
+						<rlov_type>
+							<val>2</val>
+						</rlov_type>
+						<is_panorama_init>
+							<val>true</val>
+						</is_panorama_init>
+						<req_status>
+							<val>3</val>
+						</req_status>
+					</dtm_head>
+				</dtm_head_list>
+			</dtm>
+		</dtm_list>
+
+	</data>
+</rep:rep>

@@ -1,0 +1,19 @@
+
+.logoWrap{
+  background-image:url(../images/solar.png);
+  height: 60px;
+  a {
+    height: 60px;
+  }
+  &.logoWrapLarge {
+    background-image:url(../images/solarLogo_large.png);
+    background-position: 0 50%;
+  }
+}
+
+.logoWrapPos{
+  margin:20px;
+}
+
+
+

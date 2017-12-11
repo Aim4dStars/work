@@ -1,0 +1,516 @@
+{
+  "trustType": "family",
+  "accountType": "individualTrust",
+  "trustdetails": {
+    "trustname": "Trust_Ind",
+    "abn": "",
+    "regdate": "01\/10\/2014",
+    "registrationstate": "NSW",
+    "registeredforgst": "yes",
+    "trusttype": "family",
+    "familyOrOtherTrust": true,
+    "wealthsource": "Business profits",
+    "additionalsourceofwealth": null,
+    "settloroftrust": "organisation",
+    "organisationName": "Test Org Name",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "458357",
+      "addressType": "residential",
+      "id": "458357",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "458357"
+        }
+      ],
+      "correlationId": 13
+    },
+    "trustverification": {
+      "identitydocument": "letteridv",
+      "letteridv": {
+        "fullname": "SolicitorAcct",
+        "documentdate": "01\/10\/2015",
+        "documentnumber": "2589314",
+        "verifiedfrom": "original"
+      }
+    },
+    "taxoption": "Tax File Number or exemption not provided",
+    "correlationId": 12
+  },
+  "trustees": [
+    {
+      "displayTaxOptions": false,
+      "fullName": "Srikarbuilding Mid Test",
+      "state": "NSW",
+      "country": "Australia",
+      "userName": "21144320",
+      "addresses": [
+        {
+          "careOf": null,
+          "unitNumber": "6",
+          "floor": "55",
+          "streetNumber": "45",
+          "streetName": "Kent",
+          "streetType": "St",
+          "streetTypeUserId": null,
+          "building": "Saurabhbuilding",
+          "suburb": null,
+          "state": "NSW",
+          "stateAbbr": null,
+          "poBox": null,
+          "city": "Sydney",
+          "stateCode": null,
+          "postcode": "2000",
+          "countryCode": "AU",
+          "country": "Australia",
+          "countryAbbr": null,
+          "modificationSeq": null,
+          "poBoxPrefix": null,
+          "domicile": true,
+          "mailingAddress": true,
+          "addressType": null,
+          "addressKey": null,
+          "gcmAddress": true,
+          "internationalAddress": false,
+          "addressLine1": null,
+          "addressLine2": null,
+          "addressLine3": null,
+          "standardAddressFormat": true,
+          "gcmStreetType": "Street",
+          "type": "Address"
+        }
+      ],
+      "idVerified": true,
+      "registered": false,
+      "tfnProvided": false,
+      "tfnEntered": false,
+      "investorType": "individual",
+      "nominatedFlag": false,
+      "cisId": "91344120010",
+      "title": "MR",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "age": 0,
+      "active": false,
+      "accountType": "individualTrust",
+      "firstname": "Srikarbuilding",
+      "middlename": "Mid",
+      "lastname": "Test",
+      "dateofbirth": "10\/01\/1992",
+      "resaddress": {
+        "unitNumber": "6",
+        "floor": "55",
+        "streetNumber": "45",
+        "streetName": "Kent",
+        "streetType": "St",
+        "building": "Saurabhbuilding",
+        "state": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "gcmAddress": true,
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "gcmStreetType": "Street",
+        "type": "Address",
+        "correlationId": 2
+      },
+      "postaladdress": {
+        "unitNumber": "6",
+        "floor": "55",
+        "streetNumber": "45",
+        "streetName": "Kent",
+        "streetType": "St",
+        "building": "Saurabhbuilding",
+        "state": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "gcmAddress": true,
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "gcmStreetType": "Street",
+        "type": "Address",
+        "correlationId": 3
+      },
+      "identitydocument": "Verified",
+      "isDuplicate": false,
+      "existing": true,
+      "showTFNMessage": false,
+      "mobile": {
+        "value": "0401821654",
+        "correlationId": 4
+      },
+      "modified": true,
+      "email": {
+        "value": "SAURABHBHARGAVA@TCS.COM",
+        "correlationId": 5
+      },
+      "isvalid": true,
+      "internationalMobileList": [
+        {
+          "preferred": false,
+          "number": "92128",
+          "countryCode": "91",
+          "areaCode": "9793",
+          "phoneType": "Secondary",
+          "gcmPhone": true,
+          "type": "Phone",
+          "concatenatedNumber": "91979392128"
+        }
+      ],
+      "contactdetails": {
+        "value": "mobile_0401821654",
+        "saveObject": {
+          "preferred": false,
+          "number": "01821654",
+          "countryCode": "61",
+          "areaCode": "04",
+          "phoneType": "Secondary",
+          "gcmPhone": true,
+          "type": "Phone",
+          "concatenatedNumber": "0401821654",
+          "value": "01821654"
+        },
+        "label": "0401 821 654",
+        "type": "MOBILE",
+        "groupsConfiguration": {
+          "key": "group",
+          "html": "<div class=\"{{label}} deemphasis\">{{type}}<\/div><div>{{label}}<\/div>",
+          "view_value": "{{label}}",
+          "annotation": "",
+          "match": "label,value,type"
+        }
+      },
+      "preferredcontact": "mobile",
+      "gcmUpdated": true,
+      "phones": [
+        {
+          "preferred": false,
+          "number": "01821654",
+          "countryCode": "61",
+          "areaCode": "04",
+          "modificationSeq": null,
+          "phoneType": "Secondary",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "92128",
+          "countryCode": "91",
+          "areaCode": "9793",
+          "modificationSeq": null,
+          "phoneType": "Secondary",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "92142474",
+          "countryCode": "61",
+          "areaCode": "02",
+          "modificationSeq": null,
+          "phoneType": "Home",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "94112987",
+          "countryCode": "61",
+          "areaCode": "02",
+          "modificationSeq": null,
+          "phoneType": "Work",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        }
+      ],
+      "emails": [
+        {
+          "email": "SAURABHBHARGAVA@TCS.COM",
+          "modificationSeq": null,
+          "preferred": false,
+          "emailType": null,
+          "emailKey": null,
+          "gcmMastered": true,
+          "emailActionCode": null,
+          "emailPriority": null,
+          "oldAddress": null,
+          "addressMedium": null,
+          "type": "Email"
+        }
+      ],
+      "correlationId": 1
+    },
+    {
+      "fullName": "Mr Johnny Hoth",
+      "title": "MR",
+      "firstname": "Johnny",
+      "middlename": "",
+      "lastname": "Hoth",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01\/10\/1985",
+      "gender": "male",
+      "mobile": {
+        "value": "0425361478",
+        "correlationId": 9
+      },
+      "email": {
+        "value": "test@test.com",
+        "correlationId": 10
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "existing": true,
+      "accountType": "individualTrust",
+      "alternatename": "",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "addressType": "residential",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "971600"
+          }
+        ],
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true,
+        "correlationId": 7
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "606610",
+        "addressType": "residential",
+        "id": "606610",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "606610"
+          }
+        ],
+        "correlationId": 8
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NSW",
+            "expiryDate": "01\/12\/2016",
+            "documentNumber": "2589631",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "correlationId": 6
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": "0",
+    "adviserName": "Edward Revis",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business profits"
+  },
+  "shareholderandmembers": {
+    "controllerId": 72,
+    "nominateSection": "Beneficiaries",
+    "sectionSubtitle": "Beneficiaries",
+    "additionalSectionSubtitle": "Additional beneficiaries OR Responsible persons",
+    "addButtonTitle": "beneficiary \/ responsible person",
+    "nominationSectionDescription": "Indicate if any of the trustees are also beneficiaries of the trust.",
+    "additionalPersonSectionDescription": "You must identify anyone else who is responsible for financial or operational decisions of the trust. You must also enter any additional beneficiaries. This is a requirement of the AML Act.",
+    "shareholderandmemberdetailsHeader": "Beneficiary \/ Responsible person details",
+    "personRoleBBODescription": "Beneficiary and responsible person",
+    "needsShareholder": false,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "hasAdditionalSection": true,
+    "personTypeDropdownOptions": [
+      {
+        "value": "beneficiary",
+        "label": "Beneficiary"
+      },
+      {
+        "value": "beneficialOwner",
+        "label": "Responsible person"
+      },
+      {
+        "value": "beneficiaryAndBeneficialOwner",
+        "label": "Beneficiary and responsible person"
+      }
+    ],
+    "accountType": "individualTrust",
+    "hasEnoughTrustees": true,
+    "hasbeneficiaryclasses": "no",
+    "investorsWithRoles": [
+      {
+        "isBeneficiary": "yes",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      },
+      {
+        "isBeneficiary": "yes",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": "beneficiary",
+        "title": "MR",
+        "firstname": "FirstBeneficiary",
+        "middlename": "",
+        "lastname": "LastBeneficiary",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isDuplicate": false,
+        "existing": true,
+        "needsPersonTypeDropdown": true,
+        "shareholderandmemberdetailsHeader": "Beneficiary \/ Responsible person details",
+        "correlationId": 11
+      }
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccount",
+      "bsb": "062001",
+      "accountnumber": "25896314",
+      "directdebitamount": "10.00",
+      "existing": true,
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "jcr:primaryType": "nt:unstructured",
+    "jcr:createdBy": "admin",
+    "fileReference": "app/style/images/PanoramaOverviewHero.png",
+    "jcr:lastModifiedBy": "admin",
+    "altText": "BT Panorama",
+    "jcr:created": "2015-04-29T07:05:22.497+05:30",
+    "text": "Panorama allows you to easily manage your wealth by putting cash, term deposits and managed portfolios in one place. Easy online access to your investments gives you the control and flexibility to administer your investments.",
+    "title": "A new experience in wealth management",
+    "jcr:lastModified": "2015-04-29T07:07:07.343+05:30",
+    "sling:resourceType": "panorama/components/content/title-text-image",
+    "textIsRich": "true"
+  },
+  {
+    "assetList": [
+      {
+        "title": "Panorama IDPS",
+        "name": "Panorama_Investor_Guide.pdf",
+        "path": "../../public/static/pdf/Panorama_Investor_Guide.pdf",
+        "type": "application/pdf",
+        "size": "324608",
+        "tags": "panorama:PROD-WL-35D1B6570418",
+        "date": "2015-03-16T11:51:46.000+05:30"
+      },
+      {
+        "title": "Asset Administrator IDPS",
+        "name": "IOOF_Panorama_Investors_Guide_0215px.pdf",
+        "path": "../../public/static/pdf/IOOF_Panorama_Investors_Guide_0215px.pdf",
+        "type": "application/pdf",
+        "size": "311296",
+        "tags": "panorama:PROD-WL-060F52DC6D17421EAF1632AC9EFAE210",
+        "date": "2015-03-16T11:11:47.000+05:30"
+      },
+      {
+        "title": "Panorama FSG",
+        "name": "Panorama FSG_V0 4.pdf",
+        "path": "../../public/static/pdf/Panorama FSG_V0 4.pdf",
+        "type": "application/pdf",
+        "size": "147456",
+        "tags": "panorama:PROD-WL-35D1B6570418",
+        "date": "2015-03-16T04:36:00.000Z"
+      },
+      {
+        "title": "Panorama AIB",
+        "name": "Panorama Additional Info and Terms.pdf",
+        "path": "../../public/static/pdf/Panorama Additional Info and Terms.pdf",
+        "type": "application/pdf",
+        "size": "236544",
+        "date": "2015-03-16T04:36:00.000Z"
+      }
+    ]
+  }
+]

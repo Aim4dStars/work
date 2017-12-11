@@ -1,0 +1,244 @@
+/* ##Variables for Font Icons
+*/
+
+$toolIconDistance:4;
+$toolIconFullColor:#fff;
+$toolIconFullBg:#ccc;
+$toolIconsBorder:#ccc;
+
+$inputHeight:4.8;
+$borderColor:#c7c7c7;
+
+
+$selectDefFloat: left;
+$selectDefClear:left;
+$selectDefDt :left;
+$baseFontSize:1.4rem;
+
+
+
+
+
+$primeButtonWidth:16;
+$primeButtonHeight:6;
+$primaryInActiveBg:#007fad;
+$primaryActiveBg:#0095c8;
+$primaryLabelColor:#fff;
+
+
+$actionWidth:14;
+$actionHeight:4;
+$actionActiveHeight:3.6;
+$actionBorder:#454545;
+$actionColor:#454545;
+$actionHoverColor:#FFD636;
+$actionActive:#0095c8;
+$actionBg:#fafafa;
+$actionBgActive:#fafafa;
+
+
+$menuFirstStop:#dcdcdc;
+$menuSecondStop:#eae8e8;
+$menuBorder:#f0f0f0;
+$menuActiveBorder:#3d3d3d;
+$menuActiveLabel:#fff;
+/*$menuInActiveShadow: inset 1px 1px 1px 1px $menuFirstStop, 0px 1px 0px 0px #fff;*/
+//$menuInActiveShadow: inset 0 1px 0px 0px $menuFirstStop, 0px 1px 0px 0px #fff;
+$menuInActiveShadow: inset 0 1px 2px 0px #c7c7c7, 0px 1px 0px 0px #fff;
+$menuActiveShadow:inset 0px 1px 0px 1px #4e4e4e, 0px 1px 0px 0px #3d3d3d!important;
+$menuActiveNoShadow:none!important;
+
+
+$toolActionColor:#c9c9c9;
+$toolActionColorActive:#0095c8;
+$toolDistance:4;
+
+
+$actionLinkColor:#0095c8;
+
+
+
+
+
+/*#Variables for SASS
+##ICON VARIABLES
+
+*/
+$spriteImage:url("../images/sprite.png") no-repeat;
+$iconSpriteImage:url("../images/iconsprite.png") no-repeat;
+$sliderBG:url("../images/sliderBG.png") repeat #f9fafb;
+$pointerBG:url("../images/arrowPointer.png") no-repeat center center;
+$ajaxLine:url("../images/linearAjaxs.gif") repeat;
+$waveBg:url("../images/wavebg.png") repeat-x;
+$modalBG: 50% 50% #454545;
+$iconPlusAfter: url("../images/plus.png");
+$iconArrowDownFilled: url("../images/arrowDownFilled.png") no-repeat;
+$iconArrowDown: url("../images/arrowDown.png") no-repeat;
+$arrowTable: url("../images/arrowDownBlue.png") no-repeat;
+$arrowTableGrey: url("../images/arrowDownGrey.png") no-repeat;
+$backgroundSprite: url('../images/icon-sprite.png') no-repeat;
+$backgroundSpritePDF: url('../images/icon-pdf-sprite.gif') no-repeat;
+$sizeFields:10;
+
+/*
+##Form Input
+
+fields variables for size in rem
+Variables are called inside a class element to define default form field with
+<br>
+Form field is constructed out of a <strong>.formTextInput </strong> class and the width element
+<p>
+<br>$xSmallInput:5;
+<br>$smallInput:12;
+<br>$mediumInput:25;
+<br>$largeInput:31.5;
+<br>$xLargeInput:44.4;
+
+<p>
+.mediumInput{
+<br>	width:	$mediumInput +rem;
+<br>}
+<p>
+
+
+	<input type="text" class="formInputText mediumInput"/>
+
+
+*/
+
+
+
+$xSmallInput:5;
+$smallInput:12;
+$mediumInput:25;
+$largeInput:31.5;
+$xLargeInput:44.4;
+
+
+
+
+// Font Settings
+
+$markerFontSize:1.4;
+$sizeValue: 1.4;
+$primaryButton: 1.6;
+$modalTitleFontSize:2.0;
+$titleFontSize:2;
+$contentFontSize:1.2;
+$primaryFontSize: 1.4;
+$smallFont:1.2;
+$fontWeight: 600;
+
+
+$fontTitle:Arial, sans-serif;   // need to be fixed
+$fontSmoothing: antialiased !default;
+$headerFontFamily: Arial, sans-serif !default;
+$headerFontWeight: bold !default;
+$headerFontStyle: normal !default;
+$bodyFontFamily:  Arial, sans-serif !default;
+$bodyFontWeight: normal !default;
+$bodyFontStyle: normal !default;
+//$bodyFontColor: $txtColor !default;
+
+/*
+##VARIABLES
+
+
+	TODO We need to organise these variables later
+ */
+
+
+$desktopHeaderHeight:410px;
+
+
+//Ajaxs Box values
+$ajaxLineWidth: 111px;
+$ajaxLineHeight:15px;
+
+
+/// Logos
+$logoHeight: 90px;
+$logoWidth: 220px;
+
+
+
+// Stuff
+
+$primaryLineHeight: 4.0;
+$primaryBtPaddingHorizontal: 1.5em;
+$primaryBtPaddingVertical: 0.5em;
+$printMarginH1: 10px 0 10px 0;
+$printMarginH2: 10px 0 10px 0;
+$printOutputMargin:  10px 0 10px 0;
+$repeatEndDateErrorMargin: 20px;
+$borderValue:1px;
+$borderColor: #d6d6d6;
+$borderStyle:solid;
+$borderFormRadius:0;
+$toggleRadius:0.3rem;
+$borderRadiusValue:0.3;
+$inputWith: 590px;
+$formLabelWidth:20em;
+$formInputHeight:39px;
+$formSelectHeight:39px;
+$formSelectHeightWebkit:31px;
+$formLabelMargin: 0.5,0,0.6,0;
+$formCheckBoxMargin:0.6rem 0 0.6rem 0;
+$formLabelFloat:none;
+$formOutputLabelFloat:left;
+$formBlockMargin: 1.5em 0 0 0;
+$formTextAreHeight:2.2em;
+$optionalFloat:right;
+$optionalSpacing:0 0.2em 0 0;
+$textInputIntent:25px;
+$toggleMainContainerMargin:2.5rem 0 2.5rem 0;
+$toggleMainContainerFloat:left;
+$toggleSideContainerMargin: 2.5em 0 0 1.5em;
+$toggleSideContainerFloat: left;
+$bottomToolboxMargin: 0 0 0 125px;
+$marginValue:10;
+$modalBGOpacity: 0.8;
+$modalCloseBG: $spriteImage -75px -6px;
+$modalCloseSize:22px;
+$modalBoxHeight: 550px;
+$modalTitleIndent:5px;
+$modalBorder:1px solid fff;
+$calendarBody: 2.5rem;
+$currentDateDecoration: none;
+$actionDecoration: none;
+$datePickerPosition:53;
+$iconMargin: 0.2em;
+$zindex:0;
+$baseSpacing:0;
+$selectSpacing: 0.5em;
+$iconMagnifyPosition: 38px;
+$gridWidth: 40px;
+$gutterWidth: 20px;
+
+
+//Media Queries
+$xxLargeDeskTop: "screen and (min-width:1680px) and (max-width:2560px)";
+$xLargeDeskTop: "screen and (min-width:1225px) and (max-width:1680px)";
+$largeDesktop: "screen and (max-width:1224px)";
+$mediumDesktop: "screen and (max-width:1024px)";
+
+$primaryLinkMargin: 0 0 0 10px;
+$primaryButtonHeightIE: 40px;
+$secondaryBtPaddingHorizontal:20px;
+$hideFromIE: none\9;
+$imagesForIe: url("../images/sprite.png") no-repeat\9;
+$ieBgHoverImage: url("../images/hoverBg.png") repeat-x bottom left;
+$IEonly:\9;
+$ieLargeInput:440;
+
+$mediumInputWithCheck:225px;
+$diverterLine:1px #999 solid;
+
+// Term deposites calculator grid
+$tableGridCellWidth: 91px;
+$tableGridCellHeight: 81px;
+$logosSpriteImage:url("../images/logos-prite.png") no-repeat;
+
+
+
+

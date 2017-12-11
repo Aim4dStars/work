@@ -1,0 +1,20 @@
+<RequestSecurityToken xmlns="http://docs.oasis-open.org/ws-sx/ws-trust/200512/" xmlns:wsa="http://www.w3.org/2005/08/addressing"
+                      xmlns:pol="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wpsts="http://www.westpac.com.au/sts">
+    <pol:AppliesTo>
+            <wsa:EndpointReference>
+                <wsa:Address>{0}</wsa:Address>
+                <wpsts:PortType>{1}</wpsts:PortType>
+                <wpsts:OperationName>{2}</wpsts:OperationName>
+                <wpsts:OriginatingSystemId >{3}</wpsts:OriginatingSystemId>
+                <wpsts:Actions >{4}</wpsts:Actions>
+                <wpsts:MessageId>{9}</wpsts:MessageId>
+                <wpsts:Version >{5}</wpsts:Version>
+                <wpsts:Environment >{6}</wpsts:Environment>
+            </wsa:EndpointReference>
+    </pol:AppliesTo>
+    <Issuer>
+        <wsa:Address>urn:ESBMessagingDomain</wsa:Address>
+    </Issuer>
+    <RequestType>{7}</RequestType>
+    <TokenType>{8}</TokenType>
+</RequestSecurityToken>

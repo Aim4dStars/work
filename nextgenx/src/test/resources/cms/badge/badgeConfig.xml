@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<badges>
+	<badge>
+		<badgeName>Panorama</badgeName>
+		<logo>panoramaLogo</logo>
+		<reportLogo>panoramaReportLogo</reportLogo>
+		<brokerList>
+			<broker>Panorama</broker>		
+		</brokerList>
+	</badge>
+	
+	<badge>
+		<badgeName>Asset Administrator</badgeName>
+		<logo>aaLogo</logo>
+		<reportLogo>aaReportLogo</reportLogo>
+		<brokerList>
+			<broker>BadgedBroker</broker>		
+			<broker>SecondBadgedBroker</broker>			
+		</brokerList>
+	</badge>
+</badges>

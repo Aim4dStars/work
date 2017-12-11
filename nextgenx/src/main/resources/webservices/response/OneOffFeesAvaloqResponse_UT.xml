@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_pos_cacc" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-07-03 10:40:02.937787000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <current_of_time><val>2014-07-02T23:10:48.940410000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>pos</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>bp_id</name>
+          <type>NrFld</type>
+            <lbl>Business partner</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos</name>
+          <type>TextFld</type>
+            <lbl>Position</lbl>
+        </fld_def>
+        <fld_def>
+          <name>amt</name>
+          <type>NrFld</type>
+            <lbl>Aggregated fee amount</lbl>
+        </fld_def>
+        <fld_def>
+          <name>curry_id</name>
+          <type>NrFld</type>
+            <lbl>Currency</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="1" row_type="data" hira="1" level="pos.head">
+          <bp_id><val>45280</val></bp_id>
+          <pos><annot><ctx><type>pos</type><id>45284</id></ctx></annot><val>BT Cash
+BSB: 262786
+Account number: 120002332</val></pos>
+          <amt><val>150</val></amt>
+          <curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></curry_id>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+
+  </data>
+</rep:rep>
+<!-- 2059f7aa-8112-448f-adc4-8da86c08b554 at 2014-07-03T00:40:03.021415000Z on AFD030A by AVALOQ -->

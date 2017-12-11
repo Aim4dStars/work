@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+      <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ntfcn_list.prio_cat_ctr#cnt" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-05-29 04:39:15.633127000 on af249d by AVALOQ -->
+
+          <metadata>
+              <empty_rep><val>false</val></empty_rep>
+              <current_of_time><val>2014-11-06T04:56:26.708113000Z</val></current_of_time>
+          </metadata>
+
+          <def>
+              <version>2.0</version>
+              <rep_def>
+                  <style>hira</style>
+                  <lang id="1">en</lang>
+                  <hira_def>
+                      <grp_list>
+                          <grp_def>
+                              <name>report</name>
+                              <hira>1</hira>
+                              <has_head>false</has_head>
+                              <has_foot>true</has_foot>
+                          </grp_def>
+                          <grp_def>
+                              <name>prio</name>
+                              <hira>2</hira>
+                              <has_head>true</has_head>
+                              <has_foot>false</has_foot>
+                          </grp_def>
+                          <grp_def>
+                              <name>cat</name>
+                              <hira>3</hira>
+                              <has_head>true</has_head>
+                              <has_foot>false</has_foot>
+                          </grp_def>
+                          <grp_def>
+                              <name>msgctr</name>
+                              <hira>4</hira>
+                              <has_head>true</has_head>
+                              <has_foot>false</has_foot>
+                          </grp_def>
+                      </grp_list>
+                  </hira_def>
+                  <row_def>
+                      <fld_list>
+                          <fld_def>
+                              <name>prio</name>
+                              <type>TextFld</type>
+                              <lbl>Priority</lbl>
+                          </fld_def>
+                          <fld_def>
+                              <name>cat_id</name>
+                              <type>NrFld</type>
+                              <lbl>Category ID</lbl>
+                          </fld_def>
+                          <fld_def>
+                              <name>msg_avsr_ctr_id</name>
+                              <type>NrFld</type>
+                              <lbl>Message Adviser Center ID</lbl>
+                          </fld_def>
+                          <fld_def>
+                              <name>tot_unread</name>
+                              <type>NrFld</type>
+                              <lbl>Total</lbl>
+                          </fld_def>
+
+                      </fld_list>
+                  </row_def>
+              </rep_def>
+          </def>
+
+          <data>
+              <report>
+                  <prio_list>
+                      <prio>
+                          <prio_head_list>
+                              <prio_head id="1" row_type="title" hira="1" level="prio.head">
+                                  <prio><val>High priority</val></prio>
+                                  <tot_unread><val>4</val></tot_unread>
+                              </prio_head>
+                          </prio_head_list>
+                          <cat_list>
+                              <cat>
+                                  <cat_head_list>
+                                      <cat_head id="2" row_type="subtitle" hira="2" level="cat.head">
+                                          <cat_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_msg_cat</type><id>4</id></ctx></annot><val>4</val></cat_id>
+                                          <tot_unread><val>3</val></tot_unread>
+                                      </cat_head>
+                                  </cat_head_list>
+                                  <msgctr_list>
+                                      <msgctr>
+                                          <msgctr_head_list>
+                                              <msgctr_head id="3" row_type="data" hira="3" level="msgctr.head">
+                                                  <msg_avsr_ctr_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>1</id></ctx></annot><val>1</val></msg_avsr_ctr_id>
+                                                  <tot_unread><val>3</val></tot_unread>
+                                              </msgctr_head>
+                                          </msgctr_head_list>
+                                      </msgctr>
+                                  </msgctr_list>
+                              </cat>
+                              <cat>
+                                  <cat_head_list>
+                                      <cat_head id="4" row_type="subtitle" hira="2" level="cat.head">
+                                          <cat_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_msg_cat</type><id>6</id></ctx></annot><val>6</val></cat_id>
+                                          <tot_unread><val>1</val></tot_unread>
+                                      </cat_head>
+                                  </cat_head_list>
+                                  <msgctr_list>
+                                      <msgctr>
+                                          <msgctr_head_list>
+                                              <msgctr_head id="5" row_type="data" hira="3" level="msgctr.head">
+                                                  <msg_avsr_ctr_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>1</id></ctx></annot><val>1</val></msg_avsr_ctr_id>
+                                                  <tot_unread><val>2</val></tot_unread>
+                                              </msgctr_head>
+                                          </msgctr_head_list>
+                                      </msgctr>
+                                  </msgctr_list>
+                              </cat>
+                          </cat_list>
+                      </prio>
+                      <prio>
+                          <prio_head_list>
+                              <prio_head id="6" row_type="title" hira="1" level="prio.head">
+                                  <prio><val>Non priority</val></prio>
+                                  <tot_unread><val>13</val></tot_unread>
+                              </prio_head>
+                          </prio_head_list>
+                          <cat_list>
+                              <cat>
+                                  <cat_head_list>
+                                      <cat_head id="7" row_type="subtitle" hira="2" level="cat.head">
+                                          <cat_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_msg_cat</type><id>1</id></ctx></annot><val>1</val></cat_id>
+                                          <tot_unread><val>7</val></tot_unread>
+                                      </cat_head>
+                                  </cat_head_list>
+                                  <msgctr_list>
+                                      <msgctr>
+                                          <msgctr_head_list>
+                                              <msgctr_head id="8" row_type="data" hira="3" level="msgctr.head">
+                                                  <msg_avsr_ctr_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>2</id></ctx></annot><val>2</val></msg_avsr_ctr_id>
+                                                  <tot_unread><val>7</val></tot_unread>
+                                              </msgctr_head>
+                                          </msgctr_head_list>
+                                      </msgctr>
+                                  </msgctr_list>
+                              </cat>
+                              <cat>
+                                  <cat_head_list>
+                                      <cat_head id="9" row_type="subtitle" hira="2" level="cat.head">
+                                          <cat_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_msg_cat</type><id>3</id></ctx></annot><val>3</val></cat_id>
+                                          <tot_unread><val>5</val></tot_unread>
+                                      </cat_head>
+                                  </cat_head_list>
+                                  <msgctr_list>
+                                      <msgctr>
+                                          <msgctr_head_list>
+                                              <msgctr_head id="10" row_type="data" hira="3" level="msgctr.head">
+                                                  <msg_avsr_ctr_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>1</id></ctx></annot><val>1</val></msg_avsr_ctr_id>
+                                                  <tot_unread><val>5</val></tot_unread>
+                                              </msgctr_head>
+                                          </msgctr_head_list>
+                                      </msgctr>
+                                  </msgctr_list>
+                              </cat>
+                              <cat>
+                                  <cat_head_list>
+                                      <cat_head id="11" row_type="subtitle" hira="2" level="cat.head">
+                                          <cat_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_msg_cat</type><id>6</id></ctx></annot><val>6</val></cat_id>
+                                          <tot_unread><val>1</val></tot_unread>
+                                      </cat_head>
+                                  </cat_head_list>
+                                  <msgctr_list>
+                                      <msgctr>
+                                          <msgctr_head_list>
+                                              <msgctr_head id="12" row_type="data" hira="3" level="msgctr.head">
+                                                  <msg_avsr_ctr_id><annot><displ_text></displ_text><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>1</id></ctx></annot><val>1</val></msg_avsr_ctr_id>
+                                                  <tot_unread><val>1</val></tot_unread>
+                                              </msgctr_head>
+                                          </msgctr_head_list>
+                                      </msgctr>
+                                  </msgctr_list>
+                              </cat>
+                          </cat_list>
+                      </prio>
+                  </prio_list>
+                  <report_foot_list>
+                      <report_foot id="13" row_type="title" hira="-1" level="report.foot">
+                      </report_foot>
+                  </report_foot_list>
+              </report>
+
+          </data>
+      </rep:rep>
+    </env:Body>
+</env:Envelope>

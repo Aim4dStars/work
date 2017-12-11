@@ -1,0 +1,507 @@
+{
+  "formData": {
+    "version": "1.0.0",
+    "accountType": "corporateSMSF",
+    "approvalType": "online",
+    "smsfdetails": {
+      "smsfabn": "28126385822",
+      "smsfname": "EXISTINGA ROLETEST",
+      "registrationstate": "NSW",
+      "wealthsource": "Business profits",
+      "agree": "Verified",
+      "docissuer": "www.superfundlookup.gov.au",
+      "documentnumber": "notapplicable",
+      "verificationsource": "Website search",
+      "englishtranslation": "notapplicable",
+      "issuedate": "10 Mar 2017",
+      "regdate": "01/05/2016",
+      "industry": {
+        "anzsiccode": "7412",
+        "industry": "7412",
+        "ucmcode": "SIC 0360"
+      },
+      "registeredforgst": "no",
+      "smsfaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+        "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+            "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": true,
+            "value": "123456782"
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Tax File Number provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          },
+          "exemptionReason": {
+            "valid": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": true
+        },
+        "overseasTaxDetails": [
+          {
+            "tin": {
+              "valid": true,
+              "value": "12345678"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "TIN provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "AX"
+            },
+            "tinExemptionReason": {
+              "valid": true
+            }
+          }
+        ]
+      }
+    },
+    "directors": [
+      {
+        "emails": [],
+        "personRoles": [],
+        "phones": [],
+        "taxdetails": {
+          "ausTaxDetails": {
+            "isTaxCountryAus": {
+              "valid": true,
+              "value": true
+            }
+          },
+          "isOverseasTaxRes": {
+            "valid": true,
+            "value": false
+          },
+          "overseasTaxDetails": []
+        },
+        "title": "MS",
+        "firstname": "Dir",
+        "middlename": "",
+        "lastname": "One",
+        "preferredname": "Pre",
+        "formername": "",
+        "dateofbirth": "01/05/1988",
+        "gender": "female",
+        "mobile": {
+          "value": "0451507222"
+        },
+        "email": {
+          "value": "Dir01@bt.com"
+        },
+        "preferredcontact": "mobile",
+        "isvalid": true,
+        "alternatename": "Alt",
+        "accountType": "corporateSMSF",
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "NT",
+              "expiryDate": "02/05/2020",
+              "documentNumber": "NT788787",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        },
+        "resaddressv2": {
+          "addressType": "residential",
+          "country": "AU",
+          "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "existingAddressList": [
+            {
+              "country": "AU",
+              "sameasaddress": "0",
+              "valid": true,
+              "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+              "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+              "existingAddressList": []
+            }
+          ]
+        },
+        "postaladdressv2": {
+          "addressType": "postal",
+          "country": "AU",
+          "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "existingAddressList": [
+            {
+              "country": "AU",
+              "sameasaddress": "0",
+              "valid": true,
+              "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+              "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+              "existingAddressList": []
+            }
+          ]
+        },
+        "sameasresaddress": "true"
+      },
+      {
+        "emails": [],
+        "personRoles": [],
+        "phones": [],
+        "taxdetails": {
+          "ausTaxDetails": {
+            "isTaxCountryAus": {
+              "valid": true,
+              "value": true
+            }
+          },
+          "isOverseasTaxRes": {
+            "valid": true,
+            "value": false
+          },
+          "overseasTaxDetails": []
+        },
+        "title": "MR",
+        "firstname": "Dir",
+        "middlename": "",
+        "lastname": "Two",
+        "preferredname": "Pref",
+        "formername": "",
+        "dateofbirth": "01/05/1984",
+        "gender": "male",
+        "mobile": {
+          "value": "0455555555"
+        },
+        "email": {
+          "value": "Dir02@bt.com"
+        },
+        "preferredcontact": "mobile",
+        "isvalid": true,
+        "alternatename": "Alte",
+        "accountType": "corporateSMSF",
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "NT",
+              "expiryDate": "02/05/2021",
+              "documentNumber": "NT78978",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        },
+        "resaddressv2": {
+          "addressType": "residential",
+          "country": "AU",
+          "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "existingAddressList": [
+            {
+              "country": "AU",
+              "sameasaddress": "0",
+              "valid": true,
+              "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+              "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+              "existingAddressList": []
+            }
+          ]
+        },
+        "postaladdressv2": {
+          "addressType": "postal",
+          "country": "AU",
+          "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+          "existingAddressList": [
+            {
+              "country": "AU",
+              "sameasaddress": "0",
+              "valid": true,
+              "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+              "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+              "existingAddressList": []
+            }
+          ]
+        },
+        "sameasresaddress": "true"
+      }
+    ],
+    "shareholderandmembers": {
+      "isMajorShareholder": "no",
+      "needsShareholder": true,
+      "needsMember": true,
+      "needsBeneficiary": false,
+      "needsBeneficialOwner": true,
+      "accountType": "corporateSMSF",
+      "investorsWithRoles": [
+        {
+          "isBeneficialOwner": "no",
+          "isMember": "yes",
+          "needsShareholder": true,
+          "needsMember": true,
+          "needsBeneficiary": false,
+          "needsBeneficialOwner": true,
+          "isMajorShareholder": "no"
+        },
+        {
+          "isBeneficialOwner": "yes",
+          "isMember": "no",
+          "needsShareholder": true,
+          "needsMember": true,
+          "needsBeneficiary": false,
+          "needsBeneficialOwner": true,
+          "isMajorShareholder": "no"
+        }
+      ],
+      "additionalShareHoldersAndMembers": [
+        {
+          "persontype": [
+            "member"
+          ],
+          "selectedpersontype": "member",
+          "title": "MR",
+          "firstname": "Additional",
+          "middlename": "",
+          "lastname": "Member",
+          "needsShareholder": true,
+          "needsMember": true,
+          "needsBeneficiary": false,
+          "dateofbirth": "01/05/1999",
+          "taxdetails": {
+            "ausTaxDetails": {
+              "isTaxCountryAus": {
+                "valid": true,
+                "value": true
+              }
+            },
+            "isOverseasTaxRes": {
+              "valid": false
+            },
+            "overseasTaxDetails": []
+          },
+          "resaddressv2": {
+            "addressType": "residential",
+            "country": "AU",
+            "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "valid": true,
+            "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+            "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "existingAddressList": [
+              {
+                "country": "AU",
+                "sameasaddress": "0",
+                "valid": true,
+                "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+                "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+                "existingAddressList": []
+              }
+            ]
+          }
+        },
+        {
+          "persontype": [
+            "beneficialOwner"
+          ],
+          "selectedpersontype": "beneficialOwner",
+          "title": "MS",
+          "firstname": "Additional",
+          "middlename": "",
+          "lastname": "Shareholder",
+          "needsShareholder": true,
+          "needsMember": true,
+          "needsBeneficialOwner": true,
+          "needsBeneficiary": false,
+          "dateofbirth": "01/05/1988",
+          "taxdetails": {
+            "ausTaxDetails": {
+              "isTaxCountryAus": {
+                "valid": true,
+                "value": true
+              }
+            },
+            "isOverseasTaxRes": {
+              "valid": true,
+              "value": false
+            },
+            "overseasTaxDetails": []
+          },
+          "resaddressv2": {
+            "addressType": "residential",
+            "country": "AU",
+            "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "valid": true,
+            "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+            "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "existingAddressList": [
+              {
+                "country": "AU",
+                "sameasaddress": "0",
+                "valid": true,
+                "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+                "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+                "existingAddressList": []
+              }
+            ]
+          },
+          "additionalshareholdergender": "female",
+          "identitydocument": {
+            "photodocuments": {
+              "driverlicence": {
+                "documentIssuer": "QLD",
+                "expiryDate": "02/12/2021",
+                "documentNumber": "Q454656",
+                "verificationSource": "original",
+                "englishTranslation": "Not Applicable",
+                "accreditedenglishtrans": "notapplicable"
+              },
+              "valid": true
+            }
+          }
+        }
+      ]
+    },
+    "accountsettings": {
+      "professionalspayment": "linkedaccountsonly",
+      "investorAccountSettings": [
+        {
+          "paymentSetting": "linkedaccountsonly",
+          "hasRoles": false,
+          "hasApprovers": true,
+          "isApprover": "true"
+        },
+        {
+          "paymentSetting": "allpayments",
+          "hasRoles": false,
+          "hasApprovers": true,
+          "isApprover": "true"
+        }
+      ],
+      "primarycontact": 0,
+      "adviserName": "Bruce Gorry",
+      "adviserLocation": "Queensland",
+      "sourceoffunds": "Bonus",
+      "powerofattorney": false
+    },
+    "companytrustee": {
+      "companyname": "Comp 123",
+      "asicregisteredname": "Comp 123",
+      "acn": "010749961",
+      "agreeconditions": "Verified",
+      "docissuer": "ASIC",
+      "documentnumber": "notapplicable",
+      "englishtranslation": "notapplicable",
+      "issuedate": "10 Mar 2017",
+      "companyabn": "",
+      "industry": {
+        "anzsiccode": "7412",
+        "industry": "7412",
+        "ucmcode": "SIC 0360"
+      },
+      "companyofficev2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+        "valid": true,
+        "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+        "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+            "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "placeofbusinessv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+        "valid": true,
+        "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+        "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+            "AddressIdentifier": "0cOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAzMyBwaXR0IHN0cmVldAA-",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "verificationsource": "Website search",
+      "taxdetails": {
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": []
+      }
+    },
+    "linkedaccounts": {
+      "primaryLinkedAccount": {
+        "accountname": "Test",
+        "bsb": "083636",
+        "accountnumber": "546546",
+        "nickname": "",
+        "directdebitamount": "2000.00",
+        "bsbValidationResultVal": true
+      },
+      "otherLinkedAccount": []
+    },
+    "fees": {
+      "estamount": "0.00",
+      "feeTabEnabled": true,
+      "ongoingFees": {
+        "feesComponent": [],
+        "type": "Ongoing advice fee"
+      }
+    }
+  },
+  "jsonSchemaSupported": true,
+  "status": "draft",
+  "lastModified": "2016-11-14T01:33:25.766Z",
+  "lastModifiedByName": "",
+  "productName": "White Label b93c",
+  "productId": "6866B0442C5BF384931989C4CFAEE7D683220B3B53D0E026"
+}

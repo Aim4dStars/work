@@ -1,0 +1,505 @@
+
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+		<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_bp_costp" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2015-07-07 13:26:29.455522000 on afp010c by 201601553 -->
+
+<metadata>
+<empty_rep><val>false</val></empty_rep>
+<current_of_time><val>2015-07-07T03:26:29+10:00</val></current_of_time>
+</metadata>
+
+<def>
+<version>2.0</version>
+<rep_def>
+<style>hira</style>
+<lang id="1">en</lang>
+<hira_def>
+<grp_list>
+<grp_def>
+<name>report</name>
+<hira>1</hira>
+<has_head>false</has_head>
+<has_foot>true</has_foot>
+</grp_def>
+</grp_list>
+</hira_def>
+<row_def>
+<fld_list>
+<fld_def>
+<name>descn</name>
+<type>TextFld</type>
+<lbl>Description</lbl>
+</fld_def>
+<fld_def>
+<name>btfg_book_kind_id</name>
+<type>NrFld</type>
+<lbl>Book kind</lbl>
+</fld_def>
+<fld_def>
+<name>btfg_cost_misc_id</name>
+<type>NrFld</type>
+<lbl>Type</lbl>
+</fld_def>
+<fld_def>
+<name>btfg_tariff_type_id</name>
+<type>NrFld</type>
+<lbl>Component</lbl>
+</fld_def>
+<fld_def>
+<name>btfg_fee_platform_adm_fua_id</name>
+<type>NrFld</type>
+<lbl>Include asset Adm. Fee.</lbl>
+</fld_def>
+<fld_def>
+<name>btfg_fua_incl_id</name>
+<type>NrFld</type>
+<lbl>Include asset SPCD</lbl>
+</fld_def>
+<fld_def>
+<name>bound_from</name>
+<type>NrFld</type>
+<lbl>Boundary from</lbl>
+</fld_def>
+<fld_def>
+<name>bound_to</name>
+<type>NrFld</type>
+<lbl>Boundary to</lbl>
+</fld_def>
+<fld_def>
+<name>tariff_factor</name>
+<type>NrFld</type>
+<lbl>Factor</lbl>
+</fld_def>
+<fld_def>
+<name>tariff_amt</name>
+<type>NrFld</type>
+<lbl>Amount</lbl>
+</fld_def>
+<fld_def>
+<name>min</name>
+<type>NrFld</type>
+<lbl>Minimum</lbl>
+</fld_def>
+<fld_def>
+<name>max</name>
+<type>NrFld</type>
+<lbl>Maximum</lbl>
+</fld_def>
+<fld_def>
+<name>do_cpi</name>
+<type>BoolFld</type>
+<lbl>CPI indexation</lbl>
+</fld_def>
+<fld_def>
+<name>cpi_next</name>
+<type>DateFld</type>
+<lbl>CPI eval date next</lbl>
+</fld_def>
+<fld_def>
+<name>cpi_base_tariff_amt</name>
+<type>NrFld</type>
+<lbl>CPI base amount</lbl>
+</fld_def>
+<fld_def>
+<name>rel_pric_grp</name>
+<type>TextFld</type>
+<lbl>Rel. pric. grp.</lbl>
+</fld_def>
+<fld_def>
+<name>rel_pric_pri_ctact</name>
+<type>TextFld</type>
+<lbl>Rel. pric. grp. prim. contact</lbl>
+</fld_def>
+<fld_def>
+<name>rel_pric_mtd_id</name>
+<type>NrFld</type>
+<lbl>Rel. pric. method</lbl>
+</fld_def>
+
+</fld_list>
+</row_def>
+</rep_def>
+</def>
+
+<data>
+<report>
+<report_foot_list>
+<report_foot id="2-1" row_type="title" hira="-1" level="report.foot">
+<fee_avsr_ongoing_list>
+<fee_avsr_ongoing id="4-2" row_type="title" hira="0" level="fee_avsr_ongoing">
+<btfg_book_kind_id><annot><displ_text>Ongoing advice fee</displ_text><ctx><type>code_book_kind</type><id>5826</id></ctx></annot><val>5826</val></btfg_book_kind_id>
+</fee_avsr_ongoing>
+<fee_avsr_ongoing id="6-3" row_type="title" hira="0" level="fee_avsr_ongoing">
+<fee_avsr_ongoing_fua_incl_list>
+</fee_avsr_ongoing_fua_incl_list>
+</fee_avsr_ongoing>
+<fee_avsr_ongoing id="8-4" row_type="title" hira="0" level="fee_avsr_ongoing">
+<fee_avsr_ongoing_tariff_list>
+<fee_avsr_ongoing_tariff id="10-5" row_type="title" hira="1" level="fee_avsr_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>Fixed Dollar Amount</displ_text><ctx><type>code_cost_misc</type><id>1</id></ctx></annot><val>1</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Dollar fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>1</id></ctx></annot><val>1</val></btfg_tariff_type_id>
+<tariff_amt><val>1</val></tariff_amt>
+</fee_avsr_ongoing_tariff>
+<fee_avsr_ongoing_tariff id="12-6" row_type="title" hira="1" level="fee_avsr_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>FUA Cluster: Term Deposits</displ_text><ctx><type>code_cost_misc</type><id>4</id></ctx></annot><val>4</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Percentage fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>2</id></ctx></annot><val>2</val></btfg_tariff_type_id>
+<tariff_factor><val>.01</val></tariff_factor>
+</fee_avsr_ongoing_tariff>
+<fee_avsr_ongoing_tariff id="14-7" row_type="title" hira="1" level="fee_avsr_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>Managed portfolios</displ_text><ctx><type>code_cost_misc</type><id>7</id></ctx></annot><val>7</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Percentage fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>2</id></ctx></annot><val>2</val></btfg_tariff_type_id>
+<tariff_factor><val>.01</val></tariff_factor>
+</fee_avsr_ongoing_tariff>
+<fee_avsr_ongoing_tariff id="16-8" row_type="title" hira="1" level="fee_avsr_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>Cash</displ_text><ctx><type>code_cost_misc</type><id>3</id></ctx></annot><val>3</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Percentage fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>2</id></ctx></annot><val>2</val></btfg_tariff_type_id>
+<tariff_factor><val>.01</val></tariff_factor>
+</fee_avsr_ongoing_tariff>
+<fee_avsr_ongoing_tariff id="18-9" row_type="title" hira="1" level="fee_avsr_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>FUA Cluster: Managed Funds</displ_text><ctx><type>code_cost_misc</type><id>5</id></ctx></annot><val>5</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Percentage fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>2</id></ctx></annot><val>2</val></btfg_tariff_type_id>
+<tariff_factor><val>.01</val></tariff_factor>
+</fee_avsr_ongoing_tariff>
+<fee_avsr_ongoing_tariff id="18-9" row_type="title" hira="1" level="fee_avsr_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>FUA Cluster: Listed Securities</displ_text><ctx><type>code_cost_misc</type><id>6</id></ctx></annot><val>6</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Percentage fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>2</id></ctx></annot><val>2</val></btfg_tariff_type_id>
+<tariff_factor><val>.06</val></tariff_factor>
+</fee_avsr_ongoing_tariff>
+</fee_avsr_ongoing_tariff_list>
+</fee_avsr_ongoing>
+</fee_avsr_ongoing_list>
+</report_foot>
+<report_foot id="20-10" row_type="title" hira="-1" level="report.foot">
+<fee_dg_ongoing_list>
+<fee_dg_ongoing id="22-11" row_type="title" hira="0" level="fee_dg_ongoing">
+<btfg_book_kind_id><annot><displ_text>Licensee advice fee</displ_text><ctx><type>code_book_kind</type><id>5832</id></ctx></annot><val>5832</val></btfg_book_kind_id>
+</fee_dg_ongoing>
+<fee_dg_ongoing id="24-12" row_type="title" hira="0" level="fee_dg_ongoing">
+<fee_dg_ongoing_fua_incl_list>
+<fee_dg_ongoing_fua_incl id="26-13" row_type="title" hira="1" level="fee_dg_ongoing_fua_incl">
+<btfg_fua_incl_id><annot><displ_text>Term deposits</displ_text><ctx><type>code_obj_class</type><id>505261</id></ctx></annot><val>505261</val></btfg_fua_incl_id>
+</fee_dg_ongoing_fua_incl>
+<fee_dg_ongoing_fua_incl id="28-14" row_type="title" hira="1" level="fee_dg_ongoing_fua_incl">
+<btfg_fua_incl_id><annot><displ_text>Managed funds</displ_text><ctx><type>code_obj_class</type><id>505262</id></ctx></annot><val>505262</val></btfg_fua_incl_id>
+</fee_dg_ongoing_fua_incl>
+<fee_dg_ongoing_fua_incl id="30-15" row_type="title" hira="1" level="fee_dg_ongoing_fua_incl">
+<btfg_fua_incl_id><annot><displ_text>Managed portfolios</displ_text><ctx><type>code_obj_class</type><id>505264</id></ctx></annot><val>505264</val></btfg_fua_incl_id>
+</fee_dg_ongoing_fua_incl>
+<fee_dg_ongoing_fua_incl id="30-15" row_type="title" hira="1" level="fee_dg_ongoing_fua_incl">
+<btfg_fua_incl_id><annot><displ_text>Listed securities</displ_text><ctx><type>code_obj_class</type><id>505263</id></ctx></annot><val>505263</val></btfg_fua_incl_id>
+</fee_dg_ongoing_fua_incl>
+</fee_dg_ongoing_fua_incl_list>
+</fee_dg_ongoing>
+<fee_dg_ongoing id="32-16" row_type="title" hira="0" level="fee_dg_ongoing">
+<fee_dg_ongoing_tariff_list>
+<fee_dg_ongoing_tariff id="34-17" row_type="title" hira="1" level="fee_dg_ongoing_tariff">
+<fee_dg_ongoing_tariff_bound_list>
+<fee_dg_ongoing_tariff_bound id="36-18" row_type="title" hira="2" level="fee_dg_ongoing_tariff_bound">
+<btfg_cost_misc_id><annot><displ_text>Tailored</displ_text><ctx><type>code_cost_misc</type><id>41</id></ctx></annot><val>41</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Sliding scale fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>3</id></ctx></annot><val>3</val></btfg_tariff_type_id>
+<bound_from><val>0</val></bound_from>
+<bound_to><val>1</val></bound_to>
+<tariff_factor><val>.01</val></tariff_factor>
+</fee_dg_ongoing_tariff_bound>
+<fee_dg_ongoing_tariff_bound id="38-19" row_type="title" hira="2" level="fee_dg_ongoing_tariff_bound">
+<btfg_cost_misc_id><annot><displ_text>Tailored</displ_text><ctx><type>code_cost_misc</type><id>41</id></ctx></annot><val>41</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Sliding scale fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>3</id></ctx></annot><val>3</val></btfg_tariff_type_id>
+<bound_from><val>1</val></bound_from>
+<tariff_factor><val>.01</val></tariff_factor>
+</fee_dg_ongoing_tariff_bound>
+</fee_dg_ongoing_tariff_bound_list>
+</fee_dg_ongoing_tariff>
+<fee_dg_ongoing_tariff id="40-20" row_type="title" hira="1" level="fee_dg_ongoing_tariff">
+<btfg_cost_misc_id><annot><displ_text>Fixed Dollar Amount</displ_text><ctx><type>code_cost_misc</type><id>1</id></ctx></annot><val>1</val></btfg_cost_misc_id>
+<btfg_tariff_type_id><annot><displ_text>Dollar fee component</displ_text><ctx><type>btfg$code_tariff_type</type><id>1</id></ctx></annot><val>1</val></btfg_tariff_type_id>
+<tariff_amt><val>1</val></tariff_amt>
+</fee_dg_ongoing_tariff>
+</fee_dg_ongoing_tariff_list>
+</fee_dg_ongoing>
+</fee_dg_ongoing_list>
+</report_foot>
+<report_foot id="42-21" row_type="title" hira="-1" level="report.foot">
+<fee_platform_admin_list>
+<fee_platform_admin id="44-22" row_type="title" hira="0" level="fee_platform_admin">
+<btfg_book_kind_id><annot><displ_text>Administration fee</displ_text><ctx><type>code_book_kind</type><id>5834</id></ctx></annot><val>5834</val></btfg_book_kind_id>
+</fee_platform_admin>
+</fee_platform_admin_list>
+</report_foot>
+</report_foot_list>
+</report>
+
+</data>
+</rep:rep>
+
+          <!--<rep:rep
+                  xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_bp_costp"
+                  xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"
+                  xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            &lt;!&ndash; 2014-12-10 13:42:35.795230000 on NGWD2 by 297136169 &ndash;&gt;
+            <metadata>
+              <empty_rep>
+                <val>false</val>
+              </empty_rep>
+              <current_of_time>
+                <val>2014-12-10T02:42:35.796458000Z</val>
+              </current_of_time>
+            </metadata>
+            <def>
+              <version>2.0</version>
+              <rep_def>
+                <style>hira</style>
+                <lang id="1">en</lang>
+                <hira_def>
+                  <grp_list>
+                    <grp_def>
+                      <name>report</name>
+                      <hira>1</hira>
+                      <has_head>false</has_head>
+                      <has_foot>true</has_foot>
+                    </grp_def>
+                  </grp_list>
+                </hira_def>
+                <row_def>
+                  <fld_list>
+                    <fld_def>
+                      <name>descn</name>
+                      <type>TextFld</type>
+                      <lbl>Description</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>btfg_book_kind_id</name>
+                      <type>NrFld</type>
+                      <lbl>Book kind</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>btfg_cost_misc_id</name>
+                      <type>NrFld</type>
+                      <lbl>Type</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>btfg_tariff_type_id</name>
+                      <type>NrFld</type>
+                      <lbl>Component</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>btfg_fee_platform_adm_fua_id</name>
+                      <type>NrFld</type>
+                      <lbl>Include asset Adm. Fee.</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>btfg_fua_incl_id</name>
+                      <type>NrFld</type>
+                      <lbl>Include asset SPCD</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>bound_from</name>
+                      <type>NrFld</type>
+                      <lbl>Boundary from</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>bound_to</name>
+                      <type>NrFld</type>
+                      <lbl>Boundary to</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>tariff_factor</name>
+                      <type>NrFld</type>
+                      <lbl>Factor</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>tariff_amt</name>
+                      <type>NrFld</type>
+                      <lbl>Amount</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>min</name>
+                      <type>NrFld</type>
+                      <lbl>Minimum</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>max</name>
+                      <type>NrFld</type>
+                      <lbl>Maximum</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>do_cpi</name>
+                      <type>BoolFld</type>
+                      <lbl>CPI indexation</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>cpi_next</name>
+                      <type>DateFld</type>
+                      <lbl>CPI eval date next</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>cpi_base_tariff_amt</name>
+                      <type>NrFld</type>
+                      <lbl>CPI base amount</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>rel_pric_grp</name>
+                      <type>TextFld</type>
+                      <lbl>Rel. pric. grp.</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>rel_pric_pri_ctact</name>
+                      <type>TextFld</type>
+                      <lbl>Rel. pric. grp. prim. contact</lbl>
+                    </fld_def>
+                    <fld_def>
+                      <name>rel_pric_mtd_id</name>
+                      <type>NrFld</type>
+                      <lbl>Rel. pric. method</lbl>
+                    </fld_def>
+                  </fld_list>
+                </row_def>
+              </rep_def>
+            </def>
+            <data>
+              <report>
+                <report_foot_list>
+                  <report_foot id="2-1" row_type="title" hira="-1" level="report.foot">
+                    <fee_avsr_ongoing_list>
+                      <fee_avsr_ongoing id="4-2" row_type="title" hira="0" level="fee_avsr_ongoing">
+                        <btfg_book_kind_id>
+                          <val>5826</val>
+                        </btfg_book_kind_id>
+                      </fee_avsr_ongoing>
+                    </fee_avsr_ongoing_list>
+                  </report_foot>
+                  <report_foot id="6-3" row_type="title" hira="-1" level="report.foot">
+                    <fee_dg_ongoing_list>
+                      <fee_dg_ongoing id="8-4" row_type="title" hira="0" level="fee_dg_ongoing">
+                        <btfg_book_kind_id>
+                          <val>5832</val>
+                        </btfg_book_kind_id>
+                      </fee_dg_ongoing>
+                    </fee_dg_ongoing_list>
+                  </report_foot>
+                  <report_foot id="10-5" row_type="title" hira="-1" level="report.foot">
+                    <fee_platform_admin_list>
+                      <fee_platform_admin id="12-6" row_type="title" hira="0" level="fee_platform_admin">
+                        <btfg_book_kind_id>
+                          <val>5834</val>
+                        </btfg_book_kind_id>
+                      </fee_platform_admin>
+                      <fee_platform_admin id="14-7" row_type="title" hira="0" level="fee_platform_admin">
+                        <fee_platform_admin_discount_list>
+                          <fee_platform_admin_discount id="16-8" row_type="title" hira="1" level="fee_platform_admin_discount"></fee_platform_admin_discount>
+                        </fee_platform_admin_discount_list>
+                      </fee_platform_admin>
+                      <fee_platform_admin id="18-9" row_type="title" hira="0" level="fee_platform_admin">
+                        <fee_platform_admin_fua_incl_list>
+                          <fee_platform_admin_fua_incl id="20-10" row_type="title" hira="1" level="fee_platform_admin_fua_incl">
+                            <btfg_fee_platform_adm_fua_id>
+                              <val>505300</val>
+                            </btfg_fee_platform_adm_fua_id>
+                          </fee_platform_admin_fua_incl>
+                          <fee_platform_admin_fua_incl id="22-11" row_type="title" hira="1" level="fee_platform_admin_fua_incl">
+                            <btfg_fee_platform_adm_fua_id>
+                              <val>505301</val>
+                            </btfg_fee_platform_adm_fua_id>
+                          </fee_platform_admin_fua_incl>
+                          <fee_platform_admin_fua_incl id="24-12" row_type="title" hira="1" level="fee_platform_admin_fua_incl">
+                            <btfg_fee_platform_adm_fua_id>
+                              <val>505304</val>
+                            </btfg_fee_platform_adm_fua_id>
+                          </fee_platform_admin_fua_incl>
+                        </fee_platform_admin_fua_incl_list>
+                      </fee_platform_admin>
+                      <fee_platform_admin id="26-13" row_type="title" hira="0" level="fee_platform_admin">
+                        <fee_platform_admin_tariff_list>
+                          <fee_platform_admin_tariff id="28-14" row_type="title" hira="1" level="fee_platform_admin_tariff">
+                            <fee_platform_admin_bound_list>
+                              <fee_platform_admin_bound id="30-15" row_type="title" hira="2" level="fee_platform_admin_bound">
+                                <btfg_cost_misc_id>
+                                  <val>41</val>
+                                </btfg_cost_misc_id>
+                                <btfg_tariff_type_id>
+                                  <val>3</val>
+                                </btfg_tariff_type_id>
+                                <bound_from>
+                                  <val>0</val>
+                                </bound_from>
+                                <bound_to>
+                                  <val>250000</val>
+                                </bound_to>
+                                <tariff_factor>
+                                  <val>.5</val>
+                                </tariff_factor>
+                              </fee_platform_admin_bound>
+                              <fee_platform_admin_bound id="32-16" row_type="title" hira="2" level="fee_platform_admin_bound">
+                                <btfg_cost_misc_id>
+                                  <val>41</val>
+                                </btfg_cost_misc_id>
+                                <btfg_tariff_type_id>
+                                  <val>3</val>
+                                </btfg_tariff_type_id>
+                                <bound_from>
+                                  <val>250000</val>
+                                </bound_from>
+                                <bound_to>
+                                  <val>500000</val>
+                                </bound_to>
+                                <tariff_factor>
+                                  <val>.35</val>
+                                </tariff_factor>
+                              </fee_platform_admin_bound>
+                              <fee_platform_admin_bound id="34-17" row_type="title" hira="2" level="fee_platform_admin_bound">
+                                <btfg_cost_misc_id>
+                                  <val>41</val>
+                                </btfg_cost_misc_id>
+                                <btfg_tariff_type_id>
+                                  <val>3</val>
+                                </btfg_tariff_type_id>
+                                <bound_from>
+                                  <val>500000</val>
+                                </bound_from>
+                                <bound_to>
+                                  <val>1000000</val>
+                                </bound_to>
+                                <tariff_factor>
+                                  <val>.17</val>
+                                </tariff_factor>
+                              </fee_platform_admin_bound>
+                              <fee_platform_admin_bound id="36-18" row_type="title" hira="2" level="fee_platform_admin_bound">
+                                <btfg_cost_misc_id>
+                                  <val>41</val>
+                                </btfg_cost_misc_id>
+                                <btfg_tariff_type_id>
+                                  <val>3</val>
+                                </btfg_tariff_type_id>
+                                <bound_from>
+                                  <val>1000000</val>
+                                </bound_from>
+                                <bound_to>
+                                  <val>3000000</val>
+                                </bound_to>
+                                <tariff_factor>
+                                  <val>.1</val>
+                                </tariff_factor>
+                              </fee_platform_admin_bound>
+                            </fee_platform_admin_bound_list>
+                          </fee_platform_admin_tariff>
+                        </fee_platform_admin_tariff_list>
+                      </fee_platform_admin>
+                    </fee_platform_admin_list>
+                  </report_foot>
+                </report_foot_list>
+              </report>
+            </data>
+          </rep:rep>-->
+          <!-- 3efc55ec-9d4f-4241-99e5-a18c8e33c13c at 2014-12-10T02:42:35.830756000Z on NGWD2 by 297136169 -->
+
+
+        </SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

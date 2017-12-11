@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<accountResponse>
+    <accounts>
+        <account>
+            <accountName>Dennis Beecham Investment wrap account</accountName>
+            <accountType>INDIVIDUAL</accountType>
+            <adviserName>Jim Anderson</adviserName>
+            <balance>12121.90</balance>
+            <portfolio>12312312.98</portfolio>
+            <primaryFirstName>Michelle</primaryFirstName>
+            <primaryLastName>Boon</primaryLastName>
+            <wrapAccountId>134134</wrapAccountId>
+        </account>
+        <account>
+            <accountName>Dennis Beecham Investment wrap account</accountName>
+            <accountType>COMPANY</accountType>
+            <adviserName>Jim Anderson</adviserName>
+            <balance>31210.90</balance>
+            <portfolio>32812310.20</portfolio>
+            <primaryFirstName>James</primaryFirstName>
+            <primaryLastName>Hudson</primaryLastName>
+            <wrapAccountId>334135</wrapAccountId>
+        </account>
+    </accounts>
+</accountResponse>

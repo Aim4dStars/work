@@ -1,0 +1,571 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse><rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_person_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def">
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>person</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>person</name>
+            <type>TextFld</type>
+            <lbl>person</lbl>
+          </fld_def>
+          <fld_def>
+            <name>head_type</name>
+            <type>TextFld</type>
+            <lbl>head_type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>gcm_id</name>
+            <type>TextFld</type>
+            <lbl>gcm_id</lbl>
+          </fld_def>
+          <fld_def>
+            <name>open_date</name>
+            <type>DateTimeFld</type>
+            <lbl>open_date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>type</name>
+            <type>TextFld</type>
+            <lbl>type_id</lbl>
+          </fld_def>
+          <fld_def>
+            <name>ttl</name>
+            <type>TextFld</type>
+            <lbl>ttl</lbl>
+          </fld_def>
+          <fld_def>
+            <name>first_name</name>
+            <type>TextFld</type>
+            <lbl>first_name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>middle_name</name>
+            <type>TextFld</type>
+            <lbl>middle_name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>last_name</name>
+            <type>TextFld</type>
+            <lbl>last_name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>full_name</name>
+            <type>TextFld</type>
+            <lbl>full_name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>age</name>
+            <type>NrFld</type>
+            <lbl>age</lbl>
+          </fld_def>
+          <fld_def>
+            <name>birth_date</name>
+            <type>DateTimeFld</type>
+            <lbl>birth_date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>death_date</name>
+            <type>DateTimeFld</type>
+            <lbl>death_date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>gender</name>
+            <type>TextFld</type>
+            <lbl>gender</lbl>
+          </fld_def>
+          <fld_def>
+            <name>is_avsr</name>
+            <type>BoolFld</type>
+            <lbl>is_avsr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>is_prplnr</name>
+            <type>BoolFld</type>
+            <lbl>is_prplnr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>is_avsra</name>
+            <type>BoolFld</type>
+            <lbl>is_avsra</lbl>
+          </fld_def>
+          <fld_def>
+            <name>profession</name>
+            <type>TextFld</type>
+            <lbl>profession</lbl>
+          </fld_def>
+          <fld_def>
+            <name>oracle_user</name>
+            <type>TextFld</type>
+            <lbl>sec_user</lbl>
+          </fld_def>
+          <fld_def>
+            <name>tfn</name>
+            <type>TextFld</type>
+            <lbl>tfn</lbl>
+          </fld_def>
+          <fld_def>
+            <name>au_tfn_wtax_exempt</name>
+            <type>TextFld</type>
+            <lbl>au_tfn_wtax_exempt</lbl>
+          </fld_def>
+          <fld_def>
+            <name>position</name>
+            <type>TextFld</type>
+            <lbl>position</lbl>
+          </fld_def>
+          <fld_def>
+            <name>dealer_grp</name>
+            <type>TextFld</type>
+            <lbl>dealer_grp</lbl>
+          </fld_def>
+          <fld_def>
+            <name>safi_device</name>
+            <type>TextFld</type>
+            <lbl>safi_device_id</lbl>
+          </fld_def>
+          <fld_def>
+            <name>has_docm_tnc</name>
+            <type>BoolFld</type>
+            <lbl>has_docm_tnc</lbl>
+          </fld_def>
+          <fld_def>
+            <name>silo</name>
+            <type>TextFld</type>
+            <lbl>silo</lbl>
+          </fld_def>
+          <fld_def>
+            <name>full_addr</name>
+            <type>TextFld</type>
+            <lbl>full_addr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>addr_catg</name>
+            <type>TextFld</type>
+            <lbl>addr_catg</lbl>
+          </fld_def>
+          <fld_def>
+            <name>addr_kind</name>
+            <type>TextFld</type>
+            <lbl>addr_kind</lbl>
+          </fld_def>
+          <fld_def>
+            <name>addr_medium</name>
+            <type>TextFld</type>
+            <lbl>addr_medium</lbl>
+          </fld_def>
+          <fld_def>
+            <name>elec_addr</name>
+            <type>TextFld</type>
+            <lbl>elec_addr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>is_mail</name>
+            <type>BoolFld</type>
+            <lbl>is_mail</lbl>
+          </fld_def>
+          <fld_def>
+            <name>is_domi</name>
+            <type>BoolFld</type>
+            <lbl>is_domi</lbl>
+          </fld_def>
+          <fld_def>
+            <name>cty</name>
+            <type>TextFld</type>
+            <lbl>cty</lbl>
+          </fld_def>
+          <fld_def>
+            <name>unit_nr</name>
+            <type>TextFld</type>
+            <lbl>unit_nr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>floor_nr</name>
+            <type>TextFld</type>
+            <lbl>floor_nr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>street_nr</name>
+            <type>TextFld</type>
+            <lbl>street_nr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>street_name</name>
+            <type>TextFld</type>
+            <lbl>street_name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>street_type</name>
+            <type>TextFld</type>
+            <lbl>street_type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>building_name</name>
+            <type>TextFld</type>
+            <lbl>building_name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>suburb</name>
+            <type>TextFld</type>
+            <lbl>suburb</lbl>
+          </fld_def>
+          <fld_def>
+            <name>state</name>
+            <type>TextFld</type>
+            <lbl>state</lbl>
+          </fld_def>
+          <fld_def>
+            <name>zip</name>
+            <type>TextFld</type>
+            <lbl>zip</lbl>
+          </fld_def>
+          <fld_def>
+            <name>box_addr_type</name>
+            <type>TextFld</type>
+            <lbl>box_addr_type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>po_box</name>
+            <type>TextFld</type>
+            <lbl>po_box</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp</name>
+            <type>TextFld</type>
+            <lbl>bp</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp_activ_date</name>
+            <type>DateTimeFld</type>
+            <lbl>bp_activ_date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp_position</name>
+            <type>TextFld</type>
+            <lbl>bp_position</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp_dealer_grp</name>
+            <type>TextFld</type>
+            <lbl>bp_dealer_grp</lbl>
+          </fld_def>
+          <fld_def>
+            <name>advisor</name>
+            <type>TextFld</type>
+            <lbl>bp_advisor</lbl>
+          </fld_def>
+          <fld_def>
+            <name>advisor_phone_nr</name>
+            <type>TextFld</type>
+            <lbl>bp_advisor_phone_nr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>auth_trx_type</name>
+            <type>TextFld</type>
+            <lbl>authority_trx_type</lbl>
+          </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+  
+<data>
+<person_list>
+    <person>
+      <person_head_list>
+      <person_head hira="0" id="1" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>person</val></head_type>
+            <gcm_id><val>217052641</val></gcm_id>
+            <open_date><annot><displ_text>01/07/2014</displ_text></annot><val>2014-07-01T00:00:00</val></open_date>
+            <type><annot><ctx><type>code_obj_sub_type</type><id>120</id></ctx></annot><val>Natural person</val></type>
+            <ttl><val>Mr.</val></ttl>
+            <first_name><val>Client1</val></first_name>
+            <last_name><val>Pitt</val></last_name>
+            <full_name><val>Client1  Pitt</val></full_name>
+            <age><annot><displ_text>43</displ_text></annot><val>43</val></age>
+            <birth_date><annot><displ_text>01/01/1971</displ_text></annot><val>1971-01-01T00:00:00</val></birth_date>
+            <gender><annot><ctx><type>code_gender</type><id>1</id></ctx></annot><val>male</val></gender>
+            <is_avsr><val>false</val></is_avsr>
+            <is_prplnr><val>false</val></is_prplnr>
+            <is_avsra><val>false</val></is_avsra>
+            <oracle_user><val>217052641</val></oracle_user>
+            <safi_device><val>5f264641-20eb-420a-9205-90620dafbd29</val></safi_device>
+            <has_docm_tnc><val>true</val></has_docm_tnc>
+            <silo><val>SEC</val></silo>
+      </person_head>
+      <person_head hira="0" id="2" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client1 Pitt
+33 Pitt St
+Sydney NSW 2000
+AUSTRALIA</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>1</id></ctx></annot><val>Postal address</val></addr_catg>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>6</id></ctx></annot><val>Postal</val></addr_medium>
+            <is_mail><val>true</val></is_mail>
+            <is_domi><val>true</val></is_domi>
+            <cty><annot><ctx><type>country</type><id>2061</id></ctx></annot><val>Australia</val></cty>
+            <street_nr><val>33</val></street_nr>
+            <street_name><val>Pitt</val></street_name>
+            <street_type><annot><ctx><type>btfg$code_street_type</type><id>33</id></ctx></annot><val>Street</val></street_type>
+            <suburb><val>SYDNEY</val></suburb>
+            <state><annot><ctx><type>code_country_state</type><id>5004</id></ctx></annot><val>New South Wales</val></state>
+            <zip><val>2000</val></zip>
+      </person_head>
+      <person_head hira="0" id="3" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client1 Pitt
+61404778778</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>3</id></ctx></annot><val>Electronical address</val></addr_catg>
+            <addr_kind><annot><ctx><type>code_addr_kind</type><id>1000</id></ctx></annot><val>Preferred</val></addr_kind>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>1001</id></ctx></annot><val>Mobile Phone - Primary</val></addr_medium>
+            <elec_addr><val>61404778778</val></elec_addr>
+            <is_mail><val>false</val></is_mail>
+            <is_domi><val>false</val></is_domi>
+      </person_head>
+      <person_head hira="0" id="4" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client1 Pitt
+pitt@test.com</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>3</id></ctx></annot><val>Electronical address</val></addr_catg>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>1004</id></ctx></annot><val>Email Address - Primary</val></addr_medium>
+            <elec_addr><val>pitt@test.com</val></elec_addr>
+            <is_mail><val>false</val></is_mail>
+            <is_domi><val>false</val></is_domi>
+      </person_head>
+      <person_head hira="0" id="5" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>avsr</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <bp_position><annot><ctx><type>collect</type><id>37717</id></ctx></annot><val>Andrew  Daffy</val></bp_position>
+            <bp_dealer_grp><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></bp_dealer_grp>
+            <advisor><annot><ctx><type>person</type><id>37711</id></ctx></annot><val>person-120_457person-120_457person-120_457</val></advisor>
+            <advisor_phone_nr><val>0292365489</val></advisor_phone_nr>
+      </person_head>
+      <person_head hira="0" id="6" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+      </person_head>
+      <person_head hira="0" id="7" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+           <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <auth_trx_type><annot><ctx><type>code_auth_trx_type</type><id>1125</id></ctx></annot><val>pay_inpay_all</val></auth_trx_type>
+      </person_head>
+      <person_head hira="0" id="8" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <auth_trx_type><annot><ctx><type>code_auth_trx_type</type><id>1126</id></ctx></annot><val>bp_acc_maint</val></auth_trx_type>
+      </person_head>
+      </person_head_list>
+    </person>
+    <person>
+      <person_head_list>
+      <person_head hira="0" id="9" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>person</val></head_type>
+            <gcm_id><val>217052642</val></gcm_id>
+            <open_date><annot><displ_text>01/07/2014</displ_text></annot><val>2014-07-01T00:00:00</val></open_date>
+            <type><annot><ctx><type>code_obj_sub_type</type><id>120</id></ctx></annot><val>Natural person</val></type>
+            <ttl><val>Mr.</val></ttl>
+            <first_name><val>Client2</val></first_name>
+            <last_name><val>Pitt</val></last_name>
+            <full_name><val>Client2  Pitt</val></full_name>
+            <age><annot><displ_text>38</displ_text></annot><val>38</val></age>
+            <birth_date><annot><displ_text>01/01/1976</displ_text></annot><val>1976-01-01T00:00:00</val></birth_date>
+            <gender><annot><ctx><type>code_gender</type><id>1</id></ctx></annot><val>male</val></gender>
+            <is_avsr><val>false</val></is_avsr>
+            <is_prplnr><val>false</val></is_prplnr>
+            <is_avsra><val>false</val></is_avsra>
+            <oracle_user><val>217052642</val></oracle_user>
+            <safi_device><val>0d40f8f4-ad8c-4859-9c1c-2c2121d3aee8</val></safi_device>
+            <has_docm_tnc><val>false</val></has_docm_tnc>
+            <silo><val>SEC</val></silo>
+      </person_head>
+      <person_head hira="0" id="10" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client2 Pitt
+33 Pitt St
+Sydney NSW 2000
+AUSTRALIA</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>1</id></ctx></annot><val>Postal address</val></addr_catg>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>6</id></ctx></annot><val>Postal</val></addr_medium>
+            <is_mail><val>true</val></is_mail>
+            <is_domi><val>true</val></is_domi>
+            <cty><annot><ctx><type>country</type><id>2061</id></ctx></annot><val>Australia</val></cty>
+            <street_nr><val>33</val></street_nr>
+            <street_name><val>Pitt</val></street_name>
+            <street_type><annot><ctx><type>btfg$code_street_type</type><id>33</id></ctx></annot><val>Street</val></street_type>
+            <suburb><val>SYDNEY</val></suburb>
+            <state><annot><ctx><type>code_country_state</type><id>5004</id></ctx></annot><val>New South Wales</val></state>
+            <zip><val>2000</val></zip>
+      </person_head>
+      <person_head hira="0" id="11" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client2 Pitt
+61404778779</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>3</id></ctx></annot><val>Electronical address</val></addr_catg>
+            <addr_kind><annot><ctx><type>code_addr_kind</type><id>1000</id></ctx></annot><val>Preferred</val></addr_kind>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>1001</id></ctx></annot><val>Mobile Phone - Primary</val></addr_medium>
+            <elec_addr><val>61404778779</val></elec_addr>
+            <is_mail><val>false</val></is_mail>
+            <is_domi><val>false</val></is_domi>
+      </person_head>
+      <person_head hira="0" id="12" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client2 Pitt
+Pitt2@test.com</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>3</id></ctx></annot><val>Electronical address</val></addr_catg>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>1004</id></ctx></annot><val>Email Address - Primary</val></addr_medium>
+            <elec_addr><val>Pitt2@test.com</val></elec_addr>
+            <is_mail><val>false</val></is_mail>
+            <is_domi><val>false</val></is_domi>
+      </person_head>
+      <person_head hira="0" id="13" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>avsr</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <bp_position><annot><ctx><type>collect</type><id>37717</id></ctx></annot><val>Andrew  Daffy</val></bp_position>
+            <bp_dealer_grp><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></bp_dealer_grp>
+            <advisor><annot><ctx><type>person</type><id>37711</id></ctx></annot><val>person-120_457person-120_457person-120_457</val></advisor>
+            <advisor_phone_nr><val>0292365489</val></advisor_phone_nr>
+      </person_head>
+      <person_head hira="0" id="14" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <auth_trx_type><annot><ctx><type>code_auth_trx_type</type><id>1124</id></ctx></annot><val>pay_inpay_link</val></auth_trx_type>
+      </person_head>
+      <person_head hira="0" id="15" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <auth_trx_type><annot><ctx><type>code_auth_trx_type</type><id>1126</id></ctx></annot><val>bp_acc_maint</val></auth_trx_type>
+      </person_head>
+      </person_head_list>
+    </person>
+    <person>
+      <person_head_list>
+      <person_head hira="0" id="16" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>person</val></head_type>
+            <gcm_id><val>217052643</val></gcm_id>
+            <open_date><annot><displ_text>01/07/2014</displ_text></annot><val>2014-07-01T00:00:00</val></open_date>
+            <type><annot><ctx><type>code_obj_sub_type</type><id>120</id></ctx></annot><val>Natural person</val></type>
+            <ttl><val>Mr.</val></ttl>
+            <first_name><val>Client3</val></first_name>
+            <last_name><val>Pitt</val></last_name>
+            <full_name><val>Client3  Pitt</val></full_name>
+            <age><annot><displ_text>37</displ_text></annot><val>37</val></age>
+            <birth_date><annot><displ_text>01/01/1977</displ_text></annot><val>1977-01-01T00:00:00</val></birth_date>
+            <gender><annot><ctx><type>code_gender</type><id>1</id></ctx></annot><val>male</val></gender>
+            <is_avsr><val>false</val></is_avsr>
+            <is_prplnr><val>false</val></is_prplnr>
+            <is_avsra><val>false</val></is_avsra>
+            <oracle_user><val>217052643</val></oracle_user>
+            <safi_device><val>3ab7ba15-57aa-4fc7-8c3e-4384fb6fc749</val></safi_device>
+            <has_docm_tnc><val>true</val></has_docm_tnc>
+            <silo><val>SEC</val></silo>
+      </person_head>
+      <person_head hira="0" id="17" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client3 Pitt
+33 Pitt St
+Sydney NSW 2000
+AUSTRALIA</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>1</id></ctx></annot><val>Postal address</val></addr_catg>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>6</id></ctx></annot><val>Postal</val></addr_medium>
+            <is_mail><val>true</val></is_mail>
+            <is_domi><val>true</val></is_domi>
+            <cty><annot><ctx><type>country</type><id>2061</id></ctx></annot><val>Australia</val></cty>
+            <street_nr><val>33</val></street_nr>
+            <street_name><val>Pitt</val></street_name>
+            <street_type><annot><ctx><type>btfg$code_street_type</type><id>33</id></ctx></annot><val>Street</val></street_type>
+            <suburb><val>SYDNEY</val></suburb>
+            <state><annot><ctx><type>code_country_state</type><id>5004</id></ctx></annot><val>New South Wales</val></state>
+            <zip><val>2000</val></zip>
+      </person_head>
+      <person_head hira="0" id="18" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client3 Pitt
+61400667556</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>3</id></ctx></annot><val>Electronical address</val></addr_catg>
+            <addr_kind><annot><ctx><type>code_addr_kind</type><id>1000</id></ctx></annot><val>Preferred</val></addr_kind>
+            <addr_medium><annot><ctx><type>code_addr_medium</type><id>1001</id></ctx></annot><val>Mobile Phone - Primary</val></addr_medium>
+            <elec_addr><val>61400667556</val></elec_addr>
+            <is_mail><val>false</val></is_mail>
+            <is_domi><val>false</val></is_domi>
+      </person_head>
+      <person_head hira="0" id="19" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>addr</val></head_type>
+            <full_addr><val>Client3 Pitt
+Pitt3@test.com</val></full_addr>
+            <addr_catg><annot><ctx><type>code_addr_type</type><id>3</id></ctx></annot><val>Electronical address</val></addr_catg>
+           <addr_medium><annot><ctx><type>code_addr_medium</type><id>1004</id></ctx></annot><val>Email Address - Primary</val></addr_medium>
+            <elec_addr><val>Pitt3@test.com</val></elec_addr>
+            <is_mail><val>false</val></is_mail>
+            <is_domi><val>false</val></is_domi>
+      </person_head>
+      <person_head hira="0" id="20" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>avsr</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <bp_position><annot><ctx><type>collect</type><id>37717</id></ctx></annot><val>Andrew  Daffy</val></bp_position>
+            <bp_dealer_grp><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></bp_dealer_grp>
+            <advisor><annot><ctx><type>person</type><id>37711</id></ctx></annot><val>person-120_457person-120_457person-120_457</val></advisor>
+            <advisor_phone_nr><val>0292365489</val></advisor_phone_nr>
+      </person_head>
+      <person_head hira="0" id="21" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <auth_trx_type><annot><ctx><type>code_auth_trx_type</type><id>1125</id></ctx></annot><val>pay_inpay_all</val></auth_trx_type>
+      </person_head>
+      <person_head hira="0" id="22" level="person.head" row_type="data">
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <head_type><val>trx_auth</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <auth_trx_type><annot><ctx><type>code_auth_trx_type</type><id>1126</id></ctx></annot><val>bp_acc_maint</val></auth_trx_type>
+      </person_head>
+      </person_head_list>
+    </person>
+  </person_list>
+
+  </data>
+  </rep:rep>
+<!--  2014-06-16 16:09:09 on NGWU1 by 217052642-->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

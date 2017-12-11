@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <tab_list>
+    <tab>
+      <tab_head_list>
+        <tab_head hira="1" id="17626-8813" level="tab.head" row_type="title">
+          <tab_name>
+            <val>btfg$state</val>
+          </tab_name>
+        </tab_head>
+      </tab_head_list>
+      <code_list>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17628-8814" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5007</ctx_id>
+              </annot>
+              <code_id>
+                <val>5007</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_act</val>
+              </intl_id>
+              <user_id>
+                <val>ACT</val>
+              </user_id>
+              <name>
+                <val>Australia Capital Territory</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17630-8815" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>ACT</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17632-8816" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>ACT</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17634-8817" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17636-8818" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5000</ctx_id>
+              </annot>
+              <code_id>
+                <val>5000</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_aat</val>
+              </intl_id>
+              <user_id>
+                <val>AAT</val>
+              </user_id>
+              <name>
+                <val>Australian Antarctic Territory</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17638-8819" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>AAT</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17640-8820" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>AAT</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17642-8821" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>-</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17644-8822" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5009</ctx_id>
+              </annot>
+              <code_id>
+                <val>5009</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_for</val>
+              </intl_id>
+              <user_id>
+                <val>FOR</val>
+              </user_id>
+              <name>
+                <val>Foreign Driver's License</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17646-8823" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>FOR</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17648-8824" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>FOR</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17650-8825" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>-</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17652-8826" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5004</ctx_id>
+              </annot>
+              <code_id>
+                <val>5004</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_nsw</val>
+              </intl_id>
+              <user_id>
+                <val>NSW</val>
+              </user_id>
+              <name>
+                <val>New South Wales</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17654-8827" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>NSW</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17656-8828" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>NSW</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17658-8829" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17660-8830" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5005</ctx_id>
+              </annot>
+              <code_id>
+                <val>5005</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_nt</val>
+              </intl_id>
+              <user_id>
+                <val>NT</val>
+              </user_id>
+              <name>
+                <val>Northern Territory</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17662-8831" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>NT</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17664-8832" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>NT</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17666-8833" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17668-8834" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5002</ctx_id>
+              </annot>
+              <code_id>
+                <val>5002</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_qld</val>
+              </intl_id>
+              <user_id>
+                <val>QLD</val>
+              </user_id>
+              <name>
+                <val>Queensland</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17670-8835" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>QLD</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17672-8836" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>QLD</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17674-8837" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17676-8838" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5006</ctx_id>
+              </annot>
+              <code_id>
+                <val>5006</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_sa</val>
+              </intl_id>
+              <user_id>
+                <val>SA</val>
+              </user_id>
+              <name>
+                <val>South Australia</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17678-8839" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>SA</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17680-8840" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>SA</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17682-8841" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17684-8842" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5008</ctx_id>
+              </annot>
+              <code_id>
+                <val>5008</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_tas</val>
+              </intl_id>
+              <user_id>
+                <val>TAS</val>
+              </user_id>
+              <name>
+                <val>Tasmania</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17686-8843" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>TAS</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17688-8844" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>TAS</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17690-8845" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17692-8846" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5001</ctx_id>
+              </annot>
+              <code_id>
+                <val>5001</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_vic</val>
+              </intl_id>
+              <user_id>
+                <val>VIC</val>
+              </user_id>
+              <name>
+                <val>Victoria</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17694-8847" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>VIC</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17696-8848" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>VIC</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17698-8849" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head hira="2" id="17700-8850" level="code.head" row_type="data">
+              <annot>
+                <ctx_type>btfg$state</ctx_type>
+                <ctx_id>5003</ctx_id>
+              </annot>
+              <code_id>
+                <val>5003</val>
+              </code_id>
+              <intl_id>
+                <val>btfg$au_wa</val>
+              </intl_id>
+              <user_id>
+                <val>WA</val>
+              </user_id>
+              <name>
+                <val>Western Australia</val>
+              </name>
+              <extn_fld_list>
+                <extn_fld hira="3" id="17702-8851" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$im_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>WA</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17704-8852" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$ucm_code</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>WA</val>
+                  </extn_fld_val>
+                </extn_fld>
+                <extn_fld hira="3" id="17706-8853" level="extn_fld" row_type="data">
+                  <extn_fld_name>
+                    <val>btfg$is_panorama_val</val>
+                  </extn_fld_name>
+                  <extn_fld_val>
+                    <val>+</val>
+                  </extn_fld_val>
+                </extn_fld>
+              </extn_fld_list>
+            </code_head>
+          </code_head_list>
+        </code>
+      </code_list>
+    </tab>
+  </tab_list>
+</data>

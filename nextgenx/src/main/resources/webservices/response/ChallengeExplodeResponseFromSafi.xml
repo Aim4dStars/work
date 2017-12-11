@@ -1,0 +1,63 @@
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+   <soapenv:Body>
+      <ns1:challengeResponse xmlns:ns1="http://ws.csd.rsa.com">
+         <ns1:challengeReturn xsi:type="ns1:ChallengeResponse" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ns1:deviceResult>
+               <ns1:authenticationResult>
+                  <ns1:authStatusCode>FAIL</ns1:authStatusCode>
+                  <ns1:risk>0</ns1:risk>
+               </ns1:authenticationResult>
+               <ns1:callStatus>
+                  <ns1:statusCode>SUCCESS</ns1:statusCode>
+                  <ns1:statusDescription/>
+               </ns1:callStatus>
+               <ns1:deviceData>
+                  <ns1:bindingType>NONE</ns1:bindingType>
+                  <ns1:deviceTokenCookie>PMV60Xfs0KVyKw4oH6AbWhjOlU3%2BqId4c8779yovrj8dgQga219l%2FjI2sUt%2FU0WtiVYhmR</ns1:deviceTokenCookie>
+                  <ns1:deviceTokenFSO>PMV60Xfs0KVyKw4oH6AbWhjOlU3%2BqId4c8779yovrj8dgQga219l%2FjI2sUt%2FU0WtiVYhmR</ns1:deviceTokenFSO>
+               </ns1:deviceData>
+            </ns1:deviceResult>
+            <ns1:identificationData>
+               <ns1:delegated>false</ns1:delegated>
+               <ns1:groupName/>
+               <ns1:orgName>BTNG</ns1:orgName>
+               <ns1:sessionId>6ffe3c08:141c9fb766b:-7f39</ns1:sessionId>
+               <ns1:transactionId>TRX_6ffe3c08:141c9fb766b:-7f38</ns1:transactionId>
+               <ns1:userName>60000021</ns1:userName>
+               <ns1:userStatus>VERIFIED</ns1:userStatus>
+               <ns1:userType>PERSISTENT</ns1:userType>
+            </ns1:identificationData>
+            <ns1:messageHeader>
+               <ns1:apiType>DIRECT_SOAP_API</ns1:apiType>
+               <ns1:requestType>CHALLENGE</ns1:requestType>
+               <ns1:timeStamp>2013-10-19T23:47:20.68Z</ns1:timeStamp>
+               <ns1:version>6.0</ns1:version>
+            </ns1:messageHeader>
+            <ns1:statusHeader>
+               <ns1:reasonCode>1453</ns1:reasonCode>
+               <ns1:reasonDescription>Some of the requests are processed with warnings: 
+
+
+----------------------------------------------------------
+Reason Code: 1453
+Description: ACSP or Payload Warning 
+Credential provider encountered error while executing the request, See credential response payload for details.</ns1:reasonDescription>
+               <ns1:statusCode>300</ns1:statusCode>
+            </ns1:statusHeader>
+            <ns1:credentialChallengeList xsi:type="ns1:CredentialChallengeList">
+               <ns1:acspChallengeResponseData>
+                  <ns1:acspAccountId>60000021@BTNG</ns1:acspAccountId>
+                  <ns1:callStatus>
+                     <ns1:statusCode>ERROR</ns1:statusCode>
+                     <ns1:statusDescription>Could not obtain an autnentication sessionId from DM - ERR_SMSTOP_SEND_SMS_FAILURE : Failed to send an SMS throug the gateway</ns1:statusDescription>
+                  </ns1:callStatus>
+                  <ns1:payload xsi:type="ns2:SMSOTPChallengeResponse" xmlns:ns2="http://smsotp.ps.rsa.com.au">
+                     <ns2:resultCode>GENERIC_ERROR</ns2:resultCode>
+                     <ns2:resultMessage>Could not obtain an authentication sessionId from DM. (DM resultCode: ERR_SMSTOP_SEND_SMS_FAILURE resultMessage: Failed to send an SMS throug the gateway</ns2:resultMessage>
+                  </ns1:payload>
+               </ns1:acspChallengeResponseData>
+            </ns1:credentialChallengeList>
+         </ns1:challengeReturn>
+      </ns1:challengeResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

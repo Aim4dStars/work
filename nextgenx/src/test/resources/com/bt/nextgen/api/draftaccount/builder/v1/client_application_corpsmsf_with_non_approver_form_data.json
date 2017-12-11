@@ -1,0 +1,533 @@
+{
+  "accountType": "corporateSMSF",
+  "smsfdetails": {
+    "smsfname": "Maggy Tyler",
+    "smsfabn": "20000241127",
+    "regdate": "11\/02\/1976",
+    "registrationstate": "NSW",
+    "registeredforgst": "yes",
+    "taxoption": "Tax File Number provided",
+    "tfn": "123456782",
+    "exemptionreason": "pensioner",
+    "ciskey": "59591741045",
+    "smsfaddress": {
+      "componentised": true,
+      "unitNumber": "8",
+      "streetNumber": "51",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "8",
+          "streetNumber": "51",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "318440"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true
+    },
+    "industry": {
+      "industry": "7412",
+      "industrydivision": "",
+      "anzsiccode": "7412"
+    },
+    "agree": "Verified",
+    "docissuer": "www.superfundlookup.gov.au",
+    "issuedate": "02 Feb 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "companytrustee": {
+    "ciskey": "59399102535",
+    "companyname": "Kirk Henderson",
+    "asicregisteredname": "Kirk Henderson",
+    "acn": "000000019",
+    "companyabn": "53004085616",
+    "industry": {
+      "industry": "7340",
+      "industrydivision": "",
+      "anzsiccode": "7340"
+    },
+    "agreeconditions": "agreed",
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "8",
+      "streetNumber": "51",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "681055",
+      "addressType": "residential",
+      "id": "681055",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "8",
+          "streetNumber": "51",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "681055"
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "8",
+      "streetNumber": "51",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "571855",
+      "addressType": "residential",
+      "id": "571855",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "8",
+          "streetNumber": "51",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "571855"
+        }
+      ]
+    },
+    "docissuer": "www.asic.gov.au",
+    "issuedate": "02 Feb 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "fullName": "Mrs Ivana Mendoza",
+      "title": "mrs",
+      "firstname": "Ivana",
+      "middlename": "NIA",
+      "lastname": "Mendoza",
+      "preferredname": "Dara Wagner",
+      "dateofbirth": "05\/06\/1980",
+      "gender": "other",
+      "mobile": {
+        "value": "0459363905"
+      },
+      "email": {
+        "value": "ziryli@hotmail.com"
+      },
+      "preferredcontact": "email",
+      "identitydocument": "photodocuments",
+      "isvalid": true,
+      "ciskey": "36508482602",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "8",
+        "streetNumber": "51",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "217994",
+        "addressType": "residential",
+        "id": "217994",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "8",
+            "streetNumber": "51",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "217994"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "8",
+        "streetNumber": "51",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "50633",
+        "addressType": "residential",
+        "id": "50633",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "8",
+            "streetNumber": "51",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "50633"
+          }
+        ]
+      },
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "NSW",
+          "expiryDate": "01\/01\/2020",
+          "documentNumber": "1231231231",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    },
+    {
+      "fullName": "Ms Ebony Donovan",
+      "title": "ms",
+      "firstname": "Ebony",
+      "middlename": "WGD",
+      "lastname": "Donovan",
+      "preferredname": "Naomi Kaufman",
+      "dateofbirth": "15\/02\/1978",
+      "gender": "male",
+      "mobile": {
+        "value": "0499735917"
+      },
+      "email": {
+        "value": "pifij@yahoo.com"
+      },
+      "preferredcontact": "mobile",
+      "identitydocument": "photodocuments",
+      "isvalid": true,
+      "ciskey": "53361732187",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "8",
+        "streetNumber": "51",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "456333",
+        "addressType": "residential",
+        "id": "456333",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "8",
+            "streetNumber": "51",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "456333"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "8",
+        "streetNumber": "51",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "888479",
+        "addressType": "residential",
+        "id": "888479",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "8",
+            "streetNumber": "51",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "888479"
+          }
+        ]
+      },
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "NSW",
+          "expiryDate": "01\/01\/2020",
+          "documentNumber": "1231231231",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    },
+    {
+      "fullName": "Mr Samson Gibs",
+      "title": "mr",
+      "firstname": "Samson",
+      "middlename": "",
+      "lastname": "Gibs",
+      "preferredname": "",
+      "dateofbirth": "01\/01\/1963",
+      "gender": "male",
+      "mobile": {
+        "value": "0406831112"
+      },
+      "email": {
+        "value": "sason.gibs@gmail.com"
+      },
+      "preferredcontact": "mobile",
+      "identitydocument": "photodocuments",
+      "isvalid": true,
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "8",
+        "streetNumber": "51",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "814267",
+        "addressType": "residential",
+        "id": "814267",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "8",
+            "streetNumber": "51",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "814267"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "8",
+        "streetNumber": "51",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "968078",
+        "addressType": "residential",
+        "id": "968078",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "8",
+            "streetNumber": "51",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "968078"
+          }
+        ]
+      },
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "NSW",
+          "expiryDate": "02\/02\/2020",
+          "documentNumber": "123456789",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    }
+  ],
+  "accountsettings": {
+      "investorAccountSettings": [
+          {
+              "isApprover": "true",
+              "role:": "director",
+              "paymentSetting":"linkedaccountsonly"
+          },{
+              "isApprover": "true",
+              "role:": "director",
+              "paymentSetting":"allpayments"
+          },{
+              "isApprover": "true",
+              "role:": "director",
+              "paymentSetting":"linkedaccountsonly"
+          }
+      ],
+    "primarycontact": "0",
+    "professionalspayment": "allpayments"
+  },
+  "shareholderandmembers": {
+    "investorsWithRoles": [
+      {
+        "isMember": "yes",
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false
+      },
+      {
+        "isMember": "yes",
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false
+      },
+      {
+        "isMember": "yes",
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Samson's Secret Stash",
+      "bsb": "065002",
+      "accountnumber": "123456",
+      "nickname": "",
+      "directdebitamount": "2000.00"
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Licensee advice fee"
+    },
+    "estamount": "0.00"
+  }
+}

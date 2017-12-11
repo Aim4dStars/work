@@ -1,0 +1,20 @@
+<RequestSecurityToken xmlns="http://docs.oasis-open.org/ws-sx/ws-trust/200512/" xmlns:wsa="http://www.w3.org/2005/08/addressing"
+                      xmlns:pol="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wpsts="http://www.westpac.com.au/sts">
+    <pol:AppliesTo>
+            <wsa:EndpointReference>
+                <wsa:Address>AvaloqGateway</wsa:Address>
+                <wpsts:PortType>AvaloqGateway</wpsts:PortType>
+                <wpsts:OperationName>AvaloqGateway</wpsts:OperationName>
+                <wpsts:OriginatingSystemId >NG-001</wpsts:OriginatingSystemId>
+                <wpsts:Actions >ns://private.btfin.com/Avaloq/AvaloqGateway/V1_0/HTTPInterface/AvaloqGatewayRequest</wpsts:Actions>
+                <wpsts:MessageId>72AE9FB4-14D9-4043-85F5-423423555</wpsts:MessageId>
+                <wpsts:Version >V1_0</wpsts:Version>
+                <wpsts:Environment >DEV1</wpsts:Environment>
+            </wsa:EndpointReference>
+    </pol:AppliesTo>
+    <Issuer>
+        <wsa:Address>urn:ESBMessagingDomain</wsa:Address>
+    </Issuer>
+    <RequestType>{0}</RequestType>
+    <TokenType>{2}</TokenType>
+</RequestSecurityToken>

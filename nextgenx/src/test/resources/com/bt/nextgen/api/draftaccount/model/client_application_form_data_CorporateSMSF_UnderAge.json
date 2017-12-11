@@ -1,0 +1,457 @@
+{
+  "investors": [],
+  "trustees": [],
+  "shareholderandmembers": {
+    "needsMember": true,
+    "needsBeneficialOwner": true,
+    "accountType": "corporateSMSF",
+    "isMajorShareholder": "no",
+    "additionalShareHoldersAndMembers": [
+      {
+        "needsMember": true,
+        "title": "MR",
+        "middlename": "j",
+        "resaddressv2": {
+          "valid": true,
+          "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+          "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+          "existingAddressList": [
+            {
+              "valid": true,
+              "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+              "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+              "existingAddressList": [],
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "country": "AU"
+            },
+            {
+              "valid": true,
+              "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+              "AddressIdentifier": "0VOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNy0zMyBQaXR0IFN0cmVldCwgTU9SVERBTEUgIE5TVyAgMjIyMwA-",
+              "existingAddressList": [],
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "country": "AU"
+            }
+          ],
+          "sameasaddress": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+          "addressType": "residential",
+          "country": "AU"
+        },
+        "needsBeneficiary": false,
+        "lastname": "One",
+        "dateofbirth": "20/05/1994",
+        "firstname": "Sandi",
+        "selectedpersontype": "member",
+        "needsShareholder": true,
+        "persontype": [
+          "member"
+        ]
+      }
+    ],
+    "investorsWithRoles": [
+      {
+        "needsMember": true,
+        "isBeneficialOwner": "yes",
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "no",
+        "needsBeneficiary": false,
+        "isMember": "yes",
+        "needsShareholder": true
+      }
+    ],
+    "needsBeneficiary": false,
+    "needsShareholder": true
+  },
+  "smsfdetails": {
+    "verificationsource": "Website search",
+    "docissuer": "www.superfundlookup.gov.au",
+    "registeredforgst": "yes",
+    "wealthsource": "Business profits",
+    "smsfaddressv2": {
+      "valid": true,
+      "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+      "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+      "existingAddressList": [
+        {
+          "valid": true,
+          "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+          "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        },
+        {
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0VOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNy0zMyBQaXR0IFN0cmVldCwgTU9SVERBTEUgIE5TVyAgMjIyMwA-",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        }
+      ],
+      "sameasaddress": "0",
+      "addressType": "residential",
+      "country": "AU"
+    },
+    "documentnumber": "notapplicable",
+    "issuedate": "11 Apr 2017",
+    "englishtranslation": "notapplicable",
+    "regdate": "20/05/1994",
+    "taxdetails": {
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": true
+      },
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        },
+        "tfn": {
+          "valid": false
+        },
+        "taxOption": {
+          "valid": true,
+          "value": "Tax File Number or exemption not provided"
+        },
+        "exemptionReason": {
+          "valid": true
+        }
+      },
+      "overseasTaxDetails": [
+        {
+          "overseasTaxCountry": {
+            "valid": true,
+            "value": "AF"
+          },
+          "tinExemptionReason": {
+            "valid": true
+          },
+          "tin": {
+            "valid": true,
+            "value": "363656"
+          },
+          "tinOption": {
+            "valid": true,
+            "value": "TIN provided"
+          }
+        },
+        {
+          "overseasTaxCountry": {
+            "valid": true,
+            "value": "AX"
+          },
+          "tinExemptionReason": {
+            "valid": true,
+            "value": "btfg$tin_pend"
+          },
+          "tin": {
+            "valid": true
+          },
+          "tinOption": {
+            "valid": true,
+            "value": "Exemption Reason provided"
+          }
+        }
+      ]
+    },
+    "smsfname": "nice_fail_REPEAT",
+    "registrationstate": "ACT",
+    "smsfabn": "53004085616",
+    "industry": {
+      "anzsiccode": "7340",
+      "industry": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "agree": "Verified"
+  },
+  "accountType": "corporateSMSF",
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "feeTabEnabled": true
+  },
+  "linkedaccounts": {
+    "otherLinkedAccount": [],
+    "primaryLinkedAccount": {
+      "accountname": "tft",
+      "bsb": "032024",
+      "accountnumber": "032326",
+      "bsbValidationResultVal": true
+    }
+  },
+  "directors": [
+    {
+      "idVerified": true,
+      "lastname": "One",
+      "exemptionReason": "Non-resident",
+      "dateofbirth": "20 May 1994",
+      "phones": [
+        {
+          "phoneType": "Primary",
+          "label": "Mobile - primary",
+          "number": "0444666333",
+          "type": "Phone",
+          "preferred": true
+        }
+      ],
+      "isvalid": true,
+      "resiCountryforTax": "India",
+      "isDuplicate": false,
+      "title": "Mr",
+      "taxdetails": {
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": false
+          }
+        },
+        "overseasTaxDetails": [
+          {
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "Albania"
+            },
+            "tinExemptionReason": {
+              "valid": true,
+              "value": "btfg$tin_pend"
+            },
+            "tin": {
+              "valid": true,
+              "value": "989741"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "TIN provided"
+            }
+          },
+          {
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "India"
+            },
+            "tinExemptionReason": {
+              "valid": true,
+              "value": "TIN exempt - under age"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "Exemption Reason provided"
+            }
+          },
+          {
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "Italy"
+            },
+            "tinExemptionReason": {
+              "valid": true,
+              "value": "btfg$under_aged"
+            },
+            "tin": {
+              "valid": true,
+              "value": "989741"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "TIN provided"
+            }
+          }
+        ],
+        "selectedOverseasTaxCountry": {
+          "valid": true,
+          "value": "India"
+        }
+      },
+      "userName": "kamkaj@001",
+      "gender": "Male",
+      "key": {
+        "clientId": "63E982C11F4B963EB629623789EF7AC1963910980C24C709"
+      },
+      "investorType": "INDIVIDUAL",
+      "resaddress": {
+        "domicile": true,
+        "countryCode": "2061",
+        "state": "New South Wales",
+        "streetName": "Pitt",
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "postcode": "2000",
+        "country": "Australia",
+        "internationalAddress": false,
+        "stateAbbr": "NSW",
+        "suburb": "Sydney",
+        "existingAddressList": [],
+        "streetNumber": "18-22",
+        "mailingAddress": false,
+        "streetType": "Street"
+      },
+      "middlename": "F",
+      "gcmId": "320000633",
+      "emails": [
+        {
+          "emailType": "Primary",
+          "email": "kamkaj@one.com",
+          "preferred": false
+        }
+      ],
+      "firstname": "Kamkaj",
+      "personRoles": [
+        "Owner"
+      ],
+      "postaladdress": {
+        "domicile": false,
+        "countryCode": "2061",
+        "state": "New South Wales",
+        "streetName": "Pitt",
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "postcode": "2000",
+        "country": "Australia",
+        "internationalAddress": false,
+        "stateAbbr": "NSW",
+        "suburb": "Sydney",
+        "existingAddressList": [],
+        "streetNumber": "18-22",
+        "mailingAddress": true,
+        "streetType": "Street"
+      },
+      "gcmTitleLabel": "Mr",
+      "email": {
+        "value": "kamkaj@one.com"
+      },
+      "registered": true,
+      "cisId": "20702220081",
+      "tfnProvided": false,
+      "accountType": "corporateSMSF",
+      "tfnExemptId": "7",
+      "preferredname": "Kam",
+      "mobile": {
+        "value": "0444666333"
+      }
+    }
+  ],
+  "companytrustee": {
+    "agreeconditions": "Verified",
+    "acn": "000250000",
+    "asicregisteredname": "juna_nava",
+    "verificationsource": "Website search",
+    "docissuer": "ASIC",
+    "companyname": "juna_nava",
+    "companyabn": "",
+    "documentnumber": "notapplicable",
+    "issuedate": "11 Apr 2017",
+    "englishtranslation": "notapplicable",
+    "taxdetails": {
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": true
+      },
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        }
+      },
+      "overseasTaxDetails": [
+        {
+          "overseasTaxCountry": {
+            "valid": true,
+            "value": "IS"
+          },
+          "tinExemptionReason": {
+            "valid": true
+          },
+          "tin": {
+            "valid": true,
+            "value": "23333"
+          },
+          "tinOption": {
+            "valid": true,
+            "value": "TIN provided"
+          }
+        }
+      ]
+    },
+    "companyofficev2": {
+      "valid": true,
+      "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+      "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+      "existingAddressList": [
+        {
+          "valid": true,
+          "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+          "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        },
+        {
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0VOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNy0zMyBQaXR0IFN0cmVldCwgTU9SVERBTEUgIE5TVyAgMjIyMwA-",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        }
+      ],
+      "sameasaddress": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+      "addressType": "residential",
+      "country": "AU"
+    },
+    "industry": {
+      "anzsiccode": "7340",
+      "industry": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "placeofbusinessv2": {
+      "valid": true,
+      "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+      "AddressIdentifier": "0VOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNy0zMyBQaXR0IFN0cmVldCwgTU9SVERBTEUgIE5TVyAgMjIyMwA-",
+      "existingAddressList": [
+        {
+          "valid": true,
+          "DisplayText": "18-22 Pitt Street, SYDNEY  NSW  2000",
+          "AddressIdentifier": "02OAUEHgvgBwAAAAAIAgEAAAAA21eeUAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxOC0yMiBQaXR0IFN0cmVldCwgU1lETkVZICBOU1cgIDIwMDAA",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        },
+        {
+          "valid": true,
+          "DisplayText": "27-33 Pitt Street, MORTDALE  NSW  2223",
+          "AddressIdentifier": "0VOAUEHgvgBwAAAAAIAgEAAAAAhztKEADgAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNy0zMyBQaXR0IFN0cmVldCwgTU9SVERBTEUgIE5TVyAgMjIyMwA-",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        }
+      ],
+      "sameasaddress": "0",
+      "addressType": "residential",
+      "country": "AU"
+    }
+  },
+  "accountsettings": {
+    "adviserName": "Edward Revis",
+    "professionalspayment": "allpayments",
+    "primarycontact": 0,
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "allpayments",
+        "isApprover": "true",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "powerofattorney": true,
+    "sourceoffunds": "Bonus",
+    "adviserLocation": "New South Wales"
+  },
+  "approvalType": "online",
+  "version": "1.0.0"
+}

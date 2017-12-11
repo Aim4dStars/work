@@ -1,0 +1,82 @@
+mock-avaloq-icc-gateway:
+  image: docker.cloud.btfin-dev.com/panorama/mock-avaloq-icc-gateway:latest
+  ports:
+  - "8080"
+  links:
+  - abs
+  environment:
+  - JAVA_OPTS="-Xmx4012m"
+  - USE_DB=canary
+  - JDBC_URL=jdbc:oracle:thin:@abs:1522:${SID}
+  - JDBC_USER=i_nextgen_webui
+  - JDBC_PASSWORD=I_NEXTGEN_WEBUI_pwd
+  labels:
+    SERVICE_TAGS: urlprefix-${STACK}.${ENVIRONMENT}.cloud.btfin-dev.com/mock-avaloq-icc-gateway/
+    SERVICE_CHECK_TCP: "true"
+    SERVICE_INTERVAL: 5s
+    SERVICE_NAME: ${STACK}-gateway
+    com.btfin.devops.name: mock-gateway
+    com.btfin.devops.name.group: ${STACK}
+settings:
+  image: ${SETTINGS_IMAGE}
+  environment:
+  - ENV=dynamic
+  labels:
+  - io.rancher.container.start_once=true
+mock-webseal:
+  image: docker.cloud.btfin-dev.com/dev-tools/mock-webseal
+  ports:
+  - "80"
+  environment:
+    - SERVER_REDIRECT=${STACK}.${ENVIRONMENT}.cloud.btfin-dev.com/nextgen
+  labels:
+    SERVICE_80_TAGS: urlprefix-${STACK}.${ENVIRONMENT}.cloud.btfin-dev.com/
+    SERVICE_80_CHECK_TCP: "true"
+    SERVICE_80_INTERVAL: 5s
+    SERVICE_80_NAME: ${STACK}-mock-webseal
+    SERVICE_443_IGNORE: "true"
+nextgen:
+  image: ${JSON_SERVICE_IMAGE}
+  ports:
+  - "8080"
+  volumes_from:
+  - settings
+  links:
+  - abs
+  - mock-avaloq-icc-gateway
+  environment:
+  - SHARED_LOADER=/settings
+  - JAVA_OPTS="-XX:MaxPermSize=256m -Xmx8024m"
+  - WAIT_FOR_ABS=true
+  labels:
+    #note - required to make volumes_from: work - this is a rancher 'feature'.
+    io.rancher.sidekicks: settings
+    SERVICE_TAGS: urlprefix-${STACK}.${ENVIRONMENT}.cloud.btfin-dev.com/nextgen
+    SERVICE_CHECK_TCP: "true"
+    SERVICE_INTERVAL: 5s
+    SERVICE_NAME: ${STACK}-nextgen
+    com.btfin.devops.name: nextgen
+    com.btfin.devops.name.group: ${STACK}
+abs:
+  image: docker.cloud.btfin-dev.com/panorama/abs-guest
+  command: /home/oracle/bin/run.sh ${ABS_IMAGE}
+  hostname: ${SID}
+  tty: true
+  stdin_open: true
+  ipc: host
+  ports:
+    - "1522"
+  environment:
+    - SID=${SID}
+    - "constraint:com.btfin.devops.abs==true"
+  labels:
+    io.rancher.scheduler.affinity:host_label: disk=large
+    SERVICE_TAGS: ${SID},${ABS_BUILD},${STACK}
+    SERVICE_1522_CHECK_TCP: "true"
+    SERVICE_INTERVAL: 5s
+    SERVICE_1522_NAME: ${STACK}-abs-${SID}
+    SERVICE_1521_IGNORE: "true"
+  volumes:
+    - /data/${STACK}:/data
+    - /adaimnt:/adaimnt
+    - /var_adaimnt:/var_adaimnt

@@ -1,0 +1,224 @@
+{
+    "trustType": "govsuper",
+    "accountType": "individualTrust",
+    "trustdetails": {
+        "trustname": "Individual Govt super trust description",
+        "businessname": "Individual Govt super trust biz name",
+        "abn": "88143526096",
+        "regdate": "10\/10\/1990",
+        "registrationstate": "ACT",
+        "registeredforgst": "yes",
+        "trusttype": "govsuper",
+        "nameoflegislation": "Name of legislation",
+        "nameofwebsite": "www.legislationestablishingfund.com.au",
+        "searchdate": "16\/02\/2015",
+        "familyOrOtherTrust": false,
+        "industry": {
+            "industry": "Other",
+            "industrydivision": "Accommodation, Cafes and Restaurants",
+            "industrysubdivision": "Accommodation",
+            "industrygroup": "Accommodation",
+            "industryclass": "5720",
+            "anzsiccode": "5720"
+        },
+        "address": {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "37",
+            "streetName": "York",
+            "streetType": "LANE",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "addressType": "residential",
+            "existingAddressList": [
+                {
+                    "componentised": true,
+                    "unitNumber": "",
+                    "streetNumber": "37",
+                    "streetName": "York",
+                    "streetType": "LANE",
+                    "suburb": "SYDNEY",
+                    "state": "NSW",
+                    "postcode": "2000",
+                    "country": "AU",
+                    "verified": true,
+                    "confirmed": true,
+                    "valid": true,
+                    "sameasaddress": "0",
+                    "addressType": "residential",
+                    "id": "949498"
+                }
+            ],
+            "sameasaddress": "0",
+            "confirmed": true
+        },
+        "taxoption": "Exemption Reason provided",
+        "exemptionreason": "social_ben"
+    },
+    "trustees": [
+        {
+            "fullName": "Mr Trustee one",
+            "title": "mr",
+            "firstname": "Trustee",
+            "middlename": "",
+            "lastname": "one",
+            "preferredname": "",
+            "dateofbirth": "10\/10\/1980",
+            "gender": "male",
+            "mobile": {
+                "value": "0456456456"
+            },
+            "email": {
+                "value": "trusteeone@indfamily.com"
+            },
+            "preferredcontact": "mobile",
+            "identitydocument": "photodocuments",
+            "isvalid": true,
+            "ciskey": "12345645645",
+            "resaddress": {
+                "componentised": true,
+                "unitNumber": "",
+                "streetNumber": "37",
+                "streetName": "York",
+                "streetType": "LANE",
+                "suburb": "SYDNEY",
+                "state": "NSW",
+                "postcode": "2000",
+                "country": "AU",
+                "verified": true,
+                "confirmed": true,
+                "valid": true,
+                "sameasaddress": "607226",
+                "addressType": "residential",
+                "id": "607226",
+                "existingAddressList": [
+                    {
+                        "componentised": true,
+                        "unitNumber": "",
+                        "streetNumber": "37",
+                        "streetName": "York",
+                        "streetType": "LANE",
+                        "suburb": "SYDNEY",
+                        "state": "NSW",
+                        "postcode": "2000",
+                        "country": "AU",
+                        "verified": true,
+                        "confirmed": true,
+                        "valid": true,
+                        "sameasaddress": "0",
+                        "addressType": "residential",
+                        "id": "607226"
+                    }
+                ]
+            },
+            "postaladdress": {
+                "componentised": true,
+                "unitNumber": "",
+                "streetNumber": "150",
+                "streetName": "Kent",
+                "streetType": "STREET",
+                "suburb": "SYDNEY",
+                "state": "NSW",
+                "postcode": "2000",
+                "country": "AU",
+                "verified": true,
+                "confirmed": true,
+                "valid": true,
+                "sameasaddress": "310401",
+                "addressType": "residential",
+                "id": "310401",
+                "existingAddressList": [
+                    {
+                        "componentised": true,
+                        "unitNumber": "",
+                        "streetNumber": "37",
+                        "streetName": "York",
+                        "streetType": "LANE",
+                        "suburb": "SYDNEY",
+                        "state": "NSW",
+                        "postcode": "2000",
+                        "country": "AU",
+                        "verified": true,
+                        "confirmed": true,
+                        "valid": true,
+                        "sameasaddress": "0",
+                        "addressType": "residential",
+                        "id": "310401"
+                    }
+                ]
+            },
+            "photodocuments": {
+                "driverlicence": {
+                    "documentIssuer": "ACT",
+                    "expiryDate": "10\/10\/2020",
+                    "documentNumber": "123456",
+                    "verificationSource": "original",
+                    "englishTranslation": "Not Applicable",
+                    "accreditedenglishtrans": "notapplicable"
+                },
+                "valid": true
+            }
+        }
+    ],
+    "accountsettings": {
+        "professionalspayment": "linkedaccountsonly",
+        "investorAccountSettings": [
+            {
+                "isApprover": "true",
+                "paymentSetting": "nopayments",
+                "hasRoles": false,
+                "hasApprovers": true
+            }
+        ],
+        "primarycontact": "0",
+        "adviserName": "AdviserThreeFN Adviser-ThreeLN",
+        "adviserLocation": "New South Wales"
+    },
+    "shareholderandmembers": {
+        "controllerId": 86,
+        "sectionSubtitle": "Beneficiaries",
+        "addButtonTitle": "beneficiary",
+        "nominationSectionDescription": "Indicate if any of the trustees are also beneficiaries of the trust.",
+        "additionalPersonSectionDescription": "Add the remaining beneficiaries of the trust.",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "hasbeneficiaryclasses": "yes",
+        "beneficiaryclassdetails": "Trust Beneficiary class details",
+        "investorsWithRoles": [
+            {
+                "isBeneficiary": "yes",
+                "needsShareholder": false,
+                "needsMember": false,
+                "needsBeneficiary": true
+            }
+        ],
+        "additionalShareHoldersAndMembers": [
+
+        ]
+    },
+    "linkedaccounts": {
+        "primaryLinkedAccount": {
+            "accountname": "Account name",
+            "bsb": "062005",
+            "accountnumber": "123123",
+            "nickname": "",
+            "directdebitamount": "100.00"
+        },
+        "otherLinkedAccount": [
+
+        ]
+    },
+    "fees": {
+        "estamount": "500.00",
+        "ongoingFees": {
+            "feesComponent": [
+
+            ],
+            "type": "Ongoing advice fee"
+        }
+    }
+}

@@ -1,0 +1,195 @@
+{
+  "version": "1.0.0",
+  "parentProductName": "BT Panorama Investments",
+  "accountType": "individual",
+  "investors": [
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": false
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Tax File Number or exemption not provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          },
+          "exemptionReason": {
+            "valid": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": [
+
+        ]
+      },
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Business profits",
+      "title": "MR",
+      "firstname": "Sam",
+      "middlename": "",
+      "lastname": "Last",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01\/10\/1987",
+      "gender": "male",
+      "mobile": {
+        "value": "0456901234"
+      },
+      "email": {
+        "value": "sam@test.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "individual",
+      "identitydocument": {
+        "photodocuments": {
+          "passport": {
+            "documentIssuer": "Australia",
+            "issueDate": "01\/10\/2016",
+            "expiryDate": "01\/10\/2018",
+            "documentNumber": "7890123",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+        "valid": true,
+        "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+        "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+            "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+        "valid": true,
+        "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+        "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "135-151 Clarence Street, SYDNEY  NSW  2000",
+            "AddressIdentifier": "05OAUEHAjhBwAAAAAIAgEAAAAA3GFc0AAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAxNTEgQ2xhcmVuY2UgU3QA",
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "",
+      "sameasresaddress": "true"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business profits",
+    "powerofattorney": false
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccount",
+      "bsb": "063001",
+      "accountnumber": "12345678",
+      "nickname": "",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "label": "Percentage fee component",
+          "listedSecurities": "2.00",
+          "managedFund": "1.00",
+          "managedPortfolio": "0.00",
+          "cash": "0.00",
+          "termDeposit": "0.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        }
+      ],
+      "type": "Licensee advice fee"
+    },
+    "contributionFees": {
+      "feesComponent": [
+        {
+          "label": "One-off fee component",
+          "deposit": "2.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        },
+        {
+          "label": "Regular fee component",
+          "deposit": "3.00",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        }
+      ],
+      "type": "Ongoing contribution fee"
+    }
+  }
+}

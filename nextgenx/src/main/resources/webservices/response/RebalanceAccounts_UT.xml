@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_rebal_smry_doc_doc_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2016-04-08 17:22:05.018505000 on afp010c by 201667385 -->
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<current_of_time>
+			<val>2016-04-08T07:22:05+10:00</val>
+		</current_of_time>
+	</metadata>
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>rebal_smry</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>true</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl> </lbl>
+					</fld_def>
+					<fld_def>
+						<name>account</name>
+						<type>TextFld</type>
+						<lbl>Account</lbl>
+					</fld_def>
+					<fld_def>
+						<name>avsr</name>
+						<type>TextFld</type>
+						<lbl>Adviser</lbl>
+					</fld_def>
+					<fld_def>
+						<name>portf_val</name>
+						<type>NrFld</type>
+						<lbl>Portfolio Value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_class_breach</name>
+						<type>NrFld</type>
+						<lbl>Asset Class Breach</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tolrc_breach</name>
+						<type>NrFld</type>
+						<lbl>Tolerance Breach</lbl>
+					</fld_def>
+					<fld_def>
+						<name>estim_buys</name>
+						<type>NrFld</type>
+						<lbl>Estimated Buys</lbl>
+					</fld_def>
+					<fld_def>
+						<name>estim_sells</name>
+						<type>NrFld</type>
+						<lbl>Estimated Sells</lbl>
+					</fld_def>
+					<fld_def>
+						<name>excl_reason</name>
+						<type>TextFld</type>
+						<lbl>Container Exclude Reason</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rebal_det_doc_id</name>
+						<type>NrFld</type>
+						<lbl>Rebal Details DOC ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>do_excl</name>
+						<type>BoolFld</type>
+						<lbl>User excluded</lbl>
+					</fld_def>
+					<fld_def>
+						<name>justif</name>
+						<type>TextFld</type>
+						<lbl>Reason for Exclusion</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cont_ips_link_as_at_trx_date</name>
+						<type>NrFld</type>
+						<lbl>Container and IPS link count as at order date</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+	<data>
+		<rebal_smry_list>
+			<rebal_smry>
+				<rebal_smry_head_list>
+					<rebal_smry_head id="2-1" row_type="data" hira="1" level="rebal_smry.head">
+						<cont_list>
+							<cont id="4-2" row_type="data" hira="2" level="cont">
+								<account>
+									<annot>
+										<displ_text>L personbcbbfba</displ_text>
+										<ctx>
+											<type>bp</type>
+											<id>252778</id>
+										</ctx>
+									</annot>
+									<val>252778</val>
+								</account>
+								<avsr>
+									<annot>
+										<displ_text>OE Dennis  Di Bartolo (Adviser Position)</displ_text>
+										<ctx>
+											<type>person</type>
+											<id>100793</id>
+										</ctx>
+									</annot>
+									<val>100793</val>
+								</avsr>
+								<portf_val>
+									<val>30000</val>
+								</portf_val>
+								<asset_class_breach>
+									<val>2</val>
+								</asset_class_breach>
+								<tolrc_breach>
+									<val>27</val>
+								</tolrc_breach>
+								<estim_buys>
+									<val>25</val>
+								</estim_buys>
+								<estim_sells>
+									<val>0</val>
+								</estim_sells>
+								<rebal_det_doc_id>
+									<val>2993829</val>
+								</rebal_det_doc_id>
+								<do_excl>
+									<annot>
+										<displ_text>0</displ_text>
+									</annot>
+									<val>false</val>
+								</do_excl>
+							</cont>
+						</cont_list>
+					</rebal_smry_head>
+				</rebal_smry_head_list>
+				<rebal_smry_foot_list>
+					<rebal_smry_foot id="6-3" row_type="data" hira="0" level="rebal_smry.foot">
+						<cont_ips_link_as_at_trx_date>
+							<val>1</val>
+						</cont_ips_link_as_at_trx_date>
+					</rebal_smry_foot>
+				</rebal_smry_foot_list>
+			</rebal_smry>
+		</rebal_smry_list>
+	</data>
+</rep:rep>

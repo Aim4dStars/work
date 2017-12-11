@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+ <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_apl_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def">
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>apl</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>dg</name>
+            <type>TextFld</type>
+            <lbl>dg</lbl>
+          </fld_def>
+          <fld_def>
+            <name>apl</name>
+            <type>TextFld</type>
+            <lbl>apl</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset</name>
+            <type>TextFld</type>
+            <lbl>asset</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset_type</name>
+            <type>TextFld</type>
+            <lbl>asset_type</lbl>
+          </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <apl_list>
+    <apl>
+      <apl_head_list>
+      <apl_head id="1" row_type="data" hira="0" level="apl.head">
+      	<dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+        <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+        <asset><annot><ctx><type>asset</type><id>28100</id></ctx></annot><val>St.George Term Deposit: 3 months interest payment at maturity</val></asset>
+        <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="2" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28100</id></ctx></annot><val>St.George Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="3" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28101</id></ctx></annot><val>St.George Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="4" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28102</id></ctx></annot><val>St.George Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="5" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28103</id></ctx></annot><val>St.George Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="6" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28104</id></ctx></annot><val>St.George Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="7" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28105</id></ctx></annot><val>St.George Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="8" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28106</id></ctx></annot><val>St.George Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="9" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28107</id></ctx></annot><val>St.George Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="10" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="11" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="12" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="13" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="14" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="15" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="16" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="17" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>28271</id></ctx></annot><val>Securitor Financial Group Limited</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28148</id></ctx></annot><val>TD APL for Securitor Financial Group Limited</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="18" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28100</id></ctx></annot><val>St.George Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="19" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28101</id></ctx></annot><val>St.George Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="20" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28102</id></ctx></annot><val>St.George Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="21" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28103</id></ctx></annot><val>St.George Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="22" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28104</id></ctx></annot><val>St.George Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="23" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28105</id></ctx></annot><val>St.George Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="24" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28106</id></ctx></annot><val>St.George Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="25" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28107</id></ctx></annot><val>St.George Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="26" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="27" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="28" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="29" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="30" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="31" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="32" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="33" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29350</id></ctx></annot><val>Magnitude Group Pty Ltd </val></dg>
+            <apl><annot><ctx><type>collect</type><id>28150</id></ctx></annot><val>TD APL for Magnitude Group Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="34" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28100</id></ctx></annot><val>St.George Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="35" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28101</id></ctx></annot><val>St.George Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="36" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28102</id></ctx></annot><val>St.George Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="37" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28103</id></ctx></annot><val>St.George Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="38" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28104</id></ctx></annot><val>St.George Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="39" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28105</id></ctx></annot><val>St.George Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="40" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28106</id></ctx></annot><val>St.George Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="41" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28107</id></ctx></annot><val>St.George Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="42" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="43" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="44" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="45" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="46" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="47" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="48" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="49" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29390</id></ctx></annot><val>Strategy First Financial Planning Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28151</id></ctx></annot><val>TD APL for Strategy First Financial Planning Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="50" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28100</id></ctx></annot><val>St.George Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="51" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28101</id></ctx></annot><val>St.George Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="52" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28102</id></ctx></annot><val>St.George Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="53" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28103</id></ctx></annot><val>St.George Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="54" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28104</id></ctx></annot><val>St.George Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="55" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28105</id></ctx></annot><val>St.George Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="56" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28106</id></ctx></annot><val>St.George Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="57" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28107</id></ctx></annot><val>St.George Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="58" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="59" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="60" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="61" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="62" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="63" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="64" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="65" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29499</id></ctx></annot><val>MGD Wealth Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28152</id></ctx></annot><val>TD APL for MGD Wealth Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="66" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28100</id></ctx></annot><val>St.George Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="67" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28101</id></ctx></annot><val>St.George Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="68" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28102</id></ctx></annot><val>St.George Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="69" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28103</id></ctx></annot><val>St.George Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="70" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28104</id></ctx></annot><val>St.George Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="71" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28105</id></ctx></annot><val>St.George Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="72" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28106</id></ctx></annot><val>St.George Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="73" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28107</id></ctx></annot><val>St.George Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="74" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="75" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="76" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="77" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="78" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="79" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="80" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="81" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>29470</id></ctx></annot><val>Professional Wealth Pty Ltd</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28154</id></ctx></annot><val>TD APL for Professional Wealth Pty Ltd</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="82" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="83" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="84" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="85" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="86" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="87" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="88" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="89" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11097</id></ctx></annot><val>Westpac Financial Planning</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28155</id></ctx></annot><val>TD APL for Westpac Financial Planning</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    <apl>
+      <apl_head_list>
+      <apl_head id="90" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28124</id></ctx></annot><val>Westpac Term Deposit: 3 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="91" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28125</id></ctx></annot><val>Westpac Term Deposit: 6 months interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="92" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28126</id></ctx></annot><val>Westpac Term Deposit: 1 year interest payment at maturity</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="93" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28127</id></ctx></annot><val>Westpac Term Deposit: 1 year monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="94" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28128</id></ctx></annot><val>Westpac Term Deposit: 3 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="95" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28129</id></ctx></annot><val>Westpac Term Deposit: 3 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="96" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28130</id></ctx></annot><val>Westpac Term Deposit: 5 years monthly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      <apl_head id="97" row_type="data" hira="0" level="apl.head">
+            <dg><annot><ctx><type>collect</type><id>11098</id></ctx></annot><val>Westpac Financial Planning (Private Bank)</val></dg>
+            <apl><annot><ctx><type>collect</type><id>28156</id></ctx></annot><val>TD APL for Westpac Financial Planning (Private Bank)</val></apl>
+            <asset><annot><ctx><type>asset</type><id>28131</id></ctx></annot><val>Westpac Term Deposit: 5 years yearly interest payments</val></asset>
+            <asset_type><annot><ctx><type>code_obj_sub_type</type><id>295</id></ctx></annot><val>Fiduciary contract</val></asset_type>
+      </apl_head>
+      </apl_head_list>
+    </apl>
+    
+  </apl_list>
+
+  </data>
+</rep:rep>

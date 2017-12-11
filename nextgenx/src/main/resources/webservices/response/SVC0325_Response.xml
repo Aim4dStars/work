@@ -1,0 +1,223 @@
+<soapenv:Envelope xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:id="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:hdr="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+      <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:dyn="http://exslt.org/dynamic" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+         <messageAttributes>
+            <id>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f1</id>
+            <correlationId>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f</correlationId>
+            <createdTimestamp>2016-07-06T16:26:41.745</createdTimestamp>
+         </messageAttributes>
+         <channelAttributes>
+           <organisationId>WPAC</organisationId>
+            <brandSilo>WPAC</brandSilo>
+            <channelType>Online</channelType>
+            <originatingSystemId>NG-001</originatingSystemId>
+            <requester>
+               <requesterType>Customer</requesterType>
+               <requesterId>201601509</requesterId>
+               <requesterGroupType>711</requesterGroupType>
+            </requester>
+            <location>
+               <locationId>032949</locationId>
+               <locationType>BSB</locationType>
+            </location>
+            <location>
+               <locationId>lnxau2106st0118</locationId>
+               <locationType>Machine Name</locationType>
+            </location>
+            <systemInfo>
+               <codeValue>
+                  <code>Destination</code>
+                  <value>OnboardingStatusUpdateAdapter</value>
+               </codeValue>
+            </systemInfo>
+         </channelAttributes>
+      </esbHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+ <ns102:maintainIDVDetailsResponse xmlns:ns102="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyIDVAssessment/xsd/maintainIDVDetails/v5/SVC0325/"
+                                       xmlns:ns281="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/"
+                                       xmlns:ns296="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/">
+	<ns296:serviceStatus>
+		<ns296:statusInfo>
+			<ns296:level>Success</ns296:level>
+			<ns296:code>000,00000</ns296:code>
+		</ns296:statusInfo>
+	</ns296:serviceStatus>
+	<identityVerificationAssessment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns102:IndividualIDVAssessment">
+		
+		<auditContext>
+			
+			<lastUpdateTimestamp>2001-12-17T09:30:47</lastUpdateTimestamp>
+			
+			<versionNumber>1</versionNumber>
+			<lastUpdatedBy>
+				<externalIdentifier>
+					
+					<id:employeeNumber>M123456</id:employeeNumber>
+				</externalIdentifier>
+			</lastUpdatedBy>
+			<branchIdentifier>
+				
+				<id:branchNumber>123456</id:branchNumber>
+			</branchIdentifier>
+		</auditContext>
+		
+		<lifeCycleStatus>Complete</lifeCycleStatus>
+		
+		<performedInternallyBy>
+			
+			<externalIdentifier>
+				
+				<id:employeeNumber>IDV CONDUCTED BY</id:employeeNumber>
+			</externalIdentifier>
+		</performedInternallyBy>	
+		<performedExternallyBy>
+			
+			<agentType>Other</agentType>
+			<externalIdentifier>
+				<id:employeeNumber>9999999</id:employeeNumber>
+			</externalIdentifier>
+			<roleIsPlayedBy>
+				<hasForName>
+					<fullName>NAME</fullName>
+				</hasForName>
+				
+				<employmentDetails>
+					<currentEmployer>CURRENT EMPLOYER</currentEmployer>
+				</employmentDetails>
+			</roleIsPlayedBy>
+		</performedExternallyBy>
+		<externalIDVDate>2001-12-17</externalIDVDate>
+		<exceptionTypeCode>VERIFYEXCEPT</exceptionTypeCode>
+		<overrideTypeCode>POLICYEXCEPT</overrideTypeCode>
+		<idnId>123456789</idnId>
+		<idvId>123456</idvId>
+		<engagementChannel>Branch/Dept</engagementChannel>
+		<noABNReason>Not Applicable</noABNReason>
+		<noTradingNameReason>Not Applicable</noTradingNameReason>
+		<identityVerificationDocument>
+			<documentType>Type of document.</documentType>
+			<documentAttribute>
+				<attributeName>indIdvDocRefNum</attributeName>
+				<attributeValue>12345</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocVerifiedFrom</attributeName>
+				<attributeValue>WBC_IND_VERIFY- LOV</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocAccreditedEnglishTranslationFlg</attributeName>
+				<attributeValue>Y</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocSearchDetails</attributeName>
+				<attributeValue>FREE TEXT</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocIssuer</attributeName>
+				<attributeValue>DOCUMENT ISSUER</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocDateOfIssue</attributeName>
+				<attributeValue>DATE OF ISSUE</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocDateOfExpiry</attributeName>
+				<attributeValue>2012-02-19</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				
+				<attributeName>indIdvDocDateOfArrivalAustralia</attributeName>
+				<attributeValue>1980-01-01</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				
+				<attributeName>indIdvDocIssuerCode</attributeName>
+				<attributeValue>Y</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				
+				<attributeName>indIdvDocFreeformVerifiedFrom</attributeName>
+				<attributeValue>Y</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				<attributeName>indIdvDocNoExpiryDateFlg</attributeName>
+				<attributeValue>Y</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				
+				<attributeName>indIdvDocValidVisaFlg</attributeName>
+				<attributeValue>Y</attributeValue>
+			</documentAttribute>
+			<documentAttribute>
+				
+				<attributeName>indIdvDocTypeDesc</attributeName>
+				<attributeValue>Description of the document type</attributeValue>
+			</documentAttribute>
+		</identityVerificationDocument>
+	
+		<hasForSubject>
+		
+			<hasContactMethod>
+				
+				<usage>RESIDENTIAL ADDRESS</usage>
+				<hasAddress>
+					
+					<addressLine1>STREET ADDRESS1</addressLine1>
+					
+					<addressLine2>STREET ADDRESS2</addressLine2>
+					
+					<city>SUBURB</city>
+					
+					<state>STATE</state>
+					<postCode>POSTCODE</postCode>
+					<country>COUNTRY</country>
+				</hasAddress>
+			</hasContactMethod>
+			<hasContactMethod>
+				
+				<usage>REGISTERED BUSINESS ADDRESS</usage>
+				<hasAddress>
+					<addressLine1>STREET ADDRESS1</addressLine1>
+					<addressLine2>STREET ADDRESS2</addressLine2>
+					<city>SUBURB</city>
+					<state>STATE</state>
+					<postCode>POSTCODE</postCode>
+					<country>COUNTRY</country>
+				</hasAddress>
+			</hasContactMethod>
+			<involvedPartyIdentifier>
+				<id:identificationScheme>PartyUID</id:identificationScheme>
+				<id:involvedPartyId>CIS value</id:involvedPartyId>
+			</involvedPartyIdentifier>
+			<involvedPartyIdentifier>
+				<id:identificationScheme>PartyUID</id:identificationScheme>
+				<id:involvedPartyId>UCM value</id:involvedPartyId>
+			</involvedPartyIdentifier>
+			<hasForName>
+				<firstName>FIRST NAME</firstName>
+				<lastName>LAST NAME</lastName>
+				<middleNames>GIVEN NAME 2</middleNames>
+			</hasForName>
+			<hasForName>
+				<involvedPartyNameType>TradingName</involvedPartyNameType>
+				<fullName>SOLE TRADING NAME</fullName>
+			</hasForName>
+			<hasRegistration>
+				<registrationIdentifier>
+					<id:registrationNumber>2345678</id:registrationNumber>
+					<id:registrationNumberType>ABN</id:registrationNumberType>
+				</registrationIdentifier>
+			</hasRegistration>
+			<isPlayingRole>
+				<customerIdentifier>
+					<id:customerNumber>12345678</id:customerNumber>
+				</customerIdentifier>
+			</isPlayingRole>
+			<birthDate>1920-01-01</birthDate>
+			<isSoleTrader>Y</isSoleTrader>
+		</hasForSubject>
+	</identityVerificationAssessment>
+</ns102:maintainIDVDetailsResponse>
+</soapenv:Body>
+</soapenv:Envelope>

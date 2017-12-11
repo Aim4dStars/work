@@ -1,0 +1,42 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <env:Header xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+        <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+            <messageAttributes>
+                <id>NG-001.36dbd517-fa23-44c6-baba-5261d28d04061</id>
+                <correlationId>NG-001.36dbd517-fa23-44c6-baba-5261d28d0406</correlationId>
+                <createdTimestamp>2016-07-01T14:45:26.665</createdTimestamp>
+            </messageAttributes>
+            <channelAttributes>
+                <organisationId>WPAC</organisationId>
+                <brandSilo>WPAC</brandSilo>
+                <channelType>Online</channelType>
+                <originatingSystemId>NG-001</originatingSystemId>
+                <requester>
+                    <requesterType>System</requesterType>
+                </requester>
+                <location>
+                    <locationId>lnxau2106st0118</locationId>
+                    <locationType>Machine Name</locationType>
+                </location>
+            </channelAttributes>
+        </esbHeader>
+    </env:Header>
+    <soap:Body>
+        <ns1:SearchRecentLivesInsuredByAdviserResponseMsg xmlns:ns0="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="ns://btfin.com/Product/Insurance/LifeInsurance/Policy/PolicyService/PolicyReply/V4_2">
+            <Context>
+                <Version>4_2</Version>
+                <TrackingID>5981becd-0406-43c8-82dd-b51a0c9b6089</TrackingID>
+                <RequestReceivedDateTime>2016-08-05T22:46:15.696+10:00</RequestReceivedDateTime>
+                <ResponseSentDateTime>2016-08-05T22:46:16.368+10:00</ResponseSentDateTime>
+            </Context>
+            <Status>Error</Status>
+            <ResponseDetails>
+                <ResponseDetail>
+                    <ErrorResponse>
+                        <Description>Error in response</Description>
+                    </ErrorResponse>
+                </ResponseDetail>
+            </ResponseDetails>
+        </ns1:SearchRecentLivesInsuredByAdviserResponseMsg>
+    </soap:Body>
+</soap:Envelope>

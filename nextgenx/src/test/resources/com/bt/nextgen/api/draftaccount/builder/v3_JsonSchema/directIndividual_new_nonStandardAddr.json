@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "applicationOrigin": "WestpacLive",
+  "approvalType": "online",
+  "investors": [
+    {
+      "cisId": "1234567890",
+      "userName": "21142019",
+      "idVerified": true,
+      "title": "MRS",
+      "firstname": "DEEP",
+      "lastname": "SHIKHA",
+      "dateofbirth": "01\/01\/1989",
+      "gender": "female",
+      "email": {
+        "value": "DS@DS.com"
+      },
+      "mobile": {
+        "value": "5F109EF0B0E249E3FFD25A719026B90ACB691CF9D813BCCD"
+      },
+      "preferredcontact": "mobile",
+      "resaddress": {
+        "state": "NSW",
+        "stateAbbr": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "pin": "2000",
+        "country": "AU",
+        "domicile": true,
+        "mailingAddress": true,
+        "addressType": "residential",
+        "internationalAddress": false,
+        "standardAddressFormat": false,
+        "componentised": false,
+        "addressLine1":"6/64 Gipps Street"
+      },
+      "postaladdress": {
+        "state": "NSW",
+        "stateAbbr": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "pin": "2000",
+        "country": "AU",
+        "domicile": true,
+        "mailingAddress": true,
+        "addressType": "residential",
+        "internationalAddress": false,
+        "standardAddressFormat": false,
+        "componentised": false,
+        "addressLine1":"6/64 Gipps Street"
+      },
+      "taxcountry": "AU",
+      "taxoption": "Will provide Tax File Number later",
+      "tfn": "",
+      "exemptionreason": ""
+    }
+  ],
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Westpac Choice",
+      "bsb": "732006",
+      "accountnumber": "750244",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  }
+}

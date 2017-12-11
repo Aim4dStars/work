@@ -1,0 +1,12 @@
+$ORACLE_HOME/bin/sqlplus -s / << EOF
+set head off
+set verify off
+set feed off
+set echo off
+whenever sqlerror exit sql.sqlcode;
+column username noprint new_value username;
+select user username from dual;
+grant all on ${1}_mst_${ENV_NAME}_${2} to $3 WITH GRANT OPTION;
+create or replace view ${3}.${1} as select * from &&username..${1}_mst_${ENV_NAME}_${2};
+exit
+EOF

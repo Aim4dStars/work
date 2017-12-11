@@ -1,0 +1,265 @@
+{
+    "trustType": "regulated",
+    "accountType": "individualTrust",
+    "trustdetails": {
+        "trustname": "Trust Regulated",
+        "businessname": "Trust  Bus  Name",
+        "abn": "53004085616",
+        "regdate": "11\/09\/2015",
+        "registrationstate": "NSW",
+        "registeredforgst": "yes",
+        "trusttype": "regulated",
+        "nameofregulator": "TestName",
+        "licensingnumber": "14785236",
+        "trustconfirmedregulated": "Verified",
+        "familyOrOtherTrust": false,
+        "wealthsource": "Business income\/earnings",
+        "additionalsourceofwealth": null,
+        "industry": {
+            "industry": "7412",
+            "anzsiccode": "7412"
+        },
+        "address": {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "addressType": "residential",
+            "existingAddressList": [
+                {
+                    "componentised": true,
+                    "unitNumber": "",
+                    "streetNumber": "135-151",
+                    "streetName": "Clarence",
+                    "streetType": "STREET",
+                    "suburb": "SYDNEY",
+                    "state": "NSW",
+                    "postcode": "2000",
+                    "country": "AU",
+                    "verified": true,
+                    "confirmed": true,
+                    "valid": true,
+                    "sameasaddress": "0",
+                    "addressType": "residential",
+                    "id": "344132"
+                }
+            ],
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true
+        },
+        "taxoption": "Tax File Number or exemption not provided"
+    },
+    "trustees": [
+        {
+            "fullName": "Mr TestFirst TestLast",
+            "title": "mr",
+            "firstname": "TestFirst",
+            "middlename": "",
+            "lastname": "TestLast",
+            "preferredname": "",
+            "dateofbirth": "11\/09\/1971",
+            "gender": "male",
+            "mobile": {
+                "value": "0411111111"
+            },
+            "email": {
+                "value": "test@test.com"
+            },
+            "preferredcontact": "email",
+            "isvalid": true,
+            "existing": true,
+            "alternatename": "",
+            "identitydocument": {
+                "nonphotodocuments": {
+                    "citizenshipdocument": {
+                        "documentIssuer": "Australian Government",
+                        "issueDate": "11\/09\/2012",
+                        "documentNumber": "12345",
+                        "verificationSource": "original",
+                        "englishTranslation": "Not Applicable"
+                    },
+                    "utilitiesnotice": {
+                        "documentIssuer": "Origin Energy",
+                        "issueDate": "11\/09\/2015",
+                        "documentNumber": "12345",
+                        "verificationSource": "original",
+                        "englishTranslation": "Not Applicable"
+                    },
+                    "valid": true
+                }
+            },
+            "resaddress": {
+                "componentised": true,
+                "unitNumber": "",
+                "streetNumber": "135-151",
+                "streetName": "Clarence",
+                "streetType": "STREET",
+                "suburb": "SYDNEY",
+                "state": "NSW",
+                "postcode": "2000",
+                "country": "AU",
+                "verified": true,
+                "confirmed": true,
+                "valid": true,
+                "sameasaddress": "244513",
+                "addressType": "residential",
+                "id": "244513",
+                "existingAddressList": [
+                    {
+                        "componentised": true,
+                        "unitNumber": "",
+                        "streetNumber": "135-151",
+                        "streetName": "Clarence",
+                        "streetType": "STREET",
+                        "suburb": "SYDNEY",
+                        "state": "NSW",
+                        "postcode": "2000",
+                        "country": "AU",
+                        "verified": true,
+                        "confirmed": true,
+                        "valid": true,
+                        "sameasaddress": "0",
+                        "addressType": "residential",
+                        "id": "244513"
+                    }
+                ]
+            },
+            "postaladdress": {
+                "componentised": true,
+                "unitNumber": "",
+                "streetNumber": "135-151",
+                "streetName": "Clarence",
+                "streetType": "STREET",
+                "suburb": "SYDNEY",
+                "state": "NSW",
+                "postcode": "2000",
+                "country": "AU",
+                "verified": true,
+                "confirmed": true,
+                "valid": true,
+                "sameasaddress": "594672",
+                "addressType": "residential",
+                "id": "594672",
+                "existingAddressList": [
+                    {
+                        "componentised": true,
+                        "unitNumber": "",
+                        "streetNumber": "135-151",
+                        "streetName": "Clarence",
+                        "streetType": "STREET",
+                        "suburb": "SYDNEY",
+                        "state": "NSW",
+                        "postcode": "2000",
+                        "country": "AU",
+                        "verified": true,
+                        "confirmed": true,
+                        "valid": true,
+                        "sameasaddress": "0",
+                        "addressType": "residential",
+                        "id": "594672"
+                    }
+                ]
+            }
+        }
+    ],
+    "accountsettings": {
+        "professionalspayment": "linkedaccountsonly",
+        "investorAccountSettings": [
+            {
+                "isApprover": "true",
+                "paymentSetting": "linkedaccountsonly",
+                "hasRoles": false,
+                "hasApprovers": true
+            }
+        ],
+        "primarycontact": "0",
+        "adviserName": "Gareth Locke",
+        "adviserLocation": "New South Wales",
+        "sourceoffunds": "Business profits"
+    },
+    "shareholderandmembers": {
+        "controllerId": 304,
+        "sectionSubtitle": "Beneficiaries",
+        "additionalSectionSubtitle": "Additional beneficiaries",
+        "addButtonTitle": "beneficiary",
+        "nominationSectionDescription": "Indicate if any of the trustees are also beneficiaries of the trust.",
+        "additionalPersonSectionDescription": "Add the remaining beneficiaries of the trust.",
+        "shareholderandmemberdetailsHeader": "Beneficiary details",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "personTypeLabel": "Beneficiary",
+        "familyOrOther": {
+            "sectionTitle": "Beneficiaries & beneficial owners",
+            "nominateSection": "Beneficiaries",
+            "sectionSubtitle": "Beneficiaries \/ Beneficial Owners",
+            "additionalSectionSubtitle": "Additional beneficiaries or beneficial owners",
+            "addButtonTitle": "beneficiary \/ beneficial owner",
+            "nominationSectionDescription": "Indicate if any of the trustees are also beneficiaries of the trust.",
+            "additionalPersonSectionDescription": "Add any other beneficiaries or beneficial owners of the trust. A beneficial owner is a person who is entitled to 25% or more of the trust, or someone who directly or indirectly controls the trust.",
+            "shareholderandmemberdetailsHeader": "Beneficiary \/ Beneficial owner details",
+            "needsShareholder": false,
+            "needsMember": false,
+            "needsBeneficiary": true,
+            "personTypeDropdownOptions": [
+                {
+                    "value": "beneficiary",
+                    "label": "Beneficiary"
+                },
+                {
+                    "value": "beneficialOwner",
+                    "label": "Beneficial owner"
+                }
+            ]
+        },
+        "hasEnoughTrustees": false,
+        "hasbeneficiaryclasses": "no",
+        "investorsWithRoles": [
+            {
+                "isBeneficiary": "yes",
+                "needsShareholder": false,
+                "needsMember": false,
+                "needsBeneficiary": true
+            }
+        ],
+        "additionalShareHoldersAndMembers": [
+
+        ]
+    },
+    "linkedaccounts": {
+        "primaryLinkedAccount": {
+            "accountname": "Test Account Name",
+            "bsb": "062001",
+            "accountnumber": "12345696",
+            "nickname": "TestNick",
+            "directdebitamount": "10.00",
+            "existing": true,
+            "bsbValidationResultVal": true
+        },
+        "otherLinkedAccount": [
+
+        ]
+    },
+    "fees": {
+        "estamount": "10.00",
+        "ongoingFees": {
+            "feesComponent": [
+
+            ],
+            "type": "Ongoing advice fee"
+        },
+        "licenseeFees": {
+            "feesComponent": [
+
+            ],
+            "type": "Licensee advice fee"
+        }
+    }
+}

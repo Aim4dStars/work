@@ -1,0 +1,44 @@
+CREATE OR REPLACE PROCEDURE insert_or_update_address_id(party_id           IN NUMBER, frontend_address_id IN NUMBER,
+backend_address_id IN VARCHAR2, version_number IN NUMBER) IS
+party_count   INTEGER := 0;
+address_count INTEGER := 0;
+BEGIN
+
+SELECT
+count(*)
+INTO party_count
+FROM party
+WHERE ui_party_id = party_id;
+
+IF party_count = 0
+THEN
+raise_application_error(-20003, CONCAT('Party Not Found. Party ID: ', party_id));
+END IF;
+
+SELECT
+count(*)
+INTO address_count
+FROM address
+WHERE ui_address_id = frontend_address_id
+AND ui_party_id = party_id;
+
+IF address_count = 0
+THEN
+INSERT INTO address (ui_party_id, ui_address_id, address_id, version)
+VALUES (party_id, frontend_address_id, backend_address_id, version_number);
+ELSE
+UPDATE address
+SET address_id = backend_address_id, version = version_number
+WHERE
+ui_address_id = frontend_address_id;
+END IF;
+
+EXCEPTION
+WHEN OTHERS
+THEN
+DBMS_OUTPUT.put_line(SQLERRM);
+DBMS_OUTPUT.put_line('   ');
+RAISE;
+
+END insert_or_update_address_id;
+/

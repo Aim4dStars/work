@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header>
+        <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+            <messageAttributes>
+                <id>NG-001.49adfa37-1e12-4d3e-bec5-a6880a4b53381</id>
+                <correlationId>NG-001.49adfa37-1e12-4d3e-bec5-a6880a4b5338</correlationId>
+                <createdTimestamp>2014-10-27T17:53:44.034</createdTimestamp>
+            </messageAttributes>
+            <channelAttributes>
+                <organisationId>WPAC</organisationId>
+                <brandSilo>WPAC</brandSilo>
+                <channelType>Online</channelType>
+                <originatingSystemId>NG-001</originatingSystemId>
+                <requester>
+                    <requesterType>System</requesterType>
+                </requester>
+                <location>
+                    <locationId>lnxau2004st0101</locationId>
+                    <locationType>Machine Name</locationType>
+                </location>
+            </channelAttributes>
+        </esbHeader>
+    </env:Header>
+    <env:Body>
+        <ns:AvaloqGatewayResponseMsg xmlns:ns="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <Status>Error</Status>
+            <ResponseDetails>
+                <ErrorResponses>
+                    <ErrorResponse>
+                        <Code>Receiver</Code>
+                        <SubCode>ServerFailure</SubCode>
+                        <Description>ReasonCode(999)SQL data source 'BTESB_ORACLE_AVALO</Description>
+                        <Reason> Level:Error ,Code:999 ,Mediation: ,Desc:ReasonCode(999)SQL data source 'BTESB_ORACLE_AVALOQ_A' is not available</Reason>
+                    </ErrorResponse>
+                </ErrorResponses>
+            </ResponseDetails>
+        </ns:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

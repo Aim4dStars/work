@@ -1,0 +1,1315 @@
+// Notification Bubble
+$iconArrowSpriteImage:url("../images/icon-sprite.png") no-repeat;
+
+
+/* 
+## Notice Box element 
+
+Notice box defines the padding and margin of Messages and alerts
+Combine with warningBox will create the elements 
+
+	<div class="noticeBox">Content here </div>
+
+*/
+.noticeBox{
+	 @include blockPadding(1.5,2,1.2,1.7);
+     @include blockMargin(2,0,2,0);
+	 @extend %block;
+     @extend .clearFix;
+	 @extend .borderRadius;
+     @extend %relative;
+    // @include boxShadow( 0px 4px 3px $beta22);     
+     li {
+       span.messageIcon {margin-top: 2px}
+     }
+     .noticeBoxText {
+       @include blockMargin(1.1,1,0.5,0);
+       li {
+         margin:0;
+       }
+	   p {
+		 @include blockMargin(0.1,2,0,1);
+	     @extend %emphasis;
+	     @include fontSize(1.4);
+	   }
+     }
+     .multipleErrorMessage {
+     	width:90%;
+     	ul.iconLinkList {
+     		@include blockMargin(0.5,0,0,1);
+     		li {
+     			 display:block;
+     			 float:none;
+     			 @include blockPadding(0,0,0.3,0);
+     			 .iconlink {
+     			 	position:absolute;
+     			 }
+     			 .iconLinkLabel {
+     			 	@include blockMargin(0,0,0,2.5);
+     			 	width:95%;
+     			 }
+     		}     		
+     	}
+     }
+	 .noticeBoxTextMod1 {
+	     margin-top:0;
+	 }
+     .noticeBoxTextSmallBox{
+        width: 79%;
+    }
+    .noticeBoxTextSmallBox p{
+        @include blockMargin(0,0,0,0);
+   //     width:90%;
+      }
+      .noticeBoxTextSmall{
+        width:75%;
+        //@include blockMargin(0,0.5,0,0.5);
+
+      }
+      .noticeBoxTextSmallMod1 {
+      	width:90%;
+      }
+
+      .noticeDescTxt{
+        display: table-cell;
+        height: 42px;
+        vertical-align: middle;
+      }
+      span.noticeDescTxt{
+        font-weight: 700;
+        @include blockMargin(0.1,2,0,1);
+        @include fontSize(1.4);
+        display: inline-block;
+      }
+      .noticeBoxClose{
+        float:right;
+      }
+}
+
+.noticeBoxTextSmallMod2{
+  @include blockPadding(1.7,1.7,1.7,1.7);
+}
+
+.noticeBoxPreferenceModule {
+	position:absolute;
+	top:-20px;
+	width:840px !important;
+}
+
+/* 
+### What went wrong message
+```
+<div class="noticeBox warningBox">
+    <ul class="noticeBoxWrapper">
+        <li>
+          <span class="messageIcon">
+            <em class="iconItem">
+              <span>Icon name</span>
+            </em>
+          </span>
+        </li>
+        <li class="noticeBoxText"><strong>Warning content here</strong> djkflksdlf sldkfjsklf lslks djflksdjfs flksdjflkasdlk sajflksdj flk </li>
+    </ul>
+</div>
+```
+*/
+.warningBox{
+	 background:$shi;
+	 @include allBorders(3px, solid,  $theta);
+	 //@include boxShadow( 0px 4px 3px $beta22); 
+	 width:100%;
+	    .messageIcon{
+		  background: $theta;
+		    .iconItem{
+			    @extend .iconwarning !optional;
+    		}
+	    }
+    	span,
+      em,
+      a.baseLink,
+      li {
+    		color: $theta;
+    	}
+      .noticeBoxHeader,
+      .noticeBoxBody {
+    		color: $theta;
+    		@include fontSize(1.4);
+    	}
+      a.baseLink {
+        //border-bottom: 1px solid $theta;
+        border-bottom:$beta27;
+        color:$beta73;
+        @include textDeco(underline);
+        &:hover {
+            border-bottom:$gamma90;
+            color:$gamma;
+            @include textDeco(underline);
+        }
+      }
+}
+
+
+/*
+### Successful message 
+
+```
+      <div class="noticeBox successBox">
+          <ul class="noticeBoxWrapper">
+              <li>
+                <span class="messageIcon">
+                  <em class="iconItem">
+                    <span>Icon name</span>
+                  </em>
+                </span>
+              </li>
+              <li class="noticeBoxText">
+                <strong>Details update successful message.</strong>  oiurwoeir weioruioweruoiweur oiweu roiweu
+              </li>
+          </ul>
+      </div>
+
+```
+*/
+
+.successBox{
+	 background:$shi;
+	 @include allBorders(3px, solid,  $zeta);
+	// @include boxShadow( 0px 4px 3px $beta22); 
+	 width:100%;
+	 	span,em{
+			color:	$zeta;
+		}
+	.messageIcon{
+		background: $zeta;
+		.iconItem{
+			@extend .iconsucess;
+			
+
+		}
+	}
+    .baseLink,
+    .noticeBoxTextSmallBox,
+	.noticeBoxText{
+		color: $zeta;
+	}
+}
+
+
+/*
+### What is happening message
+
+```
+      <div class="noticeBox happeningBox">
+          <ul class="noticeBoxWrapper">
+              <li>
+                <span class="messageIcon">
+                  <em class="iconItem">
+                    <span>Icon name</span>
+                  </em>
+                </span>
+              </li>
+              <li class="noticeBoxText">
+                <strong>Details update successful message.</strong>  oiurwoeir weioruioweruoiweur oiweu roiweu
+              </li>
+          </ul>
+      </div>
+
+```
+*/
+
+.happeningBox{
+	 background:$shi;
+	 @include allBorders(3px, solid,  $eta);
+	 // @include boxShadow( 0px 4px 3px $beta22); 
+	 width:100%;
+ 	 span,em {
+		color:$eta;
+	 }
+	 .iconSetFull.iconSetFullStyleFive {
+	 	background:$eta;
+	 }
+	 .messageIcon{
+		background:$eta;
+		.iconItem{
+			@extend .iconretry !optional;			
+		}
+	 }
+     .noticeBoxTextSmallBox,
+	 .noticeBoxText{
+		color:$eta;
+	 }
+}
+
+
+.informationBox{
+  background:$shi;
+  @include allBorders(3px, solid,  $eta);
+ // @include boxShadow( 0px 4px 3px $beta22); 
+  width:100%;
+  span,em{
+    color:	$eta;
+  }
+  .messageIcon{
+    background:$eta;
+    .iconItem{
+      @extend .iconinformation  !optional;
+      color: $shi;
+
+    }
+  }
+  .noticeBoxTextSmallBox,
+  .noticeBoxText{
+    color: $eta;
+    font-style: normal;
+    @include fontSize(1.4);
+  }
+}
+
+
+
+
+.dataTableInnerBox .warningBox,
+.dataTableInnerBox .successBox{
+	width:90%;
+	@include blockMargin(2,0,2,-1);
+}
+.modalForm .warningBox,
+.modalForm .successBox{
+  margin-left: -10px;
+  .noticeBoxWrapper li:last-child{
+    width: 76%;
+    @extend %inlineBlock;
+  }
+}
+/*
+###Creating a Warning Box 
+	
+	```<div class="noticeBox warningBox"><span class="messageIcon"><em class="iconwarning"><span>Icon name</span><em></span>Warning content here </div> ```
+
+*/
+
+.messageIcon{
+    @extend .iconSet;
+	height:40px;
+	width:40px;
+    line-height:1rem;
+      em{
+        color:$shi;
+      }
+}
+
+
+
+
+/* 
+###Creating a Information Box 
+	
+	```<div class="noticeBox infoBox">Information content here </div> ```
+
+*/
+
+.infoBox{
+	 background:$shi;
+	 @include allBorders(3px, solid, $epsilon );
+	 margin:20px auto;
+	 margin:2rem auto;
+	 width:90%;
+     color: $epsilon;
+}
+.termDepositPopUp .infoBoxMod1 {
+	 width:100%;
+	 .noticeBoxTextSmall {
+	 	width: 80%;
+	 }
+}
+
+.infoBoxMod3{
+
+  background:$shi;
+  @include blockMargin(0, 0, 0, 0);
+  @include allBorders(3px, solid,  $epsilon);
+  width:100%;
+  span,em{
+    color:	$shi;
+  }
+
+  .messageIcon{
+    background: $epsilon;
+  }
+  .noticeBoxText{
+    color: $epsilon;
+    font-style: normal;
+    @include fontSize(1.4);
+    width: 85%;
+    p{
+      @include blockMargin(0, 0, 0, 1);
+    }
+  }
+  .noticeBoxTextSmallMod1 {
+      width:90%;    
+  }
+  
+}
+
+.infoBoxMod4 {
+  @include blockMargin(2, 0, 0, 0);
+}
+
+.infoBoxMod5{
+  @include blockMargin(0, 0, 2, 0);
+  width:100%;
+  .noticeBoxText{
+    width: 90%;
+    p{
+      @include blockMargin(0, 0, 0, 1);
+    }
+  }
+}
+
+/*
+###Creating a Context Box 
+	
+	``` <div class="noticeBox contextBox">Context content here </div>```
+
+*/
+.contextBox{
+	 background:$contextBG;
+	 @include allBorders(1px, solid, $beta10);
+	 margin:5px auto;
+	 margin:0.5rem auto;
+	 width:97%;
+}
+
+
+/* ###Creating a Message Box 
+	
+```	<div class="noticeBox messageBox"><p>Message content here</p></div> ```
+
+*/
+.messageBox {
+	height: 200px;
+ 	background:$messageBoxColor;
+	@include blockMargin(1,0,1,1); 
+	@extend %floatRight;
+ 	.messageTitle {
+		 @include blockPadding(1.5,1.5,1.5,1.5);
+	}
+		p {
+			@include blockPadding(0.5,1.5,0.5,1.5);
+		}
+}
+
+
+
+/* 
+###Creating a Message Box 
+```	
+	<div class="noticeBox infoBox">
+		<ul class="messageWidthIcon">
+			<li><em class="iconInformation"></em></li>
+			<li>Information content here</li>
+		</ul>
+	</div>
+```
+*/
+
+.messageWidthIcon {
+	@extend %block;
+}
+.messageWidthIcon li:first-child{
+			width:25px;
+			float:left;
+		}
+.messageWidthIcon li:last-child{
+			width:90%;
+			float:left;
+			display:block;
+		}
+
+.dataTableInnerBox .noticeBox {
+  width: 100%;
+}
+.dataTableInnerBox .noticeBoxMod1 {
+  margin-left: 0;
+}
+
+/* ## Help tool tip 
+
+     ```   <div class="helpToolBox helpToolBoxPos4">
+	          <em class="iconArrowHelpLeft"></em>
+	          <div>
+	              <h3 class="helpTitle">Header</h3>
+	              Text content
+	          </div>
+	    </div> ```
+*/
+.helpToolBox{
+
+  &.helpToolBoxPos1{
+	  @include position(absolute, 1px 0 0 235px);
+  }
+
+  &.helpToolBoxPos2{
+      @include position(absolute, -10px 0 0 235px);
+ }
+
+  &.helpToolBoxPos3{
+      @include position(absolute, -9px 0 0 235px);
+  }
+  &.helpToolBoxPos4 {
+      @include position(absolute, -16px 0 0 323px);
+  }
+  &.helpToolBoxPos5 {
+      @include position(absolute, 5px 0 0 323px);
+  }
+}
+
+
+.helpToolBox {
+	background: #fff;
+	border: 3px solid $gamma;
+    @include blockPadding(1.5,1.5,2.5,1.5);
+ 	@include helpBoxSize(30, 10);
+ 	@include fontSize(3);
+ 	@extend .borderRadius;
+ 	//@extend .shadow;
+	margin-left: 1.5rem;
+	height: auto;
+	z-index:10000;
+	color:$headerTextColorGamma;
+		.iconArrowHelpLeft{
+				top:40%;
+			}
+		.iconArrowHelpLeftModRegPageTwo{
+				top:17%;
+		} 			
+		li{
+				@include blockPadding(.5,0,0,0);
+				line-height: 2rem;
+				@include fontSize(1.4);
+					span{
+						width:80%;
+					}
+					em{
+						@extend %inlineBlock;
+						//width:10%;
+						width:7%;
+						@extend %floatLeft;
+						@include blockMargin(0.2,0,0,0);
+					}
+          &.mod1{
+            margin-left: 39px;
+          }
+          .tableRowBreak {
+            width:98%;
+          }
+		}
+		
+}
+
+
+.helpBoxTitle {
+	@include blockPadding(0,0,0,1.5);
+}
+
+.helpBox {
+	.iconbullet{
+		font-size:1.4rem;
+		padding-top:2px;
+		margin-top:0;
+        margin-left: 0;
+	}
+}
+
+/*
+.arrowBox:after, .arrowBox:before {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.arrowBox:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #eee;
+	border-width: 15px;
+	top: 50%;
+	margin-top: -15px;
+}
+.arrowBox:before {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #eee;
+	border-width: 21px;
+	top: 50%;
+	margin-top: -21px;
+}
+
+/*
+##Notes
+###noteBox
+
+This is the temporary design.
+```
+<div class="noteBox">
+	<div class="noteBoxHeader">
+		<h3 class="noteBoxHeaderText">NOTES</h3>
+		<span class="noteBoxIconWrap"><a href="" class="toolAction" title="Click here to delete"><em class="icontrash"></em></a></span>
+	</div>
+	<div class="noteBoxBody">
+		<p class="noteBoxText"></p>
+	</div>
+	<div class="noteBoxFooter">
+	</div>
+</div>
+
+```
+*/
+.noteBox{
+	//@include blockPadding(2,2,2,2);
+	background-color: $epsilon10;
+	border-bottom: 4px solid $backgroundColorOmega;
+	@include borderRadius(0.2);
+    &.noteBoxWithStyleOne{
+      width: 840px;
+    }
+	.noteBoxIconWrap{
+        @include position(absolute, 20px 20px 0 0);
+	}
+	.noteBoxText{
+		  //@include blockPadding(0,0,0,0);
+		  @include blockPadding(3.5,4,3.5,4);
+      //@include blockMargin(2,4.8,2,0);
+      @include setSpace(margin,0 0 0 0);
+      @extend %emphasis;
+      @include fontSize(2);
+      color:$epsilon;
+      min-height:190px;
+      h1,h2{
+        @include fontSize(3);
+      }
+      h1{
+            color: $digamma;
+            em{
+                @extend %floatLeft;
+                color: $epsilon ;
+                @include fontSize(3.0);
+                @include setSpace(margin,0.9rem 1rem 0 0);
+                display:block;
+            }
+            .descText {
+                @extend %floatLeft;
+                display:block;
+                width:94%;             
+            }
+      }
+      .emphasisHeader,
+      h2{
+          color: $epsilon;
+
+      }
+      .actionButtonIcon{
+        @include setSpace(margin,4rem 0 0 0);
+        color: $epsilon ;
+        border-color: $epsilon ;
+        min-width:14rem;
+      }
+      ul.blockdecorlist {
+           @include blockMargin(0,0,0,0);
+           @include blockPadding(0,0,0,0);
+           li { 
+              @include fontSize(1.4);
+              font-weight:normal;
+              @include blockMargin(0,0,2,0);
+              list-style:none;
+              em{
+                  float: left;
+              }
+              p{
+                  float: left;
+                  @include blockMargin(0,0,0,1);
+                  width: 95%;
+              }
+              ul {
+                 @extend .clearBoth;
+                 @include blockMargin(0,0,0,4);
+                 @include blockPadding(1,0,0,0);   
+                 li {
+                    @include fontSize(1.4);
+                    font-weight:normal;
+                    @include blockMargin(0,0,1.4,0);
+                    @include blockPadding(0,0,0,0.5);   
+                    list-style:disc outside; /*giving UL's LIs generated disc markers*/
+                 }            
+              }
+           }
+                              
+      }
+	}
+	.noteBoxTextMod1 {
+	  @include blockPadding(3.5,3,2,3);	  
+	}
+	.noteBoxHeaderText{
+        @include textTrans(uppercase);
+		    @include fontSize(1.4);
+		    color: $digamma;
+        @include blockMargin(0,6,0,0);
+        //@include blockPadding(3.5,0,0,4);
+        @include blockPadding(2,1,0,3);
+        letter-spacing:normal;
+	}
+}
+
+
+
+/* ###Message Wrappers
+
+###Creating a message with multiple child elements
+```	
+	<div class="noticeBox warningBox">
+		<ul class="noticeBoxWrapper">
+			<li><span class="messageIcon"><em class="iconwarning"><span>Icon name</span><em></span>
+			</li>
+			<li>Warning content here </li>
+	</ul>
+	</div>
+```
+*/
+
+ .noticeBoxWrapper{
+ 	@include clearfix;
+    height: auto;
+    //@include setSpace(margin, 0 0 1rem 0);
+    @include blockMargin(0,0,0,0); 
+      li{
+        @extend %floatLeft;
+        @include blockMargin(0,1,0,0);
+        @extend %inlineBlock;
+          .iconSet {
+              @include blockMargin(0,0,0,0);
+            }
+          .iconSetMod1 {
+              @include blockMargin(0,1,0,0);
+          }
+      }
+ }
+
+.dataTableInnerBoxFull {
+      .noticeBoxWrapper li:last-child{
+        width: 83%;
+        @extend %inlineBlock;
+      }    
+}
+
+.dataTableInnerBoxFullMod2 {
+    .title {
+        @extend .block;  
+        @extend .emphasis;
+        @include blockPadding(0,1,1.5,1);  
+    }
+    table {
+        width:100%;
+        tr {
+            td {
+                @include blockPadding(1.5,1,1.5,1);
+                @include startBorder(1px,solid,#DDDDDD);   
+                &.subCategoryTitle {
+                    width:410px;
+                } 
+                &.subCategoryOption {
+                  .checkbox {
+                      @include width(2.3);
+                      display:inline-block;
+                      @include blockMargin(0,10,0,0);
+                      &:last-child {
+                          @include blockMargin(0,0,0,0);
+                      }
+                  }
+                }            
+            }          
+        }      
+    }
+}
+
+
+/* ###Confirmation Message Wrappers
+
+###Creating a message with multiple child elements
+```
+<div class="confirmationMsgWrap">
+    <ul class="confirmationMsg">
+        <li class="confirmationMsgItem"><em class="iconsucess"></em></li>
+    </ul>
+</div>
+```
+*/
+
+
+.confirmationMsgWrap{
+	@include blockPadding(4,4,2,4);
+	background-color: lighten($backgroundColorDelta, 22%);
+	border: 1px solid $backgroundColorDelta;
+	@include blockMargin(3,0,2,0);
+	.confirmationMsgItem{
+		@include blockMargin(0,0,2,0);
+		float:left;
+		em{
+			float: left;
+			color: $gamma;
+		}
+		p{
+			float: left;
+			@include blockMargin(0,0,0,1);
+			width: 90%;
+		}
+	}
+}
+.confirmationMsgItemActions{
+	@include blockMargin(2,0,2,0);
+	.actionButtonIcon{
+		@include blockMargin(1,2,2,0);
+		float: left;
+	}
+	
+	.iconsucess{
+		@include blockMargin(0,1,0,0);
+	}
+}
+
+
+
+
+
+/*
+
+```
+<div class="messageType1Wrap">   
+    <div class="messageType1IconWrap">
+        <em class="iconphone"><span class="screenReaderText">Call </span></em>
+    </div>
+    <div class="messageType1Body">
+        <p class="messageType1Text"><span class="messageType1TextHighlight">To change your  details</span> please call XXXXX XXXX XXX</p>
+    </div>
+    <div class="messageType1Footer">
+    </div>
+</div>
+
+
+```
+
+*/ 
+
+
+.messageType1Wrap{
+	@include blockPadding(2,2,2.2,4.1);
+	background-color: #edebee; //TODO:: use colour var
+	border-bottom: 4px solid #e4dfe3; //TODO:: use colour var
+	position: relative;
+	.messageType1IconWrap{
+        @include position(absolute, 27px 0 0 41px);
+	}
+	.messageType1Body{
+		@include blockMargin(1.8,0,1.6,6);
+	}
+	.messageType1Text{
+		@include blockMargin(1.8,0,0,0);
+		@include fontSize(2);
+		font-weight: 700;
+		color: #694e5f; //TODO:: use colour var
+        letter-spacing: -1px;
+		.messageType1TextHighlight{
+			color: #b292a7; //TODO:: use colour var
+		}
+	}	
+	.messageType1Footer{
+	}
+}
+
+.messageType2Wrap {	
+	@include blockPadding(2,5,4,4);
+	position:relative;
+	background-color:#edebee; //TODO:: use colour var
+	@include endBorder(4px, #e4dfe3, solid); //TODO:: use colour var
+	.messageIconWrap {
+        display:inline-block;
+        vertical-align:baseline;
+        @include position(absolute, 31px 0 0 40px);
+        color:#694e5f;
+        em {
+        	@include fontSize(3);
+        	line-height:1;
+        } 
+	}	
+	.messageBody {
+		@include blockMargin(1,0,2,4);
+		h2 {
+			@include fontSize(3);
+			color:#694e5f; 
+		}
+	}
+	.messageText{
+		color:#694e5f;
+		@include blockPadding(0,0,1,0);
+		&:last-child {
+			@include blockPadding(0,0,0,0);
+		}
+	}
+}
+
+
+/* ## Sub Info Header 
+
+``` <div class="subInfoContainer"></div> ```
+*/
+
+.subInfoContainer{
+	@include blockMargin(0,0,2,0);	
+}
+
+
+
+/* ## Arrow for Help Bubble
+
+*/
+.bubbleContainer{
+	width:1px;
+	height:1px;
+	position:relative;
+	display: inline !important;
+}
+
+%iconArrowHelp{
+	@extend %inlineBlock;
+	width:24px;
+	height:24px;
+	background:no-repeat;
+	
+}
+
+.iconArrowHelpLeft, .iconArrowHelpLeftModRegPageTwo{
+	@extend %iconArrowHelp;
+	background:$iconArrowSpriteImage -9px -360px;
+	position:absolute;
+	left: -13px;
+}
+
+/* Message Alert Display
+ ``` <span class="messageDisplay">12</span> ```
+
+*/
+.messageDisplay{
+    @include borderRadius(100);
+    min-width:1.6rem;
+    height: 1.6rem;
+    @include lineHeight(0.6);
+    width: auto;
+    @include blockPadding(0.5,0.5,0.5,0.5);
+    @extend %inlineBlock;
+    @include fontSize(1.2);
+    color:$shi;
+    text-align:center;
+}
+
+.messageDisplay.messageDisplayInfo{
+  background:$zeta;
+  @include position(absolute, -11px -12px 0 0);
+  font-weight:bold;
+}
+
+//Webkit hack
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .messageDisplay.messageDisplayInfo{
+    @include position(absolute, -13px -16px 0 0);
+  }
+}
+
+/* Pagination items
+ ``` 
+<span class="paginationItems" data-ng-key="pagination"></span>
+ ``` 
+*/
+
+.paginationItems {
+  color: $beta73;
+  font-size: 1.4rem;
+  font-weight: 100 !important;
+  padding-left: 4px;
+}
+
+/* Message Bubble
+  ``` 
+  <div class="messageBubble messageBubbleAccounts jq-firstTimeExperienceMasks">
+        <ul class="messageBubbleTools clearFix">
+
+        <li class="jq-dismissMessageBubble cursor">
+        <a href="#" class="baseLink baseLinkMod1">
+        <em class="iconviewdisabled"></em>  <span></span>
+        </a>
+        </li>
+        <li class="arrowLeft jq-arrowPointer"></li>
+        </ul>
+        <ul class="messageBubbleContent">
+        <li class="infoIcon"><em class="iconhelp iconhelpMod1"></em></li>
+        <li class="messageText">
+        <h3 class="bubbleHeader"></h3>
+        </li>
+        </ul>
+        </div>
+ ``` 
+        
+ */
+
+.messageBubble{
+  @include borderRadius(0.5);
+  @include boxShadow(  1px 3px 5px 1px $beta10);
+  background:$gamma;
+  width: 40rem;
+  @include position(absolute,0 0 0 0);
+  color: $shi;
+  min-height: 15rem;
+  z-index:2000;
+      .messageBubbleTools{
+          @extend %block;
+          width: 100%;
+          @include setSpace(padding, 1rem 1rem 0 1rem);
+
+              li{
+                @extend %floatRight;
+                @include setSpace(0 0.5rem 0.5rem 0.5rem);
+                em{
+                  @include fontSize(1.6);
+                  @include setSpace(padding, 0 0.5rem 0 0);
+                }
+                a.baseLink{
+                    color: $shi;
+                }
+                vertical-align : bottom;
+                &:first-child {
+                  @include setSpace(padding, 0 0 0.5rem 0.5rem );
+                }
+              }
+
+              .divider{
+                opacity: 0.4;
+                @include blockMargin(0,0.5,0,0.5);
+                @include fontSize(1.6);
+              }
+      }
+      h3{
+        @include fontSize(2.5);
+        @include blockMargin(0,0,1.0,0);
+        @include blockPadding(0,2,0,4);
+        color: #fff;
+      &.bubbleHeader{
+        @include blockPadding(0,2,0,0);
+      }
+      }
+
+      p{
+        @include fontSize(1.6);
+        @include blockPadding(1,2,2,4);
+
+      }
+      .messageBubbleContent {
+        @include blockPadding(0,2,0,2);
+          .infoIcon{
+            @extend %floatLeft;
+            @extend %block;
+            @include blockPadding(0,1.5,0,0);
+            .iconhelpMod1{
+                 @include fontSize(3.0);
+                  width:3.1rem;
+
+            }
+
+          }
+        .messageText {
+          @include fontSize(1.6);
+          @include blockPadding(0, 0, 4,0);
+          @extend %floatLeft;
+          @extend %inlineBlock;
+          width:85%;
+
+        }
+
+
+      }
+
+
+
+ // Construct the arrow
+
+
+      %arrowContainer{
+        width:14px;
+        height: 20px;
+        background:$iconArrowSpriteImage ;
+        background-position: -45px -538px;
+        @extend %inlineBlock;
+
+      }
+      
+      /*
+       Arrow Left
+        ```   <li class="arrowLeft jq-arrowPointer"></li>   ``` 
+       */
+      
+      .arrowLeft{
+        @extend %arrowContainer;
+        @include position(absolute, 45px 0 0 -9px);
+      }
+      
+      /*
+       Arrow Top
+        ```   <li class="arrowTop jq-arrowPointer"></li>   ``` 
+       */
+      
+      
+      .arrowTop{
+          @extend %arrowContainer;
+          @include position(absolute, -9px 0 0 185px);
+            transform:rotate(90deg);
+            -ms-transform:rotate(90deg); /* IE 9 */
+            -webkit-transform:rotate(90deg); /* Safari and Chrome */
+
+      }
+      
+      /*
+       Arrow Bottom
+        ```   <li class="arrowBottom jq-arrowPointer"></li>   ``` 
+       */
+      
+      .arrowBottom{
+        @extend %arrowContainer;
+        @include position(absolute, 0 0 -9px 50%);
+        @include setSpace(margin, 0 0 0 -12px);
+        transform:rotate(-90deg);
+        -ms-transform:rotate(-90deg); /* IE 9 */
+        -webkit-transform:rotate(-90deg); /* Safari and Chrome */
+
+      }
+
+}
+
+// Tooltip plugin css
+.ui-tooltip {
+      // @include blockPadding(1,1,1,1);
+      @include setSpace(padding, 1.6rem 1.6rem 1.6rem 1.6rem);       
+      @include position(absolute, 0 0 0 0);
+      z-index: 9999;
+      min-width: 140px;
+      max-width: 400px;      
+      background:$gamma;
+      @include borderRadius(0.4); 
+      // @include boxShadow(1px 3px 5px 1px $beta10);
+}
+.ui-tooltip-content {
+      color: #FFF;
+      @include fontSize(1.4);
+      font-weight: normal;
+      a {
+      	color: #FFF;
+      }
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    @include position(absolute,0 0 -16px 50%);
+    margin-left: -33px;
+}
+.arrow.top {
+      top: -16px;
+      bottom: auto;
+}
+.arrow.left {
+      left: 20%;
+}
+.arrow:after {
+      content: "";
+      @include position(absolute,-20px 0 0 20px);
+      width: 25px;
+      height: 25px;
+      background:$gamma;
+      // @include boxShadow(1px 3px 5px 1px $beta10);
+      transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* IE 9 */
+    -webkit-transform:rotate(45deg); /* Safari and Chrome */
+}
+.arrow.top:after {
+      bottom: -20px;
+      top: auto;
+}
+
+/*Styles for hover tooltips*/
+
+.ui-tooltip-hover{
+	background:#FFF;
+	@include allBorders(1px, solid, $beta73);
+	@include boxShadow( 1px 3px 15px rgba(65,65,65,0.30) );
+	 @include setSpace(padding, 1.3rem 2rem 1.3rem 2rem); 
+	.ui-tooltip-content {
+      color: $beta73;
+      @include fontSize(1.4);
+      font-weight: normal;
+      a {
+      	color: $beta73;
+      }
+	}
+}
+.arrow-hover {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    @include position(absolute,0 0 -16px 50%);
+    margin-left: -33px;
+}
+.arrow-hover.top {
+      top: -16px;
+      bottom: auto;
+}
+.arrow-hover.left {
+      left: 20%;
+}
+.arrow-hover:after {
+      content: "";
+      @include position(absolute,-20px 0 0 20px);
+      width: 25px;
+      height: 25px;
+      background:#FFF;
+      @include boxShadow( 1px 3px 15px rgba(65,65,65,0.30) );
+      transform:rotate(45deg);
+     -ms-transform:rotate(45deg); /* IE 9 */
+     -webkit-transform:rotate(45deg); /* Safari and Chrome */
+     @include allBorders(1px, solid, $beta);
+}
+.arrow-hover.top:after {
+      bottom: -20px;
+      top: auto;
+}
+
+
+/* Data Table footer message
+    ```  <tfoot class="cursor">
+        <tr class="paginationRow jq-pastTransactionLoadMoreButton">
+          <td/
+        </tr>
+        <tr class="noDisplay dataTableRow dataTableRowActiveMod2 dataTableRowBg dataTableFooterMessage jq-moreThanTwoHundredResults">
+         </tr>
+         </tfoot>  ``` 
+                        
+ */
+
+.dataTableFooterMessage{
+  background: $beta4;
+  @include allBorders(1px, solid, $beta22);
+  height:65px;
+  height: 6.5rem;
+  @include textAlign(center);
+  @include lineHeight(6.5);
+  a{
+    color: $beta73;
+  }
+
+
+}
+
+
+// Content Dialog and bubble help
+
+/*
+ ```
+  <div data-ng-key="mobileHelpIcon" class="contentDialog helpBubble helpBubblePosStyleOne jq-mobileHelpWrapper noDisplay">
+   <em class="expandArrow"></em>
+  </div> ```
+            
+ */
+.contentDialog{
+  // Set the element
+  //@include blockPadding(1.6,1.6,1.6,1.6);
+  @include blockPadding(2,2,2,2);
+  @include allBorders(1px, solid, $beta73);
+  @include borderRadius(0.4);
+  background:$shi;
+  @include boxShadow( 1px 3px 15px rgba(65,65,65,0.30) );
+  position: absolute;
+  top:9.3rem;
+  width:39.8rem;
+  z-index: 999;
+ // Help Bubble
+    &.helpBubble{
+      @include allBorders(1px, solid, $gamma);
+      @include boxShadow(0px 0px 0px rgba(255,255,255,0));
+      color: $shi;
+      background-color: $gamma;
+      font-weight: normal;
+      width: 400px ;
+     // min-width: 140px;
+     // width: auto;
+
+      // sets Position of Bubble to the top right and arrow to the left
+      &.helpBubblePosStyleOne{
+      //@include position(absolute, -8.7rem 0 0 3rem);
+      //@include position(absolute, -10.5rem 0 0 3.2rem);
+      @include position(absolute, -11rem 0 0 3.2rem);
+          .expandArrow{
+            background: $backgroundSprite -50px -583px;
+            @include rotate(-225);
+            //@include position(absolute, 7.1rem 0 0 0.7rem);
+            //@include position(absolute, 9.1rem 0 0 0.7rem);
+            @include position(absolute, 9.9rem 0 0 0.7rem);
+          }
+      }
+  }
+  
+  /* Content Dialog list
+   ``` <ul class="contentDialogList"/>  ```
+   */   
+
+  .contentDialogList{
+    @include endBorder(1px,  #f5f5f5 ,solid);
+    @include blockPadding(.8,0,.8,0);
+    li {
+      .accountTotal{
+        @extend %inlineBlock;
+        text-align: right;
+        @include fontSize(1.6);
+        @extend %emphasis;
+        width: 16.9rem;
+      }
+    }
+    .normalText{
+      color: $beta44;
+      line-height: 1.5
+    }
+
+  }
+
+  a.baseLink:last-child .contentDialogList{border-bottom: 0}
+  .contentDialogList.contentDialogListLast{
+    border:none;
+  }
+  .contentDialogSubTitles{
+    @include fontSize(1.6);
+    @extend %emphasis;
+    width: 19rem;
+    @extend %floatLeft;
+  }
+  .expandArrowMod2{
+    top: -1.6rem !important;
+    left: 50%;
+    @include blockMargin(0, 0, 0, -1.4);
+  }
+  .listContent li{
+    @include lineHeight(1.6);
+  }
+
+}
+
+
+.dropShadow{
+	.successBox {
+			@include boxShadow( 0px 4px 3px $beta22); 
+				}
+}

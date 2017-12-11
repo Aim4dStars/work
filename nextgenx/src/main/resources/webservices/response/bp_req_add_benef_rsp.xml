@@ -1,0 +1,137 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+<!-- 2016-07-12T00:40:15.454528000Z on AFP010A by AVALOQ -->
+<bp:bp_rsp xmlns:bp="http://btfin.com/ABS/TrxService/BP/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hdr>
+        <req_id>NG-001.315ef804-32bd-11e6-acb9-ca8c029a8d0a.70000000116.000000024</req_id>
+    </hdr>
+    <data>
+        <doc>
+            <val>4071807</val>
+        </doc>
+        <wfc_status>
+            <annot>
+                <displ_text>BP: Done</displ_text>
+                <ctx>
+                    <type>wfc_status_v</type>
+                    <id>1050090</id>
+                </ctx>
+            </annot>
+            <val>1050090</val>
+        </wfc_status>
+        <bp>
+            <annot>
+                <displ_text>Christine Aranas</displ_text>
+                <ctx>
+                    <type>obj_bp</type>
+                    <id>504856</id>
+                </ctx>
+            </annot>
+            <val>504856</val>
+        </bp>
+        <modi_seq_nr>
+            <val>1</val>
+        </modi_seq_nr>
+        <linked_accs>
+            <linked_acc>
+                <is_pri>
+                    <val>true</val>
+                </is_pri>
+                <bsb>
+                    <val>032000</val>
+                </bsb>
+                <acc_nr>
+                    <val>1234567</val>
+                </acc_nr>
+                <curry>
+                    <annot>
+                        <displ_text>AUD</displ_text>
+                        <ctx>
+                            <type>obj_curry</type>
+                            <id>1009</id>
+                        </ctx>
+                    </annot>
+                    <val>1009</val>
+                </curry>
+                <limit>
+                    <val avqxsi:nil="true"/>
+                </limit>
+                <acc_name>
+                    <val>test</val>
+                </acc_name>
+                <acc_nick_name>
+                    <val avqxsi:nil="true"/>
+                </acc_nick_name>
+            </linked_acc>
+        </linked_accs>
+        <sa_benef_det_list>
+            <sa_benef_det>
+                <nomn_type>
+                    <annot>
+                        <displ_text>nomn_nbind_sis</displ_text>
+                        <ctx>
+                            <type>code_au_sa_death_benf</type>
+                            <id>2</id>
+                        </ctx>
+                    </annot>
+                    <val>2</val>
+                </nomn_type>
+                <rel_type>
+                    <annot>
+                        <displ_text>child</displ_text>
+                        <ctx>
+                            <type>btfg$code_person_rel_type</type>
+                            <id>2</id>
+                        </ctx>
+                    </annot>
+                    <val>2</val>
+                </rel_type>
+                <first_name>
+                    <val>Chloe Moretz</val>
+                </first_name>
+                <last_name>
+                    <val avqxsi:nil="true"/>
+                </last_name>
+                <ctact_nr>
+                    <val>0410799123</val>
+                </ctact_nr>
+                <email>
+                    <val>dafs@yahoo.com</val>
+                </email>
+                <addr>
+                    <val>New Jersey</val>
+                </addr>
+                <gender>
+                    <annot>
+                        <displ_text>female</displ_text>
+                        <ctx>
+                            <type>code_gender</type>
+                            <id>2</id>
+                        </ctx>
+                    </annot>
+                    <val>2</val>
+                </gender>
+                <dob>
+                    <val>2001-04-30</val>
+                </dob>
+                <pct>
+                    <val>100</val>
+                </pct>
+            </sa_benef_det>
+        </sa_benef_det_list>
+    </data>
+    <rsp>
+        <exec>
+            <action>do</action>
+        </exec>
+    </rsp>
+</bp:bp_rsp>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

@@ -1,0 +1,145 @@
+{
+      "version": "1.0.0",
+      "accountType": "superPension",
+      "pensioneligibility": {
+        "eligibilityCriteria": "RETIRE_COND_OF_RELEASE"
+      },
+      "investors": [
+        {
+          "emails": [
+            
+          ],
+          "personRoles": [
+            
+          ],
+          "phones": [
+            
+          ],
+          "taxdetails": {
+            "ausTaxDetails": {
+              "tfn": {
+                "valid": false
+              },
+              "taxOption": {
+                "valid": true,
+                "value": "pensioner"
+              },
+              "isTaxCountryAus": {
+                "valid": true,
+                "value": true
+              },
+              "exemptionReason": {
+                "valid": true
+              }
+            },
+            "isOverseasTaxRes": {
+              "valid": true,
+              "value": false
+            },
+            "overseasTaxDetails": [
+              
+            ]
+          },
+          "displayTaxOptions": true,
+          "cismandatory": true,
+          "wealthsource": "Business profits",
+          "title": "MR",
+          "firstname": "test",
+          "middlename": "",
+          "lastname": "pension",
+          "preferredname": "",
+          "formername": "",
+          "dateofbirth": "11\/11\/1956",
+          "gender": "male",
+          "mobile": {
+            "value": ""
+          },
+          "email": {
+            "value": ""
+          },
+          "preferredcontact": "",
+          "isvalid": false,
+          "alternatename": "",
+          "accountType": "superPension",
+          "identitydocument": {
+            
+          },
+          "resaddressv2": {
+            "addressType": "residential",
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+            "AddressIdentifier": "0EOAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZQA-",
+            "existingAddressList": [
+              {
+                "country": "AU",
+                "sameasaddress": "0",
+                "valid": true,
+                "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+                "AddressIdentifier": "0EOAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZQA-",
+                "existingAddressList": [
+                  
+                ]
+              }
+            ]
+          },
+          "postaladdressv2": {
+            "addressType": "postal",
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+            "AddressIdentifier": "0EOAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZQA-",
+            "existingAddressList": [
+              {
+                "country": "AU",
+                "sameasaddress": "0",
+                "valid": true,
+                "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+                "AddressIdentifier": "0EOAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZQA-",
+                "existingAddressList": [
+                  
+                ]
+              }
+            ]
+          },
+          "taxcountry": "AU",
+          "taxoption": "",
+          "sameasresaddress": "true"
+        }
+      ],
+      "accountsettings": {
+        "professionalspayment": "linkedaccountsonly",
+        "investorAccountSettings": [
+          {
+            "hasRoles": false,
+            "hasApprovers": false
+          }
+        ],
+        "primarycontact": 0,
+        "adviserName": "Edward Revis",
+        "adviserLocation": "New South Wales"
+      },
+      "linkedaccounts": {
+        "primaryLinkedAccount": {
+          "bsb": "",
+          "bsbValidationResultVal": false
+        },
+        "otherLinkedAccount": [
+          
+        ]
+      },
+      "fees": {
+        "estamount": "0.00",
+        "ongoingFees": {
+          "feesComponent": [
+            
+          ],
+          "type": "Ongoing advice fee"
+        }
+      }
+   }
+
+
+

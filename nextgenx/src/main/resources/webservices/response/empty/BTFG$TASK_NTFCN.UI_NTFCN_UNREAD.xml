@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope"><env:Header>
+    <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/"><messageAttributes>
+        <id>NG-001.e480d121-886b-4ffe-a4f2-6008f17bbd5e</id>NG-001.e480d121-886b-4ffe-a4f2-6008f17bbd5e<createdTimestamp>2014-06-06T15:16:20.822</createdTimestamp>
+    </messageAttributes><channelAttributes><organisationId>WPAC</organisationId><brandSilo>WPAC</brandSilo><channelType>Online</channelType><originatingSystemId>NG-001</originatingSystemId>
+        <requester><requesterType>System</requesterType></requester><location><locationId>lnxau2106sd0101</locationId><locationType>Machine Name</locationType></location></channelAttributes></esbHeader>
+</env:Header><env:Body><ns:AvaloqGatewayResponseMsg xmlns:ns="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0"><Status>Success</Status><ResponseDetails><SuccessResponse>
+    <err:err_rsp xmlns:err="http://btfin.com/ABS/Err/V1_0">  <err>XML validation error of WebUI response: 70/14: Element not completed: 'report' See: line: 70, column: 14</err>
+  <context>
+    <phase>msg#req_sync - valid_rsp</phase>
+    <bu_id>7</bu_id>
+    <user>201601307</user>
+    <req_msg>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;ns4:rep_req xmlns:ns4="http://btfin.com/ABS/ReportService/ReportRequest/V1_0"&gt;&lt;task&gt;&lt;templ&gt;BTFG$TASK_NTFCN.UI_NTFCN_UNREAD&lt;/templ&gt;&lt;param_list&gt;&lt;param parName="resp_ora_user"&gt;&lt;val&gt;&lt;val_list&gt;&lt;val type="rep:textVal"&gt;201601307&lt;/val&gt;&lt;/val_list&gt;&lt;/val&gt;&lt;/param&gt;&lt;/param_list&gt;&lt;fmt&gt;xml_specific&lt;/fmt&gt;&lt;/task&gt;&lt;/ns4:rep_req&gt;</req_msg>    <op>REP_REQ</op>
+    <do_commit>true</do_commit>
+  </context>
+</err:err_rsp></SuccessResponse></ResponseDetails></ns:AvaloqGatewayResponseMsg></env:Body></env:Envelope>

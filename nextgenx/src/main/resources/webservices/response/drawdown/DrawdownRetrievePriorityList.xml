@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cont_list_bp_cont_pref" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2017-02-09 10:57:18.712783000 on afp020m by M017484_SU -->
+
+<metadata>
+<empty_rep><val>false</val></empty_rep>
+<current_of_time><val>2017-02-08T23:57:18+11:00</val></current_of_time>
+</metadata>
+
+<def>
+<version>2.0</version>
+<rep_def>
+<style>hira</style>
+<lang id="1">en</lang>
+<hira_def>
+<grp_list>
+<grp_def>
+<name>bp</name>
+<hira>1</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+<grp_def>
+<name>cont</name>
+<hira>2</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+</grp_list>
+</hira_def>
+<row_def>
+<fld_list>
+<fld_def>
+<name>dummy</name>
+<type>TextFld</type>
+<lbl> </lbl>
+</fld_def>
+<fld_def>
+<name>bp_id</name>
+<type>NrFld</type>
+<lbl>Business Partner</lbl>
+</fld_def>
+<fld_def>
+<name>cont_id</name>
+<type>NrFld</type>
+<lbl>Container</lbl>
+</fld_def>
+<fld_def>
+<name>is_dd</name>
+<type>NrFld</type>
+<lbl>Draw Down enabled</lbl>
+</fld_def>
+<fld_def>
+<name>prio</name>
+<type>NrFld</type>
+<lbl>Priority</lbl>
+</fld_def>
+<fld_def>
+<name>perc</name>
+<type>NrFld</type>
+<lbl>Percentage</lbl>
+</fld_def>
+<fld_def>
+<name>asset_id</name>
+<type>NrFld</type>
+<lbl>Asset</lbl>
+</fld_def>
+<fld_def>
+<name>asset_excl_id</name>
+<type>NrFld</type>
+<lbl>Asset Excluded</lbl>
+</fld_def>
+
+</fld_list>
+</row_def>
+</rep_def>
+</def>
+
+<data>
+<bp_list>
+<bp>
+<bp_head_list>
+<bp_head id="2-1" row_type="title" hira="1" level="bp.head">
+<bp_id><annot><displ_text>bp--1_965</displ_text><ctx><type>bp</type><id>169907</id></ctx></annot><val>169907</val></bp_id>
+</bp_head>
+</bp_head_list>
+<cont_list>
+<cont>
+<cont_head_list>
+<cont_head id="4-2" row_type="data" hira="2" level="cont.head">
+<cont_id><annot><displ_text>PORTF_DIR CLT.5680.PORTF_DIR 120036801 GENERIC AUD</displ_text><ctx><type>cont</type><id>173241</id></ctx></annot><val>173241</val></cont_id>
+<dd_pref_list>
+<dd_pref id="6-3" row_type="data" hira="3" level="dd_pref">
+<prio><val>1</val></prio>
+<perc><val>10</val></perc>
+<asset_id><annot><displ_text>SREG BHP Billiton Limited</displ_text><ctx><type>asset</type><id>110523</id></ctx></annot><val>110523</val></asset_id>
+</dd_pref>
+<dd_pref id="6-4" row_type="data" hira="3" level="dd_pref">
+<prio><val>2</val></prio>
+<perc><val>20</val></perc>
+<asset_id><annot><displ_text>Rio Tinto</displ_text><ctx><type>asset</type><id>110524</id></ctx></annot><val>110524</val></asset_id>
+</dd_pref>
+</dd_pref_list>
+</cont_head>
+<cont_head id="8-4" row_type="data" hira="2" level="cont.head">
+<dd_excl_pref_list>
+<dd_excl_pref id="10-5" row_type="data" hira="3" level="dd_excl_pref">
+<asset_excl_id><annot><displ_text>SREG BHP Billiton Limited</displ_text><ctx><type>asset</type><id>110523</id></ctx></annot><val>110523</val></asset_excl_id>
+</dd_excl_pref>
+</dd_excl_pref_list>
+</cont_head>
+</cont_head_list>
+</cont>
+</cont_list>
+</bp>
+</bp_list>
+
+</data>
+</rep:rep>

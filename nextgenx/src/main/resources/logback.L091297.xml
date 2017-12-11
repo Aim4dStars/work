@@ -1,0 +1,39 @@
+<included>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <logger name="com.bt.nextgen.DataInitializationService" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.core.jms.JmsIntegrationService" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.DataInitialization" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.code.CacheManagedStaticCodeIntegrationServiceImpl" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.AbstractAvaloqIntegrationService" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.broker.CacheManagedUserBrokerIntegrationServiceImpl" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache.cachesearch.EhCacheLuceneSearcher" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.broker.JmsBrokerObjectHandler" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+</included>

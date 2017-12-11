@@ -1,0 +1,60 @@
+<soapenv:Envelope xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:id="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:hdr="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+      <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:dyn="http://exslt.org/dynamic" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+         <messageAttributes>
+            <id>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f1</id>
+            <correlationId>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f</correlationId>
+            <createdTimestamp>2016-07-06T16:26:41.745</createdTimestamp>
+         </messageAttributes>
+         <channelAttributes>
+           <organisationId>WPAC</organisationId>
+            <brandSilo>WPAC</brandSilo>
+            <channelType>Online</channelType>
+            <originatingSystemId>NG-001</originatingSystemId>
+            <requester>
+               <requesterType>Customer</requesterType>
+               <requesterId>201601509</requesterId>
+               <requesterGroupType>711</requesterGroupType>
+            </requester>
+            <location>
+               <locationId>032949</locationId>
+               <locationType>BSB</locationType>
+            </location>
+            <location>
+               <locationId>lnxau2106st0118</locationId>
+               <locationType>Machine Name</locationType>
+            </location>
+            <systemInfo>
+               <codeValue>
+                  <code>Destination</code>
+                  <value>OnboardingStatusUpdateAdapter</value>
+               </codeValue>
+            </systemInfo>
+         </channelAttributes>
+      </esbHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+		<SVC0454:retrievePostalAddressResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:SVC0454="http://www.westpac.com.au/gn/locationManagement/services/locationManagement/xsd/retrievePostalAddress/v1/SVC0454/" xsi:schemaLocation="http://www.westpac.com.au/gn/locationManagement/services/locationManagement/xsd/retrievePostalAddress/v1/SVC0454/ RetrievePostalAddress_v1.xsd">
+			<sh:serviceStatus>
+				<sh:statusInfo>
+					<sh:level>Success</sh:level>
+					<sh:code>000,00000</sh:code>
+				</sh:statusInfo>
+			</sh:serviceStatus>
+			<hasProviderAddress>
+				<hasProviderAddressAttribute >
+					<attributeName>Unit</attributeName>
+					<attributeValue>100</attributeValue>
+				</hasProviderAddressAttribute>
+				<hasProviderAddressAttribute >
+					<attributeName>Street No</attributeName>
+					<attributeValue>55</attributeValue>
+				</hasProviderAddressAttribute>
+				<hasProviderAddressAttribute >
+					<attributeName>Street Name</attributeName>
+					<attributeValue>Market Street</attributeValue>
+				</hasProviderAddressAttribute>
+			</hasProviderAddress>
+		</SVC0454:retrievePostalAddressResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

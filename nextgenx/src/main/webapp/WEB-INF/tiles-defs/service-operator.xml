@@ -1,0 +1,126 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="serviceOpSearch" extends="cash.commonLayout">
+        <put-attribute name="title" value="NextGen - Home"/>
+        <put-attribute name="title" value="Panorama - Home"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsView.jsp"/>
+    </definition>
+
+    <definition name="clientDetail" extends="cash.commonLayout">
+        <put-attribute name="title" value="NextGen - Record"/>
+        <put-attribute name="title" value="Panorama - Record"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/clientDetail.jsp"/>
+    </definition>
+
+    <definition name="accountDetail" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Record"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/accountDetail.jsp"/>
+    </definition>
+
+    <definition name="applicationSearch" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Application Search"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/applicationSearch.jsp"/>
+    </definition>
+
+    <definition name="approvedApplicationList" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Application List"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/approvedApplicationList.jsp"/>
+    </definition>
+
+    <definition name="documentLibrary" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Document Library"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/documentLibrary.jsp"/>
+    </definition>
+
+    <definition name="accountSearch" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Document Library"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/accountSearchView.jsp"/>
+    </definition>
+
+    <definition name="downloadCsv" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Download CSV file"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/downloadCsv.jsp"/>
+    </definition>
+
+    <definition name="applicationDetail" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Application Detail"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/viewapplication/applicationDetail.jsp"/>
+    </definition>
+
+    <definition name="documentsDetail" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Document Library"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/documentsDetail.jsp"/>
+    </definition>
+
+ 	<definition name="clientDetailsSerch" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Retrieve Details and Arrangement"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsClientDetailsView.jsp"/>
+    </definition>
+	<definition name="gcmServiceOpsHome" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - GCM Service List"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceGCMHome.jsp"/>
+    </definition>
+    <definition name="gcmServiceOpsResponse" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - GCM Service Response"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceOpsGCMResponse.jsp"/>
+    </definition>  
+    <definition name="maintainArrangementAndrelationshipReq" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Maintain IP Arrangement"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsService256.jsp"/>
+    </definition>
+    <definition name="retriveIpToIpRelationships" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Retrieve IP-IP Relation"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsRetriveIpToIp.jsp"/>
+    </definition>
+    <definition name="maintainIpToIpRelationship" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Maintain IP-IP Relation"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsService257.jsp"/>
+    </definition>
+    <definition name="retrieveIDVDetails" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Client Details"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsRetriveIDVDetails.jsp"/>
+    </definition> 
+    <definition name="retrivePostalAddress" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Retrive Postal Address"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsService454.jsp"/>
+    </definition>
+    
+	<definition name="maintainIdvDetails" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Maintain IDV Details"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsService325.jsp"/>
+    </definition>
+    
+    <definition name="maintainIpContactMethod" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Maintain IP Contact Method"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsService418.jsp"/>
+    </definition>
+    
+	<definition name="createIndividualIP" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Create Individual IP"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceOpsService336.jsp"/>
+    </definition>
+    <definition name="createOrganisationIP" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Create Organisation IP"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceOpsService337.jsp"/>
+    </definition>
+	<definition name="siloMovement" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Silo Movement"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/siloMovement.jsp"/>
+    </definition>	
+	<definition name="siloMovementResponse" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Silo Movement Response"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/siloMovementResponse.jsp"/>
+    </definition>
+    
+ <definition name="onBoardingStatus" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - On Boarding Status"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/serviceopsOnBoardingStatus.jsp"/>
+    </definition>
+    
+  <definition name="onBoardingStatusResponse" extends="cash.commonLayout">
+        <put-attribute name="title" value="Panorama - Onbaording status Response"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/serviceop/onBoardingStatusResponse.jsp"/>
+    </definition>
+    </tiles-definitions>

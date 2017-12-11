@@ -1,0 +1,34 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:id="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/">
+    <soapenv:Header xmlns:hdr="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+        <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+            <messageAttributes>
+                <id>NG-001.eee01e07-3ddb-4dd5-af74-49e9a9b519361</id>
+                <correlationId>NG-001.eee01e07-3ddb-4dd5-af74-49e9a9b51936</correlationId>
+                <createdTimestamp>2015-07-29T14:37:44.184</createdTimestamp>
+            </messageAttributes>
+            <channelAttributes>
+                <organisationId>WPAC</organisationId>
+                <brandSilo>WPAC</brandSilo>
+                <channelType>Online</channelType>
+                <originatingSystemId>NG-002</originatingSystemId>
+                <requester>
+                    <requesterType>System</requesterType>
+                </requester>
+                <location>
+                    <locationId>lnxau2106st0118</locationId>
+                    <locationType>Machine Name</locationType>
+                </location>
+            </channelAttributes>
+        </esbHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <out2:maintainIPContactMethodsResponse xmlns:out2="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/xsd/maintainIPContactMethods/v1/SVC0418/" xmlns:sh1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:io4="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:io5="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/common/xsd/v1/" xmlns:out="http://www.westpac.com.au/gn/utility/xsd/pagination/v1/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <sh:serviceStatus>
+                <sh:statusInfo>
+                    <sh:level>Success</sh:level>
+                    <sh:code>000,00000</sh:code>
+                </sh:statusInfo>
+            </sh:serviceStatus>
+        </out2:maintainIPContactMethodsResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

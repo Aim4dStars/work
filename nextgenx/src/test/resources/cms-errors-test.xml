@@ -1,0 +1,12 @@
+<cmsDatabase>
+    <entries>
+        <entry><key>Err.IP-0276</key><value>This account has been blocked.  For more information, contact Panorama Support on 1300 784 207</value></entry>
+        <entry><key>Err.IP-0040</key><value>Invalid asset code</value></entry>
+        <entry><key>Err.IP-0041</key><value>Invalid asset code for {1}</value></entry>
+        <entry><key>Err.IP-0042</key><value>Invalid asset code for {1} and {2}</value></entry>
+        <entry><key>Err.IP-0043</key><value>Invalid asset code for {2}</value></entry>
+        <entry><key>Err.IP-0044</key><value>Invalid asset code for {3}</value></entry>
+        <entry><key>Err.IP-0044</key><value>Invalid asset code for {1} and {1}</value></entry>
+        <entry><key>Err.IP-0333</key><value>We are currently experiencing technical difficulties. Sorry for the inconvenience. Please try again.[Err.IP-0333]</value></entry>
+	</entries>
+</cmsDatabase>

@@ -1,0 +1,37 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header />
+	<env:Body>
+		<ns3:AvaloqGatewayResponseMsg
+			xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+			<ResponseDetails>
+				<SuccessResponse>
+					<user:user_rsp xmlns:user="http://btfin.com/ABS/TrxService/User/V1_0">
+			  <hdr>
+ 				   <req_id>e96931a8-3364-4b01-a2a9-c68f53517d34</req_id>
+		  </hdr>
+  <data>
+    <sec_user>
+      <annot>
+        <displ_text>Robert  Wynberg</displ_text>
+        <ctx>
+          <type>obj_user</type>
+          <id>3504</id>
+        </ctx>
+      </annot>
+      <val>3504</val>
+    </sec_user>
+    <last_pwd_chg>
+      <val>2014-09-30T18:24:02+10:00</val>
+    </last_pwd_chg>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+    </exec>
+  </rsp>
+</user:user_rsp>
+				</SuccessResponse>
+			</ResponseDetails>
+		</ns3:AvaloqGatewayResponseMsg>
+	</env:Body>
+</env:Envelope>

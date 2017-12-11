@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_aal_list_aal_asset" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2016-06-03 16:32:27.262528000 on NGWD3 by AVALOQ -->
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<current_of_time>
+			<val>2016-06-03T06:32:27+10:00</val>
+		</current_of_time>
+		<aal_list>
+			<val/>
+		</aal_list>
+	</metadata>
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>flat</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>dt</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>prod_id</name>
+						<type>NrFld</type>
+						<lbl>Product ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_id</name>
+						<type>NrFld</type>
+						<lbl>Asset ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>aal</name>
+						<type>TextFld</type>
+						<lbl>AAL</lbl>
+					</fld_def>
+					<fld_def>
+						<name>dg_id</name>
+						<type>NrFld</type>
+						<lbl>Dealer Group ID</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+	<data>
+		<dt_list>
+			<dt>
+				<dt_head_list>
+					<dt_head id="2-1" row_type="data" hira="0" level="dt.head">
+						<prod_id>
+							<annot>
+								<displ_text/>
+								<ctx>
+									<type>prod</type>
+									<id>108293</id>
+								</ctx>
+							</annot>
+							<val>108293</val>
+						</prod_id>
+						<aal>
+							<annot>
+								<ctx>
+									<type>collect</type>
+									<id>28148</id>
+								</ctx>
+							</annot>
+							<val>TD APL for Securitor Financial Group Limited</val>
+						</aal>
+						<dg_id>
+							<annot>
+								<displ_text/>
+								<ctx>
+									<type>person</type>
+									<id>99884</id>
+								</ctx>
+							</annot>
+							<val>99884</val>
+						</dg_id>
+						<asset_list>
+							<asset id="4-2" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111780</val>
+								</asset_id>
+							</asset>
+							<asset id="6-3" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111782</val>
+								</asset_id>
+							</asset>
+							<asset id="8-4" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111784</val>
+								</asset_id>
+							</asset>
+							<asset id="10-5" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111786</val>
+								</asset_id>
+							</asset>
+							<asset id="12-6" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111788</val>
+								</asset_id>
+							</asset>
+							<asset id="14-7" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111790</val>
+								</asset_id>
+							</asset>
+							<asset id="16-8" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111792</val>
+								</asset_id>
+							</asset>
+							<asset id="18-9" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111794</val>
+								</asset_id>
+							</asset>
+							<asset id="20-10" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111796</val>
+								</asset_id>
+							</asset>
+							<asset id="22-11" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111798</val>
+								</asset_id>
+							</asset>
+							<asset id="24-12" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111800</val>
+								</asset_id>
+							</asset>
+							<asset id="26-13" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111802</val>
+								</asset_id>
+							</asset>
+							<asset id="28-14" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111804</val>
+								</asset_id>
+							</asset>
+							<asset id="30-15" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111818</val>
+								</asset_id>
+							</asset>
+							<asset id="32-16" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111820</val>
+								</asset_id>
+							</asset>
+							<asset id="34-17" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111822</val>
+								</asset_id>
+							</asset>
+							<asset id="36-18" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111824</val>
+								</asset_id>
+							</asset>
+							<asset id="38-19" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111826</val>
+								</asset_id>
+							</asset>
+							<asset id="40-20" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111828</val>
+								</asset_id>
+							</asset>
+							<asset id="42-21" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>111830</val>
+								</asset_id>
+							</asset>
+							<asset id="44-22" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>147116</val>
+								</asset_id>
+							</asset>
+							<asset id="46-23" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>147118</val>
+								</asset_id>
+							</asset>
+							<asset id="48-24" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>147120</val>
+								</asset_id>
+							</asset>
+							<asset id="50-25" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>147122</val>
+								</asset_id>
+							</asset>
+							<asset id="52-26" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>147124</val>
+								</asset_id>
+							</asset>
+							<asset id="54-27" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>147126</val>
+								</asset_id>
+							</asset>
+							<asset id="56-28" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>394922</val>
+								</asset_id>
+							</asset>
+							<asset id="58-29" row_type="data" hira="1" level="asset">
+								<asset_id>
+									<val>437202</val>
+								</asset_id>
+							</asset>
+						</asset_list>
+					</dt_head>
+				</dt_head_list>
+			</dt>
+			<dt>
+				<dt_head_list>
+					<dt_head id="37058-18529" row_type="data" hira="0" level="dt.head"/>
+				</dt_head_list>
+			</dt>
+		</dt_list>
+	</data>
+</rep:rep>

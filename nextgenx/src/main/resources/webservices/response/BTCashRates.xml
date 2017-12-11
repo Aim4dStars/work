@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cashRate value will be formatted: <cashRate>.0230567</cashRate> will become 2.30%-->
+<dealerCashRate>
+	<cashRates>
+		<cashRate>
+			<cashRateDate>30 Oct 2013</cashRateDate>
+			<cashRate>.0237567</cashRate>
+		</cashRate>
+		<cashRate>
+			<cashRateDate>28 Sep 2013</cashRateDate>
+			<cashRate>.0427</cashRate>
+		</cashRate>
+		<cashRate>
+			<cashRateDate>10 Jan 2012</cashRateDate>
+			<cashRate>.0930745454</cashRate>
+		</cashRate>
+		<cashRate>
+			<cashRateDate>28 Jun 2013</cashRateDate>
+			<cashRate>.026455</cashRate>
+		</cashRate>
+		<cashRate>
+			<cashRateDate>28 Mar 2013</cashRateDate>
+			<cashRate>.045</cashRate>
+		</cashRate>
+		<cashRate>
+			<cashRateDate>28 Jul 2013</cashRateDate>
+			<cashRate>.02344467</cashRate>
+		</cashRate>
+	</cashRates>
+</dealerCashRate>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;rep:report xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_basic_investor" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"&gt;
+
+  &lt;def&gt;
+    &lt;version&gt;1.0&lt;/version&gt;
+    &lt;report_def&gt;
+      &lt;style&gt;flat&lt;/style&gt;
+      &lt;lang id="1"&gt;en&lt;/lang&gt;
+      &lt;hira_def&gt;
+        &lt;group_list&gt;
+        &lt;/group_list&gt;
+      &lt;/hira_def&gt;
+      &lt;row_def&gt;
+        &lt;fld_list&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;macc&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;macc&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;person&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;person&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;first_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;first_name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;middle_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;middle_name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;last_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;last_name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;role&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;role&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;bp_auth&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;bp_authority&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;auth&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;authority&lt;/label&gt;
+        &lt;/fld_def&gt;
+
+        &lt;/fld_list&gt;
+      &lt;/row_def&gt;
+    &lt;/report_def&gt;
+  &lt;/def&gt;
+
+  &lt;data&gt;
+    &lt;report_data&gt;
+            &lt;head_list&gt;
+      &lt;head id="1" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;macc&gt;&lt;annot&gt;&lt;ctxType&gt;macc&lt;/ctxType&gt;&lt;ctxId&gt;12344&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Current account AUD 10000008&lt;/val&gt;&lt;/macc&gt;
+          &lt;person&gt;&lt;annot&gt;&lt;ctxType&gt;person&lt;/ctxType&gt;
+            &lt;ctxId&gt;11840&lt;/ctxId&gt;
+            &lt;/annot&gt;&lt;val&gt;Salminen Monica&lt;/val&gt;&lt;/person&gt;
+          &lt;first_name&gt;&lt;val&gt;Monica&lt;/val&gt;&lt;/first_name&gt;
+          &lt;last_name&gt;&lt;val&gt;Salminen&lt;/val&gt;&lt;/last_name&gt;
+      &lt;/head&gt;
+      &lt;head id="2" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;320&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Customer basic&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="3" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;100&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Basic Order Visibility&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="4" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;194&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR ADDR - Maker&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="5" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;193&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR ADDR - Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="6" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;127&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR AFS Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="7" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;125&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR Basic Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="8" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;202&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR BP - Maker&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="9" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;201&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR BP - Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="10" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;179&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR FIDD - Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="11" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;165&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR INPAY - Maker&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="12" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;164&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR INPAY - Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="13" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;164&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR INPAY - Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="14" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;318&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR PAY - Custr Maker&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="15" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;139&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR PAY - Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="16" rowType="title" hira="0" level="report_data.head"&gt;
+          &lt;role&gt;&lt;annot&gt;&lt;ctxType&gt;user&lt;/ctxType&gt;&lt;ctxId&gt;133&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;FR Web Replic Read Only&lt;/val&gt;&lt;/role&gt;
+      &lt;/head&gt;
+      &lt;head id="23" rowType="title" hira="0" level="report_data.head"&gt;
+      	&lt;relation&gt;&lt;annot&gt;&lt;ctxType&gt;code_obj_rel_sub_type&lt;/ctxType&gt;&lt;ctxId&gt;295&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Is Para-Planner&lt;/val&gt;&lt;/relation&gt;
+          &lt;bp_auth&gt;&lt;annot&gt;&lt;ctxType&gt;bp&lt;/ctxType&gt;&lt;ctxId&gt;12147&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Taylor Martin&lt;/val&gt;&lt;/bp_auth&gt;
+          &lt;auth&gt;&lt;annot&gt;&lt;ctxType&gt;code_auth_trx_grp&lt;/ctxType&gt;&lt;ctxId&gt;1125&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Pay_Inpay_All&lt;/val&gt;&lt;/auth&gt;
+      &lt;/head&gt;
+      &lt;head id="24" rowType="title" hira="0" level="report_data.head"&gt;
+      	&lt;relation&gt;&lt;annot&gt;&lt;ctxType&gt;code_obj_rel_sub_type&lt;/ctxType&gt;&lt;ctxId&gt;295&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Is Para-Planner&lt;/val&gt;&lt;/relation&gt;
+          &lt;bp_auth&gt;&lt;annot&gt;&lt;ctxType&gt;bp&lt;/ctxType&gt;&lt;ctxId&gt;12147&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Taylor Martin&lt;/val&gt;&lt;/bp_auth&gt;
+          &lt;auth&gt;&lt;annot&gt;&lt;ctxType&gt;code_auth_trx_grp&lt;/ctxType&gt;&lt;ctxId&gt;1125&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Pay_Inpay_All&lt;/val&gt;&lt;/auth&gt;
+      &lt;/head&gt;
+
+      &lt;head id="32" rowType="title" hira="0" level="report_data.head"&gt;
+      	&lt;relation&gt;&lt;annot&gt;&lt;ctxType&gt;code_obj_rel_sub_type&lt;/ctxType&gt;&lt;ctxId&gt;295&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Is Para-Planner&lt;/val&gt;&lt;/relation&gt;
+          &lt;bp_auth&gt;&lt;annot&gt;&lt;ctxType&gt;bp&lt;/ctxType&gt;&lt;ctxId&gt;12148&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Brown Olivia&lt;/val&gt;&lt;/bp_auth&gt;
+          &lt;auth&gt;&lt;annot&gt;&lt;ctxType&gt;code_auth_trx_grp&lt;/ctxType&gt;&lt;ctxId&gt;1&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;No_Trx&lt;/val&gt;&lt;/auth&gt;
+      &lt;/head&gt;
+      &lt;head id="33" rowType="title" hira="0" level="report_data.head"&gt;
+     	 &lt;relation&gt;&lt;annot&gt;&lt;ctxType&gt;code_obj_rel_sub_type&lt;/ctxType&gt;&lt;ctxId&gt;295&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Is Para-Planner&lt;/val&gt;&lt;/relation&gt;
+          &lt;bp_auth&gt;&lt;annot&gt;&lt;ctxType&gt;bp&lt;/ctxType&gt;&lt;ctxId&gt;12150&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;White Anthony&lt;/val&gt;&lt;/bp_auth&gt;
+          &lt;auth&gt;&lt;annot&gt;&lt;ctxType&gt;code_auth_trx_grp&lt;/ctxType&gt;&lt;ctxId&gt;1125&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Pay_Inpay_Linked&lt;/val&gt;&lt;/auth&gt;
+      &lt;/head&gt;
+            &lt;/head_list&gt;
+    &lt;/report_data&gt;
+
+  &lt;/data&gt;
+&lt;/rep:report&gt;
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

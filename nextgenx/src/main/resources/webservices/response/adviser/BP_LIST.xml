@@ -1,0 +1,631 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header />
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg
+                xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp_list_all_custr" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <!-- 2014-09-27 13:33:12.222709000 on afd030a by AVALOQ -->
+
+                        <metadata>
+                            <empty_rep><val>false</val></empty_rep>
+                            <current_of_time><val>2014-09-27T03:33:12.453285000Z</val></current_of_time>
+                        </metadata>
+
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>hira</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>bp</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>dummy</name>
+                                            <type>TextFld</type>
+                                            <lbl></lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp</name>
+                                            <type>TextFld</type>
+                                            <lbl>BP</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_nr</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP NR</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>acc_struct_type_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Account structure type</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>prod_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Product ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_acc_status_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Account status ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_is_open</name>
+                                            <type>BoolFld</type>
+                                            <lbl>BP Is Open</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_person_oe_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Adviser OE ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_person_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Adviser Person ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_permission_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP Adviser permission ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>cont_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Container ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>owner_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Account Owner ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>auth_role_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Authority Role ID</lbl>
+                                        </fld_def>
+
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+
+
+                        <data>
+                            <bp_list>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74611</id></ctx></annot><val>Michael  Tonini</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>2750</id></ctx></annot><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <bp_docm_list_list>
+                                                <bp_docm_list id="4-2" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id>
+                                                        <val>10490</val>
+                                                    </docm_id>
+                                                    <is_tnc_docm>
+                                                        <annot>
+                                                            <displ_text>0</displ_text>
+                                                        </annot>
+                                                        <val>false</val>
+                                                    </is_tnc_docm>
+                                                    <docm_sign_date>
+                                                        <val>2014-07-09</val>
+                                                    </docm_sign_date>
+                                                </bp_docm_list>
+                                                <bp_docm_list id="6-3" row_type="data" hira="2" level="bp_docm_list">
+                                                    <docm_id>
+                                                        <val>21326</val>
+                                                    </docm_id>
+                                                    <is_tnc_docm>
+                                                        <annot>
+                                                            <displ_text>1</displ_text>
+                                                        </annot>
+                                                        <val>true</val>
+                                                    </is_tnc_docm>
+                                                    <docm_sign_date>
+                                                        <val>2014-07-09</val>
+                                                    </docm_sign_date>
+                                                    <docm_refer_person_id>
+                                                        <val>44489</val>
+                                                    </docm_refer_person_id>
+                                                </bp_docm_list>
+                                            </bp_docm_list_list>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>11263</id></ctx></annot><val>Oniston Pty Limited - 01</val></bp>
+                                            <bp_nr><val>120000005</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20613</id></ctx></annot><val>20613</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_auth_list>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="5" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="6" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                        <bp_head id="7" row_type="data" hira="1" level="bp.head">
+                                            <cont_list>
+                                                <cont id="8" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>11264</id></ctx></annot><val>11264</val></cont_id>
+                                                </cont>
+                                                <cont id="9" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>62833</id></ctx></annot><val>62833</val></cont_id>
+                                                </cont>
+                                            </cont_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74643</id></ctx></annot><val>John Cooper</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74644</id></ctx></annot><val>James Leopa</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74645</id></ctx></annot><val>Mitch Free</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74646</id></ctx></annot><val>Tim Ey</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74647</id></ctx></annot><val>Loon Jey</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74648</id></ctx></annot><val>Smokey Boop</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74649</id></ctx></annot><val>Sean O'Tool</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74650</id></ctx></annot><val>Jane Key</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74651</id></ctx></annot><val>Adam Campwell</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74652</id></ctx></annot><val>Karen Snark</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4534" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74653</id></ctx></annot><val>Herpy Derp</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84963</id></ctx></annot><val>84963</val></prod_id>
+                                            <bp_acc_status_id><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="454" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>74674</id></ctx></annot><val>Michael  Tonini</val></bp>
+                                            <bp_nr><val>120011366</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84967</id></ctx></annot><val>84967</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="4536" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="4537" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>11111</id></ctx></annot><val>Oniston Pty Limited - 11</val></bp>
+                                            <bp_nr><val>120000005</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20613</id></ctx></annot><val>20613</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84967</id></ctx></annot><val>84967</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                                <avsr_person_auth id="4535" row_type="data" hira="2" level="avsr_person_auth">
+                                                    <avsr_permission_id><annot><displ_text></displ_text><ctx><type>code_auth_trx_grp</type><id>1125</id></ctx></annot><val>1125</val></avsr_permission_id>
+                                                </avsr_person_auth>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="5" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="6" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>74609</id></ctx></annot><val>74609</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                        <bp_head id="7" row_type="data" hira="1" level="bp.head">
+                                            <cont_list>
+                                                <cont id="8" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>11264</id></ctx></annot><val>11264</val></cont_id>
+                                                </cont>
+                                                <cont id="9" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>62833</id></ctx></annot><val>62833</val></cont_id>
+                                                </cont>
+                                            </cont_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="5247" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text></displ_text><ctx><type>bp</type><id>77175</id></ctx></annot><val>Demo Parkside Pty Ltd</val></bp>
+                                            <bp_nr><val>120012398</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>20613</id></ctx></annot><val>20613</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text></displ_text><ctx><type>prod</type><id>84965</id></ctx></annot><val>84965</val></prod_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text></displ_text><ctx><type>person</type><id>90251</id></ctx></annot><val>90251</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>69791</id></ctx></annot><val>69791</val></avsr_person_id>
+                                            <avsr_person_auth_list>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="5248" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="5249" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text></displ_text><ctx><type>person</type><id>77172</id></ctx></annot><val>77172</val></owner_id>
+                                                    <auth_role_id><annot><displ_text></displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                        <bp_head id="5250" row_type="data" hira="1" level="bp.head">
+                                            <cont_list>
+                                                <cont id="5251" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>77176</id></ctx></annot><val>77176</val></cont_id>
+                                                </cont>
+                                                <cont id="5252" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>77177</id></ctx></annot><val>77177</val></cont_id>
+                                                </cont>
+                                                <cont id="5253" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>78038</id></ctx></annot><val>78038</val></cont_id>
+                                                </cont>
+                                                <cont id="5254" row_type="data" hira="2" level="cont">
+                                                    <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>78062</id></ctx></annot><val>78062</val></cont_id>
+                                                </cont>
+                                            </cont_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <!--<bp>
+                                    <bp_head_list>
+                                        <bp_head id="35" row_type="data" hira="1" level="bp.head">
+                                            <bp><annot><displ_text>NOV18 Test1 2014</displ_text><ctx><type>bp</type><id>89337</id></ctx></annot><val>NOV18 Test1 2014</val></bp>
+                                            <bp_nr><val>120015771</val></bp_nr>
+                                            <acc_struct_type_id><annot><displ_text>Individual</displ_text><ctx><type>code_obj_class</type><id>20611</id></ctx></annot><val>20611</val></acc_struct_type_id>
+                                            <prod_id><annot><displ_text>White Label 35d1b65704184ae3b87799400f7ab93c</displ_text><ctx><type>prod</type><id>80325</id></ctx></annot><val>80325</val></prod_id>
+                                            <bp_acc_status_id><annot><displ_text>Pending opening</displ_text><ctx><type>code_obj_class</type><id>2750</id></ctx></annot><val>2750</val></bp_acc_status_id>
+                                            <bp_is_open><annot><displ_text>1</displ_text></annot><val>true</val></bp_is_open>
+                                            <avsr_person_oe_id><annot><displ_text>Martina DEMO AVSR Hingis</displ_text><ctx><type>person</type><id>81639</id></ctx></annot><val>81639</val></avsr_person_oe_id>
+                                            <avsr_person_id><annot><displ_text>Martina DEMO AVSR Hingis</displ_text><ctx><type>person</type><id>81645</id></ctx></annot><val>81645</val></avsr_person_id>
+                                            <has_dg_advcong_fee_trx><annot><displ_text>0</displ_text></annot><val>false</val></has_dg_advcong_fee_trx>
+                                            <avsr_person_auth_list>
+                                            </avsr_person_auth_list>
+                                        </bp_head>
+                                        <bp_head id="36" row_type="data" hira="1" level="bp.head">
+                                            <owner_list>
+                                                <owner id="37" row_type="data" hira="2" level="owner">
+                                                    <owner_id><annot><displ_text>NOV18 Test1 2014</displ_text><ctx><type>person</type><id>89335</id></ctx></annot><val>89335</val></owner_id>
+                                                    <auth_role_id><annot><displ_text>Account Owner</displ_text><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>1</val></auth_role_id>
+                                                </owner>
+                                            </owner_list>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>-->
+                            </bp_list>
+
+                        </data>
+                    </rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>
+<!-- test2222 at 2014-09-27T03:33:45.425667000Z on AFD030A by AVALOQ -->

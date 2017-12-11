@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_bp_costp" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-06-23 15:55:10.621634000 on afd031n by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>true</val></empty_rep>
+    <current_of_time><val>2014-06-23T05:55:10.622587000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>report</name>
+            <hira>1</hira>
+            <has_head>false</has_head>
+            <has_foot>true</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>descn</name>
+          <type>TextFld</type>
+            <lbl>Description</lbl>
+        </fld_def>
+        <fld_def>
+          <name>btfg_book_kind_id</name>
+          <type>NrFld</type>
+            <lbl>Book kind</lbl>
+        </fld_def>
+        <fld_def>
+          <name>btfg_cost_misc_id</name>
+          <type>NrFld</type>
+            <lbl>Type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>btfg_tariff_type_id</name>
+          <type>NrFld</type>
+            <lbl>Component</lbl>
+        </fld_def>
+        <fld_def>
+          <name>btfg_fee_platform_adm_fua_id</name>
+          <type>NrFld</type>
+            <lbl>Include asset Adm. Fee.</lbl>
+        </fld_def>
+        <fld_def>
+          <name>btfg_fua_incl_id</name>
+          <type>NrFld</type>
+            <lbl>Include asset SPCD</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bound_from</name>
+          <type>NrFld</type>
+            <lbl>Boundary from</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bound_to</name>
+          <type>NrFld</type>
+            <lbl>Boundary to</lbl>
+        </fld_def>
+        <fld_def>
+          <name>tariff_factor</name>
+          <type>NrFld</type>
+            <lbl>Factor</lbl>
+        </fld_def>
+        <fld_def>
+          <name>tariff_amt</name>
+          <type>NrFld</type>
+            <lbl>Amount</lbl>
+        </fld_def>
+        <fld_def>
+          <name>min</name>
+          <type>NrFld</type>
+            <lbl>Minimum</lbl>
+        </fld_def>
+        <fld_def>
+          <name>max</name>
+          <type>NrFld</type>
+            <lbl>Maximum</lbl>
+        </fld_def>
+        <fld_def>
+          <name>do_cpi</name>
+          <type>BoolFld</type>
+            <lbl>CPI indexation</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cpi_next</name>
+          <type>DateFld</type>
+            <lbl>CPI eval date next</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cpi_base_tariff_amt</name>
+          <type>NrFld</type>
+            <lbl>CPI base amount</lbl>
+        </fld_def>
+        <fld_def>
+          <name>rel_pric_grp</name>
+          <type>TextFld</type>
+            <lbl>Rel. pric. grp.</lbl>
+        </fld_def>
+        <fld_def>
+          <name>rel_pric_pri_ctact</name>
+          <type>TextFld</type>
+            <lbl>Rel. pric. grp. prim. contact</lbl>
+        </fld_def>
+        <fld_def>
+          <name>rel_pric_mtd_id</name>
+          <type>NrFld</type>
+            <lbl>Rel. pric. method</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+
+  </data>
+</rep:rep>

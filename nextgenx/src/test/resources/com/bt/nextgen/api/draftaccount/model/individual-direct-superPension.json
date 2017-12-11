@@ -1,0 +1,70 @@
+{
+  "version": "1.0.0",
+  "applicationOrigin": "WestpacLive",
+  "accountType": "superPension",
+  "pensioneligibility": {
+    "conditionRelease": "OTH",
+    "eligibilityCriteria": "UNPSV"
+  },
+  "investors": [
+    {
+      "cisId": "432521525",
+      "userName": "21142019",
+      "idVerified": true,
+      "title": "MRS",
+      "firstname": "DEEP",
+      "lastname": "SHIKHA",
+      "dateofbirth": "01\/01\/1989",
+      "gender": "female",
+      "preferredcontact": "mobile",
+      "resaddress": {
+        "unitNumber": "9",
+        "floor": "90",
+        "streetNumber": "438",
+        "streetName": "Market",
+        "streetType": "St",
+        "building": "Ece Arc",
+        "suburb": "Sydney",
+        "state": "NSW",
+        "stateAbbr": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "country": "AU",
+        "domicile": true,
+        "mailingAddress": true,
+        "addressType": "residential",
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "componentised": true,
+        "pin": "2000"
+      },
+      "postaladdress": {
+        "unitNumber": "9",
+        "floor": "90",
+        "streetNumber": "438",
+        "streetName": "Market",
+        "streetType": "St",
+        "building": "Ece Arc",
+        "suburb": "Sydney",
+        "state": "NSW",
+        "stateAbbr": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "country": "AU",
+        "domicile": true,
+        "mailingAddress": true,
+        "addressType": "residential",
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "componentised": true,
+        "pin": "2000"
+      },
+      "tfn": "11111111",
+      "taxoption": "Tax File Number provided",
+      "taxcountry": "AU",
+      "key": {
+        "clientId": "13D4A6CA29708AFFAFB87974E54D27CFFB0EEA671252BEE7"
+      }
+    }
+  ]
+}

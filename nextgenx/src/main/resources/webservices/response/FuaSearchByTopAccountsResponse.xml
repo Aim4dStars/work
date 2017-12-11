@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fua>
+	<!-- These values are for the selected search criteria (particularly for 'as at date')  -->
+	<clientCount>153</clientCount>
+	<accountCount>56</accountCount>
+	<totalFUA>46527967</totalFUA>
+	
+	<adviserCount>4</adviserCount>	
+	
+	<cashAccountsAmount>5775989</cashAccountsAmount>
+	<noOfCashAccounts>11</noOfCashAccounts>
+	<tdAccountsAmount>40751978</tdAccountsAmount>
+	<noOfTDAccounts>7</noOfTDAccounts>
+	
+	<dealerGroupName>Dealer Group 3</dealerGroupName>
+	
+	<changeInFUA>390989</changeInFUA>
+	<cashAccountsAmountForThirtyDays>345989</cashAccountsAmountForThirtyDays>
+	<noOfCashAccountsForThirtyDays>3</noOfCashAccountsForThirtyDays>
+	<totalTDAmountForThirtyDays>45000</totalTDAmountForThirtyDays>
+	<noOfTDAccountsForThirtyDays>2</noOfTDAccountsForThirtyDays>
+	<noOfNewAdvisers>5</noOfNewAdvisers>
+	
+	<FuaDataTableList>
+		<fuaDataTable>
+			<accountId>10000001</accountId>
+			<accountName>Taylor Martin</accountName>
+			<adviserFirstName>Salminen</adviserFirstName>
+			<adviserLastName>Monica</adviserLastName>
+			<adviserId>654321</adviserId>
+			<clientId>MTE4NjE=</clientId>
+			<portfolioId>MTIxNDc=</portfolioId>
+			<city>Wyndham Vale</city>
+			<state>Victoria</state>
+			<tdAmount>345989</tdAmount>
+			<!-- This fuaAmount value can also be calculated from tdAmount & cashAmount  [ tdAmount + cashAmount]  -->
+			<fuaAmount>1345989</fuaAmount>
+			<!-- This fuaAmountPercentage value can also be calculated from totalFUA  [ ((tdAmount + cashAmount)/totalFUA)*100 ]  -->
+			<fuaAmountPercentage>11.86</fuaAmountPercentage>
+			<accountType>Individual</accountType>
+			<cashAmount>1000000</cashAmount>
+			<highestBalance>1030000</highestBalance>
+			<medianBalance>10000</medianBalance>
+			<averageBalance>1000000</averageBalance>
+			<noOfAccounts>0</noOfAccounts>
+		</fuaDataTable>
+		<fuaDataTable>
+			<accountId>10000002</accountId>
+			<accountName>Dennis Beecham</accountName>
+			<adviserFirstName>Subhashini</adviserFirstName>
+			<adviserLastName>Mani Karthik</adviserLastName>
+			<adviserId>654322</adviserId>
+			<clientId>MTE4NjE=</clientId>
+			<portfolioId>MTIxNDc=</portfolioId>
+			<city>Wyndham Vale</city>
+			<state>Victoria</state>
+			<tdAmount>30000</tdAmount>
+			<fuaAmount>30000</fuaAmount>
+			<fuaAmountPercentage>46.71</fuaAmountPercentage>
+			<accountType>Joint</accountType>
+			<cashAmount>0</cashAmount>
+			<highestBalance>130000</highestBalance>
+			<medianBalance>10000</medianBalance>
+			<averageBalance>10000</averageBalance>
+			<noOfAccounts>0</noOfAccounts>
+		</fuaDataTable>
+		<fuaDataTable>
+			<accountId>10000003</accountId>
+			<accountName>Brown Olivia</accountName>
+			<adviserFirstName>Ankur</adviserFirstName>
+			<adviserLastName>Jain</adviserLastName>
+			<adviserId>654323</adviserId>
+			<clientId>MTE4NjE=</clientId>
+			<portfolioId>MTIxNDc=</portfolioId>
+			<city>Wyndham Vale</city>
+			<state>Victoria</state>
+			<tdAmount>225989</tdAmount>
+			<fuaAmount>4225989</fuaAmount>
+			<fuaAmountPercentage>9.86</fuaAmountPercentage>
+			<accountType>Company</accountType>
+			<cashAmount>4000000</cashAmount>
+			<highestBalance>30050000</highestBalance>
+			<medianBalance>3001000</medianBalance>
+			<averageBalance>30000</averageBalance>
+			<noOfAccounts>0</noOfAccounts>
+		</fuaDataTable>
+		<fuaDataTable>
+			<accountId>10000004</accountId>
+			<accountName>White Antony</accountName>
+			<adviserFirstName>Shantanu</adviserFirstName>
+			<adviserLastName>Chaubey</adviserLastName>
+			<adviserId>654324</adviserId>
+			<clientId>MTE4NjE=</clientId>
+			<portfolioId>MTIxNDc=</portfolioId>
+			<city>Wyndham Vale</city>
+			<state>Victoria</state>
+			<tdAmount>40000000</tdAmount>
+			<fuaAmount>40625989</fuaAmount>
+			<fuaAmountPercentage>20</fuaAmountPercentage>
+			<accountType>SMSF</accountType>
+			<cashAmount>625989</cashAmount>
+			<highestBalance>40000000</highestBalance>
+			<medianBalance>30000000</medianBalance>
+			<averageBalance>2000000</averageBalance>
+			<noOfAccounts>0</noOfAccounts>
+		</fuaDataTable>
+		<fuaDataTable>
+			<accountId>10000006</accountId>
+			<accountName>Taylor Martin</accountName>
+			<adviserFirstName>Salminen</adviserFirstName>
+			<adviserLastName>Monica</adviserLastName>
+			<adviserId>654321</adviserId>
+			<clientId>MTE4NjE=</clientId>
+			<portfolioId>MTIxNDc=</portfolioId>
+			<city>Wyndham Vale</city>
+			<state>Victoria</state>
+			<tdAmount>150000</tdAmount>
+			<fuaAmount>300000</fuaAmount>
+			<fuaAmountPercentage>16.10</fuaAmountPercentage>
+			<accountType>Trust</accountType>
+			<cashAmount>150000</cashAmount>
+			<highestBalance>5000000</highestBalance>
+			<medianBalance>3000000</medianBalance>
+			<averageBalance>2000000</averageBalance>
+			<noOfAccounts>0</noOfAccounts>
+		</fuaDataTable>		
+	</FuaDataTableList>
+</fua>

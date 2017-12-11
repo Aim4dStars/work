@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_mp_rebal_oe_dflt_rebal_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- 2017-02-20 19:04:08.837380000 on afp020c by 201667385 -->
+  <metadata>
+    <empty_rep>
+      <val>false</val>
+    </empty_rep>
+    <current_of_time>
+      <val>2017-02-20T08:04:08+11:00</val>
+    </current_of_time>
+  </metadata>
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>report</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>cua</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>cua_id</name>
+            <type>TextFld</type>
+            <lbl>CUA ID</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_trade_pct_scan</name>
+            <type>NrFld</type>
+            <lbl>Minimum Trade Percentage - Scan and Model (%)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_trade_amt_scan</name>
+            <type>NrFld</type>
+            <lbl>Minimum Trade Amount - Scan and Model ($)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_trade_pct</name>
+            <type>NrFld</type>
+            <lbl>Minimum Trade Percentage - Other Triggers (%)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_trade_amt</name>
+            <type>NrFld</type>
+            <lbl>Minimum Trade Amount - Other Triggers ($)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>tolrc_abs_pct</name>
+            <type>NrFld</type>
+            <lbl>Tolerance - Absolute Limit (%)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>tolrc_rel_pct</name>
+            <type>NrFld</type>
+            <lbl>Tolerance - Relative Limit (%)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>tolrc_thres_pct</name>
+            <type>NrFld</type>
+            <lbl>Tolerance - Target Weight Threshold (%)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_init_invst_amt</name>
+            <type>NrFld</type>
+            <lbl>Minimum Initial Investment Amount ($)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_widrw_amt</name>
+            <type>NrFld</type>
+            <lbl>Minimum Withdrawal Amount</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_contri_amt</name>
+            <type>NrFld</type>
+            <lbl>Minimum Contribution</lbl>
+          </fld_def>
+          <fld_def>
+            <name>min_cash_alloc_pct</name>
+            <type>NrFld</type>
+            <lbl>Minimum Cash Allocation (%)</lbl>
+          </fld_def>
+          <fld_def>
+            <name>max_part_rdmpt_pct</name>
+            <type>NrFld</type>
+            <lbl>Maximum % for a Partial Redemption</lbl>
+          </fld_def>
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+  <data>
+    <report>
+      <report_head_list>
+        <report_head hira="0" id="2-1" level="report.head" row_type="data"/>
+      </report_head_list>
+      <cua_list>
+        <cua>
+          <cua_head_list>
+            <cua_head hira="0" id="4-2" level="cua.head" row_type="data">
+              <cua_id>
+                <annot>
+                  <displ_text>Findex Advice Services MDA</displ_text>
+                  <ctx>
+                    <type>cua</type>
+                    <id>552999</id>
+                  </ctx>
+                </annot>
+                <val>552999</val>
+              </cua_id>
+              <min_trade_pct_scan>
+                <val>.2</val>
+              </min_trade_pct_scan>
+              <min_trade_amt_scan>
+                <val>20</val>
+              </min_trade_amt_scan>
+              <min_trade_pct>
+                <val>.2</val>
+              </min_trade_pct>
+              <min_trade_amt>
+                <val>20</val>
+              </min_trade_amt>
+              <tolrc_abs_pct>
+                <val>.5</val>
+              </tolrc_abs_pct>
+              <tolrc_rel_pct>
+                <val>10</val>
+              </tolrc_rel_pct>
+              <tolrc_thres_pct>
+                <val>5</val>
+              </tolrc_thres_pct>
+              <pp_min_trade_amt>
+                <val>500</val>
+              </pp_min_trade_amt>
+              <pp_dflt_asset_tolrc>
+                <val>2</val>
+              </pp_dflt_asset_tolrc>
+              <pp_min_invst_amt>
+                <val>1000</val>
+              </pp_min_invst_amt>
+              <min_init_invst_amt>
+                <val>10000</val>
+              </min_init_invst_amt>
+              <min_widrw_amt>
+                <val>0</val>
+              </min_widrw_amt>
+              <min_contri_amt>
+                <val>0</val>
+              </min_contri_amt>
+              <min_cash_alloc_pct>
+                <val>2.5</val>
+              </min_cash_alloc_pct>
+              <max_part_rdmpt_pct>
+                <val>90</val>
+              </max_part_rdmpt_pct>
+            </cua_head>
+          </cua_head_list>
+        </cua>
+      </cua_list>
+    </report>
+  </data>
+</rep:rep>

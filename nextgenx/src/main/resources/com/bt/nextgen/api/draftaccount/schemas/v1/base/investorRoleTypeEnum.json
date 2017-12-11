@@ -1,0 +1,17 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type": "string",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.base.InvestorRoleTypeEnum",
+  "enum": [
+    "director",
+    "Director",
+    "secretary",
+    "Secretary",
+    "signatory",
+    "Signatory",
+    "trustee",
+    "Trustee"
+  ],
+  "description": "Investor account settings role (values starting in lower case) and shareholdersAndMembers.investorsWithRoles values (starting upper case)",
+  "TODO": "refactor web client so that we have a single value for: director/secretary/signatory (upper case OR lower case)"
+}

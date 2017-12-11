@@ -1,0 +1,235 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+      	<SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_list_invst_status" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2015-03-05 18:19:41.327752000 on afp010f by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val></val></date_from>
+    <date_to><val></val></date_to>
+    <current_of_time><val>2014-07-20T23:54:54.198935000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+	<version>2.0</version>
+	<rep_def>
+		<style>hira</style>
+		<lang id="1">en</lang>
+		<hira_def>
+			<grp_list>
+				<grp_def>
+					<name>doc</name>
+					<hira>1</hira>
+					<has_head>true</has_head>
+					<has_foot>false</has_foot>
+				</grp_def>
+			</grp_list>
+		</hira_def>
+		<row_def>
+			<fld_list>
+				<fld_def>
+					<name>dummy</name>
+					<type>TextFld</type>
+					<lbl/>
+				</fld_def>
+				<fld_def>
+					<name>doc_id</name>
+					<type>NrFld</type>
+					<lbl>Order ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>bp_id</name>
+					<type>NrFld</type>
+					<lbl>BP ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>cont_type_id</name>
+					<type>NrFld</type>
+					<lbl>Container type</lbl>
+				</fld_def>
+				<fld_def>
+					<name>cont_id</name>
+					<type>NrFld</type>
+					<lbl>Container ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>order_type_id</name>
+					<type>NrFld</type>
+					<lbl>Order type</lbl>
+				</fld_def>
+				<fld_def>
+					<name>medium_id</name>
+					<type>NrFld</type>
+					<lbl>Medium ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>meta_typ_id</name>
+					<type>NrFld</type>
+					<lbl>Meta type ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>asset_id</name>
+					<type>NrFld</type>
+					<lbl>Asset ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>descn</name>
+					<type>TextFld</type>
+					<lbl>Descn</lbl>
+				</fld_def>
+				<fld_def>
+					<name>ins_by_sec_user</name>
+					<type>TextFld</type>
+					<lbl>Last Avaloq user</lbl>
+				</fld_def>
+				<fld_def>
+					<name>cancel_status</name>
+					<type>BoolFld</type>
+					<lbl>Cancel status</lbl>
+				</fld_def>
+				<fld_def>
+					<name>qty</name>
+					<type>NrFld</type>
+					<lbl>Quantity</lbl>
+				</fld_def>
+				<fld_def>
+					<name>ui_wfs_id</name>
+					<type>NrFld</type>
+					<lbl>UI workflow status ID</lbl>
+				</fld_def>
+				<fld_def>
+					<name>trx_date</name>
+					<type>DateTimeFld</type>
+					<lbl>Transaction date</lbl>
+				</fld_def>
+				<fld_def>
+					<name>order_date</name>
+					<type>DateTimeFld</type>
+					<lbl>Order date</lbl>
+				</fld_def>
+				<fld_def>
+					<name>last_trans_seq_nr</name>
+					<type>NrFld</type>
+					<lbl>Last Transaction Sequence Number</lbl>
+				</fld_def>
+				<fld_def>
+					<name>key</name>
+					<type>TextFld</type>
+					<lbl>Key</lbl>
+				</fld_def>
+				<fld_def>
+					<name>val</name>
+					<type>TextFld</type>
+					<lbl>Value</lbl>
+				</fld_def>
+
+			</fld_list>
+		</row_def>
+	</rep_def>
+  </def>
+  <data>
+	<doc_list>
+		<doc>
+			<doc_head_list>
+				<doc_head id="6-3" row_type="data" hira="1" level="doc.head">
+					<doc_id>
+						<annot>
+							<ctx>
+								<type>doc</type>
+								<id>439906</id>
+							</ctx>
+						</annot>
+						<val>439906</val>
+					</doc_id>
+					<bp_id>
+						<val>95262</val>
+					</bp_id>
+					<cont_type_id>
+						<val>7102</val>
+					</cont_type_id>
+					<cont_id>
+						<val>95263</val>
+					</cont_id>
+					<order_type_id>
+						<val>739</val>
+					</order_type_id>
+					<medium_id>
+						<val>34</val>
+					</medium_id>
+					<meta_typ_id>
+						<val>1</val>
+					</meta_typ_id>
+					<asset_id>
+						<val>93659</val>
+					</asset_id>
+					<ins_by_sec_user>
+						<annot>
+							<ctx>
+								<type>user</type>
+								<id>319</id>
+							</ctx>
+						</annot>
+						<val>Avaloq</val>
+					</ins_by_sec_user>
+					<cancel_status>
+						<annot>
+							<displ_text>0</displ_text>
+						</annot>
+						<val>false</val>
+					</cancel_status>
+					<qty>
+						<val>-1000</val>
+					</qty>
+					<ui_wfs_id>
+						<val>12</val>
+					</ui_wfs_id>
+					<trx_date>
+						<val>2014-12-22T00:00:00+11:00</val>
+					</trx_date>
+					<order_date>
+						<val>2015-02-26T18:26:56+11:00</val>
+					</order_date>
+					<last_trans_seq_nr>
+						<val>5</val>
+					</last_trans_seq_nr>
+					<detail_list>
+						<detail id="8-4" row_type="data" hira="2" level="detail">
+							<key>
+								<val>qty</val>
+							</key>
+							<val>
+								<val>1136.3636</val>
+							</val>
+						</detail>
+						<detail id="10-5" row_type="data" hira="2" level="detail">
+							<key>
+								<val>prepay_subscr_doc_id</val>
+							</key>
+							<val>
+								<val>439906</val>
+							</val>
+						</detail>
+						<detail id="12-6" row_type="data" hira="2" level="detail">
+							<key>
+								<val>price</val>
+							</key>
+							<val>
+								<val>.88</val>
+							</val>
+						</detail>
+					</detail_list>
+				</doc_head>
+			</doc_head_list>
+		</doc>
+	</doc_list>
+  </data>
+</rep:rep>
+	</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

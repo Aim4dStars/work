@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+    <SOAP-ENV:Body>
+        <ns2:ParseAustralianAddressResponseMsg xmlns:ns2="ns://btfin.com/Party/PartyService/PartyReply/V2_1">
+            <Status>Success</Status>
+            <ResponseDetails>
+                <ResponseDetail>
+                    <SuccessResponse>
+                        <MatchSuccess>Full address and postcode found</MatchSuccess>
+                        <MatchConfidence>High confidence</MatchConfidence>
+                        <PostcodeActionIndicator>The existing postal code was already correct</PostcodeActionIndicator>
+                        <AddressActionIndicator>Part of or a whole address was returned</AddressActionIndicator>
+                        <DeliveryPointID>66398986</DeliveryPointID>
+                        <AustralianAddress>
+                            <StructuredAddressDetail>
+                                <AddressTypeDetail>
+                                    <StandardAddress>
+                                        <PropertyName/>
+                                        <FloorNumber/>
+                                        <UnitNumber/>
+                                        <StreetNumber>51-57</StreetNumber>
+                                        <StreetName>Pitt</StreetName>
+                                        <StreetType>St</StreetType>
+                                    </StandardAddress>
+                                </AddressTypeDetail>
+                                <City>SYDNEY</City>
+                                <State>NSW</State>
+                                <Postcode>2000</Postcode>
+                                <CountryCode>AUS</CountryCode>
+                            </StructuredAddressDetail>
+                        </AustralianAddress>
+                    </SuccessResponse>
+                </ResponseDetail>
+            </ResponseDetails>
+        </ns2:ParseAustralianAddressResponseMsg>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

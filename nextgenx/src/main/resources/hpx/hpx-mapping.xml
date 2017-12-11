@@ -1,0 +1,74 @@
+<hpx-mapping>
+	<!-- Corresponds to "Text" tab on HPX config screen -->
+	<text-decorations>
+		<text-decoration name="b" bold="true" italic="false" underline="false" comment="Bold"/>
+		<text-decoration name="i" bold="false" italic="true" underline="false" comment="Italic" />
+		<text-decoration name="u" bold="false" italic="false" underline="true" comment="Underline" />
+		<text-decoration name="bi" bold="true" italic="true" underline="false" comment="Bold and italic" />
+		<text-decoration name="bu" bold="true" italic="false" underline="true" comment="Bold and underline" />
+		<text-decoration name="iu" bold="false" italic="true" underline="true" comment="Italic and underline" />
+		<text-decoration name="biu" bold="true" italic="true" underline="true" comment="Bold, italic and underline" />
+	</text-decorations>
+
+	<!-- Corresponds to "Font" tab on HPX config screen -->
+	<fonts>
+		<font name="font1" family="arial" size="8" />
+		<font name="font2" family="arial" size="10" default="true" />
+		<font name="font3" family="arial" size="12" />
+		<font name="font4" family="arial" size="14" />
+		<font name="font5" family="arial" size="16" />
+		<font name="font6" family="courier new" size="8" />
+		<font name="font7" family="courier new" size="10" />
+		<font name="font8" family="courier new" size="12" />
+		<font name="font8" family="courier new" size="14" />
+		<font name="font10" family="arial" size="16" />
+		<font name="font12" family="times new roman" size="8" />
+		<font name="font14" family="times new roman" size="10" />
+		<font name="font16" family="times new roman" size="12" />
+		<font name="font14" family="times new roman" size="14" />
+		<font name="font15" family="times new roman" size="16" />
+		<font name="font16" family="verdana" size="8" />
+		<font name="font17" family="verdana" size="10" />
+		<font name="font18" family="verdana" size="12" />
+		<font name="font18" family="verdana" size="14" />
+		<font name="font20" family="verdana" size="16" />
+	</fonts>
+
+	<!-- Corresponds to "Paragraph" tab on HPX config screen -->
+	<!-- name attribute = configured tag name on HPX -->
+	<!-- html attribute = corresponding html tag name -->
+	<paragraph-styles>
+		<paragraph-style name="p" html="p" comment="Paragraph block" />
+		<paragraph-style name="bp" html="ul" comment="Bullet list" />
+		<paragraph-style name="np" html="ol" comment="Numbered/ordered list" />
+		<paragraph-style name="left" html="left" comment="Left align" />
+		<paragraph-style name="right" html="right" comment="Right align" />
+		<paragraph-style name="center" html="center" comment="Center text" />
+	</paragraph-styles>
+
+	<!-- Corresponds to "Tabs" tab on HPX config screen -->
+	<tabs>
+		<!-- level = indent level -->
+		<tab name="t1" level="1" />
+		<tab name="t2" level="2" />
+		<tab name="t3" level="3" />
+		<tab name="t4" level="4" />
+		<tab name="t5" level="5" />
+		<tab name="t6" level="6" />
+		<tab name="t7" level="7" />
+		<tab name="t8" level="8" />
+		<tab name="t9" level="9" />
+		<tab name="t10" level="10" />
+		<tab name="t11" level="11" />
+		<tab name="t12" level="12" />
+	</tabs>
+
+	<!-- Corresponds to "Colors" tab on HPX config screen -->
+	<colours>
+		<colour name="colour1" red="255" green="0" blue="0" />
+		<colour name="colour2" red="255" green="102" blue="0" />
+		<colour name="colour3" red="51" green="153" blue="102" />
+		<colour name="colour4" red="80" green="80" blue="80" />
+		<colour name="colour5" red="164" green="65" blue="240" />
+	</colours>
+</hpx-mapping>

@@ -1,0 +1,30 @@
+CREATE OR REPLACE PROCEDURE insert_or_update_app_id(application_id IN NUMBER, doc_id IN VARCHAR2,
+                                                    version_number IN NUMBER) IS
+  application_count INTEGER := 0;
+  BEGIN
+
+    SELECT
+      count(*)
+    INTO application_count
+    FROM application
+    WHERE ui_application_id = application_id;
+
+    IF application_count = 0
+    THEN
+      INSERT INTO application (ui_application_id, document_id, version)
+      VALUES (application_id, doc_id, version_number);
+    ELSE
+      UPDATE application
+      SET document_id = doc_id, version = version_number
+      WHERE ui_application_id = application_id;
+    END IF;
+
+    EXCEPTION
+    WHEN OTHERS
+    THEN
+    DBMS_OUTPUT.put_line(SQLERRM);
+    DBMS_OUTPUT.put_line('   ');
+    RAISE;
+
+  END insert_or_update_app_id;
+/

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 2016-06-09T01:50:34.458878000Z on AFP010C by 201674064 -->
+<rebal_det:rebal_det_rsp xmlns:rebal_det="http://btfin.com/ABS/TrxService/RebalDet/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>NG-001.8788be0e-95e6-41ac-af39-45d4b226f875.00000000129.000000002</req_id>
+  </hdr>
+  <data>
+    <doc>
+      <val>1</val>
+    </doc>
+    <wfc_status>
+      <val avqxsi:nil="true"/>
+    </wfc_status>
+    <rebal_det>
+      <rebal>
+        <rebal_doc_id>
+          <val>3761108</val>
+        </rebal_doc_id>
+        <do_excl>
+          <val>false</val>
+        </do_excl>
+        <justif>
+          <val avqxsi:nil="true"/>
+        </justif>
+      </rebal>
+    </rebal_det>
+    <action>modify</action>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+    </exec>
+  </rsp>
+</rebal_det:rebal_det_rsp>

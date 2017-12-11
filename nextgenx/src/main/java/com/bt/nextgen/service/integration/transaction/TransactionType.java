@@ -1,0 +1,111 @@
+package com.bt.nextgen.service.integration.transaction;
+
+public enum TransactionType
+{
+	TRANSFER("MONEY TRANSFER.MP_APPL", "Buy"),
+	TRANSFER_MP_INC("MONEY TRANSFER.MP_INC", "Buy"),
+	STOCK_EXCHANGE_B("STOCK EXCHANGE.B", "Buy"),
+	STOCK_EXCHANGE_BISS("STOCK EXCHANGE.BISS", "Buy"),
+	FIDD_RENW_PLACE("FIDUCIARY DEPOSIT.FIDD_RENW_PLACE", "Buy"),
+	FIDD_PLACE("FIDUCIARY DEPOSIT.PLACE", "Buy"),
+
+	TRANSACTION_SPINOFF("SECURITY EVENT TRANSACTION.SPINOFF", "Corporate action"),
+	SECTRX2_SPLIT("SECURITY EVENT TRANSACTION.SPLIT", "Corporate action"),
+	SECTRX2_REVN("SECURITY EVENT TRANSACTION.REVN", "Corporate action"),
+	SECTRX2_MERGER("SECURITY EVENT TRANSACTION.MERGER", "Corporate action"),
+	SECTRX2_NAMECHG("SECURITY EVENT TRANSACTION.BONUS", "Corporate action"),
+	SECTRX2_BONUS("SECURITY EVENT TRANSACTION.BONUS", "Corporate action"),
+	SECTRX2_EXPIR("SECURITY EVENT TRANSACTION.EXPIR", "Corporate action"),
+	SECTRX2_LIQPAY("SECURITY EVENT TRANSACTION.LIQPAY", "Corporate action"),
+	SECTRX2_SECXCHG("SECURITY EVENT TRANSACTION.SECXCHG", "Corporate action"),
+	SECTRX2_RIGHT("SECURITY EVENT TRANSACTION.RIGHT", "Corporate action"),
+	SECTRX2_CAPTINC("SECURITY EVENT TRANSACTION.CAPTINC", "Corporate action"),
+	SECTRX2_CAPTCALL("SECURITY EVENT TRANSACTION.CAPTCALL", "Corporate action"),
+
+	INPAY_BPAY_FILE("INCOMING PAYMENT.INPAY#BPAY_FILE", "Deposit"),
+	INPAY_DD("INCOMING PAYMENT.INPAY#DD", "Deposit"),
+	LSV_AT_COLL("INCOMING PAYMENT.LSV_AT#COLL", "Deposit"),
+	INPAY_DC_DD_FILE("INCOMING PAYMENT.INPAY#DC_DD_FILE", "Deposit"),
+	INPAY_CHQ_FILE("INCOMING PAYMENT.INPAY#CHQ_FILE", "Deposit"),
+	INPAY_CHQ("INCOMING PAYMENT.INPAY#CHQ", "Deposit"),
+
+	AVSR_ADVCONG("FEE TRANSFER.AVSR_ADVCONG", "Expense"),
+	AVSR_ADVCONEOFF("FEE TRANSFER.AVSR_ADVCONEOFF", "Expense"),
+	AVSR_ESTAB("FEE TRANSFER.AVSR_ESTAB", "Expense"),
+	DG_ADVCONG("FEE TRANSFER.DG_ADVCONG", "Expense"),
+	PLATFORM_ADM("ACCOUNTS PAYABLE.PLATFORM_ADM", "Expense"),
+	DISHONOUR_FEE("FEE TRANSFER.DISHONOUR_FEE", "Expense"),
+	COST_STAX("FEE TRANSFER.COST_STAX", "Expense"),
+	INVST_MNGT_FEE("FEE TRANSFER.INVST_MNGT_FEE", "Expense"),
+
+	INTEREST_MCLOSE("INTEREST.MCLOSE", "Income"),
+	INTEREST_INTR_CORR("INTEREST.INTR_CORR", "Income"),
+	INTEREST_INTR("INTEREST.INTR", "Income"),
+	GVC("FEE TRANSFER.GVC", "Income"),
+	FIDD_INTR_PAY("FIDUCIARY DEPOSIT.INTR_PAY", "Income"),
+	SECTRX2_DIV_CASH("SECURITY EVENT TRANSACTION.DIV_CASH", "Income"),
+
+	PAY_BPAY("PAYMENT.BPAY_PAY", "Payment"),
+	PAY_BPAY_ATO("PAYMENT.BPAY_ATO_PAY", "Payment"),
+	PAY_DD_OUT("PAYMENT.DD_OUT_PAY", "Payment"),
+	PAY_PAYANY("PAYMENT.PAYANY_PAY", "Payment"),
+	STORD_NEW_BPAY("PAYMENT.STORD_NEW_BPAY", "Payment"),
+	STORD_CLOSE("PAYMENT.STORD_CLOSE", "Payment"),
+	STORD_NEW_BPAY_ATO("PAYMENT.STORD_NEW_BPAY_ATO", "Payment"),
+
+	MP_PRDMPT("MONEY TRANSFER.MP_PRDMPT", "Sell"),
+	MP_FULL_RDMPT("MONEY TRANSFER.MP_FULL_RDMPT", "Sell"),
+	MP_CLOSING("MONEY TRANSFER.MP_CLOSING", "Sell"),
+	DRAWDOWN("MANAGED PORTFOLIO -  INVESTMENT, REDEMPT.MP_DRAWDOWN", "Sell"),
+	STEX_SELL("STOCK EXCHANGE.S", "Sell"),
+	STEX_SELL_RDMPT("STOCK EXCHANGE.SRDPT", "Sell"),
+	FIDD_RDMPT("FIDUCIARY DEPOSIT.RDMPT", "Sell"),
+	FIDD_UNWIND("FIDUCIARY DEPOSIT.UNWIND", "Sell"),
+
+	SETTLE_RFP("SETTLEMENT.RFP", "Transfer"),
+	SETTLE_DFP("SETTLEMENT.DFP", "Transfer"),
+
+	SETTLE_XFER_OUT("SETTLEMENT.XFER_OUT", "Transfer"),
+	SETTLE_XFER_IN("SETTLEMENT.XFER_IN", "Transfer");
+
+	private String code;
+	private String transactionType;
+
+	public String getCode()
+	{
+		return code;
+	}
+
+	public void setCode(String code)
+	{
+		this.code = code;
+	}
+
+	public String getTransactionType()
+	{
+		return transactionType;
+	}
+
+	public void setTransactionType(String transactionType)
+	{
+		this.transactionType = transactionType;
+	}
+
+	TransactionType(String code, String transactionType)
+	{
+		this.code = code;
+		this.transactionType = transactionType;
+	}
+
+	public static TransactionType forCode(String code)
+	{
+		for (TransactionType txnType : TransactionType.values())
+		{
+			if (txnType.code.equals(code))
+			{
+				return txnType;
+			}
+		}
+		return null;
+	}
+}

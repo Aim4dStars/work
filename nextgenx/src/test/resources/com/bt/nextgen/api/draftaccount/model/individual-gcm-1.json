@@ -1,0 +1,104 @@
+{
+  "accountType": "individual",
+  "version": "1.0.0",
+  "investors": [{
+    "displayTaxOptions": true,
+    "taxcountry": "AU",
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "norfolk_island_res",
+    "userName": "56977774",
+    "idVerified": true,
+    "registered": false,
+    "tfnProvided": false,
+    "investorType": "individual",
+    "cisId": "37777910053",
+    "title": "MR",
+    "gcmTitleLabel": "Mr",
+    "gender": "Male",
+    "active": false,
+    "firstname": "Florin",
+    "lastname": "Test",
+    "dateofbirth": "06/06/1984",
+    "resaddress": {
+      "state": "QLD",
+      "city": "Burpengary",
+      "postcode": "4505",
+      "countryCode": "AU",
+      "country": "Australia",
+      "domicile": true,
+      "mailingAddress": true,
+      "internationalAddress": false,
+      "addressLine1": "Drainage Purposes",
+      "addressLine2": "30-36 Pitt Road",
+      "standardAddressFormat": false
+    },
+    "postaladdress": {
+      "state": "QLD",
+      "city": "Burpengary",
+      "postcode": "4505",
+      "countryCode": "AU",
+      "country": "Australia",
+      "domicile": true,
+      "mailingAddress": true,
+      "internationalAddress": false,
+      "addressLine1": "Drainage Purposes",
+      "addressLine2": "30-36 Pitt Road",
+      "standardAddressFormat": false
+    },
+
+    "isDuplicate": false,
+
+    "mobile": {
+      "value": "04545454"
+    },
+    "email": {
+      "value": "anotthermail@email.com"
+    },
+    "contactdetails": {
+      "value": "worknumber_0233332222",
+      "label": "(02) 3333 2222"
+    },
+    "preferredcontact": "worknumber",
+    "worknumber": {
+      "countryCode": "61",
+      "areaCode": "02",
+      "concatenatedNumber": "0233332222",
+      "value": "33332222"
+    },
+    "isvalid": true
+  }],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [{
+      "paymentSetting": "nopayments",
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "NSW",
+    "sourceoffunds": "Bonus"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "aaaaa",
+      "bsb": "082124",
+      "accountnumber": "121212",
+      "nickname": "21212",
+      "directdebitamount": "11.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "3.00",
+    "ongoingFees": {
+      "feesComponent": [{
+        "cpiindex": true,
+        "amount": "23.00",
+        "label": "Dollar fee component"
+      }],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

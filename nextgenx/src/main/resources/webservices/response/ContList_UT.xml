@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rep:rep xsi:schemaLocation="http://www.avaloq.com/abs/screen_rep/hira/web_ui_fee_schedule_im TASK_CONT_LIST.BTFG$UI_FEE_SCHEDULE_IM.XSD" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_fee_schedule_im" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<def>
+		<version/>
+		<report_def>
+			<style/>
+			<lang id="String"/>
+			<hira_def>
+				<group_list>
+					<group_def>
+						<name/>
+						<hira/>
+						<hasHead/>
+						<hasFoot/>
+					</group_def>
+				</group_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name/>
+						<type/>
+						<label/>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</report_def>
+	</def>
+	<data>
+		<report>
+			<report_head rowType="title" id="String" hira="0" level="String">
+				<annot>
+					<ctxType/>
+					<ctxId/>
+					<style/>
+				</annot>
+				<descn name="String">
+					<annot>
+						<displ_text/>
+						<extl_val>
+							<key/>
+							<val/>
+						</extl_val>
+						<ctx>
+							<type/>
+							<id/>
+						</ctx>
+						<url/>
+						<tooltip/>
+						<style/>
+					</annot>
+					<auto/>
+					<val/>
+				</descn>
+			</report_head>
+			<cont_list>
+				<cont>
+					<cont_head rowType="title" id="String" hira="0" level="String">
+						<annot>
+							<ctxType/>
+							<ctxId/>
+							<style/>
+						</annot>
+						<invst name="String">
+							<annot>
+								<displ_text/>
+								<extl_val>
+									<key/>
+									<val/>
+								</extl_val>
+								<ctx>
+									<type/>
+									<id>1234</id>
+								</ctx>
+								<url/>
+								<tooltip/>
+								<style/>
+							</annot>
+							<auto/>
+							<val>BT SMSF PRODUCT NAME</val>
+						</invst>
+						<key name="String">
+							<annot>
+								<displ_text/>
+								<extl_val>
+									<key/>
+									<val/>
+								</extl_val>
+								<ctx>
+									<type/>
+									<id/>
+								</ctx>
+								<url/>
+								<tooltip/>
+								<style/>
+							</annot>
+							<auto/>
+							<val>BTSMSF</val>
+						</key>
+						<factor name="String">
+							<annot>
+								<displ_text/>
+								<extl_val>
+									<key/>
+									<val/>
+								</extl_val>
+								<ctx>
+									<type/>
+									<id/>
+								</ctx>
+								<url/>
+								<tooltip/>
+								<style/>
+							</annot>
+							<auto/>
+							<val>1.10</val>
+						</factor>
+					</cont_head>
+				</cont>
+				<cont>
+					<cont_head rowType="title" id="String" hira="0" level="String">
+						<annot>
+							<ctxType/>
+							<ctxId/>
+							<style/>
+						</annot>
+						<invst name="String">
+							<annot>
+								<displ_text/>
+								<extl_val>
+									<key/>
+									<val/>
+								</extl_val>
+								<ctx>
+									<type/>
+									<id>1234</id>
+								</ctx>
+								<url/>
+								<tooltip/>
+								<style/>
+							</annot>
+							<auto/>
+							<val> Challenger Australian Real Estate SMA </val>
+						</invst>
+						<key name="String">
+							<annot>
+								<displ_text/>
+								<extl_val>
+									<key/>
+									<val/>
+								</extl_val>
+								<ctx>
+									<type/>
+									<id/>
+								</ctx>
+								<url/>
+								<tooltip/>
+								<style/>
+							</annot>
+							<auto/>
+							<val>CAR1234</val>
+						</key>
+						<factor name="String">
+							<annot>
+								<displ_text/>
+								<extl_val>
+									<key/>
+									<val/>
+								</extl_val>
+								<ctx>
+									<type/>
+									<id/>
+								</ctx>
+								<url/>
+								<tooltip/>
+								<style/>
+							</annot>
+							<auto/>
+							<val>2.10</val>
+						</factor>
+					</cont_head>
+				</cont>
+				
+			</cont_list>
+		</report>
+	</data>
+</rep:rep>

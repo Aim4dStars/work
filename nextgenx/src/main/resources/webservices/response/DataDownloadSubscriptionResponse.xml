@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataDownloadSubscription>
+	<Subscription>
+		<nickName>HNWMonthly</nickName>
+		<subscriptionId>1234567898</subscriptionId>
+		<subscribedFor>All</subscribedFor>
+		<software>Coin</software>
+		<frequency>Monthly</frequency>
+		<subscriptionDate>30 Oct 2013</subscriptionDate>
+		<subscribedBy>Adviser</subscribedBy>
+		<portfolioIds>
+		<portfolioId>12147</portfolioId>
+		<portfolioId>12148</portfolioId>
+		<portfolioId>12150</portfolioId>
+		</portfolioIds>
+	</Subscription>
+	<Subscription>
+		<nickName>HNWWeekly</nickName>
+		<subscriptionId>5436788990</subscriptionId>
+		<subscribedFor>Specific</subscribedFor>
+		<software>AdviserNETgain</software>
+		<frequency>Daily</frequency>
+		<subscriptionDate>01 Aug 2013</subscriptionDate>
+		<subscribedBy>DealerGroup</subscribedBy>
+		<portfolioIds>
+		<portfolioId>12147</portfolioId>
+		<portfolioId>12150</portfolioId>
+		</portfolioIds>
+	</Subscription>
+	
+	<Subscription>
+		<nickName>HNWWeekly</nickName>
+		<subscriptionId>5436788789</subscriptionId>
+		<subscribedFor>Specific</subscribedFor>
+		<software>Coin</software>
+		<frequency>Weekly</frequency>
+		<subscriptionDate>01 May 2013</subscriptionDate>
+		<subscribedBy>DealerGroup</subscribedBy>
+		<portfolioIds>
+		<portfolioId>12147</portfolioId>
+		<portfolioId>12150</portfolioId>
+		</portfolioIds>
+	</Subscription>
+	
+	<Subscription>
+		<nickName>HNWMonthly</nickName>
+		<subscriptionId>1234567899</subscriptionId>
+		<subscribedFor>All</subscribedFor>
+		<software>Xplan</software>
+		<frequency>Monthly</frequency>
+		<subscriptionDate>29 Oct 2012</subscriptionDate>
+		<subscribedBy>Adviser</subscribedBy>
+		<portfolioIds>
+		<portfolioId>12147</portfolioId>
+		<portfolioId>12148</portfolioId>
+		<portfolioId>12150</portfolioId>
+		</portfolioIds>
+	</Subscription>
+	<Subscription>
+		<nickName>HNWMonthly</nickName>
+		<subscriptionId>1234567800</subscriptionId>
+		<subscribedFor>Specific</subscribedFor>
+		<software>Xplan</software>
+		<frequency>Monthly</frequency>
+		<subscriptionDate>16 Jan 2013</subscriptionDate>
+		<subscribedBy>Adviser</subscribedBy>
+		<portfolioIds>
+		<portfolioId>12147</portfolioId>
+		<portfolioId>12148</portfolioId>
+		</portfolioIds>
+	</Subscription>
+	
+</dataDownloadSubscription>

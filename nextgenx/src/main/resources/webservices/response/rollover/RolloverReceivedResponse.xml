@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_rcvd_rlov_list_doc" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2016-11-12 14:34:27.816248000 on afp020c by 201601553 -->
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<current_of_time>
+			<val>2016-11-12T03:34:27+11:00</val>
+		</current_of_time>
+	</metadata>
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>doc</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl/>
+					</fld_def>
+					<fld_def>
+						<name>doc_id</name>
+						<type>NrFld</type>
+						<lbl>Order ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_name</name>
+						<type>TextFld</type>
+						<lbl>Fund Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_abn</name>
+						<type>TextFld</type>
+						<lbl>Fund ABN</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_usi</name>
+						<type>TextFld</type>
+						<lbl>Fund USI</lbl>
+					</fld_def>
+					<fld_def>
+						<name>fund_estim_amt</name>
+						<type>NrFld</type>
+						<lbl>Amount</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rlov_type</name>
+						<type>NrFld</type>
+						<lbl>Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rcvd_date</name>
+						<type>DateTimeFld</type>
+						<lbl>Date Received</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+	<data>
+		<doc_list>
+			<doc>
+				<doc_head_list>
+					<doc_head hira="1" id="2-1" level="doc.head" row_type="data">
+						<doc_id>
+							<val>4357048</val>
+						</doc_id>
+						<fund_name>
+							<val>fund</val>
+						</fund_name>
+						<fund_abn>
+							<val>11 223 491 505</val>
+						</fund_abn>
+						<fund_estim_amt>
+							<val>100000</val>
+						</fund_estim_amt>
+						<rlov_type>
+							<val>1</val>
+						</rlov_type>
+						<rcvd_date>
+							<val>2016-11-11T15:55:28+11:00</val>
+						</rcvd_date>
+					</doc_head>
+				</doc_head_list>
+			</doc>
+			<doc>
+				<doc_head_list>
+					<doc_head hira="1" id="4-2" level="doc.head" row_type="data">
+						<doc_id>
+							<val>4357105</val>
+						</doc_id>
+						<fund_estim_amt>
+							<val>150000</val>
+						</fund_estim_amt>
+						<rlov_type>
+							<val>1</val>
+						</rlov_type>
+						<rcvd_date>
+							<val>2016-11-11T16:22:17+11:00</val>
+						</rcvd_date>
+					</doc_head>
+				</doc_head_list>
+			</doc>
+			<doc>
+				<doc_head_list>
+					<doc_head hira="1" id="6-3" level="doc.head" row_type="data">
+						<doc_id>
+							<val>4357117</val>
+						</doc_id>
+						<fund_estim_amt>
+							<val>203.6</val>
+						</fund_estim_amt>
+						<rlov_type>
+							<val>2</val>
+						</rlov_type>
+						<rcvd_date>
+							<val>2016-11-11T16:49:57+11:00</val>
+						</rcvd_date>
+					</doc_head>
+				</doc_head_list>
+			</doc>
+			<doc>
+				<doc_head_list>
+					<doc_head hira="1" id="8-4" level="doc.head" row_type="data">
+						<doc_id>
+							<val>4357218</val>
+						</doc_id>
+						<fund_estim_amt>
+							<val>100000</val>
+						</fund_estim_amt>
+						<rlov_type>
+							<val>1</val>
+						</rlov_type>
+						<rcvd_date>
+							<val>2016-11-12T14:10:56+11:00</val>
+						</rcvd_date>
+					</doc_head>
+				</doc_head_list>
+			</doc>
+		</doc_list>
+	</data>
+</rep:rep>

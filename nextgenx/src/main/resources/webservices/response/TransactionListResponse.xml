@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+    <SOAP-ENV:Body>
+        <ns3:SearchPaymentInstructionsResponseMsg
+                xmlns:ns3="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentResponse/V1_0"
+                >
+            <Status>Success</Status>
+            <ResponseDetails>
+                <SuccessResponse>
+                    <PaymentInstructions>
+
+
+                        <!-- Start: Failed & Retrying -->
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>22278678.00</PaymentAmount>
+                            <PaymentReceiptNumber>132</PaymentReceiptNumber>
+                            <PaymentDescription>System message</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>System message</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y1M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Retrying</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>15667278.00</PaymentAmount>
+                            <PaymentReceiptNumber>132</PaymentReceiptNumber>
+                            <PaymentDescription>System message</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>System message</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y1M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Rejected</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+                        <!-- End: Failed & Retrying -->
+
+
+                        <!--Start: Sree data -->
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>20.00</PaymentAmount>
+                            <PaymentReceiptNumber>142</PaymentReceiptNumber>
+                            <PaymentDescription>User Defined Desc</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <PaymentType>
+                                <BPay>
+                                    <Code>524181</Code>
+                                    <Name>WA DEPARTMENT OF TRANSPORT LICENSING</Name>
+                                    <CRN>0110382304001</CRN>
+                                    <Narrative>BPAY System generated description</Narrative>
+                                </BPay>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2002-06-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2003-06-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2004-06-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2006-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>20.00</PaymentAmount>
+                            <PaymentReceiptNumber>152</PaymentReceiptNumber>
+                            <PaymentDescription>Set end number Weekly</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <PaymentType>
+                                <BPay>
+                                    <Code>524181</Code>
+                                    <Name>WA DEPARTMENT OF TRANSPORT LICENSING</Name>
+                                    <CRN>0110382304001</CRN>
+                                    <Narrative>Rupesh-Macro2</Narrative>
+                                </BPay>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2002-06-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2003-06-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2004-06-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2006-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M7DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>6895</PaymentAmount>
+                            <PaymentReceiptNumber>533</PaymentReceiptNumber>
+                            <PaymentDescription>Once</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>789456321</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>12215</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <PaymentType>
+                                <BPay>
+                                    <Code>524181</Code>
+                                    <Name>WA DEPARTMENT OF TRANSPORT LICENSING</Name>
+                                    <CRN>0110382304001</CRN>
+                                    <Narrative>Rupesh-Macro3</Narrative>
+                                </BPay>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-03-25+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-03-25+11:00</PaymentStartDate>
+                                    <PaymentEndDate></PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2013-02-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments></NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>6895</PaymentAmount>
+                            <PaymentReceiptNumber>5331</PaymentReceiptNumber>
+                            <PaymentDescription>Set number-Weekly</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>789456321</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>12215</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <PaymentType>
+                                <BPay>
+                                    <Code>524181</Code>
+                                    <Name>WA DEPARTMENT OF TRANSPORT LICENSING</Name>
+                                    <CRN>0110382304001</CRN>
+                                    <Narrative>Rupesh-Macro3</Narrative>
+                                </BPay>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-03-25+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-03-25+11:00</PaymentStartDate>
+                                    <PaymentEndDate></PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2013-02-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y3M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>60</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>74123</PaymentAmount>
+                            <PaymentReceiptNumber>5332</PaymentReceiptNumber>
+                            <PaymentDescription>Set number-Quarterly</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>789456321</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>12215</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <PaymentType>
+                                <BPay>
+                                    <Code>524181</Code>
+                                    <Name>WA DEPARTMENT OF TRANSPORT LICENSING</Name>
+                                    <CRN>0110382304001</CRN>
+                                    <Narrative>Rupesh-Macro3</Narrative>
+                                </BPay>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-03-25+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-03-25+11:00</PaymentStartDate>
+                                    <PaymentEndDate></PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2013-02-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y3M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments></NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>212121</PaymentAmount>
+                            <PaymentReceiptNumber>5334</PaymentReceiptNumber>
+                            <PaymentDescription>Set number-Yearly</PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>789456321</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>12215</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <PaymentType>
+                                <BPay>
+                                    <Code>524181</Code>
+                                    <Name>WA DEPARTMENT OF TRANSPORT LICENSING</Name>
+                                    <CRN>0110382304001</CRN>
+                                    <Narrative>Rupesh-Macro3</Narrative>
+                                </BPay>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-03-25+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-03-25+11:00</PaymentStartDate>
+                                    <PaymentEndDate></PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2013-02-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P1Y0M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments></NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <!--End: Sree data -->
+
+                        <!-- Start: Repeat Frequency -->
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>200.00</PaymentAmount>
+                            <PaymentReceiptNumber>1321</PaymentReceiptNumber>
+                            <PaymentDescription>Description 200C AAAA AAA characters12345AAAAA0050Description more than
+                                AAA characters12345AAAAA0100Description more than AAA
+                                characters12345AAAAA0150Description more than AAA characters12345AAAAA0200
+                            </PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>U50C descriptiAA18UUU50C descriptiAAA020AAAAAA A50</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>Yearly</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P1Y0M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>10</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>199.00</PaymentAmount>
+                            <PaymentReceiptNumber>1322</PaymentReceiptNumber>
+                            <PaymentDescription>Description 199C AAAA AAA characters12345AAAAA0050Description more than
+                                AAA characters12345AAAAA0100Description more than AAA
+                                characters12345AAAAA0150Description more than AAA characters12345AAAAA199
+                            </PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>Quarterly</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y3M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>10</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>198.00</PaymentAmount>
+                            <PaymentReceiptNumber>1323</PaymentReceiptNumber>
+                            <PaymentDescription>Description 198C AAAA AAA characters12345AAAAA0050Description more than
+                                AAA characters12345AAAAA0100Description more than AAA
+                                characters12345AAAAA0150Description more than AAA characters12345AAAA198
+                            </PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>Payments to Nate</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>10</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Uncleared</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>197.00</PaymentAmount>
+                            <PaymentReceiptNumber>1324</PaymentReceiptNumber>
+                            <PaymentDescription>Description 197C AAAA AAA characters12345AAAAA0050Description more than
+                                AAA characters12345AAAAA0100Description more than AAA
+                                characters12345AAAAA0150Description more than AAA characters12345AAA197
+                            </PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>Payments to Kiran</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>10</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Uncleared</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>100.00</PaymentAmount>
+                            <PaymentReceiptNumber>1325</PaymentReceiptNumber>
+                            <PaymentDescription>Description 100C AAAA AAA characters12345AAAAA0050Description more than
+                                AAA characters12345AAAAA0100
+                            </PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>Payments to Luke</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>10</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Cleared</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>201.00</PaymentAmount>
+                            <PaymentReceiptNumber>1326</PaymentReceiptNumber>
+                            <PaymentDescription>Description 201C AAAA AAA characters12345AAAAA0050Description more than
+                                AAA characters12345AAAAA0100Description more than AAA
+                                characters12345AAAAA0150Description more than AAA characters12345AAAAA0A201
+                            </PaymentDescription>
+                            <CreditDebitIndicator>Debit</CreditDebitIndicator>
+                            <DebtorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>45554455</AccountNumber>
+                                    <AccountName>Tom Bernard</AccountName>
+                                    <BSB>343444</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            <CreditorAccount>
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>12345678</AccountNumber>
+                                    <AccountName>Dennis Beacham</AccountName>
+                                    <BSB>122600</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            <PaymentType>
+                                <DirectTransfer>
+                                    <Narrative>Payments to Mike</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2001-12-21+11:00</PaymentEffectiveDate>
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2001-12-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2001-12-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2001-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2001-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>1</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Cleared</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+                        <!--End: Repeat Frequency -->
+
+                        <!--Start-Rupesh data 2-->
+
+                        -
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category1</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>686868</PaymentAmount>
+                            <PaymentReceiptNumber>60000111</PaymentReceiptNumber>
+                            <PaymentDescription>RepeatOneOff</PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            -
+                            <DebtorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>4747474747</AccountNumber>
+                                    <AccountName>Kiran Chilakamari</AccountName>
+                                    <BSB>242200</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            -
+                            <CreditorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>4445545454</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>242200</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            -
+                            <PaymentType>
+                                -
+                                <DirectTransfer>
+                                    <Narrative>Deposit from Rupesh One off</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            -
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-07-21+11:00</PaymentEffectiveDate>
+                                -
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-07-21+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2004-06-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2006-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M1DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        -
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category2</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>787878</PaymentAmount>
+                            <PaymentReceiptNumber>60000112</PaymentReceiptNumber>
+                            <PaymentDescription>Repeat Weekly Deposit</PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            -
+                            <DebtorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>213546513</AccountNumber>
+                                    <AccountName>Kiran Chilakamari</AccountName>
+                                    <BSB>012215</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            -
+                            <CreditorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>565654546</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>012215</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            -
+                            <PaymentType>
+                                -
+                                <DirectTransfer>
+                                    <Narrative>Deposit from Rupesh Weekly</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            -
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-07-22+11:00</PaymentEffectiveDate>
+                                -
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-07-22+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2014-06-21+11:00</PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2013-01-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y0M7DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+                        -
+                        <PaymentInstruction>
+
+
+                            <PaymentCategory>Some category2</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>89898989</PaymentAmount>
+                            <PaymentReceiptNumber>60000113</PaymentReceiptNumber>
+                            <PaymentDescription>Monthly SetEndDate</PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            -
+                            <DebtorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>451621347</AccountNumber>
+                                    <AccountName>Kiran Chilakamari</AccountName>
+                                    <BSB>062105</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            -
+                            <CreditorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>103254587</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>062105</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            -
+                            <PaymentType>
+                                -
+                                <DirectTransfer>
+                                    <Narrative>Deposit from Rupesh Monthly</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            -
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-07-23+11:00</PaymentEffectiveDate>
+                                -
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-07-23+11:00</PaymentStartDate>
+                                    <PaymentEndDate>2014-06-21+11:01</PaymentEndDate>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2013-02-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y1M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>123</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        -
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category2</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>546546546</PaymentAmount>
+                            <PaymentReceiptNumber>60000114</PaymentReceiptNumber>
+                            <PaymentDescription>Quar-Set number</PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            -
+                            <DebtorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>369369</AccountNumber>
+                                    <AccountName>Sreekant B</AccountName>
+                                    <BSB>484799</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            -
+                            <CreditorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>4554545454</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>484799</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            -
+                            <PaymentType>
+                                -
+                                <DirectTransfer>
+                                    <Narrative>Deposit from Rupesh Quarterly</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            -
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-07-24+11:00</PaymentEffectiveDate>
+                                -
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-07-24+11:00</PaymentStartDate>
+                                    <PaymentEndDate/>
+                                    <NextPaymentDate/>
+                                    <LastPaymentDate>2013-02-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P0Y3M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments>54</NumberOfPayments>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        -
+                        <PaymentInstruction>
+                            <PaymentCategory>Some category2</PaymentCategory>
+                            <PaymentSubCategory>subcategory1</PaymentSubCategory>
+                            <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                            <PaymentAmount>213213213</PaymentAmount>
+                            <PaymentReceiptNumber>60000115</PaymentReceiptNumber>
+                            <PaymentDescription>Yearly-No End Date</PaymentDescription>
+                            <CreditDebitIndicator>Credit</CreditDebitIndicator>
+                            -
+                            <DebtorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>25252525</AccountNumber>
+                                    <AccountName>Sreekant B</AccountName>
+                                    
+                                    <BSB>732016</BSB>
+                                </FinancialInstitutionAccount>
+                            </DebtorAccount>
+                            -
+                            <CreditorAccount>
+                                -
+                                <FinancialInstitutionAccount>
+                                    <AccountNumber>56565656</AccountNumber>
+                                    <AccountName>Rupesh Mathur</AccountName>
+                                    <BSB>732016</BSB>
+                                </FinancialInstitutionAccount>
+                            </CreditorAccount>
+                            -
+                            <PaymentType>
+                                -
+                                <DirectTransfer>
+                                    <Narrative>Deposit from Rupesh Yearly</Narrative>
+                                </DirectTransfer>
+                            </PaymentType>
+                            -
+                            <PaymentDate>
+                                <PaymentEffectiveDate>2013-07-25+11:00</PaymentEffectiveDate>
+                                -
+                                <RecurringPaymentDate>
+                                    <PaymentStartDate>2013-07-25+11:00</PaymentStartDate>
+                                    <PaymentEndDate/>
+                                    <NextPaymentDate>2005-12-21+11:00</NextPaymentDate>
+                                    <LastPaymentDate>2011-12-21+11:00</LastPaymentDate>
+                                    <PaymentFrequency>P1Y0M0DT0H0M0S</PaymentFrequency>
+                                    <NumberOfPayments/>
+                                </RecurringPaymentDate>
+                            </PaymentDate>
+                            <PaymentStatus>
+                                <PaymentStatus>Scheduled</PaymentStatus>
+                            </PaymentStatus>
+                        </PaymentInstruction>
+
+
+                        <!--End-Rupesh data 2-->
+
+                        Regards,
+                        Kiran Chilakamarri
+                        NextGen Cash Hub - Testing
+                        Level 7, 33 Pitt Street, Sydney 2000.
+                        E: Kiran.Chilakamarri@btfinancialgroup.com
+                        D: +61-0292362974 Ext: 62974 M: +61-470466781
+                        A will finds a way.
+
+
+                    </PaymentInstructions>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:SearchPaymentInstructionsResponseMsg>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

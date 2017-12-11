@@ -1,0 +1,323 @@
+{
+  "version": "1.0.0",
+  "accountType": "corporateTrust",
+  "trustType": "family",
+  "approvalType": "online",
+  "shareholderandmembers": {
+    "needsMember": false,
+    "hasbeneficiaryclasses": "no",
+    "accountType": "corporateTrust",
+    "additionalShareHoldersAndMembers": [{
+      "needsMember": false,
+      "title": "MR",
+      "middlename": "",
+      "additionalshareholdergender": "male",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "expiryDate": "09/09/2020",
+            "englishTranslation": "Not Applicable",
+            "documentNumber": "3333333",
+            "documentIssuer": "NSW",
+            "accreditedenglishtrans": "notapplicable",
+            "verificationSource": "original"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "valid": true,
+        "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+        "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "existingAddressList": [{
+          "valid": true,
+          "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+          "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+          "existingAddressList": [],
+          "sameasaddress": "0",
+          "country": "AU"
+        }],
+        "sameasaddress": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "addressType": "residential",
+        "country": "AU"
+      },
+      "taxdetails": {
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          }
+        },
+        "overseasTaxDetails": []
+      },
+      "needsBeneficiary": true,
+      "lastname": "King",
+      "dateofbirth": "03/03/1978",
+      "firstname": "Joshua",
+      "needsControllerOfTrust": true,
+      "needsShareholder": true,
+      "persontype": ["beneficiary", "controlleroftrust", "shareholder"]
+    }],
+    "investorsWithRoles": [{
+      "isShareholder": "no",
+      "needsMember": false,
+      "isBeneficiary": "yes",
+      "needsBeneficiary": true,
+      "isControllerOfTrust": "yes",
+      "needsControllerOfTrust": true,
+      "needsShareholder": true
+    }],
+    "needsBeneficiary": true,
+    "needsControllerOfTrust": true,
+    "needsShareholder": true
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    }
+  },
+  "linkedaccounts": {
+    "otherLinkedAccount": [],
+    "primaryLinkedAccount": {
+      "accountname": "test account",
+      "bsb": "082124",
+      "accountnumber": "535363636",
+      "bsbValidationResultVal": true
+    }
+  },
+  "trustdetails": {
+    "businessname": "",
+    "personalinvestmententity": true,
+    "middlename": "",
+    "lastname": "Ellis",
+    "firstname": "Anthony",
+    "trustverification": {
+      "identitydocument": "letteridv",
+      "letteridv": {
+        "documentnumber": "2342424",
+        "verifiedfrom": "original",
+        "fullname": "Baba Namuk",
+        "documentdate": "08/08/2016"
+      }
+    },
+    "registeredforgst": "yes",
+    "abn": "",
+    "addressv2": {
+      "valid": true,
+      "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+      "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "existingAddressList": [{
+        "valid": true,
+        "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+        "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "existingAddressList": [],
+        "sameasaddress": "0",
+        "country": "AU"
+      }],
+      "sameasaddress": "0",
+      "addressType": "residential",
+      "country": "AU"
+    },
+    "title": "MR",
+    "wealthsource": "Business profits",
+    "settloroftrust": "individual",
+    "trustname": "Florin Corporate trust",
+    "regdate": "09/09/2016",
+    "taxdetails": {
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": false
+      },
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        },
+        "tfn": {
+          "valid": false
+        },
+        "taxOption": {
+          "valid": true,
+          "value": "Tax File Number or exemption not provided"
+        },
+        "exemptionReason": {
+          "valid": true
+        }
+      },
+      "overseasTaxDetails": []
+    },
+    "trusttype": "family",
+    "registrationstate": "NSW",
+    "industry": {
+      "anzsiccode": "7340",
+      "industry": "7340",
+      "ucmcode": "SIC 0358"
+    }
+  },
+  "directors": [{
+    "sameasresaddress": "true",
+    "middlename": "",
+    "resaddressv2": {
+      "valid": true,
+      "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+      "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "existingAddressList": [{
+        "valid": true,
+        "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+        "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "existingAddressList": [],
+        "sameasaddress": "0",
+        "country": "AU"
+      }],
+      "sameasaddress": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "addressType": "residential",
+      "country": "AU"
+    },
+    "lastname": "One",
+    "dateofbirth": "04/04/1978",
+    "emails": [],
+    "firstname": "Director",
+    "alternatename": "",
+    "isvalid": true,
+    "phones": [],
+    "postaladdressv2": {
+      "valid": true,
+      "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+      "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "existingAddressList": [{
+        "valid": true,
+        "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+        "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "existingAddressList": [],
+        "sameasaddress": "0",
+        "country": "AU"
+      }],
+      "sameasaddress": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "addressType": "postal",
+      "country": "AU"
+    },
+    "personRoles": [],
+    "title": "MR",
+    "identitydocument": {
+      "photodocuments": {
+        "driverlicence": {
+          "expiryDate": "09/09/2020",
+          "englishTranslation": "Not Applicable",
+          "documentNumber": "334324242",
+          "documentIssuer": "NSW",
+          "accreditedenglishtrans": "notapplicable",
+          "verificationSource": "original"
+        },
+        "valid": true
+      }
+    },
+    "email": {
+      "value": "florin@email.com"
+    },
+    "formername": "",
+    "accountType": "corporateTrust",
+    "taxdetails": {
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": false
+      },
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        }
+      },
+      "overseasTaxDetails": []
+    },
+    "gender": "male",
+    "preferredcontact": "mobile",
+    "preferredname": "",
+    "mobile": {
+      "value": "0433232323"
+    }
+  }],
+  "companytrustee": {
+    "agreeconditions": "Verified",
+    "acn": "000000019",
+    "asicregisteredname": "the company",
+    "verificationsource": "Website search",
+    "docissuer": "ASIC",
+    "companyname": "the company",
+    "companyabn": "",
+    "documentnumber": "notapplicable",
+    "issuedate": "27 Feb 2017",
+    "englishtranslation": "notapplicable",
+    "taxdetails": {
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": false
+      },
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        }
+      },
+      "overseasTaxDetails": []
+    },
+    "companyofficev2": {
+      "valid": true,
+      "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+      "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "existingAddressList": [{
+        "valid": true,
+        "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+        "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "existingAddressList": [],
+        "sameasaddress": "0",
+        "country": "AU"
+      }],
+      "sameasaddress": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "addressType": "residential",
+      "country": "AU"
+    },
+    "industry": {
+      "anzsiccode": "7340",
+      "industry": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "placeofbusinessv2": {
+      "valid": true,
+      "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+      "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "existingAddressList": [{
+        "valid": true,
+        "DisplayText": "26 Rose Street, ANNANDALE  NSW  2038",
+        "AddressIdentifier": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+        "existingAddressList": [],
+        "sameasaddress": "0",
+        "country": "AU"
+      }],
+      "sameasaddress": "0ZOAUEHgvgBwAAAAAIAgEAAAAADc.CEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyNiByb3NlIHN0IAA-",
+      "addressType": "residential",
+      "country": "AU"
+    }
+  },
+  "accountsettings": {
+    "adviserName": "Edward Revis",
+    "professionalspayment": "linkedaccountsonly",
+    "primarycontact": 0,
+    "investorAccountSettings": [{
+      "paymentSetting": "linkedaccountsonly",
+      "isApprover": "true",
+      "hasRoles": false,
+      "hasApprovers": true
+    }],
+    "powerofattorney": true,
+    "sourceoffunds": "Business income/earnings",
+    "adviserLocation": "New South Wales"
+  },
+  "investors": [],
+  "trustees": []
+}

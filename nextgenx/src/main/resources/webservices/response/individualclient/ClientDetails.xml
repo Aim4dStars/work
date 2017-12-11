@@ -1,0 +1,475 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_person_person_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-11-13 12:22:56.872889000 on afd030a by 201606040 -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <current_of_time><val>2014-11-13T01:22:56.873609000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>person</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>person_id</name>
+          <type>NrFld</type>
+            <lbl>Person ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>gcm_id</name>
+          <type>TextFld</type>
+            <lbl>GCM ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>open_date</name>
+          <type>DateFld</type>
+            <lbl>Open Date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>person_type_id</name>
+          <type>NrFld</type>
+            <lbl>Person Type ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ttl_id</name>
+          <type>NrFld</type>
+            <lbl>Title ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pref_salut</name>
+          <type>TextFld</type>
+            <lbl>Preferred Salutation</lbl>
+        </fld_def>
+        <fld_def>
+          <name>first_name</name>
+          <type>TextFld</type>
+            <lbl>First name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>middle_name</name>
+          <type>TextFld</type>
+            <lbl>Middle name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_name</name>
+          <type>TextFld</type>
+            <lbl>Last name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>full_name</name>
+          <type>TextFld</type>
+            <lbl>Full name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>age</name>
+          <type>NrFld</type>
+            <lbl>Age</lbl>
+        </fld_def>
+        <fld_def>
+          <name>birth_date</name>
+          <type>DateFld</type>
+            <lbl>Birth Date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>death_date</name>
+          <type>DateFld</type>
+            <lbl>Death Date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_online_reg</name>
+          <type>BoolFld</type>
+            <lbl>Is Registered Online</lbl>
+        </fld_def>
+        <fld_def>
+          <name>gender_id</name>
+          <type>NrFld</type>
+            <lbl>Gender ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_avsr</name>
+          <type>BoolFld</type>
+            <lbl>Is Adviser</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_prplnr</name>
+          <type>BoolFld</type>
+            <lbl>Is Paraplanner</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_avsra</name>
+          <type>BoolFld</type>
+            <lbl>Is Adviser Assistant</lbl>
+        </fld_def>
+        <fld_def>
+          <name>profession</name>
+          <type>TextFld</type>
+            <lbl>Profession</lbl>
+        </fld_def>
+        <fld_def>
+          <name>has_tfn</name>
+          <type>BoolFld</type>
+            <lbl>Has TFN</lbl>
+        </fld_def>
+        <fld_def>
+          <name>au_tfn_wtax_exempt_id</name>
+          <type>NrFld</type>
+            <lbl>TFN Exemption ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>safi_device</name>
+          <type>TextFld</type>
+            <lbl>SAFI Device</lbl>
+        </fld_def>
+        <fld_def>
+          <name>assoc_role_id</name>
+          <type>NrFld</type>
+            <lbl>Associated Person Role ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_mbr</name>
+          <type>BoolFld</type>
+            <lbl>Is Member</lbl>
+        </fld_def>
+        <fld_def>
+          <name>idv_status_id</name>
+          <type>NrFld</type>
+            <lbl>IDV Status ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>aml_status_id</name>
+          <type>NrFld</type>
+            <lbl>AML Status ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_type_id</name>
+          <type>NrFld</type>
+            <lbl>Trust Type ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_desc</name>
+          <type>TextFld</type>
+            <lbl>Trust Description</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_mbr_class</name>
+          <type>TextFld</type>
+            <lbl>Trust Member Class</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_legi_name</name>
+          <type>TextFld</type>
+            <lbl>Trust Legislation Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_regu_name</name>
+          <type>TextFld</type>
+            <lbl>Trust Regulator Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_lic_nr</name>
+          <type>TextFld</type>
+            <lbl>Trust License Number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trust_regi_state_id</name>
+          <type>NrFld</type>
+            <lbl>Trust Registered State ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asic_name</name>
+          <type>TextFld</type>
+            <lbl>ASIC Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>acn</name>
+          <type>TextFld</type>
+            <lbl>ACN</lbl>
+        </fld_def>
+        <fld_def>
+          <name>abn</name>
+          <type>TextFld</type>
+            <lbl>ABN</lbl>
+        </fld_def>
+        <fld_def>
+          <name>anzsic_div_id</name>
+          <type>NrFld</type>
+            <lbl>ANZSIC Division</lbl>
+        </fld_def>
+        <fld_def>
+          <name>anzsic_subdiv_id</name>
+          <type>NrFld</type>
+            <lbl>ANZSIC Sub-Division</lbl>
+        </fld_def>
+        <fld_def>
+          <name>anzsic_grp_id</name>
+          <type>NrFld</type>
+            <lbl>ANZSIC Group</lbl>
+        </fld_def>
+        <fld_def>
+          <name>anzsic_industry_id</name>
+          <type>NrFld</type>
+            <lbl>ANZSIC Industry</lbl>
+        </fld_def>
+        <fld_def>
+          <name>country_tax_id</name>
+          <type>NrFld</type>
+            <lbl>Country Tax ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_regi_gst</name>
+          <type>BoolFld</type>
+            <lbl>Is Registered for GST</lbl>
+        </fld_def>
+        <fld_def>
+          <name>modi_seq_nr</name>
+          <type>TextFld</type>
+            <lbl>Object Modification Sequence Number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>legal_form_id</name>
+          <type>NrFld</type>
+            <lbl>Legal Form ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>addr_id</name>
+          <type>NrFld</type>
+            <lbl>Address ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>addr_catg_id</name>
+          <type>NrFld</type>
+            <lbl>Address Category ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>addr_kind_id</name>
+          <type>NrFld</type>
+            <lbl>Address Kind ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>addr_medium_id</name>
+          <type>NrFld</type>
+            <lbl>Address Medium ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>elec_addr</name>
+          <type>TextFld</type>
+            <lbl>Electronic Address</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_mail</name>
+          <type>BoolFld</type>
+            <lbl>Is Mail</lbl>
+        </fld_def>
+        <fld_def>
+          <name>is_domi</name>
+          <type>BoolFld</type>
+            <lbl>Is Domicile</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cty_id</name>
+          <type>NrFld</type>
+            <lbl>Country ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>unit_nr</name>
+          <type>TextFld</type>
+            <lbl>Unit Number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>floor_nr</name>
+          <type>TextFld</type>
+            <lbl>Floor Number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>street_nr</name>
+          <type>TextFld</type>
+            <lbl>Street Number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>street_name</name>
+          <type>TextFld</type>
+            <lbl>Street Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>street_type_id</name>
+          <type>NrFld</type>
+            <lbl>Street Type ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>building_name</name>
+          <type>TextFld</type>
+            <lbl>Building Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>suburb</name>
+          <type>TextFld</type>
+            <lbl>Suburb</lbl>
+        </fld_def>
+        <fld_def>
+          <name>state_id</name>
+          <type>NrFld</type>
+            <lbl>State ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>state_other</name>
+          <type>TextFld</type>
+            <lbl>State Other</lbl>
+        </fld_def>
+        <fld_def>
+          <name>zip</name>
+          <type>TextFld</type>
+            <lbl>ZIP</lbl>
+        </fld_def>
+        <fld_def>
+          <name>box_addr_type_id</name>
+          <type>NrFld</type>
+            <lbl>Box Type ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>po_box</name>
+          <type>TextFld</type>
+            <lbl>PO Box</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_id</name>
+          <type>NrFld</type>
+            <lbl>Document ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_sign_date</name>
+          <type>DateFld</type>
+            <lbl>Signature Date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_expir_date</name>
+          <type>DateFld</type>
+            <lbl>Signature Valid Until</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_text1</name>
+          <type>TextFld</type>
+            <lbl>Text</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_issuer</name>
+          <type>TextFld</type>
+            <lbl>Issuer</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_full_name</name>
+          <type>TextFld</type>
+            <lbl>Full Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_id_nr</name>
+          <type>TextFld</type>
+            <lbl>Identification No.</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_type_id</name>
+          <type>NrFld</type>
+            <lbl>Document Type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_accr_en_trl_id</name>
+          <type>NrFld</type>
+            <lbl>Accredited English Transalation</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_public_docm_type_text</name>
+          <type>TextFld</type>
+            <lbl>Public Document Type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_state_id</name>
+          <type>NrFld</type>
+            <lbl>Document State ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>docm_country_id</name>
+          <type>NrFld</type>
+            <lbl>Document Country ID</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <person_list>
+    <person>
+      <person_head_list>
+        <person_head id="1" row_type="data" hira="1" level="person.head">
+          <person_id><annot><displ_text></displ_text><ctx><type>person</type><id>36431</id></ctx></annot><val>36431</val></person_id>
+          <gcm_id><val>201606040</val></gcm_id>
+          <open_date><val>2014-05-23</val></open_date>
+          <person_type_id><annot><displ_text></displ_text><ctx><type>code_obj_sub_type</type><id>120</id></ctx></annot><val>120</val></person_type_id>
+          <ttl_id><annot><displ_text></displ_text><ctx><type>code_title</type><id>1000</id></ctx></annot><val>1000</val></ttl_id>
+          <first_name><val>person-120_1574</val></first_name>
+          <middle_name><val>person-120_1574</val></middle_name>
+          <last_name><val>person-120_1574</val></last_name>
+          <full_name><val>person-120_1574person-120_1574person-120_1574</val></full_name>
+          <age><val>103</val></age>
+          <birth_date><val>1911-11-01</val></birth_date>
+          <is_online_reg><annot><displ_text>1</displ_text></annot><val>true</val></is_online_reg>
+          <gender_id><annot><displ_text></displ_text><ctx><type>code_gender</type><id>1</id></ctx></annot><val>1</val></gender_id>
+          <is_avsr><annot><displ_text>1</displ_text></annot><val>true</val></is_avsr>
+          <is_prplnr><annot><displ_text>0</displ_text></annot><val>false</val></is_prplnr>
+          <is_avsra><annot><displ_text>0</displ_text></annot><val>false</val></is_avsra>
+          <has_tfn><annot><displ_text>0</displ_text></annot><val>false</val></has_tfn>
+          <au_tfn_wtax_exempt_id><annot><displ_text></displ_text><ctx><type>code_au_tax_person_wtax_exmp</type><id>99</id></ctx></annot><val>99</val></au_tfn_wtax_exempt_id>
+          <safi_device><val>a053c878-02d5-413b-bcc0-2813b2643f92</val></safi_device>
+          <country_tax_id><annot><displ_text></displ_text><ctx><type>country</type><id>2061</id></ctx></annot><val>2061</val></country_tax_id>
+          <is_regi_gst><annot><displ_text>0</displ_text></annot><val>false</val></is_regi_gst>
+          <brand_silo_id><val>660670</val></brand_silo_id>
+          <modi_seq_nr><val>1</val></modi_seq_nr>
+          <addr_list>
+            <addr id="2" row_type="data" hira="2" level="addr">
+            </addr>
+            <addr id="3" row_type="data" hira="2" level="addr">
+            </addr>
+            <addr id="4" row_type="data" hira="2" level="addr">
+            </addr>
+            <addr id="5" row_type="data" hira="2" level="addr">
+            </addr>
+            <addr id="6" row_type="data" hira="2" level="addr">
+            </addr>
+          </addr_list>
+        </person_head>
+      </person_head_list>
+    </person>
+  </person_list>
+
+  </data>
+</rep:rep>
+<!-- bb041d92-3884-4540-b5a5-65788afd83d4 at 2014-11-13T01:22:56.909450000Z on AFD030A by 201606040 -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

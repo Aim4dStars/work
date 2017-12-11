@@ -1,0 +1,23 @@
+<included>  
+    <root level="INFO" />
+
+    <!--<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender> -->
+
+<!--
+    <logger name="com.bt.nextgen.api.draftaccount" level="DEBUG">
+            <appender-ref ref="STDOUT"/>
+    </logger>
+-->
+
+<!--
+    <logger name="com.bt.nextgen.integration.xml" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+-->
+
+
+</included>

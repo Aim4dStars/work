@@ -1,0 +1,205 @@
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         metadata-complete="true">
+
+    <context-param>
+        <param-name>contextClass</param-name>
+        <param-value>org.springframework.web.context.support.AnnotationConfigWebApplicationContext</param-value>
+    </context-param>
+
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>com.bt.nextgen.config.WebConfig</param-value>
+    </context-param>
+	<context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>com.bt.nextgen.config.CacheConfig</param-value>
+    </context-param>
+    
+ 	<context-param>
+        <param-name>defaultHtmlEscape</param-name>
+        <param-value>true</param-value>
+    </context-param>
+
+    <listener>
+        <listener-class>com.bt.nextgen.core.tracking.ApplicationTrackingInitialiser</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.bt.nextgen.core.web.interceptor.LoggingContextManager</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>org.springframework.web.util.HttpSessionMutexListener</listener-class>
+    </listener>
+    <listener>
+        <listener-class>com.bt.nextgen.core.web.interceptor.LogsSessionEvents</listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>dispatcher</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextClass</param-name>
+            <param-value>
+                org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+            </param-value>
+        </init-param>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>dispatcher</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Security -->
+    <session-config>
+        <session-timeout>481</session-timeout>
+    </session-config>
+
+    <filter>
+        <filter-name>LOG</filter-name>
+        <filter-class>com.bt.nextgen.core.web.interceptor.LoggingContextManager</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LOG</filter-name>
+        <url-pattern>/secure/*</url-pattern>
+        <url-pattern>/public/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>ERROR</dispatcher>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>HEADERS</filter-name>
+        <filter-class>com.bt.nextgen.core.web.ResponseHeaderFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HEADERS</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>ERROR</dispatcher>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>dynamicRedirectFilter</filter-name>
+        <filter-class>com.bt.nextgen.core.web.DynamicRedirectFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>dynamicRedirectFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>ERROR</dispatcher>
+    </filter-mapping>
+    <filter>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>springSecurityFilterChain</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>ERROR</dispatcher>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>decodeJsonPostContentFilter</filter-name>
+        <filter-class>com.bt.nextgen.core.web.interceptor.DecodeJsonPostContentFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>decodeJsonPostContentFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>jspCSRF</filter-name>
+        <filter-class>com.bt.nextgen.core.web.interceptor.CrossSiteReqForgeryFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>jspCSRF</filter-name>
+        <url-pattern>/secure/page/*</url-pattern>        
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CSRF</filter-name>
+        <filter-class>com.bt.nextgen.core.security.csrf.CSRFTokenFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CSRF</filter-name>
+        <url-pattern>/secure/api/*</url-pattern>
+        <url-pattern>/secure/upload/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>gzipFilter</filter-name>
+        <filter-class>net.sf.ehcache.constructs.web.filter.GzipFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>gzipFilter</filter-name>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.js</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+
+        <!-- example config for debuging filter
+        <init-param>
+            <param-name>logLevel</param-name>
+            <param-value>DEBUG</param-value>
+        </init-param>
+        <init-param>
+            <param-name>confReloadCheckInterval</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        -->
+
+    </filter>
+
+    <filter-mapping>
+        <filter-name>UrlRewriteFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>FORWARD</dispatcher>
+    </filter-mapping>
+
+	<filter>
+        <filter-name>appStatusCheckFilter</filter-name>
+        <filter-class>com.bt.nextgen.core.web.interceptor.ApplicationStatusCheckFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>appStatusCheckFilter</filter-name>
+        <url-pattern>/public/page/*</url-pattern>
+        <url-pattern>/public/api/*</url-pattern>
+        <url-pattern>/secure/page/*</url-pattern>
+        <url-pattern>/secure/api/*</url-pattern>
+        <url-pattern>/secure/app/*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+    
+    <!-- error code 403, 404 & 500 -->
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error/page/fatal</location>
+    </error-page>
+    <error-page>
+        <error-code>403</error-code>
+        <location>/error/page/403</location>
+    </error-page>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error/page/404</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/error/page/500</location>
+    </error-page>
+
+</web-app>

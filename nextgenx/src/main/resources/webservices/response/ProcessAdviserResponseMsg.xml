@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+    <SOAP-ENV:Body>
+        <ns2:ProcessAdvisersResponseMsg xmlns:ns2="ns://private.btfin.com/NextGen/Onboarding/OnboardingResponse/V1_0"
+                                        xmlns:ns3="ns://btfin.com/SharedServices/Common/Contact/V1_1">
+            <Status>Success</Status>
+            <ResponseDetails>
+                <!--You have a CHOICE of the next 2 items at this level-->
+                <SuccessResponse>
+                    <Adviser>
+                        <Adviser>
+                            <AdviserDetails>
+                                <AdviserNumber><!-- Number from the request --></AdviserNumber>
+                                <AdviserNumberIssuer>Westpac</AdviserNumberIssuer>
+                                <AdviserDetails>
+                                    <PartyDetails>
+                                        <Individual>
+                                            <GivenName><!-- Given name from the request. --></GivenName>
+                                            <LastName><!-- Last name from the request --></LastName>
+                                        </Individual>
+                                    </PartyDetails>
+                                </AdviserDetails>
+                            </AdviserDetails>
+                        </Adviser>
+                    </Adviser>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns2:ProcessAdvisersResponseMsg>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

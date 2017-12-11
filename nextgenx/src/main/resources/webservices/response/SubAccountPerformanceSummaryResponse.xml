@@ -1,0 +1,436 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-09-05 11:45:37.313850000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>28-AUG-2014</val></date_from>
+    <date_to><val>10-SEP-2014</val></date_to>
+    <current_of_time><val>2014-09-04T19:36:34.940589000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>obj</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period_det</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>obj_id</name>
+          <type>NrFld</type>
+            <lbl>Object ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_id</name>
+          <type>NrFld</type>
+            <lbl>Asset ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bmrk_id</name>
+          <type>NrFld</type>
+            <lbl>Benchmark ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>calc_perf_from</name>
+          <type>DateFld</type>
+            <lbl>Performance calculated from</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_id</name>
+          <type>NrFld</type>
+            <lbl>Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_sop</name>
+          <type>DateFld</type>
+            <lbl>Start of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_eop</name>
+          <type>DateFld</type>
+            <lbl>End of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>sop_curr_val_ref</name>
+          <type>NrFld</type>
+            <lbl>Opening Balance</lbl>
+        </fld_def>
+        <fld_def>
+          <name>eop_curr_val_ref</name>
+          <type>NrFld</type>
+            <lbl>Closing Balance</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr</name>
+          <type>NrFld</type>
+            <lbl>TWRR</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_capt_rtn</name>
+          <type>NrFld</type>
+            <lbl>Capital Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_income_rtn</name>
+          <type>NrFld</type>
+            <lbl>Income Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_accum</name>
+          <type>NrFld</type>
+            <lbl>Accumulated TWRR</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bmrk_ror</name>
+          <type>NrFld</type>
+            <lbl>Benchmark Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>active_ror</name>
+          <type>NrFld</type>
+            <lbl>Active Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>inflows</name>
+          <type>NrFld</type>
+            <lbl>Inflows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>outflows</name>
+          <type>NrFld</type>
+            <lbl>Outflows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>income</name>
+          <type>NrFld</type>
+            <lbl>Income</lbl>
+        </fld_def>
+        <fld_def>
+          <name>expenses</name>
+          <type>NrFld</type>
+            <lbl>Expenses</lbl>
+        </fld_def>
+        <fld_def>
+          <name>mkt_mvt</name>
+          <type>NrFld</type>
+            <lbl>Market Movement</lbl>
+        </fld_def>
+        <fld_def>
+          <name>net_gain_loss</name>
+          <type>NrFld</type>
+            <lbl>Net Gain / Loss</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <obj_list>
+    <obj>
+      <obj_head_list>
+        <obj_head id="1" row_type="title" hira="1" level="obj.head">
+          <obj_id><annot><displ_text></displ_text><ctx><type>cont</type><id>62204</id></ctx></annot><val>62204</val></obj_id>
+          <bmrk_id><annot><displ_text></displ_text><ctx><type>bmrk</type><id>56603</id></ctx></annot><val>56603</val></bmrk_id>
+		  <asset_id> <annot> <displ_text></displ_text><ctx><type>asset</type><id>21123</id></ctx></annot><val>21123</val></asset_id>
+          <calc_perf_from><val>2014-07-28</val></calc_perf_from>
+        </obj_head>
+      </obj_head_list>
+  <period_list>
+    <period>
+      <period_head_list>
+        <period_head id="2" row_type="subtitle" hira="2" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>8</id></ctx></annot><val>8</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="3" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-01-20</val></period_sop>
+          <period_eop><val>2015-02-28</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>764273</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>-.0666</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>-.0666</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>-.0666</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>0</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>-.0666</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>0</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>0</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>0</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>0</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>-509</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>-509</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+  </period_det_list>
+    </period>
+    <period>
+      <period_head_list>
+        <period_head id="4" row_type="subtitle" hira="2" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>1</id></ctx></annot><val>1</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+  <period_det>
+      <period_det_head_list>
+	  <period_det_head id="5" row_type="data" hira="3" level="period_det.head">
+		  <period_sop><val>2014-08-28</val></period_sop>
+          <period_eop><val>2014-08-28</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>734782</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>5.25</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>15.25</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>25.25</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>5.25</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>3.25</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>1.25</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>20.25</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>25.25</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>25.25</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>28.25</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>56.25</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>25.25</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="6" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-08-29</val></period_sop>
+          <period_eop><val>2014-08-29</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>745122</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>15.25</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>.0445</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>25.25</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>28.33</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>22.25</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>0.9</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>65.25</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>60.25</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>25.25</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>45.25</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>340</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>340</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+	<period_det>
+      <period_det_head_list>
+        <period_det_head id="7" row_type="data" hira="3" level="period_det.head">
+		  <period_sop><val>2014-08-30</val></period_sop>
+          <period_eop><val>2014-08-30</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>964782</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>15.25</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>25.25</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>5.25</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>12.25</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>10.25</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>1.1</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>2.25</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>25.25</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>52.25</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>25.25</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>25.25</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>32.25</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="8" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-08-31</val></period_sop>
+          <period_eop><val>2014-08-31</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>785122</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>.0445</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>.0445</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>25.25</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>-1.0445</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>5.25</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>-.5445</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>20.25</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>25.25</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>65.25</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>85.25</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>340</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>340</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+	
+	 <period_det>
+      <period_det_head_list>
+        <period_det_head id="9" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2015-09-01</val></period_sop>
+          <period_eop><val>2015-09-01</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>765122</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>.0445</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>.0445</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>27.25</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>2.0445</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>25.25</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>2.0445</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>25.25</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>20.25</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>25.25</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>29.25</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>340</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>340</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="9" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2015-09-02</val></period_sop>
+          <period_eop><val>2015-09-02</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>765122</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>.0445</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>.0445</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>27.25</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>2.0445</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>25.25</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>2.0445</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>25.25</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>20.25</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>25.25</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>29.25</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>340</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>340</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+	
+  </period_det_list>
+    </period>
+    <period>
+      <period_head_list>
+        <period_head id="10" row_type="subtitle" hira="2" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>2</id></ctx></annot><val>2</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+   
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="14" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-08-28</val></period_sop>
+          <period_eop><val>2014-08-31</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>0</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>0.1</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>0.2</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>0</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>0</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>0</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>0</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>0</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>0</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>0</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="15" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-09-01</val></period_sop>
+          <period_eop><val>2014-09-07</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>0</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>0.5</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>0.4</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>0</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>0</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>0</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>0</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>0</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>0</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>0</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="16" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-09-08</val></period_sop>
+          <period_eop><val>2014-09-10</val></period_eop>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></sop_curr_val_ref>
+          <eop_curr_val_ref><annot><displ_text></displ_text></annot><val>764782</val></eop_curr_val_ref>
+          <twrr><annot><displ_text></displ_text></annot><val>0</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>0</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>1.0</val></twrr_accum>
+          <bmrk_ror><annot><displ_text></displ_text></annot><val>0.9</val></bmrk_ror>
+          <active_ror><annot><displ_text></displ_text></annot><val>0</val></active_ror>
+          <inflows><annot><displ_text></displ_text></annot><val>0</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>0</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>0</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>0</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>0</val></mkt_mvt>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>0</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    
+    
+  </period_det_list>
+    </period>
+  </period_list>
+    </obj>
+  </obj_list>
+
+  </data>
+</rep:rep>
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

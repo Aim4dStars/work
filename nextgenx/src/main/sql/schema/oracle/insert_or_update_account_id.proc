@@ -1,0 +1,44 @@
+CREATE OR REPLACE PROCEDURE insert_or_update_account_id(application_id IN NUMBER, account_id IN NUMBER,
+bp_number      IN VARCHAR2, version_number IN NUMBER) IS
+application_count INTEGER := 0;
+account_count     INTEGER := 0;
+BEGIN
+
+SELECT
+count(*)
+INTO application_count
+FROM application
+WHERE ui_application_id = application_id;
+
+IF application_count = 0
+THEN
+raise_application_error(-20001, CONCAT('Application Not Found. Application ID: ', application_id));
+END IF;
+
+
+SELECT
+count(*)
+INTO account_count
+FROM account
+WHERE ui_account_id = account_id AND
+ui_application_id = application_id;
+IF account_count = 0
+THEN
+INSERT INTO account (ui_application_id, ui_account_id, business_partner_id, version)
+VALUES (application_id, account_id, bp_number, version_number);
+ELSE
+UPDATE ACCOUNT
+SET business_partner_id = bp_number, version = version_number
+WHERE
+ui_account_id = account_id;
+END IF;
+
+EXCEPTION
+WHEN OTHERS
+THEN
+DBMS_OUTPUT.put_line(SQLERRM);
+DBMS_OUTPUT.put_line('   ');
+RAISE;
+
+END insert_or_update_account_id;
+/

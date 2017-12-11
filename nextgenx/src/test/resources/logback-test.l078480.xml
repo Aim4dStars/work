@@ -1,0 +1,17 @@
+<included>  
+    <root level="INFO" />
+
+    <!--<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender> -->
+     
+    <logger name="com.bt.nextgen.service.safi.TwoFactorAuthenticationIntegrationServiceImplTest" level="WARN">
+            <appender-ref ref="STDOUT"/>
+    </logger>
+     <logger name="com.bt.nextgen.service.safi.TwoFactorAuthenticationIntegrationServiceImpl" level="ERROR">
+            <appender-ref ref="STDOUT"/>
+    </logger>
+   
+</included>

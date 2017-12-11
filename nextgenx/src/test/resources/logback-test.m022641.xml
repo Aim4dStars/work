@@ -1,0 +1,58 @@
+<included>
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <logger name="com.bt.nextgen.service.avaloq.code" level="ERROR">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache" level="ERROR">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache.GeneralEhCacheImpl" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache.CacheMonitor" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache.cachesearch" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.broker.AvaloqBrokerIntegrationServiceImplIntegrationTest" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.broker.BrokerServiceImplIntegrationTest" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.asset.CacheManagedAvailableAssetIntegrationServiceImpl" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.broker.CacheManagedUserBrokerIntegrationServiceImpl" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.AbstractAvaloqIntegrationService" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <logger name="com.bt.nextgen.service.avaloq.broker.BrokerCacheService" level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+
+    <logger name="com.bt.nextgen.core.jms.JmsDataHandlerCacheImpl" level="DEBUG">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!-- ignore junk parsing messages -->
+    <logger name="com.bt.nextgen.integration.xml.util.ParsingUtil" level="OFF" />
+    <logger name="com.bt.nextgen.integration.xml.profiler.ParsingTracing" level="OFF" />
+</included>

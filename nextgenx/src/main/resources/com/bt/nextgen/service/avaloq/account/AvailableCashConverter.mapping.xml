@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+  <mapping>
+  	<class-a>com.avaloq.abs.screen_rep.hira.btfg$ui_pos_list_pos_avl_cash.PosHead</class-a>
+    <class-b>com.bt.nextgen.service.avaloq.account.AvailableCashImpl</class-b>   
+    <field>
+      <a>avlCash.val</a>
+      <b>availableCash</b>
+    </field>     
+    <field>
+      <a>openFlowOut.val</a>
+      <b>queuedBuys</b>
+    </field>
+	<field>
+      <a>openFlowIn.val</a>
+      <b>pendingSells</b>
+    </field>    
+  </mapping>		
+ 
+   
+</mappings> 

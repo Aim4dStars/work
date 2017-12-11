@@ -1,0 +1,128 @@
+/* ## Proress Bar 
+Progress bar 
+
+
+
+*/
+
+.progressWrapper{
+	@extend %relative;
+	width:620px;
+	height:70px;
+	@extend .clearFix;
+	@include blockMargin(10,0,0,0);
+		ul{
+			list-style:none;
+			@include blockMargin(0,0,0,0);
+		}
+		%progressionLine{
+			@include position(absolute, 20px 0 0 50px);
+			border:0.4rem solid;
+			}
+
+		.progressLineIndicator,
+		.progressLineCore{
+			@extend %progressionLine;
+			}
+		.progressLineCore{
+			z-index:1;
+			border-color:$borderColor;
+			width:620px;
+				
+			}
+		
+		.progressLineIndicator{
+			border-color:$davazdah;
+			z-index:2
+		}
+		
+		.progressLineIndicator.progressLineIndicatorStep1{
+			width:25%;	
+		}
+		
+		.progressLineIndicator.progressLineIndicatorStep2{
+			width:50%;	
+		}
+		
+		.progressLineIndicator.progressLineIndicatorStep3{
+			width:75%;	
+		}
+		
+		.progressLineCoreEnd{
+					@include position(absolute, 1.35rem 0 0 665px); 
+					transform:rotate(-90deg);
+					-webkit-transform: rotate(-90deg);
+					z-index:4;
+						.iconchevron{
+							font-size:2.1rem;
+							color:#999999;
+							text-shadow:0px -4px 1px #fff;
+							
+						}
+						
+				}
+		.progressContainer{
+			z-index:3;	
+			width:100%;
+			@include position(absolute, 16px 0 0 0px);
+				@media screen and (-webkit-min-device-pixel-ratio:0) {
+					@include position(absolute, 14px 0 0 0px);
+				}
+
+				.progressLabelWrapper{
+					width:auto;
+					height:80px;
+					@extend %inlineBlock;
+					@extend %floatLeft;
+					
+						.progressLabelContainer{
+							@include position(absolute, 0 0 53px 0);
+
+						}
+					
+						.progressLabel{
+							@include blockMargin(.5,0,1,1);	
+							@extend .emphasis;
+							color:$textColorDarker;
+						}
+						.toolIcons{
+							border:none;
+							height:3.4rem;
+							width:3.4rem;
+							@media screen and (-webkit-min-device-pixel-ratio:0) {
+								height:4rem;
+								width:4rem;
+							}
+
+						}
+							.toolIcons.toolIconsBorder{
+								background:#fff;
+								@include allBorders(3px, solid, $davazdah);
+								
+								}
+							.toolIcons.toolIconsFull{
+								background:$davazdah;
+								@include allBorders(3px, solid, $davazdah);
+								color:#fff;
+								}
+							.toolIcons.toolIconsDotted{
+								
+								background:#fff;
+								//border:3px dotted $borderColor!important;
+								@include allBorders(3px, dotted, $borderColor);
+								}
+					
+							}
+				
+		}
+}
+
+
+.progressLabelWrapper.progressLabelWrapperFirst{
+		@include blockMargin(0,0,0,0);
+		}
+
+.progressLabelWrapper.progressLabelWrapperSub{
+		@include blockMargin(0,0,0,16);
+		}
+											

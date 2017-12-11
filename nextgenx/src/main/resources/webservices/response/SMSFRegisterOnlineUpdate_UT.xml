@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person:person_rsp xmlns:person="http://btfin.com/ABS/TrxService/Person/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+<hdr>
+<req_id>7032c67d-cf9b-4a68-a9b2-d27270ace369</req_id>
+</hdr>
+<data>
+<doc>
+    <val>634179</val>
+</doc>
+<wfc_status>
+    <annot>
+        <displ_text>PERSON: Done</displ_text>
+        <ctx>
+            <type>wfc_status_v</type>
+            <id>1250090</id>
+        </ctx>
+    </annot>
+    <val>1250090</val>
+</wfc_status>
+<person_id>
+    <annot>
+        <displ_text>Bell Corp SMSF</displ_text>
+        <ctx>
+            <type>obj_person</type>
+            <id>114440</id>
+        </ctx>
+    </annot>
+    <val>114440</val>
+</person_id>
+<person_modi_seq_nr>
+    <val>1</val>
+</person_modi_seq_nr>
+<class>
+    <reg_chan_id>
+        <annot>
+            <displ_text>ng_001</displ_text>
+            <ctx>
+                <type>code_obj_class</type>
+                <id>660483</id>
+            </ctx>
+        </annot>
+        <auto>false</auto>
+        <val>660483</val>
+    </reg_chan_id>
+</class>
+</data>
+<rsp>
+<exec>
+    <action>do</action>
+</exec>
+</rsp>
+</person:person_rsp>

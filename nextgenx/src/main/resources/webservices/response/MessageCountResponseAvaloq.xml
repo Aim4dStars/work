@@ -1,0 +1,166 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse><rep:report xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/ui_ntfcn_unread" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base_old">
+
+                    <def>
+                        <version>1.0</version>
+                        <report_def>
+                            <style>hira</style>
+                            <lang id="1">en</lang>
+                            <hira_def>
+                                <group_list>
+                                    <group_def>
+                                        <name>prio</name>
+                                        <hira>1</hira>
+                                        <hasHead>true</hasHead>
+                                        <hasFoot>false</hasFoot>
+                                    </group_def>
+                                    <group_def>
+                                        <name>cat</name>
+                                        <hira>2</hira>
+                                        <hasHead>true</hasHead>
+                                        <hasFoot>false</hasFoot>
+                                    </group_def>
+                                    <group_def>
+                                        <name>msgctr</name>
+                                        <hira>3</hira>
+                                        <hasHead>true</hasHead>
+                                        <hasFoot>false</hasFoot>
+                                    </group_def>
+                                </group_list>
+                            </hira_def>
+                            <row_def>
+                                <fld_list>
+                                    <fld_def>
+                                        <name>prio</name>
+                                        <type>textField</type>
+                                        <label>Priority</label>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>cat</name>
+                                        <type>textField</type>
+                                        <label>Category</label>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>msg_avsr_ctr</name>
+                                        <type>textField</type>
+                                        <label>Message Adviser Center</label>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>tot_unread</name>
+                                        <type>numberField</type>
+                                        <label>Total</label>
+                                    </fld_def>
+
+                                </fld_list>
+                            </row_def>
+                        </report_def>
+                    </def>
+
+                    <data>
+                        <report_data>
+                            <head id="1" rowType="title" hira="0" level="report_data.head">
+                                <prio>
+                                    <val>Event Notifications with Delivery Report: Web UI - Unread Notification</val>
+                                </prio>
+                            </head>
+                            <top>
+                                <prio_list>
+                                    <prio>
+                                        <head id="2" rowType="title" hira="1" level="prio.head">
+                                            <prio>
+                                                <val>High priority</val>
+                                            </prio>
+                                            <tot_unread>
+                                                <val val="2">2</val>
+                                            </tot_unread>
+                                        </head>
+                                        <cat_list>
+                                            <cat>
+                                                <head id="3" rowType="subtitle" hira="2" level="cat.head">
+                                                    <cat>
+                                                        <annot>
+                                                            <ctxType>btfg$code_ntfcn_msg_cat</ctxType>
+                                                            <ctxId>3</ctxId>
+                                                        </annot>
+                                                        <val>Confirmed Transaction</val>
+                                                    </cat>
+                                                    <tot_unread>
+                                                        <val val="2">2</val>
+                                                    </tot_unread>
+                                                </head>
+                                                <msgctr_list>
+                                                    <msgctr>
+                                                        <head id="4" rowType="data" hira="3" level="msgctr.head">
+                                                            <msg_avsr_ctr>
+                                                                <annot>
+                                                                    <ctxType>btfg$code_ntfcn_advsr_msgctr</ctxType>
+                                                                    <ctxId>1</ctxId>
+                                                                </annot>
+                                                                <val>Client messages</val>
+                                                            </msg_avsr_ctr>
+                                                            <tot_unread>
+                                                                <val val="2">2</val>
+                                                            </tot_unread>
+                                                        </head>
+                                                    </msgctr>
+                                                </msgctr_list>
+                                            </cat>
+                                        </cat_list>
+                                    </prio>
+                                    <prio>
+                                        <head id="5" rowType="title" hira="1" level="prio.head">
+                                            <prio>
+                                                <val>Non priority</val>
+                                            </prio>
+                                            <tot_unread>
+                                                <val val="1">1</val>
+                                            </tot_unread>
+                                        </head>
+                                        <cat_list>
+                                            <cat>
+                                                <head id="6" rowType="subtitle" hira="2" level="cat.head">
+                                                    <cat>
+                                                        <annot>
+                                                            <ctxType>btfg$code_ntfcn_msg_cat</ctxType>
+                                                            <ctxId>3</ctxId>
+                                                        </annot>
+                                                        <val>Confirmed Transaction</val>
+                                                    </cat>
+                                                    <tot_unread>
+                                                        <val val="1">1</val>
+                                                    </tot_unread>
+                                                </head>
+                                                <msgctr_list>
+                                                    <msgctr>
+                                                        <head id="7" rowType="data" hira="3" level="msgctr.head">
+                                                            <msg_avsr_ctr>
+                                                                <annot>
+                                                                    <ctxType>btfg$code_ntfcn_advsr_msgctr</ctxType>
+                                                                    <ctxId>1</ctxId>
+                                                                </annot>
+                                                                <val>Client messages</val>
+                                                            </msg_avsr_ctr>
+                                                            <tot_unread>
+                                                                <val val="1">1</val>
+                                                            </tot_unread>
+                                                        </head>
+                                                    </msgctr>
+                                                </msgctr_list>
+                                            </cat>
+                                        </cat_list>
+                                    </prio>
+                                </prio_list>
+                            </top>
+                        </report_data>
+
+                    </data>
+                </rep:report>
+</SuccessResponse>
+</ResponseDetails>
+ </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+   </env:Envelope>

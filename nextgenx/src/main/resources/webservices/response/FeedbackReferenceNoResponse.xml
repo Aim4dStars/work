@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>&lt;crm_iss:crm_iss_rsp xsi:schemaLocation="http://btfin.com/ABS/TrxService/Crm_Issue/V1_0 BTFG$COM.BTFIN.TRXSVC_CRM_ISS.XSD" xmlns:crm_iss="http://btfin.com/ABS/TrxService/Crm_Issue/V1_0" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+	&lt;hdr&gt;
+		&lt;id name="String"&gt;
+			&lt;annot&gt;
+				&lt;displ_text/&gt;
+				&lt;extl_val&gt;
+					&lt;key/&gt;
+					&lt;val/&gt;
+				&lt;/extl_val&gt;
+				&lt;ctx&gt;
+					&lt;type/&gt;
+					&lt;id/&gt;
+				&lt;/ctx&gt;
+			&lt;/annot&gt;
+			&lt;auto/&gt;
+			&lt;val/&gt;
+		&lt;/id&gt;
+	&lt;/hdr&gt;
+	&lt;data&gt;
+		&lt;doc_id name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val/&gt;&lt;/doc_id&gt;
+		&lt;feedback_type_id name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val&gt;12345&lt;/val&gt;&lt;/feedback_type_id&gt;
+		&lt;bp_id name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val&gt;12147&lt;/val&gt;&lt;/bp_id&gt;
+		&lt;person_id name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val/&gt;&lt;/person_id&gt;
+		&lt;ctact_pref_id name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val&gt;TM@gmail.com&lt;/val&gt;&lt;/ctact_pref_id&gt;
+		&lt;feedback_text name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val&gt;My Feedback&lt;/val&gt;&lt;/feedback_text&gt;
+		&lt;trig_party_id name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val/&gt;&lt;/trig_party_id&gt;
+		&lt;open_date name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val/&gt;&lt;/open_date&gt;
+		&lt;issuer_name name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val/&gt;&lt;/issuer_name&gt;
+		&lt;issuer_phone_nr name="String"&gt;&lt;annot&gt;&lt;displ_text/&gt;&lt;extl_val&gt;&lt;key/&gt;&lt;val/&gt;&lt;/extl_val&gt;&lt;ctx&gt;&lt;type/&gt;&lt;id/&gt;&lt;/ctx&gt;&lt;/annot&gt;&lt;auto/&gt;&lt;val/&gt;&lt;/issuer_phone_nr&gt;
+		&lt;trans_list&gt;
+			&lt;trans&gt;
+				&lt;timestamp name="String"&gt;
+					&lt;annot&gt;
+						&lt;displ_text/&gt;
+						&lt;extl_val&gt;
+							&lt;key/&gt;
+							&lt;val/&gt;
+						&lt;/extl_val&gt;
+						&lt;ctx&gt;
+							&lt;type/&gt;
+							&lt;id/&gt;
+						&lt;/ctx&gt;
+					&lt;/annot&gt;
+					&lt;auto/&gt;
+					&lt;val/&gt;
+				&lt;/timestamp&gt;
+				&lt;status name="String"&gt;
+					&lt;annot&gt;
+						&lt;displ_text/&gt;
+						&lt;extl_val&gt;
+							&lt;key/&gt;
+							&lt;val/&gt;
+						&lt;/extl_val&gt;
+						&lt;ctx&gt;
+							&lt;type/&gt;
+							&lt;id/&gt;
+						&lt;/ctx&gt;
+					&lt;/annot&gt;
+					&lt;auto/&gt;
+					&lt;val/&gt;
+				&lt;/status&gt;
+			&lt;/trans&gt;
+			&lt;trans&gt;
+				&lt;timestamp name="String"&gt;
+					&lt;annot&gt;
+						&lt;displ_text/&gt;
+						&lt;extl_val&gt;
+							&lt;key/&gt;
+							&lt;val/&gt;
+						&lt;/extl_val&gt;
+						&lt;ctx&gt;
+							&lt;type/&gt;
+							&lt;id/&gt;
+						&lt;/ctx&gt;
+					&lt;/annot&gt;
+					&lt;auto/&gt;
+					&lt;val/&gt;
+				&lt;/timestamp&gt;
+				&lt;status name="String"&gt;
+					&lt;annot&gt;
+						&lt;displ_text/&gt;
+						&lt;extl_val&gt;
+							&lt;key/&gt;
+							&lt;val/&gt;
+						&lt;/extl_val&gt;
+						&lt;ctx&gt;
+							&lt;type/&gt;
+							&lt;id/&gt;
+						&lt;/ctx&gt;
+					&lt;/annot&gt;
+					&lt;auto/&gt;
+					&lt;val/&gt;
+				&lt;/status&gt;
+			&lt;/trans&gt;
+		&lt;/trans_list&gt;
+	&lt;/data&gt;
+	&lt;rsp&gt;
+		&lt;get&gt;
+			&lt;doc name="String"&gt;
+				&lt;annot&gt;
+					&lt;displ_text/&gt;
+					&lt;extl_val&gt;
+						&lt;key/&gt;
+						&lt;val/&gt;
+					&lt;/extl_val&gt;
+					&lt;ctx&gt;
+						&lt;type/&gt;
+						&lt;id/&gt;
+					&lt;/ctx&gt;
+				&lt;/annot&gt;
+				&lt;auto/&gt;
+				&lt;val&gt;922457&lt;/val&gt;
+			&lt;/doc&gt;
+			&lt;wfc_status name="String"&gt;
+				&lt;annot&gt;
+					&lt;displ_text/&gt;
+					&lt;extl_val&gt;
+						&lt;key/&gt;
+						&lt;val/&gt;
+					&lt;/extl_val&gt;
+					&lt;ctx&gt;
+						&lt;type/&gt;
+						&lt;id/&gt;
+					&lt;/ctx&gt;
+				&lt;/annot&gt;
+				&lt;auto/&gt;
+				&lt;val/&gt;
+			&lt;/wfc_status&gt;
+		&lt;/get&gt;
+	&lt;/rsp&gt;
+&lt;/crm_iss:crm_iss_rsp&gt;
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>
+
+
+
+<!-- 
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse><?xml version="1.0" encoding="UTF-8"?>
+<crm_iss:crm_iss_rsp xsi:schemaLocation="http://btfin.com/ABS/TrxService/Crm_Issue/V1_0 BTFG$COM.BTFIN.TRXSVC_CRM_ISS.XSD" xmlns:crm_iss="http://btfin.com/ABS/TrxService/Crm_Issue/V1_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<data>
+		<feedback_type_id auto="true" ctxId="" ctxType="" id="">feedback_type_id</feedback_type_id>
+    <bp_id auto="true" ctxId="" ctxType="" id="">bp_id</bp_id>
+    <ctact_pref_id auto="true" ctxId="" ctxType="" id="">ctact_pref_id</ctact_pref_id>
+    <feedback_text auto="true">feedback_text</feedback_text>
+	</data>
+	<rsp_list>
+		<exec doc_id="922115"> 
+			<action>do</action>
+		</exec>
+	</rsp_list>
+
+</crm_iss:crm_iss_rsp>
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>
+ -->

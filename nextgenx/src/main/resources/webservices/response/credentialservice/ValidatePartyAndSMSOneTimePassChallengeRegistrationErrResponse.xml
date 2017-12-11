@@ -1,0 +1,42 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:v3="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+   <soap:Header>
+      <v3:esbHeader>
+         <v3:messageAttributes>
+            <v3:id>1</v3:id>
+         </v3:messageAttributes>
+         <v3:channelAttributes>
+            <v3:organisationId>12345</v3:organisationId>
+            <v3:brandSilo>Silo</v3:brandSilo>
+            <v3:channelType>Online</v3:channelType>
+            <v3:originatingSystemId>12345</v3:originatingSystemId>
+         </v3:channelAttributes>
+      </v3:esbHeader>
+   </soap:Header>
+   <soap:Body>
+      <v1:ValidatePartySMSOneTimePasswordChallengeResponseMsg xmlns:v1="ns://btfin.com/Product/Panorama/CredentialService/CredentialResponse/V1_0">
+      <!-- Note: These values are prepared based on assumption. Yet to find what will be the status for invalid data. -->
+         <Status>Error</Status>
+         <ResponseDetails>
+            <ErrorResponses>
+               <ErrorResponse>
+                  <Code>Sender</Code>
+                     <SubCode>PartyNotFound</SubCode>
+                     <Description>PartyNotFound</Description>
+
+                  <Reason>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;exceptiondata&gt;&lt;ns0:ErrorReport xmlns:ns0="http://www.tibco.com/pe/EngineTypes"&gt;&lt;StackTrace&gt;Job-68224 Error in [BusinessProcesses/Common/Call_GESB.process/Group/Generate-GESB-Error-1]
+Error returned by GESB&amp;#xD;
+        at com.tibco.pe.core.GenerateErrorActivity.eval(Unknown Source)&amp;#xD;
+        at com.tibco.pe.plugin.Activity.eval(Unknown Source)&amp;#xD;
+        at com.tibco.pe.core.TaskImpl.eval(Unknown Source)&amp;#xD;
+        at com.tibco.pe.core.Job.a(Unknown Source)&amp;#xD;
+        at com.tibco.pe.core.Job.k(Unknown Source)&amp;#xD;
+        at com.tibco.pe.core.JobDispatcher$JobCourier.a(Unknown Source)&amp;#xD;
+        at com.tibco.pe.core.JobDispatcher$JobCourier.run(Unknown Source)&amp;#xD;
+&lt;/StackTrace&gt;&lt;Msg&gt;Error returned by GESB&lt;/Msg&gt;&lt;FullClass&gt;com.tibco.pe.plugin.ActivityException&lt;/FullClass&gt;&lt;Class&gt;ActivityException&lt;/Class&gt;&lt;ProcessStack&gt;BusinessProcesses/ValidatePartyAndSMSOneTimePasswordChallenge/Handler/ValidatePartySMSPwdHandler.process/RetrieveChannelAccess.RetrieveOnlineBankingStatus (SVC0311)&amp;gt;BusinessProcesses/Common/RetrieveChannelAccessCredential_SVC0311.process/Call_GESB&amp;gt;BusinessProcesses/Common/Call_GESB.process/Group/Generate-GESB-Error-1&lt;/ProcessStack&gt;&lt;MsgCode&gt;PartyNotFound : Error309,00010No Credential foundEAMMVC0172v03invalidAccountFaultInvalid Account.Can't Perform getCredentialStatus Operation.&lt;/MsgCode&gt;&lt;/ns0:ErrorReport&gt;&lt;/exceptiondata&gt;</Reason>
+               </ErrorResponse>
+            </ErrorResponses>
+         </ResponseDetails>
+      </v1:ValidatePartySMSOneTimePasswordChallengeResponseMsg>
+   </soap:Body>
+</soap:Envelope>

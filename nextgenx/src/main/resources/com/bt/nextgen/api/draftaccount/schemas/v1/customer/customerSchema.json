@@ -1,0 +1,301 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Customer Schema used to validate new and existing investors/directors",
+  "type": "object",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.customer.Customer",
+  "properties": {
+    "gcmUpdated": {
+      "type": "boolean",
+      "description": "this field is populated every time an existing customer is retrieved and the value is being used in the webclient"
+    },
+    "placeofbirth": {
+      "type": "object",
+      "description": "the place of birth are required for SMSF Corporate",
+      "properties": {
+        "placeofbirthcountry": {
+          "type": "string",
+          "description": "used in new corp smsf."
+        },
+        "placeofbirthinternationalcity": {
+          "type": "string",
+          "description": "used in new corp smsf."
+        },
+        "placeofbirthinternationalprovince": {
+          "type": "string",
+          "description": "used in new corp smsf."
+        },
+        "placeofbirthstate": {
+          "type": "string",
+          "description": "used in new corp smsf."
+        },
+        "placeofbirthsuburb": {
+          "type": "string",
+          "description": "used in new corp smsf."
+        }
+      },
+      "additionalProperties": false
+    },
+    "eligibletrustee": {
+      "$ref": "../base/confirmationTypeEnum.json",
+      "description": "It is used only in new SMSF accounts.It can have just one value 'Confirmed'."
+    },
+    "registrationForGst": {
+      "type": "boolean",
+      "description": "It is used for storing 'Registered for GST' and is used in various account types."
+    },
+    "company": {
+      "type": "object",
+      "description": "This one is difficult to analyze but most probably it is used nowhere in front end.[except few old mock jsons]"
+    },
+    "emails": {
+      "type": "array",
+      "description": "It is needed for existing Panorama customers.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "preferred": {
+            "type": "boolean"
+          },
+          "emailType": {
+            "type": "string"
+          }
+        },
+        "additionalProperties" : false
+      }
+    },
+    "gcmId": {
+      "type": "string",
+      "description" : "This field represents Avaloq identification id. This fields is populated when customer  is existing panorama.",
+      "TODO": "rename field to panoramaNumber"
+    },
+    "key": {
+      "type": "object",
+      "description": "presence of this property means it is an existing Panorama investor (eg. ExtendedPersonDetailsForm.isExistingPerson)",
+      "properties": {
+        "clientId": {
+          "type": "string",
+          "description": "Panorama investor client key (eg. ExtendedPersonDetailsForm.getClientKey)"
+        }
+      },
+      "additionalProperties": false
+    },
+    "personRoles": {
+      "type": "array",
+      "description": "It is required in view applications.",
+      "items": {
+        "type": "string"
+      }
+    },
+    "phones": {
+      "type": "array",
+      "description": "It is needed for existing Panorama  and gcm retrieved customers.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "preferred": {
+            "type": "boolean"
+          },
+          "number": {
+            "type": "string"
+          },
+          "phoneType": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "label": {
+            "type": "string"
+          },
+          "areaCode": {
+            "type": "string"
+          },
+          "countryCode": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "active": {
+      "type": "boolean",
+      "description": "It is required to identify the active person."
+    },
+    "gcmTitleLabel": {
+      "type": "string",
+      "description": "person GCM title (existing GCM)"
+    },
+    "cisId": {
+      "type": "string",
+      "description": "the CIS key (existing GCM)"
+    },
+    "userName": {
+      "type": "string",
+      "description": "the Z Number (existing GCM)"
+    },
+    "idVerified": {
+      "type": "boolean",
+      "description": "identity verification in GCM (existing GCM)"
+    },
+    "contactdetails": {
+      "$ref": "../base/valueSchema.json",
+      "description": "It is required on GCM retreival screen."
+    },
+    "taxdetails": {
+      "$ref": "../base/taxDetailsSchema.json"
+    },
+    "isDuplicate": {
+      "type": "boolean",
+      "description": "It is used at so many places and it would be better to keep this field for the time being."
+    },
+    "registered": {
+      "type": "boolean",
+      "description": "This flag indicated that customer is registered with avaloq and existing panorama customer"
+    },
+    "tfnProvided": {
+      "type": "boolean",
+      "description": "This field is used by existing panorama customer."
+    },
+    "investorType" : {
+      "type": "string",
+      "description": "It is probably not required to persist this field but would be better to keep it for now.It may require lots of changes to remove it from backend."
+    },
+    "displayTaxOptions": {
+      "type": "boolean"
+    },
+    "cismandatory": {
+      "type": "boolean"
+    },
+    "wealthsource": {
+      "type": "string"
+    },
+    "additionalsourceofwealth": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "middlename": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "preferredname": {
+      "type": "string"
+    },
+    "formername": {
+      "type": "string"
+    },
+    "dateofbirth": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "mobile": {
+      "$ref": "../base/valueSchema.json"
+    },
+    "email": {
+      "$ref": "../base/valueSchema.json"
+    },
+    "preferredcontact": {
+      "$ref": "../base/contactTypeEnum.json",
+      "description": "It is required and 'preferredContact' has been removed from schema"
+    },
+    "isvalid": {
+      "type": "boolean"
+    },
+    "alternatename": {
+      "type": "string"
+    },
+    "accountType": {
+      "type": "string",
+      "TODO": "It can be removed from front end.Need to be analysed properly as removing this field is complex and require changes at many places."
+    },
+    "identitydocument": {
+      "$ref": "../base/identitydocumentSchema.json",
+      "description": "this is the structure for new investors"
+    },
+    "resaddressv2": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "postaladdressv2": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "resaddress": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "postaladdress": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "homenumber": {
+      "$ref": "../base/phonenumberSchema.json"
+    },
+    "worknumber": {
+      "$ref": "../base/phonenumberSchema.json"
+    },
+    "othernumber": {
+      "$ref": "../base/phonenumberSchema.json"
+    },
+    "secondarymobile": {
+      "$ref": "../base/valueSchema.json"
+    },
+    "secondaryemail": {
+      "$ref": "../base/valueSchema.json"
+    },
+    "taxcountry": {
+      "type": "string",
+      "TODO": "Will be removed as part of TCI once CRS tax section is done in MAY release."
+    },
+    "resiCountryforTax": {
+      "type": "string",
+      "TODO": "Will be removed as part of TCI once CRS tax section is done in MAY release."
+    },
+    "taxoption": {
+      "type": "string",
+      "TODO": "Will be removed as part of TCI once CRS tax section is done in MAY release."
+    },
+    "tfn": {
+      "type": "string",
+      "TODO": "Will be removed as part of TCI once CRS tax section is done in MAY release."
+    },
+    "tfnExemptId": {
+      "type": "string",
+      "description": "It is used in view application for all account types."
+    },
+    "saTfnExemptId": {
+          "type": "string",
+          "description": "It is used in view application for pension account types."
+        },
+    "exemptionreason": {
+      "type": "string",
+      "description": "Used for new investors",
+      "TODO": "Will be removed as part of TCI once CRS tax section is done in MAY release."
+    },
+    "exemptionReason": {
+      "type": "string",
+      "description": "Used for existing investors"
+    },
+    "sameasresaddress": {
+      "type": "string",
+      "description": "Used for indicate whether residential address is same as postal address"
+    },
+    "isForeignRegistered": {
+      "type": "string",
+      "description": "Used to indicate if the gcm customer is Foreign Registered for crs purposes. values can be (null, 'Y', 'N')",
+      "pattern": "[YN]$"
+    },
+    "isNewRetrieveCrs": {
+      "type": "boolean",
+      "description": "Used to distinguish tax details component saved after new crs requirement or before new crs requirement as both are getting saved in same component. Should be removed after enough time has passed"
+    }
+  },
+  "additionalProperties": false
+}

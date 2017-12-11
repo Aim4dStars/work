@@ -1,0 +1,463 @@
+{
+  "trustType": "family",
+  "accountType": "corporateTrust",
+  "trustdetails": {
+    "trustname": "Trust name",
+    "businessname": "business name",
+    "abn": "",
+    "regdate": "01\/01\/2000",
+    "registrationstate": "QLD",
+    "registeredforgst": "no",
+    "trusttype": "family",
+    "familyOrOtherTrust": true,
+    "wealthsource": "Business profits",
+    "additionalsourceofwealth": null,
+    "settloroftrust": "individual",
+    "title": "mr",
+    "firstname": "Test",
+    "middlename": "",
+    "lastname": "lastname",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "275",
+      "streetName": "Kent",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "275",
+          "streetName": "Kent",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "893933"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "trustverification": {
+      "identitydocument": "atonotice",
+      "atonotice": {
+        "documentdate": "01\/01\/2015",
+        "documentnumber": "7987892345",
+        "verifiedfrom": "original"
+      }
+    },
+    "taxoption": "Tax File Number provided",
+    "tfn": "123456782",
+    "personalinvestmententity": true
+  },
+  "companytrustee": {
+    "companyname": "company as trustee",
+    "asicregisteredname": "asic company name",
+    "acn": "004085616",
+    "companyabn": "",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "275",
+      "streetName": "Kent",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "261779",
+      "addressType": "residential",
+      "id": "261779",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "275",
+          "streetName": "Kent",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "261779"
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "275",
+      "streetName": "Kent",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "311638",
+      "addressType": "residential",
+      "id": "311638",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "275",
+          "streetName": "Kent",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "311638"
+        }
+      ]
+    },
+    "docissuer": "ASIC",
+    "issuedate": "28 Sep 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "fullName": "Mr First Director",
+      "title": "mr",
+      "firstname": "First",
+      "middlename": "",
+      "lastname": "Director",
+      "preferredname": "prefr",
+      "dateofbirth": "01\/01\/1978",
+      "gender": "male",
+      "mobile": {
+        "value": "0452358568"
+      },
+      "email": {
+        "value": "test@ee.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "existing": true,
+      "accountType": "corporateTrust",
+      "alternatename": "alt",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "275",
+        "streetName": "Kent",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "773126",
+        "addressType": "residential",
+        "id": "773126",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "275",
+            "streetName": "Kent",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "773126"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "275",
+        "streetName": "Kent",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "411300",
+        "addressType": "residential",
+        "id": "411300",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "275",
+            "streetName": "Kent",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "411300"
+          }
+        ]
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "TAS",
+            "expiryDate": "01\/01\/2018",
+            "documentNumber": "37947",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      }
+    },
+    {
+      "fullName": "Mr Second Director",
+      "title": "mr",
+      "firstname": "Second",
+      "middlename": "",
+      "lastname": "Director",
+      "preferredname": "pref",
+      "dateofbirth": "01\/01\/1978",
+      "gender": "male",
+      "mobile": {
+        "value": "0452358568"
+      },
+      "email": {
+        "value": "test@sajd.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "existing": true,
+      "accountType": "corporateTrust",
+      "alternatename": "al",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "275",
+        "streetName": "Kent",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "937641",
+        "addressType": "residential",
+        "id": "937641",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "275",
+            "streetName": "Kent",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "937641"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "275",
+        "streetName": "Kent",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "541543",
+        "addressType": "residential",
+        "id": "541543",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "275",
+            "streetName": "Kent",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "541543"
+          }
+        ]
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NT",
+            "expiryDate": "01\/01\/2018",
+            "documentNumber": "7727397",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      }
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "allpayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": "0",
+    "adviserName": "Scott Girdlestone",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business income\/earnings"
+  },
+  "shareholderandmembers": {
+    "controllerId": 83,
+    "sectionSubtitle": "Beneficiaries \/ shareholders \/ Beneficial Owners",
+    "additionalSectionSubtitle": "Additional beneficiaries \/ shareholders \/ beneficial owners",
+    "addButtonTitle": "beneficiary \/ shareholder \/ beneficial owner",
+    "nominationSectionDescription": {
+      "string": "You are required under the <i>Anti-Money Laundering and Counter-Terrorism Financing Act 2006<\/i> to identify anyone who directly or indirectly owns 25% or more of the company acting as trustee.If you cannot identify these people, identify anyone who directly or indirectly controls the company acting as trustee or the trust.You must also record the details of anyone who is a beneficiary of the trust."
+    },
+    "additionalPersonSectionDescription": "Add any additional beneficiaries of the trust, or shareholders of the trustee company with a 25% or more share ownership, or beneficial owners who are entitled to 25% or more of the trust or someone who directly or indirectly controls the trust.",
+    "personRoleBothDescription": "Both beneficiary and shareholder",
+    "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder \/ Beneficial owner details",
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "needsBeneficialOwner": true,
+    "hasEnoughTrustees": true,
+    "hasbeneficiaryclasses": "no",
+    "investorsWithRoles": [
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "needsBeneficialOwner": true
+      },
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "needsBeneficialOwner": true
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "linked acc",
+      "bsb": "034702",
+      "accountnumber": "987984239",
+      "nickname": "",
+      "existing": true,
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+      
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+        
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

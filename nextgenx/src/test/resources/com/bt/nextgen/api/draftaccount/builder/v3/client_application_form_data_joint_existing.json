@@ -1,0 +1,113 @@
+{
+    "brokerpositionid": "BROKER_ID",
+    "productid": "A13EEBEC6074850121E40555F623A1A479986A9E316B5F70",
+    "accountType": "joint",
+    "investors": [
+      {
+        "title": "dr",
+        "firstname": "Sam",
+        "lastname": "Oopsy-Doopsy",
+        "preferredname": "Furious",
+        "dateofbirth": "30/12/1899",
+        "gender": "other",
+        "taxcountry": "AZ",
+        "taxoption": "Tax File Number or exemption not provided",
+        "mobile": {
+          "value": "0481087393"
+        },
+        "email": {
+          "value": "sam@ifdown.net"
+        },
+        "resaddress": {
+          "componentised": false,
+          "addressLine1": "51 Pitt St",
+          "addressLine2": "",
+          "country": "KOS",
+          "city": "Sydney",
+          "pin": "2000",
+          "state": "Sydney",
+          "verified": true,
+          "addressType": "residential",
+          "sameasaddress": "0"
+        },
+        "postaladdress": {
+          "componentised": false,
+          "addressLine1": "51 Pitt St",
+          "addressLine2": "",
+          "country": "KOS",
+          "city": "Sydney",
+          "pin": "2000",
+          "state": "Sydney",
+          "verified": true,
+          "addressType": "residential",
+          "sameasaddress": "109099",
+          "id": "109099",
+          "existingAddressList": [
+            {
+              "componentised": false,
+              "addressLine1": "51 Pitt St",
+              "addressLine2": "",
+              "country": "KOS",
+              "city": "Sydney",
+              "pin": "2000",
+              "state": "Sydney",
+              "verified": true,
+              "addressType": "residential",
+              "sameasaddress": "0",
+              "id": "109099"
+            }
+          ]
+        },
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "TAS",
+              "expiryDate": "15/10/2111",
+              "documentNumber": "Q23232",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            }
+          }
+        },
+        "preferredcontact": "email",
+        "wealthsource": "Inheritance"
+      },
+      {
+          "key":{"clientId":"C760CDDA457EEA4BA402D686CA51D201E611C0480380EB7F"}
+      }
+    ],
+    "accountsettings": {
+        "investorAccountSettings": [
+            {
+                "paymentSetting":"nopayments"
+            },{
+                "paymentSetting":"linkedaccountsonly"
+            }
+        ],
+      "primarycontact": "0",
+      "professionalspayment": "linkedaccountsonly",
+      "sourceoffunds": "Bonus"
+    },
+    "linkedaccounts": {
+      "primaryLinkedAccount": {
+        "accountname": "Sammy",
+        "bsb": "062000",
+        "accountnumber": "662606957",
+        "nickname": "Myau",
+        "directdebitamount": "2.00"
+      },
+      "otherLinkedAccount": []
+    },
+    "fees": {
+      "ongoingFees": {
+        "feesComponent": [],
+        "type": "Ongoing advice fee"
+      },
+      "licenseeFees": {
+        "feesComponent": [],
+        "type": "Licensee advice fee"
+      },
+      "estamount": "0.50"
+    }
+  }

@@ -1,0 +1,183 @@
+{
+"version": "1.0.0",
+"parentProductName": "BT Panorama Investments",
+"accountType": "individual",
+"investors": [
+  {
+    "emails": [
+      {
+        "email": "gob@bluth.com",
+        "preferred": false,
+        "emailType": "Primary"
+      }
+    ],
+    "gcmId": "217293604",
+    "key": {
+      "clientId": "539CD9D6337CA7D40AA8EA5045D3F5A834DE2E3EA0A80A7A"
+    },
+    "personRoles": [
+      "Owner"
+    ],
+    "phones": [
+      {
+        "preferred": true,
+        "number": "0437275468",
+        "phoneType": "Primary",
+        "type": "Phone",
+        "label": "Mobile - primary"
+      }
+    ],
+    "gcmTitleLabel": "Mr",
+    "cisId": "48813020036",
+    "userName": "Taylor",
+    "idVerified": true,
+    "taxdetails": {
+      "ausTaxDetails": {
+        "tfn": {
+          "valid": false
+        },
+        "taxOption": {
+          "valid": true,
+          "value": "Exemption Reason provided"
+        },
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        },
+        "exemptionReason": {
+          "valid": true,
+          "value": "norfolk_island_res"
+        }
+      },
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": true
+      },
+      "overseasTaxDetails": [
+        {
+          "tin": {
+            "valid": true
+          },
+          "tinOption": {
+            "valid": true,
+            "value": "Exemption Reason provided"
+          },
+          "overseasTaxCountry": {
+            "valid": true,
+            "value": "NZ"
+          },
+          "tinExemptionReason": {
+            "valid": true,
+            "value": "btfg$tin_never_iss"
+          }
+        }
+      ]
+    },
+    "isDuplicate": false,
+    "registered": true,
+    "tfnProvided": false,
+    "investorType": "INDIVIDUAL",
+    "displayTaxOptions": true,
+    "title": "Mr",
+    "firstname": "Gob",
+    "lastname": "Bluth",
+    "dateofbirth": "13 Jan 1990",
+    "gender": "Male",
+    "mobile": {
+      "value": "0437275468"
+    },
+    "email": {
+      "value": "gob@bluth.com"
+    },
+    "isvalid": true,
+    "accountType": "individual",
+    "resaddress": {
+      "stateAbbr": "NSW",
+      "domicile": true,
+      "countryCode": "2061",
+      "internationalAddress": false,
+      "mailingAddress": false,
+      "standardAddressFormat": false,
+      "addressType": "Postal",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "Street",
+      "suburb": "Sydney",
+      "state": "New South Wales",
+      "postcode": "2000",
+      "country": "Australia",
+      "existingAddressList": []
+    },
+    "postaladdress": {
+      "stateAbbr": "NSW",
+      "domicile": false,
+      "countryCode": "2061",
+      "internationalAddress": false,
+      "mailingAddress": true,
+      "standardAddressFormat": false,
+      "addressType": "Postal",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "Street",
+      "suburb": "Sydney",
+      "state": "New South Wales",
+      "postcode": "2000",
+      "country": "Australia",
+      "existingAddressList": []
+    },
+    "resiCountryforTax": "New Zealand",
+    "tfnExemptId": "99",
+    "saTfnExemptId": "4",
+    "exemptionReason": "No exemption",
+    "isForeignRegistered": "Y"
+  }
+],
+"accountsettings": {
+  "professionalspayment": "linkedaccountsonly",
+  "investorAccountSettings": [
+    {
+      "paymentSetting": "nopayments",
+      "hasRoles": false,
+      "hasApprovers": false
+    }
+  ],
+  "primarycontact": 0,
+  "adviserName": "Richard Peterson",
+  "adviserLocation": "New South Wales",
+  "sourceoffunds": "Business income/earnings",
+  "powerofattorney": false
+},
+"linkedaccounts": {
+  "primaryLinkedAccount": {
+    "accountname": "test",
+    "bsb": "062005",
+    "accountnumber": "123456",
+    "nickname": "esrf",
+    "directdebitamount": "4234.00",
+    "bsbValidationResultVal": true
+  },
+  "otherLinkedAccount": []
+},
+"fees": {
+  "estamount": "0.00",
+  "ongoingFees": {
+    "feesComponent": [],
+    "type": "Ongoing advice fee"
+  },
+  "licenseeFees": {
+    "feesComponent": [
+      {
+        "label": "Percentage fee component",
+        "listedSecurities": "2.00",
+        "managedFund": "1.00",
+        "managedPortfolio": "0.00",
+        "cash": "0.00",
+        "termDeposit": "0.00",
+        "slidingScaleFeeTier": [],
+        "valid": true
+      }
+    ],
+    "type": "Licensee advice fee"
+  }
+}
+}

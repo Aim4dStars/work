@@ -1,0 +1,564 @@
+{
+  "trustType": "govsuper",
+  "accountType": "corporateTrust",
+  "trustdetails": {
+    "trustname": "SoWSoFTesting",
+    "businessname": "",
+    "abn": "",
+    "regdate": "03\/03\/1983",
+    "registrationstate": "ACT",
+    "registeredforgst": "yes",
+    "trusttype": "govsuper",
+    "nameoflegislation": "Name of legislation",
+    "nameofwebsite": "www.ghareja.com",
+    "searchdate": "02\/02\/2015",
+    "familyOrOtherTrust": false,
+    "wealthsource": "Corporate investments earnings",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "address": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "482624"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "companytrustee": {
+    "companyname": "Comp testing",
+    "asicregisteredname": "Comp testing",
+    "acn": "000000019",
+    "companyabn": "",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "744958",
+      "addressType": "residential",
+      "id": "744958",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "744958"
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "135-151",
+      "streetName": "Clarence",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "992936",
+      "addressType": "residential",
+      "id": "992936",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "992936"
+        }
+      ]
+    },
+    "docissuer": "ASIC",
+    "issuedate": "21 Oct 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "fullName": "Mr First Director",
+      "title": "mr",
+      "firstname": "First",
+      "middlename": "",
+      "lastname": "Director",
+      "preferredname": "",
+      "dateofbirth": "02\/02\/1982",
+      "gender": "male",
+      "mobile": {
+        "value": "0455555555"
+      },
+      "email": {
+        "value": "first@tets.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "existing": true,
+      "accountType": "corporateTrust",
+      "alternatename": "",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "104754",
+        "addressType": "residential",
+        "id": "104754",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "104754"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "568313",
+        "addressType": "residential",
+        "id": "568313",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "568313"
+          }
+        ]
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "02\/02\/2017",
+            "documentNumber": "LLI97",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      }
+    },
+    {
+      "fullName": "Mrs Second Director",
+      "title": "mrs",
+      "firstname": "Second",
+      "middlename": "",
+      "lastname": "Director",
+      "preferredname": "",
+      "dateofbirth": "04\/04\/1984",
+      "gender": "female",
+      "mobile": {
+        "value": "0466666666"
+      },
+      "email": {
+        "value": "second@test.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "existing": true,
+      "accountType": "corporateTrust",
+      "alternatename": "",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "404441",
+        "addressType": "residential",
+        "id": "404441",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "404441"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "468018",
+        "addressType": "residential",
+        "id": "468018",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "468018"
+          }
+        ]
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "02\/02\/2019",
+            "documentNumber": "asfdwrw",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      }
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "allpayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": "0",
+    "adviserName": "Scott Girdlestone",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Corporate investments earnings"
+  },
+  "shareholderandmembers": {
+    "controllerId": 95,
+    "sectionSubtitle": "Beneficiaries \/ shareholders",
+    "additionalSectionSubtitle": "Additional beneficiaries \/ shareholders",
+    "addButtonTitle": "beneficiary \/ shareholder",
+    "nominationSectionDescription": {
+      "string": "You are required under the <i>Anti-Money Laundering and Counter-Terrorism Financing Act 2006<\/i> to identify anyone who directly or indirectly owns 25% or more of the company acting as trustee. Ensure you also record the details of anyone who is a beneficiary of the trust."
+    },
+    "additionalPersonSectionDescription": "Add any additional beneficiaries of the trust or shareholders of the trustee company with a 25% or more share ownership.",
+    "personRoleBothDescription": "Both beneficiary and shareholder",
+    "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder details",
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "hasAdditionalSection": true,
+    "familyOrOther": {
+      "sectionTitle": "Beneficiaries, shareholders and beneficial owners",
+      "sectionSubtitle": "Beneficiaries \/ shareholders \/ Beneficial Owners",
+      "additionalSectionSubtitle": "Additional beneficiaries \/ shareholders \/ beneficial owners",
+      "addButtonTitle": "beneficiary \/ shareholder \/ beneficial owner",
+      "nominationSectionDescription": {
+        "string": "You are required under the <i>Anti-Money Laundering and Counter-Terrorism Financing Act 2006<\/i> to identify anyone who directly or indirectly owns 25% or more of the company acting as trustee.If you cannot identify these people, identify anyone who directly or indirectly controls the company acting as trustee or the trust.You must also record the details of anyone who is a beneficiary of the trust."
+      },
+      "additionalPersonSectionDescription": "Add any additional beneficiaries of the trust, or shareholders of the trustee company with a 25% or more share ownership, or beneficial owners who are entitled to 25% or more of the trust or someone who directly or indirectly controls the trust.",
+      "personRoleBothDescription": "Both beneficiary and shareholder",
+      "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder \/ Beneficial owner details",
+      "needsShareholder": true,
+      "needsMember": false,
+      "needsBeneficiary": true,
+      "needsBeneficialOwner": true,
+      "hasAdditionalSection": true,
+      "personTypeDropdownOptions": [
+        {
+          "value": "beneficiary",
+          "label": "Beneficiary"
+        },
+        {
+          "value": "shareholder",
+          "label": "Shareholder"
+        },
+        {
+          "value": "beneficiaryAndShareholder",
+          "label": "Both beneficiary and shareholder"
+        },
+        {
+          "value": "beneficialOwner",
+          "label": "Beneficial owner"
+        }
+      ]
+    },
+    "accountType": "corporateTrust",
+    "hasEnoughTrustees": true,
+    "hasbeneficiaryclasses": "no",
+    "investorsWithRoles": [
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true
+      },
+      {
+        "isShareholder": "yes",
+        "isBeneficiary": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": "beneficiary",
+        "title": "mr",
+        "firstname": "First",
+        "middlename": "",
+        "lastname": "benef",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isDuplicate": false,
+        "existing": true,
+        "needsPersonTypeDropdown": true,
+        "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder details"
+      },
+      {
+        "persontype": "beneficiaryAndShareholder",
+        "title": "mr",
+        "firstname": "First",
+        "middlename": "",
+        "lastname": "shareholder",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isDuplicate": false,
+        "existing": true,
+        "alternatename": "",
+        "dateofbirth": "04\/04\/1984",
+        "resaddress": {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "135-151",
+          "streetName": "Clarence",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "626583",
+          "addressType": "residential",
+          "id": "626583",
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "unitNumber": "",
+              "streetNumber": "135-151",
+              "streetName": "Clarence",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "verified": true,
+              "confirmed": true,
+              "valid": true,
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "id": "626583"
+            }
+          ]
+        },
+        "needsPersonTypeDropdown": true,
+        "shareholderandmemberdetailsHeader": "Beneficiary \/ Shareholder details",
+        "additionalshareholdergender": "male",
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "ACT",
+              "expiryDate": "02\/02\/2019",
+              "documentNumber": "asdfa76",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        }
+      }
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Acc name",
+      "bsb": "062005",
+      "accountnumber": "24343453",
+      "nickname": "",
+      "directdebitamount": "1500.00",
+      "existing": true,
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+      
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+        
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

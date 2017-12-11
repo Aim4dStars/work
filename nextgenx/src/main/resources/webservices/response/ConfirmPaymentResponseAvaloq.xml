@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+    		<pay:pay_rsp xmlns:pay="http://btfin.com/ABS/TrxService/Pay/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:com="http://btfin.com/ABS/Common/V1_0" xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr/>
+  <data>
+    <doc>
+      <val>20169</val>
+    </doc>
+    <wfc_status>
+      <annot>
+        <displ_text>Done</displ_text>
+        <ctx>
+          <type>wfc_status</type>
+          <id>90</id>
+        </ctx>
+      </annot>
+      <val>90</val>
+    </wfc_status>
+    <deb_macc>
+      <annot>
+        <displ_text>BT Cash AUD 10000002</displ_text>
+        <ctx>
+          <type>obj_macc</type>
+          <id>36923</id>
+        </ctx>
+      </annot>
+      <auto>false</auto>
+      <val>36923</val>
+    </deb_macc>
+    <pay_anyone_benef>
+      <benef_acc>
+        <val>34298347</val>
+      </benef_acc>
+      <bsb>
+        <val>036081</val>
+      </bsb>
+    </pay_anyone_benef>
+    <amount>
+      <val>150</val>
+    </amount>
+    <curry>
+      <annot>
+        <displ_text>AUD</displ_text>
+        <ctx>
+          <type>obj_curry</type>
+          <id>1009</id>
+        </ctx>
+      </annot>
+      <auto>false</auto>
+      <val>1009</val>
+    </curry>
+    <benef_info>
+      <val avqxsi:nil="true"/>
+    </benef_info>
+    <trx_date>
+      <val>2014-02-06</val>
+    </trx_date>
+    <acc_name>
+      <annot>
+        <displ_text>Brian Lee</displ_text>
+        <ctx>
+          <type>obj_bp</type>
+          <id>36791</id>
+        </ctx>
+      </annot>
+      <val>36791</val>
+    </acc_name>
+    <payee_name>
+      <val>Ankur Jain</val>
+    </payee_name>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+    </exec>
+  </rsp>
+</pay:pay_rsp>
+        </SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>
+

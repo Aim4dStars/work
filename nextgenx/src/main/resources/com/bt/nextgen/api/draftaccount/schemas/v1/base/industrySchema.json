@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.company.Industry",
+  "properties": {
+    "anzsiccode": {
+      "type": "string"
+    },
+    "industry": {
+      "type": "string"
+    },
+    "ucmcode": {
+      "type": "string"
+    },
+    "industrydivision": {
+      "type": "string"
+    },
+    "industrysubdivision": {
+      "type": "string"
+    },
+    "industrygroup": {
+      "type": "string"
+    },
+    "industryclass": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

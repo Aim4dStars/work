@@ -1,0 +1,244 @@
+/* ##Arc Wizard Full
+
+	<div class="arcWrapper">
+	    <div class="arc arcStartFull">
+		
+		</div>    
+    <div class="arc arcEndFull">
+			<div class="arcLabel">
+		<p>100%</p>
+		<hr></hr>
+		<span>Complete</span>
+	</div>
+		</div>
+	</div>
+	
+##Arc Wizard 3 Quarter
+	<div class="arcWrapper">
+    <div class="arc arcStart3Quarter">
+		
+	</div>    
+    <div class="arc arcEnd3Quarter">
+			<div class="arcLabel">
+		<p>75%
+		</p>
+		
+		<span>Complete</span>
+	</div>
+	</div>
+	</div>
+	
+##Arc Wizard Half
+	<div class="arcWrapper">
+    <div class="arc arcStartHalf">
+		
+	</div>    
+    <div class="arc arcEndHalf">
+			<div class="arcLabel">
+		<p>50%</p>
+		<span>Complete</span>
+	</div>
+	</div>
+	</div>
+
+
+##Arc Wizard Quarter
+	<div class="arcWrapper">
+    <div class="arc arcStartQuarter">
+		
+	</div>    
+    <div class="arc arcEndQuarter">
+		<div class="arcLabel">
+		<p>
+		25%
+		</p>
+		<span>Complete</span>
+	</div>
+	</div>
+	</div>
+
+*/
+
+%arcObject{
+  width:166px;
+  height:166px;
+}
+#sfc-container{
+  .arcOuterWrapper{
+    @extend %relative;
+  }
+
+.arcWrapper{
+  @include position(absolute,23px 0 0 650px);
+  margin:0px;
+  @extend %inlineBlock;
+  @extend %arcObject;
+
+
+
+      .arcBg{
+       @include borderRadius(15);
+        @extend %arcObject;
+        @include position(absolute, 0px 0 0 0px);
+        background: $beta22;
+
+      }
+
+      .arcMask{
+        width:155px;
+        height:155px;
+        @include borderRadius(15);
+        @extend %block;
+        background: $shi;
+        @include position(absolute, 0px 0px 0px 0px);
+        margin: auto;
+        z-index: 10;
+
+      }
+
+
+       ul{
+        list-style: none;
+        margin:0;
+        padding: 0;
+        @extend %arcObject;
+        @include position(absolute, 0px 0px 0px 0px);
+      }
+
+
+      ul *:nth-child(2n) {
+        clip: rect(0px, 83px, 166px, 0px);
+      }
+
+      ul *:nth-child(2n+1) {
+        clip: rect(0px, 166px, 166px, 83px);
+
+      }
+
+      li{
+        margin: 0;
+        padding: 0;
+        @extend %arcObject;
+        @include position(absolute, 0px 0px 0px 0px);
+      }
+
+
+      p{
+        @extend %arcObject;
+        margin: 0;
+        padding: 0;
+      }
+
+      span{
+         @extend %block;
+         height: 166px;
+         width: 83px;
+       }
+
+
+        ul *:nth-child(1) p{
+          transform: rotate(180deg);
+        }
+
+        ul *:nth-child(2) p{
+          transform: rotate(90deg);
+        }
+
+
+        ul *:nth-child(3) p{
+          transform: rotate(45deg);
+        }
+
+        ul *:nth-child(4) p{
+          transform: rotate(25deg);
+        }
+
+
+
+       .styleOne li span{
+          background:$beta44;
+
+
+        }
+
+        .styleTwo li span{
+          background:$beta73;
+
+        }
+
+        .styleThree li span{
+          background:$eta;
+
+
+        }
+
+        .styleFour li span{
+          background:$zeta;
+
+
+        }
+
+
+        .chartLeft{
+          border-bottom-left-radius: 15rem;
+          border-top-left-radius: 15rem;
+
+        }
+
+        .chartRight{
+          border-bottom-right-radius: 15rem;
+          border-top-right-radius: 15rem;
+          margin-left:83px;
+        }
+
+
+        .arcLabel{
+          @include position(absolute, 50% 0 0 50%);
+          @include blockMargin(-6.5,0, 0,-6.5);
+          @extend %block;
+          width:130px;
+          height:130px;
+          z-index:200;
+
+
+          input{
+            @extend %inlineBlock;
+            @include fontSize(4);
+            font-family: Arial;
+            @extend %emphasis;
+            @include lineHeight(4);
+            border:none;
+            background: none;
+            @include textAlign(center);
+            width: 130px;
+            @include blockPadding(3,0,0,0);
+
+          }
+          hr{
+            width:20px;
+           }
+          em{
+            //	@include position(absolute, 0 52px 34px 0);
+            @extend %block;
+            font-size: 10px!important;
+            font-size: 1rem!important;
+            color:$beta44;
+            @extend %emphasis;
+            @include textTrans(uppercase);
+            @include textAlign(center);
+            font-style: normal;
+
+
+          }
+    }
+}
+
+
+#sfc-container .arcWrapper ul.styleThree+.arcLabel input {
+    color:$eta;
+}
+
+#sfc-container .arcWrapper ul.styleFour+.arcLabel input {
+   color:$zeta;
+ }
+}

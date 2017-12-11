@@ -1,0 +1,165 @@
+{
+  "version": "1.0.0",
+  "accountType": "superAccumulation",
+  "approvalType": "online",
+  "investors": [
+    {
+      "emails": [
+      ],
+      "personRoles": [
+      ],
+      "phones": [
+      ],
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Business income\/earnings",
+      "title": "MR",
+      "firstname": "Melroy",
+      "middlename": "",
+      "lastname": "Smith",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "10\/10\/1980",
+      "gender": "male",
+      "mobile": {
+        "value": "0456565656"
+      },
+      "email": {
+        "value": "mel@smith.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "superAccumulation",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "10\/10\/2019",
+            "documentNumber": "432431",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "757268",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+            ]
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "450506",
+        "sameasaddress": "450506",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "450506",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "Tax File Number provided",
+      "tfn": "11111111"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Bonus"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "test account",
+      "bsb": "062000",
+      "accountnumber": "6546542",
+      "nickname": "",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

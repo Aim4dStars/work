@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+          
+  <configuration>
+    <custom-converters> 
+      <converter type="com.bt.nextgen.core.mapping.DateTimeConverter" >
+        <class-a>org.joda.time.DateTime</class-a>
+        <class-b>org.apache.xerces.jaxp.datatype.XMLGregorianCalendarImpl</class-b>
+      </converter>
+    </custom-converters>     
+  </configuration>
+  
+  <mapping>
+  	<class-a>com.avaloq.abs.screen_rep.hira.btfg$ui_doc_list_doc.DocHead</class-a>
+    <class-b>com.bt.nextgen.service.avaloq.order.OrderGroupImpl</class-b>   
+    <field>
+      <a>docId.val</a>
+      <b>orderGroupId</b>
+    </field>
+    <field>
+      <a>descn.val</a>
+      <b>reference</b>
+    </field>     
+    <field>
+      <a>lastTrxTimestp.val</a>
+      <b>lastUpdateDate</b>
+    </field>
+    <field>
+      <a>insBySecUser.val</a>
+      <b>ownerName</b>
+    </field>
+	<field>
+      <a>orderTypeId.val</a>
+      <b>orderType</b>
+    </field>  
+    <field>
+      <a>bpId.val</a>
+      <b is-accessible="true">accountKey.id</b>
+    </field>  
+  </mapping>		
+</mappings> 

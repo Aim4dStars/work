@@ -1,0 +1,153 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_cgt_unreal_bp_cont_assetgrp_asset" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2015-03-04 21:29:36.539195000 on afp010f by AVALOQ -->
+	<metadata>
+		<empty_rep>
+			<val>true</val>
+		</empty_rep>
+		<ref_date>
+			<val>2015-03-03</val>
+		</ref_date>
+		<tax_ccy_id>
+			<val>1009</val>
+		</tax_ccy_id>
+		<current_of_time>
+			<val>2015-03-04T10:29:36+11:00</val>
+		</current_of_time>
+	</metadata>
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>bp</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>cont_type</name>
+						<hira>2</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>cont</name>
+						<hira>3</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>asset_grp</name>
+						<hira>4</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>asset</name>
+						<hira>5</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>lot</name>
+						<hira>6</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl/>
+					</fld_def>
+					<fld_def>
+						<name>bp_id</name>
+						<type>NrFld</type>
+						<lbl>BP ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>dscnt_fact</name>
+						<type>NrFld</type>
+						<lbl>Discount factor</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cont_type_id</name>
+						<type>NrFld</type>
+						<lbl>Container type ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cont_id</name>
+						<type>NrFld</type>
+						<lbl>Container ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_grp_id</name>
+						<type>NrFld</type>
+						<lbl>Asset group ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_id</name>
+						<type>NrFld</type>
+						<lbl>Asset ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>price_date</name>
+						<type>DateFld</type>
+						<lbl>Last price date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tax_date</name>
+						<type>DateFld</type>
+						<lbl>Tax date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>holding_period</name>
+						<type>NrFld</type>
+						<lbl>Days held</lbl>
+					</fld_def>
+					<fld_def>
+						<name>qty</name>
+						<type>NrFld</type>
+						<lbl>Quantities held</lbl>
+					</fld_def>
+					<fld_def>
+						<name>mkt_val_tc</name>
+						<type>NrFld</type>
+						<lbl>Market value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tax_cost_tc</name>
+						<type>NrFld</type>
+						<lbl>Tax cost</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cb_tc</name>
+						<type>NrFld</type>
+						<lbl>Cost base</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rcb_tc</name>
+						<type>NrFld</type>
+						<lbl>Reduced cost base</lbl>
+					</fld_def>
+					<fld_def>
+						<name>icb_tc</name>
+						<type>NrFld</type>
+						<lbl>Indexed cost base</lbl>
+					</fld_def>
+					<fld_def>
+						<name>gain_loss_tc</name>
+						<type>NrFld</type>
+						<lbl>Gross gain/loss</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+</rep:rep>

@@ -1,0 +1,12 @@
+<!-- Notes:
+	 + Keys with dealergroup prefixes need to be in lower case and underscore in the place of spaces.
+	   i.e. lonsdale_financial_group instead of Lonsdale Financial Group 
+-->
+<cmsDatabase>
+    <entries>
+        <entry>
+            <key>loadValidationErrorMessages</key>
+            <value contentType="application/xml" type="url">/content/cms-validationMessages.xml</value>
+        </entry>
+    </entries>
+</cmsDatabase>

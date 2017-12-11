@@ -1,0 +1,214 @@
+{
+  "accountType": "individual",
+  "investors": [
+    {
+      "isvalid": true,
+      "isresaddressvalid": true,
+      "summaryData": {
+        "isValid": true
+      },
+      "key": {
+        "clientId": "3A424A509C91DA5429FAF5DC80ABC59405A78F59D6ECCFD5"
+      },
+      "fullName": "Rakesh Prabha",
+      "userName": "rakeshprabha01",
+      "addresses": [
+        {
+          "unitNumber": "703",
+          "streetNumber": "8",
+          "streetName": "HarrisPark",
+          "streetType": "Street",
+          "streetTypeUserId": "STREET",
+          "suburb": "SYDNEY",
+          "state": "New South Wales",
+          "stateAbbr": "NSW",
+          "stateCode": "5004",
+          "postcode": "2000",
+          "countryCode": "2061",
+          "country": "Australia",
+          "countryAbbr": "AU",
+          "modificationSeq": "1",
+          "domicile": false,
+          "mailingAddress": true,
+          "addressType": "Postal",
+          "addressKey": {
+            "addressId": "31B8007A53B286C283EA02F4F00F510925E50740E3175813"
+          },
+          "gcmAddress": false,
+          "internationalAddress": false,
+          "type": "Address"
+        },
+        {
+          "unitNumber": "703",
+          "streetNumber": "8",
+          "streetName": "HarrisPark",
+          "streetType": "Street",
+          "streetTypeUserId": "STREET",
+          "suburb": "SYDNEY",
+          "state": "New South Wales",
+          "stateAbbr": "NSW",
+          "stateCode": "5004",
+          "postcode": "2000",
+          "countryCode": "2061",
+          "country": "Australia",
+          "countryAbbr": "AU",
+          "modificationSeq": "1",
+          "domicile": true,
+          "mailingAddress": false,
+          "addressType": "Postal",
+          "addressKey": {
+            "addressId": "1F0B60E20DA9D9A6D36517E65D669A0B03E9F82FADC961B4"
+          },
+          "gcmAddress": false,
+          "internationalAddress": false,
+          "type": "Address"
+        }
+      ],
+      "emails": [
+        {
+          "email": "rakesh@prabha.com",
+          "modificationSeq": "1",
+          "preferred": false,
+          "emailType": "Primary",
+          "emailKey": {
+            "addressId": "B6A3AA453C9A82134F9E38FA6173BCA5EC02C89927821E6D"
+          },
+          "gcmMastered": false,
+          "type": "Email",
+          "label": "Email - primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0426056827",
+          "modificationSeq": "1",
+          "phoneType": "Primary",
+          "phoneKey": {
+            "addressId": "51C62A7DC7B0671FB715E0DD6B6E562FFCDA1BDDE7D2BDBF"
+          },
+          "gcmPhone": false,
+          "fullPhoneNumber": "0426056827",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": false,
+      "tfnProvided": false,
+      "exemptionReason": "No exemption",
+      "safiDeviceId": "02dffb19-3e3b-4b7e-9e20-7c5d137b5dfa",
+      "idvs": "compl",
+      "personRoles": [
+        "Owner"
+      ],
+      "modificationSeq": "1",
+      "gcmId": "217290007",
+      "openDate": "01 Oct 2015",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "nominatedFlag": false,
+      "cisId": "87958910074",
+      "title": "Mr",
+      "gender": "Male",
+      "resiCountryforTax": "Australia",
+      "resiCountryCodeForTax": "2061",
+      "age": 29,
+      "accountType": "individual",
+      "firstname": "Rakesh",
+      "lastname": "Prabha",
+      "dateofbirth": "01 May 1986",
+      "postalAddress": "703 8 HarrisPark Street SYDNEY NSW 2000 Australia",
+      "resAddress": "703 8 HarrisPark Street SYDNEY NSW 2000 Australia",
+      "taxOption": "Not supplied",
+      "taxCountry": "Australia",
+      "identitydocument": "Verified",
+      "preferredContact": "Mobile - primary",
+      "mobile": {
+        "value": "0426056827"
+      },
+      "email": {
+        "value": "rakesh@prabha.com"
+      },
+      "isDuplicate": false,
+      "existing": true,
+      "showTFNMessage": false
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": "0",
+    "adviserName": "Kate Kimmorley",
+    "adviserLocation": "Queensland",
+    "sourceoffunds": "Business profits"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Testing Acc name",
+      "bsb": "062003",
+      "accountnumber": "321321",
+      "nickname": "",
+      "directdebitamount": "15000.00",
+      "existing": true,
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+      
+    ]
+  },
+  "fees": {
+    "estamount": "20.00",
+    "ongoingFees": {
+      "feesComponent": [
+        {
+          "cpiindex": false,
+          "amount": "30.00",
+          "label": "Dollar fee component"
+        },
+        {
+          "listedSecurities": "0.10",
+          "managedFund": "0.20",
+          "managedPortfolio": "0.30",
+          "termDeposit": "0.40",
+          "cash": "0.50",
+          "label": "Percentage fee component",
+          "valid": true
+        }
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "cpiindex": false,
+          "amount": "90.00",
+          "label": "Dollar fee component"
+        },
+        {
+          "listedSecurities": "true",
+          "termDeposit": "true",
+          "slidingScaleFeeTier": [
+            {
+              "lowerBound": "0.00",
+              "upperBound": "150.00",
+              "percentage": "0.70"
+            },
+            {
+              "lowerBound": "150.00",
+              "upperBound": "",
+              "percentage": "0.80"
+            }
+          ],
+          "label": "Sliding scale fee component"
+        }
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

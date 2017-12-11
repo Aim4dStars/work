@@ -1,0 +1,9 @@
+$ORACLE_HOME/bin/sqlplus -s / << EOF
+set head off
+set verify off
+set feed off
+set echo off
+whenever sqlerror exit sql.sqlcode;
+select directory_path from all_directories where directory_name=upper('${1}_DIRECTORY_${ENV_NAME}');
+exit;
+EOF

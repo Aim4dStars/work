@@ -1,0 +1,8 @@
+DROP TABLE acl_class;
+
+CREATE TABLE acl_class (
+id number(38,0) NOT NULL
+, class varchar(255) NOT NULL
+, CONSTRAINT acl_class_pk PRIMARY KEY (id)
+, CONSTRAINT uk_acl_class UNIQUE (class));
+

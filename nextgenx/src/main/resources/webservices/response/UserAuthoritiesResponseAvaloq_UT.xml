@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rep:report xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_basic_investor" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base">
+
+  <def>
+    <version>1.0</version>
+    <report_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <group_list>
+        </group_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>macc</name>
+          <type>textField</type>
+          <label>macc</label>
+        </fld_def>
+        <fld_def>
+          <name>person</name>
+          <type>textField</type>
+          <label>person</label>
+        </fld_def>
+        <fld_def>
+          <name>first_name</name>
+          <type>textField</type>
+          <label>first_name</label>
+        </fld_def>
+        <fld_def>
+          <name>middle_name</name>
+          <type>textField</type>
+          <label>middle_name</label>
+        </fld_def>
+        <fld_def>
+          <name>last_name</name>
+          <type>textField</type>
+          <label>last_name</label>
+        </fld_def>
+        <fld_def>
+          <name>role</name>
+          <type>textField</type>
+          <label>role</label>
+        </fld_def>
+        <fld_def>
+          <name>bp_auth</name>
+          <type>textField</type>
+          <label>bp_authority</label>
+        </fld_def>
+        <fld_def>
+          <name>auth</name>
+          <type>textField</type>
+          <label>authority</label>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </report_def>
+  </def>
+
+  <data>
+    <report_data>
+    <head_list>
+      <head id="1" rowType="title" hira="0" level="report_data.head">
+          <macc><annot><ctxType>macc</ctxType><ctxId>12344</ctxId></annot><val>Current account AUD 10000008</val></macc>
+          <person><annot><ctxType>person</ctxType>
+            <ctxId>11840</ctxId>
+            </annot><val>Salminen Monica</val></person>
+          <first_name><val>Monica</val></first_name>
+          <last_name><val>Salminen</val></last_name>
+      </head>
+      <head id="2" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>320</ctxId></annot><val>Customer basic</val></role>
+      </head>
+      <head id="3" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>100</ctxId></annot><val>Basic Order Visibility</val></role>
+      </head>
+      <head id="4" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>194</ctxId></annot><val>FR ADDR - Maker</val></role>
+      </head>
+      <head id="5" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>193</ctxId></annot><val>FR ADDR - Read Only</val></role>
+      </head>
+      <head id="6" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>127</ctxId></annot><val>FR AFS Read Only</val></role>
+      </head>
+      <head id="7" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>125</ctxId></annot><val>FR Basic Read Only</val></role>
+      </head>
+      <head id="8" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>202</ctxId></annot><val>FR BP - Maker</val></role>
+      </head>
+      <head id="9" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>201</ctxId></annot><val>FR BP - Read Only</val></role>
+      </head>
+      <head id="10" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>179</ctxId></annot><val>FR FIDD - Read Only</val></role>
+      </head>
+      <head id="11" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>165</ctxId></annot><val>FR INPAY - Maker</val></role>
+      </head>
+      <head id="12" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>164</ctxId></annot><val>FR INPAY - Read Only</val></role>
+      </head>
+      <head id="13" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>164</ctxId></annot><val>FR INPAY - Read Only</val></role>
+      </head>
+      <head id="14" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>318</ctxId></annot><val>FR PAY - Custr Maker</val></role>
+      </head>
+      <head id="15" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>139</ctxId></annot><val>FR PAY - Read Only</val></role>
+      </head>
+      <head id="16" rowType="title" hira="0" level="report_data.head">
+          <role><annot><ctxType>user</ctxType><ctxId>133</ctxId></annot><val>FR Web Replic Read Only</val></role>
+      </head>
+      <head id="23" rowType="title" hira="0" level="report_data.head">
+          <bp_auth><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp_auth>
+          <auth><annot><ctxType>code_auth_trx_grp</ctxType><ctxId>1125</ctxId></annot><val>Pay_Inpay_All</val></auth>
+      </head>
+      <head id="24" rowType="title" hira="0" level="report_data.head">
+          <bp_auth><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp_auth>
+          <auth><annot><ctxType>code_auth_trx_grp</ctxType><ctxId>1125</ctxId></annot><val>Pay_Inpay_All</val></auth>
+      </head>
+
+      <head id="32" rowType="title" hira="0" level="report_data.head">
+          <bp_auth><annot><ctxType>bp</ctxType><ctxId>12148</ctxId></annot><val>Brown Olivia</val></bp_auth>
+          <auth><annot><ctxType>code_auth_trx_grp</ctxType><ctxId>1</ctxId></annot><val>No_Trx</val></auth>
+      </head>      
+      <head id="33" rowType="title" hira="0" level="report_data.head">
+          <bp_auth><annot><ctxType>bp</ctxType><ctxId>12150</ctxId></annot><val>White Anthony</val></bp_auth>
+          <auth><annot><ctxType>code_auth_trx_grp</ctxType><ctxId>1125</ctxId></annot><val>Pay_Inpay_Linked</val></auth>
+      </head>
+      <head id="33" rowType="title" hira="0" level="report_data.head">
+          <bp_auth><annot><ctxType>bp</ctxType><ctxId>12150</ctxId></annot><val>White Anthony</val></bp_auth>
+          <auth><annot><ctxType>code_auth_trx_grp</ctxType><ctxId>1126</ctxId></annot><val>Pay_Inpay_Linked</val></auth>
+      </head>      
+      </head_list>
+    </report_data>
+
+  </data>
+</rep:report>

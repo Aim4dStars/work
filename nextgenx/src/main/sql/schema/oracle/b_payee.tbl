@@ -1,0 +1,112 @@
+BEGIN
+   EXECUTE IMMEDIATE 'DROP TABLE payee_type';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE != -942 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'create table payee_type(payee_type varchar(20) primary key, description varchar(50))';
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'DROP TABLE payee';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE != -942 THEN
+         RAISE;
+      END IF;
+END;
+/
+
+BEGIN
+     EXECUTE IMMEDIATE 'DROP SEQUENCE payee_seq';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE = -9999 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'create sequence PAYEE_SEQ start with 1 increment by 1';
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'create table payee(payee_seq number(19) primary key, cash_account_id char(9), payee_type varchar(20), nickname varchar(50), PAYMENT_CATEGORY varchar(100), PAYMENT_SUB_CATEGORY varchar(100))';
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'DROP SEQUENCE bpay_payee';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE = -9999 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'DROP TABLE bpay_payee';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE != -942 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'create table bpay_payee(payee_seq number(19) primary key, biller_code varchar(10), customer_reference varchar(50))';
+END;
+-- BUG we need to remove this table
+--alter table bpay_payee add foreign key(biller_code) references bpay_biller(biller_code);
+/
+BEGIN
+   EXECUTE IMMEDIATE 'DROP SEQUENCE pay_anyone_payee';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE = -9999 THEN
+         RAISE;
+      END IF;
+END;
+/
+
+BEGIN
+   EXECUTE IMMEDIATE 'DROP TABLE pay_anyone_payee';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE != -942 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'create table pay_anyone_payee(payee_seq number(19) primary key, name varchar(50), bsb_code char(6), account_number char(9))';
+END;
+--alter table pay_anyone_payee add foreign key(bsb_code) references bsb(bsb_code);
+/
+BEGIN
+   EXECUTE IMMEDIATE 'DROP SEQUENCE LINKED_ACCOUNT';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE = -9999 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'DROP TABLE LINKED_ACCOUNT';
+EXCEPTION
+   WHEN OTHERS THEN
+      IF SQLCODE != -942 THEN
+         RAISE;
+      END IF;
+END;
+/
+BEGIN
+   EXECUTE IMMEDIATE 'create table LINKED_ACCOUNT(payee_seq number(19) primary key, ACCOUNT_NAME varchar(50), bsb_code char(6), ACCOUNT_NUMBER char(9))';
+END;
+--alter table LINKED_ACCOUNT add foreign key(bsb_code) references bsb(bsb_code);
+/
+

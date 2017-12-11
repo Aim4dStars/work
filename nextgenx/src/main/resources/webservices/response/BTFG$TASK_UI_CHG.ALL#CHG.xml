@@ -1,0 +1,137 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$task_ui_chg_all_chg" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2016-02-03 12:58:20.517782000 on afp010r by WASPRODBTNGWESTPACCOMAU -->
+<metadata>
+<empty_rep><val>false</val></empty_rep>
+<current_of_time><val>2016-02-03T01:58:20+11:00</val></current_of_time>
+</metadata>
+
+<def>
+<version>2.0</version>
+<rep_def>
+<style>hira</style>
+<lang id="1">en</lang>
+<hira_def>
+<grp_list>
+<grp_def>
+<name>release</name>
+<hira>1</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+<grp_def>
+<name>chg</name>
+<hira>2</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+</grp_list>
+</hira_def>
+<row_def>
+<fld_list>
+<fld_def>
+<name>release</name>
+<type>TextFld</type>
+<lbl>release</lbl>
+</fld_def>
+<fld_def>
+<name>chg_id</name>
+<type>NrFld</type>
+<lbl>chg_id</lbl>
+</fld_def>
+<fld_def>
+<name>chg_name</name>
+<type>TextFld</type>
+<lbl>chg_name</lbl>
+</fld_def>
+<fld_def>
+<name>inst_time</name>
+<type>DateTimeFld</type>
+<lbl>inst_time</lbl>
+</fld_def>
+<fld_def>
+<name>task_id</name>
+<type>NrFld</type>
+<lbl>task_id</lbl>
+</fld_def>
+<fld_def>
+<name>task_name</name>
+<type>TextFld</type>
+<lbl>task_name</lbl>
+</fld_def>
+<fld_def>
+<name>user_1</name>
+<type>TextFld</type>
+<lbl>user_1</lbl>
+</fld_def>
+<fld_def>
+<name>user_2</name>
+<type>TextFld</type>
+<lbl>user_2</lbl>
+</fld_def>
+<fld_def>
+<name>user_3</name>
+<type>TextFld</type>
+<lbl>user_3</lbl>
+</fld_def>
+<fld_def>
+<name>user_4</name>
+<type>TextFld</type>
+<lbl>user_4</lbl>
+</fld_def>
+
+</fld_list>
+</row_def>
+</rep_def>
+</def>
+
+<data>
+<release_list>
+<release>
+<release_head_list>
+<release_head id="2-1" row_type="title" hira="1" level="release.head">
+<release><val>BTFG310_IP30</val></release>
+</release_head>
+</release_head_list>
+<chg_list>
+<chg>
+<chg_head_list>
+<chg_head id="4-2" row_type="data" hira="2" level="chg.head">
+<chg_id><val>1617544</val></chg_id>
+<chg_name><val>QC11457 - PERF: fix null twrr in service where period start is last day of TD</val></chg_name>
+<inst_time><val>2016-01-28T01:46:59+11:00</val></inst_time>
+<task_id><val>2236208</val></task_id>
+<task_name><val>QC11457 - PERF: fix null twrr in service where period start is last day of TD</val></task_name>
+<user_1><val>Young Adam</val></user_1>
+</chg_head>
+</chg_head_list>
+</chg>
+<chg>
+<chg_head_list>
+<chg_head id="6-3" row_type="data" hira="2" level="chg.head">
+<chg_id><val>1617584</val></chg_id>
+<chg_name><val>QC11507 - trx history for RIP</val></chg_name>
+<inst_time><val>2016-01-28T01:46:59+11:00</val></inst_time>
+<task_id><val>2236244</val></task_id>
+<task_name><val>QC - November release</val></task_name>
+<user_1><val>Roth Patric</val></user_1>
+<user_2><val>Lei Liu</val></user_2>
+</chg_head>
+</chg_head_list>
+</chg>
+</chg_list>
+</release>
+</release_list>
+
+</data>
+</rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

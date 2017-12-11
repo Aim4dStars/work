@@ -1,0 +1,78 @@
+<inv:cache_inv xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:jxb="http://java.sun.com/xml/ns/jaxb" xmlns:inv="http://btfin.com/ABS/InvService/V1_0">
+  <hdr>
+    <req_id>2B5340CC-7059-26FF-E054-2C44FD7CB068</req_id>
+  </hdr>
+  <req>
+    <commit_date>
+      <val>2010-12-10T00:00:00+11:00</val>
+    </commit_date>
+    <create_date>
+      <val>2016-02-09T19:43:59+11:00</val>
+    </create_date>
+    <seq_nr>
+      <val>123456789</val>
+    </seq_nr>
+    <scope>user</scope>
+    <user>
+      <annot>
+        <displ_text>Avaloq</displ_text>
+        <ctx>
+          <type>obj_user</type>
+          <id>319</id>
+        </ctx>
+      </annot>
+      <val>319</val>
+    </user>
+    <req_det>
+      <invalidation>
+        <cache>
+          <val>BTFG$UI_NTFCN_LIST.USER#UNREAD_CNT</val>
+        </cache>
+        <templ>
+          <val>BTFG$UI_NTFCN_LIST.USER#UNREAD_CNT</val>
+        </templ>
+      </invalidation>
+      <update>
+        <item_list>
+          <item>
+            <key>
+              <val>profile_sec_user_id</val>
+            </key>
+            <val_list>
+              <val avqxsi:type="fldb:IdFld">
+                <annot>
+                  <displ_text>Adrian Demo Smith</displ_text>
+                  <ctx>
+                    <type>obj_user</type>
+                    <id>17490</id>
+                  </ctx>
+                </annot>
+                <val>17490</val>
+              </val>
+            </val_list>
+          </item>
+          <item>
+            <key>
+              <val>unread_my_msg_cnt</val>
+            </key>
+            <val_list>
+              <val avqxsi:type="fldb:NrFld">
+                <val>17</val>
+              </val>
+            </val_list>
+          </item>
+          <item>
+            <key>
+              <val>unread_clt_msg_cnt</val>
+            </key>
+            <val_list>
+              <val avqxsi:type="fldb:NrFld">
+                <val avqxsi:nil="true"/>
+              </val>
+            </val_list>
+          </item>
+        </item_list>
+      </update>
+    </req_det>
+  </req>
+</inv:cache_inv>

@@ -1,0 +1,80 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg
+                xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$task_2fa_rul_.ui_rule"
+                             xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"
+                             xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <!-- 2016-09-23 11:22:12.351171000 on afd034a by AVALOQ -->
+                        <metadata>
+                            <empty_rep>
+                                <val>false</val>
+                            </empty_rep>
+                            <current_of_time>
+                                <val>2016-09-23T01:22:12+10:00</val>
+                            </current_of_time>
+                        </metadata>
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>flat</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>dt</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>dummy</name>
+                                            <type>TextFld</type>
+                                            <lbl></lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>rule_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Rule ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>type_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>2FA Type</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>cond_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Condition Type</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>cond_val</name>
+                                            <type>NrFld</type>
+                                            <lbl>Condition Value</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>action_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Action</lbl>
+                                        </fld_def>
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+                        <data>
+                            <dt_list/>
+                        </data>
+                    </rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

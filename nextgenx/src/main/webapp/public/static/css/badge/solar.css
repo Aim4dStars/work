@@ -1,0 +1,19 @@
+/* line 2, ../../sass/badge/solar.scss */
+.logoWrap {
+  background-image: url(images/solar.png);
+  height: 60px;
+}
+/* line 5, ../../sass/badge/solar.scss */
+.logoWrap a {
+  height: 60px;
+}
+/* line 8, ../../sass/badge/solar.scss */
+.logoWrap.logoWrapLarge {
+  background-image: url(images/solarLogo_large.png);
+  background-position: 0 50%;
+}
+
+/* line 14, ../../sass/badge/solar.scss */
+.logoWrapPos {
+  margin: 20px;
+}

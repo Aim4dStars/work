@@ -1,0 +1,65 @@
+<included>
+
+    <appender name="UP_FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./nextgen_my.log</file>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>PERF</marker>
+                <marker>PARSING</marker>
+                <marker>PROFILER</marker>
+            </evaluator>
+            <onMatch>DENY</onMatch>
+        </filter>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!--<Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} %X{trackingReference:-INTERNAL} %-5level %logger{36} - %msg%n</Pattern>-->
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5p [%t] %c: %m%n</Pattern>
+        </encoder>
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>300MB</MaxFileSize>
+        </triggeringPolicy>
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>./nextgen_my.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>3</maxIndex>
+        </rollingPolicy>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="UP_FILE"/>
+    </root>
+
+    <logger name="com.bt.nextgen.core.security.SamlAuthenticationDetailsSource" level="DEBUG">
+            />
+    </logger>
+    
+    <logger name="com.bt.nextgen.core.security.filter.RefreshSamlFilter" level="DEBUG">
+           />
+    </logger>
+
+    <logger name="com.bt.nextgen.core.cache.cachesearch.EhCacheLuceneSearcher" level="DEBUG"/>
+      
+    <logger name="com.btfin.panorama.core.security.saml.SamlToken" level="DEBUG">
+           />
+    </logger>
+      
+    <logger name="com.bt.nextgen.api.adviser.service.AdviserDetailDtoServiceImpl" level="DEBUG">
+            />
+    </logger>
+    <logger name="com.bt.nextgen.api.logon.service.LogonUpdateUserNameDtoServiceImpl" level="DEBUG">
+       />
+    </logger>
+
+    <logger name="com.bt.nextgen.core.webservice.interceptor.ClientPayloadLoggingInterceptor" level="DEBUG">
+       />
+    </logger>
+
+    <logger name="org.apache.http.wire" level="DEBUG">
+       />
+    </logger>
+
+    <logger name="com.bt.nextgen" level="DEBUG">
+        />
+    </logger>
+
+</included>

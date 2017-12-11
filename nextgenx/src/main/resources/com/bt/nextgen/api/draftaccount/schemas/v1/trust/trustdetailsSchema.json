@@ -1,0 +1,134 @@
+{
+  "type": "object",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.trust.TrustDetails",
+  "properties": {
+    "trustname": {
+      "type": "string",
+      "description": "trust name"
+    },
+    "businessname": {
+      "type": "string",
+      "description": "trust business name optional"
+    },
+    "exemptionreason": {
+      "type": "string",
+      "description": "exemptionreason is required if taxoption is Exemption Reason provided ."
+    },
+    "firstname": {
+      "type": "string",
+      "description": "firstname is required for individual and corporate trust with family trust type  and settler of trust is individual"
+    },
+    "lastname": {
+      "type": "string",
+      "description": "lastname is required for individual and corporate trust with family trust type  and settler of trust is individual"
+
+    },
+    "middlename": {
+      "type": "string",
+      "description": "middlename is optional for individual and corporate trust with family trust type  and settler of trust is individual"
+    },
+    "regdate": {
+      "type": "string",
+      "description": "regdate is required for indi and corp tust"
+    },
+    "registrationstate": {
+      "type": "string",
+      "description": "registrationstate is required for indi and corp tust"
+    },
+    "registeredforgst": {
+      "$ref": "../base/answerTypeEnum.json",
+      "description": "registeredforgst is required for indi and corp tust"
+    },
+    "tfn": {
+      "type": "string",
+      "description": "tfn is required if taxoption is Tax File Number provided ."
+    },
+    "settloroftrust": {
+      "$ref": "../base/settlorTypeEnum.json",
+      "description": "settloroftrust is required for individual and corporate trust with trustType equal to family type."
+    },
+    "taxoption": {
+      "$ref": "../base/taxOptionTypeEnum.json",
+      "description": "taxoption is required for individual and corporate trust."
+    },
+    "title": {
+      "type": "string",
+      "description": "title is required for individual and corporate trust with family trustType  and settler of trust is individual"
+    },
+    "wealthsource": {
+      "type": "string",
+      "description": "wealthsource is required for individual and corporate trust"
+    },
+    "abn": {
+      "type": "string",
+      "description": "trust abn number optional"
+    },
+    "nameoflegislation": {
+      "type": "string",
+      "description": "nameoflegislation is required for GOVSUPER  trustType"
+    },
+    "nameofwebsite": {
+      "type": "string",
+      "description": "nameoflegislation is for trust verification  for GOVSUPER  trustType"
+    },
+    "searchdate": {
+      "type": "string"
+    },
+    "arsn": {
+      "type": "string",
+      "description": "arsn is required for indi and corp tust with INVSCHEME trustType"
+    },
+    "trusttype": {
+      "$ref": "../base/trustTypeEnum.json"
+    },
+    "trustconfirmed": {
+      "$ref": "../base/verificationTypeEnum.json",
+      "description" : "trustconfirmed is field for trust varification if trustType is INVSCHEME "
+    },
+    "trustconfirmedregulated": {
+      "$ref": "../base/verificationTypeEnum.json",
+      "description" : "trustconfirmedregulated is field for trust varification if trustType is REGULATED "
+    },
+    "licensingnumber": {
+      "type": "string",
+      "description": "licensingnumber is required for individual and corporate trust with REGULATED trustType"
+
+    },
+    "organisationName": {
+      "type": "string",
+      "description": "organisationName is required for individual and corporate trust with FAMILY trustType  and settlerOfTrust is organisation"
+    },
+    "trustdescription": {
+      "$ref": "../base/trustDescriptionTypeEnum.json"
+    },
+    "trustdescriptionother": {
+      "type": "string",
+      "description": "trustdescriptionother is required for individual and corporate trust with OTHER trustType and trustdescription enum value is OTHER"
+    },
+    "additionalsourceofwealth": {
+      "type": "string",
+      "description": "additionalsourceofwealth is required when wealthsource is Additional Sources"
+    },
+    "industry": {
+      "$ref": "../base/industrySchema.json"
+    },
+    "address": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "addressv2": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "trustverification": {
+      "$ref": "trustverificationSchema.json"
+    },
+    "taxdetails": {
+      "$ref": "../base/taxDetailsSchema.json",
+      "description": "Taxdetails and overseas tax details for CRS"
+    },
+    "personalinvestmententity": {
+          "type": "boolean",
+          "description": "This field is used in the Onboarding CMA at the account level for capturing Personal Investment Entity"
+    }
+  },
+  "additionalProperties": false
+}

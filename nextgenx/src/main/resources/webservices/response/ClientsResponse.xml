@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<clientResponse>
+    <clients>
+        <client>
+            <accounts>
+                <account>
+                    <accountName>Dennis Beecham Investment wrap account</accountName>
+                    <accountType>COMPANY</accountType>
+                    <adviserName>a</adviserName>
+                    <balance>12121.90</balance>
+                    <portfolio>12312312.98</portfolio>
+                    <wrapAccountId>134134</wrapAccountId>
+                </account>
+                <account>
+                    <accountName>Dennis Beecham Investment wrap account</accountName>
+                    <accountType>COMPANY</accountType>
+                    <adviserName>a</adviserName>
+                    <balance>12121.90</balance>
+                    <portfolio>12312312.98</portfolio>
+                    <wrapAccountId>134134</wrapAccountId>
+                </account>
+            </accounts>
+            <firstName>Dennis</firstName>
+            <lastName>Beecham</lastName>
+        </client>
+        <client>
+            <accounts>
+                <account>
+                    <accountName>Dennis Beecham Investment wrap account</accountName>
+                    <accountType>COMPANY</accountType>
+                    <adviserName>a</adviserName>
+                    <balance>12121.90</balance>
+                    <portfolio>12312312.98</portfolio>
+                    <wrapAccountId>134134</wrapAccountId>
+                </account>
+                <account>
+                    <accountName>Dennis Beecham Investment wrap account</accountName>
+                    <accountType>COMPANY</accountType>
+                    <adviserName>a</adviserName>
+                    <balance>12121.90</balance>
+                    <portfolio>12312312.98</portfolio>
+                    <wrapAccountId>134134</wrapAccountId>
+                </account>
+            </accounts>
+            <firstName>Dennis</firstName>
+            <lastName>Beecham</lastName>
+        </client>
+    </clients>
+</clientResponse>

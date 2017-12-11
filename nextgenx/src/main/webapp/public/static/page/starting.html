@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Server Starting - Please try signing in again later.</title>
+    <meta http-equiv="refresh" content="30; url=../../../">
+    <style type="text/css">
+        html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        border:none;
+        }
+        /* ==========================================================================
+        HTML5 display definitions
+        ========================================================================== */
+        /* Correct `block` display not defined in IE 8/9. */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        nav,
+        section,
+        summary {
+        display: block;
+        }
+        /* resets   lists style elements */
+        ol, ul {
+        list-style: none;
+        }
+        /* Address styling not present in IE 8/9. */
+        [hidden] {
+        display: none;
+        }
+
+        /* ==========================================================================
+        Base
+        ========================================================================== */
+        /**
+        * 1. Set default font family to sans-serif.
+        * 2. Prevent iOS text size adjust after orientation change, without disabling user zoom.
+        */
+        html {
+        font-family: sans-serif; /* 1 */
+        -webkit-text-size-adjust: 100%; /* 2 */
+        -ms-text-size-adjust: 100%; /* 2 */
+        font-size: 62.5%;
+        }
+        /* Remove default margin. */
+        body {
+        margin: 0;
+        color: #454545;
+        font-size: 14px;
+        font-size: 1.4rem;
+        font-family: Arial, sans-serif;
+        line-height: 20px;
+        line-height: 2rem;
+        }
+        html, body {
+        height: 100%;
+        }
+
+        a, a:focus, :focus a:hover, a:active, em, p, span, div, th, td {
+        outline: 1px;
+        }
+        h1, h2, h3, h4, h5, h6 {
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        color: #454545;
+        text-rendering: optimizeLegibility;
+        line-height: 1.2;
+        margin: 0px 0px 20px 0px;
+        margin: 0rem 0rem 2rem 0rem;
+        }
+        h2 {
+        font-size: 30px;
+        font-size: 3.0rem;
+        }
+
+        /*=== Links ===*/
+        /* Address `outline` inconsistency between Chrome and other browsers. */
+        a:focus {
+        outline: thin dotted;
+        outline: 1px dotted #fed648 !important;
+        }
+        /* Improve readability when focused and also mouse hovered in all browsers. */
+        a:active,
+        a:hover {
+        outline: 0;
+        }
+
+        /* Clear elements - Elements to clear floats. */
+        .clear {
+        clear: both;
+        visibility: hidden;
+        height: 0px;
+        display: block;
+        }
+        .clearFix:after {
+        clear: both;
+        content: ".";
+        visibility: hidden;
+        width: 100%;
+        display: block;
+        height: 0;
+        line-height: 0;
+        }
+        .clearFix {
+        zoom: 1;
+        }
+        .clearBoth {
+        clear: both;
+        }
+
+        /* Accessibility Styles - Accessible and optimised image replacement technique. */
+        .screenReaderText {
+        display: inline-block;
+        text-indent: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 1px;
+        }
+
+        /* ==========================================================================
+        Fonts - Import Custom Icon Fonts Face
+        ========================================================================== */
+        @font-face {
+        font-family: 'btfinicons';
+        src: url("../fonts/btfinicons.eot");
+        src: url("btfinicons.eot?#iefix") format("embedded-opentype"), url("../fonts/btfinicons.woff") format("woff"), url("../fonts/btfinicons.ttf") format("truetype"), url("../fonts/btfinicons.svg#btfinicons") format("svg");
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        /* ==========================================================================
+        Typography
+        ========================================================================== */
+        .emphasis {
+        font-weight: 600;
+        }
+        .layoutContainer {
+        background-color: #fafafa;
+        width: 100%;
+        min-width: 840px;
+        max-width: 100%;
+        height: 100%;
+        display: table;
+        position: relative;
+        }
+
+        /* Body Content */
+        .layoutContentAlpha {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 80px;
+        }
+        .layoutContentAlpha .layoutContentAlphaWrap {
+        width: 840px;
+        min-height: 100%;
+        padding: 40px 0 40px 100px;
+        position: relative;
+        }
+        .messageType1Wrap {
+        padding: 20px 50px 40px 40px;
+        padding: 2rem 5rem 4rem 4rem;
+        background-color: #edebee;
+        border-bottom: 4px solid #e4dfe3;
+        position: relative;
+        }
+        .messageType1Wrap .messageType1IconWrap {
+        position: absolute;
+        top: 31px;
+        left: 40px;
+        }
+        .messageIcon {
+        display: inline-block;
+        vertical-align: baseline;
+        zoom: 1;
+        *display: inline;
+        *vertical-align: auto;
+        }
+        .iconwarning {
+        font-family: 'btfinicons';
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        vertical-align: text-top;
+        text-decoration: none;
+        -webkit-font-smoothing: antialiased;
+        font-size: 30px;
+        font-size: 3.0rem;
+        }
+        .iconwarning:before {
+        content: "\e027";
+        }
+        .iconwarning span {
+        display: none!important;
+        }
+        .messageType1Wrap .messageType1Body {
+        margin: 10px 0px 20px 40px;
+        margin: 1rem 0rem 2rem 4rem;
+        }
+        .messageType1Text {
+        color: #694e5f;
+        }
+        .messageType1TextHighlight {
+        color: #b292a7;
+        }
+
+        /* Footer */
+        .layoutFooterAlpha {
+        width: 100%;
+        /*background-color: #f4f4f4;*/
+        height: 80px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        }
+        .layoutFooterAlpha .layoutFooterAlphaWrap {
+        width: 800px;
+        min-height: 80px;
+        padding:0 0 0 100px;
+        /*margin: 40px 0;*/
+        }
+        .layoutFooterAlpha .layoutFooterAlphaWrap a.linkTextAlpha {
+        margin-left: 20px;
+        color:#0095C8;
+        text-decoration:underline;
+        }
+        .layoutFooterAlpha .layoutFooterAlphaWrap a.linkTextAlpha:hover {
+        text-decoration:none
+        }
+    </style>
+</head>
+<body>
+
+<div class="layoutContainer">
+    <aside class="layoutContentAlpha">
+        <div class="layoutContentAlphaWrap jq-mainContent ">
+
+            <div class="messageType1Wrap">
+                <div class="messageIcon messageType1IconWrap messageType1Text">
+                    <em class="iconwarning"><span class="screenReaderText">Server Starting...</span></em>
+                </div>
+                <div class="messageType1Body">
+                    <h2 class="messageType1Text"><span class="messageType1TextHighlight">Starting</span></h2>
+                </div>
+                <div class="messageType1Text">Application is starting up. Please try signing in again later.</div>
+                <div class="messageType1Footer">
+                </div>
+            </div>
+
+        </div><!-- layoutContentAlphaWrap -->
+    </aside> <!-- layoutContentAlpha -->
+
+    <footer class="layoutFooterAlpha">
+        <div class="layoutFooterAlphaWrap">
+            <p><strong>Need help?</strong> Call 1300 881 716 <a class="linkTextAlpha" href="#nogo">About Panorama</a></p>
+        </div><!-- layoutFooterAlphaWrap -->
+    </footer><!-- layoutFooterAlpha -->
+</div><!-- layoutContainerAlpha -->
+
+</body>
+</html>

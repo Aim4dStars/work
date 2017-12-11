@@ -1,0 +1,3 @@
+<ntfcn_subscr:ntfcn_subscr_rsp xmlns:ntfcn_subscr="http://btfin.com/ABS/TrxService/NtfcnSubscr/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj">
+  <user id="469" ctxId="469" ctxType="obj_user">Avaloq</user>
+</ntfcn_subscr:ntfcn_subscr_rsp>

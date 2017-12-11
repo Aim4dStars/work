@@ -1,0 +1,221 @@
+{
+  "accountType": "individual",
+  "version": "1.0.0",
+  "investors": [{
+    "displayTaxOptions": true,
+    "cismandatory": true,
+    "title": "MR",
+    "firstname": "Florin",
+    "middlename": "Z",
+    "lastname": "Test",
+    "preferredname": "AAA",
+    "formername": "",
+    "dateofbirth": "13/03/1978",
+    "gender": "male",
+    "mobile": {
+      "value": "0433232323"
+    },
+    "email": {
+      "value": "florin@email.com"
+    },
+    "preferredcontact": "email",
+    "isvalid": true,
+
+    "accountType": "individual",
+    "alternatename": "BBB",
+    "wealthsource": "Business income/earnings",
+    "taxdetails":{
+      "selectedOverseasTaxCountry":{
+        "value":"AL",
+        "valid":true
+      },
+      "ausTaxDetails":{
+        "tfn":{
+          "valid":false
+        },
+        "taxOption":{
+          "valid":true,
+          "value":"some value which is not present in enum"
+        },
+        "isTaxCountryAus":{
+          "valid":true,
+          "value":false
+        },
+        "exemptionReason":{
+          "valid":true,
+          "value":"non_au_resi"
+        }
+      },
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": "not acceptable value"
+      },
+      "overseasTaxDetails":[
+        {
+          "tin":{
+            "valid":true,
+            "value":"123"
+          },
+          "tinOption":{
+            "valid":true,
+            "value":"TIN provided"
+          },
+          "overseasTaxCountry":{
+            "valid":true,
+            "value":"AF"
+          },
+          "tinExemptionReason":{
+            "valid":true
+          }
+        }
+      ]
+    },
+
+    "identitydocument": {
+      "internationaldocuments": {
+        "passport": {
+          "documentIssuer": "AX",
+          "issueDate": "04/04/1980",
+          "expiryDate": "20/10/2020",
+          "documentNumber": "3423432",
+          "verificationSource": "certifiedcopy",
+          "englishTranslation": "sighted"
+        },
+        "valid": true
+      }
+    },
+    "resaddress": {
+      "componentised": true,
+      "unitNumber": "305",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "305",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "536785"
+      }, {
+        "componentised": false,
+        "addressLine1": "Wawra Sr",
+        "addressLine2": "No 23 Sss",
+        "country": "UM",
+        "city": "ABBA",
+        "pin": "1234",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "postal",
+        "id": "511667"
+      }],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "postaladdress": {
+      "componentised": false,
+      "addressLine1": "Wawra Sr",
+      "addressLine2": "No 23 Sss",
+      "country": "UM",
+      "city": "ABBA",
+      "pin": "1234",
+      "verified": true,
+      "addressType": "postal",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "305",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "82071"
+      }, {
+        "componentised": false,
+        "addressLine1": "Wawra Sr",
+        "addressLine2": "No 23 Sss",
+        "country": "UM",
+        "city": "ABBA",
+        "pin": "1234",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "postal",
+        "id": "779428"
+      }],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "taxcountry": "AU",
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "norfolk_island_res"
+  }],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [{
+      "paymentSetting": "allpayments",
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "NSW",
+    "sourceoffunds": "Commission"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "sdshds",
+      "bsb": "082124",
+      "accountnumber": "232323",
+      "nickname": "ssds",
+      "directdebitamount": "23.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [{
+      "accountname": "dfddfdfd",
+      "bsb": "082124",
+      "accountnumber": "63434783",
+      "nickname": "sdsdsds",
+      "directdebitamount": "44.00",
+      "bsbValidationResultVal": true
+    }]
+  },
+  "fees": {
+    "estamount": "45.00",
+    "ongoingFees": {
+      "feesComponent": [{
+        "cpiindex": true,
+        "amount": "23.00",
+        "label": "Dollar fee component"
+      }],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

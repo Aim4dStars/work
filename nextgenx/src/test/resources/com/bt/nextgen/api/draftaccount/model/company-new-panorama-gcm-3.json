@@ -1,0 +1,497 @@
+{
+  "accountType": "company",
+  "version": "1.0.0",
+  "companydetails": {
+    "companyname": "aaaaa",
+    "asicregisteredname": "aaaaa",
+    "acn": "004085616",
+    "companyabn": "33051775556",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "301",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "301",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "531144"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "301",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "829499",
+      "addressType": "residential",
+      "id": "829499",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "301",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "829499"
+        }
+      ]
+    },
+    "docissuer": "ASIC",
+    "issuedate": "15 Feb 2016",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable",
+    "taxcountry": "AU",
+    "registeredforgst": "yes",
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "norfolk_island_res",
+    "wealthsource": "Business profits"
+  },
+  "directors": [
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "64528B9AD550A213B9E10F0772A92ADFA56EBAEEF05D7CF5"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "Dummy@BTFinancialGroup.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0419123456",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": false,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "201602112",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "title": "Dr",
+      "gender": "Male",
+      "accountType": "company",
+      "firstname": "Personbcaciag",
+      "middlename": "Personbcaciag",
+      "lastname": "Personbcaciag",
+      "dateofbirth": "01 Jan 1980",
+      "mobile": {
+        "value": "0419123456"
+      },
+      "email": {
+        "value": "Dummy@BTFinancialGroup.com"
+      },
+      "isDuplicate": true
+    },
+    {
+      "title": "MR",
+      "firstname": "ssss",
+      "middlename": "sss",
+      "lastname": "ssss",
+      "preferredname": "sss",
+      "formername": "",
+      "dateofbirth": "02/02/1978",
+      "gender": "male",
+      "mobile": {
+        "value": "0433232323"
+      },
+      "email": {
+        "value": "dom@mail.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "accountType": "company",
+      "alternatename": "sss",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "301",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "502453",
+        "addressType": "residential",
+        "id": "502453",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "301",
+            "streetNumber": "28",
+            "streetName": "West",
+            "streetType": "STREET",
+            "suburb": "NORTH SYDNEY",
+            "state": "NSW",
+            "postcode": "2060",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "502453"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "301",
+        "streetNumber": "28",
+        "streetName": "West",
+        "streetType": "STREET",
+        "suburb": "NORTH SYDNEY",
+        "state": "NSW",
+        "postcode": "2060",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "992448",
+        "addressType": "residential",
+        "id": "992448",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "301",
+            "streetNumber": "28",
+            "streetName": "West",
+            "streetType": "STREET",
+            "suburb": "NORTH SYDNEY",
+            "state": "NSW",
+            "postcode": "2060",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "992448"
+          }
+        ]
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NSW",
+            "expiryDate": "04/04/2020",
+            "documentNumber": "23423",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      }
+    },
+    {
+      "displayTaxOptions": false,
+      "userName": "39032409",
+      "idVerified": false,
+      "registered": false,
+      "tfnProvided": false,
+      "investorType": "individual",
+      "cisId": "80423020030",
+      "title": "MR",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "active": false,
+      "accountType": "company",
+      "firstname": "James",
+      "middlename": "B",
+      "lastname": "Bond",
+      "dateofbirth": "10/01/1992",
+      "resaddress": {
+        "unitNumber": "6",
+        "floor": "55",
+        "streetNumber": "45",
+        "streetName": "Kent",
+        "streetType": "St",
+        "building": "Ece Arc",
+        "state": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "gcmStreetType": "Street"
+      },
+      "postaladdress": {
+        "unitNumber": "6",
+        "floor": "55",
+        "streetNumber": "45",
+        "streetName": "Kent",
+        "streetType": "St",
+        "building": "Ece Arc",
+        "state": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "gcmStreetType": "Street"
+      },
+      "isDuplicate": true,
+      "mobile": {
+        "value": "0401876654"
+      },
+      "email": {
+        "value": "DS@DS.COM"
+      },
+      "isvalid": false
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "role": "director",
+        "isApprover": "true",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": true,
+        "hasApprovers": true
+      },
+      {
+        "role": "signatory",
+        "isApprover": "false",
+        "paymentSetting": "nopayments",
+        "hasRoles": true,
+        "hasApprovers": true
+      },
+      {
+        "role": "secretary",
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": true,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 2,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Business income/earnings"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": true,
+    "needsMember": false,
+    "needsBeneficiary": false,
+    "needsBeneficialOwner": true,
+    "accountType": "company",
+    "isMajorShareholder": "yes",
+    "investorsWithRoles": [
+      {
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": false,
+        "role": "Director",
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      },
+      {
+        "isShareholder": "no",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": false,
+        "role": "Signatory",
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      },
+      {
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": false,
+        "role": "Secretary",
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": ["shareholder"],
+        "title": "MR",
+        "firstname": "sds",
+        "middlename": "dsds",
+        "lastname": "dsd",
+        "needsShareholder": true,
+        "needsMember": false,
+        "needsBeneficiary": false,
+        "alternatename": "sdsds",
+        "dateofbirth": "02/02/1978",
+        "resaddress": {
+          "componentised": true,
+          "unitNumber": "301",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "594173",
+          "addressType": "residential",
+          "id": "594173",
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "unitNumber": "301",
+              "streetNumber": "28",
+              "streetName": "West",
+              "streetType": "STREET",
+              "suburb": "NORTH SYDNEY",
+              "state": "NSW",
+              "postcode": "2060",
+              "country": "AU",
+              "verified": true,
+              "confirmed": true,
+              "valid": true,
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "id": "594173"
+            }
+          ]
+        },
+        "additionalshareholdergender": "male",
+        "needsBeneficialOwner": true,
+        "identitydocument": {
+          "photodocuments": {
+            "passport": {
+              "documentIssuer": "Australia",
+              "issueDate": "04/04/2010",
+              "expiryDate": "05/05/2030",
+              "documentNumber": "343w3434",
+              "verificationSource": "certifiedcopy",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        }
+      }
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "aass",
+      "bsb": "082124",
+      "accountnumber": "623527327",
+      "nickname": "ndgsjhdgshj",
+      "directdebitamount": "25.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "3.00",
+    "ongoingFees": {
+      "feesComponent": [
+        {
+          "listedSecurities": "1.00",
+          "managedFund": "0.00",
+          "managedPortfolio": "1.00",
+          "termDeposit": "0.00",
+          "cash": "0.00",
+          "label": "Percentage fee component",
+          "valid": true
+        }
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "listedSecurities": "true",
+          "managedFund": "true",
+          "termDeposit": "true",
+          "slidingScaleFeeTier": [
+            {
+              "lowerBound": "0.00",
+              "upperBound": "1111111.00",
+              "percentage": "1.00"
+            },
+            {
+              "lowerBound": "1111111.00",
+              "upperBound": "",
+              "percentage": "1.00"
+            }
+          ],
+          "label": "Sliding scale fee component"
+        }
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

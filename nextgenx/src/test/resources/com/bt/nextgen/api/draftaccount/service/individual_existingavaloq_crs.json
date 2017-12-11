@@ -1,0 +1,141 @@
+{
+  "version": "1.0.0",
+  "parentProductName": "Investments",
+  "accountType": "individual",
+  "investors": [
+    {
+      "emails": [
+        {
+          "email": "t@t.com",
+          "preferred": true,
+          "emailType": "Primary"
+        }
+      ],
+      "gcmId": "227640049",
+      "key": {
+        "clientId": "2656BA594901144AE6430BB1C7F8614793C94A8634B545D3"
+      },
+      "personRoles": [
+        "Owner"
+      ],
+      "phones": [
+        {
+          "preferred": false,
+          "number": "0451223442",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "gcmTitleLabel": "Mr",
+      "cisId": "75133120096",
+      "userName": "testClientOne",
+      "idVerified": true,
+      "taxdetails": {
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          }
+        },
+        "overseasTaxDetails": [
+
+        ]
+      },
+      "isDuplicate": false,
+      "registered": true,
+      "tfnProvided": false,
+      "investorType": "INDIVIDUAL",
+      "title": "Mr",
+      "firstname": "Test",
+      "lastname": "Client One",
+      "dateofbirth": "11 Nov 1990",
+      "gender": "Male",
+      "mobile": {
+        "value": "0451223442"
+      },
+      "email": {
+        "value": "t@t.com"
+      },
+      "isvalid": true,
+      "accountType": "individual",
+      "resaddress": {
+        "stateAbbr": "NSW",
+        "domicile": true,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": false,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "78",
+        "streetName": "Crimea",
+        "streetType": "Street",
+        "suburb": "Parramatta",
+        "state": "New South Wales",
+        "postcode": "2150",
+        "country": "Australia",
+        "existingAddressList": [
+
+        ]
+      },
+      "postaladdress": {
+        "stateAbbr": "NSW",
+        "domicile": false,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": true,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "78",
+        "streetName": "Crimea",
+        "streetType": "Street",
+        "suburb": "Parramatta",
+        "state": "New South Wales",
+        "postcode": "2150",
+        "country": "Australia",
+        "existingAddressList": [
+
+        ]
+      },
+      "resiCountryforTax": "Australia",
+      "tfnExemptId": "99",
+      "exemptionReason": "No exemption"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business profits",
+    "powerofattorney": true
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccountName",
+      "bsb": "062001",
+      "accountnumber": "2589631",
+      "directdebitamount": "10.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

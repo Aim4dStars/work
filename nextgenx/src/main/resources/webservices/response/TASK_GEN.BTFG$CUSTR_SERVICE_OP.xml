@@ -1,0 +1,214 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header>
+		<esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+			<messageAttributes>
+				<id>NG-001.4e41d149-5ffe-46de-ad70-ddba37dbe7db</id>
+				NG-001.4e41d149-5ffe-46de-ad70-ddba37dbe7db
+				<createdTimestamp>2014-06-02T14:38:03.656</createdTimestamp>
+			</messageAttributes>
+			<channelAttributes>
+				<organisationId>WPAC</organisationId>
+				<brandSilo>WPAC</brandSilo>
+				<channelType>Online</channelType>
+				<originatingSystemId>NG-001</originatingSystemId>
+				<requester>
+					<requesterType>System</requesterType>
+				</requester>
+				<location>
+					<locationId>lnxau2106st0107</locationId>
+					<locationType>Machine Name</locationType>
+				</location>
+			</channelAttributes>
+		</esbHeader>
+	</env:Header>
+	<env:Body>
+		<ns:AvaloqGatewayResponseMsg
+			xmlns:ns="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+			<Status>Success</Status>
+			<ResponseDetails>
+				<SuccessResponse>
+
+					<rep:rep xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_basic_investor" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base">
+					
+					  <def>
+					    <version>2.0</version>
+					    <rep_def>
+					      <style>flat</style>
+					      <lang id="1">en</lang>
+					      <hira_def>
+					        <grp_list>
+					          <grp_def>
+					            <name>report</name>
+					            <hira>1</hira>
+					            <has_head>true</has_head>
+					            <has_foot>false</has_foot>
+					          </grp_def>
+					        </grp_list>
+					      </hira_def>
+					      <row_def>
+					        <fld_list>
+					          <fld_def>
+					            <name>macc</name>
+					            <type>TextFld</type>
+					            <lbl>macc</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>person</name>
+					            <type>TextFld</type>
+					            <lbl>person</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>first_name</name>
+					            <type>TextFld</type>
+					            <lbl>first_name</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>middle_name</name>
+					            <type>TextFld</type>
+					            <lbl>middle_name</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>last_name</name>
+					            <type>TextFld</type>
+					            <lbl>last_name</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>role</name>
+					            <type>TextFld</type>
+					            <lbl>role</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>relation</name>
+					            <type>TextFld</type>
+					            <lbl>relationship</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>bp_auth</name>
+					            <type>TextFld</type>
+					            <lbl>bp_authority</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>auth</name>
+					            <type>TextFld</type>
+					            <lbl>authority</lbl>
+					          </fld_def>
+					          <fld_def>
+					            <name>action</name>
+					            <type>TextFld</type>
+					            <lbl>action</lbl>
+					          </fld_def>
+					
+					        </fld_list>
+					      </row_def>
+					    </rep_def>
+					  </def>
+					
+					  <data>
+					    <report>
+					      <report_head_list>
+					      <report_head hira="0" id="1" level="report.head" row_type="title">
+					            <person><annot><ctx><type>person</type><id>37184</id></ctx></annot><val>BOF2_OPS_Recon user10_CSD</val></person>
+					            <first_name><val>BOF2_OPS_Recon</val></first_name>
+					            <last_name><val>user10_CSD</val></last_name>
+					      </report_head>
+					      <report_head hira="0" id="2" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>309</id></ctx></annot><val>Acc Exec basic</val></role>
+					      </report_head>
+					      <report_head hira="0" id="3" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;2</id></ctx></annot><val>Reset Password</val></action>
+					      </report_head>
+					      <report_head hira="0" id="4" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;3</id></ctx></annot><val>Block / Unblock Access</val></action>
+					      </report_head>
+					      <report_head hira="0" id="5" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;4</id></ctx></annot><val>Confirm security mobile number</val></action>
+					      </report_head>
+					      <report_head hira="0" id="6" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;5</id></ctx></annot><val>Unlock security mobile number</val></action>
+					      </report_head>
+					      <report_head hira="0" id="7" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;6</id></ctx></annot><val>Account creation incomplete</val></action>
+					      </report_head>
+					      <report_head hira="0" id="8" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;7</id></ctx></annot><val>Resend registration email</val></action>
+					      </report_head>
+					      <report_head hira="0" id="9" level="report.head" row_type="title">
+					            <action><annot><ctx><type>code</type><id>btfg$code_svc_ops_action;8</id></ctx></annot><val>Mobile security exemption (from 2FA)</val></action>
+					      </report_head>
+					      <report_head hira="0" id="10" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>97</id></ctx></annot><val>Basic Access Rights</val></role>
+					      </report_head>
+					      <report_head hira="0" id="11" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>80</id></ctx></annot><val>Basic Order Visibility</val></role>
+					      </report_head>
+					      <report_head hira="0" id="12" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>72</id></ctx></annot><val>Basic Object Visibility</val></role>
+					      </report_head>
+					      <report_head hira="0" id="13" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>191</id></ctx></annot><val>FR ADDR - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="14" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>189</id></ctx></annot><val>FR ASSET - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="15" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>130</id></ctx></annot><val>FR Audit Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="16" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>2634</id></ctx></annot><val>FR Basic - Edit</val></role>
+					      </report_head>
+					      <report_head hira="0" id="17" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>123</id></ctx></annot><val>FR Basic Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="18" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>199</id></ctx></annot><val>FR BP - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="19" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>218</id></ctx></annot><val>FR COLLECT - Maker</val></role>
+					      </report_head>
+					      <report_head hira="0" id="20" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>217</id></ctx></annot><val>FR COLLECT - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="21" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>217</id></ctx></annot><val>FR COLLECT - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="22" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>201</id></ctx></annot><val>FR CONT - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="23" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>283</id></ctx></annot><val>FR CTACT2 - Maker</val></role>
+					      </report_head>
+					      <report_head hira="0" id="24" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>282</id></ctx></annot><val>FR CTACT2 - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="25" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>211</id></ctx></annot><val>FR IPS - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="26" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>197</id></ctx></annot><val>FR MKT - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="27" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>209</id></ctx></annot><val>FR MPF - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="28" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>228</id></ctx></annot><val>FR PERSON - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="29" level="report.head" row_type="title">
+					            <role><annot><ctx><type>user</type><id>223</id></ctx></annot><val>FR PROD - Read Only</val></role>
+					      </report_head>
+					      <report_head hira="0" id="30" level="report.head" row_type="title">
+					            <bp_auth><annot><ctx><type>bp</type><id>38676</id></ctx></annot><val>CorpSMSF4clients</val></bp_auth>
+					            <auth><annot><ctx><type>code_auth_trx_grp</type><id>1124</id></ctx></annot><val>Payments &amp; Deposits to Linked Accounts Only</val></auth>
+					      </report_head>
+					      <report_head hira="0" id="31" level="report.head" row_type="title">
+					            <bp_auth><annot><ctx><type>bp</type><id>38653</id></ctx></annot><val>CorpSMSF4clients</val></bp_auth>
+					            <auth><annot><ctx><type>code_auth_trx_grp</type><id>1124</id></ctx></annot><val>Payments &amp; Deposits to Linked Accounts Only</val></auth>
+					      </report_head>
+					      <report_head hira="0" id="32" level="report.head" row_type="title">
+					            <bp_auth><annot><ctx><type>bp</type><id>38630</id></ctx></annot><val>CorpSMSF4clients</val></bp_auth>
+					            <auth><annot><ctx><type>code_auth_trx_grp</type><id>1124</id></ctx></annot><val>Payments &amp; Deposits to Linked Accounts Only</val></auth>
+					      </report_head>
+					      </report_head_list>
+					    </report>
+
+  </data>
+</rep:rep><!-- 2014-06-02 14:38:03 on NGWU1 by CS057461 --></SuccessResponse></ResponseDetails></ns:AvaloqGatewayResponseMsg></env:Body></env:Envelope>

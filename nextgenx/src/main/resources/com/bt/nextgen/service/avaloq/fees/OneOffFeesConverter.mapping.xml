@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	<mapping>
+	  	<class-a>com.avaloq.abs.screen_rep.hira.btfg$ui_book_list_pos_cacc.PosHead</class-a>
+	    <class-b>com.bt.nextgen.service.avaloq.fees.OneOffFeesImpl</class-b>
+	    <field>
+	    	<a>bpId.val</a>
+	    	<b is-accessible="true">accountKey.id</b>
+	    </field>
+	    <field>
+	    <a>amt.val</a>
+	    <b>yearlyFees</b>
+	    </field>
+	</mapping>   
+	
+	<mapping>
+	  	<class-a>com.btfin.abs.trxservice.advfee.v1_0.Data</class-a>
+	    <class-b>com.bt.nextgen.service.avaloq.fees.OneOffFeesImpl</class-b>
+	    <field>
+	   		<a>amount.val</a>
+	    	<b>fees</b>
+	    </field>
+	    <field>
+	    	<a>desc.val</a>
+	    	<b>description</b>
+	  	</field>	    
+	</mapping>          
+</mappings> 

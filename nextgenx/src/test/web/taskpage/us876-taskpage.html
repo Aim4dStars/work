@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>US 876 - My tasks - LAYOUT STRUCTURE</title>
+    <link rel="stylesheet" href="../../../main/webapp/public/static/css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="../../../main/webapp/public/static/css/screen.css" type="text/css"/>
+
+    <!--JavaScript file structure-->
+    <!--Config-->
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/config/namespace.js"></script>
+    <!--/Config-->
+
+    <!--Libs-->
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/lib/jQuery.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/lib/jQueryUi.js"></script>
+    <!--/Libs-->
+
+    <!--Helpers-->
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/helpers/stringHelpers.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/helpers/numberHelpers.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/helpers/arrayHelpers.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/helpers/dateHelpers.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/helpers/utils.js"></script>
+    <!--/Helpers-->
+
+    <!--Plugins-->
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/isMobile.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/placeholder.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/passwordPolicy.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/formatDate.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/promptMessage.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/removeMessage.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/showServerSideErrors.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/validationEngine.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/createFormSubmitRequestBody.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/resetForm.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/calendar.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/spinner.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/modalBox.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/searchableDropDown.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/dropKick.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/accordionTable.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/tableSorter.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/jScrollPane.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/address.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/plugins/cookie.js"></script>
+    <!--/Plugins-->
+
+    <!--Widgets-->
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/widgets/comboBox.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/widgets/selectMenu.js"></script>
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/widgets/tableSorter.js"></script>
+    <!--/Widgets-->
+
+    <!--Application-->
+    <script type="text/javascript" src="../../../main/webapp/public/static/js/application.js"></script>
+    <!--/Application-->
+    <script type="text/javascript" src="js/jquery-inits.js"></script>
+    <!--/JavaScript file structure-->
+</head>
+<body>
+    <div class="layoutContainer">
+        <aside class="layoutUtilBar">
+            <div class="layoutUtilBarWrap">
+                <div class="utilBar">
+                    <div class="utilBarItemHome ">
+                        <a title="Dashboard" class="linkIcon linkIconSide" href="/nextgen/secure/page/home"> <em class="linkIconImage icondashboard"></em>
+                        </a>
+                    </div>
+                    <div class="utilBarItemClients ">
+                        <!-- TODO: portfolio id and client id need to be clarified. -->
+                        <a title="Accounts" class="linkIcon linkIconSide" href="/nextgen/secure/page/MTEyODU=/MTE5MjY=/overview"> <em class="linkIconImage iconindividual"></em>
+                        </a>
+                    </div>
+
+                    <div class="utilBarItemNews ">
+                        <a title="Products and news" class="linkIcon linkIconSide" href="/nextgen/secure/page/productsandnews">
+                            <em class="linkIconImage iconalertsalt"></em>
+                        </a>
+                    </div>
+
+                </div><!-- utilBar -->
+                <em class="utilCopyright">
+                    <span class="noDisplay">BT Powered by NextGen</span>
+                </em>
+            </div><!-- layoutUtilBarWrap -->
+        </aside><!-- layoutUtilBar -->
+
+    <div class="layoutContent">
+        <header data-role="header" role="" class="layoutHeader">
+            <nav class="layoutHeaderWrap">
+                    <span class="logoWrap logoWrapPos">
+                        <a href="/nextgen/secure/page/dashboard">BT</a>
+                    </span>
+                <!-- Top Navigation elements -->
+
+                <ul class="topMenu topMenuPos">
+
+                    <li class="topMenuItem topMenuItemFirst">
+                        <ul data-ng-key="adviserInfoHeader" class="globalContentWrapper  jq-AdviserDetailsLink cursor jq-flyoutSource" role="tab" id="ui-id-2">
+                            <li class="sectionHeader">
+                                <span class="emphasis">Your adviser</span>
+
+                                <ul class="inlineBulletList">
+                                    <li><span data-ng-key="adviserName">Jim Johnson</span></li>
+                                    <li>
+                                        <span data-ng-key="adviserPhoneNumber"> (02) 34557788</span>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="sectionAction">
+                                <em class="iconarrowfulldown cursor"><span class="screenReaderText">Adviser Details</span></em>
+                            </li>
+                        </ul>
+                        <div data-ng-key="adviserDetailHeader" role="dialog" class="contentDialog jq-AdviserDetailsWrapper jq-flyout jq-flyoutWrapper" id="ui-id-1" style="display: none;" aria-labelledby="ui-id-2">
+                            <em class="expandArrow expandArrowMod2 jq-pointer"></em>
+                            <h5>Dealer group name</h5>
+                            <dl class="definitionList">
+                                <dt class="emphasis">Email</dt>
+                                <dd>
+                                    <a data-ng-key="adviserEmail" class="primaryLink" href="mailto:jim.johnson@btfinancialgroup.com">jim.johnson@btfinancialgroup.com</a>
+                                </dd>
+
+                                <dt class="emphasis clearBoth">Address</dt>
+                                <dd>
+                                    <ul class="listContent">
+                                        <li data-ng-key="adviserAddressLine1">33 Pitt Sydney</li>
+                                        <li data-ng-key="adviserAddressLine2"> </li>
+                                        <li data-ng-key="adviserCity"> Sydney</li>
+                                        <li data-ng-key="adviserStatePin"> NSW 2000</li>
+                                        <li data-ng-key="adviserCountry">  </li>
+                                        <li class="setTopGutter">
+                                            <a class="primaryLink" href="https://maps.google.com/maps?q=33 Pitt Sydney,+,+Sydney,+NSW,+2000,+" data-ng-key="adviserLocationMap" target="_blank">
+                                                <em class="iconlocationpin iconlocationpinMod1 jq-pointer"></em>
+                                                <span class="text">Show me on Google maps</span></a>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </div>
+                    </li>
+                    <li class="topMenuItem topMenuMenuItemSub ">
+                        <!-- Adviser -->
+                        <!-- Investor -->
+                        <span class="topMenuItemWrapper">
+                            <a href="#nogo" title="View alerts and notifications" class="topMenuItemLink linkIcon linkIconText jq-messageDetailsLink jq-flyoutSource" role="tab" id="ui-id-4">
+                                <span data-remaining-count="20" class="messageDisplay messageDisplayInfo jq-alertCount">20</span>
+                                <em class="iconalertsalt linkIconImage"><span>Alerts</span></em>
+                            </a>
+                        </span>
+                        <!-- Message Header Flyout Details pagte -->
+                        <div data-ng-key="investorMessages" role="dialog" class="contentDialog contentDialogMod1 jq-messageDetailsWrapper jq-flyoutWrapper" id="ui-id-3" style="display: none;" aria-labelledby="ui-id-4">
+                            <em class="expandArrow expandArrowMod3"></em>
+                            <ul class="globalNavList">
+                                <li class="globalNavListHeader">
+                                    <span class="emphasis"><a href="/nextgen/secure/page/investorMessages" class="baseLink ">Messages</a></span>
+                                </li>
+                                <li>
+                                    <span class="floatLeft">Unread</span>
+                                    <span data-ng-key="investorUnread" data-remaining-count="20" class="emphasis floatRight jq-investorUnread">20</span>
+                                </li>
+                                <li class="clearBoth">
+                                    <span class="floatLeft">High</span>
+                                    <span data-remaining-count="16" data-ng-key="investorHigh" class="emphasis floatRight jq-investorHigh">16</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="topMenuItem topMenuMenuItemMain">
+                        <!-- Investor -->
+                        <a href="/nextgen/secure/page/investorDetail" title="" class="topMenuItemLink linkIcon">
+                            <span class="topMenuItemWrapper">
+                                <span class="topMenuItemContainer">
+                                <span class="iconDropWrapper iconDropWrapperTopNav">
+                                        <em class="iconsettings"></em>
+                                <!--em class="iconarrowfulldown  iconarrowfulldownSubPos"></em-->
+                                 </span>
+                                <span>
+                                    Dennis Beecham
+                                </span>
+                             </span>
+                    </span>
+                        </a>
+                    </li>
+                    <li class="topMenuItem topMenuMenuItemSub">
+                <span class="topMenuItemWrapper">
+                    <a href="/nextgen/security/doLogout" title="Sign out" class="topMenuItemLink linkIcon">
+                        <em class="iconsignout linkIconImage">
+                            <span class="screenReaderText">Sign out </span></em>
+                    </a>
+                   </span>
+                    </li>
+                </ul>
+            </nav><!-- layoutHeaderWrap-->
+            <script src="/nextgen/public/static/_0aMHsAylueuiJ9tTwIJQnzqpc=/js/client/desktop/shared/globalElements.js" type="text/javascript" language="javascript"></script>
+        </header>
+
+        <article class="layoutMain">
+            <div class="layoutMainWrap">
+
+					<div class="mainContent jq-messageCentreWrap jq-hasTabs ui-tabs ui-widget ui-widget-content ui-corner-all">
+						<h2 class="mainHeaderItem mainHeaderItemMod2">Your tasks</h2>
+						
+						<div class="jq-tabsClientDetails">
+					        <div class="toggleMenuLineWrap toggleMenuLineWrapMod6 toggleMenuLineWrapMod6">
+						        <ul class="toggleMenuLine  clearFix">
+							    	<li class="toggleMenuLineItem  ui-state-active">
+							    		<a href="#jq-1Wrap" class="menuAction jq-sliderButton" title="Pay*/ anyone" data-ng-key="sliderPayAnyone" data-rel="jq-payAnyoneSlider">All <span class="counts">15</span></a>
+							          <span class="toggleArrowWrap">
+							            <em class="expandArrow expandArrowMod1"></em>
+							            <span class="expandArrowLine "></span>
+							          </span>
+							        </li>
+							        <li class="toggleMenuLineItem">
+							        	<a href="#jq-2Wrap" class="menuAction jq-sliderButton" data-ng-key="sliderBPay" title="BPAY" data-rel="jq-bpayPayeeSlider">Change request <span class="counts">2</span></a>
+							           <span class="toggleArrowWrap">
+							            <em class="expandArrow expandArrowMod1"></em>
+							            <span class="expandArrowLine "></span>
+							          </span>
+							    	</li>
+							    	<li class="toggleMenuLineItem">
+							        	<a href="#jq-3Wrap" class="menuAction jq-sliderButton" data-ng-key="sliderBPay" title="BPAY" data-rel="jq-bpayPayeeSlider">Waiting for approval <span class="counts">1</span></a>
+							           <span class="toggleArrowWrap">
+							            <em class="expandArrow expandArrowMod1"></em>
+							            <span class="expandArrowLine "></span>
+							          </span>
+							    	</li>
+							    	<li class="toggleMenuLineItem">
+							        	<a href="#jq-4Wrap" class="menuAction jq-sliderButton" data-ng-key="sliderBPay" title="BPAY" data-rel="jq-bpayPayeeSlider">Saved drafts <span class="counts">3</span></a>
+							           <span class="toggleArrowWrap">
+							            <em class="expandArrow expandArrowMod1"></em>
+							            <span class="expandArrowLine "></span>
+							          </span>
+							    	</li>
+							    	<li class="toggleMenuLineItem">
+							        	<a href="#jq-5Wrap" class="menuAction jq-sliderButton" data-ng-key="sliderBPay" title="BPAY" data-rel="jq-bpayPayeeSlider">Active<span class="counts">9</span></a>
+							           <span class="toggleArrowWrap">
+							            <em class="expandArrow expandArrowMod1"></em>
+							            <span class="expandArrowLine "></span>
+							          </span>
+							    	</li>
+								</ul>
+						    </div>
+					
+					        <div id="jq-1Wrap" class="clearFix" data-ng-key="paymentAddPayee">
+					            <%@ include file="1.jsp" %>
+					        </div>					
+					        <div id="jq-2Wrap" class="clearFix" data-ng-key="paymentAddPayee">
+					            <%@ include file="2.jsp"%> 
+					        </div>
+					        <div id="jq-3Wrap" class="clearFix" data-ng-key="paymentAddPayee">
+					            <%@ include file="3.jsp" %>
+					        </div>					
+					        <div id="jq-4Wrap" class="clearFix" data-ng-key="paymentAddPayee">
+					            <%@ include file="4.jsp"%> 
+					        </div>
+					        <div id="jq-5Wrap" class="clearFix" data-ng-key="paymentAddPayee">
+					            <%@ include file="5.jsp"%> 
+					        </div>
+					       
+					    </div>   
+						
+						<div class="mainContentBox jq-messageType" data-type=""
+							data-role="">
+							<div class="tableContainer multiTableContainer">
+								<table class="dataTable" data-table="" data-page=""
+									data-page-size="" data-category="" data-remaining=""
+									data-row-tmpl="" data-btn-tmpl="">
+									<caption>Messages</caption>
+									<thead>
+										<tr class="tableHeader tableHeaderStyleOne">
+											<th colspan="5">
+												<div class="clearFix">
+													<h2 class="floatLeft">Failed transactions &amp;
+														warnings</h2>
+													<div class="topPagination">
+														<span class="jq-unreadCount">21</span> unread of <span
+															class="jq-totalCount">21</span> total
+													</div>
+												</div></th>
+										</tr>
+										<tr class="tableHeader tableHeaderFull">
+											<th class="dataTableHeader alphaAlign dataDateCell">
+												Priority</th>
+											<th class="dataTableHeader alphaAlign dataDateCell">
+												Date</th>
+											<th class="dataTableHeader dataIconCell dataIconCellExtend">
+
+											</th>
+											<th class="dataTableHeader alphaAlign">Account</th>
+											<th class="dataTableHeader alphaAlign">Details</th>
+										</tr>
+									</thead>
+
+									<tbody>
+										<tr class="dataTableRow dataTableRowBg cursor jq-unread"
+											data-priority="HIGH" data-id="1">
+											<td class="dataTableCell dataExpandCell alphaAlign"><a
+												href="#nogo"
+												class="iconarrowfullright baseLink jq-tablePointer"
+												title="Open this panel"><span>Open this panel</span>
+											</a></td>
+											<td class="dataTableCell alphaAlign dataDateCell"><span
+												class="day">01</span> <span class="month">May</span> <span
+												class="year">2013</span></td>
+											<td
+												class="dataTableCell dataIconCell dataIconCellExtend jq-messageIcon">
+												<em class="iconemail warning"><span>UNREAD</span>
+											</em></td>
+											<td class="dataTableCell alphaAlign">
+												<h3 class="descriptionHeader emphasis">
+													<a data-id="1234567" class="baseLink jq-accountLink"
+														href="#">Beecham A</a>
+												</h3> 1234567 • Individual</td>
+											<td
+												data-details="The fifth scheduled payment of $820 from account 123435678 to SomeBank Visa has failed, so the remaining payments in this series have been stopped."
+												class="dataTableCell alphaAlign dataTableCellMod2 emphasis jq-details">
+												<span>The fifth scheduled payment of $820 from
+													account 1...</span></td>
+										</tr>
+
+										<tr class="dataTableRow dataTableRowBg cursor jq-unread"
+											data-priority="LOW" data-id="2">
+											<td class="dataTableCell dataExpandCell"><a href="#nogo"
+												class="iconarrowfullright baseLink jq-tablePointer"
+												title="Open this panel"><span>Open this panel</span>
+											</a></td>
+											<td class="dataTableCell alphaAlign dataDateCell"><span
+												class="day">01</span> <span class="month">May</span> <span
+												class="year">2013</span></td>
+											<td
+												class="dataTableCell dataIconCell dataIconCellExtend jq-messageIcon">
+												<em class="iconemail "><span>UNREAD</span>
+											</em></td>
+											<td class="dataTableCell alphaAlign">
+												<h3 class="descriptionHeader emphasis">
+													<a data-id="12345678" class="baseLink jq-accountLink"
+														href="#">Beecham B</a>
+												</h3> 12345678 • Individual</td>
+											<td
+												data-details="The fifth scheduled payment of $820 from account 123435678 to SomeBank Visa has failed, so the remaining payments in this series have been stopped."
+												class="dataTableCell alphaAlign dataTableCellMod2 emphasis jq-details">
+												<span>The fifth scheduled payment of $820 from
+													account 1...</span></td>
+										</tr>
+									</tbody>
+
+									<tfoot class="cursor">
+										<tr class="paginationRow">
+											<td colspan="6">
+												<div class="footerSmokeContainer">
+													<div class="footerSmoke noCursor">&nbsp;</div>
+												</div>
+												<div class="pagination jq-loadMoreButton">
+													<span class="jq-remaining">16</span> more <span
+														class="jq-itemLbl">items</span>
+													<div class="paginationPull">
+														<span class="iconHolder"><em class="iconchevron"
+															title="More messages button"><span>More
+																	messages button</span>
+														</em>
+														</span>
+													</div>
+												</div></td>
+										</tr>
+									</tfoot>
+
+								</table>
+							</div>
+						</div>
+					</div>
+
+                <section>
+                    <!-- your tasks -->
+                    <div class="tableContainer">
+                        <!-- Change requested -->
+                        <table class="dataTable" data-table="yourTasks">
+                            <caption>Change requested</caption>
+                            <thead>
+                                <tr class="tableHeader tableHeaderStyleOne">
+                                    <th colspan="8">
+                                        <h2>Change requested <span class="floatRight normalText">2</span></h2>
+                                    </th>
+                                </tr>
+                                <tr class="tableHeader tableHeaderFull">
+                                    <th class="dataTableHeader alphaAlign dataDateCell">Received</th>
+                                    <th class="dataTableHeader"></th>
+                                    <th class="dataTableHeader alphaAlign">Application ref no.</th>
+                                    <th class="dataTableHeader alphaAlign">Requester</th>
+                                    <th class="dataTableHeader alphaAlign">Adviser</th>
+                                    <th class="dataTableHeader alphaAlign"></th>
+                                    <th class="dataTableHeader dataIconCell"></th>
+                                    <th class="dataTableHeader dataIconCell"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">Today</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW9876543210
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Jane Beecham</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Jim Johnson</span><br/>
+                                    <span>0412 345 578</span>
+                                </td>
+                                <td class="dataTableCell"></td>
+                                <td class="dataTableCell"></td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">3 days ago</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW1230456789
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Beecham Bears</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Jim Johnson</span><br/>
+                                    <span>0412 345 578</span>
+                                </td>
+                                <td class="dataTableCell"></td>
+                                <td class="dataTableCell"></td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- Change requested ends -->
+                        <!-- Waiting for approval -->
+                        <table class="dataTable" data-table="yourTasks">
+                            <caption>Waiting for approval</caption>
+                            <thead>
+                            <tr class="tableHeader tableHeaderStyleOne">
+                                <th colspan="8">
+                                    <h2>Waiting for approval <span class="floatRight normalText">2</span></h2>
+                                </th>
+                            </tr>
+                            <tr class="tableHeader tableHeaderFull">
+                                <th class="dataTableHeader alphaAlign dataDateCell">Submitted</th>
+                                <th class="dataTableHeader"></th>
+                                <th class="dataTableHeader alphaAlign">Application ref no.</th>
+                                <th class="dataTableHeader alphaAlign">Approver</th>
+                                <th class="dataTableHeader alphaAlign">Status</th>
+                                <th class="dataTableHeader alphaAlign">Adviser</th>
+                                <th class="dataTableHeader dataIconCell"></th>
+                                <th class="dataTableHeader dataIconCell"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">Today</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW9876543210
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Jane Beecham</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    Not registered
+                                </td>
+                                <td class="dataTableCell">
+                                    <span>Jim Johnson</span><br/>
+                                    <span>0412 345 578</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconshare"><span class="screenReaderText">Share</span></em>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">3 days ago</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW1230456789
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Beecham Bears</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    Approved
+                                </td>
+                                <td class="dataTableCell">
+                                    <span>Jim Johnson</span><br/>
+                                    <span>0412 345 578</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconshare"><span class="screenReaderText">Share</span></em>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- Waiting for approval ends -->
+                        <!-- Saved drafts -->
+                        <table class="dataTable" data-table="yourTasks">
+                            <caption>Saved drafts</caption>
+                            <thead>
+                            <tr class="tableHeader tableHeaderStyleOne">
+                                <th colspan="8">
+                                    <h2>Saved drafts <span class="floatRight normalText">3</span></h2>
+                                </th>
+                            </tr>
+                            <tr class="tableHeader tableHeaderFull">
+                                <th class="dataTableHeader alphaAlign dataDateCell">Last updated</th>
+                                <th class="dataTableHeader"></th>
+                                <th class="dataTableHeader alphaAlign">Application ref no.</th>
+                                <th class="dataTableHeader alphaAlign">% Complete</th>
+                                <th class="dataTableHeader alphaAlign">Adviser</th>
+                                <th class="dataTableHeader alphaAlign"></th>
+                                <th class="dataTableHeader dataIconCell"></th>
+                                <th class="dataTableHeader dataIconCell"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">Today</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW9876543210
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span class="textFragment textFragmentMod1">33</span>
+                                    <span class="textFragment textFragmentMod2">%</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Jim Johnson</span><br/>
+                                    <span>0412 345 578</span>
+                                </td>
+                                <td class="dataTableCell"></td>
+                                <td class="dataTableCell">
+                                    <em class="icontrash"><span class="screenReaderText">Delete</span></em>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">3 days ago</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW1230456789
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span class="textFragment textFragmentMod1">25</span>
+                                    <span class="textFragment textFragmentMod2">%</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Beecham Bears</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell"></td>
+                                <td class="dataTableCell">
+                                    <em class="icontrash"><span class="screenReaderText">Delete</span></em>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- Saved drafts ends -->
+                        <!-- Active -->
+                        <table class="dataTable" data-table="yourTasks">
+                            <caption>Active</caption>
+                            <thead>
+                            <tr class="tableHeader tableHeaderStyleOne">
+                                <th colspan="8">
+                                    <h2>Active <span class="floatRight normalText">2</span></h2>
+                                </th>
+                            </tr>
+                            <tr class="tableHeader tableHeaderFull">
+                                <th class="dataTableHeader alphaAlign dataDateCell">Date</th>
+                                <th class="dataTableHeader"></th>
+                                <th class="dataTableHeader alphaAlign">Application ref no.</th>
+                                <th class="dataTableHeader alphaAlign">Primary contact</th>
+                                <th class="dataTableHeader alphaAlign">No. of clients</th>
+                                <th class="dataTableHeader alphaAlign">Adviser</th>
+                                <th class="dataTableHeader dataIconCell"></th>
+                                <th class="dataTableHeader dataIconCell"></th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">Today</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW9876543210
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Dennis Beecham</span><br/>
+                                    <span>0411 254 875</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>2</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span>Beecham Bears</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconshare"><span class="screenReaderText">Delete</span></em>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            <tr class="dataTableRow dataTableRowBg cursor">
+                                <td class="dataTableCell alphaAlign dataDateCell">
+                                    <span class="day">01</span>
+                                    <span class="month">May</span>
+                                    <span class="year">2013</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span class="smallText">3 days ago</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <h3 class="descriptionHeader emphasis"><a data-id="" class="baseLink" href="#">Beecham Bees</a></h3> SMSF Investment Wrap<br/>IW1230456789
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>Beecham Bears</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell alphaAlign">
+                                    <span>4</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <span>Beecham Bears</span><br/>
+                                    <span>0422 383 444</span>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconshare"><span class="screenReaderText">Delete</span></em>
+                                </td>
+                                <td class="dataTableCell">
+                                    <em class="iconnotes"><span class="screenReaderText">Edit</span></em>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- Active ends -->
+                    </div>
+                </section>
+            </div> <!-- layoutMainWrap -->
+
+        </article><!-- layoutMain -->
+
+        <footer class="layoutFooter layoutFooterMod1">
+            <div class="layoutFooterWrp layoutFooterWrpMod1">
+                <ul class="layoutFooterNav">
+                    <li> | v 1.0.415-SNAPSHOT-ui.dev-b648773d9e89ac0060d794628a18e65f7516f151</li>
+                    <li><a href="/ng/secure/page/content/contactus/investor" class="primaryLink">Contact us</a></li>
+                    <li><a href="/ng/secure/page/content/termsofuse" class="primaryLink">Terms of use</a></li>
+                    <li><a href="/ng/secure/page/content/privacystatement" class="primaryLink">Privacy statement</a></li>
+                </ul>
+            </div> <!-- layoutFooterWrp -->
+        </footer> <!-- layoutFooter -->
+        <div></div>
+    </div><!-- layoutContent -->
+</div><!-- layoutContainer -->
+</body>
+</html>

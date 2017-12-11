@@ -1,0 +1,4 @@
+DROP SEQUENCE acl_object_identity_seq;
+
+CREATE SEQUENCE acl_object_identity_seq;
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 2014-09-15T11:31:44.840970000Z on AFD030A by BTFG$CLTPRC -->
+<person:person_rsp xmlns:person="http://btfin.com/ABS/TrxService/Person/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>0315bd91-6e4e-4292-e054-b499bab5f5b4</req_id>
+  </hdr>
+  <data>
+    <doc>
+      <val>197511</val>
+    </doc>
+    <wfc_status>
+      <annot>
+        <displ_text>Done</displ_text>
+        <ctx>
+          <type>wfc_status</type>
+          <id>90</id>
+        </ctx>
+      </annot>
+      <val>90</val>
+    </wfc_status>
+    <person_id>
+      <annot>
+        <displ_text>Demo Nestle Pty Ltd Test</displ_text>
+        <ctx>
+          <type>obj_person</type>
+          <id>69833</id>
+        </ctx>
+      </annot>
+      <val>69833</val>
+    </person_id>
+    <person_modi_seq_nr>
+      <val>4</val>
+    </person_modi_seq_nr>
+    <names>
+      <full_name>
+        <val>Demo Nestle Pty Ltd Test</val>
+      </full_name>
+    </names>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+    </exec>
+  </rsp>
+</person:person_rsp>

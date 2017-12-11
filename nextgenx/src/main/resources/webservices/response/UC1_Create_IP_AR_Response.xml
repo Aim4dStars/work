@@ -1,0 +1,53 @@
+<soapenv:Envelope xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:id="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:hdr="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+      <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:dyn="http://exslt.org/dynamic" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://www.westpac.com.au/gn/arrangementManagement/services/arrangementManagement/common/xsd/v1/" xmlns:ns2="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:avqxsi="avqxsi">
+         <messageAttributes>
+            <id>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f1</id>
+            <correlationId>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f</correlationId>
+            <createdTimestamp>2016-07-06T16:26:41.745</createdTimestamp>
+         </messageAttributes>
+         <channelAttributes>
+            <organisationId>WPAC</organisationId>
+            <brandSilo>WPAC</brandSilo>
+            <channelType>Online</channelType>
+            <originatingSystemId>NG-002</originatingSystemId>
+            <requester>
+               <requesterType>Customer</requesterType>
+               <requesterId>201601509</requesterId>
+               <requesterGroupType>711</requesterGroupType>
+            </requester>
+            <location>
+               <locationId>032949</locationId>
+               <locationType>BSB</locationType>
+            </location>
+            <location>
+               <locationId>lnxau2106st0118</locationId>
+               <locationType>Machine Name</locationType>
+            </location>
+            <systemInfo>
+               <codeValue>
+                  <code>Destination</code>
+                  <value>OnboardingStatusUpdateAdapter</value>
+               </codeValue>
+            </systemInfo>
+         </channelAttributes>
+      </esbHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <out:maintainArrangementAndIPArrangementRelationshipsResponse xmlns:in9="wbc.ucm/FinancialAccount" xmlns:io="http://schemas.xmlsoap.org/soap/envelope/" xmlns:io3="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:io2="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/xsd/maintainArrangementAndIPArrangementRelationships/v1/SVC0256/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:io5="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/common/xsd/v1/" xmlns:io4="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+         <io2:serviceStatus  xmlns:in9="wbc.ucm/FinancialAccount" xmlns:io="http://schemas.xmlsoap.org/soap/envelope/" xmlns:io3="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:io2="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/xsd/maintainArrangementAndIPArrangementRelationships/v1/SVC0256/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:io5="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/common/xsd/v1/" xmlns:io4="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+            <sh:statusInfo xmlns:MVC="http://www.westpac.com.au/gn/MediationService/MVC0123/v01" xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:in9="wbc.ucm/FinancialAccount" xmlns:io="http://schemas.xmlsoap.org/soap/envelope/" xmlns:io3="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:io2="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/xsd/maintainArrangementAndIPArrangementRelationships/v1/SVC0256/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:io5="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/common/xsd/v1/" xmlns:io4="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+               <sh:level>Success</sh:level>
+               <sh:code>000,00000</sh:code>
+            </sh:statusInfo>
+         </io2:serviceStatus>
+         <out:arrangement xsi:type="io5:AccountArrangement">
+            <io5:externalIdentifier>
+               <io3:accountNumber>120047074</io3:accountNumber>
+               <io3:bsbNumber>262786</io3:bsbNumber>
+               <io3:canonicalProductCode>35d1b65704184ae3b87799400f7ab93c</io3:canonicalProductCode>
+            </io5:externalIdentifier>
+         </out:arrangement>
+      </out:maintainArrangementAndIPArrangementRelationshipsResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

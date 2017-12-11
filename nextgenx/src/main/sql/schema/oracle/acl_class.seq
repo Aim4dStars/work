@@ -1,0 +1,4 @@
+DROP SEQUENCE acl_class_seq;
+
+CREATE SEQUENCE acl_class_seq;
+

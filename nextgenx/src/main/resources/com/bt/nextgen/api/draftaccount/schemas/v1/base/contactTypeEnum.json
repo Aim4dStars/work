@@ -1,0 +1,16 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type": "string",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.base.ContactTypeEnum",
+  "enum": [
+    "email",
+    "secondaryemail",
+    "mobile",
+    "secondarymobile",
+    "homenumber",
+    "worknumber",
+    "othernumber",
+    ""
+  ],
+  "TODO": "investigate why string empty is being used for this type. UI needs to change so that is not sending the field at all if string empty ?"
+}

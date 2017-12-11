@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+  <tab_list>
+    <tab>
+      <tab_head_list>
+        <tab_head id="334-167" row_type="title" hira="1" level="tab.head">
+          <tab_name><val>btfg$anzsic_div</val></tab_name>
+        </tab_head>
+      </tab_head_list>
+      <code_list>
+        <code>
+          <code_head_list>
+            <code_head id="336-168" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14590</ctx_id>
+              </annot>
+              <code_id><val>14590</val></code_id>
+              <intl_id><val>h</val></intl_id>
+              <user_id><val>H</val></user_id>
+              <name><val>Accommodation, Cafes and Restaurants</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="338-169" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14101</ctx_id>
+              </annot>
+              <code_id><val>14101</val></code_id>
+              <intl_id><val>a</val></intl_id>
+              <user_id><val>A</val></user_id>
+              <name><val>Agriculture, Forestry and Fishing</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="340-170" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14649</ctx_id>
+              </annot>
+              <code_id><val>14649</val></code_id>
+              <intl_id><val>j</val></intl_id>
+              <user_id><val>J</val></user_id>
+              <name><val>Communication Services</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="342-171" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14440</ctx_id>
+              </annot>
+              <code_id><val>14440</val></code_id>
+              <intl_id><val>e</val></intl_id>
+              <user_id><val>E</val></user_id>
+              <name><val>Construction</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="344-172" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14861</ctx_id>
+              </annot>
+              <code_id><val>14861</val></code_id>
+              <intl_id><val>r</val></intl_id>
+              <user_id><val>R</val></user_id>
+              <name><val>Cultural and Recreational Services</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="346-173" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14812</ctx_id>
+              </annot>
+              <code_id><val>14812</val></code_id>
+              <intl_id><val>p</val></intl_id>
+              <user_id><val>P</val></user_id>
+              <name><val>Education</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="348-174" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14414</ctx_id>
+              </annot>
+              <code_id><val>14414</val></code_id>
+              <intl_id><val>d</val></intl_id>
+              <user_id><val>C</val></user_id>
+              <name><val>Electricity, Gas, Water Supply and  Waste Services</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="350-175" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14693</ctx_id>
+              </annot>
+              <code_id><val>14693</val></code_id>
+              <intl_id><val>k</val></intl_id>
+              <user_id><val>K</val></user_id>
+              <name><val>Finance and Insurance</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="352-176" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14787</ctx_id>
+              </annot>
+              <code_id><val>14787</val></code_id>
+              <intl_id><val>o</val></intl_id>
+              <user_id><val>O</val></user_id>
+              <name><val>Government Administration and Defence</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="354-177" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14832</ctx_id>
+              </annot>
+              <code_id><val>14832</val></code_id>
+              <intl_id><val>q</val></intl_id>
+              <user_id><val>Q</val></user_id>
+              <name><val>Health and Community Services</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="356-178" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14200</ctx_id>
+              </annot>
+              <code_id><val>14200</val></code_id>
+              <intl_id><val>c</val></intl_id>
+              <user_id><val>C</val></user_id>
+              <name><val>Manufacturing</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="358-179" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14171</ctx_id>
+              </annot>
+              <code_id><val>14171</val></code_id>
+              <intl_id><val>b</val></intl_id>
+              <user_id><val>B</val></user_id>
+              <name><val>Mining</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="360-180" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14890</ctx_id>
+              </annot>
+              <code_id><val>14890</val></code_id>
+              <intl_id><val>s</val></intl_id>
+              <user_id><val>S</val></user_id>
+              <name><val>Personal and Other Services</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="362-181" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14720</ctx_id>
+              </annot>
+              <code_id><val>14720</val></code_id>
+              <intl_id><val>l</val></intl_id>
+              <user_id><val>L</val></user_id>
+              <name><val>Property and Business Services</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="364-182" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14767</ctx_id>
+              </annot>
+              <code_id><val>14767</val></code_id>
+              <intl_id><val>n</val></intl_id>
+              <user_id><val>N</val></user_id>
+              <name><val>Public Administration And Safety</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="366-183" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14533</ctx_id>
+              </annot>
+              <code_id><val>14533</val></code_id>
+              <intl_id><val>g</val></intl_id>
+              <user_id><val>G</val></user_id>
+              <name><val>Retail Trade</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="368-184" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14603</ctx_id>
+              </annot>
+              <code_id><val>14603</val></code_id>
+              <intl_id><val>i</val></intl_id>
+              <user_id><val>I</val></user_id>
+              <name><val>Transport and Storage</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+        <code>
+          <code_head_list>
+            <code_head id="370-185" row_type="data" hira="2" level="code.head">
+              <annot>
+                <ctx_type>btfg$anzsic_div</ctx_type><ctx_id>14476</ctx_id>
+              </annot>
+              <code_id><val>14476</val></code_id>
+              <intl_id><val>f</val></intl_id>
+              <user_id><val>F</val></user_id>
+              <name><val>Wholesale Trade</val></name>
+            </code_head>
+          </code_head_list>
+        </code>
+      </code_list>
+    </tab>
+  </tab_list>
+</data>

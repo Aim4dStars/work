@@ -1,0 +1,166 @@
+{
+  "version": "1.0.0",
+  "accountType": "individual",
+  "investors": [
+    {
+      "displayTaxOptions": true,
+      "taxcountry": "AU",
+      "taxoption": "",
+      "exemptionreason": "",
+      "tfn": "",
+      "userName": "83916530",
+      "idVerified": true,
+      "registered": false,
+      "tfnProvided": false,
+      "investorType": "individual",
+      "cisId": "12345678910",
+      "title": "MR",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "isForeignRegistered": "Y",
+      "accountType": "individual",
+      "firstname": "Saurabh",
+      "middlename": "B",
+      "lastname": "Bhargava",
+      "dateofbirth": "10/01/1992",
+      "resaddress": {
+        "unitNumber": "6",
+        "floor": "55",
+        "streetNumber": "45",
+        "streetName": "Kent",
+        "streetType": "St",
+        "building": "Ece Arc",
+        "state": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "gcmStreetType": "Street"
+      },
+      "postaladdress": {
+        "unitNumber": "6",
+        "floor": "55",
+        "streetNumber": "45",
+        "streetName": "Kent",
+        "streetType": "St",
+        "building": "Ece Arc",
+        "state": "NSW",
+        "city": "Sydney",
+        "postcode": "2000",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "internationalAddress": false,
+        "standardAddressFormat": true,
+        "gcmStreetType": "Street"
+      },
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": false
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Exemption Reason provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": false
+          },
+          "exemptionReason": {
+            "valid": true,
+            "value": "non_au_resi"
+          }
+        },
+        "overseasTaxDetails": [
+          {
+            "tin": {
+              "valid": true,
+              "value": "123456789"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "TIN provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "US"
+            }
+          }
+        ],
+        "selectedOverseasTaxCountry": {
+          "valid": true,
+          "value": "US"
+        }
+      },
+      "isDuplicate": false,
+      "mobile": {
+        "value": "0412345678"
+      },
+      "email": {
+        "value": "DS@DS.COM"
+      },
+      "contactdetails": {
+        "value": "worknumber_0294144444",
+        "label": "(02) 9414 4444"
+      },
+      "preferredcontact": "worknumber",
+      "worknumber": {
+        "countryCode": "61",
+        "areaCode": "02",
+        "value": "94144444",
+        "concatenatedNumber": "0294144444"
+      },
+      "isvalid": true
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business income/earnings",
+    "powerofattorney": true
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "test",
+      "bsb": "062000",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "listedSecurities": "2.00",
+          "managedFund": "1.00",
+          "managedPortfolio": "0.00",
+          "termDeposit": "0.00",
+          "cash": "0.00",
+          "label": "Percentage fee component",
+          "valid": true
+        }
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

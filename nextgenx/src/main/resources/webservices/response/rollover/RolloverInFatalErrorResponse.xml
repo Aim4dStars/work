@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<err:err_rsp xmlns:err="http://btfin.com/ABS/Err/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+	<err>XML validation error of WebUI response: 6/13: Element not completed: 'bp_id' See: line: 6, column: 13</err>
+	<context>
+		<phase>msg#req_sync - valid_rsp</phase>
+		<bu_id>7</bu_id>
+		<person_auth_key>201664405</person_auth_key>
+		<req_msg>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;ns81:rlov_in_req xmlns:ns81="http://btfin.com/ABS/TrxService/RlovIn/V1_0"&gt;&lt;hdr&gt;&lt;req_id&gt;NG-001.fb6f01be-0532-11e7-89b9-be69ed24ff0a.00000000111.000000001&lt;/req_id&gt;&lt;/hdr&gt;&lt;data&gt;&lt;bp_id&gt;&lt;val&gt;809104&lt;/val&gt;&lt;/bp_id&gt;&lt;fund_id&gt;&lt;extl_val&gt;&lt;key&gt;&lt;/key&gt;&lt;val&gt;&lt;/val&gt;&lt;/extl_val&gt;&lt;/fund_id&gt;&lt;fund_name&gt;&lt;val&gt;NSW Fire Brigades Firefighting Staff Death and Disability Superannuation Fund&lt;/val&gt;&lt;/fund_name&gt;&lt;fund_abn&gt;&lt;val&gt;60532453567&lt;/val&gt;&lt;/fund_abn&gt;&lt;fund_usi&gt;&lt;val&gt;60532453567001&lt;/val&gt;&lt;/fund_usi&gt;&lt;fund_estim_amt&gt;&lt;val&gt;111&lt;/val&gt;&lt;/fund_estim_amt&gt;&lt;ss_rlov_in&gt;&lt;val&gt;true&lt;/val&gt;&lt;/ss_rlov_in&gt;&lt;mbr_acc_nr&gt;&lt;val&gt;dev test&lt;/val&gt;&lt;/mbr_acc_nr&gt;&lt;rlov_opt_id&gt;&lt;extl_val&gt;&lt;key&gt;&lt;/key&gt;&lt;val&gt;btfg$full_rlov&lt;/val&gt;&lt;/extl_val&gt;&lt;/rlov_opt_id&gt;&lt;rlov_type_id&gt;&lt;extl_val&gt;&lt;key&gt;&lt;/key&gt;&lt;val&gt;btfg$rlov_cash&lt;/val&gt;&lt;/extl_val&gt;&lt;/rlov_type_id&gt;&lt;incl_insur&gt;&lt;val&gt;false&lt;/val&gt;&lt;/incl_insur&gt;&lt;/data&gt;&lt;req&gt;&lt;exec&gt;&lt;action&gt;&lt;generic_action&gt;do&lt;/generic_action&gt;&lt;/action&gt;&lt;/exec&gt;&lt;/req&gt;&lt;/ns81:rlov_in_req&gt;</req_msg>
+		<rsp_msg>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;!-- 2017-03-10T01:46:15.970158000Z on NGWU3 by 201664405 --&gt;
+&lt;rlov_in:rlov_in_rsp xmlns:rlov_in="http://btfin.com/ABS/TrxService/RlovIn/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;hdr/&gt;
+  &lt;data&gt;
+    &lt;bp_id/&gt;
+    &lt;fund_name&gt;
+      &lt;val/&gt;
+    &lt;/fund_name&gt;
+  &lt;/data&gt;
+  &lt;rsp&gt;
+    &lt;exec&gt;
+      &lt;action/&gt;
+      &lt;err_list&gt;
+        &lt;err&gt;
+          &lt;type&gt;fa&lt;/type&gt;
+          &lt;id&gt;-20003&lt;/id&gt;
+          &lt;err_msg&gt;msg_mgr#.msg#set_f2((msg: 49991, id: , meta_msg_id: 4730, aging_id: ), NSW Fire Brigades Firefighting Staff Death and Disability Superannuation Fund)&lt;/err_msg&gt;
+          &lt;log_id&gt;705258&lt;/log_id&gt;
+        &lt;/err&gt;
+      &lt;/err_list&gt;
+    &lt;/exec&gt;
+  &lt;/rsp&gt;
+&lt;/rlov_in:rlov_in_rsp&gt;</rsp_msg>
+		<op>RLOV_IN_REQ</op>
+		<profile_sec_user_id>8697</profile_sec_user_id>
+	</context>
+	<err_list>
+		<err>
+			<type>fa</type>
+			<id/>
+			<err_msg/>
+		</err>
+		<err>
+			<type>fa</type>
+			<id/>
+			<err_msg>Fatal error occurred: </err_msg>
+		</err>
+	</err_list>
+</err:err_rsp>

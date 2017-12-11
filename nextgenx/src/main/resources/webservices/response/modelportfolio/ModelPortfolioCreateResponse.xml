@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<!-- 2016-02-03T04:52:38.350708000Z on AFP010C by 201667385 -->
+<ips:ips_rsp xmlns:ips="http://btfin.com/ABS/TrxService/IPS/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>d123f235-76ca-4833-9140-c669ee4d9c9e</req_id>
+  </hdr>
+  <data>
+  	<ips_id>
+  		<val>12345</val>
+  	</ips_id>
+    <ips_type>
+      <val avqxsi:nil="true"/>
+    </ips_type>
+    <open_date>
+      <val>2016-02-03</val>
+    </open_date>
+    <close_date>
+      <val avqxsi:nil="true"/>
+    </close_date>
+    <ref_curry>
+      <val avqxsi:nil="true"/>
+    </ref_curry>
+    <ips_sym>
+      <val>TEST0001TMP</val>
+    </ips_sym>
+    <apir_code>
+      <val avqxsi:nil="true"/>
+    </apir_code>
+    <cua>
+      <val avqxsi:nil="true"/>
+    </cua>
+    <status>
+      <annot>
+        <displ_text>new</displ_text>
+        <ctx>
+          <type>code_obj_class</type>
+          <id>9510</id>
+        </ctx>
+      </annot>
+      <val>9510</val>
+    </status>
+    <mp_type>
+      <annot>
+        <displ_text>mp_single</displ_text>
+        <ctx>
+          <type>code_obj_class</type>
+          <id>8061</id>
+        </ctx>
+      </annot>
+      <val>8061</val>
+    </mp_type>
+    <mp_sub_type>
+      <val avqxsi:nil="true"/>
+    </mp_sub_type>
+    <name>
+      <val>Model Portfolio Test</val>
+    </name>
+    <cton_type>
+      <annot>
+        <displ_text>fixed_flo</displ_text>
+        <ctx>
+          <type>code_obj_class</type>
+          <id>9523</id>
+        </ctx>
+      </annot>
+      <val>9523</val>
+    </cton_type>
+    <invst_style>
+      <annot>
+        <displ_text>bald</displ_text>
+        <ctx>
+          <type>code_obj_class</type>
+          <id>9602</id>
+        </ctx>
+      </annot>
+      <val>9602</val>
+    </invst_style>
+    <invst_mgr>
+      <annot>
+        <displ_text>OE Magnitude Group Pty Ltd (Super Dealer Group)</displ_text>
+        <ctx>
+          <type>obj_person</type>
+          <id>99796</id>
+        </ctx>
+      </annot>
+      <val>99796</val>
+    </invst_mgr>
+    <asset_class>
+      <annot>
+        <displ_text>btfg$fi_au</displ_text>
+        <ctx>
+          <type>code_obj_class</type>
+          <id>9652</id>
+        </ctx>
+      </annot>
+      <val>9652</val>
+    </asset_class>
+    <perf_fee>
+      <val avqxsi:nil="true"/>
+    </perf_fee>
+    <min_init_invst>
+      <val>25000</val>
+    </min_init_invst>
+    <min_widrw>
+      <val avqxsi:nil="true"/>
+    </min_widrw>
+    <min_contri>
+      <val avqxsi:nil="true"/>
+    </min_contri>
+    <portf_cton_fee>
+      <val>.1</val>
+    </portf_cton_fee>
+    <mandt_chk_weekday>
+      <val avqxsi:nil="true"/>
+    </mandt_chk_weekday>
+    <min_nr_asset>
+      <val avqxsi:nil="true"/>
+    </min_nr_asset>
+    <max_nr_asset>
+      <val avqxsi:nil="true"/>
+    </max_nr_asset>
+    <min_asset_abs_pos>
+      <val avqxsi:nil="true"/>
+    </min_asset_abs_pos>
+    <max_asset_abs_pos>
+      <val avqxsi:nil="true"/>
+    </max_asset_abs_pos>
+    <min_mkt_cap>
+      <val avqxsi:nil="true"/>
+    </min_mkt_cap>
+    <invst_date>
+      <val avqxsi:nil="true"/>
+    </invst_date>
+    <aprv_date>
+      <val avqxsi:nil="true"/>
+    </aprv_date>
+    <invst_objtv>
+      <val avqxsi:nil="true"/>
+    </invst_objtv>
+    <invst_strat>
+      <val avqxsi:nil="true"/>
+    </invst_strat>
+    <invst_hor>
+      <val avqxsi:nil="true"/>
+    </invst_hor>
+    <trg_clt>
+      <val avqxsi:nil="true"/>
+    </trg_clt>
+    <tax_considn>
+      <val avqxsi:nil="true"/>
+    </tax_considn>
+    <model_struct>
+      <annot>
+        <displ_text>simple</displ_text>
+        <ctx>
+          <type>code_obj_class</type>
+          <id>8071</id>
+        </ctx>
+      </annot>
+      <val>8071</val>
+    </model_struct>
+    <pp_descn>
+      <val>doot</val>
+    </pp_descn>
+    <taa_list>
+      <taa>
+        <asset_class_cat>
+          <annot>
+            <displ_text>fi_au</displ_text>
+            <ctx>
+              <type>code_obj_class</type>
+              <id>60663</id>
+            </ctx>
+          </annot>
+          <val>60663</val>
+        </asset_class_cat>
+        <min_wgt>
+          <val>50</val>
+        </min_wgt>
+        <max_wgt>
+          <val>80</val>
+        </max_wgt>
+        <neutral_pos>
+          <val>40</val>
+        </neutral_pos>
+        <idx_asset>
+          <annot>
+            <displ_text>Consumer Price Index Australia</displ_text>
+            <ctx>
+              <type>obj_asset</type>
+              <id>99773</id>
+            </ctx>
+          </annot>
+          <val>99773</val>
+        </idx_asset>
+      </taa>
+      <taa>
+        <asset_class_cat>
+          <annot>
+            <displ_text>realest_au</displ_text>
+            <ctx>
+              <type>code_obj_class</type>
+              <id>60665</id>
+            </ctx>
+          </annot>
+          <val>60665</val>
+        </asset_class_cat>
+        <min_wgt>
+          <val>10</val>
+        </min_wgt>
+        <max_wgt>
+          <val>30</val>
+        </max_wgt>
+        <neutral_pos>
+          <val>40</val>
+        </neutral_pos>
+        <idx_asset>
+          <annot>
+            <displ_text>S&amp;P/ASX 20</displ_text>
+            <ctx>
+              <type>obj_asset</type>
+              <id>111636</id>
+            </ctx>
+          </annot>
+          <val>111636</val>
+        </idx_asset>
+      </taa>
+    </taa_list>
+    <mp_rebal_par>
+      <min_trade_pct_scan>
+        <val avqxsi:nil="true"/>
+      </min_trade_pct_scan>
+      <min_trade_amount_scan>
+        <val avqxsi:nil="true"/>
+      </min_trade_amount_scan>
+      <min_trade_pct>
+        <val avqxsi:nil="true"/>
+      </min_trade_pct>
+      <min_trade_amount>
+        <val avqxsi:nil="true"/>
+      </min_trade_amount>
+    </mp_rebal_par>
+    <pp_par>
+      <min_trade_pct>
+        <val>1</val>
+      </min_trade_pct>
+      <min_trade_amount>
+        <val>0</val>
+      </min_trade_amount>
+    </pp_par>
+  </data>
+  <rsp>
+    <valid>
+      <action>do</action>
+      <err_list>
+        <err>
+          <type>ui</type>
+          <id>10183</id>
+          <err_msg>Neutral position must sum up to 100%</err_msg>
+        </err>
+      </err_list>
+    </valid>
+  </rsp>
+</ips:ips_rsp>
+		</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

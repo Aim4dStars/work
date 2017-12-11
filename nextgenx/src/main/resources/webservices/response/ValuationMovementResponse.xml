@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+    <env:Body>
+      <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+	<ResponseDetails>
+	  <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_cf_list_bp_portf_mvt" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2014-09-02 10:21:38.487968000 on afd031k by AVALOQ -->
+
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<date_from>
+			<val>28-APR-2014</val>
+		</date_from>
+		<date_to>
+			<val>28-JUL-2014</val>
+		</date_to>
+		<current_of_time>
+			<val>2014-09-02T00:21:38.560742000Z</val>
+		</current_of_time>
+	</metadata>
+
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>top</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl/>
+					</fld_def>
+					<fld_def>
+						<name>bp_id</name>
+						<type>NrFld</type>
+						<lbl>BP ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>period_sop</name>
+						<type>DateFld</type>
+						<lbl>Start of Period</lbl>
+					</fld_def>
+					<fld_def>
+						<name>period_eop</name>
+						<type>DateFld</type>
+						<lbl>End of Period</lbl>
+					</fld_def>
+					<fld_def>
+						<name>sop_curr_val_ref</name>
+						<type>NrFld</type>
+						<lbl>Opening portfolio value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>inc_portf_val</name>
+						<type>NrFld</type>
+						<lbl>Increase in portfolio value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>depot</name>
+						<type>NrFld</type>
+						<lbl>Deposits to BT Panorama</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_xfer_in</name>
+						<type>NrFld</type>
+						<lbl>Asset transfers in</lbl>
+					</fld_def>
+					<fld_def>
+						<name>dec_portf_val</name>
+						<type>NrFld</type>
+						<lbl>Decrease in portfolio value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>pay</name>
+						<type>NrFld</type>
+						<lbl>Payments from BT Panorama</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_xfer_out</name>
+						<type>NrFld</type>
+						<lbl>Asset xfers out</lbl>
+					</fld_def>
+					<fld_def>
+						<name>income</name>
+						<type>NrFld</type>
+						<lbl>Income on Investments</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cash_inc</name>
+						<type>NrFld</type>
+						<lbl>BT cash income</lbl>
+					</fld_def>
+					<fld_def>
+						<name>td_inc</name>
+						<type>NrFld</type>
+						<lbl>Term deposit income</lbl>
+					</fld_def>
+					<fld_def>
+						<name>mp_inc</name>
+						<type>NrFld</type>
+						<lbl>Managed portfolio income</lbl>
+					</fld_def>
+					<fld_def>
+						<name>oth_inc</name>
+						<type>NrFld</type>
+						<lbl>Other income</lbl>
+					</fld_def>
+					<fld_def>
+						<name>expns</name>
+						<type>NrFld</type>
+						<lbl>Expenses</lbl>
+					</fld_def>
+					<fld_def>
+						<name>adm_fee</name>
+						<type>NrFld</type>
+						<lbl>Administration Fees</lbl>
+					</fld_def>
+					<fld_def>
+						<name>adv_fee</name>
+						<type>NrFld</type>
+						<lbl>Advice Fees</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invst_mngt_fee</name>
+						<type>NrFld</type>
+						<lbl>Investment management fees</lbl>
+					</fld_def>
+					<fld_def>
+						<name>estab_fee</name>
+						<type>NrFld</type>
+						<lbl>Establishment fee</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ong_adv_fee</name>
+						<type>NrFld</type>
+						<lbl>Ongoing advice fee</lbl>
+					</fld_def>
+					<fld_def>
+						<name>one_off_adv_fee</name>
+						<type>NrFld</type>
+						<lbl>One-off advice fee</lbl>
+					</fld_def>
+					<fld_def>
+						<name>licensee_adv_fee</name>
+						<type>NrFld</type>
+						<lbl>Licensee advice fee</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tax</name>
+						<type>NrFld</type>
+						<lbl>Taxes</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tfn_wtax</name>
+						<type>NrFld</type>
+						<lbl>TFN Witholding tax</lbl>
+					</fld_def>
+					<fld_def>
+						<name>frn_wtax</name>
+						<type>NrFld</type>
+						<lbl>Foreign resident witholding tax</lbl>
+					</fld_def>
+					 <fld_def>
+			           <name>stamp_duty</name>
+			           <type>NrFld</type>
+			           <lbl>Stamp duty</lbl>
+  					 </fld_def>
+					<fld_def>
+						<name>mkt_mvt</name>
+						<type>NrFld</type>
+						<lbl>Market movement</lbl>
+					</fld_def>
+					<fld_def>
+						<name>eop_curr_val_ref</name>
+						<type>NrFld</type>
+						<lbl>Closing portfolio value</lbl>
+					</fld_def>
+
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+
+	<data>
+		<top>
+			<top_head_list>
+				<top_head id="1" row_type="title" hira="0" level="top.head">
+					<bp_id>
+						<annot>
+							<displ_text/>
+							<ctx>
+								<type>bp</type>
+								<id>60514</id>
+							</ctx>
+						</annot>
+						<val>60514</val>
+					</bp_id>
+					<period_sop>
+						<val>2014-04-28</val>
+					</period_sop>
+					<period_eop>
+						<val>2014-07-28</val>
+					</period_eop>
+					<sop_curr_val_ref>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>-30003323.66</val>
+					</sop_curr_val_ref>
+					<inc_portf_val>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>23121.00</val>
+					</inc_portf_val>
+					<depot>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>45115.01</val>
+					</depot>
+					<asset_xfer_in>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>73261</val>
+					</asset_xfer_in>
+					<dec_portf_val>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>-78451</val>
+					</dec_portf_val>
+					<pay>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>8945.12</val>
+					</pay>
+					<asset_xfer_out>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>12381</val>
+					</asset_xfer_out>
+					<income>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>78143.15</val>
+					</income>
+					<cash_inc>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>95411.2</val>
+					</cash_inc>
+					<td_inc>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>63331.08</val>
+					</td_inc>
+					<mp_inc>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>45132.19</val>
+					</mp_inc>
+					<oth_inc>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>45556.32</val>
+					</oth_inc>
+					<expns>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>-74622</val>
+					</expns>
+					<adm_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>9632</val>
+					</adm_fee>
+					<adv_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>-4511</val>
+					</adv_fee>
+					<invst_mngt_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>6789</val>
+					</invst_mngt_fee>
+					<estab_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>6521</val>
+					</estab_fee>
+					<ong_adv_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>9812</val>
+					</ong_adv_fee>
+					<one_off_adv_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>6313</val>
+					</one_off_adv_fee>
+					<licensee_adv_fee>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>6543</val>
+					</licensee_adv_fee>
+					<tax>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>-9163</val>
+					</tax>
+					<tfn_wtax>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>8712</val>
+					</tfn_wtax>
+					<frn_wtax>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>9843</val>
+					</frn_wtax>
+					<stamp_duty>
+			           <annot>
+			                   <displ_text/>
+			           </annot>
+			           <val>1000</val>
+  					</stamp_duty>
+					<mkt_mvt>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>988763</val>
+					</mkt_mvt>
+					<eop_curr_val_ref>
+						<annot>
+							<displ_text/>
+						</annot>
+						<val>50003424.66</val>
+					</eop_curr_val_ref>
+				</top_head>
+			</top_head_list>
+		</top>
+
+	</data>
+</rep:rep>
+<!--  at 2014-09-02T00:21:38.770134000Z on AFD031K by AVALOQ -->
+</SuccessResponse>
+</ResponseDetails>
+</ns3:AvaloqGatewayResponseMsg>
+</env:Body>
+</env:Envelope>

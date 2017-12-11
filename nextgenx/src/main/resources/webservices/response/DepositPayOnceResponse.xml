@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 2014-09-01T20:38:30.570141000Z on AFD031G by AVALOQ -->
+		<inpay:inpay_rsp xmlns:inpay="http://btfin.com/ABS/TrxService/Inpay/V1_0">
+		  <hdr>
+		    <req_id>0207EB92-4899-4AEA-E054-D89D671AD188</req_id>
+		  </hdr>
+		  <data>
+		    <doc>
+		      <val>143242</val>
+		    </doc>
+		    <wfc_status>
+		      <annot>
+		        <displ_text>Done</displ_text>
+		        <ctx>
+		          <type>wfc_status</type>
+		          <id>90</id>
+		        </ctx>
+		      </annot>
+		      <val>90</val>
+		    </wfc_status>
+		    <cred_macc>
+		      <annot>
+		        <displ_text>BT Cash 120006713</displ_text>
+		        <ctx>
+		          <type>obj_macc</type>
+		          <id>60458</id>
+		        </ctx>
+		      </annot>
+		      <auto>false</auto>
+		      <val>60458</val>
+		    </cred_macc>
+		    <payer_acc>
+		      <val>123456789</val>
+		    </payer_acc>
+		    <bsb>
+		      <val>036154</val>
+		    </bsb>
+		    <amount>
+		      <val>123</val>
+		    </amount>
+		    <curry>
+		      <annot>
+		        <displ_text>AUD</displ_text>
+		        <ctx>
+		          <type>obj_curry</type>
+		          <id>1009</id>
+		        </ctx>
+		      </annot>
+		      <val>1009</val>
+		    </curry>
+		    <benef_ref_nr>
+		      <val>Rent 123</val>
+		    </benef_ref_nr>
+		    <trx_date>
+		      <val>2015-01-27</val>
+		    </trx_date>
+		  </data>
+		  <rsp>
+		    <exec>
+		      <action>do</action>
+		    </exec>
+		  </rsp>
+		</inpay:inpay_rsp>
+		

@@ -1,0 +1,31 @@
+CATEGORY_KEY,CATEGORY_TYPE,OPTION_NAME,VALUE
+#
+#
+#Branded cash asset, showdrp, tax and others
+IDPS,PRODUCT, cash.branded, true
+IDPS,PRODUCT, cash.logo, true
+IDPS,PRODUCT, shares.drp, true
+IDPS,PRODUCT, tax.invoice, true
+#
+#
+#product config overrides for transaction types
+IDPS,PRODUCT, transactions.deposit, true
+IDPS,PRODUCT, transactions.insurancepremium, true
+IDPS,PRODUCT, transactions.transfer, true
+IDPS,PRODUCT, transactions.payment, true
+IDPS,PRODUCT, transactions.corporateaction, true
+#
+#
+#movements overrides
+IDPS, PRODUCT, movement.category.deposit, "Deposits to cash"
+IDPS, PRODUCT, movement.category.payment, "Payments from cash"
+IDPS, PRODUCT, movement.category.cash_inc, "Cash income"
+IDPS, PRODUCT, movement.category.asset_xfer_in, "Asset transfers / transfers to portfolios"
+IDPS, PRODUCT, movement.category.asset_xfer_out, "Asset transfers / transfers from portfolios"
+#
+#
+# other overrides
+IDPS, PRODUCT, assettransfer.external, true
+IDPS, PRODUCT, assettransfer.internal, true
+IDPS, PRODUCT, regular.investment.supported, true
+IDPS, PRODUCT, cashmanagement.supported, true

@@ -1,0 +1,193 @@
+{
+    "version": "1.0.0",
+    "trustType": "govsuper",
+    "accountType": "individualTrust",
+    "trustdetails": {
+      "trustname": "test",
+      "businessname": "test",
+      "abn": "",
+      "regdate": "11\/11\/1990",
+      "registrationstate": "NT",
+      "registeredforgst": "yes",
+      "trusttype": "govsuper",
+      "nameoflegislation": "sfsdfsdf",
+      "nameofwebsite": "test",
+      "searchdate": "11\/11\/2016",
+      "wealthsource": "Business profits",
+      "industry": {
+        "industry": "7412",
+        "anzsiccode": "7412",
+        "ucmcode": "SIC 0360"
+      },
+      "addressv2": {
+        "country": "AU",
+        "existingAddressList": [
+          {
+            "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+            "country": "AU",
+            "valid": true,
+            "sameasaddress": "0",
+            "AddressIdentifier": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--"
+          }
+        ],
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+        "AddressIdentifier": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--",
+        "valid": true
+      },
+      "taxdetails": {
+        "ausTaxDetails": {
+          "taxOption": {
+            "value": "Tax File Number or exemption not provided",
+            "valid": true
+          },
+          "exemptionReason": {
+            "valid": true
+          },
+          "tfn": {
+            "valid": false
+          },
+          "isTaxCountryAus": {
+            "value": true,
+            "valid": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "value": false,
+          "valid": true
+        },
+        "overseasTaxDetails": [
+
+        ]
+      }
+    },
+    "trustees": [
+      {
+        "title": "MR",
+        "firstname": "test",
+        "middlename": "",
+        "lastname": "firsr",
+        "preferredname": "",
+        "formername": "",
+        "dateofbirth": "11\/11\/1988",
+        "gender": "male",
+        "mobile": {
+          "value": "0451223442"
+        },
+        "email": {
+          "value": "test@test.com"
+        },
+        "preferredcontact": "",
+        "isvalid": false,
+        "accountType": "individualTrust",
+        "alternatename": "",
+        "sameasresaddress": "true",
+        "taxdetails": {
+          "ausTaxDetails": {
+            "isTaxCountryAus": {
+              "value": true,
+              "valid": true
+            }
+          },
+          "isOverseasTaxRes": {
+            "value": false,
+            "valid": true
+          },
+          "overseasTaxDetails": [
+
+          ]
+        },
+        "identitydocument": {
+
+        },
+        "resaddressv2": {
+          "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+          "country": "AU",
+          "valid": true,
+          "sameasaddress": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--",
+          "addressType": "residential",
+          "AddressIdentifier": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--",
+          "existingAddressList": [
+            {
+              "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+              "country": "AU",
+              "valid": true,
+              "sameasaddress": "0",
+              "AddressIdentifier": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--"
+            }
+          ]
+        },
+        "postaladdressv2": {
+          "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+          "country": "AU",
+          "valid": true,
+          "sameasaddress": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--",
+          "addressType": "postal",
+          "AddressIdentifier": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--",
+          "existingAddressList": [
+            {
+              "DisplayText": "78 Crimea Street, PARRAMATTA  NSW  2150",
+              "country": "AU",
+              "valid": true,
+              "sameasaddress": "0",
+              "AddressIdentifier": "05OAUEHgvgBwAAAAAIAgEAAAAAm39mEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAA3OCBjcmltZWEgc3RyZWV0AA--"
+            }
+          ]
+        }
+      }
+    ],
+    "accountsettings": {
+      "professionalspayment": "linkedaccountsonly",
+      "investorAccountSettings": [
+        {
+          "isApprover": "true",
+          "paymentSetting": "linkedaccountsonly",
+          "hasRoles": false,
+          "hasApprovers": true
+        }
+      ],
+      "primarycontact": 0,
+      "adviserName": "Edward Revis",
+      "adviserLocation": "New South Wales",
+      "sourceoffunds": "Business income\/earnings",
+      "powerofattorney": true
+    },
+    "shareholderandmembers": {
+      "needsShareholder": false,
+      "needsMember": false,
+      "needsBeneficiary": true,
+      "accountType": "individualTrust",
+      "investorsWithRoles": [
+        {
+          "needsShareholder": false,
+          "needsMember": false,
+          "needsBeneficiary": true
+        }
+      ],
+      "additionalShareHoldersAndMembers": [
+
+      ]
+    },
+    "linkedaccounts": {
+      "primaryLinkedAccount": {
+        "accountname": "test",
+        "bsb": "063133",
+        "accountnumber": "343243123",
+        "bsbValidationResultVal": true
+      },
+      "otherLinkedAccount": [
+
+      ]
+    },
+    "fees": {
+      "estamount": "0.00",
+      "ongoingFees": {
+        "feesComponent": [
+
+        ],
+        "type": "Ongoing advice fee"
+      }
+    }
+  }
+

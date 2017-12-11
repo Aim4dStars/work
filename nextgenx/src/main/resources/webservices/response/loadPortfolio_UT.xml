@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_portf" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def">
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>report</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>bp</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>cont</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>pos</name>
+            <hira>4</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>bp_name_abbr</name>
+            <type>TextFld</type>
+            <lbl>BP Name Abbreviation</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp_name</name>
+            <type>TextFld</type>
+            <lbl>BP Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>owner_type</name>
+            <type>TextFld</type>
+            <lbl>Account Ownership Type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>avsr_name</name>
+            <type>TextFld</type>
+            <lbl>Adviser Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>avsr_fname</name>
+            <type>TextFld</type>
+            <lbl>Adviser First Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>avsr_lname</name>
+            <type>TextFld</type>
+            <lbl>Adviser Last Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>pri_ctact_person</name>
+            <type>TextFld</type>
+            <lbl>Primary Contact</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bpay_limit</name>
+            <type>NrFld</type>
+            <lbl>BPAY Payment Limit</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bpay_limit_remn</name>
+            <type>NrFld</type>
+            <lbl>Remaining BPAY Payment Limit</lbl>
+          </fld_def>
+          <fld_def>
+            <name>pay_anyone_limit</name>
+            <type>NrFld</type>
+            <lbl>Pay Anyone Limit</lbl>
+          </fld_def>
+          <fld_def>
+            <name>pay_anyone_limit_remn</name>
+            <type>NrFld</type>
+            <lbl>Remaining Pay Anyone Limit</lbl>
+          </fld_def>
+          <fld_def>
+            <name>linked_acc_limit</name>
+            <type>NrFld</type>
+            <lbl>Linked Account Limit</lbl>
+          </fld_def>
+          <fld_def>
+            <name>linked_acc_limit_remn</name>
+            <type>NrFld</type>
+            <lbl>Remaining Linked Account Limit</lbl>
+          </fld_def>
+          <fld_def>
+            <name>cont_name</name>
+            <type>TextFld</type>
+            <lbl>Container Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>cont_type</name>
+            <type>TextFld</type>
+            <lbl>Container Type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>pos_name</name>
+            <type>TextFld</type>
+            <lbl>Position Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>pos_asset_type</name>
+            <type>TextFld</type>
+            <lbl>Position Asset Type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_bsb</name>
+            <type>TextFld</type>
+            <lbl>BSB</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_bcode</name>
+            <type>TextFld</type>
+            <lbl>Biller Code</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_crn</name>
+            <type>NrFld</type>
+            <lbl>Sort Number</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_nr</name>
+            <type>TextFld</type>
+            <lbl>Account Number</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_deb_rate</name>
+            <type>NrFld</type>
+            <lbl>Debit Rate</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_cred_rate</name>
+            <type>NrFld</type>
+            <lbl>Credit Rate</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_avl_cash_bal</name>
+            <type>NrFld</type>
+            <lbl>Available Cash Balance in Money Account</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_total_cash_bal</name>
+            <type>NrFld</type>
+            <lbl>Total Cash Balance in Money Account</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_cash_bal_curr_date</name>
+            <type>NrFld</type>
+            <lbl>Cash Balance of all assets held by the Account as at current date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset</name>
+            <type>TextFld</type>
+            <lbl>Asset Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset_issuer_name</name>
+            <type>TextFld</type>
+            <lbl>Asset Issuer</lbl>
+          </fld_def>
+          <fld_def>
+            <name>td_state</name>
+            <type>TextFld</type>
+            <lbl>TD State</lbl>
+          </fld_def>
+          <fld_def>
+            <name>td_widrw_date</name>
+            <type>DateTimeFld</type>
+            <lbl>TD Withdrawn Date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>td_setup_date</name>
+            <type>DateTimeFld</type>
+            <lbl>TD Setup Date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>td_setup_by</name>
+            <type>TextFld</type>
+            <lbl>TD Setup By</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset_term</name>
+            <type>TextFld</type>
+            <lbl>Asset Term</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset_rate</name>
+            <type>NrFld</type>
+            <lbl>Asset Rate</lbl>
+          </fld_def>
+          <fld_def>
+            <name>asset_maturity</name>
+            <type>DateTimeFld</type>
+            <lbl>Asset Maturity Date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>intr_pay_freq</name>
+            <type>TextFld</type>
+            <lbl>Interest Payment Frequency</lbl>
+          </fld_def>
+          <fld_def>
+            <name>last_intr_paid_date</name>
+            <type>DateTimeFld</type>
+            <lbl>Last Interest Paid date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>intr_paid</name>
+            <type>NrFld</type>
+            <lbl>Interest Paid</lbl>
+          </fld_def>
+          <fld_def>
+            <name>prpl</name>
+            <type>NrFld</type>
+            <lbl>Principal</lbl>
+          </fld_def>
+          <fld_def>
+            <name>wtax_deducted</name>
+            <type>NrFld</type>
+            <lbl>Withholding Tax Deducted</lbl>
+          </fld_def>
+          <fld_def>
+            <name>intr_accr_last_pay</name>
+            <type>NrFld</type>
+            <lbl>Interest Accrued Since last payment</lbl>
+          </fld_def>
+          <fld_def>
+            <name>next_intr_pay</name>
+            <type>DateTimeFld</type>
+            <lbl>Next Interest Payment</lbl>
+          </fld_def>
+          <fld_def>
+            <name>tot_intr_over_term</name>
+            <type>NrFld</type>
+            <lbl>Total Interest Over Term</lbl>
+          </fld_def>
+          <fld_def>
+            <name>maturity_instr</name>
+            <type>TextFld</type>
+            <lbl>Maturity Instruction</lbl>
+          </fld_def>
+          <fld_def>
+            <name>last_mdf_user</name>
+            <type>TextFld</type>
+            <lbl>Last Modified By</lbl>
+          </fld_def>
+          <fld_def>
+            <name>last_mdf_date</name>
+            <type>DateTimeFld</type>
+            <lbl>Last Modified Date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>reg_date</name>
+            <type>DateTimeFld</type>
+            <lbl>Registered Date</lbl>
+          </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+    <report>
+      <report_head id="1" row_type="data" hira="0" level="report.head">
+      </report_head>
+  <bp_list>
+    <bp>
+      <bp_head id="2" row_type="data" hira="0" level="bp.head">
+            <bp_name_abbr><val>CLT.01</val></bp_name_abbr>
+            <bp_name><annot><ctx><type>bp</type><id>33884</id></ctx></annot><val>Andy Barker</val></bp_name>
+            <owner_type><annot><ctx><type>code_clt_type</type><id>5001</id></ctx></annot><val>Client - Individual Account</val></owner_type>
+            <pri_ctact_person><annot><ctx><type>person</type><id>32695</id></ctx></annot><val>Adrian Smith</val></pri_ctact_person>
+            <bpay_limit><annot><displ_text>10,000</displ_text></annot><val>10000</val></bpay_limit>
+            <pay_anyone_limit><annot><displ_text>10,000</displ_text></annot><val>10000</val></pay_anyone_limit>
+            <linked_acc_limit><annot><displ_text>200,000</displ_text></annot><val>200000</val></linked_acc_limit>
+      </bp_head>
+  <cont_list>
+    <cont>
+      <cont_head id="3" row_type="data" hira="0" level="cont.head">
+            <cont_name><annot><ctx><type>cont</type><id>32930</id></ctx></annot><val>10000001/AUD</val></cont_name>
+            <cont_type><val>Cash Portfolio</val></cont_type>
+      </cont_head>
+  <pos_list>
+    <pos>
+      <pos_head id="4" row_type="data" hira="0" level="pos.head">
+            <linked_acc_limit_remn><annot><displ_text>199,800.00</displ_text></annot><val>199800</val></linked_acc_limit_remn>
+            <pos_name><annot><ctx><type>pos</type><id>33052</id></ctx></annot><val>CLT.01 CACC AUD 10000001</val></pos_name>
+            <pos_asset_type><annot><ctx><type>code_obj_classif</type><id>12002</id></ctx></annot><val>Money account</val></pos_asset_type>
+            <macc_bsb><val>262786</val></macc_bsb>
+            <macc_bcode><val>220186</val></macc_bcode>
+            <macc_crn><val>10000001</val></macc_crn>
+            <macc_nr><val>10000001</val></macc_nr>
+            <macc_deb_rate><val>0</val></macc_deb_rate>
+            <macc_cred_rate><val>1.5</val></macc_cred_rate>
+            <macc_avl_cash_bal><annot><displ_text>49,538,800.00</displ_text></annot><val>49538800</val></macc_avl_cash_bal>
+            <macc_total_cash_bal><annot><displ_text>49,544,800.00</displ_text></annot><val>49544800</val></macc_total_cash_bal>
+            <macc_cash_bal_curr_date><annot><displ_text>49,999,800.00</displ_text></annot><val>49999800</val></macc_cash_bal_curr_date>
+            <asset><annot><ctx><type>asset</type><id>10757</id></ctx></annot><val>Current account AUD</val></asset>
+            <intr_pay_freq><annot><ctx><type>code_period</type><id>3</id></ctx></annot><val>Monthly</val></intr_pay_freq>
+            <last_intr_paid_date><annot><displ_text>31/01/2014</displ_text></annot><val>2014-01-31T00:00:00</val></last_intr_paid_date>
+            <intr_paid><annot><displ_text>0.00</displ_text></annot><val>0</val></intr_paid>
+            <prpl><annot><displ_text>49,544,800.00</displ_text></annot><val>49544800</val></prpl>
+            <wtax_deducted><annot><displ_text>0.00</displ_text></annot><val>0</val></wtax_deducted>
+            <intr_accr_last_pay><annot><displ_text>4,090.89</displ_text></annot><val>4090.89</val></intr_accr_last_pay>
+            <next_intr_pay><annot><displ_text>28/02/2014</displ_text></annot><val>2014-02-28T00:00:00</val></next_intr_pay>
+      </pos_head>
+    </pos>
+  </pos_list>
+    </cont>
+    <cont>
+      <cont_head id="5" row_type="data" hira="0" level="cont.head">
+            <cont_name><annot><ctx><type>cont</type><id>32931</id></ctx></annot><val>10000001.02/AUD</val></cont_name>
+            <cont_type><val>TD Portfolio</val></cont_type>
+      </cont_head>
+  <pos_list>
+    <pos>
+      <pos_head id="6" row_type="data" hira="0" level="pos.head">
+            <linked_acc_limit_remn><annot><displ_text>200,000.00</displ_text></annot><val>200000</val></linked_acc_limit_remn>
+            <pos_name><annot><ctx><type>pos</type><id>33630</id></ctx></annot><val>CLT.01.2 St.George Term Deposit at 0.65% pa, 3 years monthly interest payments</val></pos_name>
+            <pos_asset_type><annot><ctx><type>code_obj_classif</type><id>12008</id></ctx></annot><val>Fiduciary time</val></pos_asset_type>
+            <asset><annot><ctx><type>asset</type><id>33628</id></ctx></annot><val>St.George Term Deposit at 0.65% pa, 3 years monthly interest payments</val></asset>
+            <asset_issuer_name><annot><ctx><type>bp</type><id>10602</id></ctx></annot><val>80000052</val></asset_issuer_name>
+            <td_state><val>Open</val></td_state>
+            <td_setup_date><annot><displ_text>05/02/2014</displ_text></annot><val>2014-02-05T00:00:00</val></td_setup_date>
+            <td_setup_by><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></td_setup_by>
+            <asset_term><annot><ctx><type>code_fidd_period</type><id>41</id></ctx></annot><val>3 years</val></asset_term>
+            <asset_rate><val>.65</val></asset_rate>
+            <asset_maturity><annot><displ_text>06/02/2017</displ_text></annot><val>2017-02-06T00:00:00</val></asset_maturity>
+            <intr_pay_freq><annot><ctx><type>code_period</type><id>23</id></ctx></annot><val>Monthly (Rolling)</val></intr_pay_freq>
+            <intr_paid><annot><displ_text>0.00</displ_text></annot><val>0</val></intr_paid>
+            <prpl><annot><displ_text>450,000.00</displ_text></annot><val>450000</val></prpl>
+            <wtax_deducted><annot><displ_text>0.00</displ_text></annot><val>0</val></wtax_deducted>
+            <intr_accr_last_pay><annot><displ_text>8.01</displ_text></annot><val>8.01</val></intr_accr_last_pay>
+            <next_intr_pay><annot><displ_text>05/03/2014</displ_text></annot><val>2014-03-05T00:00:00</val></next_intr_pay>
+            <tot_intr_over_term><annot><displ_text>8,791.03</displ_text></annot><val>8791.03</val></tot_intr_over_term>
+            <maturity_instr><annot><ctx><type>code_fidd_renw_mode</type><id></id></ctx></annot><val>None</val></maturity_instr>
+            <last_mdf_user><annot><ctx><type>user</type><id>1368</id></ctx></annot><val>Smith Adrian</val></last_mdf_user>
+            <last_mdf_date><annot><displ_text>23/04/2014</displ_text></annot><val>2014-04-23T01:32:01</val></last_mdf_date>
+      </pos_head>
+    </pos>
+    <pos>
+      <pos_head id="7" row_type="data" hira="0" level="pos.head">
+            <linked_acc_limit_remn><annot><displ_text>200,000.00</displ_text></annot><val>200000</val></linked_acc_limit_remn>
+            <pos_name><annot><ctx><type>pos</type><id>33656</id></ctx></annot><val>CLT.01.2 BankSA Term Deposit at 3.05% pa, 3 months interest payment at maturity</val></pos_name>
+            <pos_asset_type><annot><ctx><type>code_obj_classif</type><id>12008</id></ctx></annot><val>Fiduciary time</val></pos_asset_type>
+            <asset><annot><ctx><type>asset</type><id>33651</id></ctx></annot><val>BankSA Term Deposit at 3.05% pa, 3 months interest payment at maturity</val></asset>
+            <asset_issuer_name><annot><ctx><type>bp</type><id>10605</id></ctx></annot><val>80000056</val></asset_issuer_name>
+            <td_state><val>Open</val></td_state>
+            <td_setup_date><annot><displ_text>05/02/2014</displ_text></annot><val>2014-02-05T00:00:00</val></td_setup_date>
+            <td_setup_by><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></td_setup_by>
+            <asset_term><annot><ctx><type>code_fidd_period</type><id>30</id></ctx></annot><val>3 months</val></asset_term>
+            <asset_rate><val>3.05</val></asset_rate>
+            <asset_maturity><annot><displ_text>05/05/2014</displ_text></annot><val>2014-05-05T00:00:00</val></asset_maturity>
+            <intr_pay_freq><annot><ctx><type>code_period</type><id>8</id></ctx></annot><val>At Maturity</val></intr_pay_freq>
+            <intr_paid><annot><displ_text>0.00</displ_text></annot><val>0</val></intr_paid>
+            <prpl><annot><displ_text>5,000.00</displ_text></annot><val>5000</val></prpl>
+            <wtax_deducted><annot><displ_text>0.00</displ_text></annot><val>0</val></wtax_deducted>
+            <intr_accr_last_pay><annot><displ_text>0.42</displ_text></annot><val>.42</val></intr_accr_last_pay>
+            <next_intr_pay><annot><displ_text>05/05/2014</displ_text></annot><val>2014-05-05T00:00:00</val></next_intr_pay>
+            <tot_intr_over_term><annot><displ_text>37.18</displ_text></annot><val>37.18</val></tot_intr_over_term>
+            <maturity_instr><annot><ctx><type>code_fidd_renw_mode</type><id></id></ctx></annot><val>None</val></maturity_instr>
+            <last_mdf_user><annot><ctx><type>user</type><id>1368</id></ctx></annot><val>Smith Adrian</val></last_mdf_user>
+            <last_mdf_date><annot><displ_text>23/04/2014</displ_text></annot><val>2014-04-23T01:32:13</val></last_mdf_date>
+      </pos_head>
+    </pos>
+  </pos_list>
+    </cont>
+    <cont>
+      <cont_head id="8" row_type="data" hira="0" level="cont.head">
+            <cont_name><annot><ctx><type>cont</type><id>32932</id></ctx></annot><val>10000001.03/AUD</val></cont_name>
+            <cont_type><val>Investment Portfolio</val></cont_type>
+      </cont_head>
+  <pos_list>
+    <pos>
+      <pos_head id="9" row_type="data" hira="0" level="pos.head">
+            <linked_acc_limit_remn><annot><displ_text>200,000.00</displ_text></annot><val>200000</val></linked_acc_limit_remn>
+            <pos_name><annot><ctx><type>pos</type><id>33053</id></ctx></annot><val>CLT.01.3 CACC AUD 10000001.21</val></pos_name>
+            <pos_asset_type><annot><ctx><type>code_obj_classif</type><id>12002</id></ctx></annot><val>Money account</val></pos_asset_type>
+            <macc_bsb><val>262786</val></macc_bsb>
+            <macc_bcode><val>220186</val></macc_bcode>
+            <macc_crn><val>10000001</val></macc_crn>
+            <macc_nr><val>10000001.21</val></macc_nr>
+            <macc_deb_rate><val>0</val></macc_deb_rate>
+            <macc_cred_rate><val>1.5</val></macc_cred_rate>
+            <macc_avl_cash_bal><annot><displ_text>0.00</displ_text></annot><val>0</val></macc_avl_cash_bal>
+            <macc_total_cash_bal><annot><displ_text>0.00</displ_text></annot><val>0</val></macc_total_cash_bal>
+            <macc_cash_bal_curr_date><annot><displ_text>49,999,800.00</displ_text></annot><val>49999800</val></macc_cash_bal_curr_date>
+            <asset><annot><ctx><type>asset</type><id>10757</id></ctx></annot><val>Current account AUD</val></asset>
+            <intr_pay_freq><annot><ctx><type>code_period</type><id>3</id></ctx></annot><val>Monthly</val></intr_pay_freq>
+            <last_intr_paid_date><annot><displ_text>31/01/2014</displ_text></annot><val>2014-01-31T00:00:00</val></last_intr_paid_date>
+            <intr_paid><annot><displ_text>0.00</displ_text></annot><val>0</val></intr_paid>
+            <prpl><annot><displ_text>0.00</displ_text></annot><val>0</val></prpl>
+            <wtax_deducted><annot><displ_text>0.00</displ_text></annot><val>0</val></wtax_deducted>
+            <intr_accr_last_pay><annot><displ_text>0.00</displ_text></annot><val>0</val></intr_accr_last_pay>
+            <next_intr_pay><annot><displ_text>28/02/2014</displ_text></annot><val>2014-02-28T00:00:00</val></next_intr_pay>
+      </pos_head>
+    </pos>
+  </pos_list>
+    </cont>
+  </cont_list>
+    </bp>
+  </bp_list>
+    </report>
+
+  </data>
+</rep:rep>

@@ -1,0 +1,45 @@
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+
+    <!--avoiding globalElementPreparer for internal server error page. -->
+    <definition name="error500" template="/WEB-INF/jsp/layout/commonLayout.jsp">
+        <put-attribute name="pageHead" value="/WEB-INF/jsp/layout/pageHead.jsp"/>
+        <put-attribute name="title" value="Internal Server Error | BT Panorama"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/cash/header.jsp"/>
+        <put-attribute name="detailView" value=""/>
+        <put-attribute name="body" value="/WEB-INF/jsp/error/500.jsp"/>
+    </definition>
+
+    <definition name="error404" extends="unAuthLayout">
+        <put-attribute name="title" value="Page Not Found | BT Panorama"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/error/404.jsp"/>
+    </definition>
+
+    <definition name="error" template="/WEB-INF/jsp/layout/serviceErrorCommonLayout.jsp">
+        <put-attribute name="pageHead" value="/WEB-INF/jsp/layout/pageHead.jsp"/>
+        <put-attribute name="title" value="Service Error | BT Panorama"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/cash/header.jsp"/>
+        <put-attribute name="detailView" value=""/>
+        <put-attribute name="body" value="/WEB-INF/jsp/error.jsp"/>
+    </definition>
+
+    <definition name="error.xmlUnmarshall" extends="unAuthLayout">
+        <put-attribute name="title" value="Error | BT Panorama"/>
+        <put-attribute name="body" value="/WEB-INF/jsp/xmlUnmarshallError.jsp"/>
+    </definition>
+
+    <definition name="error.tablet" extends="unAuthLayout.tablet">
+        <put-attribute name="body" value="/WEB-INF/jsp/error.tablet.jsp"/>
+    </definition>
+    
+    <definition name="errorFatal" template="/WEB-INF/jsp/layout/commonLayout.jsp">
+        <put-attribute name="pageHead" value="/WEB-INF/jsp/layout/pageHead.jsp"/>
+        <put-attribute name="title" value="Internal Server Error | BT Panorama"/>
+        <put-attribute name="header" value="/WEB-INF/jsp/cash/header.jsp"/>
+        <put-attribute name="detailView" value=""/>
+        <put-attribute name="body" value="/WEB-INF/jsp/error/fatal.jsp"/>
+    </definition>
+
+</tiles-definitions>

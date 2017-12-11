@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.trust.TrustVerification",
+  "definitions": {
+    "trustidvType": {
+      "type": "object",
+      "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.trust.TrustIdv",
+      "properties": {
+        "fullname": {
+          "type": "string"
+        },
+        "documentdate": {
+          "type": "string"
+        },
+        "documentnumber": {
+          "type": "string"
+        },
+        "verifiedfrom": {
+          "$ref": "../base/docVerificationTypeEnum.json"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+
+  "properties": {
+    "identitydocument": {
+      "$ref": "../base/trustIdentityDocTypeEnum.json"
+    },
+    "letteridv": {
+      "$ref": "#/definitions/trustidvType"
+    },
+    "trustdeed": {
+      "$ref": "#/definitions/trustidvType"
+    }
+  },
+  "additionalProperties": false
+}

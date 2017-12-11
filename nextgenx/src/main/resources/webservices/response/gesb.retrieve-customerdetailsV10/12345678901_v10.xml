@@ -1,0 +1,246 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <soap:Header>
+        <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+            <messageAttributes>
+                <id>NG-001.eee01e07-3ddb-4dd5-af74-49e9a9b519361</id>
+                <correlationId>NG-001.eee01e07-3ddb-4dd5-af74-49e9a9b51936</correlationId>
+                <createdTimestamp>2015-07-29T14:37:44.184</createdTimestamp>
+            </messageAttributes>
+            <channelAttributes>
+                <organisationId>WPAC</organisationId>
+                <brandSilo>WPAC</brandSilo>
+                <channelType>Online</channelType>
+                <originatingSystemId>NG-001</originatingSystemId>
+                <requester>
+                    <requesterType>System</requesterType>
+                </requester>
+                <location>
+                    <locationId>lnxau2106st0118</locationId>
+                    <locationType>Machine Name</locationType>
+                </location>
+            </channelAttributes>
+        </esbHeader>
+    </soap:Header>
+    <soap:Body>
+        <svc0258:retrieveDetailsAndArrangementRelationshipsForIPsResponse xmlns:svc0258="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/xsd/retrieveDetailsAndArrangementRelationshipsForIPs/v10/SVC0258/" xmlns:p="http://www.westpac.com.au/gn/utility/xsd/pagination/v1/" xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:id="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/">
+            <sh:serviceStatus>
+                <sh:statusInfo>
+                    <sh:level>Success</sh:level>
+                    <sh:code>000,00000</sh:code>
+                    <sh:description>Operation completed successfully</sh:description>
+                </sh:statusInfo>
+            </sh:serviceStatus>
+            <arrangementPaginationInstruction>
+                <p:numberOfRecordsRequested>40</p:numberOfRecordsRequested>
+                <p:numberOfRecordsReturned>1</p:numberOfRecordsReturned>
+                <p:isMoreRecordsAvailable>false</p:isMoreRecordsAvailable>
+            </arrangementPaginationInstruction>
+            <individual>
+                <auditContext>
+                    <isActive>true</isActive>
+                    <lastUpdateTimestamp>2015-06-16T09:54:22</lastUpdateTimestamp>
+                    <versionNumber>3</versionNumber>
+                </auditContext>
+                <involvedPartyIdentifier>
+                    <id:identificationScheme>CISKey</id:identificationScheme>
+                    <id:sourceSystem>UCM</id:sourceSystem>
+                    <id:involvedPartyId>12345678901</id:involvedPartyId>
+                </involvedPartyIdentifier>
+                <customerIdentifier>
+                    <id:customerNumber>87654321</id:customerNumber>
+                </customerIdentifier>
+                <hasForName>
+                    <firstName>JOHN</firstName>
+                    <lastName>DARGO</lastName>
+                    <middleNames>BART</middleNames>
+                    <middleNames>HUMPHREY</middleNames>
+                    <prefixTitle>MR</prefixTitle>
+                    <suffixTitle>BSC</suffixTitle>
+                    <preferredName>JONNO</preferredName>
+                    <hasAlternateName>
+                        <startDate>2012-04-09</startDate>
+                        <endDate>2056-10-22</endDate>
+                        <name>JOHANN</name>
+                        <isPreferred>Y</isPreferred>
+                    </hasAlternateName>
+                </hasForName>
+                <startDate>2003-09-23</startDate>
+                <endDate>2190-09-16</endDate>
+                <gender>M</gender>
+                <birthDate>1971-10-09</birthDate>
+                <deathDate>2056-12-19</deathDate>
+                <maritalStatus>Single</maritalStatus>
+                <isSoleTrader>false</isSoleTrader>
+                <lifecycleStatus>Alive</lifecycleStatus>
+                <isExemptFromWithholdingTax>false</isExemptFromWithholdingTax>
+                <isMergeAllowed>false</isMergeAllowed>
+                <dataShareLevel>Mauve</dataShareLevel>
+                <countryOfUltimateRisk>AU</countryOfUltimateRisk>
+                <numberOfDependants>0</numberOfDependants>
+                <hasBrandSilo>
+                    <brandSiloCode>SGBBSA</brandSiloCode>
+                </hasBrandSilo>
+                <hasRegistration>
+                    <registrationIdentifier>
+                        <id:registrationNumber>098890</id:registrationNumber>
+                        <id:registrationNumberType>DRIVING_LICENCE</id:registrationNumberType>
+                    </registrationIdentifier>
+                    <isIssuedAt>
+                        <state>NSW</state>
+                    </isIssuedAt>
+                </hasRegistration>
+                <hasIdentityVerificationAssessment>
+                    <assessmentMethod>Non WBC</assessmentMethod>
+                    <assessmentStatus>YES</assessmentStatus>
+                </hasIdentityVerificationAssessment>
+                <hasAntiMoneyLaunderingAssessment>
+                    <assessmentMethod>WBC</assessmentMethod>
+                    <assessmentStatus>YES</assessmentStatus>
+                    <auditContext>
+                        <isActive>true</isActive>
+                        <lastUpdateTimestamp>2014-05-04T18:13:51</lastUpdateTimestamp>
+                        <versionNumber>52</versionNumber>
+                    </auditContext>
+                    <preCommencementCategory>Y</preCommencementCategory>
+                    <entityType>INDIVIDUAL</entityType>
+                    <riskAssessmentDate>2014-05-04</riskAssessmentDate>
+                    <riskRating>MEDIUM</riskRating>
+                </hasAntiMoneyLaunderingAssessment>
+                <hasFinancialLegalStatus>
+                    <effectiveDate>2015-06-17</effectiveDate>
+                    <status>Liquid</status>
+                </hasFinancialLegalStatus>
+                <hasCommunicationPreference>
+                    <telemarketingIndicator>unresponsive</telemarketingIndicator>
+                    <suppressEmailsIndicator>always</suppressEmailsIndicator>
+                    <advertisingCode>nil</advertisingCode>
+                    <acceptWestpacMarketing>false</acceptWestpacMarketing>
+                    <acceptNonWestpacMarketing>false</acceptNonWestpacMarketing>
+                </hasCommunicationPreference>
+                <hasContactPreference>
+                    <preferredSecureCommunication>SMS</preferredSecureCommunication>
+                    <preferredTelephoneMedium>Mobile</preferredTelephoneMedium>
+                    <preferredTimeZone>AET</preferredTimeZone>
+                    <preferredTitle>Mr</preferredTitle>
+                </hasContactPreference>
+                <hasPostalAddressContactMethod>
+                    <auditContext>
+                        <isActive>true</isActive>
+                        <lastUpdateTimestamp>2015-01-03T19:46:32</lastUpdateTimestamp>
+                        <versionNumber>9</versionNumber>
+                    </auditContext>
+                    <startDate>2003-03-27T09:00:00</startDate>
+                    <validityStatus>C</validityStatus>
+                    <usage>R</usage>
+                    <priorityLevel>Primary</priorityLevel>
+                    <preferredContactTime>Business Hours</preferredContactTime>
+                    <contactInstructions>Return to Branch</contactInstructions>
+                    <addressee>
+                        <nameText>Mr Dargo</nameText>
+                        <fullName>John Bart Diego Juan Dargo</fullName>
+                    </addressee>
+                    <addressRelationshipIdentifier>
+                        <id:sequenceNumber>001</id:sequenceNumber>
+                    </addressRelationshipIdentifier>
+                    <hasAddress xsi:type="svc0258:StandardPostalAddress">
+                        <floorNumber>10</floorNumber>
+                        <streetNumber>150</streetNumber>
+                        <streetName>COLLINS</streetName>
+                        <streetType>ANCG</streetType>
+                        <buildingName>WESTPAC PLACE</buildingName>
+                        <city>MELBOURNE</city>
+                        <state>VIC</state>
+                        <postCode>3000</postCode>
+                        <country>AUS</country>
+                    </hasAddress>
+                </hasPostalAddressContactMethod>
+                <hasEmailAddressContactMethod>
+                    <startDate>2013-05-03T12:30:14Z</startDate>
+                    <validityStatus>C</validityStatus>
+                    <usage>Home</usage>
+                    <priorityLevel>Primary</priorityLevel>
+                    <preferredContactTime>After Hours</preferredContactTime>
+                    <addressee>
+                        <nameText>Mr Dargo</nameText>
+                        <fullName>John Bart Diego Juan Dargo</fullName>
+                    </addressee>
+                    <hasAddress>
+                        <emailAddress>john.dargo@test-email.org.au</emailAddress>
+                    </hasAddress>
+                </hasEmailAddressContactMethod>
+                <hasEmailAddressContactMethod>
+                    <startDate>2014-06-14T00:34:59Z</startDate>
+                    <validityStatus>C</validityStatus>
+                    <usage>Work</usage>
+                    <priorityLevel>Primary</priorityLevel>
+                    <preferredContactTime>Work Hours</preferredContactTime>
+                    <addressee>
+                        <nameText>Mr Dargo</nameText>
+                        <fullName>John Bart Diego Juan Dargo</fullName>
+                    </addressee>
+                    <hasAddress>
+                        <emailAddress>j_b_d_j_dargo@johns-work.com.au</emailAddress>
+                    </hasAddress>
+                </hasEmailAddressContactMethod>
+                <hasPhoneAddressContactMethod>
+                    <auditContext>
+                        <isActive>true</isActive>
+                        <lastUpdateTimestamp>2014-07-25T11:59:24Z</lastUpdateTimestamp>
+                        <versionNumber>2</versionNumber>
+                    </auditContext>
+                    <startDate>2014-07-25T11:59:24Z</startDate>
+                    <validityStatus>C</validityStatus>
+                    <usage>HOM</usage>
+                    <priorityLevel>Primary</priorityLevel>
+                    <preferredContactTime>ANY</preferredContactTime>
+                    <contactInstructions>Please wash hands before dialling the phone</contactInstructions>
+                    <addressee>
+                        <nameText>Mr Dargo</nameText>
+                        <fullName>John Bart Diego Juan Dargo</fullName>
+                    </addressee>
+                    <contactMedium>Phone</contactMedium>
+                    <hasAddress>
+                        <countryCode>+61</countryCode>
+                        <areaCode>03</areaCode>
+                        <localNumber>99882345</localNumber>
+                        <fullTelephoneNumber>+61399882345</fullTelephoneNumber>
+                    </hasAddress>
+                    <contactMethodIdentifier>
+                        <id:identificationScheme>CISKey</id:identificationScheme>
+                        <id:sourceSystem>CIS</id:sourceSystem>
+                        <id:contactMethodId>00400600203</id:contactMethodId>
+                    </contactMethodIdentifier>
+                </hasPhoneAddressContactMethod>
+                <hasPhoneAddressContactMethod>
+                    <auditContext>
+                        <isActive>true</isActive>
+                        <lastUpdateTimestamp>2015-01-30T19:15:12Z</lastUpdateTimestamp>
+                        <versionNumber>1</versionNumber>
+                    </auditContext>
+                    <startDate>2015-01-30T19:15:12Z</startDate>
+                    <validityStatus>C</validityStatus>
+                    <usage>MOB</usage>
+                    <priorityLevel>Primary</priorityLevel>
+                    <preferredContactTime>All Hours</preferredContactTime>
+                    <contactInstructions>Please converse exclusively in iambic pentameter</contactInstructions>
+                    <addressee>
+                        <nameText>Mr Dargo</nameText>
+                        <fullName>John Bart Diego Juan Dargo</fullName>
+                    </addressee>
+                    <contactMedium>Mobile</contactMedium>
+                    <hasAddress>
+                        <countryCode>+61</countryCode>
+                        <areaCode>04</areaCode>
+                        <localNumber>18775613</localNumber>
+                        <fullTelephoneNumber>+61418775613</fullTelephoneNumber>
+                    </hasAddress>
+                    <contactMethodIdentifier>
+                        <id:identificationScheme>CISKey</id:identificationScheme>
+                        <id:sourceSystem>CIS</id:sourceSystem>
+                        <id:contactMethodId>98765432101</id:contactMethodId>
+                    </contactMethodIdentifier>
+                </hasPhoneAddressContactMethod>
+            </individual>
+        </svc0258:retrieveDetailsAndArrangementRelationshipsForIPsResponse>
+    </soap:Body>
+</soap:Envelope>

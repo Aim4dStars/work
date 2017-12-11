@@ -1,0 +1,73 @@
+{
+  "type": "object",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.company.AdditionalShareholderAndMember",
+  "properties": {
+    "persontype": {
+      "type": "array",
+      "items": {
+        "$ref": "../base/personTypeEnum.json"
+      },
+      "description": "type of additional person, with AML, there can be multiple types"
+    },
+    "selectedpersontype": {
+      "type": "string",
+      "description": "This is used for storing selected person type in person type dropdown"
+    },
+    "title": {
+      "type": "string"
+    },
+    "firstname": {
+      "type": "string"
+    },
+    "middlename": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "alternatename": {
+      "type": "string"
+    },
+    "needsShareholder": {
+      "type": "boolean",
+      "TODO": "It is UI only field.Used again on review/viewapplication.Let's keep it for the time being as re-generating logic is going to be quite complex."
+    },
+    "needsMember": {
+      "type": "boolean",
+      "TODO": "It is UI only field.Used again on review/viewapplication.Let's keep it for the time being as re-generating logic is going to be quite complex."
+    },
+    "needsBeneficialOwner": {
+      "type": "boolean",
+      "TODO": "It is UI only field.Used again on review/viewapplication.Let's keep it for the time being as re-generating logic is going to be quite complex."
+    },
+    "needsBeneficiary": {
+      "type": "boolean",
+      "TODO": "It is UI only field.Used again on review/viewapplication.Let's keep it for the time being as re-generating logic is going to be quite complex."
+    },
+    "needsControllerOfTrust": {
+      "type": "boolean",
+      "TODO": "It is UI only field.Used again on review/viewapplication.Let's keep it for the time being as re-generating logic is going to be quite complex."
+    },
+    "dateofbirth": {
+      "type": "string"
+    },
+    "taxdetails": {
+      "$ref": "../base/taxDetailsSchema.json"
+    },
+    "resaddress": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "resaddressv2": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "additionalshareholdergender": {
+      "$ref": "../base/genderTypeEnum.json",
+      "description": "It is required to specify the gender field in additional shareholder form."
+    },
+    "identitydocument": {
+      "$ref": "../base/identitydocumentSchema.json"
+    }
+  },
+  "additionalProperties": false
+}
+

@@ -1,0 +1,184 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header>
+		<esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+			<messageAttributes>
+				<id>NG-001.c0ebe78b-04c9-460e-80ee-1277b19c35bb1</id>
+				<correlationId>NG-001.c0ebe78b-04c9-460e-80ee-1277b19c35bb</correlationId>
+				<createdTimestamp>2015-01-14T20:21:00.794</createdTimestamp>
+			</messageAttributes>
+			<channelAttributes>
+				<organisationId>WPAC</organisationId>
+				<brandSilo>WPAC</brandSilo>
+				<channelType>Online</channelType>
+				<originatingSystemId>NG-001</originatingSystemId>
+				<requester>
+					<requesterType>System</requesterType>
+				</requester>
+				<location>
+					<locationId>lnxau2106st0121</locationId>
+					<locationType>Machine Name</locationType>
+				</location>
+			</channelAttributes>
+		</esbHeader>
+	</env:Header>
+	<env:Body>
+		<ns:AvaloqGatewayResponseMsg xmlns:ns="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+			<Status>Success</Status>
+			<ResponseDetails>
+				<SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_ips_aum" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2015-01-16 10:08:45.859547000 on afd030p by AVALOQ -->
+
+<metadata>
+<empty_rep><val>false</val></empty_rep>
+<current_of_time><val>2015-01-15T04:24:22+11:00</val></current_of_time>
+</metadata>
+
+<def>
+<version>2.0</version>
+<rep_def>
+<style>hira</style>
+<lang id="1">en</lang>
+<hira_def>
+<grp_list>
+<grp_def>
+<name>report</name>
+<hira>1</hira>
+<has_head>false</has_head>
+<has_foot>true</has_foot>
+</grp_def>
+<grp_def>
+<name>ips</name>
+<hira>2</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+</grp_list>
+</hira_def>
+<row_def>
+<fld_list>
+<fld_def>
+<name>dummy</name>
+<type>TextFld</type>
+<lbl></lbl>
+</fld_def>
+<fld_def>
+<name>ips</name>
+<type>TextFld</type>
+<lbl>Managed Portfolio Model</lbl>
+</fld_def>
+<fld_def>
+<name>ips_sym</name>
+<type>TextFld</type>
+<lbl>Model Symbol</lbl>
+</fld_def>
+<fld_def>
+<name>ips_apir</name>
+<type>TextFld</type>
+<lbl>APIR Code</lbl>
+</fld_def>
+<fld_def>
+<name>ips_asset_class_id</name>
+<type>NrFld</type>
+<lbl>Asset Class</lbl>
+</fld_def>
+<fld_def>
+<name>ips_invst_style_id</name>
+<type>NrFld</type>
+<lbl>Investment Style</lbl>
+</fld_def>
+<fld_def>
+<name>ips_status_id</name>
+<type>NrFld</type>
+<lbl>Status</lbl>
+</fld_def>
+<fld_def>
+<name>aum</name>
+<type>NrFld</type>
+<lbl>FUM</lbl>
+</fld_def>
+<fld_def>
+<name>last_upd_timestp</name>
+<type>DateTimeFld</type>
+<lbl>Last Update Timestamp</lbl>
+</fld_def>
+<fld_def>
+<name>last_upd_from</name>
+<type>TextFld</type>
+<lbl>Last Update From</lbl>
+</fld_def>
+
+</fld_list>
+</row_def>
+</rep_def>
+</def>
+
+<data>
+<report>
+<ips_list>
+<ips>
+<ips_head_list>
+<ips_head id="2-1" row_type="data" hira="1" level="ips.head">
+<ips><annot><ctx><type>ips</type><id>96829</id></ctx></annot><val>EQR Concentrated Core Equities</val></ips>
+<ips_sym><val>EQR_CONC_CORE_EQ</val></ips_sym>
+<ips_apir><val>APIR_CODE_TEST</val></ips_apir>
+<ips_asset_class_id><annot><displ_text>Australian Fixed Interest</displ_text><ctx><type>code</type><id>code_obj_class;9652</id></ctx></annot><val>9652</val></ips_asset_class_id>
+<ips_invst_style_id><annot><displ_text>Concentrated</displ_text><ctx><type>code</type><id>code_obj_class;9604</id></ctx></annot><val>9604</val></ips_invst_style_id>
+<ips_status_id><annot><displ_text>Open</displ_text><ctx><type>code</type><id>code_obj_class;9512</id></ctx></annot><val>9512</val></ips_status_id>
+<aum><annot><displ_text></displ_text></annot><val>24736122.59</val></aum>
+<last_upd_timestp><annot><displ_text></displ_text></annot><val>2015-01-12T02:51:47+11:00</val></last_upd_timestp>
+<last_upd_from><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></last_upd_from>
+</ips_head>
+</ips_head_list>
+</ips>
+<ips>
+<ips_head_list>
+<ips_head id="4-2" row_type="data" hira="1" level="ips.head">
+<ips><annot><ctx><type>ips</type><id>96816</id></ctx></annot><val>EQR Core Equities</val></ips>
+<ips_sym><val>EQR_CORE_EQ</val></ips_sym>
+<ips_apir><val>APIR_CODE_TEST</val></ips_apir>
+<ips_asset_class_id><annot><displ_text>International Shares</displ_text><ctx><type>code</type><id>code_obj_class;9651</id></ctx></annot><val>9651</val></ips_asset_class_id>
+<ips_invst_style_id><annot><displ_text>Active</displ_text><ctx><type>code</type><id>code_obj_class;9600</id></ctx></annot><val>9600</val></ips_invst_style_id>
+<ips_status_id><annot><displ_text>Open</displ_text><ctx><type>code</type><id>code_obj_class;9512</id></ctx></annot><val>9512</val></ips_status_id>
+<aum><annot><displ_text></displ_text></annot><val>7822569.27</val></aum>
+<last_upd_timestp><annot><displ_text></displ_text></annot><val>2015-01-12T02:51:57+11:00</val></last_upd_timestp>
+<last_upd_from><annot><ctx><type>user</type><id>1</id></ctx></annot><val>K</val></last_upd_from>
+</ips_head>
+</ips_head_list>
+</ips>
+</ips_list>
+<report_foot_list>
+<report_foot id="6-3" row_type="title" hira="-1" level="report.foot">
+<annot>
+<style>avq_std_data</style>
+</annot>
+<ips><annot><ctx><type>ips</type><id>96831</id></ctx></annot><val>EQR Concentrated Income Equities</val></ips>
+<ips_sym><val>EQR_CONC_INCOME_EQ</val></ips_sym>
+<ips_apir><val>APIR_CODE_TEST</val></ips_apir>
+<ips_asset_class_id><annot><displ_text>Australian Shares</displ_text><ctx><type>code</type><id>code_obj_class;9650</id></ctx></annot><val>9650</val></ips_asset_class_id>
+<ips_invst_style_id><annot><displ_text>Concentrated</displ_text><ctx><type>code</type><id>code_obj_class;9604</id></ctx></annot><val>9604</val></ips_invst_style_id>
+<ips_status_id><annot><displ_text>New</displ_text><ctx><type>code</type><id>code_obj_class;9510</id></ctx></annot><val>9510</val></ips_status_id>
+<aum><annot><displ_text></displ_text></annot><val>0</val></aum>
+</report_foot>
+<report_foot id="8-4" row_type="title" hira="-1" level="report.foot">
+<ips><annot><ctx><type>ips</type><id>77172</id></ctx></annot><val>EQR Income Equities</val></ips>
+<ips_sym><val>EQR_INCOME_EQ</val></ips_sym>
+<ips_apir><val>APIR_CODE_TEST</val></ips_apir>
+<ips_asset_class_id><annot><displ_text>Australian Fixed Interest</displ_text><ctx><type>code</type><id>code_obj_class;9652</id></ctx></annot><val>9652</val></ips_asset_class_id>
+<ips_invst_style_id><annot><displ_text>Income</displ_text><ctx><type>code</type><id>code_obj_class;9613</id></ctx></annot><val>9613</val></ips_invst_style_id>
+<ips_status_id><annot><displ_text>New</displ_text><ctx><type>code</type><id>code_obj_class;9510</id></ctx></annot><val>9510</val></ips_status_id>
+<aum><annot><displ_text></displ_text></annot><val>0</val></aum>
+</report_foot>
+<report_foot id="10-5" row_type="title" hira="-1" level="report.foot">
+</report_foot>
+</report_foot_list>
+</report>
+
+</data>
+</rep:rep>
+					<!-- 5ebf6aeb-691a-4370-a1ae-4489086768fe at 2015-01-14T09:21:01.467738000Z on NGWU4 by 297155794 -->
+				</SuccessResponse>
+			</ResponseDetails>
+		</ns:AvaloqGatewayResponseMsg>
+	</env:Body>
+</env:Envelope>

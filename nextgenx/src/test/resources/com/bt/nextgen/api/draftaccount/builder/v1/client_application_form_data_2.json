@@ -1,0 +1,174 @@
+{
+    "brokerpositionid": "BROKER_ID",
+    "productid": "A13EEBEC6074850121E40555F623A1A479986A9E316B5F70",
+    "accountType": "individual",
+    "investors": [{
+        "title": "prof",
+        "firstname": "NEMO",
+        "lastname": "A",
+        "dateofbirth": "30/06/1960",
+        "gender": "male",
+        "taxcountry": "AU",
+        "taxoption": "Tax File Number provided",
+        "tfn": "123456782",
+        "mobile": {
+            "value": "2223333"
+        },
+        "email": {
+            "value": "a@a.com"
+        },
+        "resaddress": {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "addressType": "residential",
+            "sameasaddress": "0"
+        },
+        "postaladdress": {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "7",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "addressType": "postal",
+            "existingAddressList": [
+                {
+                    "componentised": true,
+                    "unitNumber": "",
+                    "streetNumber": "51-57",
+                    "streetName": "Pitt",
+                    "streetType": "STREET",
+                    "suburb": "SYDNEY",
+                    "state": "NSW",
+                    "postcode": "2000",
+                    "country": "AU",
+                    "verified": true,
+                    "addressType": "residential",
+                    "sameasaddress": "0",
+                    "id": "31079"
+                },
+                {
+                    "componentised": true,
+                    "unitNumber": "",
+                    "streetNumber": "51-57",
+                    "streetName": "Pitt",
+                    "streetType": "STREET",
+                    "suburb": "SYDNEY",
+                    "state": "NSW",
+                    "postcode": "2000",
+                    "country": "AU",
+                    "verified": true,
+                    "addressType": "residential",
+                    "sameasaddress": "0",
+                    "id": "691600"
+                }
+            ],
+            "sameasaddress": "0"
+        },
+        "secondaryEmail": {
+            "value": "b@b.au"
+        },
+        "homeNumber": {
+            "value": "444555"
+        },
+        "nonphotodocuments": {
+            "birthcertificate": {
+                "documentIssuer": "NSW",
+                "issueDate": "02/07/1960",
+                "documentNumber": "777888",
+                "verificationSource": "original",
+                "englishTranslation": "Not Applicable"
+            },
+            "financialbenefits": {
+                "documentIssuer": "AAA",
+                "issueDate": "07/09/2014",
+                "expiryDate": null,
+                "documentNumber": "444555",
+                "verificationSource": "original",
+                "englishTranslation": "Not Applicable"
+            }
+        },
+        "preferredcontact": "secondaryEmail"
+    }],
+    "accountsettings": {
+        "professionalspayment": "allpayments",
+        "investorAccountSettings": [
+            {
+                "paymentSetting":"nopayments"
+            }
+        ]
+    },
+    "linkedaccounts": {
+    "primaryLinkedAccount": {
+        "accountname": "NEMO",
+        "bsb": "062005",
+        "accountnumber": "666000",
+        "nickname": "MO",
+        "directdebitamount": "756000.00"
+    },
+    "otherLinkedAccount": [
+        {
+            "accountname": "BOB",
+            "bsb": "062005",
+            "accountnumber": "000000",
+            "nickname": "BO",
+            "directdebitamount": "12.00"
+        }
+    ]
+}, "fees": {
+    "ongoingFees": {
+        "feesComponent": [
+            {
+                "cpiindex": true,
+                "amount": "144.00",
+                "label": "Dollar fee component"
+            },
+            {
+            	"managedFund": "10.00",
+                "managedPortfolio": "33.00",
+                "termDeposit": "12.00",
+                "listedSecurities": "15.00",
+                "cash": "55.00",
+                "label": "Percentage fee component"
+            }
+        ],
+        "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+        "feesComponent": [
+            {
+            	"managedFund": null,
+                "managedPortfolio": "true",
+                "cash": null,
+                "termDeposit": "true",
+                "slidingScaleFeeTier": [
+                    {
+                        "lowerBound": "0.00",
+                        "upperBound": "555.00",
+                        "percentage": "31.00"
+                    },
+                    {
+                        "lowerBound": "555.00",
+                        "upperBound": "",
+                        "percentage": "45.00"
+                    }
+                ],
+                "label": "Sliding scale fee component"
+            }
+        ],
+        "type": "Licensee advice fee"
+    },
+    "estamount": "99.00"
+}}

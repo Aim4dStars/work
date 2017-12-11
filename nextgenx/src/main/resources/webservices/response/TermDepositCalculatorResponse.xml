@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<TermDepositCalculatorResponse xmlns="ns://btfin.com/nextgen/services/schemas">
+	<tdWrapper id="1">
+		<TermDepositCalculatorWrapper>
+			<BankName>WestPac</BankName>
+			<tdModel id="1">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.56</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="2">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.76</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="3">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.96</RateInterest>
+					<MonthlyRateIterest>4.67</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="4">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.01</RateInterest>
+					<MonthlyRateIterest>4.86</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="5">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.36</RateInterest>
+					<MonthlyRateIterest>5.16</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="6">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>5.01</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="7">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>5.27</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="8">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>5.56</RateInterest>
+					<MonthlyRateIterest>5.26</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="9">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.72</RateInterest>
+					<MonthlyRateIterest>5.63</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="10">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.82</RateInterest>
+					<MonthlyRateIterest>5.56</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+				<tdModel id="11">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>5.25</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="12">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>5.36</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="13">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>5.47</RateInterest>
+					<MonthlyRateIterest>5.37</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="14">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.66</RateInterest>
+					<MonthlyRateIterest>5.56</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="15">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.92</RateInterest>
+					<MonthlyRateIterest>5.74</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+
+		</TermDepositCalculatorWrapper>
+	</tdWrapper>
+
+	<tdWrapper id="2">
+		<TermDepositCalculatorWrapper>
+			<BankName>Bank of Melbourne</BankName>
+			<tdModel id="1">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.57</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="2">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.46</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="3">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.73</RateInterest>
+					<MonthlyRateIterest>4.66</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="4">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>4.84</RateInterest>
+					<MonthlyRateIterest>4.67</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="5">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.17</RateInterest>
+					<MonthlyRateIterest>5.01</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+			<tdModel id="6">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.56</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="7">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.70</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="8">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.79</RateInterest>
+					<MonthlyRateIterest>4.64</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="9">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.21</RateInterest>
+					<MonthlyRateIterest>5.01</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="10">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.34</RateInterest>
+					<MonthlyRateIterest>5.18</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+				<tdModel id="11">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.78</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="12">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.86</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="13">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>5.06</RateInterest>
+					<MonthlyRateIterest>4.99</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="14">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.26</RateInterest>
+					<MonthlyRateIterest>5.13</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="15">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.46</RateInterest>
+					<MonthlyRateIterest>5.35</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+		</TermDepositCalculatorWrapper>
+	</tdWrapper>
+	
+	<tdWrapper id="3">
+		<TermDepositCalculatorWrapper>
+			<BankName>St. George</BankName>
+			<tdModel id="1">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.12</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="2">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.21</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="3">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>5.37</RateInterest>
+					<MonthlyRateIterest>4.23</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="4">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>4.46</RateInterest>
+					<MonthlyRateIterest>4.34</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="5">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>4.49</RateInterest>
+					<MonthlyRateIterest>4.35</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+			<tdModel id="6">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.16</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="7">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.38</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="8">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.45</RateInterest>
+					<MonthlyRateIterest>4.29</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="9">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>4.70</RateInterest>
+					<MonthlyRateIterest>4.61</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="10">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>4.86</RateInterest>
+					<MonthlyRateIterest>4.54</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+				<tdModel id="11">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>5.51</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="12">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>5.76</RateInterest>
+					<MonthlyRateIterest>5.56</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="13">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>5.86</RateInterest>
+					<MonthlyRateIterest>5.55</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="14">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.99</RateInterest>
+					<MonthlyRateIterest>5.56</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="15">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>6.16</RateInterest>
+					<MonthlyRateIterest>6.04</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+		</TermDepositCalculatorWrapper>
+	</tdWrapper>
+	
+	<tdWrapper id="4">
+		<TermDepositCalculatorWrapper>
+			<BankName>Bank of SA</BankName>
+			<tdModel id="1">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>3.50</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="2">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>3.76</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="3">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.16</RateInterest>
+					<MonthlyRateIterest>4.05</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="4">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>4.27</RateInterest>
+					<MonthlyRateIterest>4.13</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="5">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>4.34</RateInterest>
+					<MonthlyRateIterest>4.14</MonthlyRateIterest>
+					<MinValue>5000</MinValue>
+					<MaxValue>9999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+			<tdModel id="6">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>4.76</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="7">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>4.80</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="8">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.98</RateInterest>
+					<MonthlyRateIterest>4.74</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="9">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>5.78</RateInterest>
+					<MonthlyRateIterest>5.23</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="10">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.80</RateInterest>
+					<MonthlyRateIterest>5.73</MonthlyRateIterest>
+					<MinValue>10000</MinValue>
+					<MaxValue>14999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+				<tdModel id="11">
+				<TermDepositCalculatorModel>
+					<Term>3 months</Term>
+					<RateInterest>3.56</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="12">
+				<TermDepositCalculatorModel>
+					<Term>6 months</Term>
+					<RateInterest>3.76</RateInterest>
+					<MonthlyRateIterest></MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="13">
+				<TermDepositCalculatorModel>
+					<Term>1 year</Term>
+					<RateInterest>4.06</RateInterest>
+					<MonthlyRateIterest>3.9</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="14">
+				<TermDepositCalculatorModel>
+					<Term>3 years</Term>
+					<RateInterest>4.27</RateInterest>
+					<MonthlyRateIterest>4.15</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			<tdModel id="15">
+				<TermDepositCalculatorModel>
+					<Term>5 years</Term>
+					<RateInterest>5.66</RateInterest>
+					<MonthlyRateIterest>5.23</MonthlyRateIterest>
+					<MinValue>15000</MinValue>
+					<MaxValue>19999.99</MaxValue>
+				</TermDepositCalculatorModel>
+			</tdModel>
+			
+		</TermDepositCalculatorWrapper>
+	</tdWrapper>
+
+</TermDepositCalculatorResponse>

@@ -1,0 +1,44 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" >
+    <soapenv:Header>
+        <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+            <messageAttributes>
+                <id>NG-001.4b2ecf85-a294-4b44-922f-021983617dbe1</id>
+                <correlationId>NG-001.4b2ecf85-a294-4b44-922f-021983617dbe</correlationId>
+                <createdTimestamp>2016-01-29T09:41:04.796</createdTimestamp>
+            </messageAttributes>
+            <channelAttributes>
+                <organisationId>WPAC</organisationId>
+                <brandSilo>WPAC</brandSilo>
+                <channelType>Online</channelType>
+                <originatingSystemId>NG-001</originatingSystemId>
+                <requester>
+                    <requesterType>System</requesterType>
+                    <requesterId>12345</requesterId>
+                </requester>
+                <location>
+                    <locationId>lnxau2106st0108</locationId>
+                    <locationType>Machine Name</locationType>
+                </location>
+            </channelAttributes>
+        </esbHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <svc:retrieveIPTaxRegistrationResponse
+                xmlns:svc="http://www.westpac.com.au/gn/arrangementReporting/services/arrangementReporting/xsd/retrieveIPTaxRegistration/v2/SVC0610/"
+                xmlns:v1="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/"
+                xmlns:v11="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.westpac.com.au/gn/arrangementReporting/services/arrangementReporting/xsd/retrieveIPTaxRegistration/v2/SVC0610/ file:///P:/zIBM%20-%20RTI%20CHANGE/06%20-%20USER%20FOLDERS/L038160-Shiv/EverydatBanking/WIP/WSDL/arrangementReporting/arrangementReporting/SVC0610_RetrieveIPTaxRegistration/v2/RetrieveIPTaxRegistration_v2.xsd">
+            <v1:serviceStatus>
+                <v1:statusInfo>
+                    <v1:level>Success</v1:level>
+                    <v1:code>000,00000</v1:code>
+                </v1:statusInfo>
+            </v1:serviceStatus>
+            <registrationIdentifier>
+                <v11:registrationNumber>12345567898</v11:registrationNumber>
+                <v11:registrationNumberType>TFN</v11:registrationNumberType>
+            </registrationIdentifier>
+        </svc:retrieveIPTaxRegistrationResponse>
+    </soapenv:Body>
+</soapenv:Envelope>

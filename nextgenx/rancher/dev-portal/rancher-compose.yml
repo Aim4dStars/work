@@ -1,0 +1,30 @@
+avaloqdb1:
+  hostname: avaloq1.cloud.btfin-dev.com
+avaloqdb2:
+  hostname: avaloq2.cloud.btfin-dev.com
+avaloqdb3:
+  hostname: avaloq3.cloud.btfin-dev.com
+avaloqdb4:
+  hostname: avaloq4.cloud.btfin-dev.com
+avaloqdb5:
+  hostname: avaloq5.cloud.btfin-dev.com
+avaloqdb6:
+  hostname: avaloq6.cloud.btfin-dev.com
+avaloqdb7:
+  hostname: avaloq7.cloud.btfin-dev.com
+avaloqdb8:
+  hostname: avaloq8.cloud.btfin-dev.com
+avaloqdb9:
+  hostname: avaloq9.cloud.btfin-dev.com
+avaloqdb10:
+  hostname: avaloq10.cloud.btfin-dev.com
+avaloqdb11:
+  hostname: avaloq11.cloud.btfin-dev.com
+avaloqdb12:
+  hostname: avaloq12.cloud.btfin-dev.com
+avaloqdb13:
+  hostname: avaloq13.cloud.btfin-dev.com
+avaloqdb14:
+  hostname: avaloq14.cloud.btfin-dev.com
+avaloqdb15:
+  hostname: avaloq15.cloud.btfin-dev.com

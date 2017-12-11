@@ -1,0 +1,24 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+        	<inpay:inpay_rsp xmlns:inpay="http://btfin.com/ABS/TrxService/Inpay/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj">
+			  <data>
+	  		    <cred_macc auto="false" id="12425" ctxId="12425" ctxType="obj_macc"><val>Current account AUD 10000005.21</val></cred_macc>
+			    <bsb><val>012055</val></bsb>
+			    <amount val="150000"><val>1000.00</val></amount>
+			    <curry id="1009" ctxId="1009" ctxType="obj_curry"><val>AUD</val></curry>
+			     <trx_date val="2014-06-30"><val>2014-06-30</val></trx_date>
+			  </data>        	
+        	  <rsp_list>
+			  <exec doc_id="6306">	
+			  </exec>
+			  </rsp_list>	  
+			</inpay:inpay_rsp> 
+        </SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

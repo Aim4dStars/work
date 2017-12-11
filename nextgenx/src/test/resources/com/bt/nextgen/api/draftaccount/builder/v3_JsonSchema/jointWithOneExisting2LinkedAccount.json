@@ -1,0 +1,283 @@
+{
+  "formData": {
+    "version": "1.0.0",
+    "accountType": "joint",
+    "approvalType": "online",
+    "investors": [
+      {
+        "displayTaxOptions": true,
+        "cismandatory": true,
+        "title": "MR",
+        "firstname": "Sahil",
+        "middlename": "",
+        "lastname": "Singh",
+        "preferredname": "",
+        "formername": "",
+        "dateofbirth": "10\/10\/1990",
+        "gender": "male",
+        "mobile": {
+          "value": "0456565656"
+        },
+        "email": {
+          "value": "sahil@singh.com"
+        },
+        "preferredcontact": "mobile",
+        "isvalid": true,
+        "accountType": "joint",
+        "alternatename": "",
+        "wealthsource": "Compensation payment",
+        "resaddress": {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "addressType": "residential",
+              "unitNumber": "",
+              "streetNumber": "51-57",
+              "streetName": "Pitt",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "id": "934239",
+              "sameasaddress": "0",
+              "confirmed": true,
+              "valid": true,
+              "verified": true,
+              "existingAddressList": [
+              ]
+            }
+          ]
+        },
+        "postaladdress": {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "550731",
+          "sameasaddress": "550731",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "addressType": "residential",
+              "unitNumber": "",
+              "streetNumber": "51-57",
+              "streetName": "Pitt",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "id": "550731",
+              "sameasaddress": "0",
+              "confirmed": true,
+              "valid": true,
+              "verified": true
+            }
+          ]
+        },
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "ACT",
+              "expiryDate": "10\/10\/2019",
+              "documentNumber": "42314124",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        },
+        "taxcountry": "AU",
+        "taxoption": "Tax File Number or exemption not provided"
+      },
+      {
+        "isvalid": true,
+        "emails": [
+          {
+            "email": "david@kumar.com",
+            "preferred": false,
+            "emailType": "Primary"
+          },
+          {
+            "email": "david1@kumar.com",
+            "preferred": false,
+            "emailType": "Secondary"
+          }
+        ],
+        "gcmId": "227391341",
+        "exemptionReason": "No exemption",
+        "key": {
+          "clientId": "3ADFE881FC49215B511AA9B894050A8E806EFAA347D51A09"
+        },
+        "personRoles": [
+          "Owner"
+        ],
+        "phones": [
+          {
+            "preferred": false,
+            "number": "0243241324",
+            "phoneType": "Home",
+            "type": "Phone",
+            "label": "Home number"
+          },
+          {
+            "preferred": true,
+            "number": "0456565656",
+            "phoneType": "Primary",
+            "type": "Phone",
+            "label": "Mobile - primary"
+          },
+          {
+            "preferred": false,
+            "number": "0588888888",
+            "phoneType": "Secondary",
+            "type": "Phone",
+            "label": "Mobile - secondary"
+          }
+        ],
+        "gcmTitleLabel": "Mr",
+        "cisId": "97571910087",
+        "userName": "75ce-8b4a-9f",
+        "idVerified": true,
+        "isDuplicate": false,
+        "registered": true,
+        "tfnProvided": false,
+        "investorType": "INDIVIDUAL",
+        "title": "Mr",
+        "firstname": "David",
+        "lastname": "Kumar",
+        "dateofbirth": "10 Oct 1990",
+        "gender": "Male",
+        "mobile": {
+          "value": "0456565656"
+        },
+        "email": {
+          "value": "david@kumar.com"
+        },
+        "accountType": "joint",
+        "resaddress": {
+          "stateAbbr": "NSW",
+          "domicile": true,
+          "countryCode": "2061",
+          "internationalAddress": false,
+          "mailingAddress": false,
+          "standardAddressFormat": false,
+          "addressType": "Postal",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "Street",
+          "suburb": "Sydney",
+          "state": "New South Wales",
+          "postcode": "2000",
+          "country": "Australia",
+          "existingAddressList": [
+          ]
+        },
+        "postaladdress": {
+          "stateAbbr": "NSW",
+          "domicile": false,
+          "countryCode": "2061",
+          "internationalAddress": false,
+          "mailingAddress": true,
+          "standardAddressFormat": false,
+          "addressType": "Postal",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "Street",
+          "suburb": "Sydney",
+          "state": "New South Wales",
+          "postcode": "2000",
+          "country": "Australia",
+          "existingAddressList": [
+          ]
+        },
+        "homenumber": {
+          "value": "0243241324"
+        },
+        "secondarymobile": {
+          "value": "0588888888"
+        },
+        "secondaryemail": {
+          "value": "david1@kumar.com"
+        },
+        "tfnExemptId": "99"
+      }
+    ],
+    "accountsettings": {
+      "professionalspayment": "allpayments",
+      "investorAccountSettings": [
+        {
+          "paymentSetting": "nopayments",
+          "hasRoles": false,
+          "hasApprovers": false
+        },
+        {
+          "paymentSetting": "linkedaccountsonly",
+          "hasRoles": false,
+          "hasApprovers": false
+        }
+      ],
+      "primarycontact": 0,
+      "adviserName": "Nick Molloy",
+      "adviserLocation": "New South Wales",
+      "sourceoffunds": "Commission"
+    },
+    "linkedaccounts": {
+      "primaryLinkedAccount": {
+        "accountname": "test account",
+        "bsb": "062000",
+        "accountnumber": "6643632",
+        "nickname": "",
+        "directdebitamount": "20000.00",
+        "bsbValidationResultVal": true
+      },
+      "otherLinkedAccount": [
+        {
+          "accountname": "test account 2",
+          "bsb": "062000",
+          "accountnumber": "543534",
+          "nickname": "",
+          "bsbValidationResultVal": true
+        }
+      ]
+    },
+    "fees": {
+      "estamount": "3000.00",
+      "ongoingFees": {
+        "feesComponent": [
+        ],
+        "type": "Ongoing advice fee"
+      },
+      "licenseeFees": {
+        "feesComponent": [
+        ],
+        "type": "Licensee advice fee"
+      }
+    }
+  }
+}

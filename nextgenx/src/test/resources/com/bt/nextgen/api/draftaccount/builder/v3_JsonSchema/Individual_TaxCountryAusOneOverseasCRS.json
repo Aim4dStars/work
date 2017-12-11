@@ -1,0 +1,153 @@
+{
+  "version": "1.0.0",
+  "accountType": "individual",
+  "investors": [
+    {
+      "emails": [],
+      "personRoles": [],
+      "phones": [],
+      "taxdetails": {
+        "ausTaxDetails": {
+          "tfn": {
+            "valid": false
+          },
+          "taxOption": {
+            "valid": true,
+            "value": "Exemption Reason provided"
+          },
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          },
+          "exemptionReason": {
+            "valid": true,
+            "value": "norfolk_island_res"
+          }
+        },
+        "overseasTaxDetails": [
+          {
+            "tin": {
+              "valid": true,
+              "value": "CROATIAN"
+            },
+            "tinOption": {
+              "valid": true,
+              "value": "TIN provided"
+            },
+            "overseasTaxCountry": {
+              "valid": true,
+              "value": "HR"
+            },
+            "tinExemptionReason": {
+              "valid": true
+            }
+          }
+        ]
+      },
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Compensation payment",
+      "title": "MR",
+      "firstname": "TEST",
+      "middlename": "",
+      "lastname": "ME",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01/01/1980",
+      "gender": "male",
+      "mobile": {
+        "value": "0432987654"
+      },
+      "email": {
+        "value": "tester@email.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "individual",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "NSW",
+            "expiryDate": "01/01/2030",
+            "documentNumber": "P123",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddressv2": {
+        "addressType": "residential",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+        "AddressIdentifier": "0rOAUEHwjgBwAAAAAIAgEAAAAAtWgbUBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIGNsYXJlbmNlIHN0cmVldAA-",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+            "AddressIdentifier": "0rOAUEHwjgBwAAAAAIAgEAAAAAtWgbUBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIGNsYXJlbmNlIHN0cmVldAA-",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "postaladdressv2": {
+        "addressType": "postal",
+        "country": "AU",
+        "sameasaddress": "0",
+        "valid": true,
+        "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+        "AddressIdentifier": "0rOAUEHwjgBwAAAAAIAgEAAAAAtWgbUBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIGNsYXJlbmNlIHN0cmVldAA-",
+        "existingAddressList": [
+          {
+            "country": "AU",
+            "sameasaddress": "0",
+            "valid": true,
+            "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+            "AddressIdentifier": "0rOAUEHwjgBwAAAAAIAgEAAAAAtWgbUBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIGNsYXJlbmNlIHN0cmVldAA-",
+            "existingAddressList": []
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "",
+      "sameasresaddress": "true"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business income/earnings",
+    "powerofattorney": true
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "dsfdsf",
+      "bsb": "062062",
+      "accountnumber": "123456",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

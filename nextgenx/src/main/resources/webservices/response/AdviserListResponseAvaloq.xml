@@ -1,0 +1,139 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;rep:report xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_avsr_list" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"&gt;
+
+  &lt;def&gt;
+    &lt;version&gt;1.0&lt;/version&gt;
+    &lt;report_def&gt;
+      &lt;style&gt;flat&lt;/style&gt;
+      &lt;lang id="1"&gt;en&lt;/lang&gt;
+      &lt;hira_def&gt;
+        &lt;group_list&gt;
+          &lt;group_def&gt;&lt;name&gt;dm&lt;/name&gt;&lt;hira&gt;1&lt;/hira&gt;&lt;hasHead&gt;true&lt;/hasHead&gt;&lt;hasFoot&gt;false&lt;/hasFoot&gt;&lt;/group_def&gt;
+        &lt;/group_list&gt;
+      &lt;/hira_def&gt;
+      &lt;row_def&gt;
+        &lt;fld_list&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;avsr_pos_id&lt;/name&gt;
+          &lt;type&gt;numberField&lt;/type&gt;
+          &lt;label&gt;Adviser Position ID&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;avsr_person_id&lt;/name&gt;
+          &lt;type&gt;numberField&lt;/type&gt;
+          &lt;label&gt;Adviser Person ID&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;avsr_first_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Adviser First Name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;avsr_middle_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Adviser Middle Name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;avsr_last_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Adviser Last Name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;registered_since_date&lt;/name&gt;
+          &lt;type&gt;dateTimeField&lt;/type&gt;
+          &lt;label&gt;Registered since date&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;dealer_grp&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Dealer Group&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;prac&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Practice&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;ofc&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Office&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;fax&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Fax&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;email&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Email&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;preferred_phone_nr&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Preferred phone number&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;pref_email&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Preferred Email&lt;/label&gt;
+        &lt;/fld_def&gt;
+
+        &lt;/fld_list&gt;
+      &lt;/row_def&gt;
+    &lt;/report_def&gt;
+  &lt;/def&gt;
+
+  &lt;data&gt;
+    &lt;report_data&gt;
+    &lt;top&gt;
+  &lt;dm_list&gt;
+    &lt;dm&gt;
+      &lt;head_list&gt;
+      &lt;head id="1" rowType="data" hira="0" level="dm.head"&gt;
+          &lt;avsr_pos_id&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14180&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Org position 06&lt;/val&gt;&lt;/avsr_pos_id&gt;
+          &lt;avsr_person_id&gt;&lt;annot&gt;&lt;ctxType&gt;person&lt;/ctxType&gt;&lt;ctxId&gt;11982&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Salminen Monica&lt;/val&gt;&lt;/avsr_person_id&gt;
+          &lt;avsr_first_name&gt;&lt;val&gt;Monica&lt;/val&gt;&lt;/avsr_first_name&gt;
+          &lt;avsr_last_name&gt;&lt;val&gt;Salminen&lt;/val&gt;&lt;/avsr_last_name&gt;
+          &lt;registered_since_date&gt;&lt;val&gt;01.01.2012&lt;/val&gt;&lt;/registered_since_date&gt;
+          &lt;dealer_grp&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14202&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Dealer Group 3&lt;/val&gt;&lt;/dealer_grp&gt;
+          &lt;prac&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14196&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Practice 4&lt;/val&gt;&lt;/prac&gt;
+          &lt;ofc&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14183&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Office 3&lt;/val&gt;&lt;/ofc&gt;
+      &lt;/head&gt;
+      &lt;head id="2" rowType="data" hira="0" level="dm.head"&gt;
+          &lt;avsr_pos_id&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14181&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Org position 07&lt;/val&gt;&lt;/avsr_pos_id&gt;
+          &lt;avsr_person_id&gt;&lt;annot&gt;&lt;ctxType&gt;person&lt;/ctxType&gt;&lt;ctxId&gt;11983&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Jim Johnson&lt;/val&gt;&lt;/avsr_person_id&gt;
+          &lt;avsr_first_name&gt;&lt;val&gt;Jim&lt;/val&gt;&lt;/avsr_first_name&gt;
+          &lt;avsr_last_name&gt;&lt;val&gt;Johnson&lt;/val&gt;&lt;/avsr_last_name&gt;
+          &lt;registered_since_date&gt;&lt;val&gt;03.03.2012&lt;/val&gt;&lt;/registered_since_date&gt;
+          &lt;dealer_grp&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14202&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Dealer Group 3&lt;/val&gt;&lt;/dealer_grp&gt;
+          &lt;prac&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14196&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Practice 4&lt;/val&gt;&lt;/prac&gt;
+          &lt;ofc&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14183&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Office 3&lt;/val&gt;&lt;/ofc&gt;
+      &lt;/head&gt;
+        &lt;head id="2" rowType="data" hira="0" level="dm.head"&gt;
+          &lt;avsr_pos_id&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14181&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Org position 07&lt;/val&gt;&lt;/avsr_pos_id&gt;
+          &lt;avsr_person_id&gt;&lt;annot&gt;&lt;ctxType&gt;person&lt;/ctxType&gt;&lt;ctxId&gt;11984&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Jack Hill&lt;/val&gt;&lt;/avsr_person_id&gt;
+          &lt;avsr_first_name&gt;&lt;val&gt;Jack&lt;/val&gt;&lt;/avsr_first_name&gt;
+          &lt;avsr_last_name&gt;&lt;val&gt;Hill&lt;/val&gt;&lt;/avsr_last_name&gt;
+          &lt;registered_since_date&gt;&lt;val&gt;03.03.2012&lt;/val&gt;&lt;/registered_since_date&gt;
+          &lt;dealer_grp&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14202&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Dealer Group 3&lt;/val&gt;&lt;/dealer_grp&gt;
+          &lt;prac&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14196&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Practice 4&lt;/val&gt;&lt;/prac&gt;
+          &lt;ofc&gt;&lt;annot&gt;&lt;ctxType&gt;collect&lt;/ctxType&gt;&lt;ctxId&gt;14183&lt;/ctxId&gt;&lt;/annot&gt;&lt;val&gt;Office 3&lt;/val&gt;&lt;/ofc&gt;
+      &lt;/head&gt;
+      &lt;/head_list&gt;
+    &lt;/dm&gt;
+  &lt;/dm_list&gt;
+    &lt;/top&gt;
+    &lt;/report_data&gt;
+
+  &lt;/data&gt;
+&lt;/rep:report&gt;</SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

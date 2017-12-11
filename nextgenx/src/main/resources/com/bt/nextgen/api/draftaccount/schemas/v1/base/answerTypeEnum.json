@@ -1,0 +1,12 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type": "string",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.base.AnswerTypeEnum",
+  "enum": [
+    "yes",
+    "no",
+    ""
+  ],
+  "description": "this enum is to be used in all places where yes/no is required as property value",
+  "TODO": "investigate why string empty is being used for this type. UI needs to change so that is not sending the field at all if string empty ?"
+}

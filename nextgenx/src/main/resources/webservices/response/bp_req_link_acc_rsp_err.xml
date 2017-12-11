@@ -1,0 +1,108 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+          <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+<bp:bp_rsp xmlns:bp="http://btfin.com/ABS/TrxService/BP/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>e5d7a6fa-2c12-4e8c-ae54-550284177458</req_id>
+  </hdr>
+  <data>
+    <bp>
+      <annot>
+        <displ_text>Demo Wilson Parking Pty Ltd</displ_text>
+        <ctx>
+          <type>obj_bp</type>
+          <id>76118</id>
+        </ctx>
+      </annot>
+      <val>76118</val>
+    </bp>
+    <modi_seq_nr>
+      <val>5</val>
+    </modi_seq_nr>
+    <linked_accs>
+      <linked_acc>
+        <is_pri>
+          <val>false</val>
+        </is_pri>
+        <bsb>
+          <val>062111</val>
+        </bsb>
+        <acc_nr>
+          <val>123456789</val>
+        </acc_nr>
+        <curry>
+          <annot>
+            <displ_text>AUD</displ_text>
+            <ctx>
+              <type>obj_curry</type>
+              <id>1009</id>
+            </ctx>
+          </annot>
+          <val>1009</val>
+        </curry>
+        <acc_name>
+          <val>Linked Account Name 30002</val>
+        </acc_name>
+        <acc_nick_name>
+          <val>Linked Account Name 30002</val>
+        </acc_nick_name>
+      </linked_acc>
+      <linked_acc>
+        <is_pri>
+          <val>true</val>
+        </is_pri>
+        <bsb>
+          <val>062111</val>
+        </bsb>
+        <acc_nr>
+          <val>123456789</val>
+        </acc_nr>
+        <curry>
+          <annot>
+            <displ_text>AUD</displ_text>
+            <ctx>
+              <type>obj_curry</type>
+              <id>1009</id>
+            </ctx>
+          </annot>
+          <val>1009</val>
+        </curry>
+        <acc_name>
+          <val>Linked Account2 Name 30002</val>
+        </acc_name>
+        <acc_nick_name>
+          <val>Linked Account2 Name 30002</val>
+        </acc_nick_name>
+      </linked_acc>
+    </linked_accs>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+      <err_list>
+        <err>
+          <type>ui</type>
+          <id>100022141</id>
+          <err_msg>BSB + Account Number must be unique
+062111-123456789</err_msg>
+          <err_par_list>
+            <par_list>
+              <par>
+                <val>BSB + Account Number;
+062111-123456789</val>
+              </par>
+            </par_list>
+          </err_par_list>
+        </err>
+      </err_list>
+    </exec>
+  </rsp>
+</bp:bp_rsp>
+</SuccessResponse>
+</ResponseDetails>
+</ns3:AvaloqGatewayResponseMsg>
+</env:Body>
+</env:Envelope>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>com.avaloq.abs.screen_rep.hira.btfg$ui_code_list_tab_code.CodeHead</class-a>
+		<class-b>com.bt.nextgen.service.avaloq.code.CodeImpl</class-b>
+		<field>
+			<a>codeId.val</a>
+			<b>codeId</b>
+		</field>
+		<field>
+			<a>userId.val</a>
+			<b>userId</b>
+		</field>
+		<field>
+			<a>name.val</a>
+			<b>name</b>
+		</field>
+		<field>
+			<a>intlId.val</a>
+			<b>intlId</b>
+		</field>
+	</mapping>
+
+</mappings> 

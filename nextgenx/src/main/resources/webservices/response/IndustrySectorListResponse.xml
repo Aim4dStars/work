@@ -1,0 +1,96 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/> 
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+        	<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_ind_sector_det" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<metadata>
+                    	<empty_rep> <val>false</val> </empty_rep>
+		            </metadata>
+		            <def>
+		              	<version>1.0</version>
+		                <report_def>
+		                	<style>hira</style>
+		                    <lang id="1"/>
+		                    <row_def>
+		                    	<fld_list/>
+		                    </row_def>
+		                </report_def>
+		            </def>							
+					<data>
+					  <IndustrySectorList>
+					  	<IndustrySector id="1" hira="1" row_type="data">
+							<IndustrySectorCode><val>20</val></IndustrySectorCode>
+							<IndustrySectorName><val>Industrials</val></IndustrySectorName>
+							<IndustrySubSectorList>
+								<IndustrySubSector id="2" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>2010</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Capital Goods</val></IndustrySubSectorName>
+								</IndustrySubSector>
+								<IndustrySubSector id="3" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>2020</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Commercials and Professional Services</val></IndustrySubSectorName>
+								</IndustrySubSector>
+								<IndustrySubSector id="4" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>2030</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Transportation</val></IndustrySubSectorName>
+								</IndustrySubSector>
+							</IndustrySubSectorList>
+						</IndustrySector>
+						<IndustrySector id="5" hira="1" row_type="data">
+							<IndustrySectorCode><val>40</val></IndustrySectorCode>
+							<IndustrySectorName><val>Financials</val></IndustrySectorName>
+							<IndustrySubSectorList>
+								<IndustrySubSector id="6" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>4010</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Banks</val></IndustrySubSectorName>
+								</IndustrySubSector>
+								<IndustrySubSector id="7" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>4030</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Insurance</val></IndustrySubSectorName>
+								</IndustrySubSector>
+							</IndustrySubSectorList>
+						</IndustrySector>
+						<IndustrySector id="8" hira="1" row_type="data">
+							<IndustrySectorCode><val>45</val></IndustrySectorCode>
+							<IndustrySectorName><val>Information Technology</val></IndustrySectorName>
+							<IndustrySubSectorList>
+							<IndustrySubSector id="9" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>4510</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Software and Services</val></IndustrySubSectorName>
+								</IndustrySubSector>
+								<IndustrySubSector id="10" hira="2" row_type="data">
+									<IndustrySubSectorCode><val>4520</val></IndustrySubSectorCode>
+									<IndustrySubSectorName><val>Technology Hardware</val></IndustrySubSectorName>
+								</IndustrySubSector>
+							</IndustrySubSectorList>
+						</IndustrySector>
+						<IndustrySector id="11" hira="1" row_type="data">
+							<IndustrySectorCode><val>88</val></IndustrySectorCode>
+							<IndustrySectorName><val>Cash</val></IndustrySectorName>
+							<IndustrySubSectorList>
+								<IndustrySubSector id="12" hira="2" row_type="data">
+										<IndustrySubSectorCode><val>8888</val></IndustrySubSectorCode>
+										<IndustrySubSectorName><val>Cash</val></IndustrySubSectorName>
+								</IndustrySubSector>
+							</IndustrySubSectorList>
+						</IndustrySector>						
+						<IndustrySector id="13" hira="1" row_type="data">
+							<IndustrySectorCode><val>99</val></IndustrySectorCode>
+							<IndustrySectorName><val>Managed Fund</val></IndustrySectorName>
+							<IndustrySubSectorList>
+								<IndustrySubSector id="14" hira="2" row_type="data">
+										<IndustrySubSectorCode><val>9999</val></IndustrySubSectorCode>
+										<IndustrySubSectorName><val>Managed Fund</val></IndustrySubSectorName>
+								</IndustrySubSector>
+							</IndustrySubSectorList>
+						</IndustrySector>
+					  </IndustrySectorList>
+					</data>
+				</rep:rep>
+			</SuccessResponse>
+		</ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

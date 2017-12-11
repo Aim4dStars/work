@@ -1,0 +1,34 @@
+<ns2:queryResponse xmlns="http://docs.oasis-open.org/ns/cmis/core/200908/" xmlns:ns2="http://docs.oasis-open.org/ns/cmis/messaging/200908/">
+	<ns2:objects>
+		<ns2:objects>
+			<properties>
+				<propertyId displayName="ID" localName="Id" propertyDefinitionId="cmis:objectId" queryName="cmis:objectId">
+					<value>idd_AF1B3E96-C563-4ECB-AB60-327456BD19E0</value>
+				</propertyId>
+				<propertyString displayName="Relationship Type" localName="PanoramaIPRelationshipType" propertyDefinitionId="PanoramaIPRelationshipType" queryName="PanoramaIPRelationshipType">
+					<value>INVST_MGR</value>
+				</propertyString>
+				<propertyString displayName="Relationship ID" localName="PanoramaIPRelationshipID" propertyDefinitionId="PanoramaIPRelationshipID" queryName="PanoramaIPRelationshipID">
+					<value>217082760</value>
+				</propertyString>
+				<propertyString displayName="Document Title Code" localName="PanoramaIPDocumentTitleCode" propertyDefinitionId="PanoramaIPDocumentTitleCode" queryName="PanoramaIPDocumentTitleCode">
+					<value>IMMODEL</value>
+				</propertyString>
+				<propertyInteger displayName="Content Size" localName="ContentSize" propertyDefinitionId="cmis:contentStreamLength" queryName="cmis:contentStreamLength">
+					<value>134257</value>
+				</propertyInteger>				
+				<propertyDateTime displayName="Start Date" localName="PanoramaIPStartDate" propertyDefinitionId="PanoramaIPStartDate" queryName="PanoramaIPStartDate">
+					<value>2013-06-01T00:00:00.000+11:00</value>
+				</propertyDateTime>				
+				<propertyDateTime displayName="End Date" localName="PanoramaIPEndDate" propertyDefinitionId="PanoramaIPEndDate" queryName="PanoramaIPEndDate">
+					<value>2013-06-30T00:00:00.000+11:00</value>
+				</propertyDateTime>
+				<propertyString displayName="IM Model" localName="PanoramIPModelID" propertyDefinitionId="PanoramIPModelID" queryName="PanoramIPModelID">
+					<value>BTT003TAX</value>
+				</propertyString>
+			</properties>
+		</ns2:objects>
+		<ns2:hasMoreItems>false</ns2:hasMoreItems>
+		<ns2:numItems>1</ns2:numItems>
+	</ns2:objects>
+</ns2:queryResponse>

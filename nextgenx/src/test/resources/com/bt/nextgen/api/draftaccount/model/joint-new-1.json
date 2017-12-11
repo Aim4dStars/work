@@ -1,0 +1,163 @@
+{
+  "accountType": "joint",
+  "version": "1.0.0",
+  "investors": [{
+    "displayTaxOptions": true,
+    "cismandatory": true,
+    "title": "MR",
+    "firstname": "aaa",
+    "middlename": "aaaa",
+    "lastname": "aaaa",
+    "preferredname": "asas",
+    "formername": "",
+    "dateofbirth": "03/03/1989",
+    "gender": "male",
+    "mobile": {
+      "value": "0422323234"
+    },
+    "email": {
+      "value": "mail@email.com"
+    },
+    "preferredcontact": "mobile",
+    "isvalid": true,
+
+    "accountType": "joint",
+    "alternatename": "asasa",
+    "wealthsource": "Additional Sources",
+    "additionalsourceofwealth": "dsdsds",
+    "identitydocument": {
+      "photodocuments": {
+        "passport": {
+          "documentIssuer": "Australia",
+          "issueDate": "01/01/2010",
+          "expiryDate": "02/02/2020",
+          "documentNumber": "weewew",
+          "verificationSource": "certifiedcopy",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    },
+    "resaddress": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "",
+      "streetName": "Dsdsds",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "",
+        "streetName": "Dsdsds",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "163808"
+      }],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "postaladdress": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "",
+      "streetName": "Dsdsds",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "178340",
+      "addressType": "residential",
+      "id": "178340",
+      "existingAddressList": [{
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "",
+        "streetName": "Dsdsds",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "0",
+        "addressType": "residential",
+        "id": "178340"
+      }]
+    },
+    "taxcountry": "AU",
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "fin_busi_provid"
+  }],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [{
+      "paymentSetting": "nopayments",
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Michelle Hicks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Bonus"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "sddss",
+      "bsb": "082124",
+      "accountnumber": "2323232",
+      "nickname": "23232",
+      "directdebitamount": "23.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [{
+        "managedPortfolio": "true",
+        "slidingScaleFeeTier": [{
+          "lowerBound": "0.00",
+          "upperBound": "222222.00",
+          "percentage": "2.00"
+        }, {
+          "lowerBound": "222222.00",
+          "upperBound": "",
+          "percentage": "4.00"
+        }],
+        "label": "Sliding scale fee component"
+      }],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [{
+        "listedSecurities": "0.00",
+        "managedFund": "2.00",
+        "managedPortfolio": "0.00",
+        "termDeposit": "0.00",
+        "cash": "0.00",
+        "label": "Percentage fee component",
+        "valid": false
+      }],
+      "type": "Licensee advice fee"
+    }
+  }
+}

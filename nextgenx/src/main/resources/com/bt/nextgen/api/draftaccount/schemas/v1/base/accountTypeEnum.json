@@ -1,0 +1,19 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type": "string",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.base.AccountTypeEnum",
+  "enum": [
+    "individual",
+    "joint",
+    "company",
+    "individualTrust",
+    "corporateTrust",
+    "newIndividualSMSF",
+    "newCorporateSMSF",
+    "individualSMSF",
+    "corporateSMSF",
+    "superAccumulation",
+    "superPension"
+  ],
+  "description": "account types for advised applications"
+}

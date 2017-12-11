@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_avsr_dshbrd_prd_prddet" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <!-- 2015-10-15 09:30:18.901632000 on NGWU3 by 237276913 -->
+
+    <metadata>
+        <empty_rep><val>true</val></empty_rep>
+        <date_from><val>2014-10-01</val></date_from>
+        <date_to><val>2015-09-30</val></date_to>
+        <current_of_time><val>2015-10-14T22:30:18+11:00</val></current_of_time>
+    </metadata>
+
+    <def>
+        <version>2.0</version>
+        <rep_def>
+            <style>hira</style>
+            <lang id="1">en</lang>
+            <hira_def>
+                <grp_list>
+                    <grp_def>
+                        <name>top</name>
+                        <hira>1</hira>
+                        <has_head>true</has_head>
+                        <has_foot>false</has_foot>
+                    </grp_def>
+                    <grp_def>
+                        <name>period</name>
+                        <hira>2</hira>
+                        <has_head>true</has_head>
+                        <has_foot>false</has_foot>
+                    </grp_def>
+                    <grp_def>
+                        <name>period_det</name>
+                        <hira>3</hira>
+                        <has_head>true</has_head>
+                        <has_foot>false</has_foot>
+                    </grp_def>
+                </grp_list>
+            </hira_def>
+            <row_def>
+                <fld_list>
+                    <fld_def>
+                        <name>dummy</name>
+                        <type>TextFld</type>
+                        <lbl></lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>period_id</name>
+                        <type>NrFld</type>
+                        <lbl>Period</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>period_sop</name>
+                        <type>DateFld</type>
+                        <lbl>Start of Period</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>period_eop</name>
+                        <type>DateFld</type>
+                        <lbl>End of Period</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>obj_cnt</name>
+                        <type>NrFld</type>
+                        <lbl>Active accounts</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>fua</name>
+                        <type>NrFld</type>
+                        <lbl>Funds under administration</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>inflows</name>
+                        <type>NrFld</type>
+                        <lbl>Inflows</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>outflows</name>
+                        <type>NrFld</type>
+                        <lbl>Outflows</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>net_flows</name>
+                        <type>NrFld</type>
+                        <lbl>Net Flows</lbl>
+                    </fld_def>
+                    <fld_def>
+                        <name>fee</name>
+                        <type>NrFld</type>
+                        <lbl>Fees</lbl>
+                    </fld_def>
+
+                </fld_list>
+            </row_def>
+        </rep_def>
+    </def>
+
+    <data>
+        <top>
+            <top_head_list>
+                <top_head id="2-1" row_type="title" hira="0" level="top.head">
+                    <obj_cnt><val>0</val></obj_cnt>
+                    <fua><annot><displ_text></displ_text></annot><val>0</val></fua>
+                    <inflows><annot><displ_text></displ_text></annot><val>0</val></inflows>
+                    <outflows><annot><displ_text></displ_text></annot><val>0</val></outflows>
+                    <fee><annot><displ_text></displ_text></annot><val>0</val></fee>
+                </top_head>
+            </top_head_list>
+        </top>
+
+    </data>
+</rep:rep>

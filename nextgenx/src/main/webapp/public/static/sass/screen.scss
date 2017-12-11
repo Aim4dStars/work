@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* 
+
+#Screen
+
+Screen file is to import all elmements for the desktop version of application
+
+*/
+
+//Import first
+
+@import
+        "core/variables",
+		"core/colours",
+        "plugins/bourbon/bourbon",  
+		"core/global";
+
+// import Icons and font types
+@import
+        "icons/_font-icon",
+        "icons/_icons";
+
+@import
+
+	"core/grid-settings",
+	"plugins/neat/neat",	
+	"core/typography",
+	"core/messages",    
+	"core/layout",
+	"core/forms",   
+	"core/styles",
+	"core/action",
+	"core/accessibility",
+	"widgets/core",
+    "widgets/_mask",
+    "widgets/tools";
+
+// import widgets
+@import
+
+
+	"widgets/tools",
+	"widgets/table/widget_table",  
+	"widgets/wizard/_wizard.scss", 
+	"widgets/accordion/_widget_accordion";
+
+// Browser hacks
+
+@import
+  "browsers/webkit";
+
+
+// import badge
+ 
+@import 
+	"badge/badge";
+
+
+

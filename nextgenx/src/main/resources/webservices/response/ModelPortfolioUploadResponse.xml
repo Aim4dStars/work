@@ -1,0 +1,47 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<!-- 2014-10-20T06:18:38.500354000Z on AF217J by 201633850 -->
+<mp_cton:mp_cton_rsp xmlns:mp_cton="http://btfin.com/ABS/TrxService/MP_Cton/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>mp024</req_id>
+  </hdr>
+  <data>
+  	<wfc_status><val>ok</val></wfc_status>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+      <err_list>
+        <err>
+          <type>ui</type>
+          <id>10059</id>
+          <extl_key>btfg$inv_asset_code</extl_key>
+          <err_msg>Invalid asset code: QWERTY</err_msg>
+          <err_par_list>
+            <par_list>
+              <par>
+                <val>QWERTY</val>
+              </par>
+            </par_list>
+          </err_par_list>
+        </err>
+        <err>
+          <type>ui</type>
+          <id>10059</id>
+          <extl_key>btfg$asset_alloc_asset_class_chk</extl_key>
+          <err_msg>asset class error</err_msg>
+          <err_par_list/>
+        </err>
+      </err_list>
+    </exec>
+  </rsp>
+</mp_cton:mp_cton_rsp>
+		</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

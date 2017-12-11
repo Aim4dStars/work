@@ -1,0 +1,100 @@
+{
+  "formData": {
+    "version": "1.0.0",
+    "accountType": "individual",
+    "investors": [
+      {
+        "displayTaxOptions": true,
+        "cismandatory": true,
+        "title": "MR",
+        "firstname": "Test",
+        "middlename": "",
+        "lastname": "smith",
+        "preferredname": "",
+        "formername": "",
+        "dateofbirth": "10/10/1990",
+        "gender": "male",
+        "mobile": {
+          "value": "0566677767"
+        },
+        "email": {
+          "value": "test@smith.com"
+        },
+        "preferredcontact": "mobile",
+        "isvalid": false,
+        "accountType": "individual",
+        "alternatename": "",
+        "wealthsource": "Business profits",
+        "sameasresaddress": "true",
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "ACT",
+              "expiryDate": "10/10/2019",
+              "documentNumber": "3234",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        },
+        "resaddressv2": {
+          "country": "AU",
+          "addressType": "residential",
+          "DisplayText": "2 Bellbrook Avenue, BELLMERE  QLD  4510",
+          "AddressIdentifier": "09OAUEHgveBwAAAAAIAgEAAAAA6inJEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyIGJlbGxicm9vawA-",
+          "valid": true
+        },
+        "postaladdressv2": {
+          "country": "AU",
+          "addressType": "residential",
+          "DisplayText": "2 Bellbrook Avenue, BELLMERE  QLD  4510",
+          "AddressIdentifier": "09OAUEHgveBwAAAAAIAgEAAAAA6inJEAAhAA4AAAAAAAAAAAD..2QAAAAA.....wAAAAAAAAAAAAAAAAAyIGJlbGxicm9vawA-",
+          "valid": true
+        },
+        "taxcountry": "AU",
+        "taxoption": "Tax File Number provided",
+        "tfn": "11111111"
+      }
+    ],
+    "accountsettings": {
+      "professionalspayment": "allpayments",
+      "investorAccountSettings": [
+        {
+          "paymentSetting": "nopayments",
+          "hasRoles": false,
+          "hasApprovers": false
+        }
+      ],
+      "primarycontact": 0,
+      "adviserName": "Edward Revis",
+      "adviserLocation": "New South Wales",
+      "sourceoffunds": "Bonus",
+      "powerofattorney": true
+    },
+    "linkedaccounts": {
+      "primaryLinkedAccount": {
+        "accountname": "test",
+        "bsb": "062000",
+        "accountnumber": "5325232",
+        "nickname": "",
+        "bsbValidationResultVal": true
+      },
+      "otherLinkedAccount": []
+    },
+    "fees": {
+      "estamount": "0.00",
+      "ongoingFees": {
+        "feesComponent": [],
+        "type": "Ongoing advice fee"
+      }
+    }
+  },
+  "key": {
+    "clientApplicationKey": 7070
+  },
+  "status": "draft",
+  "productId": "7C3649FEB369A66B43BA2BFC85DDCC45BE3EB4B303F788EB",
+  "adviserId": "2165C6C89EE6ED15ED9F13032560C55CE963F2C5F12D747C"
+}

@@ -1,0 +1,100 @@
+<soap-env:Envelope xmlns:soap-env="http://www.w3.org/2003/05/soap-envelope">
+  <soap-env:Header>
+    <wsse:Security soap-env:mustUnderstand="true" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+      <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="CertId-71538238" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">MIIHiDCCBnCgAwIBAgIKFbWlUQABAAAeQzANBgkqhkiG9w0BAQUFADCBmzELMAkGA1UEBhMCQVUx
+        DDAKBgNVBAgTA05TVzEPMA0GA1UEBxMGU3lkbmV5MSQwIgYDVQQKExtXZXN0cGFjIEJhbmtpbmcg
+        Q29ycG9yYXRpb24xLjAsBgNVBAsTJURpZ2l0YWwgQ2VydGlmaWNhdGUgU2VydmljZXMgU2VjdXJp
+        dHkxFzAVBgNVBAMTDldlc3RwYWMgU1NMIENBMB4XDTE0MDgyMjEwMzkwNFoXDTE2MDgyMTEwMzkw
+        NFowgZMxCzAJBgNVBAYTAkFVMQwwCgYDVQQIEwNOU1cxDzANBgNVBAcTBlN5ZG5leTEkMCIGA1UE
+        ChMbV2VzdHBhYyBCYW5raW5nIENvcnBvcmF0aW9uMR4wHAYDVQQLExVCVCBGaW5hbmNpYWwgU2Vy
+        dmljZXMxHzAdBgNVBAMMFlNSVkNfSUNDX0RFVkBidGZpbi5jb20wgZ8wDQYJKoZIhvcNAQEBBQAD
+        gY0AMIGJAoGBAL3v+UnkYw/ADkGHNqXxqeLXTK6k1eBQMGPpYtRMjkCz+ufA1hbO1Ta0eo2wXTXW
+        owStkMnQnp2P7LhwbTyn+hGySINuM4ysVYnfWmm5WzH3Zf4TCaS3IyCvTP0DwgBAJ3cpP4CkyDVw
+        OMoire0tSoMZfORzAiluVKj9i1hrbXD3AgMBAAGjggRWMIIEUjAfBgNVHSMEGDAWgBTXVgDVvVJC
+        5Ua4vK/UXt0hZbrnoDCCATwGA1UdHwSCATMwggEvMIIBK6CCASegggEjhlFodHRwOi8vd2JjY2Eu
+        cGtpLnNydi53ZXN0cGFjLmNvbS5hdS9DRFAvV2VzdHBhYyUyMFNTTCUyMENBL1dlc3RwYWMlMjBT
+        U0wlMjBDQS5jcmyGgc1sZGFwOi8vL0NOPVdlc3RwYWMlMjBTU0wlMjBDQSxDTj1BVTIwMDRWUDA1
+        NTUsQ049Q0RQLENOPVB1YmxpYyUyMEtleSUyMFNlcnZpY2VzLENOPVNlcnZpY2VzLENOPUNvbmZp
+        Z3VyYXRpb24sREM9d2JjYXUsREM9d2VzdHBhYyxEQz1jb20sREM9YXU/Y2VydGlmaWNhdGVSZXZv
+        Y2F0aW9uTGlzdD9iYXNlP29iamVjdENsYXNzPWNSTERpc3RyaWJ1dGlvblBvaW50MIIBNwYIKwYB
+        BQUHAQEEggEpMIIBJTBgBggrBgEFBQcwAoZUaHR0cDovL3diY2NhLnBraS5zcnYud2VzdHBhYy5j
+        b20uYXUvQUlBL1dlc3RwYWMlMjBTU0wlMjBDQS9XZXN0cGFjJTIwU1NMJTIwQ0EoMSkuY3J0MIHA
+        BggrBgEFBQcwAoaBs2xkYXA6Ly8vQ049V2VzdHBhYyUyMFNTTCUyMENBLENOPUFJQSxDTj1QdWJs
+        aWMlMjBLZXklMjBTZXJ2aWNlcyxDTj1TZXJ2aWNlcyxDTj1Db25maWd1cmF0aW9uLERDPXdiY2F1
+        LERDPXdlc3RwYWMsREM9Y29tLERDPWF1P2NBQ2VydGlmaWNhdGU/YmFzZT9vYmplY3RDbGFzcz1j
+        ZXJ0aWZpY2F0aW9uQXV0aG9yaXR5MAsGA1UdDwQEAwIFoDA8BgkrBgEEAYI3FQcELzAtBiUrBgEE
+        AYI3FQiF3rMl4IULgtGNKYfK4XrH/BOBWIWli3SBweIPAgFkAgEFMB0GA1UdJQQWMBQGCCsGAQUF
+        BwMBBggrBgEFBQcDAjCCAR8GA1UdIASCARYwggESMFwGDCsGAQQBnBOHaAEBATBMMEoGCCsGAQUF
+        BwIBFj5odHRwOi8vd2JjY2EucGtpLnNydi53ZXN0cGFjLmNvbS5hdS9XZXN0cGFjUG9saWN5L1dC
+        Q19JVFNQLnBkZjBWBgwrBgEEAZwTh2gBAQMwRjBEBggrBgEFBQcCARY4aHR0cDovL3diY2NhLnNy
+        di53ZXN0cGFjLmNvbS5hdS9XZXN0cGFjUG9saWN5L1dCQ19DUC5wZGYwWgYLKwYBBAGcE4doAgIw
+        SzBJBggrBgEFBQcCARY9aHR0cDovL3diY2NhLnBraS5zcnYud2VzdHBhYy5jb20uYXUvV2VzdHBh
+        Y1BvbGljeS9XQkNfQ1BTLnBkZjAnBgkrBgEEAYI3FQoEGjAYMAoGCCsGAQUFBwMBMAoGCCsGAQUF
+        BwMCMA0GCSqGSIb3DQEBBQUAA4IBAQC6RGRaka9mo6t2fmkI7X+hSbHVRUpBkLyVQW26iLDB7T5u
+        4gSKDF91LhrzmBUyR9oEvHcKwuHUNc/ip7uxAfxLfe77+4xJFCnpWtjfRmV+kUBEJ8CO9uK1Tkg6
+        yL0tQJwAqTTuRulQFhIcWjwB2bbaj2NzofOiSzva468My2BhMXAFyY8HSJXeW2I9Ep+9x1TiOEuk
+        Eey9VXSRLem9a6OwnxWEG+WIhTYJhKfTudoDzuT4vPjhvPVVP8KeLfdL9uBBR4GZN4NY+eag64oY
+        i69YuajkE491Zq3MXpnVoclrzV/xIm2U2xUs0d0KeNLXElYkn4UPlwdaOB9orcSHiaEp</wsse:BinarySecurityToken>
+      <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+          <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+          <ds:Reference URI="#id-1412346587">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <ds:DigestValue>Ja0rrQBsjZIDGcETA3dfB8mYzSs=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-1172337418">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+            <ds:DigestValue>1oD1r74I5LkpcLiwXf+86IUeN78=</ds:DigestValue>
+          </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>nyf/3slPGnYy9AzWcuQYtUw1IA7lixZs7AGUu+t5nCw18O4OvxeMhsokIfJNgws4hcFQH2x2CrlG
+          3x99+yozG9ZcMDGcHQw+F0DAy1pa7XSUBT29WEAi5DiUWkqSgUm5YL3J3fTzAjJ8wn88KEqcWF36
+          0OWR0jG7I62k3YKiRZw=</ds:SignatureValue>
+        <ds:KeyInfo Id="KeyId-906657899">
+          <wsse:SecurityTokenReference wsu:Id="STRId-1262051766" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:Reference URI="#CertId-71538238" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+          </wsse:SecurityTokenReference>
+        </ds:KeyInfo>
+      </ds:Signature>
+      <wsu:Timestamp wsu:Id="id-1412346587" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+        <wsu:Created>2016-05-15T23:28:05.672Z</wsu:Created>
+        <wsu:Expires>2016-05-15T23:29:05.672Z</wsu:Expires>
+      </wsu:Timestamp>
+    </wsse:Security>
+  </soap-env:Header>
+  <soap-env:Body wsu:Id="id-1172337418" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <ns1:SearchAccessibleAccountsResponseMsg xmlns:ns0="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="ns://btfin.com/Product/Common/InvestmentAccount/InvestmentAccountService/InvestmentAccountReply/V1_0">
+      <Context>
+        <Version>1_0</Version>
+        <TrackingID>dcd6c6a5-532b-488c-88c4-221743609002</TrackingID>
+        <RequestReceivedDateTime>2016-07-01T12:41:23.387+10:00</RequestReceivedDateTime>
+        <ResponseSentDateTime>2016-07-01T12:41:23.465+10:00</ResponseSentDateTime>
+        <Redelivered>false</Redelivered>
+      </Context>
+      <Status>Success</Status>
+      <ResponseDetails>
+        <ResponseDetail>
+          <SuccessResponse>
+            <AccessibleAccounts>
+              <AccessibleAccount>
+                <AccountID>F0484682</AccountID>
+                <AccountIDIssuer>WRAP</AccountIDIssuer>
+                <AccountName>Andrew Souter at GPS Wealth Ltd</AccountName>
+                <AccountPermissions>
+                  <AccountPermission>submit-app</AccountPermission>
+                </AccountPermissions>
+              </AccessibleAccount>
+            </AccessibleAccounts>
+          </SuccessResponse>
+        </ResponseDetail>
+      </ResponseDetails>
+    </ns1:SearchAccessibleAccountsResponseMsg>
+  </soap-env:Body>
+</soap-env:Envelope>

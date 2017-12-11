@@ -1,0 +1,264 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_dg#avsr_evt_rcti" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <!-- 2017-03-24 17:54:01.718712000 on afp010m by AVALOQ -->
+
+                        <metadata>
+                            <empty_rep>
+                                <val>false</val>
+                            </empty_rep>
+                            <current_of_time>
+                                <val>2017-03-24T06:54:01+11:00</val>
+                            </current_of_time>
+                        </metadata>
+
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>hira</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>bp</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                        <grp_def>
+                                            <name>order_type</name>
+                                            <hira>2</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                        <grp_def>
+                                            <name>evt</name>
+                                            <hira>3</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>supl</name>
+                                            <type>TextFld</type>
+                                            <lbl>Supplier</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>supl_addr</name>
+                                            <type>TextFld</type>
+                                            <lbl>Supplier Address</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>supl_abn</name>
+                                            <type>TextFld</type>
+                                            <lbl>Supplier ABN</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>recp</name>
+                                            <type>TextFld</type>
+                                            <lbl>Recipient</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>recp_addr</name>
+                                            <type>TextFld</type>
+                                            <lbl>Recipient Address</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>recp_abn</name>
+                                            <type>TextFld</type>
+                                            <lbl>Recipient ABN</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>doc_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Order ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>order_type_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>LABEL.ORDER_TYPE</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>invc_date</name>
+                                            <type>DateFld</type>
+                                            <lbl>Invoice date</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>vat</name>
+                                            <type>NrFld</type>
+                                            <lbl>GST</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>net</name>
+                                            <type>NrFld</type>
+                                            <lbl>Fee Excl. GST</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>gross</name>
+                                            <type>NrFld</type>
+                                            <lbl>Fee Incl. GST</lbl>
+                                        </fld_def>
+
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+
+                        <data>
+                            <bp_list>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="2-1" row_type="title" hira="1" level="bp.head">
+                                            <supl>
+                                                <annot>
+                                                    <ctx>
+                                                        <type>person</type>
+                                                        <id>10505</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>L Westpac Financial Planning (Private Bank)</val>
+                                            </supl>
+                                            <supl_addr>
+                                                <annot>
+                                                    <ctx>
+                                                        <type>addr</type>
+                                                        <id>10484</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>FL 8 33 Pitt St Sydney NSW 2000 AUSTRALIA</val>
+                                            </supl_addr>
+                                            <supl_abn>
+                                                <val>12004044937</val>
+                                            </supl_abn>
+                                            <recp>
+                                                <annot>
+                                                    <ctx>
+                                                        <type>person</type>
+                                                        <id>10502</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>L BT Funds Management Limited</val>
+                                            </recp>
+                                            <recp_addr>
+                                                <annot>
+                                                    <ctx>
+                                                        <type>addr</type>
+                                                        <id>10483</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>FL 8 33 Pitt St Sydney NSW 2000 AUSTRALIA</val>
+                                            </recp_addr>
+                                            <recp_abn>
+                                                <val>12004044937</val>
+                                            </recp_abn>
+                                            <vat>
+                                                <annot>
+                                                    <displ_text/>
+                                                </annot>
+                                                <val>.91</val>
+                                            </vat>
+                                            <net>
+                                                <annot>
+                                                    <displ_text/>
+                                                </annot>
+                                                <val>9.09</val>
+                                            </net>
+                                            <gross>
+                                                <annot>
+                                                    <displ_text/>
+                                                </annot>
+                                                <val>10</val>
+                                            </gross>
+                                        </bp_head>
+                                    </bp_head_list>
+                                    <order_type_list>
+                                        <order_type>
+                                            <order_type_head_list>
+                                                <order_type_head id="4-2" row_type="subtitle" hira="2" level="order_type.head">
+                                                    <order_type_id>
+                                                        <annot>
+                                                            <displ_text>One-off advice fee</displ_text>
+                                                            <ctx>
+                                                                <type>code_order_type</type>
+                                                                <id>1054</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>1054</val>
+                                                    </order_type_id>
+                                                    <vat>
+                                                        <annot>
+                                                            <displ_text/>
+                                                        </annot>
+                                                        <val>.91</val>
+                                                    </vat>
+                                                    <net>
+                                                        <annot>
+                                                            <displ_text/>
+                                                        </annot>
+                                                        <val>9.09</val>
+                                                    </net>
+                                                    <gross>
+                                                        <annot>
+                                                            <displ_text/>
+                                                        </annot>
+                                                        <val>10</val>
+                                                    </gross>
+                                                </order_type_head>
+                                            </order_type_head_list>
+                                            <evt_list>
+                                                <evt>
+                                                    <evt_head_list>
+                                                        <evt_head id="6-3" row_type="data" hira="3" level="evt.head">
+                                                            <doc_id>
+                                                                <annot>
+                                                                    <ctx>
+                                                                        <type>doc</type>
+                                                                        <id>7338684</id>
+                                                                    </ctx>
+                                                                </annot>
+                                                                <val>7338684</val>
+                                                            </doc_id>
+                                                            <invc_date>
+                                                                <val>2017-06-07</val>
+                                                            </invc_date>
+                                                            <vat>
+                                                                <annot>
+                                                                    <displ_text/>
+                                                                </annot>
+                                                                <val>.91</val>
+                                                            </vat>
+                                                            <net>
+                                                                <annot>
+                                                                    <displ_text/>
+                                                                </annot>
+                                                                <val>9.09</val>
+                                                            </net>
+                                                            <gross>
+                                                                <annot>
+                                                                    <displ_text/>
+                                                                </annot>
+                                                                <val>10</val>
+                                                            </gross>
+                                                        </evt_head>
+                                                    </evt_head_list>
+                                                </evt>
+                                            </evt_list>
+                                        </order_type>
+                                    </order_type_list>
+                                </bp>
+                            </bp_list>
+
+                        </data>
+                    </rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

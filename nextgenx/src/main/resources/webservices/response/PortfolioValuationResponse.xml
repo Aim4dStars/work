@@ -1,0 +1,808 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_portf_val" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<!-- 2014-05-26 19:51:27.818969000 on NGWD2 by AVALOQ -->
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>flat</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>report</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>top</name>
+						<hira>2</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>bp</name>
+						<hira>3</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>pos</name>
+						<hira>4</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>name</name>
+						<type>TextFld</type>
+						<lbl>Position</lbl>
+					</fld_def>
+					<fld_def>
+						<name>account_id</name>
+						<type>NrFld</type>
+						<lbl>Account ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>account_type</name>
+						<type>TextFld</type>
+						<lbl>Account Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset</name>
+						<type>TextFld</type>
+						<lbl>Product Long Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>avsr_fname</name>
+						<type>TextFld</type>
+						<lbl>Adviser First Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>avsr_lname</name>
+						<type>TextFld</type>
+						<lbl>Adviser Last Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>acc_owners</name>
+						<type>TextFld</type>
+						<lbl>Account Holders</lbl>
+					</fld_def>
+					<fld_def>
+						<name>pri_ctact_person</name>
+						<type>TextFld</type>
+						<lbl>Primary Contact</lbl>
+					</fld_def>
+					<fld_def>
+						<name>phone_nr</name>
+						<type>TextFld</type>
+						<lbl>Primary Contact - Phone Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>email_add</name>
+						<type>TextFld</type>
+						<lbl>Primary Contact - Email Address</lbl>
+					</fld_def>
+					<fld_def>
+						<name>address</name>
+						<type>TextFld</type>
+						<lbl>Primary Contact - Residential Address</lbl>
+					</fld_def>
+					<fld_def>
+						<name>portf_val</name>
+						<type>NrFld</type>
+						<lbl>Portfolio Value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cont_type</name>
+						<type>TextFld</type>
+						<lbl>Container Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>pos_asset_type</name>
+						<type>TextFld</type>
+						<lbl>Position Asset Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>macc_bsb</name>
+						<type>TextFld</type>
+						<lbl>BSB</lbl>
+					</fld_def>
+					<fld_def>
+						<name>macc_bcode</name>
+						<type>TextFld</type>
+						<lbl>Biller Code</lbl>
+					</fld_def>
+					<fld_def>
+						<name>macc_crn</name>
+						<type>NrFld</type>
+						<lbl>Sort Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>macc_nr</name>
+						<type>NrFld</type>
+						<lbl>Account Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>macc_avl_cash_bal</name>
+						<type>NrFld</type>
+						<lbl>Available Cash Balance in Money Account</lbl>
+					</fld_def>
+					<fld_def>
+						<name>macc_tot_cash_bal</name>
+						<type>NrFld</type>
+						<lbl>Total Cash Balance in Money Account</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tot_intr_rate</name>
+						<type>NrFld</type>
+						<lbl>MACC Interest Rate</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_issuer_name</name>
+						<type>TextFld</type>
+						<lbl>Asset Issuer Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>td_state</name>
+						<type>TextFld</type>
+						<lbl>TD State</lbl>
+					</fld_def>
+					<fld_def>
+						<name>td_reg_date</name>
+						<type>DateFld</type>
+						<lbl>TD Registration Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_tenure</name>
+						<type>TextFld</type>
+						<lbl>Asset Tenure</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_rate</name>
+						<type>NrFld</type>
+						<lbl>Asset Rate</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_maturity</name>
+						<type>DateFld</type>
+						<lbl>Asset Maturity Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>intr_pay_freq</name>
+						<type>TextFld</type>
+						<lbl>Interest Payment Frequency</lbl>
+					</fld_def>
+					<fld_def>
+						<name>intr_paid</name>
+						<type>NrFld</type>
+						<lbl>Interest Paid</lbl>
+					</fld_def>
+					<fld_def>
+						<name>prpl</name>
+						<type>NrFld</type>
+						<lbl>Principal</lbl>
+					</fld_def>
+					<fld_def>
+						<name>portf_reg_date</name>
+						<type>DateFld</type>
+						<lbl>Portfolio Registered Date</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+	<data>
+		<report>
+			<report_head_list>
+				<report_head id="1" row_type="data" hira="0" level="report.head">
+					<name>
+						<val>Position List (Extended): Web UI - Portfolio Valuation</val>
+					</name>
+				</report_head>
+				<report_head id="2" row_type="data" hira="0" level="report.head">
+					<name>
+						<val>In AUD as of 26.02.2014</val>
+					</name>
+				</report_head>
+			</report_head_list>
+			<top>
+				<top_head_list>
+					<top_head id="3" row_type="data" hira="0" level="top.head">
+						<name>
+							<val>Grand total</val>
+						</name>
+						<portf_val>
+							<annot>
+								<displ_text>50,000,000.00</displ_text>
+							</annot>
+							<val>50000000</val>
+						</portf_val>
+					</top_head>
+				</top_head_list>
+				<bp_list>
+					<bp>
+						<bp_head_list>
+							<bp_head id="4" row_type="data" hira="0" level="bp.head">
+								<name>
+									<annot>
+										<ctx>
+											<type>bp</type>
+											<id>36846</id>
+										</ctx>
+									</annot>
+									<val>CUSTR Adrian Demo Smith</val>
+								</name>
+								<account_id>
+									<val>120000054</val>
+								</account_id>
+								<account_type>
+									<val>Customer</val>
+								</account_type>
+								<avsr_fname>
+									<annot>
+										<ctx>
+											<type>person</type>
+											<id>29502</id>
+										</ctx>
+									</annot>
+									<val>person-120_73</val>
+								</avsr_fname>
+								<avsr_lname>
+									<val>person-120_73</val>
+								</avsr_lname>
+								<acc_owners>
+									<val>Adrian Demo Smith</val>
+								</acc_owners>
+								<pri_ctact_person>
+									<annot>
+										<ctx>
+											<type>person</type>
+											<id>36845</id>
+										</ctx>
+									</annot>
+									<val>Adrian Demo Smith</val>
+								</pri_ctact_person>
+								<address>
+									<val>275 Kent St
+Sydney NSW 2000
+AUSTRALIA</val>
+								</address>
+								<portf_val>
+									<annot>
+										<displ_text>50,000,000.00</displ_text>
+									</annot>
+									<val>50000000</val>
+								</portf_val>
+							</bp_head>
+						</bp_head_list>
+						<pos_list>
+							<pos>
+								<pos_head_list>
+									<pos_head id="5" row_type="data" hira="0" level="pos.head">
+										<name>
+											<annot>
+												<ctx>
+													<type>pos</type>
+													<id>36851</id>
+												</ctx>
+											</annot>
+											<val>CLT.01.PORTF_CASH CACC AUD 120000054</val>
+										</name>
+										<asset>
+											<annot>
+												<ctx>
+													<type>asset</type>
+													<id>10757</id>
+												</ctx>
+											</annot>
+											<val>Current account AUD</val>
+										</asset>
+										<portf_val>
+											<annot>
+												<displ_text>50,000,000.00</displ_text>
+											</annot>
+											<val>49746224</val>
+										</portf_val>
+										<cont_type>
+											<val>Cash Portfolio</val>
+										</cont_type>
+										<pos_asset_type>
+											<annot>
+												<ctx>
+													<type>code_obj_class</type>
+													<id>12002</id>
+												</ctx>
+											</annot>
+											<val>Money account</val>
+										</pos_asset_type>
+										<macc_bsb>
+											<val>262786</val>
+										</macc_bsb>
+										<macc_bcode>
+											<val>220186</val>
+										</macc_bcode>
+										<macc_crn>
+											<val>120000054</val>
+										</macc_crn>
+										<macc_nr>
+											<val>120000054</val>
+										</macc_nr>
+										<macc_avl_cash_bal>
+											<annot>
+												<displ_text>49,291,224.00</displ_text>
+											</annot>
+											<val>49291224</val>
+										</macc_avl_cash_bal>
+										<macc_tot_cash_bal>
+											<annot>
+												<displ_text>49,746,224.00</displ_text>
+											</annot>
+											<val>49746224</val>
+										</macc_tot_cash_bal>
+										<tot_intr_rate>
+											<annot>
+												<displ_text>1.50</displ_text>
+											</annot>
+											<val>1.5</val>
+										</tot_intr_rate>
+										<asset_issuer_name>
+											<annot>
+												<ctx>
+													<type>bp</type>
+													<id>1</id>
+												</ctx>
+											</annot>
+											<val>1</val>
+										</asset_issuer_name>
+										<intr_pay_freq>
+											<annot>
+												<ctx>
+													<type>code_period</type>
+													<id>3</id>
+												</ctx>
+											</annot>
+											<val>Monthly</val>
+										</intr_pay_freq>
+										<portf_reg_date>
+											<annot>
+												<displ_text>24/02/2014</displ_text>
+											</annot>
+											<val>2014-02-24</val>
+										</portf_reg_date>
+									</pos_head>
+								</pos_head_list>
+							</pos>
+							<pos>
+								<pos_head_list>
+									<pos_head id="6" row_type="data" hira="0" level="pos.head">
+										<name>
+											<annot>
+												<ctx>
+													<type>pos</type>
+													<id>40127</id>
+												</ctx>
+											</annot>
+											<val>CLT.01.MP CACC AUD 120000054.01</val>
+										</name>
+										<asset>
+											<annot>
+												<ctx>
+													<type>asset</type>
+													<id>35168</id>
+												</ctx>
+											</annot>
+											<val>CACC AUD</val>
+										</asset>
+										<portf_val>
+											<annot>
+												<displ_text>50,000,000.00</displ_text>
+											</annot>
+											<val>32322</val>
+										</portf_val>
+										<pos_asset_type>
+											<annot>
+												<ctx>
+													<type>code_obj_class</type>
+													<id>12002</id>
+												</ctx>
+											</annot>
+											<val>Money account</val>
+										</pos_asset_type>
+										<macc_bsb>
+											<val>262786</val>
+										</macc_bsb>
+										<macc_bcode>
+											<val>220186</val>
+										</macc_bcode>
+										<macc_crn>
+											<val>120000054.01</val>
+										</macc_crn>
+										<macc_nr>
+											<val>120000054.01</val>
+										</macc_nr>
+										<macc_avl_cash_bal>
+											<annot>
+												<displ_text>2,857.18</displ_text>
+											</annot>
+											<val>2857.18</val>
+										</macc_avl_cash_bal>
+										<macc_tot_cash_bal>
+											<annot>
+												<displ_text>32,322.00</displ_text>
+											</annot>
+											<val>32322</val>
+										</macc_tot_cash_bal>
+										<tot_intr_rate>
+											<annot>
+												<displ_text/>
+											</annot>
+											<val>0</val>
+										</tot_intr_rate>
+										<asset_issuer_name>
+											<annot>
+												<ctx>
+													<type>bp</type>
+													<id>1</id>
+												</ctx>
+											</annot>
+											<val>1</val>
+										</asset_issuer_name>
+										<intr_pay_freq>
+											<annot>
+												<ctx>
+													<type>code_period</type>
+													<id>3</id>
+												</ctx>
+											</annot>
+											<val>Monthly</val>
+										</intr_pay_freq>
+										<portf_reg_date>
+											<annot>
+												<displ_text>24/02/2014</displ_text>
+											</annot>
+											<val>2014-02-24</val>
+										</portf_reg_date>
+									</pos_head>
+								</pos_head_list>
+							</pos>
+							<pos>
+								<pos_head_list>
+									<pos_head id="7" row_type="data" hira="0" level="pos.head">
+										<name>
+											<annot>
+												<ctx>
+													<type>pos</type>
+													<id>40164</id>
+												</ctx>
+											</annot>
+											<val>CLT.01.MP.2 CACC AUD 120000054.02</val>
+										</name>
+										<asset>
+											<annot>
+												<ctx>
+													<type>asset</type>
+													<id>35168</id>
+												</ctx>
+											</annot>
+											<val>CACC AUD</val>
+										</asset>
+										<portf_val>
+											<annot>
+												<displ_text>50,000,000.00</displ_text>
+											</annot>
+											<val>121454</val>
+										</portf_val>
+										<pos_asset_type>
+											<annot>
+												<ctx>
+													<type>code_obj_class</type>
+													<id>12002</id>
+												</ctx>
+											</annot>
+											<val>Money account</val>
+										</pos_asset_type>
+										<macc_bsb>
+											<val>262786</val>
+										</macc_bsb>
+										<macc_bcode>
+											<val>220186</val>
+										</macc_bcode>
+										<macc_crn>
+											<val>120000054.02</val>
+										</macc_crn>
+										<macc_nr>
+											<val>120000054.02</val>
+										</macc_nr>
+										<macc_avl_cash_bal>
+											<annot>
+												<displ_text>3,865.95</displ_text>
+											</annot>
+											<val>3865.95</val>
+										</macc_avl_cash_bal>
+										<macc_tot_cash_bal>
+											<annot>
+												<displ_text>121,454.00</displ_text>
+											</annot>
+											<val>121454</val>
+										</macc_tot_cash_bal>
+										<tot_intr_rate>
+											<annot>
+												<displ_text/>
+											</annot>
+											<val>0</val>
+										</tot_intr_rate>
+										<asset_issuer_name>
+											<annot>
+												<ctx>
+													<type>bp</type>
+													<id>1</id>
+												</ctx>
+											</annot>
+											<val>1</val>
+										</asset_issuer_name>
+										<intr_pay_freq>
+											<annot>
+												<ctx>
+													<type>code_period</type>
+													<id>3</id>
+												</ctx>
+											</annot>
+											<val>Monthly</val>
+										</intr_pay_freq>
+										<portf_reg_date>
+											<annot>
+												<displ_text>24/02/2014</displ_text>
+											</annot>
+											<val>2014-02-24</val>
+										</portf_reg_date>
+									</pos_head>
+								</pos_head_list>
+							</pos>
+							<pos>
+								<pos_head_list>
+									<pos_head id="8" row_type="data" hira="0" level="pos.head">
+										<name>
+											<annot>
+												<ctx>
+													<type>pos</type>
+													<id>40200</id>
+												</ctx>
+											</annot>
+											<val>CLT.01.MP.3 CACC AUD 120000054.03</val>
+										</name>
+										<asset>
+											<annot>
+												<ctx>
+													<type>asset</type>
+													<id>35168</id>
+												</ctx>
+											</annot>
+											<val>CACC AUD</val>
+										</asset>
+										<portf_val>
+											<annot>
+												<displ_text>50,000,000.00</displ_text>
+											</annot>
+											<val>100000</val>
+										</portf_val>
+										<pos_asset_type>
+											<annot>
+												<ctx>
+													<type>code_obj_class</type>
+													<id>12002</id>
+												</ctx>
+											</annot>
+											<val>Money account</val>
+										</pos_asset_type>
+										<macc_bsb>
+											<val>262786</val>
+										</macc_bsb>
+										<macc_bcode>
+											<val>220186</val>
+										</macc_bcode>
+										<macc_crn>
+											<val>120000054.03</val>
+										</macc_crn>
+										<macc_nr>
+											<val>120000054.03</val>
+										</macc_nr>
+										<macc_avl_cash_bal>
+											<annot>
+												<displ_text>2,406.00</displ_text>
+											</annot>
+											<val>2406</val>
+										</macc_avl_cash_bal>
+										<macc_tot_cash_bal>
+											<annot>
+												<displ_text>100,000.00</displ_text>
+											</annot>
+											<val>100000</val>
+										</macc_tot_cash_bal>
+										<tot_intr_rate>
+											<annot>
+												<displ_text/>
+											</annot>
+											<val>0</val>
+										</tot_intr_rate>
+										<asset_issuer_name>
+											<annot>
+												<ctx>
+													<type>bp</type>
+													<id>1</id>
+												</ctx>
+											</annot>
+											<val>1</val>
+										</asset_issuer_name>
+										<intr_pay_freq>
+											<annot>
+												<ctx>
+													<type>code_period</type>
+													<id>3</id>
+												</ctx>
+											</annot>
+											<val>Monthly</val>
+										</intr_pay_freq>
+										<portf_reg_date>
+											<annot>
+												<displ_text>24/02/2014</displ_text>
+											</annot>
+											<val>2014-02-24</val>
+										</portf_reg_date>
+									</pos_head>
+								</pos_head_list>
+							</pos>
+							<pos>
+								<pos_head_list>
+									<pos_head id="8" row_type="data" hira="2" level="pos.head">
+										<!-- this pos is constructed, not obtained from avaloq-->
+										<name>
+											<annot>
+												<ctx>
+													<type>pos</type>
+													<id>14438</id>
+												</ctx>
+											</annot>
+											<val>CLT.01.2 BSA Term Deposit AUD 3M Intr Pay on Maturity 3.1%, 17.04.2012-17.07.2012</val>
+										</name>
+										<asset>
+											<annot>
+												<ctx>
+													<type>asset</type>
+													<id>14433</id>
+												</ctx>
+											</annot>
+											<val>BSA Term Deposit AUD 3M Intr Pay on Maturity 3.1%, 17.04.2012-17.07.2012</val>
+										</asset>
+										<portf_val>
+											<val>5000.42</val>
+										</portf_val>
+										<cont_type>
+											<val>TD Portfolio</val>
+										</cont_type>
+										<pos_asset_type>
+											<annot>
+												<ctx>
+													<type>code_obj_class</type>
+													<id>12008</id>
+												</ctx>
+											</annot>
+											<val>Fiduciary time</val>
+										</pos_asset_type>
+										<asset_issuer_name>
+											<val>TCP.CCC.BOM</val>
+										</asset_issuer_name>
+										<td_state>
+											<val>Open</val>
+										</td_state>
+										<td_reg_date>
+											<val>2012-04-17</val>
+										</td_reg_date>
+										<asset_tenure>
+											<val>1 Year</val>
+										</asset_tenure>
+										<asset_rate>
+											<val>3.10</val>
+										</asset_rate>
+										<asset_maturity>
+											<val>2014-07-17</val>
+										</asset_maturity>
+										<intr_pay_freq>
+											<val>At Maturity</val>
+										</intr_pay_freq>
+										<intr_paid>
+											<val>150.00</val>
+										</intr_paid>
+										<prpl>
+											<val>5000.00</val>
+										</prpl>
+									</pos_head>
+									</pos_head_list>
+							</pos>
+							<pos>
+								<pos_head_list>
+									<pos_head id="8" row_type="data" hira="2" level="pos.head">
+										<!-- this pos is constructed, not obtained from avaloq-->
+										<name>
+											<annot>
+												<ctx>
+													<type>pos</type>
+													<id>14412</id>
+												</ctx>
+											</annot>
+											<val>BlackRock Global Small Managed Account</val>
+										</name>
+										<asset>
+											<annot>
+												<ctx>
+													<type>asset</type>
+													<id>14433</id>
+												</ctx>
+											</annot>
+											<val>BlackRock Global Small Managed Account</val>
+										</asset>
+										<portf_val>
+											<val>10000.42</val>
+										</portf_val>
+										<cont_type>
+											<val>Managed Portfolio</val>
+										</cont_type>
+										<pos_asset_type>
+											<annot>
+												<ctx>
+													<type>code_obj_class</type>
+													<id>13123</id>
+												</ctx>
+											</annot>
+											<val>Managed portfolio</val>
+										</pos_asset_type>
+										<asset_issuer_name>
+											<val>TCP.CCC.BOM</val>
+										</asset_issuer_name>
+										<td_state>
+											<val>Open</val>
+										</td_state>
+										<td_reg_date>
+											<val>2012-04-17</val>
+										</td_reg_date>
+										<asset_tenure>
+											<val>1 Year</val>
+										</asset_tenure>
+										<asset_rate>
+											<val>3.10</val>
+										</asset_rate>
+										<asset_maturity>
+											<val>2014-07-17</val>
+										</asset_maturity>
+										<intr_pay_freq>
+											<val>At Maturity</val>
+										</intr_pay_freq>
+										<intr_paid>
+											<val>150.00</val>
+										</intr_paid>
+										<prpl>
+											<val>5000.00</val>
+										</prpl>
+									</pos_head>
+								</pos_head_list>
+							</pos>
+						</pos_list>
+					</bp>
+				</bp_list>
+			</top>
+		</report>
+	</data>
+</rep:rep>
+        </SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

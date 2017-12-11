@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:v3="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+    <soap:Header>
+        <v3:esbHeader>
+            <v3:messageAttributes>
+                <v3:id>1</v3:id>
+            </v3:messageAttributes>
+            <v3:channelAttributes>
+                <v3:organisationId>12345</v3:organisationId>
+                <v3:brandSilo>Silo</v3:brandSilo>
+                <v3:channelType>Online</v3:channelType>
+                <v3:originatingSystemId>12345</v3:originatingSystemId>
+            </v3:channelAttributes>
+        </v3:esbHeader>
+    </soap:Header>
+    <soap:Body>
+        <v1:ValidatePartyRegistrationResponseMsg xmlns:v1="ns://btfin.com/Product/Panorama/CredentialService/CredentialResponse/V1_0">
+            <Status>Success</Status>
+            <ResponseDetails>
+                <!--You have a CHOICE of the next 2 items at this level-->
+                <SuccessResponse>
+                    <CustomerIdentifiers>
+                        <!--1 or more repetitions:-->
+                        <CustomerIdentifier>
+                            <CustomerNumberIdentifier>
+                                <CustomerNumber>12345</CustomerNumber>
+                                <CustomerNumberIssuer>Westpac</CustomerNumberIssuer>
+                            </CustomerNumberIdentifier>
+                        </CustomerIdentifier>
+                        <CustomerIdentifier>
+                            <CustomerNumberIdentifier>
+                                <CustomerNumber>20161234</CustomerNumber>
+                                <CustomerNumberIssuer>BTPanorama</CustomerNumberIssuer>
+                            </CustomerNumberIdentifier>
+                        </CustomerIdentifier>
+                    </CustomerIdentifiers>
+                    <!--Optional:-->
+                    <ValidPartyDetails>
+                        <!--Optional:-->
+                        <LastName>test-lastname</LastName>
+                        <!--Optional:-->
+                        <Postcode>2170</Postcode>
+                        <!--Optional:-->
+                        <CredentialDetails>
+                            <OneTimePassword>1234</OneTimePassword>
+                        </CredentialDetails>
+                    </ValidPartyDetails>
+                    <CredentialID>ase2-sdf7-rt55-jk87</CredentialID>
+                    <MFAArrangementID>cfe2-sdd4-ertt-3wer</MFAArrangementID>
+                </SuccessResponse>
+            </ResponseDetails>
+        </v1:ValidatePartyRegistrationResponseMsg>
+    </soap:Body>
+</soap:Envelope>

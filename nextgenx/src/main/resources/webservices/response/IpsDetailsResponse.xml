@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ips_list_ips" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2017-02-15 14:03:04.061470000 on afp020c by 201667384 -->
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<current_of_time>
+			<val>2017-02-15T03:03:04+11:00</val>
+		</current_of_time>
+		<ips_list>
+			<val>859910</val>
+		</ips_list>
+	</metadata>
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>ips</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl/>
+					</fld_def>
+					<fld_def>
+						<name>ips_id</name>
+						<type>NrFld</type>
+						<lbl>Model Id</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_name</name>
+						<type>TextFld</type>
+						<lbl>Model Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_sym</name>
+						<type>TextFld</type>
+						<lbl>Model Symbol</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_apir</name>
+						<type>TextFld</type>
+						<lbl>APIR Code</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invst_mgr_id</name>
+						<type>NrFld</type>
+						<lbl>Investment Manager</lbl>
+					</fld_def>
+					<fld_def>
+						<name>aal_collect_id</name>
+						<type>NrFld</type>
+						<lbl>IPS AAL</lbl>
+					</fld_def>
+					<fld_def>
+						<name>mp_type_id</name>
+						<type>NrFld</type>
+						<lbl>MP Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>mp_sub_type_id</name>
+						<type>NrFld</type>
+						<lbl>MP Subtype</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_asset_class_id</name>
+						<type>NrFld</type>
+						<lbl>IPS Asset Class</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_invst_style_id</name>
+						<type>NrFld</type>
+						<lbl>Investment Style</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cton_type_id</name>
+						<type>NrFld</type>
+						<lbl>Construction Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>model_struct_id</name>
+						<type>NrFld</type>
+						<lbl>Model Structure</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_status_id</name>
+						<type>NrFld</type>
+						<lbl>Status</lbl>
+					</fld_def>
+					<fld_def>
+						<name>acc_type_id</name>
+						<type>NrFld</type>
+						<lbl>Account Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>min_init_invst</name>
+						<type>NrFld</type>
+						<lbl>Minimum Initial Investment</lbl>
+					</fld_def>
+					<fld_def>
+						<name>min_contri</name>
+						<type>NrFld</type>
+						<lbl>Minimum Contribution Amount</lbl>
+					</fld_def>
+					<fld_def>
+						<name>min_widrw</name>
+						<type>NrFld</type>
+						<lbl>Minimum Withdrawal Amount</lbl>
+					</fld_def>
+					<fld_def>
+						<name>open_date</name>
+						<type>DateTimeFld</type>
+						<lbl>Open Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>first_invst_date</name>
+						<type>DateTimeFld</type>
+						<lbl>First Investment Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>close_date</name>
+						<type>DateTimeFld</type>
+						<lbl>Close Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>last_upd_timestp</name>
+						<type>DateTimeFld</type>
+						<lbl>Last Update Timestamp</lbl>
+					</fld_def>
+					<fld_def>
+						<name>last_upd_from_id</name>
+						<type>NrFld</type>
+						<lbl>Last Update From</lbl>
+					</fld_def>
+					<fld_def>
+						<name>is_wtax_form_relv</name>
+						<type>BoolFld</type>
+						<lbl>Withholding Tax form relevance</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_class_cat_id</name>
+						<type>NrFld</type>
+						<lbl>Asset Class</lbl>
+					</fld_def>
+					<fld_def>
+						<name>min_wgt</name>
+						<type>NrFld</type>
+						<lbl>Minimum Weight</lbl>
+					</fld_def>
+					<fld_def>
+						<name>max_wgt</name>
+						<type>NrFld</type>
+						<lbl>Maximum Weight</lbl>
+					</fld_def>
+					<fld_def>
+						<name>neutral_pos</name>
+						<type>NrFld</type>
+						<lbl>Neutral Position</lbl>
+					</fld_def>
+					<fld_def>
+						<name>idx_asset_id</name>
+						<type>NrFld</type>
+						<lbl>Benchmark Index</lbl>
+					</fld_def>
+					<fld_def>
+						<name>btfg_master_book_kind_id</name>
+						<type>NrFld</type>
+						<lbl>Master book kind</lbl>
+					</fld_def>
+					<fld_def>
+						<name>btfg_book_kind_id</name>
+						<type>NrFld</type>
+						<lbl>Book kind</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bound_from</name>
+						<type>NrFld</type>
+						<lbl>Boundary from</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bound_to</name>
+						<type>NrFld</type>
+						<lbl>Boundary to</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tariff_factor</name>
+						<type>NrFld</type>
+						<lbl>Factor</lbl>
+					</fld_def>
+					<fld_def>
+						<name>tariff_offset</name>
+						<type>NrFld</type>
+						<lbl>Offset</lbl>
+					</fld_def>
+					<fld_def>
+						<name>min</name>
+						<type>NrFld</type>
+						<lbl>Minimum</lbl>
+					</fld_def>
+					<fld_def>
+						<name>max</name>
+						<type>NrFld</type>
+						<lbl>Maximum</lbl>
+					</fld_def>
+					<fld_def>
+						<name>offer_id</name>
+						<type>NrFld</type>
+						<lbl>Offer ID</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+	<data>
+		<ips_list>
+			<ips>
+				<ips_head_list>
+					<ips_head hira="1" id="2-1" level="ips.head" row_type="data">
+						<ips_id>
+							<val>859910</val>
+						</ips_id>
+						<ips_name>
+							<annot>
+								<ctx>
+									<type>ips</type>
+									<id>859910</id>
+								</ctx>
+							</annot>
+							<val>xx test 3</val>
+						</ips_name>
+						<ips_sym>
+							<val>20170213-1</val>
+						</ips_sym>
+						<invst_mgr_id>
+							<annot>
+								<displ_text>Nikko AM Limited (Investment Manager Position)</displ_text>
+								<ctx>
+									<type>person</type>
+									<id>110200</id>
+								</ctx>
+							</annot>
+							<val>110200</val>
+						</invst_mgr_id>
+						<aal_collect_id>
+							<annot>
+								<displ_text>TestIDPSAAL</displ_text>
+								<ctx>
+									<type>collect</type>
+									<id>859815</id>
+								</ctx>
+							</annot>
+							<val>859815</val>
+						</aal_collect_id>
+						<mp_type_id>
+							<annot>
+								<displ_text>Multi Asset Class</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;8062</id>
+								</ctx>
+							</annot>
+							<val>8062</val>
+						</mp_type_id>
+						<mp_sub_type_id>
+							<annot>
+								<displ_text>Tailor Made Portfolio</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;8092</id>
+								</ctx>
+							</annot>
+							<val>8092</val>
+						</mp_sub_type_id>
+						<ips_asset_class_id>
+							<annot>
+								<displ_text>Australian Shares</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;9650</id>
+								</ctx>
+							</annot>
+							<val>9650</val>
+						</ips_asset_class_id>
+						<ips_invst_style_id>
+							<annot>
+								<displ_text>Active</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;9600</id>
+								</ctx>
+							</annot>
+							<val>9600</val>
+						</ips_invst_style_id>
+						<cton_type_id>
+							<annot>
+								<displ_text>Fixed</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;9520</id>
+								</ctx>
+							</annot>
+							<val>9520</val>
+						</cton_type_id>
+						<model_struct_id>
+							<annot>
+								<displ_text>Simple</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;8071</id>
+								</ctx>
+							</annot>
+							<val>8071</val>
+						</model_struct_id>
+						<ips_status_id>
+							<annot>
+								<displ_text>New</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;9510</id>
+								</ctx>
+							</annot>
+							<val>9510</val>
+						</ips_status_id>
+						<acc_type_id>
+							<annot>
+								<displ_text>Investment</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;8121</id>
+								</ctx>
+							</annot>
+							<val>8121</val>
+						</acc_type_id>
+						<min_init_invst>
+							<annot>
+								<displ_text/>
+							</annot>
+							<val>1000</val>
+						</min_init_invst>
+						<open_date>
+							<annot>
+								<displ_text/>
+							</annot>
+							<val>2017-02-01T00:00:00+11:00</val>
+						</open_date>
+						<is_wtax_form_relv>
+							<annot>
+								<displ_text>0</displ_text>
+							</annot>
+							<val>false</val>
+						</is_wtax_form_relv>
+						<pp_descn>
+							<val>doot</val>
+						</pp_descn>
+						<pp_min_trade_amt>
+							<val>0</val>
+						</pp_min_trade_amt>
+						<pp_min_trade_pct>
+							<val>1</val>
+						</pp_min_trade_pct>
+						<pp_invst_style_text>
+							<val>other investment style</val>
+						</pp_invst_style_text>
+						<taa_list_list>
+							<taa_list hira="2" id="4-2" level="taa_list" row_type="data">
+								<asset_class_cat_id>
+									<annot>
+										<displ_text>Australian Shares</displ_text>
+										<ctx>
+											<type>code</type>
+											<id>code_obj_class;60661</id>
+										</ctx>
+									</annot>
+									<val>60661</val>
+								</asset_class_cat_id>
+								<min_wgt>
+									<val>97</val>
+								</min_wgt>
+								<max_wgt>
+									<val>98</val>
+								</max_wgt>
+								<neutral_pos>
+									<val>97.5</val>
+								</neutral_pos>
+								<idx_asset_id>
+									<annot>
+										<displ_text>ABS Australian CPI AUD</displ_text>
+										<ctx>
+											<type>asset</type>
+											<id>111662</id>
+										</ctx>
+									</annot>
+									<val>111662</val>
+								</idx_asset_id>
+							</taa_list>
+							<taa_list hira="2" id="6-3" level="taa_list" row_type="data">
+								<asset_class_cat_id>
+									<annot>
+										<displ_text>Cash</displ_text>
+										<ctx>
+											<type>code</type>
+											<id>code_obj_class;60671</id>
+										</ctx>
+									</annot>
+									<val>60671</val>
+								</asset_class_cat_id>
+								<min_wgt>
+									<val>2.5</val>
+								</min_wgt>
+								<max_wgt>
+									<val>3</val>
+								</max_wgt>
+								<neutral_pos>
+									<val>2.5</val>
+								</neutral_pos>
+								<idx_asset_id>
+									<annot>
+										<displ_text>ABS Australian CPI AUD</displ_text>
+										<ctx>
+											<type>asset</type>
+											<id>111662</id>
+										</ctx>
+									</annot>
+									<val>111662</val>
+								</idx_asset_id>
+							</taa_list>
+						</taa_list_list>						
+					</ips_head>
+					<ips_head hira="1" id="8-4" level="ips.head" row_type="data">
+						<fee_list/>
+					</ips_head>
+					<ips_head hira="1" id="10-5" level="ips.head" row_type="data">
+						<offer_list>
+							<offer hira="2" id="12-6" level="offer" row_type="data">
+								<offer_id>
+									<val>108285</val>
+								</offer_id>
+							</offer>
+						</offer_list>
+					</ips_head>
+				</ips_head_list>
+			</ips>
+		</ips_list>
+	</data>
+</rep:rep>

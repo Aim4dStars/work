@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cancel_doc:cancel_doc_rsp xmlns:cancel_doc="http://btfin.com/ABS/TrxService/CancelDoc/V1_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">                
+  <hdr/>                
+  <data/>
+  <rsp>
+		<exec>
+			<action>
+			</action>
+			<err_list>
+				<err>
+				<id>10242</id>
+				<extl_key>btfg$chk_avl_cash_tra</extl_key>
+				<err_msg>The client has not enough cash for trading !</err_msg>				
+				</err>
+			</err_list>
+		</exec>
+	</rsp>               
+</cancel_doc:cancel_doc_rsp>      

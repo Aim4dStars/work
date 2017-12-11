@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "title": "Investment choice schema Schema",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.investmentChoiceForm.InvestmentChoice",
+  "properties": {
+    "portfolioType": {
+      "type": "string",
+      "description": "APIR code"
+    },
+    "portfolioName": {
+      "type": "string",
+      "description": "name of the portfolio type selected. Mapped to APRI code"
+    },
+    "initialDeposit": {
+      "type": "number",
+      "description": "initial deposit amount for investment >= 1000"
+    }
+  },
+  "additionalProperties": false
+}

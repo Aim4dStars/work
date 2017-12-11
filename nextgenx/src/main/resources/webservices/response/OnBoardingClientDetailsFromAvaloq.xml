@@ -1,0 +1,1070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+<SOAP-ENV:Body>
+<ns:ClientOnBoardingAvaloqResponse xmlns:ns="ns://btfin.com/nextgen/services/schemas">
+
+    <!--Change Requested-->
+	<ns:ClientOnBoardingDetailJaxb>
+		<accountName>Dennis Beecham</accountName>
+		<accountType>Individual</accountType>
+		<product>Investment wrap</product>
+		<wrapAccountNumber>IW23456789</wrapAccountNumber>
+		<requestType>Change Requested</requestType>
+		<requestStatus>Change requested</requestStatus>
+		<date>08 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Aniston</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Jim</firstName>
+            <lastName>Jackson</lastName>
+            <prefferedPhone>9336082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+	</ns:ClientOnBoardingDetailJaxb>
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Adam Madeline</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW24456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>09 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Julie</firstName>
+            <lastName>Robert</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293100</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Jhon</firstName>
+            <lastName>Paul</lastName>
+            <prefferedPhone>9331582</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+	
+	<ns:ClientOnBoardingDetailJaxb>
+        <accountName>Aiden Riley</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW25456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>11 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Rosy</firstName>
+            <lastName>fernando</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>045293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Marie</firstName>
+            <lastName>Claire</lastName>
+            <prefferedPhone>5536082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+	<ns:ClientOnBoardingDetailJaxb>
+        <accountName>Aaron Moll</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW26456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>12 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Peter</firstName>
+            <lastName>Son</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>041543400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>George</firstName>
+            <lastName>Eam</lastName>
+            <prefferedPhone>9226082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Benjamin Franklin</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW27456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>20 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Will</firstName>
+            <lastName>Smith</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>044693400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Arnold</firstName>
+            <lastName>Jack</lastName>
+            <prefferedPhone>9256082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+	
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Aaron Makayla</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW28456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>25 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Abraham</firstName>
+            <lastName>Adam</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>041193400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Ben</firstName>
+            <lastName>Thomas</lastName>
+            <prefferedPhone>9116082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Alan Greg</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW29456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>26 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Kevin</firstName>
+            <lastName>Boyd</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>041393400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+        </accountHolders>
+        <adviser>
+            <firstName>David</firstName>
+            <lastName>Paul</lastName>
+            <prefferedPhone>9344082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Michelle Tom</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW30456789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>27 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Joe</firstName>
+            <lastName>Smith</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>044493400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Ricky</firstName>
+            <lastName>Tony</lastName>
+            <prefferedPhone>9334482</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Danny Boyl</accountName>
+        <accountType>Individual</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW23356789</wrapAccountNumber>
+        <requestType>Change Requested</requestType>
+        <requestStatus>Change requested</requestStatus>
+        <date>27 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Aline</firstName>
+            <lastName>Mark</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043255400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Aveline</firstName>
+            <lastName>Angel</lastName>
+            <prefferedPhone>9356082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+	<ns:ClientOnBoardingDetailJaxb>
+		<accountName>James Sammut</accountName>
+		<accountType>Joint</accountType>
+		<product>Investment wrap</product>
+		<wrapAccountNumber>IW26556789</wrapAccountNumber>
+		<requestType>Change Requested</requestType>
+		<requestStatus>Change requested</requestStatus>
+		<date>27 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Esse</firstName>
+            <lastName>Peter</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043783400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Iyana</firstName>
+            <lastName>Darvin</lastName>
+            <prefferedPhone>9337882</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+	</ns:ClientOnBoardingDetailJaxb>	
+	<ns:ClientOnBoardingDetailJaxb>
+		<accountName>Thomas Edison</accountName>
+		<accountType>Individual</accountType>
+		<product>Investment wrap</product>
+		<wrapAccountNumber>IW11456789</wrapAccountNumber>
+		<requestType>Change Requested</requestType>
+		<requestStatus>Change requested</requestStatus>
+		<date>27 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>James</firstName>
+            <lastName>Bond</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and not applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Aniston</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Change requested</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>adviser fname</firstName>
+            <lastName>adviser lname</lastName>
+            <prefferedPhone>9336082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+	</ns:ClientOnBoardingDetailJaxb>	
+	
+	 <!--end of Change Request-->
+	 
+	<ns:ClientOnBoardingDetailJaxb>
+    <accountName>Penny Rich</accountName>
+    <accountType>SMSF</accountType>
+    <product>Investment wrap</product>
+    <wrapAccountNumber>IW111452366</wrapAccountNumber>
+    <requestType>Waiting Approval</requestType>
+    <requestStatus>2 of 4 Not approved</requestStatus>
+    <date>01 Jun 2013</date>
+    <accountHolders>
+        <salutation>Mr</salutation>
+        <firstName>James</firstName>
+        <lastName>Bond</lastName>
+        <isPrimaryContact>true</isPrimaryContact>
+        <prefferedPhone>0432934007</prefferedPhone>
+        <prefferedEmail>email@gmail.com</prefferedEmail>
+        <dateOfBirth>03 Mar 1980</dateOfBirth>
+        <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+        <status>Not registered</status>
+        <role>Director of the trustee company and not applying the account</role>
+        <hasOnlineAccess>true</hasOnlineAccess>
+    </accountHolders>
+    <accountHolders>
+        <salutation>Mrs</salutation>
+        <firstName>Jenny</firstName>
+        <lastName>Aniston</lastName>
+        <isPrimaryContact>true</isPrimaryContact>
+        <prefferedPhone>043293500</prefferedPhone>
+        <prefferedEmail>email@gmail.com</prefferedEmail>
+        <dateOfBirth>03 Mar 1980</dateOfBirth>
+        <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+        <status>Not registered</status>
+        <role>Director of the trustee company and not applying the account</role>
+        <hasOnlineAccess>true</hasOnlineAccess>
+    </accountHolders>
+	 <accountHolders>
+        <salutation>Mr</salutation>
+        <firstName>James</firstName>
+        <lastName>Tom</lastName>
+        <isPrimaryContact>true</isPrimaryContact>
+        <prefferedPhone>0432934007</prefferedPhone>
+        <prefferedEmail>email@gmail.com</prefferedEmail>
+        <dateOfBirth>03 Mar 1980</dateOfBirth>
+        <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+        <status>Registered</status>
+        <role>Director of the trustee company and applying the account</role>
+    </accountHolders>
+	 <accountHolders>
+        <salutation>Mr</salutation>
+        <firstName>James</firstName>
+        <lastName>Pitt</lastName>
+        <isPrimaryContact>true</isPrimaryContact>
+        <prefferedPhone>0432934007</prefferedPhone>
+        <prefferedEmail>email@gmail.com</prefferedEmail>
+        <dateOfBirth>03 Mar 1980</dateOfBirth>
+        <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+        <status>Approved</status>
+        <role>Director of the trustee company and applying the account</role>
+    </accountHolders>
+    <adviser>
+        <firstName>kate</firstName>
+        <lastName>Winson</lastName>
+        <prefferedPhone>9331425</prefferedPhone>
+        <prefferedEmail>adviser@gmail.com</prefferedEmail>
+    </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+   
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Dennis Beecham</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1123475849</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>05 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>David</firstName>
+            <lastName>Kevin</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Not registered</status>
+            <role>Director of the trustee company and applying the account</role>
+            <hasOnlineAccess>true</hasOnlineAccess>
+        </accountHolders>
+        <adviser>
+            <firstName>Mary</firstName>
+            <lastName>Kom</lastName>
+            <prefferedPhone>9336789</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Aaron Moll</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1123498563</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>06 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Kumar</firstName>
+            <lastName>Kevin</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Deniel</firstName>
+            <lastName>Geller</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Paul</firstName>
+            <lastName>Dan</lastName>
+            <prefferedPhone>9338794</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Arnold</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW112347985</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>08 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Sunny</firstName>
+            <lastName>Lite</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>04329789562</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Beecham</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>James</firstName>
+            <lastName>John</lastName>
+            <prefferedPhone>9336782</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Adam Christ</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1123456784</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>09 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Gayle</firstName>
+            <lastName>Gill</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0478934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Holly</firstName>
+            <lastName>Citizen</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Paul</firstName>
+            <lastName>Tom</lastName>
+            <prefferedPhone>9337282</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Berry Pitt</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW11452456789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>10 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Koyl</firstName>
+            <lastName>Kate</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Daniel</firstName>
+            <lastName>Geller</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Churchill</firstName>
+            <lastName>Winson</lastName>
+            <prefferedPhone>9226082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Tom Tim</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1123746789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>13 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Mary</firstName>
+            <lastName>Kom</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0437834007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Aniston</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Member of the SMSF and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Raj</firstName>
+            <lastName>Rajeev</lastName>
+            <prefferedPhone>9334582</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Cathy Peter</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1145656789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>15 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Teresa</firstName>
+            <lastName>Martin</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0436334007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Holly</firstName>
+            <lastName>Citizen</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Geroge</firstName>
+            <lastName>Gregorry</lastName>
+            <prefferedPhone>9786082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Harry Potter</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1453456789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>16 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Chang</firstName>
+            <lastName>Chin</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0475934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Bob</firstName>
+            <lastName>beecham</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Not registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Adam</firstName>
+            <lastName>adel</lastName>
+            <prefferedPhone>9374082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Peter Son</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1123456789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>17 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Collar</firstName>
+            <lastName>Wand</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0412934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Collar</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Sandy</firstName>
+            <lastName>Sam</lastName>
+            <prefferedPhone>9746082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Jhon Jin</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1174456789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>18 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Cammy</firstName>
+            <lastName>Lyod</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0785934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Aniston</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Kate</firstName>
+            <lastName>Winson</lastName>
+            <prefferedPhone>9336082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Romana Dan</accountName>
+        <accountType>SMSF</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW1456456789</wrapAccountNumber>
+        <requestType>Waiting Approval</requestType>
+        <requestStatus>2 of 4 Not approved</requestStatus>
+        <date>20 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>David</firstName>
+            <lastName>Merry</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0742934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Aniston</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Not Registered</status>
+            <role>Director of the trustee company and applying the account</role>
+            <hasOnlineAccess>false</hasOnlineAccess>
+        </accountHolders>
+        <adviser>
+            <firstName>Sammy</firstName>
+            <lastName>Pitt</lastName>
+            <prefferedPhone>9336082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+
+<!-- Active -->
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Paul Beecham</accountName>
+        <accountType>Trust</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW34556789</wrapAccountNumber>
+        <requestType>Approved</requestType>
+        <requestStatus>Approved</requestStatus>
+        <date>12 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Dannis</firstName>
+            <lastName>Beecham</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and approving the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Holly</firstName>
+            <lastName>Citizen</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and approving the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mre</salutation>
+            <firstName>Jane</firstName>
+            <lastName>Beecham</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and approving the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Bob</firstName>
+            <lastName>Beecham</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Director of the trustee company and not approving the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Kevin</firstName>
+            <lastName>Jhon</lastName>
+            <prefferedPhone>9336082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+    <ns:ClientOnBoardingDetailJaxb>
+        <accountName>Jim Jam</accountName>
+        <accountType>Company</accountType>
+        <product>Investment wrap</product>
+        <wrapAccountNumber>IW34456789</wrapAccountNumber>
+        <requestType>Approved</requestType>
+        <requestStatus>Approved</requestStatus>
+        <date>14 Jun 2013</date>
+        <accountHolders>
+            <salutation>Mr</salutation>
+            <firstName>Sammy</firstName>
+            <lastName>San</lastName>
+            <isPrimaryContact>true</isPrimaryContact>
+            <prefferedPhone>0432934007</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Registered</status>
+            <role>Director of the trustee company and approving the account</role>
+        </accountHolders>
+        <accountHolders>
+            <salutation>Mrs</salutation>
+            <firstName>Jennifer</firstName>
+            <lastName>Jam</lastName>
+            <isPrimaryContact>false</isPrimaryContact>
+            <prefferedPhone>043293400</prefferedPhone>
+            <prefferedEmail>email@gmail.com</prefferedEmail>
+            <dateOfBirth>03 Mar 1980</dateOfBirth>
+            <acceptedTermsAndConditionDate>10 Jan 2014</acceptedTermsAndConditionDate>
+            <status>Approved</status>
+            <role>Member of the SMSF and approving the account</role>
+        </accountHolders>
+        <adviser>
+            <firstName>Kate</firstName>
+            <lastName>Winson</lastName>
+            <prefferedPhone>9336082</prefferedPhone>
+            <prefferedEmail>adviser@gmail.com</prefferedEmail>
+        </adviser>
+    </ns:ClientOnBoardingDetailJaxb>
+
+<!--end of Active-->
+
+</ns:ClientOnBoardingAvaloqResponse>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

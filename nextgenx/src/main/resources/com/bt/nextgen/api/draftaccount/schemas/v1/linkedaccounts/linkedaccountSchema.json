@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "title": "Linked Bank Account Schema",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.linkedaccounts.LinkedAccount",
+  "properties": {
+    "accountname": {
+      "type": "string",
+      "description": "LinkedAccountForm.getAccountName"
+    },
+    "bsb": {
+      "type": "string",
+      "description": "LinkedAccountForm.getBsb"
+    },
+    "accountnumber": {
+      "type": "string",
+      "description": "LinkedAccountForm.getAccountNumber"
+    },
+    "nickname": {
+      "type": "string",
+      "description": "LinkedAccountForm.getNickName"
+    },
+    "directdebitamount": {
+      "type": "string",
+      "description": "LinkedAccountForm.getDirectDebitAmount"
+    },
+    "bsbValidationResultVal": {
+      "type": "boolean",
+      "description": "BSB is server side validation. To prevent re-validation of BSB  on EDIT, DRAFT, and REVIEW page, validation result is getting stored in this variable."
+    },
+    "isAccountManuallyEntered": {
+      "type": "boolean",
+      "description": "This field will be used only by Direct Onboarding and indicates if a linked bank account has been manually entered by the investor"
+    }
+  },
+  "additionalProperties": false
+}

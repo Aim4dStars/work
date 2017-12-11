@@ -1,0 +1,10 @@
+{
+  "$schema" : "http://json-schema.org/draft-04/schema#",
+  "type": "string",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.base.SettlorTypeEnum",
+  "enum": [
+    "individual",
+    "organisation"
+  ],
+  "description": "required for individual and corporate trust with trustType equal to family type."
+}

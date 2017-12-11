@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.linkedaccounts.LinkedAccountsApplication",
+  "properties": {
+    "primaryLinkedAccount": {
+      "$ref": "linkedaccountSchema.json",
+      "description": "the primary linked account (eg. LinkedAccountsForm.getPrimaryLinkedAccount)"
+    },
+    "otherLinkedAccount": {
+      "type": "array",
+      "description": "the other linked accounts (eg. LinkedAccountsForm.getOtherLinkedAccounts)",
+      "items" : {
+        "$ref": "linkedaccountSchema.json"
+      }
+    }
+  },
+  "additionalProperties": false
+}

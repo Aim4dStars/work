@@ -1,0 +1,540 @@
+{
+  "accountType": "corporateSMSF",
+  "smsfdetails": {
+    "smsfname": "Arcane SMURFS",
+    "smsfabn": "20000241127",
+    "regdate": "01/01/2001",
+    "registrationstate": "NSW",
+    "registeredforgst": "no",
+    "taxoption": "Tax File Number provided",
+    "tfn": "123456782",
+    "exemptionreason": "fin_busi_provid",
+    "ciskey": "11111111112",
+    "smsfaddress": {
+      "componentised": true,
+      "unitNumber": "726",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "82148"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": false
+    },
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340"
+    },
+    "agree": "Verified",
+    "docissuer": "www.superfundlookup.gov.au",
+    "issuedate": "19 Jan 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "companytrustee": {
+    "ciskey": "11111111111",
+    "companyname": "THE KILLER SMURFS",
+    "asicregisteredname": "THE KILLER SMURFS",
+    "acn": "000000019",
+    "companyabn": "",
+    "industry": {
+      "industry": "7340",
+      "anzsiccode": "7340"
+    },
+    "agreeconditions": "agreed",
+    "companyoffice": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "905815",
+      "addressType": "residential",
+      "id": "905815",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "905815"
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "51-57",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "confirmed": true,
+      "valid": true,
+      "sameasaddress": "19732",
+      "addressType": "residential",
+      "id": "19732",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "19732"
+        }
+      ]
+    },
+    "docissuer": "www.asic.gov.au",
+    "issuedate": "19 Jan 2015",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "directors": [
+    {
+      "fullName": "Miss Magee Keller",
+      "title": "miss",
+      "firstname": "Magee",
+      "middlename": "CDT",
+      "lastname": "Keller",
+      "preferredname": "Cailin Mullen",
+      "dateofbirth": "13/08/1982",
+      "gender": "other",
+      "mobile": {
+        "value": "0432817988"
+      },
+      "email": {
+        "value": "saquve@yahoo.com"
+      },
+      "preferredcontact": "mobile",
+      "identitydocument": "photodocuments",
+      "isvalid": true,
+      "ciskey": "29454480787",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "73239",
+        "addressType": "residential",
+        "id": "73239",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "73239"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "517951",
+        "addressType": "residential",
+        "id": "517951",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "517951"
+          }
+        ]
+      },
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "ACT",
+          "expiryDate": "01/01/2020",
+          "documentNumber": "12312313",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    },
+    {
+      "isvalid": true,
+      "summaryData": {
+        "isValid": true
+      },
+      "key": {
+        "clientId": "2A9EB456A577CCADBECFD86E9B63A58FCE898F1385FC2A7A"
+      },
+      "fullName": "Liu Kang",
+      "userName": "adviser",
+      "addresses": [
+        {
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "suburb": "SYDNEY",
+          "state": "New South Wales",
+          "stateAbbr": "NSW",
+          "stateCode": "5004",
+          "postcode": "2000",
+          "countryCode": "2061",
+          "country": "Australia",
+          "countryAbbr": "AU",
+          "modificationSeq": "1",
+          "domicile": false,
+          "mailingAddress": true,
+          "addressType": "Postal",
+          "addressKey": {
+            "addressId": "EF6DDB3E123D22BF9250A7BD7EA17618FA381B32E415D8B7"
+          },
+          "type": "Address"
+        },
+        {
+          "streetNumber": "51-57",
+          "streetName": "Pitt",
+          "suburb": "SYDNEY",
+          "state": "New South Wales",
+          "stateAbbr": "NSW",
+          "stateCode": "5004",
+          "postcode": "2000",
+          "countryCode": "2061",
+          "country": "Australia",
+          "countryAbbr": "AU",
+          "modificationSeq": "1",
+          "domicile": true,
+          "mailingAddress": false,
+          "addressType": "Postal",
+          "addressKey": {
+            "addressId": "386542E3189085C4B3926B2F45456959D46F2848F590062A"
+          },
+          "type": "Address"
+        }
+      ],
+      "emails": [
+        {
+          "email": "liu@kang.com",
+          "modificationSeq": "1",
+          "preferred": true,
+          "emailType": "Primary",
+          "emailKey": {
+            "addressId": "61C3F21F25BBFAD8B96568A94919517063914B43ED776ABC"
+          },
+          "type": "Email",
+          "label": "Email - primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": false,
+          "number": "0456789456",
+          "modificationSeq": "1",
+          "phoneType": "Primary",
+          "phoneKey": {
+            "addressId": "A4B34A4BCC96DBA46BD5ECDC6D26BC441549AD18B3B95421"
+          },
+          "type": "Phone",
+          "label": "Mobile - primary"
+        },
+        {
+          "preferred": false,
+          "number": "0456123456",
+          "modificationSeq": "1",
+          "phoneType": "Secondary",
+          "phoneKey": {
+            "addressId": "1F71B47B192D8DBD7075E8A657ADF0C3EE563A413BFD3519"
+          },
+          "type": "Phone",
+          "label": "Mobile - secondary"
+        }
+      ],
+      "tfnProvided": true,
+      "exemptionReason": "No exemption",
+      "idvs": "pend",
+      "personRoles": [
+        "Owner"
+      ],
+      "modificationSeq": "1",
+      "gcmId": "201612927",
+      "openDate": "29 Nov 2014",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "title": "Mr.",
+      "gender": "Male",
+      "resiCountryforTax": "Australia",
+      "resiCountryCodeForTax": "2061",
+      "age": 34,
+      "firstname": "Liu",
+      "lastname": "Kang",
+      "preferredname": "Liu",
+      "dateofbirth": "08 Aug 1980",
+      "postalAddress": "51-57 Pitt SYDNEY NSW 2000",
+      "resAddress": "51-57 Pitt SYDNEY NSW 2000",
+      "taxOption": "TFN supplied",
+      "taxCountry": "Australia",
+      "identitydocument": "Verified",
+      "mobile": {
+        "value": "0456789456"
+      },
+      "secondaryMobile": {
+        "value": "0456123456"
+      },
+      "preferredContact": "Email - primary",
+      "email": {
+        "value": "liu@kang.com"
+      },
+      "isDuplicate": false
+    },
+    {
+      "fullName": "Mr Daniel Collins",
+      "title": "mr",
+      "firstname": "Daniel",
+      "middlename": "IXA",
+      "lastname": "Collins",
+      "preferredname": "Leo Robinson",
+      "dateofbirth": "12/12/1912",
+      "gender": "other",
+      "mobile": {
+        "value": "0418046691"
+      },
+      "email": {
+        "value": "boje@yahoo.com"
+      },
+      "preferredcontact": "mobile",
+      "identitydocument": "photodocuments",
+      "isvalid": true,
+      "ciskey": "44948989945",
+      "resaddress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "842636",
+        "addressType": "residential",
+        "id": "842636",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "842636"
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "unitNumber": "",
+        "streetNumber": "51-57",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "verified": true,
+        "confirmed": true,
+        "valid": true,
+        "sameasaddress": "726721",
+        "addressType": "residential",
+        "id": "726721",
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "unitNumber": "",
+            "streetNumber": "51-57",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "verified": true,
+            "confirmed": true,
+            "valid": true,
+            "sameasaddress": "0",
+            "addressType": "residential",
+            "id": "726721"
+          }
+        ]
+      },
+      "photodocuments": {
+        "driverlicence": {
+          "documentIssuer": "ACT",
+          "expiryDate": "01/01/2020",
+          "documentNumber": "123123123",
+          "verificationSource": "original",
+          "englishTranslation": "Not Applicable",
+          "accreditedenglishtrans": "notapplicable"
+        },
+        "valid": true
+      }
+    }
+  ],
+  "accountsettings": {
+    "primarycontact": "0",
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "role:": "director",
+        "paymentSetting": "linkedaccountsonly"
+      },
+      {
+        "isApprover": "true",
+        "role:": "director",
+        "paymentSetting": "allpayments"
+      },
+      {
+        "isApprover": "true",
+        "role:": "director",
+        "paymentSetting": "linkedaccountsonly"
+      }
+    ]
+  },
+  "shareholderandmembers": {
+    "investorsWithRoles": [
+      {
+        "isShareholder": "no",
+        "isMember": "yes"
+      },
+      {
+        "isShareholder": "yes",
+        "isMember": "yes"
+      },
+      {
+        "isShareholder": "yes",
+        "isMember": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": []
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "Lucian Roach",
+      "bsb": "062000",
+      "accountnumber": "12301203",
+      "nickname": "Cassady Douglas",
+      "directdebitamount": "100.00"
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    },
+    "estamount": "0.00"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "type": "object",
+  "javaType": "com.bt.nextgen.api.draftaccount.schemas.v1.smsf.SmsfDetails",
+  "properties": {
+    "smsfabn": {
+      "type": "string",
+      "description" : "smsf abn only applicable for existing individual and corporate smsf account"
+    },
+    "smsfname": {
+      "type": "string",
+      "description" : "smsf name"
+    },
+    "registrationstate": {
+      "type": "string",
+      "description" : "registration state only applicable for for existing individual and corporate smsf  account"
+
+    },
+    "wealthsource": {
+      "type": "string",
+      "description": "wealthsource is required for individual and corporate smsf"
+    },
+    "agree": {
+      "$ref": "../base/verificationTypeEnum.json",
+      "description" : "it is for agreeing terms and conditions. only applicable for for existing individual and corporate smsf  account"
+    },
+    "docissuer": {
+      "type": "string",
+      "description" : "by default value  www.superfundlookup.gov.au passed from ui if terms and condition are agreed"
+    },
+    "documentnumber": {
+      "type": "string",
+      "description" : "by default value  notapplicable passed from ui if terms and condition are agreed"
+    },
+    "verificationsource": {
+      "type": "string",
+      "description" : "by default value  Website search passed from ui if terms and condition are agreed"
+    },
+    "englishtranslation": {
+      "type": "string",
+      "description" : "by default value  notapplicable passed from ui if terms and condition are agreed"
+    },
+    "taxoption": {
+      "$ref": "../base/taxOptionTypeEnum.json",
+      "description": "taxoption is required for smsf account"
+    },
+    "tfn": {
+      "type": "string",
+      "description": "tfn  number is required  if tax option is selected as Tax File Number provided."
+    },
+    "issuedate": {
+      "type": "string"
+    },
+    "exemptionreason": {
+      "type": "string",
+      "description": "exemptionreason is required  if tax option is selected as Exemption Reason provided."
+    },
+    "regdate": {
+      "type": "string",
+      "description" : "regdate of already established SMSF. only applicable for for existing individual and corporate smsf  account"
+
+    },
+    "industry": {
+      "$ref": "../base/industrySchema.json"
+    },
+    "registeredforgst": {
+      "$ref": "../base/answerTypeEnum.json",
+      "description": "registeredforgst is required. For new individual and corporate smsf by default value is NO"
+    },
+    "additionalsourceofwealth": {
+      "type": "string",
+      "description": "additionalsourceofwealth is required whenwealthsource is  Additional Sources"
+    },
+    "smsfaddress": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "smsfaddressv2": {
+      "$ref": "../base/addressSchema.json"
+    },
+    "taxdetails": {
+          "$ref": "../base/taxDetailsSchema.json"
+    }
+  },
+  "additionalProperties": false
+
+}

@@ -1,0 +1,127 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>&lt;?xml version="1.0" encoding="UTF-8" standalone="yes"?&gt;
+&lt;rep:report xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/ui_get_ntfcn" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"&gt;
+
+  &lt;def&gt;
+    &lt;version&gt;1.0&lt;/version&gt;
+    &lt;report_def&gt;
+      &lt;style&gt;flat&lt;/style&gt;
+      &lt;lang id="1"&gt;en&lt;/lang&gt;
+      &lt;hira_def&gt;
+        &lt;group_list&gt;
+          &lt;group_def&gt;&lt;name&gt;ntfcn&lt;/name&gt;&lt;hira&gt;1&lt;/hira&gt;&lt;hasHead&gt;true&lt;/hasHead&gt;&lt;hasFoot&gt;false&lt;/hasFoot&gt;&lt;/group_def&gt;
+        &lt;/group_list&gt;
+      &lt;/hira_def&gt;
+      &lt;row_def&gt;
+        &lt;fld_list&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;ntfcn_id&lt;/name&gt;
+          &lt;type&gt;numberField&lt;/type&gt;
+          &lt;label&gt;Notification ID&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;timestamp&lt;/name&gt;
+          &lt;type&gt;dateTimeField&lt;/type&gt;
+          &lt;label&gt;Timestamp&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;valid_to&lt;/name&gt;
+          &lt;type&gt;dateTimeField&lt;/type&gt;
+          &lt;label&gt;Valid to&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;resp_sec_user&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Responsble User&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;recp_sec_user&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Recipient&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;event_type&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Event Type&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;event_type_prio&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Priority&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;ntfcn_status&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Notification Status&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;trig_obj&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Triggering Object&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;ctx_doc&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Order&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;msg_text&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Message Text&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;msg_cat&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Notification Category&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;msg_avsr_ctr&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Message Adviser Center&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;bp_name&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;BP Name&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;owner_type&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Owner Type&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;macc_nr&lt;/name&gt;
+          &lt;type&gt;numberField&lt;/type&gt;
+          &lt;label&gt;MACC Number&lt;/label&gt;
+        &lt;/fld_def&gt;
+        &lt;fld_def&gt;
+          &lt;name&gt;person&lt;/name&gt;
+          &lt;type&gt;textField&lt;/type&gt;
+          &lt;label&gt;Person&lt;/label&gt;
+        &lt;/fld_def&gt;
+
+        &lt;/fld_list&gt;
+      &lt;/row_def&gt;
+    &lt;/report_def&gt;
+  &lt;/def&gt;
+
+  &lt;data&gt;
+    &lt;report_data&gt;
+    &lt;top&gt;
+  &lt;ntfcn_list&gt;
+
+  &lt;/ntfcn_list&gt;
+    &lt;/top&gt;
+    &lt;/report_data&gt;
+
+  &lt;/data&gt;
+&lt;/rep:report&gt;
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

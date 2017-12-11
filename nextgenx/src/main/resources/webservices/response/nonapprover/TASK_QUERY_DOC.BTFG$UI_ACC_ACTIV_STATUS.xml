@@ -1,0 +1,395 @@
+  <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+			<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_acc_activ" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def"> 
+	
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>report</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>doc</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>appl_nr</name>
+            <type>NrFld</type>
+            <lbl>appl_nr</lbl>
+          </fld_def>
+          <fld_def>
+            <name>head_type</name>
+            <type>TextFld</type>
+            <lbl>head_type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>appl_stat</name>
+            <type>TextFld</type>
+            <lbl>appl_stat</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp</name>
+            <type>TextFld</type>
+            <lbl>bp</lbl>
+          </fld_def>
+          <fld_def>
+            <name>acc_own_struct</name>
+            <type>TextFld</type>
+            <lbl>acc_own_struct</lbl>
+          </fld_def>
+          <fld_def>
+            <name>person</name>
+            <type>TextFld</type>
+            <lbl>person</lbl>
+          </fld_def>
+          <fld_def>
+            <name>person_rel</name>
+            <type>TextFld</type>
+            <lbl>person_rel</lbl>
+          </fld_def>
+          <fld_def>
+            <name>sign_date</name>
+            <type>DateTimeFld</type>
+            <lbl>sign_date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>reg_status</name>
+            <type>TextFld</type>
+            <lbl>reg_status</lbl>
+          </fld_def>
+          <fld_def>
+            <name>reject_reason</name>
+            <type>TextFld</type>
+            <lbl>reject_reason</lbl>
+          </fld_def>
+          <fld_def>
+            <name>idps_prod_type</name>
+            <type>TextFld</type>
+            <lbl>idps_prod_type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>appl_subm_date</name>
+            <type>DateTimeFld</type>
+            <lbl>appl_subm_date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>appl_start_by</name>
+            <type>TextFld</type>
+            <lbl>appl_start_by</lbl>
+          </fld_def>
+          <fld_def>
+            <name>appl_last_upd_by</name>
+            <type>TextFld</type>
+            <lbl>appl_last_upd_by</lbl>
+          </fld_def>
+          <fld_def>
+            <name>change_req_by</name>
+            <type>TextFld</type>
+            <lbl>change_req_by</lbl>
+          </fld_def>
+          <fld_def>
+            <name>change_req_date</name>
+            <type>DateTimeFld</type>
+            <lbl>change_req_date</lbl>
+          </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+  
+   <data>
+    <report>
+      <report_head hira="0" id="1" level="report.head" row_type="data">
+      </report_head>
+  <doc_list>
+    <doc>
+      <doc_head_list>
+      <doc_head hira="0" id="2" level="doc.head" row_type="data">
+            <appl_nr><annot><ctx><type>doc</type><id>77927</id></ctx></annot><val>77927</val></appl_nr>
+            <head_type><val>doc</val></head_type>
+            <appl_stat><annot><ctx><type>wfc_status</type><id>3</id></ctx></annot><val>Pending Acceptance</val></appl_stat>
+      </doc_head>
+      <doc_head hira="0" id="3" level="doc.head" row_type="data">
+            <head_type><val>bp</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47596</id></ctx></annot><val>120007240</val></bp>
+            <acc_own_struct><annot><ctx><type>code_clt_type</type><id>5003</id></ctx></annot><val>legal</val></acc_own_struct>
+      </doc_head>
+      <doc_head hira="0" id="4" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47581</id></ctx></annot><val>110011206</val></person>
+        <person_rel><annot><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>acc_owner</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="5" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47584</id></ctx></annot><val>110011207</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1004</id></ctx></annot><val>auth_director</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="6" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47588</id></ctx></annot><val>110011208</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1012</id></ctx></annot><val>auth_sign</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="7" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47592</id></ctx></annot><val>110011209</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1011</id></ctx></annot><val>auth_secretary</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="8" level="doc.head" row_type="data">
+            <head_type><val>trans</val></head_type>
+            <idps_prod_type><val>Investment</val></idps_prod_type>
+            <appl_subm_date><annot><displ_text>16/06/2014</displ_text></annot><val>2014-06-16T15:39:04</val></appl_subm_date>
+            <appl_start_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_start_by>
+            <appl_last_upd_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_last_upd_by>
+      </doc_head>
+      </doc_head_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+      <doc_head hira="0" id="9" level="doc.head" row_type="data">
+            <appl_nr><annot><ctx><type>doc</type><id>77847</id></ctx></annot><val>77847</val></appl_nr>
+            <head_type><val>doc</val></head_type>
+            <appl_stat><annot><ctx><type>wfc_status</type><id>3</id></ctx></annot><val>Pending Acceptance</val></appl_stat>
+      </doc_head>
+      <doc_head hira="0" id="10" level="doc.head" row_type="data">
+            <head_type><val>bp</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47553</id></ctx></annot><val>120007224</val></bp>
+            <acc_own_struct><annot><ctx><type>code_clt_type</type><id>5003</id></ctx></annot><val>legal</val></acc_own_struct>
+      </doc_head>
+  <doc_head hira="0" id="11" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47538</id></ctx></annot><val>110011178</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>acc_owner</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="12" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47541</id></ctx></annot><val>110011179</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1004</id></ctx></annot><val>auth_director</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="13" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47545</id></ctx></annot><val>110011180</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1012</id></ctx></annot><val>auth_sign</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="14" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47549</id></ctx></annot><val>110011181</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1011</id></ctx></annot><val>auth_secretary</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="15" level="doc.head" row_type="data">
+            <head_type><val>trans</val></head_type>
+            <idps_prod_type><val>Investment</val></idps_prod_type>
+            <appl_subm_date><annot><displ_text>16/06/2014</displ_text></annot><val>2014-06-16T15:33:33</val></appl_subm_date>
+            <appl_start_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_start_by>
+            <appl_last_upd_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_last_upd_by>
+      </doc_head>
+      </doc_head_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+      <doc_head hira="0" id="16" level="doc.head" row_type="data">
+            <appl_nr><annot><ctx><type>doc</type><id>77348</id></ctx></annot><val>77348</val></appl_nr>
+            <head_type><val>doc</val></head_type>
+            <appl_stat><annot><ctx><type>wfc_status</type><id>3</id></ctx></annot><val>Pending Acceptance</val></appl_stat>
+      </doc_head>
+      <doc_head hira="0" id="17" level="doc.head" row_type="data">
+            <head_type><val>bp</val></head_type>
+          <bp><annot><ctx><type>bp</type><id>47300</id></ctx></annot><val>Pitt Company</val></bp>
+            <acc_own_struct><annot><ctx><type>code_clt_type</type><id>5003</id></ctx></annot><val>legal</val></acc_own_struct>
+      </doc_head>
+      <doc_head hira="0" id="18" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47285</id></ctx></annot><val>Pitt Company</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>acc_owner</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="19" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47288</id></ctx></annot><val>Client1  Pitt</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1004</id></ctx></annot><val>auth_director</val></person_rel>
+            <sign_date><annot><displ_text>01/07/2014</displ_text></annot><val>2014-07-01T00:00:00</val></sign_date>
+            <reg_status><val>Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="20" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47292</id></ctx></annot><val>Client2  Pitt</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1012</id></ctx></annot><val>auth_sign</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="21" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47296</id></ctx></annot><val>Client3  Pitt</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1011</id></ctx></annot><val>auth_secretary</val></person_rel>
+            <sign_date><annot><displ_text>01/07/2014</displ_text></annot><val>2014-07-01T00:00:00</val></sign_date>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="22" level="doc.head" row_type="data">
+            <head_type><val>trans</val></head_type>
+            <idps_prod_type><val>Investment</val></idps_prod_type>
+            <appl_subm_date><annot><displ_text>16/06/2014</displ_text></annot><val>2014-06-16T13:55:11</val></appl_subm_date>
+            <appl_start_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_start_by>
+            <appl_last_upd_by><annot><ctx><type>user</type><id>3694</id></ctx></annot><val>217052641</val></appl_last_upd_by>
+      </doc_head>
+      </doc_head_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+      <doc_head hira="0" id="23" level="doc.head" row_type="data">
+            <appl_nr><annot><ctx><type>doc</type><id>76669</id></ctx></annot><val>76669</val></appl_nr>
+        <head_type><val>doc</val></head_type>
+            <appl_stat><annot><ctx><type>wfc_status</type><id>3</id></ctx></annot><val>Pending Acceptance</val></appl_stat>
+      </doc_head>
+      <doc_head hira="0" id="24" level="doc.head" row_type="data">
+            <head_type><val>bp</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47047</id></ctx></annot><val>120006788</val></bp>
+            <acc_own_struct><annot><ctx><type>code_clt_type</type><id>5003</id></ctx></annot><val>legal</val></acc_own_struct>
+      </doc_head>
+      <doc_head hira="0" id="25" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47032</id></ctx></annot><val>110010947</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>acc_owner</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="26" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47035</id></ctx></annot><val>110010948</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1004</id></ctx></annot><val>auth_director</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="27" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47039</id></ctx></annot><val>110010949</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1012</id></ctx></annot><val>auth_sign</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="28" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>47043</id></ctx></annot><val>110010950</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1011</id></ctx></annot><val>auth_secretary</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="29" level="doc.head" row_type="data">
+            <head_type><val>trans</val></head_type>
+            <idps_prod_type><val>Investment</val></idps_prod_type>
+            <appl_subm_date><annot><displ_text>16/06/2014</displ_text></annot><val>2014-06-16T10:19:36</val></appl_subm_date>
+            <appl_start_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_start_by>
+            <appl_last_upd_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_last_upd_by>
+      </doc_head>
+      </doc_head_list>
+    </doc>
+    <doc>
+  <doc_head_list>
+      <doc_head hira="0" id="30" level="doc.head" row_type="data">
+            <appl_nr><annot><ctx><type>doc</type><id>76583</id></ctx></annot><val>76583</val></appl_nr>
+            <head_type><val>doc</val></head_type>
+            <appl_stat><annot><ctx><type>wfc_status</type><id>3</id></ctx></annot><val>Pending Acceptance</val></appl_stat>
+      </doc_head>
+      <doc_head hira="0" id="31" level="doc.head" row_type="data">
+            <head_type><val>bp</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>47003</id></ctx></annot><val>120006754</val></bp>
+            <acc_own_struct><annot><ctx><type>code_clt_type</type><id>5003</id></ctx></annot><val>legal</val></acc_own_struct>
+      </doc_head>
+      <doc_head hira="0" id="32" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>46988</id></ctx></annot><val>110010937</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>acc_owner</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="33" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>46991</id></ctx></annot><val>110010938</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1004</id></ctx></annot><val>auth_director</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="34" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>46995</id></ctx></annot><val>110010939</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1012</id></ctx></annot><val>auth_sign</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="35" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>46999</id></ctx></annot><val>110010940</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1011</id></ctx></annot><val>auth_secretary</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="36" level="doc.head" row_type="data">
+            <head_type><val>trans</val></head_type>
+            <idps_prod_type><val>Investment</val></idps_prod_type>
+            <appl_subm_date><annot><displ_text>16/06/2014</displ_text></annot><val>2014-06-16T08:31:35</val></appl_subm_date>
+            <appl_start_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_start_by>
+            <appl_last_upd_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_last_upd_by>
+      </doc_head>
+  </doc_head_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+      <doc_head hira="0" id="37" level="doc.head" row_type="data">
+            <appl_nr><annot><ctx><type>doc</type><id>72882</id></ctx></annot><val>72882</val></appl_nr>
+            <head_type><val>doc</val></head_type>
+            <appl_stat><annot><ctx><type>wfc_status</type><id>3</id></ctx></annot><val>Pending Acceptance</val></appl_stat>
+      </doc_head>
+      <doc_head hira="0" id="38" level="doc.head" row_type="data">
+            <head_type><val>bp</val></head_type>
+            <bp><annot><ctx><type>bp</type><id>44793</id></ctx></annot><val>120004932</val></bp>
+            <acc_own_struct><annot><ctx><type>code_clt_type</type><id>5003</id></ctx></annot><val>legal</val></acc_own_struct>
+      </doc_head>
+      <doc_head hira="0" id="39" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>44778</id></ctx></annot><val>110009836</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1</id></ctx></annot><val>acc_owner</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="40" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>44781</id></ctx></annot><val>110009837</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1004</id></ctx></annot><val>auth_director</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="41" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>44785</id></ctx></annot><val>110009838</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1012</id></ctx></annot><val>auth_sign</val></person_rel>
+      </doc_head>
+      <doc_head hira="0" id="42" level="doc.head" row_type="data">
+            <head_type><val>person</val></head_type>
+            <person><annot><ctx><type>person</type><id>44789</id></ctx></annot><val>110009839</val></person>
+            <person_rel><annot><ctx><type>code_auth_role</type><id>1011</id></ctx></annot><val>auth_secretary</val></person_rel>
+            <reg_status><val>Not Registered</val></reg_status>
+      </doc_head>
+      <doc_head hira="0" id="43" level="doc.head" row_type="data">
+            <head_type><val>trans</val></head_type>
+            <idps_prod_type><val>Investment</val></idps_prod_type>
+            <appl_subm_date><annot><displ_text>13/06/2014</displ_text></annot><val>2014-06-13T14:56:47</val></appl_subm_date>
+          <appl_start_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_start_by>
+            <appl_last_upd_by><annot><ctx><type>user</type><id>2597</id></ctx></annot><val>201607416</val></appl_last_upd_by>
+      </doc_head>
+      </doc_head_list>
+    </doc>
+  </doc_list>
+    </report>
+
+  </data>
+
+  
+  </rep:rep>
+<!-- 2014-06-16 16:49:10 on NGWU1 by 217052641 -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

@@ -1,0 +1,225 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet_bp" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-07-31 11:20:11.537911000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>08-OCT-2014</val></date_from>
+    <date_to><val>08-JAN-2015</val></date_to>
+    <current_of_time><val>2014-07-30T20:42:28.704928000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>obj</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period_det</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>obj_id</name>
+          <type>NrFld</type>
+            <lbl>Object ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bmrk_id</name>
+          <type>NrFld</type>
+            <lbl>Benchmark ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>calc_perf_from</name>
+          <type>DateFld</type>
+            <lbl>Performance calculated from</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_id</name>
+          <type>NrFld</type>
+            <lbl>Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_sop</name>
+          <type>DateFld</type>
+            <lbl>Start of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_eop</name>
+          <type>DateFld</type>
+            <lbl>End of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_gross</name>
+          <type>NrFld</type>
+            <lbl>Gross TWRR</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr</name>
+          <type>NrFld</type>
+            <lbl>Net of tax TWRR</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_capt_rtn</name>
+          <type>NrFld</type>
+            <lbl>Capital Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_income_rtn</name>
+          <type>NrFld</type>
+            <lbl>Income Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>twrr_accum</name>
+          <type>NrFld</type>
+            <lbl>Accumulated TWRR</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bmrk_ror</name>
+          <type>NrFld</type>
+            <lbl>Benchmark Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>active_ror</name>
+          <type>NrFld</type>
+            <lbl>Active Return</lbl>
+        </fld_def>
+        <fld_def>
+          <name>sop_curr_val_ref</name>
+          <type>NrFld</type>
+            <lbl>Opening Balance</lbl>
+        </fld_def>
+        <fld_def>
+          <name>inflows</name>
+          <type>NrFld</type>
+            <lbl>Inflows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>outflows</name>
+          <type>NrFld</type>
+            <lbl>Outflows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>income</name>
+          <type>NrFld</type>
+            <lbl>Income</lbl>
+        </fld_def>
+        <fld_def>
+          <name>expenses</name>
+          <type>NrFld</type>
+            <lbl>Expenses</lbl>
+        </fld_def>
+        <fld_def>
+          <name>mkt_mvt</name>
+          <type>NrFld</type>
+            <lbl>Market Movement</lbl>
+        </fld_def>
+        <fld_def>
+          <name>eop_bfr_fee</name>
+          <type>NrFld</type>
+            <lbl>Closing Balance Before Platform Fees</lbl>
+        </fld_def>
+        <fld_def>
+          <name>fee</name>
+          <type>NrFld</type>
+            <lbl>Fees</lbl>
+        </fld_def>
+        <fld_def>
+          <name>eop_aft_fee</name>
+          <type>NrFld</type>
+            <lbl>Total Performance After Fees</lbl>
+        </fld_def>
+        <fld_def>
+          <name>net_gain_loss</name>
+          <type>NrFld</type>
+            <lbl>Net Account Gain / Loss</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <obj_list>
+    <obj>
+      <obj_head_list>
+        <obj_head id="1" row_type="title" hira="1" level="obj.head">
+          <obj_id><val>56307</val></obj_id>
+          <calc_perf_from><val>2014-07-09</val></calc_perf_from>
+        </obj_head>
+      </obj_head_list>
+  <period_list>
+    <period>
+      <period_head_list>
+        <period_head id="2" row_type="subtitle" hira="2" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>8</id></ctx></annot><val>8</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="3" row_type="data" hira="3" level="period_det.head">
+          <period_sop><val>2014-10-08</val></period_sop>
+          <period_eop><val>2015-01-08</val></period_eop>
+          <twrr_gross><annot><displ_text></displ_text></annot><val>.3278</val></twrr_gross>
+          <twrr><annot><displ_text></displ_text></annot><val>.3278</val></twrr>
+          <twrr_capt_rtn><annot><displ_text></displ_text></annot><val>.3196</val></twrr_capt_rtn>
+          <twrr_income_rtn><annot><displ_text></displ_text></annot><val>.0082</val></twrr_income_rtn>
+          <twrr_accum><annot><displ_text></displ_text></annot><val>.3278</val></twrr_accum>
+          <sop_curr_val_ref><annot><displ_text></displ_text></annot><val>51025848.64</val></sop_curr_val_ref>
+          <inflows><annot><displ_text></displ_text></annot><val>6092912</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>-6092912</val></outflows>
+          <income><annot><displ_text></displ_text></annot><val>316566.61</val></income>
+          <expenses><annot><displ_text></displ_text></annot><val>0</val></expenses>
+          <mkt_mvt><annot><displ_text></displ_text></annot><val>38030955.19</val></mkt_mvt>
+          <eop_bfr_fee><annot><displ_text></displ_text></annot><val>101559194.44</val></eop_bfr_fee>
+          <fee><annot><displ_text></displ_text></annot><val>0</val></fee>
+          <eop_aft_fee><annot><displ_text></displ_text></annot><val>101559194.44</val></eop_aft_fee>
+          <net_gain_loss><annot><displ_text></displ_text></annot><val>38347521.8</val></net_gain_loss>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+  </period_det_list>
+    </period>
+  </period_list>
+    </obj>
+  </obj_list>
+
+  </data>
+</rep:rep>
+
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

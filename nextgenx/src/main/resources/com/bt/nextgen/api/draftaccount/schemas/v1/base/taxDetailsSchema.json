@@ -1,0 +1,27 @@
+{
+  "title": "Tax Details Schema",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.base.TaxDetails",
+  "properties": {
+    "ausTaxDetails": {
+      "$ref": "../base/ausTaxDetailsSchema.json",
+      "description": "australia tax details"
+    },
+    "isOverseasTaxRes": {
+      "$ref": "../base/booleanValueSchema.json",
+      "description": "This flag introduced to make Overseas tax capture more forceful. Submit will work as it is. Even for View application/offline/investor approval page, this value will be derived"
+    },
+    "overseasTaxDetails": {
+      "type": "array",
+      "maxItems": 5,
+      "description": "Overseas tax details: Only a Maximum of 5 countries can be added in the overseas",
+      "items" : {
+        "$ref": "../base/overseasTaxDetailsSchema.json"
+      }
+    },
+    "selectedOverseasTaxCountry": {
+      "$ref": "../base/stringValueSchema.json",
+      "description": "stores the value for overseas country for tax caculation"
+    }
+  },
+  "additionalProperties": false
+}

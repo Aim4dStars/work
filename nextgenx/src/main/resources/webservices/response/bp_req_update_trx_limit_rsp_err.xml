@@ -1,0 +1,151 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+          <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+
+<bp:bp_rsp xmlns:bp="http://btfin.com/ABS/TrxService/BP/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>45bb079e-cb21-4c64-a3a4-fdba113034d1</req_id>
+  </hdr>
+  <data>
+    <bp>
+      <annot>
+        <displ_text>person-121_655person-121_655person-121_655</displ_text>
+        <ctx>
+          <type>obj_bp</type>
+          <id>11263</id>
+        </ctx>
+      </annot>
+      <val>11263</val>
+    </bp>
+    <modi_seq_nr>
+      <val>5</val>
+    </modi_seq_nr>
+    <linked_accs>
+      <linked_acc>
+        <bsb>
+          <val>262785</val>
+        </bsb>
+        <acc_nr>
+          <val>012200</val>
+        </acc_nr>
+        <curry>
+          <annot>
+            <displ_text>AUD</displ_text>
+            <ctx>
+              <type>obj_curry</type>
+              <id>1009</id>
+            </ctx>
+          </annot>
+          <val>1009</val>
+        </curry>
+        <acc_name>
+          <val>Oniston Pty Ltd (wrap account)</val>
+        </acc_name>
+        <acc_nick_name>
+          <val>BT Wrap cash account</val>
+        </acc_nick_name>
+      </linked_acc>
+      <linked_acc>
+        <bsb>
+          <val>262786</val>
+        </bsb>
+        <acc_nr>
+          <val>120000005</val>
+        </acc_nr>
+        <curry>
+          <annot>
+            <displ_text>AUD</displ_text>
+            <ctx>
+              <type>obj_curry</type>
+              <id>1009</id>
+            </ctx>
+          </annot>
+          <val>1009</val>
+        </curry>
+        <acc_name>
+          <val>Oniston Pty Ltd</val>
+        </acc_name>
+      </linked_acc>
+      <linked_acc>
+        <is_pri>
+          <val>true</val>
+        </is_pri>
+        <bsb>
+          <val>262785</val>
+        </bsb>
+        <acc_nr>
+          <val>1010101</val>
+        </acc_nr>
+        <curry>
+          <annot>
+            <displ_text>AUD</displ_text>
+            <ctx>
+              <type>obj_curry</type>
+              <id>1009</id>
+            </ctx>
+          </annot>
+          <val>1009</val>
+        </curry>
+        <limit>
+          <val>5000</val>
+        </limit>
+        <acc_name>
+          <val>Christine Aranas</val>
+        </acc_name>
+        <acc_nick_name>
+          <val>TEST</val>
+        </acc_nick_name>
+      </linked_acc>
+    </linked_accs>
+    <reg_billers>
+      <reg_acc>
+        <payee_ident>
+          <val>5009</val>
+        </payee_ident>
+        <payee_acc>
+          <val>12345678</val>
+        </payee_acc>
+        <acc_name>
+          <val>next gen cash</val>
+        </acc_name>
+        <acc_nick_name>
+          <val>next gen</val>
+        </acc_nick_name>
+      </reg_acc>
+      <reg_acc>
+        <payee_ident>
+          <val>5009</val>
+        </payee_ident>
+        <payee_acc>
+          <val>12456987</val>
+        </payee_acc>
+        <acc_name>
+          <val>next gen 2</val>
+        </acc_name>
+        <acc_nick_name>
+          <val>n</val>
+        </acc_nick_name>
+      </reg_acc>
+    </reg_billers>
+  </data>
+  <rsp>
+    <exec>
+      <action>do</action>
+      <err_list>
+        <err>
+          <type>ui</type>
+          <id>10027</id>
+          <err_msg>Multiple daily limits found for same condition. Please remove the duplicate.</err_msg>
+        </err>
+      </err_list>
+    </exec>
+  </rsp>
+</bp:bp_rsp>
+</SuccessResponse>
+</ResponseDetails>
+</ns3:AvaloqGatewayResponseMsg>
+</env:Body>
+</env:Envelope>

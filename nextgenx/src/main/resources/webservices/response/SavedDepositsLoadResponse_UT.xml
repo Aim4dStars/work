@@ -1,0 +1,291 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_list_doc_hold" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2017-02-10 11:48:15.160830000 on afp020t by AVALOQ -->
+
+<metadata>
+<empty_rep><val>false</val></empty_rep>
+<current_of_time><val>2017-02-10T00:48:15+11:00</val></current_of_time>
+</metadata>
+
+<def>
+<version>2.0</version>
+<rep_def>
+<style>flat</style>
+<lang id="1">en</lang>
+<hira_def>
+<grp_list>
+<grp_def>
+<name>doc</name>
+<hira>1</hira>
+<has_head>true</has_head>
+<has_foot>false</has_foot>
+</grp_def>
+</grp_list>
+</hira_def>
+<row_def>
+<fld_list>
+<fld_def>
+<name>trx</name>
+<type>NrFld</type>
+<lbl>Generated Trx</lbl>
+</fld_def>
+<fld_def>
+<name>stord_pos</name>
+<type>NrFld</type>
+<lbl>STORD Pos</lbl>
+</fld_def>
+<fld_def>
+<name>trx_descn</name>
+<type>TextFld</type>
+<lbl>Trx Description</lbl>
+</fld_def>
+<fld_def>
+<name>trx_status_id</name>
+<type>NrFld</type>
+<lbl>Trx Status ID</lbl>
+</fld_def>
+<fld_def>
+<name>ui_trx_status_id</name>
+<type>NrFld</type>
+<lbl>UI Trx Status ID</lbl>
+</fld_def>
+<fld_def>
+<name>meta_typ_id</name>
+<type>NrFld</type>
+<lbl>Business Type ID</lbl>
+</fld_def>
+<fld_def>
+<name>order_type_id</name>
+<type>NrFld</type>
+<lbl>Order Type ID</lbl>
+</fld_def>
+<fld_def>
+<name>amount</name>
+<type>NrFld</type>
+<lbl>Amount</lbl>
+</fld_def>
+<fld_def>
+<name>freq_id</name>
+<type>NrFld</type>
+<lbl>Frequency ID</lbl>
+</fld_def>
+<fld_def>
+<name>max_period_cnt</name>
+<type>NrFld</type>
+<lbl>Number of Executions</lbl>
+</fld_def>
+<fld_def>
+<name>first_date</name>
+<type>DateFld</type>
+<lbl>Start Date</lbl>
+</fld_def>
+<fld_def>
+<name>end_date</name>
+<type>DateFld</type>
+<lbl>End Date</lbl>
+</fld_def>
+<fld_def>
+<name>contri_type_id</name>
+<type>NrFld</type>
+<lbl>Contribution Type</lbl>
+</fld_def><fld_def>
+<name>payer</name>
+<type>TextFld</type>
+<lbl>Payer</lbl>
+</fld_def>
+<fld_def>
+<name>payer_bsb</name>
+<type>TextFld</type>
+<lbl>Payer BSB</lbl>
+</fld_def>
+<fld_def>
+<name>payer_acct_no</name>
+<type>TextFld</type>
+<lbl>Payer Account No.</lbl>
+</fld_def>
+<fld_def>
+<name>payee</name>
+<type>TextFld</type>
+<lbl>Payee</lbl>
+</fld_def>
+<fld_def>
+<name>payee_bsb</name>
+<type>TextFld</type>
+<lbl>Payee BSB</lbl>
+</fld_def>
+<fld_def>
+<name>payee_acct_no</name>
+<type>TextFld</type>
+<lbl>Payee Account No.</lbl>
+</fld_def>
+<fld_def>
+<name>pens_idx_mtd_id</name>
+<type>NrFld</type>
+<lbl>Indexation method</lbl>
+</fld_def>
+<fld_def>
+<name>pens_fixed_amt</name>
+<type>NrFld</type>
+<lbl>Fixed Amount</lbl>
+</fld_def>
+<fld_def>
+<name>pens_fixed_pct</name>
+<type>NrFld</type>
+<lbl>Fixed Percentage</lbl>
+</fld_def>
+<fld_def>
+<name>trans_seq_nr</name>
+<type>NrFld</type>
+<lbl>Trx Seq Nr</lbl>
+</fld_def>
+
+</fld_list>
+</row_def>
+</rep_def>
+</def>
+
+<data>
+<doc_list>
+<doc>
+<doc_head_list>
+<doc_head id="16-8" row_type="data" hira="0" level="doc.head">
+<trx><annot><ctx><type>doc</type><id>6440061</id></ctx></annot><val>6440061</val></trx>
+<stord_pos><val>834649</val></stord_pos>
+<trx_status_id><annot><displ_text>INPAY: Hold Standing Collection</displ_text><ctx><type>wfc_status_v</type><id>300021</id></ctx></annot><val>300021</val></trx_status_id>
+<ui_trx_status_id><annot><displ_text>Not Submitted</displ_text><ctx><type>btfg$code_ui_wf_status</type><id>101</id></ctx></annot><val>101</val></ui_trx_status_id>
+<meta_typ_id><annot><displ_text>Incoming payment</displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+<order_type_id><annot><displ_text>Incoming Payment.Super Regular Contribution</displ_text><ctx><type>code_order_type_v</type><id>1054</id></ctx></annot><val>1054</val></order_type_id>
+<amount><val>250</val></amount>
+<trx_descn><val>description test</val></trx_descn>
+<max_period_cnt><val>4</val></max_period_cnt>
+<freq_id><annot><displ_text>Quarterly (Rolling)</displ_text><ctx><type>code_pay_type</type><id>24</id></ctx></annot><val>24</val></freq_id>
+<first_date><val>2017-01-27</val></first_date>
+<end_date><val>2017-10-24</val></end_date>
+<contri_type_id><annot><displ_text>Personal</displ_text><ctx><type>code_au_tax_sa_contri_type</type><id>61</id></ctx></annot><val>61</val></contri_type_id>
+<payer><val>ACCT TEST</val></payer>
+<payer_bsb><val>036081</val></payer_bsb>
+<payer_acct_no><val>123456782</val></payer_acct_no>
+<payee><annot><displ_text>Trading13 super acc</displ_text><ctx><type>bp</type><id>834337</id></ctx></annot><val>834337</val></payee>
+<payee_bsb><val>262750</val></payee_bsb>
+<payee_acct_no><val>834340</val></payee_acct_no>
+<trans_seq_nr><val>5</val></trans_seq_nr>
+</doc_head>
+</doc_head_list>
+</doc>
+<doc>
+<doc_head_list>
+<doc_head id="186-93" row_type="data" hira="0" level="doc.head">
+<trx><annot><ctx><type>doc</type><id>6668933</id></ctx></annot><val>6668933</val></trx>
+<stord_pos><val>862615</val></stord_pos>
+<trx_status_id><val>300021</val></trx_status_id>
+<ui_trx_status_id><val>101</val></ui_trx_status_id>
+<meta_typ_id><val>30</val></meta_typ_id>
+<order_type_id><annot><displ_text>Contribution</displ_text><ctx><type>code_order_type</type><id>1050</id></ctx></annot><val>1050</val></order_type_id>
+<amount><val>70</val></amount>
+<trx_descn><val>description</val></trx_descn>
+<freq_id><val>5000</val></freq_id>
+<first_date><val>2017-02-21</val></first_date>
+<end_date><val>2017-02-21</val></end_date>
+<contri_type_id><annot><displ_text>Personal</displ_text><ctx><type>code_au_tax_sa_contri_type</type><id>61</id></ctx></annot><val>61</val></contri_type_id>
+<payer><val>test payer</val></payer>
+<payer_bsb><val>036081</val></payer_bsb>
+<payer_acct_no><val>897324978</val></payer_acct_no>
+<payee><val>862466</val></payee>
+<payee_bsb><val>262750</val></payee_bsb>
+<payee_acct_no><val>862469</val></payee_acct_no>
+<trans_seq_nr><val>2</val></trans_seq_nr>
+</doc_head>
+</doc_head_list>
+</doc>
+<doc>
+<doc_head_list>
+<doc_head id="18-9" row_type="data" hira="0" level="doc.head">
+<trx><annot><ctx><type>doc</type><id>6440216</id></ctx></annot><val>6440216</val></trx>
+<stord_pos><val>832265</val></stord_pos>
+<trx_status_id><annot><displ_text>INPAY: Hold Standing Collection</displ_text><ctx><type>wfc_status_v</type><id>300021</id></ctx></annot><val>300021</val></trx_status_id>
+<ui_trx_status_id><annot><displ_text>Not Submitted</displ_text><ctx><type>btfg$code_ui_wf_status</type><id>101</id></ctx></annot><val>101</val></ui_trx_status_id>
+<meta_typ_id><annot><displ_text>Incoming payment</displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+<order_type_id><annot><displ_text>Incoming Payment.Super Regular Contribution</displ_text><ctx><type>code_order_type_v</type><id>1054</id></ctx></annot><val>1054</val></order_type_id>
+<amount><val>150</val></amount>
+<freq_id><annot><displ_text>Monthly (Rolling)</displ_text><ctx><type>code_pay_type</type><id>23</id></ctx></annot><val>23</val></freq_id>
+<first_date><val>2017-02-09</val></first_date>
+<contri_type_id><annot><displ_text>Spouse Contributions</displ_text><ctx><type>code_au_tax_sa_contri_type</type><id>11</id></ctx></annot><val>11</val></contri_type_id>
+<payer_bsb><val>032000</val></payer_bsb>
+<payer_acct_no><val>987234987</val></payer_acct_no>
+<payee><annot><displ_text>Trading Accumulation 1</displ_text><ctx><type>bp</type><id>831020</id></ctx></annot><val>831020</val></payee>
+<payee_bsb><val>262750</val></payee_bsb>
+<payee_acct_no><val>831023</val></payee_acct_no>
+<trans_seq_nr><val>2</val></trans_seq_nr>
+</doc_head>
+</doc_head_list>
+</doc>
+<doc>
+<doc_head_list>
+<doc_head id="20-10" row_type="data" hira="0" level="doc.head">
+<trx><annot><ctx><type>doc</type><id>6440217</id></ctx></annot><val>6440217</val></trx>
+<stord_pos><val>832265</val></stord_pos>
+<trx_status_id><annot><displ_text>INPAY: Hold Standing Collection</displ_text><ctx><type>wfc_status_v</type><id>300021</id></ctx></annot><val>300021</val></trx_status_id>
+<ui_trx_status_id><annot><displ_text>Not Submitted</displ_text><ctx><type>btfg$code_ui_wf_status</type><id>101</id></ctx></annot><val>101</val></ui_trx_status_id>
+<meta_typ_id><annot><displ_text>Incoming payment</displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+<order_type_id><annot><displ_text>Incoming Payment.Super Regular Contribution</displ_text><ctx><type>code_order_type_v</type><id>1054</id></ctx></annot><val>1054</val></order_type_id>
+<amount><val>12</val></amount>
+<freq_id><annot><displ_text>Monthly (Rolling)</displ_text><ctx><type>code_pay_type</type><id>23</id></ctx></annot><val>23</val></freq_id>
+<first_date><val>2017-02-09</val></first_date>
+<contri_type_id><annot><displ_text>Personal</displ_text><ctx><type>code_au_tax_sa_contri_type</type><id>61</id></ctx></annot><val>61</val></contri_type_id>
+<payer_bsb><val>032000</val></payer_bsb>
+<payer_acct_no><val>987234987</val></payer_acct_no>
+<payee><annot><displ_text>Trading Accumulation 1</displ_text><ctx><type>bp</type><id>831020</id></ctx></annot><val>831020</val></payee>
+<payee_bsb><val>262750</val></payee_bsb>
+<payee_acct_no><val>831023</val></payee_acct_no>
+<trans_seq_nr><val>2</val></trans_seq_nr>
+</doc_head>
+</doc_head_list>
+</doc>
+<doc>
+<doc_head_list>
+<doc_head id="22-11" row_type="data" hira="0" level="doc.head">
+<trx><annot><ctx><type>doc</type><id>6440218</id></ctx></annot><val>6440218</val></trx>
+<stord_pos><val>832265</val></stord_pos>
+<trx_status_id><annot><displ_text>INPAY: Hold Standing Collection</displ_text><ctx><type>wfc_status_v</type><id>300021</id></ctx></annot><val>300021</val></trx_status_id>
+<ui_trx_status_id><annot><displ_text>Not Submitted</displ_text><ctx><type>btfg$code_ui_wf_status</type><id>101</id></ctx></annot><val>101</val></ui_trx_status_id>
+<meta_typ_id><annot><displ_text>Incoming payment</displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+<order_type_id><annot><displ_text>Incoming Payment.Super Regular Contribution</displ_text><ctx><type>code_order_type_v</type><id>1054</id></ctx></annot><val>1054</val></order_type_id>
+<amount><val>150</val></amount>
+<freq_id><annot><displ_text>Monthly (Rolling)</displ_text><ctx><type>code_pay_type</type><id>23</id></ctx></annot><val>23</val></freq_id>
+<first_date><val>2017-02-09</val></first_date>
+<contri_type_id><annot><displ_text>Personal</displ_text><ctx><type>code_au_tax_sa_contri_type</type><id>61</id></ctx></annot><val>61</val></contri_type_id>
+<payer_bsb><val>032000</val></payer_bsb>
+<payer_acct_no><val>987234987</val></payer_acct_no>
+<payee><annot><displ_text>Trading Accumulation 1</displ_text><ctx><type>bp</type><id>831020</id></ctx></annot><val>831020</val></payee>
+<payee_bsb><val>262750</val></payee_bsb>
+<payee_acct_no><val>831023</val></payee_acct_no>
+<trans_seq_nr><val>2</val></trans_seq_nr>
+</doc_head>
+</doc_head_list>
+</doc>
+<doc>
+<doc_head_list>
+<doc_head id="24-12" row_type="data" hira="0" level="doc.head">
+<trx><annot><ctx><type>doc</type><id>6440219</id></ctx></annot><val>6440219</val></trx>
+<stord_pos><val>832265</val></stord_pos>
+<trx_status_id><annot><displ_text>INPAY: Hold Incoming Payment</displ_text><ctx><type>wfc_status_v</type><id>300020</id></ctx></annot><val>300020</val></trx_status_id>
+<ui_trx_status_id><annot><displ_text>Not Submitted</displ_text><ctx><type>btfg$code_ui_wf_status</type><id>101</id></ctx></annot><val>101</val></ui_trx_status_id>
+<meta_typ_id><annot><displ_text>Incoming payment</displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+<order_type_id><annot><displ_text>Incoming Payment.Super Regular Contribution</displ_text><ctx><type>code_order_type_v</type><id>1054</id></ctx></annot><val>1054</val></order_type_id>
+<amount><val>150</val></amount>
+<freq_id><annot><displ_text>Once</displ_text><ctx><type>code_pay_type</type><id>5000</id></ctx></annot><val>5000</val></freq_id>
+<first_date><val>2017-02-09</val></first_date>
+<end_date><val>2017-02-09</val></end_date>
+<contri_type_id><annot><displ_text>Personal</displ_text><ctx><type>code_au_tax_sa_contri_type</type><id>61</id></ctx></annot><val>61</val></contri_type_id>
+<payer_bsb><val>032000</val></payer_bsb>
+<payer_acct_no><val>987234987</val></payer_acct_no>
+<payee><annot><displ_text>Trading Accumulation 1</displ_text><ctx><type>bp</type><id>831020</id></ctx></annot><val>831020</val></payee>
+<payee_bsb><val>262750</val></payee_bsb>
+<payee_acct_no><val>831023</val></payee_acct_no>
+<trans_seq_nr><val>2</val></trans_seq_nr>
+</doc_head>
+</doc_head_list>
+</doc>
+</doc_list>
+
+</data>
+</rep:rep>

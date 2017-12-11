@@ -1,0 +1,126 @@
+<RspNS:RetrieveAuthorisedTrustsResponseMsg xmlns:RspNS="ns://btfin.com/Product/Common/InvestmentTrust/InvestmentTrustService/InvestmentTrustReply/V1_0">
+    <Status>Success</Status>
+    <ResponseDetails>
+        <ResponseDetail>
+            <SuccessResponse>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training</TrustName>
+                        <TrustID>8a009fd94b919beb896b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund 9</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90015</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+                <InvestmentTrustDetail>
+                    <OrganisationName>btfinancialapitest</OrganisationName>
+                    <ABN>11111117111</ABN>
+                    <TrustDetails>
+                        <TrustName>BGL Training Fund New</TrustName>
+                        <TrustID>8a009fd94b919beb014b94699dd90069</TrustID>
+                        <TrustIDIssuer>BGL</TrustIDIssuer>
+                    </TrustDetails>
+                </InvestmentTrustDetail>
+            </SuccessResponse>
+        </ResponseDetail>
+    </ResponseDetails>
+</RspNS:RetrieveAuthorisedTrustsResponseMsg>

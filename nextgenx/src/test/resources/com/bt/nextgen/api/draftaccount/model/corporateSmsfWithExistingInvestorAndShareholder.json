@@ -1,0 +1,725 @@
+{
+  "version": "1.0.0",
+  "accountType": "corporateSMSF",
+  "approvalType": "online",
+  "smsfdetails": {
+    "smsfabn": "53004085616",
+    "registrationstate": "NSW",
+    "registeredforgst": "no",
+    "agree": "Verified",
+    "regdate": "12/02/2016",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "wealthsource": "Business income/earnings",
+    "smsfname": "my existing funds",
+    "smsfaddress": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "33",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "366992",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "docissuer": "www.superfundlookup.gov.au",
+    "issuedate": "18 Nov 2016",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable",
+    "taxoption": "Tax File Number or exemption not provided"
+  },
+  "directors": [
+    {
+      "isvalid": true,
+      "emails": [
+        {
+          "email": "seth.ayesha@gmail.com",
+          "preferred": false,
+          "emailType": "Secondary"
+        },
+        {
+          "email": "ayesha.seth@gmail.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "gcmId": "237460570",
+      "key": {
+        "clientId": "AB54BD1226FBE30AEE7DF2F1778C26409C10D4DC75D699B2"
+      },
+      "personRoles": [
+        "Owner"
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0245454120",
+          "phoneType": "Work",
+          "type": "Phone",
+          "label": "Work number"
+        },
+        {
+          "preferred": false,
+          "number": "0400111000",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        },
+        {
+          "preferred": false,
+          "number": "0444455552",
+          "phoneType": "Secondary",
+          "type": "Phone",
+          "label": "Mobile - secondary"
+        },
+        {
+          "preferred": false,
+          "number": "0245132323",
+          "phoneType": "Home",
+          "type": "Phone",
+          "label": "Home number"
+        }
+      ],
+      "gcmTitleLabel": "Ms",
+      "cisId": "92557810087",
+      "userName": "ayesha.seth@gmail.com",
+      "idVerified": true,
+      "isDuplicate": true,
+      "registered": true,
+      "tfnProvided": false,
+      "investorType": "INDIVIDUAL",
+      "title": "Ms",
+      "firstname": "Ayesha",
+      "lastname": "Seth",
+      "preferredname": "Ayesh",
+      "dateofbirth": "12 Dec 1990",
+      "gender": "Female",
+      "mobile": {
+        "value": "0400111000"
+      },
+      "email": {
+        "value": "ayesha.seth@gmail.com"
+      },
+      "accountType": "corporateSMSF",
+      "resaddress": {
+        "stateAbbr": "NSW",
+        "domicile": true,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": false,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "18-22",
+        "streetName": "Pitt",
+        "streetType": "Street",
+        "suburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "country": "Australia",
+        "existingAddressList": []
+      },
+      "postaladdress": {
+        "stateAbbr": "NSW",
+        "domicile": false,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": true,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "18-22",
+        "streetName": "Pitt",
+        "streetType": "Street",
+        "suburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "country": "Australia",
+        "existingAddressList": []
+      },
+      "homenumber": {
+        "value": "0245132323"
+      },
+      "worknumber": {
+        "value": "0245454120"
+      },
+      "secondarymobile": {
+        "value": "0444455552"
+      },
+      "secondaryemail": {
+        "value": "seth.ayesha@gmail.com"
+      },
+      "tfnExemptId": "99",
+      "saTfnExemptId": "6",
+      "exemptionReason": "No exemption"
+    },
+    {
+      "isvalid": true,
+      "emails": [
+        {
+          "email": "chain.check@gmail.com",
+          "preferred": false,
+          "emailType": "Primary"
+        },
+        {
+          "email": "check@gmail.com",
+          "preferred": false,
+          "emailType": "Secondary"
+        }
+      ],
+      "gcmId": "237460590",
+      "key": {
+        "clientId": "308F56B485B9799FF61D970B710632949AC1C807CFE30F19"
+      },
+      "personRoles": [
+        "Owner"
+      ],
+      "phones": [
+        {
+          "preferred": false,
+          "number": "0278779999",
+          "phoneType": "Home",
+          "type": "Phone",
+          "label": "Home number"
+        },
+        {
+          "preferred": false,
+          "number": "0278878788",
+          "phoneType": "Work",
+          "type": "Phone",
+          "label": "Work number"
+        },
+        {
+          "preferred": true,
+          "number": "0410550000",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        },
+        {
+          "preferred": false,
+          "number": "0410555222",
+          "phoneType": "Secondary",
+          "type": "Phone",
+          "label": "Mobile - secondary"
+        }
+      ],
+      "gcmTitleLabel": "Mr",
+      "cisId": "37770120016",
+      "userName": "dba0-3846-6b",
+      "idVerified": true,
+      "isDuplicate": true,
+      "registered": true,
+      "tfnProvided": false,
+      "investorType": "INDIVIDUAL",
+      "title": "Mr",
+      "firstname": "Chain",
+      "lastname": "Checks",
+      "preferredname": "Chaining",
+      "dateofbirth": "12 Dec 1980",
+      "gender": "Male",
+      "mobile": {
+        "value": "0410550000"
+      },
+      "email": {
+        "value": "chain.check@gmail.com"
+      },
+      "accountType": "corporateSMSF",
+      "resaddress": {
+        "stateAbbr": "NSW",
+        "domicile": true,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": false,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "18-22",
+        "streetName": "Pitt",
+        "streetType": "Street",
+        "suburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "country": "Australia",
+        "existingAddressList": []
+      },
+      "postaladdress": {
+        "stateAbbr": "NSW",
+        "domicile": false,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": true,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "18-22",
+        "streetName": "Pitt",
+        "streetType": "Street",
+        "suburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "country": "Australia",
+        "existingAddressList": []
+      },
+      "homenumber": {
+        "value": "0278779999"
+      },
+      "worknumber": {
+        "value": "0278878788"
+      },
+      "secondarymobile": {
+        "value": "0410555222"
+      },
+      "secondaryemail": {
+        "value": "check@gmail.com"
+      },
+      "tfnExemptId": "99",
+      "saTfnExemptId": "6",
+      "exemptionReason": "No exemption"
+    },
+    {
+      "title": "MR",
+      "firstname": "aniket",
+      "middlename": "",
+      "lastname": "seth",
+      "preferredname": "aniket",
+      "formername": "",
+      "dateofbirth": "12/03/1980",
+      "gender": "male",
+      "mobile": {
+        "value": "0478990123"
+      },
+      "email": {
+        "value": "aniket.seth@gmail.com"
+      },
+      "preferredcontact": "worknumber",
+      "isvalid": true,
+      "accountType": "corporateSMSF",
+      "alternatename": "aniket",
+      "sameasresaddress": "true",
+      "homenumber": {
+        "label": "homenumber",
+        "valid": true,
+        "value": "78787999",
+        "countryCode": "61",
+        "areaCode": "02"
+      },
+      "worknumber": {
+        "label": "worknumber",
+        "valid": true,
+        "value": "12121200",
+        "countryCode": "61",
+        "areaCode": "02"
+      },
+      "secondaryemail": {
+        "label": "secondaryemail",
+        "valid": true,
+        "value": "seth.aniket@gmail.com"
+      },
+      "secondarymobile": {
+        "label": "secondarymobile",
+        "valid": true,
+        "value": "0478999555"
+      },
+      "identitydocument": {
+        "photodocuments": {
+          "agecard": {
+            "documentIssuer": "NSW",
+            "expiryDate": "03/03/2030",
+            "documentNumber": "PC1230",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "490522",
+        "sameasaddress": "490522",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "490522",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "260178",
+        "sameasaddress": "260178",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "260178",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true
+          }
+        ]
+      }
+    }
+  ],
+  "shareholderandmembers": {
+    "needsShareholder": true,
+    "needsMember": true,
+    "needsBeneficiary": false,
+    "needsBeneficialOwner": true,
+    "accountType": "corporateSMSF",
+    "isMajorShareholder": "yes",
+    "investorsWithRoles": [
+      {
+        "isMember": "yes",
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      },
+      {
+        "isMember": "yes",
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      },
+      {
+        "isMember": "yes",
+        "isShareholder": "yes",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "needsBeneficialOwner": true,
+        "isMajorShareholder": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": ["shareholder"],
+        "title": "MR",
+        "firstname": "tezas",
+        "middlename": "",
+        "lastname": "seth",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "alternatename": "tezas",
+        "dateofbirth": "12/02/2016",
+        "resaddress": {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "803677",
+          "sameasaddress": "803677",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "addressType": "residential",
+              "unitNumber": "",
+              "streetNumber": "33",
+              "streetName": "Pitt",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "id": "803677",
+              "sameasaddress": "0",
+              "confirmed": true,
+              "valid": true,
+              "verified": true
+            }
+          ]
+        },
+        "additionalshareholdergender": "male",
+        "needsBeneficialOwner": true,
+        "identitydocument": {
+          "photodocuments": {
+            "driverlicence": {
+              "documentIssuer": "NSW",
+              "expiryDate": "12/12/2020",
+              "documentNumber": "l232",
+              "verificationSource": "original",
+              "englishTranslation": "Not Applicable",
+              "accreditedenglishtrans": "notapplicable"
+            },
+            "valid": true
+          }
+        }
+      },
+      {
+        "persontype": ["member"],
+        "title": "MR",
+        "firstname": "anita",
+        "middlename": "",
+        "lastname": "seth",
+        "needsShareholder": true,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "dateofbirth": "12/02/2015",
+        "resaddress": {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "595828",
+          "sameasaddress": "595828",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "addressType": "residential",
+              "unitNumber": "",
+              "streetNumber": "33",
+              "streetName": "Pitt",
+              "streetType": "STREET",
+              "suburb": "SYDNEY",
+              "state": "NSW",
+              "postcode": "2000",
+              "country": "AU",
+              "id": "595828",
+              "sameasaddress": "0",
+              "confirmed": true,
+              "valid": true,
+              "verified": true
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "false",
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "paymentSetting": "allpayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 1,
+    "adviserName": "Edward Revis",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Bonus"
+  },
+  "companytrustee": {
+    "companyname": "ahm comp",
+    "asicregisteredname": "ahm comp",
+    "acn": "002999993",
+    "companyabn": "53004085616",
+    "agreeconditions": "Verified",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "companyoffice": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "33",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "id": "989352",
+      "sameasaddress": "989352",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "989352",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true
+        }
+      ]
+    },
+    "placeofbusiness": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "33",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "id": "698729",
+      "sameasaddress": "698729",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "698729",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true
+        }
+      ]
+    },
+    "docissuer": "ASIC",
+    "issuedate": "18 Nov 2016",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "acco",
+      "bsb": "032034",
+      "accountnumber": "56666232",
+      "nickname": "af",
+      "directdebitamount": "111.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "10.00",
+    "ongoingFees": {
+      "feesComponent": [
+        {
+          "cpiindex": false,
+          "amount": "20.00",
+          "label": "Dollar fee component"
+        }
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

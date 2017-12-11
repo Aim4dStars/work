@@ -1,0 +1,149 @@
+
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_cont_assetgrp_pos" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"
+	xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2014-08-05 09:41:38.783029000 on afd030a by AVALOQ -->
+
+	<metadata>
+		<empty_rep>
+			<val>true</val>
+		</empty_rep>
+		<date_from>
+			<val>21-JUL-2014</val>
+		</date_from>
+		<date_to>
+			<val>19-JAN-2015</val>
+		</date_to>
+		<current_of_time>
+			<val>2014-08-03T20:42:04.697974000Z</val>
+		</current_of_time>
+	</metadata>
+
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>cont_type</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>cont</name>
+						<hira>2</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>asset_grp</name>
+						<hira>3</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>pos</name>
+						<hira>4</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl></lbl>
+					</fld_def>
+					<fld_def>
+						<name>cont_type_id</name>
+						<type>NrFld</type>
+						<lbl>Container type ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>cont</name>
+						<type>NrFld</type>
+						<lbl>Container</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_grp_id</name>
+						<type>NrFld</type>
+						<lbl>Asset group ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>pos_name</name>
+						<type>TextFld</type>
+						<lbl>Position</lbl>
+					</fld_def>
+					<fld_def>
+						<name>asset_id</name>
+						<type>NrFld</type>
+						<lbl>Asset</lbl>
+					</fld_def>
+					<fld_def>
+						<name>sop_curr_val_ref</name>
+						<type>NrFld</type>
+						<lbl>Opening Balance</lbl>
+					</fld_def>
+					<fld_def>
+						<name>purch_inflow</name>
+						<type>NrFld</type>
+						<lbl>Purchases (Inflows)</lbl>
+					</fld_def>
+					<fld_def>
+						<name>sale_outflow</name>
+						<type>NrFld</type>
+						<lbl>Sales (Outflows)</lbl>
+					</fld_def>
+					<fld_def>
+						<name>mkt_mvt</name>
+						<type>NrFld</type>
+						<lbl>Market Movement</lbl>
+					</fld_def>
+					<fld_def>
+						<name>eop_curr_val_ref</name>
+						<type>NrFld</type>
+						<lbl>Closing Balance</lbl>
+					</fld_def>
+					<fld_def>
+						<name>income</name>
+						<type>NrFld</type>
+						<lbl>Net Income</lbl>
+					</fld_def>
+					<fld_def>
+						<name>perf</name>
+						<type>NrFld</type>
+						<lbl>Performance $</lbl>
+					</fld_def>
+					<fld_def>
+						<name>twrr</name>
+						<type>NrFld</type>
+						<lbl>Performance %</lbl>
+					</fld_def>
+					<fld_def>
+						<name>twrr_capt_rtn</name>
+						<type>NrFld</type>
+						<lbl>Capital Return</lbl>
+					</fld_def>
+					<fld_def>
+						<name>twrr_income_rtn</name>
+						<type>NrFld</type>
+						<lbl>Income Return</lbl>
+					</fld_def>
+					<fld_def>
+						<name>days</name>
+						<type>NrFld</type>
+						<lbl>Period of days</lbl>
+					</fld_def>
+
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+
+	<data>
+	</data>
+</rep:rep>

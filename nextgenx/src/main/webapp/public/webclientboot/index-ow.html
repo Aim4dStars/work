@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="version" content="">
+    <link rel="dns-prefetch" href="//d3jjhqujexdxuf.cloudfront.net">
+    <title>Panorama</title>
+</head>
+
+<body>
+
+    <!--[if lte IE 9]>
+        <meta http-equiv="refresh" content="2;url=unsupportedbrowser.html">
+    <![endif]-->
+
+    <div id="rootContainer">
+        <div class="loading-container">
+            <div class="loading-message">
+                Loading...<span class="iconLoader"></span>
+            </div>
+        </div>
+    </div>
+    <script>
+        /**************************************************************************************************************
+            If you make changes to this, please update http://dwgps0026/twiki/bin/view/NextGen/CoreSinglePageAppKnownVersionConflicts
+            so people know which version of the BE & FE work together.
+            This file is used by the server, please keep this file in sync with the index.html in ui-framework-core,
+            that file is used by gr server locally.
+        **************************************************************************************************************/
+
+
+        // Following code snippet will force app to run via kernel when not running in local env.
+        (function(win, doc) {
+            "use strict";
+
+            var LOCAL_HOSTS = [
+                /localhost/,
+                /127\.0\.0\.1/,
+                /10\.[0-9]*\.[0-9]*\.[0-9]*/,
+                /192\.168\.[0-9]*\.[0-9]*/
+            ];
+
+            var HOST = win.location.hostname;
+
+            var INDEX_PAGE = /index[-_.]\w+\.html/g;
+
+            function runningLocally () {
+                return LOCAL_HOSTS.some(function(reg){
+                    return reg.test(HOST)
+                });
+            }
+
+            function loadingViaKernel () {
+                try {
+                    return (win.self !== win.top && /^BT_PANORAMA_/.test(win.name));
+                } catch (e) {
+                    return true;
+                }
+            }
+
+            if (!runningLocally() && !loadingViaKernel()) {
+                doc.location.replace(win.location.href.replace(INDEX_PAGE, ''));
+            }
+        })(window, document);
+        
+         (function(win) {
+            "use strict";
+            
+            // If localhost/127.0.0.1 don't load from S3, can override this by using ?loadFromS3=true query param
+            function loadFromS3() {
+                if ((window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') || window.location.search.indexOf('loadFromS3=true') >= 0) {
+                    return true;
+                }
+                return true;
+            }
+
+            // This can't be called until parameters.js has been loaded
+            function getEnvironment() {
+                if (!loadFromS3()) {
+                    return '';
+                }
+                var envPiece = window.location.href.match(/setEnv=([a-z0-9]+)/i);
+                if (envPiece && envPiece.length >= 2) {
+                    return envPiece[1] + '/';
+                }
+                return window.org.bt.bootstrapParams.formalEnvironmentName + '/';
+            }
+
+            // This can't be called until settings.js has loaded
+            function getVersion() {
+                if (!loadFromS3()) {
+                    return '';
+                }
+                var verPiece = window.location.href.match(/setVer=([a-z0-9\-\.\/]+)/i);
+                if (verPiece && verPiece.length >= 2) {
+                    return verPiece[1] + '/';
+                }
+                return window.org.bt.panorama.version + '/';
+            }
+
+            function getBaseUrl() {
+                if (!loadFromS3()) {
+                    return '';
+                }
+                return 'https://d3jjhqujexdxuf.cloudfront.net/';
+            }
+
+            window.org = {
+                bt: {
+                    perf: {
+                        bootstrapBeginTime: new Date().getTime()
+                    },
+                    location: {
+                        base: getBaseUrl()
+                    }
+                }
+            };
+
+
+
+            var doc = win.document,
+                ts = new Date().getTime();
+
+            function onerror() {
+                var errorMsg = 'We seem to be having some technical difficulties.<br /><br />Please reload this page or try again later.',
+                    loadMsgBox = document.querySelectorAll('.loading-message')[0];
+
+                if (loadMsgBox) {
+
+                    loadMsgBox.innerHTML = errorMsg;
+                    loadMsgBox.style.width = '400px';
+
+                }
+            }
+
+            window.onerror = onerror;
+
+            function loadScript(src, callback) {
+                var s = doc.createElement('script');
+                s.type = 'text/' + (src.type || 'javascript');
+                s.src = src.src || src;
+                s.async = false;
+                s.onreadystatechange = s.onload = function () {
+                    var state = s.readyState;
+                    if (callback && !callback.done && (!state || /loaded|complete/.test(state))) {
+                        callback.done = true;
+                        callback();
+                    }
+                };
+                s.onerror = onerror;
+                // use body if available. more safe in IE
+                (doc.body || doc.head).appendChild(s);
+            }
+
+
+
+            // Ask current server what paramters it has to support use bootstrapping
+            loadScript('../../public/bootstrap/parameters.js?ts=' + ts, function () {
+                window.org.bt.location.environment = getEnvironment();
+                
+                // Load settings.js from AWS, this tells the remaining files what build to load
+                loadScript(window.org.bt.location.base + window.org.bt.location.environment + 'generated/settings.js?ts=' + ts, function () {
+                    window.org.bt.EventChannel = {
+                        _preInitEventStack: [],
+                        subscribe: function (name, handler) {
+                            this._preInitEventStack.push({type: 'subscribe', name: name, handler: handler});
+                        },
+                        trigger: function (name, args) {
+                            this._preInitEventStack.push({type: 'trigger', name: name, args: args});
+                        }
+                    };
+                    
+                    window.org.bt.location.version = getVersion();
+
+                    window.org.bt.requireCallback = function () {
+                        require([window.org.bt.location.base + window.org.bt.location.version + 'vendors/EventChannel.js'], function(){
+                            window.org.bt.EventChannel.subscribe('application.loaded', function () {
+                                if(loadFromS3()) {
+                                    require(['generated/vendor-min'], function(){
+                                        require(['vendors/index'], function(main) {
+                                            main.init();
+                                        });
+                                    });
+                                } else {
+                                    require(['vendors/index'], function(main) {
+                                        main.init();
+                                    });
+                                }
+                            });
+                        });
+                    };
+
+                    loadScript(window.org.bt.location.base + window.org.bt.location.version + 'app/framework/bootstrap.js', function () {
+                        loadScript(window.org.bt.location.base + window.org.bt.location.version + 'libs/require/require-min.js', function () {
+                            // Wait till execution stack complete due to a bug in IE11+ when running the app via an iFrame
+                            setTimeout(function(){
+                                require(['libs/panorama-bridge/require-panoramaBridge'], function(panoramaBridge){
+                                    var reqCallback = function () {
+                                        require(window.org.bt.mainJs, function () {
+                                            if (window.org.bt.requireCallback) {
+                                                window.org.bt.requireCallback();
+                                                window.org.bt.requireCallback = null;
+                                            }
+                                        });
+                                    };
+                                    if (panoramaBridge.isInIframe()) {
+                                        panoramaBridge.showLoadingMessage('rootContainer');
+                                        panoramaBridge.init(function(){
+                                            if (loadFromS3()) require(['generated/libs-min'], reqCallback);
+                                            else reqCallback();
+                                        });
+                                    } else {
+                                        if (loadFromS3()) require(['generated/libs-min'], reqCallback);
+                                        else reqCallback();
+                                    }
+                                });
+                            }, 0);
+                        });
+                    });
+                });
+            });
+
+        })(window);
+    </script>
+</body>
+<style>
+/* Styles for loader */
+    #rootContainer > .loading-container {
+        background-color: #999;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+
+    #rootContainer > .loading-container .loading-message {
+        background-color: #fff;
+        color: #666;
+        width: 210px;
+        padding: 20px;
+        border-radius: 10px;
+        line-height: 36px;
+        font-size: 24px;
+        font-weight: normal;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: auto;
+        margin-top: 300px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+   #rootContainer > .loading-container .loading-message.message-long {
+        width: 400px;
+    }
+
+    #rootContainer > .loading-container .loading-message .iconLoader {
+        display: inline-block;
+        margin-left: 10px;
+        width: 16px;
+        height: 16px;
+        background: url('../../public/static/images/ajaxLoader.gif') no-repeat;
+    }
+
+    html.panorama-bridge {
+        height: auto;
+    }
+
+    html.panorama-bridge body {
+        height: auto;
+        background: transparent;
+    }
+</style>
+
+</html>

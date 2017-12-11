@@ -1,0 +1,4 @@
+DROP SEQUENCE acl_sid_seq;
+
+CREATE SEQUENCE acl_sid_seq;
+

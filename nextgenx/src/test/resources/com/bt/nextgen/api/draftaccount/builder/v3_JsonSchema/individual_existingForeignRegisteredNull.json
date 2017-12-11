@@ -1,0 +1,154 @@
+{
+  "version": "1.0.0",
+  "accountType": "individual",
+  "investors": [{
+    "gcmUpdated": true,
+    "emails": [{
+      "email": "deepaky@gmail.com",
+      "preferred": false
+    }],
+    "personRoles": [],
+    "phones": [{
+      "preferred": false,
+      "number": "12345678",
+      "phoneType": "Secondary",
+      "type": "Phone",
+      "areaCode": "04",
+      "countryCode": "61"
+    },
+      {
+        "preferred": false,
+        "number": "12345689",
+        "phoneType": "Secondary",
+        "type": "Phone",
+        "areaCode": "04",
+        "countryCode": "61"
+      }],
+    "gcmTitleLabel": "Mr",
+    "cisId": "12345678903",
+    "userName": "12215910",
+    "idVerified": true,
+    "contactdetails": {
+      "label": "0412 345 678",
+      "value": "mobile_0412345678"
+    },
+    "taxdetails": {
+      "ausTaxDetails": {
+        "tfn": {
+          "valid": false
+        },
+        "taxOption": {
+          "valid": true,
+          "value": "Exemption Reason provided"
+        },
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": false
+        },
+        "exemptionReason": {
+          "valid": true,
+          "value": "non_au_resi"
+        }
+      },
+      "overseasTaxDetails": [],
+      "selectedOverseasTaxCountry": {
+        "valid": true,
+        "value": "DE"
+      }
+    },
+    "isDuplicate": false,
+    "registered": false,
+    "tfnProvided": false,
+    "investorType": "individual",
+    "displayTaxOptions": true,
+    "title": "MR",
+    "firstname": "Asas",
+    "lastname": "Asasa",
+    "dateofbirth": "20/04/1983",
+    "gender": "Male",
+    "mobile": {
+      "value": "0412345678"
+    },
+    "email": {
+      "value": "deepaky@gmail.com"
+    },
+    "preferredcontact": "mobile",
+    "isvalid": true,
+    "accountType": "individual",
+    "resaddress": {
+      "city": "Parramatta",
+      "domicile": true,
+      "countryCode": "AU",
+      "internationalAddress": false,
+      "mailingAddress": true,
+      "standardAddressFormat": false,
+      "componentised": false,
+      "addressLine1": "Unit 10",
+      "addressLine2": "4  Charles  Street",
+      "state": "NSW",
+      "postcode": "2150",
+      "country": "Australia",
+      "existingAddressList": []
+    },
+    "postaladdress": {
+      "city": "Parramatta",
+      "domicile": true,
+      "countryCode": "AU",
+      "internationalAddress": false,
+      "mailingAddress": true,
+      "standardAddressFormat": false,
+      "addressLine1": "Unit 10",
+      "addressLine2": "4  Charles  Street",
+      "state": "NSW",
+      "postcode": "2150",
+      "country": "Australia",
+      "existingAddressList": []
+    },
+    "taxcountry": "AU",
+    "taxoption": "",
+    "tfn": "",
+    "exemptionreason": ""
+  }],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [{
+      "paymentSetting": "nopayments",
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Richard Peterson",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business income/earnings",
+    "powerofattorney": false
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "dadasd",
+      "bsb": "062062",
+      "accountnumber": "123456",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [{
+        "label": "Percentage fee component",
+        "listedSecurities": "2.00",
+        "managedFund": "1.00",
+        "managedPortfolio": "0.00",
+        "cash": "0.00",
+        "termDeposit": "0.00",
+        "slidingScaleFeeTier": [],
+        "valid": true
+      }],
+      "type": "Licensee advice fee"
+    }
+  }
+}

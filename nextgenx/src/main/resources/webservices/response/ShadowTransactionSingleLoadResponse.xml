@@ -1,0 +1,774 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_invst_mgr_cont_doc_evt_pos_shdw_mp" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-10-09 14:41:47.332826000 on afd031l by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <current_of_time><val>2014-10-09T03:23:08.029950000Z</val></current_of_time>
+    <trx_date_from><val>2015-02-27</val></trx_date_from>
+    <trx_date_to><val>2015-03-27</val></trx_date_to>
+    <as_at_date><val>2015-03-27</val></as_at_date>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>invst_mgr</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>cont</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>doc</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>evt</name>
+            <hira>4</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>pos</name>
+            <hira>5</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>invst_mgr_id</name>
+          <type>NrFld</type>
+            <lbl>Investment Manager</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_id</name>
+          <type>NrFld</type>
+            <lbl>MP Model</lbl>
+        </fld_def>
+        <fld_def>
+          <name>doc_id</name>
+          <type>NrFld</type>
+            <lbl>Order ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_type_id</name>
+          <type>NrFld</type>
+            <lbl>Transaction type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>status</name>
+          <type>TextFld</type>
+            <lbl>Status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trx_date</name>
+          <type>DateFld</type>
+            <lbl>Trade date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val_date</name>
+          <type>DateFld</type>
+            <lbl>Value date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>perf_date</name>
+          <type>DateFld</type>
+            <lbl>Performance date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>extl_book_text</name>
+          <type>TextFld</type>
+            <lbl>Description</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos</name>
+          <type>TextFld</type>
+            <lbl>Asset Holding</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_id</name>
+          <type>NrFld</type>
+            <lbl>Asset ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>qty</name>
+          <type>NrFld</type>
+            <lbl>Quantity / Net Amount</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <invst_mgr_list>
+    <invst_mgr>
+      <invst_mgr_head_list>
+        <invst_mgr_head id="1" row_type="title" hira="1" level="invst_mgr.head">
+          <invst_mgr_id><annot><displ_text></displ_text><ctx><type>person</type><id>46457</id></ctx></annot><val>46457</val></invst_mgr_id>
+        </invst_mgr_head>
+      </invst_mgr_head_list>
+  <cont_list>
+    <cont>
+      <cont_head_list>
+        <cont_head id="2" row_type="subtitle" hira="2" level="cont.head">
+          <ips_id><annot><displ_text></displ_text><ctx><type>ips</type><id>77172</id></ctx></annot><val>77172</val></ips_id>
+        </cont_head>
+      </cont_head_list>
+  <doc_list>
+    <doc>
+      <doc_head_list>
+        <doc_head id="3" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252179</id></ctx></annot><val>252179</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="4" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 115699 units of BOQ @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="5" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-876998.42</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="6" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79070</id></ctx></annot><val>BOQ Bank of Queensland Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56139</id></ctx></annot><val>56139</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>115699</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="7" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252180</id></ctx></annot><val>252180</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="8" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-28</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 38722 units of CCL @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="9" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-618003.12</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="10" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79074</id></ctx></annot><val>CCL Coca-Cola Amatil Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56208</id></ctx></annot><val>56208</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>38722</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="11" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252181</id></ctx></annot><val>252181</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="12" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 66222 units of CPU @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="13" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-595998</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="14" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79078</id></ctx></annot><val>CPU Computershare Limited</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>55899</id></ctx></annot><val>55899</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>66222</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="15" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252182</id></ctx></annot><val>252182</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="16" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 8306 units of CBA @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="17" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-523028.82</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="18" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79082</id></ctx></annot><val>CBA Commonwealth Bank of Australia</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>55919</id></ctx></annot><val>55919</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>8306</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="19" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252183</id></ctx></annot><val>252183</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="20" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 18069 units of NAB @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="21" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-452989.83</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="22" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79084</id></ctx></annot><val>NAB National Australia Bank Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56116</id></ctx></annot><val>56116</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>18069</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="23" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252184</id></ctx></annot><val>252184</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="24" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 50950 units of OSH @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="25" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-456002.5</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="26" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79086</id></ctx></annot><val>OSH Oil Search Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56140</id></ctx></annot><val>56140</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>50950</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="27" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252185</id></ctx></annot><val>252185</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="28" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 16836 units of MQG @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="29" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-660981.36</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="30" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79088</id></ctx></annot><val>MQG Macquarie Securities Limited</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56071</id></ctx></annot><val>56071</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>16836</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="31" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252186</id></ctx></annot><val>252186</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="32" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-29</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 47202 units of SUN @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="33" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-582000.66</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="34" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79092</id></ctx></annot><val>SUN Suncorp Group Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56103</id></ctx></annot><val>56103</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>47202</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="35" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252187</id></ctx></annot><val>252187</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="36" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 191906 units of QAN @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="37" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-734999.98</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="38" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79094</id></ctx></annot><val>QAN Qantas Airways Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56176</id></ctx></annot><val>56176</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>191906</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="39" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252188</id></ctx></annot><val>252188</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="40" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 186397 units of SGT @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="41" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-506999.84</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="42" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79096</id></ctx></annot><val>SGT Singapore Telecommunications Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>55916</id></ctx></annot><val>55916</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>186397</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="43" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252189</id></ctx></annot><val>252189</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="44" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-04-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 21910 units of WES @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="45" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-826007</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="46" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79098</id></ctx></annot><val>WES Wesfarmers Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>55981</id></ctx></annot><val>55981</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>21910</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="47" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252190</id></ctx></annot><val>252190</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="48" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 102848 units of AMC @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="49" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-939002.24</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="50" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79100</id></ctx></annot><val>AMC Amcor Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56087</id></ctx></annot><val>56087</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>102848</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="51" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252191</id></ctx></annot><val>252191</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="52" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 26017 units of WBC @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="53" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-819015.16</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="54" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79102</id></ctx></annot><val>WBC Westpac Banking Corp</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>55991</id></ctx></annot><val>55991</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>26017</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="55" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252192</id></ctx></annot><val>252192</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="56" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 19305 units of ANZ @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="57" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-488995.65</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="58" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79104</id></ctx></annot><val>ANZ ANZ Banking Group Limited Australia</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56096</id></ctx></annot><val>56096</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>19305</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+    <doc>
+      <doc_head_list>
+        <doc_head id="59" row_type="subtitle" hira="3" level="doc.head">
+          <doc_id><annot><ctx><type>doc</type><id>252193</id></ctx></annot><val>252193</val></doc_id>
+        </doc_head>
+      </doc_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="60" row_type="subtitle" hira="4" level="evt.head">
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>800</id></ctx></annot><val>800</val></order_type_id>
+          <status><val>Unconfirmed</val></status>
+          <trx_date><val>2015-03-27</val></trx_date>
+          <val_date><val>2015-04-01</val></val_date>
+          <perf_date><val>2015-03-27</val></perf_date>
+          <extl_book_text><val>Bought 5928 units of AIO @  AUD, Brokerage 0 AUD</val></extl_book_text>
+        </evt_head>
+      </evt_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="61" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>77545</id></ctx></annot><val>MP Cash</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>51094</id></ctx></annot><val>51094</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>-619001.76</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+    <pos>
+      <pos_head_list>
+        <pos_head id="62" row_type="data" hira="5" level="pos.head">
+          <pos><annot><ctx><type>pos</type><id>79106</id></ctx></annot><val>AIO Asciano Ltd</val></pos>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>56114</id></ctx></annot><val>56114</val></asset_id>
+          <qty><annot><displ_text></displ_text></annot><val>5928</val></qty>
+        </pos_head>
+      </pos_head_list>
+    </pos>
+  </pos_list>
+    </evt>
+  </evt_list>
+    </doc>
+  </doc_list>
+    </cont>
+  </cont_list>
+    </invst_mgr>
+  </invst_mgr_list>
+
+  </data>
+</rep:rep>
+<!-- 04f52169-56b8-612b-e054-d89d671ad188 at 2014-10-09T03:41:47.404227000Z on AFD031L by AVALOQ -->
+		</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

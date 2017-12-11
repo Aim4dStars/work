@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        version="2.0">
+    <tlibversion>1.0</tlibversion>
+    <jspversion>2.1</jspversion>
+    <shortname>content</shortname>
+    <tlib-version>2.0</tlib-version>
+    <uri>http://www.your-domain.com/taglib</uri>
+
+    <tag>
+        <name>displayContent</name>
+        <tagclass>com.bt.nextgen.core.web.taglib.DisplayContentTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <attribute>
+            <name>contentId</name>
+            <required>true</required>
+        </attribute>
+        <attribute>
+            <name>style</name>
+            <required>false</required>
+        </attribute>
+        <attribute>
+            <name>styleClass</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>error</name>
+        <tagclass>com.bt.nextgen.core.web.taglib.ErrorTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <attribute>
+            <name>errorId</name>
+            <required>true</required>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>hashurl</name>
+        <tagclass>com.bt.nextgen.core.web.taglib.HashUrlTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <attribute>
+            <name>src</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>pdf</name>
+            <required>false</required>
+        </attribute>
+    </tag>
+    
+    <tag>
+        <name>import</name>
+        <tagclass>com.bt.nextgen.core.web.taglib.ImportTag</tagclass>
+        <bodycontent>empty</bodycontent>
+        <attribute>
+            <name>resource</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+    <tag>
+        <name>toggle</name>
+        <tagclass>com.bt.nextgen.core.web.taglib.FeatureToggleTag</tagclass>
+        <bodycontent>jsp</bodycontent>
+        <attribute>
+            <name>feature</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+        <attribute>
+            <name>behaviour</name>
+            <required>false</required>
+            <rtexprvalue>true</rtexprvalue>
+            <description>
+                The behaviour to adopt when the feature is active, default behaviour is to &quot;show&quot;.
+                Specify &quot;hide&quot; when the content should instead be hidden when the feature is enabled.
+            </description>
+        </attribute>
+    </tag>
+
+    <function>
+        <name>format</name>
+        <function-class>com.bt.nextgen.web.formatter.TransactionFormatter</function-class>
+        <function-signature>java.lang.String format(java.lang.String,java.lang.String)</function-signature>
+    </function>
+
+</taglib>

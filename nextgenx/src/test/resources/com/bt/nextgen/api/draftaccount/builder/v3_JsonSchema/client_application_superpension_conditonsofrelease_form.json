@@ -1,0 +1,176 @@
+{
+  "version": "1.0.0",
+  "accountType": "superPension",
+  "pensioneligibility": {
+    "conditionRelease": "TURN_AGE_65",
+    "eligibilityCriteria": "UNPSV"
+  },
+  "investors": [
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "displayTaxOptions": true,
+      "cismandatory": true,
+      "wealthsource": "Redundancy",
+      "title": "MR",
+      "firstname": "Sam",
+      "middlename": "",
+      "lastname": "Fernandes",
+      "preferredname": "",
+      "formername": "",
+      "dateofbirth": "01\/10\/1965",
+      "gender": "male",
+      "mobile": {
+        "value": "0458147258"
+      },
+      "email": {
+        "value": "fernandes@tcs.com"
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "",
+      "accountType": "superPension",
+      "identitydocument": {
+        "photodocuments": {
+          "passport": {
+            "documentIssuer": "Australia",
+            "issueDate": "01\/10\/2014",
+            "expiryDate": "01\/10\/2016",
+            "documentNumber": "25896314",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "322642",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "135-151",
+        "streetName": "Clarence",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "804532",
+        "sameasaddress": "804532",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "135-151",
+            "streetName": "Clarence",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "804532",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "taxcountry": "AU",
+      "taxoption": "Tax File Number provided",
+      "tfn": "25896314"
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Marco Kwok",
+    "adviserLocation": "Western Australia",
+    "sourceoffunds": "Bonus"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccount",
+      "bsb": "062001",
+      "accountnumber": "25896314",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<permissions>
+        <permissionsMapList access="PAY_INPAY_ALL">
+            <permissionsMap>
+                <entry>
+                    <key>AccountActive</key>
+                    <value>Y</value>
+                </entry>
+                <!--common for make payment and deposit -->
+                <entry>
+                    <key>CanTransact</key>
+                    <value>Y</value>
+                </entry>
+                <!--common for make payment and deposit -->
+
+                <!--Make a payment -->
+                <entry>
+                    <key>HideAddBillerOrPayeeButton</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>FilterPayDropDownFieldOnlyLinkedAccounts</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>ChangeDailyPaymentLimit</key>
+                    <value>R</value>
+                </entry>
+                <entry>
+                    <key>ConfirmAndPay</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>SuccessfullySubmittedPayments</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>PaymentReceiptPDFDownload</key>
+                    <value>Y</value>
+                </entry>
+                <!--end of Make a payment -->
+
+                <!-- Make a Deposit-->
+                <entry>
+                    <key>ConfirmAndDeposit</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>SuccessfullySubmittedDeposit</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>DepositReceiptPDFDownload</key>
+                    <value>Y</value>
+                </entry>
+                <!-- end of Make a Deposit -->
+                <!--Address Book -->
+                <entry>
+                    <key>UserCannotChangeDailyPaymentLimitPayAnyoneOrBPAY</key>
+                    <value>Y</value>
+                </entry>
+
+                <entry>
+                    <key>PayToBPAY</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>SelectToMakePaymentOrDepositLinkedAccount</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>AddBPAYBiller</key>
+                    <value>R</value>
+                </entry>
+                <entry>
+                    <key>EditBPAYDailyPaymentLimit</key>
+                    <value>R</value>
+                </entry>
+
+                <entry>
+                    <key>EditPayAnyoneDailyPaymentLimit</key>
+                    <value>R</value>
+                </entry>
+
+                <entry>
+                    <key>PayToPayAnyone</key>
+                    <value>Y</value>
+                </entry>
+
+                <entry>
+                    <key>AddLinkedAccount</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>ChangePrimaryLinkedAccount</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>Deposit</key>
+                    <value>Y</value>
+                </entry>
+
+                <entry>
+                    <key>RepeatPaymentsLinkedAccount</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>RepeatPayments - BPAY</key>
+                    <value>Y</value>
+                </entry>
+
+                <entry>
+                    <key>AddPayAnyoneAccount</key>
+                    <value>R</value>
+                </entry>
+                <entry>
+                    <key>DeleteBPAYAccount</key>
+                    <value>N</value>
+                </entry>
+                <entry>
+                    <key>DeleteLinkedAccount</key>
+                    <value>N</value>
+                </entry>
+
+                <entry>
+                    <key>SelectToMakePayAnyonePayment</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>RepeatDeposit</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>SelectToMakeBPAYPayment</key>
+                    <value>Y</value>
+                </entry>
+
+                <entry>
+                    <key>DeletePayAnyoneAccount</key>
+                    <value>N</value>
+                </entry>
+                <entry>
+                    <key>RepeatPaymentsPayAnyone</key>
+                    <value>Y</value>
+                </entry>
+
+                <entry>
+                    <key>CanEditPayAnyoneAccountNickName</key>
+                    <value>N</value>
+                </entry>
+                <entry>
+                    <key>CanEditLinkedAccountNickName</key>
+                    <value>N</value>
+                </entry>
+                <entry>
+                    <key>CanEditBillerNickName</key>
+                    <value>N</value>
+                </entry>
+
+                <!--End of Address Book -->
+
+                <!--Term Deposit -->
+                <entry>
+                    <key>CanViewTermDepositCalculatorFromProductsAndNews</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>CanSelectClientToOpenTermDeposit</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>CanAddTermDepositFromOverview</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>CanWithdrawTermDeposit</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>CanEditMaturityInstructionsForTermDeposit</key>
+                    <value>Y</value>
+                </entry>
+                <!--end of Term Deposit -->
+
+                <!--Transaction -->
+                <entry>
+                    <key>CanViewPastTransactionsIncludingPrintPDFTransactionReceipt</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>CanViewScheduledTransactionsIncludingPrintPDFTransactionReceipt</key>
+                    <value>Y</value>
+                </entry>
+                <entry>
+                    <key>CanStopScheduleTransactions</key>
+                    <value>Y</value>
+                </entry>
+                <!-- end of Transaction -->
+
+            </permissionsMap>
+        </permissionsMapList>
+    <permissionsMapList access="PAY_INPAY_LINKED">
+        <permissionsMap>
+            <entry>
+                <key>AccountActive</key>
+                <value>Y</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <entry>
+                <key>CanTransact</key>
+                <value>Y</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <!--Make a payment -->
+            <entry>
+                <key>HideAddBillerOrPayeeButton</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>FilterPayDropDownFieldOnlyLinkedAccounts</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>ChangeDailyPaymentLimit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>ConfirmAndPay</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedPayments</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>PaymentReceiptPDFDownload</key>
+                <value>Y</value>
+            </entry>
+            <!--end of Make a payment -->
+
+            <!-- Make a Deposit -->
+            <entry>
+                <key>ConfirmAndDeposit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedDeposit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>DepositReceiptPDFDownload</key>
+                <value>Y</value>
+            </entry>
+            <!-- end of Make a Deposit -->
+
+            <!--Address Book -->
+            <entry>
+                <key>UserCannotChangeDailyPaymentLimitPayAnyoneOrBPAY</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>PayToBPAY</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePaymentOrDepositLinkedAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>AddBPAYBiller</key>
+                <value>R</value>
+            </entry>
+            <entry>
+                <key>EditBPAYDailyPaymentLimit</key>
+                <value>R</value>
+            </entry>
+            <entry>
+                <key>EditPayAnyoneDailyPaymentLimit</key>
+                <value>R</value>
+            </entry>
+            <entry>
+                <key>PayToPayAnyone</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>AddLinkedAccount</key>
+                <value>R</value>
+            </entry>
+            <entry>
+                <key>ChangePrimaryLinkedAccount</key>
+                <value>RO</value>
+            </entry>
+            <entry>
+                <key>Deposit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>RepeatPaymentsLinkedAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>RepeatPayments - BPAY</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>AddPayAnyoneAccount</key>
+                <value>R</value>
+            </entry>
+            <entry>
+                <key>DeleteBPAYAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DeleteLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePayAnyonePayment</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatDeposit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>SelectToMakeBPAYPayment</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DeletePayAnyoneAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatPaymentsPayAnyone</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>PayToLinkedAccounts</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduleTransactions</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanEditPayAnyoneAccountNickName</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanEditLinkedAccountNickName</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanEditBillerNickName</key>
+                <value>Y</value>
+            </entry>
+            <!--End of Address Book -->
+
+            <!--Term Deposit -->
+            <entry>
+                <key>CanViewTermDepositCalculatorFromProductsAndNews</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanSelectClientToOpenTermDeposit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanAddTermDepositFromOverview</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanWithdrawTermDeposit</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanEditMaturityInstructionsForTermDeposit</key>
+                <value>Y</value>
+            </entry>
+            <!--End of Term Deposit-->
+
+            <!--Transaction -->
+            <entry>
+                <key>CanViewPastTransactionsIncludingPrintPDFTransactionReceipt</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanViewScheduledTransactionsIncludingPrintPDFTransactionReceipt</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduledTransaction</key>
+                <value>Y</value>
+            </entry>
+            <!-- end of Transaction -->
+        </permissionsMap>
+    </permissionsMapList>
+    <permissionsMapList access="NO_TRX">
+        <permissionsMap>
+            <entry>
+                <key>AccountActive</key>
+                <value>Y</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <entry>
+                <key>CanTransact</key>
+                <value>N</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <!--Make a payment -->
+            <entry>
+                <key>HideAddBillerOrPayeeButton</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>FilterPayDropDownFieldOnlyLinkedAccounts</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ChangeDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ConfirmAndPay</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedPayments</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PaymentReceiptPDFDownload</key>
+                <value>N</value>
+            </entry>
+            <!--End of Make a payment -->
+
+            <!-- Make a Deposit -->
+            <entry>
+                <key>ConfirmAndDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DepositReceiptPDFDownload</key>
+                <value>N</value>
+            </entry>
+            <!--end of Make a Deposit -->
+
+
+            <!-- Address Book -->
+            <entry>
+                <key>UserCannotChangeDailyPaymentLimitPayAnyoneOrBPAY</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PayToBPAY</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePaymentOrDepositLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>AddBPAYBiller</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>EditBPAYDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>EditPayAnyoneDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>PayToPayAnyone</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>AddLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ChangePrimaryLinkedAccount</key>
+                <value>RO</value>
+            </entry>
+            <entry>
+                <key>Deposit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>RepeatPaymentsLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatPayments - BPAY</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>AddPayAnyoneAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DeleteBPAYAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DeleteLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePayAnyonePayment</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakeBPAYPayment</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>DeletePayAnyoneAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatPaymentsPayAnyone</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PayToLinkedAccounts</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduleTransactions</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditPayAnyoneAccountNickName</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditLinkedAccountNickName</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditBillerNickName</key>
+                <value>N</value>
+            </entry>
+            <!-- End of Address Book -->
+
+            <!--Term Deposit -->
+            <entry>
+                <key>CanViewTermDepositCalculatorFromProductsAndNews</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanSelectClientToOpenTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanAddTermDepositFromOverview</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanWithdrawTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditMaturityInstructionsForTermDeposit</key>
+                <value>RO</value>
+            </entry>
+            <!--End of Term Deposit -->
+            <!--Transaction -->
+            <entry>
+                <key>CanViewPastTransactionsIncludingPrintPDFTransactionReceipt</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanViewScheduledTransactionsIncludingPrintPDFTransactionReceipt</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduledTransaction</key>
+                <value>N</value>
+            </entry>
+            <!-- end of Transaction -->
+        </permissionsMap>
+    </permissionsMapList>
+    <permissionsMapList access="BP_ACC_MAINT">
+        <permissionsMap>
+            <entry>
+                <key>AccountActive</key>
+                <value>Y</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <entry>
+                <key>CanTransact</key>
+                <value>N</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <!--Make a payment -->
+            <entry>
+                <key>HideAddBillerOrPayeeButton</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>FilterPayDropDownFieldOnlyLinkedAccounts</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ChangeDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ConfirmAndPay</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedPayments</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PaymentReceiptPDFDownload</key>
+                <value>N</value>
+            </entry>
+            <!--End of Make a payment -->
+
+            <!--Make a Deposit -->
+            <entry>
+                <key>ConfirmAndDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DepositReceiptPDFDownload</key>
+                <value>N</value>
+            </entry>
+            <!--End of Make a Deposit-->
+
+            <!--Address Book -->
+            <entry>
+                <key>UserCannotChangeDailyPaymentLimitPayAnyoneOrBPAY</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PayToBPAY</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePaymentOrDepositLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>AddBPAYBiller</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>EditBPAYDailyPaymentLimit</key>
+                <value>Y</value>
+            </entry>
+
+            <entry>
+                <key>EditPayAnyoneDailyPaymentLimit</key>
+                <value>Y</value>
+            </entry>
+
+            <entry>
+                <key>PayToPayAnyone</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>AddLinkedAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>ChangePrimaryLinkedAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>Deposit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>RepeatPaymentsLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatPayments - BPAY</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>AddPayAnyoneAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>DeleteBPAYAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>DeleteLinkedAccount</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePayAnyonePayment</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakeBPAYPayment</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>DeletePayAnyoneAccount</key>
+                <value>Y</value>
+            </entry>
+
+            <entry>
+                <key>RepeatPaymentsPayAnyone</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PayToLinkedAccounts</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduleTransactions</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditPayAnyoneAccountNickName</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanEditLinkedAccountNickName</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>CanEditBillerNickName</key>
+                <value>Y</value>
+            </entry>
+
+            <!--End of Address Book -->
+
+            <!--Term Deposit -->
+            <entry>
+                <key>CanViewTermDepositCalculatorFromProductsAndNews</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanSelectClientToOpenTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanAddTermDepositFromOverview</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanWithdrawTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditMaturityInstructionsForTermDeposit</key>
+                <value>RO</value>
+            </entry>
+            <!--Term Deposit -->
+        </permissionsMap>
+    </permissionsMapList>
+    <permissionsMapList access="ACC_BLOCKED">
+        <permissionsMap>
+            <entry>
+                <key>AccountActive</key>
+                <value>N</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <entry>
+                <key>CanTransact</key>
+                <value>N</value>
+            </entry>
+            <!--common for make payment and deposit -->
+            <!--Make a payment -->
+            <entry>
+                <key>HideAddBillerOrPayeeButton</key>
+                <value>Y</value>
+            </entry>
+            <entry>
+                <key>FilterPayDropDownFieldOnlyLinkedAccounts</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ChangeDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ConfirmAndPay</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedPayments</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PaymentReceiptPDFDownload</key>
+                <value>N</value>
+            </entry>
+            <!--End of Make a payment -->
+
+            <!-- Make a Deposit -->
+            <entry>
+                <key>ConfirmAndDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SuccessfullySubmittedDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DepositReceiptPDFDownload</key>
+                <value>N</value>
+            </entry>
+            <!--end of Make a Deposit -->
+
+
+            <!-- Address Book -->
+            <entry>
+                <key>UserCannotChangeDailyPaymentLimitPayAnyoneOrBPAY</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PayToBPAY</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePaymentOrDepositLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>AddBPAYBiller</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>EditBPAYDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>EditPayAnyoneDailyPaymentLimit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>PayToPayAnyone</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>AddLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>ChangePrimaryLinkedAccount</key>
+                <value>RO</value>
+            </entry>
+            <entry>
+                <key>Deposit</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>RepeatPaymentsLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatPayments - BPAY</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>AddPayAnyoneAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DeleteBPAYAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>DeleteLinkedAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakePayAnyonePayment</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>SelectToMakeBPAYPayment</key>
+                <value>N</value>
+            </entry>
+
+            <entry>
+                <key>DeletePayAnyoneAccount</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>RepeatPaymentsPayAnyone</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>PayToLinkedAccounts</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduleTransactions</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditPayAnyoneAccountNickName</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditLinkedAccountNickName</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditBillerNickName</key>
+                <value>N</value>
+            </entry>
+            <!-- End of Address Book -->
+
+            <!--Term Deposit -->
+            <entry>
+                <key>CanViewTermDepositCalculatorFromProductsAndNews</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanSelectClientToOpenTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanAddTermDepositFromOverview</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanWithdrawTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanEditMaturityInstructionsForTermDeposit</key>
+                <value>N</value>
+            </entry>
+            <!--End of Term Deposit -->
+            <!--Transaction -->
+            <entry>
+                <key>CanViewPastTransactionsIncludingPrintPDFTransactionReceipt</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanViewScheduledTransactionsIncludingPrintPDFTransactionReceipt</key>
+                <value>N</value>
+            </entry>
+            <entry>
+                <key>CanStopScheduledTransaction</key>
+                <value>N</value>
+            </entry>
+            <!-- end of Transaction -->
+        </permissionsMap>
+    </permissionsMapList>
+</permissions>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<v31:ProvisionOnlineAccessResponseMsg xmlns:v31="ns://btfin.com/Product/Panorama/OnboardingService/OnboardingResponse/V3_0">
+    <Status>Success</Status>
+    <ResponseDetails>
+        <SuccessResponse>
+            <CustomerNumber>217187598</CustomerNumber>
+            <ProvisioningStatus>?</ProvisioningStatus>
+            <ArrangementId>44d51eca-f06d-411f-825b-186fa430e397</ArrangementId>
+            <CommunicationId>?</CommunicationId>
+            <EmailAddress>test@test.com</EmailAddress>
+        </SuccessResponse>
+    </ResponseDetails>
+</v31:ProvisionOnlineAccessResponseMsg>
+  

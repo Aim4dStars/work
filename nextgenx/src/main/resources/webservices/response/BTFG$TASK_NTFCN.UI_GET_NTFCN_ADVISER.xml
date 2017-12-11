@@ -1,0 +1,248 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse><rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/ui_get_ntfcn" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def">
+
+                    <def>
+                        <version>2.0</version>
+                        <rep_def>
+                            <style>flat</style>
+                            <lang id="1">en</lang>
+                            <hira_def>
+                                <grp_list>
+                                    <grp_def>
+                                        <name>ntfcn</name>
+                                        <hira>1</hira>
+                                        <has_head>true</has_head>
+                                        <has_foot>false</has_foot>
+                                    </grp_def>
+                                </grp_list>
+                            </hira_def>
+                            <row_def>
+                                <fld_list>
+                                    <fld_def>
+                                        <name>ntfcn_id</name>
+                                        <type>NrFld</type>
+                                        <lbl>Notification ID</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>timestamp</name>
+                                        <type>DateTimeFld</type>
+                                        <lbl>Timestamp</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>valid_to</name>
+                                        <type>DateTimeFld</type>
+                                        <lbl>Valid to</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>resp_sec_user</name>
+                                        <type>TextFld</type>
+                                        <lbl>Responsble User</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>recp_sec_user</name>
+                                        <type>TextFld</type>
+                                        <lbl>Recipient</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>event_type</name>
+                                        <type>TextFld</type>
+                                        <lbl>Event Type</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>event_type_prio</name>
+                                        <type>TextFld</type>
+                                        <lbl>Priority</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>ntfcn_status</name>
+                                        <type>TextFld</type>
+                                        <lbl>Notification Status</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>trig_obj</name>
+                                        <type>TextFld</type>
+                                        <lbl>Triggering Object</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>ctx_doc</name>
+                                        <type>TextFld</type>
+                                        <lbl>Order</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>msg_text</name>
+                                        <type>TextFld</type>
+                                        <lbl>Message Text</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>msg_cat</name>
+                                        <type>TextFld</type>
+                                        <lbl>Notification Category</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>msg_avsr_ctr</name>
+                                        <type>TextFld</type>
+                                        <lbl>Message Adviser Center</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>bp_name</name>
+                                        <type>TextFld</type>
+                                        <lbl>BP Name</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>owner_type</name>
+                                        <type>TextFld</type>
+                                        <lbl>Owner Type</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>macc_nr</name>
+                                        <type>NrFld</type>
+                                        <lbl>MACC Number</lbl>
+                                    </fld_def>
+                                    <fld_def>
+                                        <name>person</name>
+                                        <type>TextFld</type>
+                                        <lbl>Person</lbl>
+                                    </fld_def>
+
+                                </fld_list>
+                            </row_def>
+                        </rep_def>
+                    </def>
+
+                    <data>
+                        <ntfcn_list>
+                            <ntfcn>
+                            	<ntfcn_head_list>
+                                <ntfcn_head hira="0" id="1" level="ntfcn.head" row_type="data">
+                                    <ntfcn_id>
+                                        <annot>
+                                            <ctx>
+                                                <type>ntfcn_open</type>
+                                                <id>7452</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>7452</val>
+                                    </ntfcn_id>
+                                    <timestamp>
+                                        <annot>
+                                            <displ_text>15/07/2014 12:06:25</displ_text>
+                                        </annot>
+                                        <val>2014-07-15T12:06:25</val>
+                                    </timestamp>
+                                    <valid_to>
+                                        <annot>
+                                            <displ_text>28/04/2288</displ_text>
+                                        </annot>
+                                        <val>2288-04-28T12:06:25</val>
+                                    </valid_to>
+                                    <resp_sec_user>
+                                        <annot>
+                                            <ctx>
+                                                <type>user</type>
+                                                <id>2234</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>201605465</val>
+                                    </resp_sec_user>
+                                    <recp_sec_user>
+                                        <annot>
+                                            <ctx>
+                                                <type>user</type>
+                                                <id>2234</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>201605465</val>
+                                    </recp_sec_user>
+                                    <event_type>
+                                        <val>Interest Rate Change</val>
+                                    </event_type>
+                                    <event_type_prio>
+                                        <val>2</val>
+                                    </event_type_prio>
+                                    <ntfcn_status>
+                                        <val>Open</val>
+                                    </ntfcn_status>
+                                    <trig_obj>
+                                        <annot>
+                                            <ctx>
+                                                <type>obj</type>
+                                                <id>46997</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>46997</val>
+                                    </trig_obj>
+                                    <msg_text>
+                                        <val>The rate on BT Cash has changed from 2.50% pa to 2.00% pa, effective 16 Jul 2014.</val>
+                                    </msg_text>
+                                    <msg_cat>
+                                        <annot>
+                                            <ctx>
+                                                <type>btfg$code_ntfcn_msg_cat</type>
+                                                <id>8</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>Product news</val>
+                                    </msg_cat>
+                                    <msg_avsr_ctr>
+                                        <annot>
+                                            <ctx>
+                                                <type>btfg$code_ntfcn_advsr_msgctr</type>
+                                                <id>2</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>My messages</val>
+                                    </msg_avsr_ctr>
+                                    <bp_name>
+                                        <annot>
+                                            <ctx>
+                                                <type>bp</type>
+                                                <id>46997</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>misadv5DTrust</val>
+                                    </bp_name>
+                                    <owner_type>
+                                        <annot>
+                                            <ctx>
+                                                <type>code_clt_type</type>
+                                                <id>5006</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>Client - Trust Account</val>
+                                    </owner_type>
+                                    <macc_nr>
+                                        <annot>
+                                            <ctx>
+                                                <type>pos</type>
+                                                <id>47000</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>120006564</val>
+                                    </macc_nr>
+                                    <person>
+                                        <annot>
+                                            <ctx>
+                                                <type>person</type>
+                                                <id>46988</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>misadv5DTrust</val>
+                                    </person>
+                                </ntfcn_head>
+                            	</ntfcn_head_list>
+                            </ntfcn>
+                        </ntfcn_list>
+
+                    </data>
+                </rep:rep>
+                    <!-- 2014-04-04 14:06:19 on AFD030S by 201601934 -->
+
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

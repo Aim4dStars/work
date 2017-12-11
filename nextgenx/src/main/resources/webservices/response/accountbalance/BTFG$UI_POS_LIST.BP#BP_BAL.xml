@@ -1,0 +1,135 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg
+                xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_bp_bal"
+                            >
+                        <!-- 2014-11-14 00:38:26.646402000 on afd030n by AVALOQ -->
+
+                        <metadata>
+                            <empty_rep>
+                                <val>false</val>
+                            </empty_rep>
+                            <current_of_time>
+                                <val>2014-11-13T04:38:42.062436000Z</val>
+                            </current_of_time>
+                        </metadata>
+
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>flat</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>bp</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>bp_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>portf_valu</name>
+                                            <type>NrFld</type>
+                                            <lbl>Portfolio Value</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avl_cash</name>
+                                            <type>NrFld</type>
+                                            <lbl>available cash</lbl>
+                                        </fld_def>
+
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+
+                        <data>
+                            <bp_list>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="2-1" row_type="data" hira="0" level="bp.head">
+                                            <bp_id>
+                                                <annot>
+                                                    <displ_text>bp--1_1713</displ_text>
+                                                    <ctx>
+                                                        <type>bp</type>
+                                                        <id>71319</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>71319</val>
+                                            </bp_id>
+                                            <portf_valu>
+                                                <val>1820959.62</val>
+                                            </portf_valu>
+                                            <avl_cash>
+                                                <val>99.28</val>
+                                            </avl_cash>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="4-2" row_type="data" hira="0" level="bp.head">
+                                            <bp_id>
+                                                <annot>
+                                                    <displ_text>bp--1_1506</displ_text>
+                                                    <ctx>
+                                                        <type>bp</type>
+                                                        <id>71335</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>71335</val>
+                                            </bp_id>
+                                            <portf_valu>
+                                                <val>1257897.76</val>
+                                            </portf_valu>
+                                            <avl_cash>
+                                                <val>151.08</val>
+                                            </avl_cash>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                                <bp>
+                                    <bp_head_list>
+                                        <bp_head id="6-3" row_type="data" hira="0" level="bp.head">
+                                            <bp_id>
+                                                <annot>
+                                                    <displ_text>bp--1_1143</displ_text>
+                                                    <ctx>
+                                                        <type>bp</type>
+                                                        <id>71353</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>71353</val>
+                                            </bp_id>
+                                            <portf_valu>
+                                                <val>351198.45</val>
+                                            </portf_valu>
+                                            <avl_cash>
+                                                <val>50.6</val>
+                                            </avl_cash>
+                                        </bp_head>
+                                    </bp_head_list>
+                                </bp>
+                            </bp_list>
+                        </data>
+                    </rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>
+        <!-- fe36132b-1c35-1ac6-e044-2c768a52a811 at 2014-11-13T13:38:26.656486000Z on AFD030N by AVALOQ -->

@@ -1,0 +1,33 @@
+
+.logoWrap{
+  background-image:url(../images/transcend.png);
+  height: 60px;
+  a {
+    height: 60px;
+  }
+  &.logoWrapLarge {
+    background-image:url(../images/transcendLogo-large.png);
+    background-position: 0 50%;
+  }
+}
+
+
+/*
+
+## Site logo modifier
+
+```
+<span class="logoWrap logoWrapPos">
+    <a href="#">BT</a>
+</span>
+
+```
+
+*/
+
+.logoWrapPos{
+  margin:10px 20px;
+}
+
+
+

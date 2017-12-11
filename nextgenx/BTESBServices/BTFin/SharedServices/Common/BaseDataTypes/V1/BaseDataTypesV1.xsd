@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<schema xmlns:dt="ns://btfin.com/SharedServices/Common/BaseDataTypes/V1" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="ns://btfin.com/SharedServices/Common/BaseDataTypes/V1" elementFormDefault="unqualified" attributeFormDefault="unqualified" version="1_5">
+	<!--s-->
+	<!-- Package: <<XSDschema>> BaseDataTypes  -->
+	<!--  - Verson 1 (Base Team): Initial version for Base project -->
+	<!--  - Verson 2 (8===8): New text types and Barcode for Life Compliance project -->
+	<!--  - Verson 3 (8===8): New text types for Priority Platform project -->
+	<!-- =========================================================== -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~ OTHER TYPES                                                                            ~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> BSBType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="BSBType">
+		<restriction base="string">
+			<pattern value="\d{3}-\d{3}"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> BTePBarcodeType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="BTePBarcodeType">
+		<restriction base="string">
+			<maxLength value="10"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> TransactionReferenceNumberType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="TransactionReferenceNumberType">
+		<annotation>
+			<documentation>UUID followed by optional subtransaction/s i.e. UUID.Sn.Sn... where n represents number of subtransaction</documentation>
+		</annotation>
+		<restriction base="string">
+			<pattern value="[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}[.0-9S]{0,44}"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> MessageVersionType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="MessageVersionType">
+		<restriction base="string">
+			<pattern value="\d+_\d+"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~ NUMERIC TYPES                                                                        ~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Decimal13P2Type  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Decimal13P2Type">
+		<restriction base="decimal">
+			<fractionDigits value="2"/>
+			<totalDigits value="13"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Decimal5P2Type  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Decimal5P2Type">
+		<restriction base="decimal">
+			<fractionDigits value="2"/>
+			<totalDigits value="5"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Percent5P2Type  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Percent5P2Type">
+		<restriction base="dt:Decimal5P2Type">
+			<minInclusive value="0.00"/>
+			<maxInclusive value="100"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Int2Type  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Int2Type">
+		<restriction base="int">
+			<totalDigits value="2"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Int3Type  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Int3Type">
+		<restriction base="int">
+			<totalDigits value="3"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~ TEXT TYPES                                                                                 ~~ -->
+	<!-- ~~ 1,2,3,4,7,8,9,10,11,12,13,15,16,20,30,32,35,40,45,60,64  ~~ -->
+	<!-- ~~ 76,80,120,126,200,254,255                                                     ~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max1TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max1TextType">
+		<restriction base="string">
+			<maxLength value="1"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max2TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max2TextType">
+		<restriction base="string">
+			<maxLength value="2"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max3TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max3TextType">
+		<restriction base="string">
+			<maxLength value="3"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max4TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max4TextType">
+		<restriction base="string">
+			<maxLength value="4"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max7TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max7TextType">
+		<restriction base="string">
+			<maxLength value="7"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max8TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max8TextType">
+		<restriction base="string">
+			<maxLength value="8"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max9TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max9TextType">
+		<restriction base="string">
+			<maxLength value="9"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max10TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max10TextType">
+		<restriction base="string">
+			<maxLength value="10"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max11TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max11TextType">
+		<restriction base="string">
+			<maxLength value="11"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max12TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max12TextType">
+		<restriction base="string">
+			<maxLength value="12"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max13TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max13TextType">
+		<restriction base="string">
+			<maxLength value="13"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max15TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max15TextType">
+		<restriction base="string">
+			<maxLength value="15"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max16TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max16TextType">
+		<restriction base="string">
+			<maxLength value="16"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max20TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max20TextType">
+		<restriction base="string">
+			<maxLength value="20"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max22TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max22TextType">
+		<restriction base="string">
+			<maxLength value="22"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max30TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max30TextType">
+		<restriction base="string">
+			<maxLength value="30"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max32TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max32TextType">
+		<restriction base="string">
+			<maxLength value="32"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max35TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max35TextType">
+		<restriction base="string">
+			<maxLength value="35"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max40TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max40TextType">
+		<restriction base="string">
+			<maxLength value="40"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max45TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max45TextType">
+		<restriction base="string">
+			<maxLength value="45"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max50TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max50TextType">
+		<restriction base="string">
+			<maxLength value="50"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max60TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max60TextType">
+		<restriction base="string">
+			<maxLength value="60"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max64TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max64TextType">
+		<restriction base="string">
+			<maxLength value="64"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max76TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max76TextType">
+		<restriction base="string">
+			<maxLength value="76"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max80TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max80TextType">
+		<restriction base="string">
+			<maxLength value="80"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max100TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max100TextType">
+		<restriction base="string">
+			<maxLength value="100"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max120TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max120TextType">
+		<restriction base="string">
+			<maxLength value="120"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max126TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max126TextType">
+		<restriction base="string">
+			<maxLength value="126"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max200TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max200TextType">
+		<restriction base="string">
+			<maxLength value="200"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max254TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max254TextType">
+		<restriction base="string">
+			<maxLength value="254"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max255TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max255TextType">
+		<restriction base="string">
+			<maxLength value="255"/>
+		</restriction>
+	</simpleType>
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<!-- Class: <<XSDsimpleType>> Max500TextType  -->
+	<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<simpleType name="Max500TextType">
+		<restriction base="string">
+			<maxLength value="500"/>
+		</restriction>
+	</simpleType>
+</schema>

@@ -1,0 +1,41 @@
+package com.bt.nextgen.core.web.util;
+
+public class View {
+	public static final String ACCOUNT_ACTIVATION = "accountActivation";
+	public static final String ACCOUNT_STATUS = "accountStatus";
+	public static final String SINGLE_PAGE_APPLICATION = "singlePageApplication";
+	public static final String LOGON = "logon";
+	public static final String ERROR = "error";
+	public static final String SERVICE_OP_HOME = "serviceOpSearch";
+	public static final String CLIENT_DETAIL = "clientDetail";
+	public static final String APPLICATION_DETAIL = "applicationDetail";
+	public static final String APPLICATIONSEARCH = "applicationSearch";
+	public static final String DOCUMENT_LIBRARY = "documentLibrary";
+	public static final String ACCOUNT_SEARCH = "accountSearch";
+	public static final String ACCOUNT_DETAIL = "accountDetail";
+	public static final String CLIENTDETAILS_SEARCH = "clientDetailsSerch";
+	public static final String DOWNLOAD_CSV = "downloadCsv";
+	public static final String ERROR_404 = "error404";
+	public static final String ERROR_500 = "error500";
+	public static final String FORGOT_PASSWORD_STEP_TWO = "forgottenPasswordStepTwo";
+	public static final String ERROR_FATAL = "errorFatal";
+	public static final String STATUS = "accountStatus";
+	public static final String ACTIVATION = "accountActivation";
+	public static final String MOBILE_APP_VERSION = "mobileAppVersions";
+	public static final String GCM_SERVICEOPS_HOME = "gcmServiceOpsHome";
+	public static final String GCM_SERVICEOPS_RESPONSE = "gcmServiceOpsResponse";
+	public static final String MAINTAIN_ARRANGEMENT_AND_RELATIONSHIP = "maintainArrangementAndrelationship";
+	public static final String MAINTAIN_ARRANGEMENT_AND_RELATIONSHIP_REQ = "maintainArrangementAndrelationshipReq";
+	public static final String RETRIVE_IP_TO_IP_RELATIONSHIPS = "retriveIpToIpRelationships";
+	public static final String MAINTAIN_IP_TO_IP_RELATIONSHIP = "maintainIpToIpRelationship";
+	public static final String RETRIVE_IDV_DETAILS = "retrieveIDVDetails";
+	public static final String RETRIVE_POSTAL_ADDRESS="retrivePostalAddress";
+	public static final String MAINTAIN_IDV_DETAILS="maintainIdvDetails";
+	public static final String MAINTAIN_IP_CONTACT_METHOD="maintainIpContactMethod";
+	public static final String CREATE_ORGANIGATION_IP = "createOrganisationIP";
+	public static final String CREATE_INDIVIDUAL_IP="createIndividualIP";
+	public static final String SILO_MOVEMENT="siloMovement";
+	public static final String SILO_MOVEMENT_RESPONSE = "siloMovementResponse";
+	public static final String ONBOARDING_STATUS ="onBoardingStatus";
+    public static final String ONBOARDING_STATUS_RESPONSE ="onBoardingStatusResponse";
+}

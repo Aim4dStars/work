@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+    <SOAP-ENV:Body>
+        <ns2:CashAccountResponse xmlns:ns2="ns://btfin.com/nextgen/services/schemas">
+            <ns2:Status>OK</ns2:Status>
+            <ns2:AccountName>Dennis Beecham</ns2:AccountName>
+            <ns2:Bsb>205456</ns2:Bsb>
+            <ns2:AccountNumber>234568876</ns2:AccountNumber>
+        </ns2:CashAccountResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

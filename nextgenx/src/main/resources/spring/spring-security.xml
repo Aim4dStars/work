@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns:sec="http://www.springframework.org/schema/security"
+             xmlns:beans="http://www.springframework.org/schema/beans"
+             xmlns:aop="http://www.springframework.org/schema/aop"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:mvc="http://www.springframework.org/schema/mvc"
+             xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+	http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.1.xsd
+	http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+    http://www.springframework.org/schema/mvc
+    http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <aop:aspectj-autoproxy/>
+
+	<beans:bean id="samlTokenAdapter"
+                class="com.bt.nextgen.core.security.filter.SimulateWebsealFilter">
+        <beans:property name="defaultUrl" value="/secure/page/home"/>
+                </beans:bean>
+
+    <beans:bean id="samlDetailsSource"
+                class="com.bt.nextgen.core.security.SamlAuthenticationDetailsSource"/>
+
+    <beans:bean id="authenticationProvider" class="com.bt.nextgen.core.security.SamlUserDetailsService">
+        <beans:property name="samlValidationEnabled" value="${security.saml.validation.enabled}"/>
+        <beans:property name="validator" ref="samlValidator"/>
+    </beans:bean>
+
+    <sec:authentication-manager alias="custAuthenticationManager">
+        <sec:authentication-provider ref="preauthAuthProvider"/>
+    </sec:authentication-manager>
+
+    <beans:bean id="preauthAuthProvider"
+          class="org.springframework.security.web.authentication.preauth.PreAuthenticatedAuthenticationProvider">
+        <beans:property name="preAuthenticatedUserDetailsService" ref="authenticationProvider"/>
+    </beans:bean>
+
+    <beans:bean id="samlFilter"
+                class="org.springframework.security.web.authentication.preauth.RequestHeaderAuthenticationFilter">
+        <!--class="com.bt.nextgen.core.security.filter.UnauthenticatedSamlFilter">-->
+        <beans:property name="principalRequestHeader" value="${security.username.header.name}"/>
+        <beans:property name="checkForPrincipalChanges" value="${security.username.change.check}"/>
+        <beans:property name="authenticationManager" ref="custAuthenticationManager" />
+        <beans:property name="authenticationDetailsSource" ref="samlDetailsSource"/>
+    </beans:bean>
+
+    <beans:bean id="samlRefreshFilter"
+                class="com.bt.nextgen.core.security.filter.RefreshSamlFilter">
+    </beans:bean>
+
+    <beans:bean id="xss" class="com.bt.nextgen.core.web.interceptor.CrossSiteScriptingFilter">
+    <beans:constructor-arg value="${security.xss.pattern}"/>
+    </beans:bean>
+
+    <beans:bean class="com.bt.nextgen.core.security.AvaloqFunctionalRolePermissionEvaluator" id="rolePermissionEvaluator" lazy-init="true">
+    </beans:bean>
+
+
+    <beans:bean id="expressionHandler"
+                class="org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler"
+                lazy-init="true">
+        <beans:property name="permissionEvaluator" ref="rolePermissionEvaluator"/>
+    </beans:bean>
+
+    <beans:bean id="ProfileBasedExpressionHandler"
+         class="com.bt.nextgen.core.security.ProfileBasedSecurityExpressionHandler"/>
+
+    <beans:bean id="logoutSuccessHandler"
+                class="com.bt.nextgen.core.web.LogoutSuccessHandler"/>
+
+    <beans:bean id="avaloqLogoutHandler"
+                class="com.bt.nextgen.core.web.AvaloqLogoutHandler"/>
+
+    <beans:bean id="loginEntryPoint" class="org.springframework.security.web.authentication.LoginUrlAuthenticationEntryPoint">
+        <beans:constructor-arg value="/public/page/logon" />
+    </beans:bean>
+
+    <sec:global-method-security
+            secured-annotations="enabled" pre-post-annotations="enabled"
+            proxy-target-class="true">
+        <sec:expression-handler ref="expressionHandler"/>
+    </sec:global-method-security>
+    
+    
+    <!--<beans:bean id="xss" class="com.bt.nextgen.core.web.interceptor.CrossSiteScriptingFilter">-->
+    <!--<beans:constructor-arg value="${security.xss.pattern}"/>-->
+    <!--</beans:bean>-->
+    <beans:bean id="authenticatedSessionTimeout" class="com.bt.nextgen.core.security.filter.AlterSessionTimeoutFilter">
+        <beans:constructor-arg index="0" name="newSessionTimeout" value="${security.session-timeout.unauthenticated}"/>
+    </beans:bean>
+
+    <sec:http auto-config="false"
+              security="none"
+              pattern="/public/**"/>
+    <sec:http auto-config="false"
+              security="none"
+              pattern="/version"/>
+    <sec:http auto-config="false"
+              use-expressions="true"
+              access-denied-page="/public/page/accessDenied"
+              entry-point-ref="loginEntryPoint"
+            >
+        <sec:custom-filter ref="samlTokenAdapter"
+                           before="PRE_AUTH_FILTER"/>
+        <sec:custom-filter position="PRE_AUTH_FILTER"
+                           ref="samlFilter" />
+        <sec:custom-filter after="PRE_AUTH_FILTER"
+                           ref="samlRefreshFilter" />
+        <sec:custom-filter after="SWITCH_USER_FILTER"
+                           ref="authenticatedSessionTimeout" />
+        <sec:custom-filter position="LOGOUT_FILTER"
+                           ref="logoutFilter" />
+        <sec:custom-filter after="FILTER_SECURITY_INTERCEPTOR"  ref="xss" />
+        <sec:intercept-url pattern="/security/**"
+                           access="permitAll"/>
+        <sec:intercept-url pattern="/secure/page/admin/**"
+                           access="hasRole('ROLE_ADMIN')"/>
+		<sec:intercept-url pattern="/secure/page/serviceOps/**"
+                           access="hasRole('ROLE_SERVICE_OP')"/>                           
+        <sec:intercept-url pattern="/secure/page/**"
+                           access="isValidProfileWithRole('ROLE_USER')"/>
+        <sec:intercept-url pattern="/secure/**"
+                           access="hasRole('ROLE_USER')"/>
+        <sec:intercept-url pattern="/onboard/**"
+                           access="hasRole('ROLE_USER')"/>
+        <sec:expression-handler ref="ProfileBasedExpressionHandler" />
+        <!--<sec:intercept-url pattern="/version"
+                           access="permitAll"/>
+        <sec:intercept-url pattern="/public/**"
+                           access="permitAll"/>-->
+    </sec:http>
+
+    <beans:bean id="samlValidator" class="com.bt.nextgen.core.security.validator.SamlResponseCompositeValidator">
+        <beans:constructor-arg index="">
+            <beans:list>
+                <beans:bean class="com.bt.nextgen.core.security.validator.SamlResponseValidator"/>
+            </beans:list>
+        </beans:constructor-arg>
+    </beans:bean>
+	
+	<beans:bean id="roleHierarchy" class="org.springframework.security.access.hierarchicalroles.RoleHierarchyImpl">
+		<beans:property name="hierarchy">
+	    	<beans:value>
+	      		ROLE_ADMIN > ROLE_ADVISER
+	      		ROLE_ADMIN > ROLE_INVESTOR
+	      		ROLE_USER > ROLE_ADVISER
+	      		ROLE_USER > ROLE_INVESTOR
+	    	</beans:value>
+	  	</beans:property>
+	</beans:bean>
+
+    <beans:bean id="roleVoter" class="org.springframework.security.access.vote.RoleHierarchyVoter">
+		<beans:constructor-arg ref="roleHierarchy" />
+	</beans:bean>
+	
+    <beans:bean id="lookupStrategy" class="org.springframework.security.acls.jdbc.BasicLookupStrategy">
+        <beans:constructor-arg ref="dataSource"/>
+        <beans:constructor-arg ref="aclCache"/>
+        <beans:constructor-arg ref="aclAuthorizationStrategy"/>
+        <beans:constructor-arg>
+            <beans:bean class="org.springframework.security.acls.domain.ConsoleAuditLogger"/>
+        </beans:constructor-arg>
+    </beans:bean>
+    
+    <beans:bean id="aclCache" class="org.springframework.security.acls.domain.EhCacheBasedAclCache">
+        <beans:constructor-arg>
+            <beans:bean class="org.springframework.cache.ehcache.EhCacheFactoryBean">
+                <beans:property name="cacheManager" ref="ehCacheManagerFactoryBean"/>
+                <beans:property name="cacheName" value="cname"/>
+            </beans:bean>
+        </beans:constructor-arg> 
+    </beans:bean>
+    
+    <beans:bean id="aclAuthorizationStrategy" class="org.springframework.security.acls.domain.AclAuthorizationStrategyImpl">
+    	<beans:constructor-arg>
+			<beans:list>
+				<beans:bean class="org.springframework.security.core.authority.GrantedAuthorityImpl">
+					<beans:constructor-arg value="ROLE_ADMIN" />
+				</beans:bean>
+			</beans:list>
+		</beans:constructor-arg>
+    </beans:bean>
+    <beans:bean id="aclService" class="org.springframework.security.acls.jdbc.JdbcMutableAclService" lazy-init="true">
+        <beans:constructor-arg ref="dataSource"/>
+        <beans:constructor-arg ref="lookupStrategy"/>
+        <beans:constructor-arg ref="aclCache"/> 
+    </beans:bean>
+
+    <beans:bean id="securityContextLogoutHandler" class="org.springframework.security.web.authentication.logout.SecurityContextLogoutHandler"/>
+
+    <beans:bean id="logoutFilter" class="org.springframework.security.web.authentication.logout.LogoutFilter">
+        <beans:constructor-arg index="0" ref="logoutSuccessHandler" />
+        <beans:constructor-arg index="1">
+            <beans:list>
+                <beans:ref bean="avaloqLogoutHandler"/>
+                <beans:ref bean="securityContextLogoutHandler"/>
+            </beans:list>
+        </beans:constructor-arg>
+        <beans:property name="filterProcessesUrl" value="/secure/doLogout"/>
+    </beans:bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+             <mvc:mapping path="/**" />
+            <beans:bean class="com.bt.nextgen.core.web.interceptor.Spring3CorsFilterHandlerInterceptor" />
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+	<!-- Aspect -->
+	<beans:bean id="selfSiloMovementService"
+		class="com.bt.nextgen.api.client.service.SiloMovementServiceImpl" />
+		
+	<beans:bean id="siloMovementStausAspect"
+		class="com.bt.nextgen.serviceops.silomovement.aspect.SiloMovementStatusAspect" />
+
+    <!-- This is not security related bean but the one to set the default entity bean so that we don't need to provide the
+          persistence unit name to each injected entity bean in the nextgen. -->
+    <beans:bean id="org.springframework.context.annotation.internalPersistenceAnnotationProcessor"
+          class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" >
+        <beans:property name="defaultPersistenceUnitName" value="entityManagerFactoryBean"/>
+    </beans:bean>
+
+</beans:beans>
+

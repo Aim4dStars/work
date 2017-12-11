@@ -1,0 +1,1 @@
+insert into TNC_REF (tnc_id, version, description, modify_datetime) values ('TAILORED_PORTFOLIOS', 1, 'Terms and conditions for access to the tailored portfolios portion of the panorama application', '2016-05-01');

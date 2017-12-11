@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+   <env:Header />
+   <env:Body>
+      <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+         <ResponseDetails>
+            <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_doc_rebal_trig_ips_trig_grp_doc" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2016-03-14 12:52:37.571738000 on afd034g by AVALOQ -->
+
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<date_from>
+			<val>2016-05-28</val>
+		</date_from>
+		<date_to>
+			<val>2016-05-28</val>
+		</date_to>
+		<current_of_time>
+			<val>2016-03-14T01:52:37+11:00</val>
+		</current_of_time>
+	</metadata>
+
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>ips</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>rebal_trig_status</name>
+						<hira>2</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>rebal_grp</name>
+						<hira>3</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>doc</name>
+						<hira>4</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl/>
+					</fld_def>
+					<fld_def>
+						<name>ips_id</name>
+						<type>NrFld</type>
+						<lbl>IPS</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ips_status_id</name>
+						<type>NrFld</type>
+						<lbl>Status</lbl>
+					</fld_def>
+					<fld_def>
+						<name>last_rebal_user</name>
+						<type>TextFld</type>
+						<lbl>Last Rebalance User</lbl>
+					</fld_def>
+					<fld_def>
+						<name>last_rebal_date</name>
+						<type>DateFld</type>
+						<lbl>Last Rebalance Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rebal_trig_status_id</name>
+						<type>NrFld</type>
+						<lbl>Trigger Processed by Rebalance</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rebal_grp_id</name>
+						<type>NrFld</type>
+						<lbl>Rebalance Trigger Group</lbl>
+					</fld_def>
+					<fld_def>
+						<name>doc_id</name>
+						<type>NrFld</type>
+						<lbl>Rebalance Summary Order ID</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rebal_trig_id</name>
+						<type>NrFld</type>
+						<lbl>Rebalance Trigger</lbl>
+					</fld_def>
+					<fld_def>
+						<name>trx_date</name>
+						<type>DateFld</type>
+						<lbl>Transaction Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>imp_cont</name>
+						<type>NrFld</type>
+						<lbl>Impacted Containers</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rebal_det_cnt</name>
+						<type>NrFld</type>
+						<lbl>Rebalance Details Orders</lbl>
+					</fld_def>
+
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+
+	<data>
+		<ips_list>
+			<ips>
+				<ips_head_list>
+					<ips_head id="2-1" row_type="title" hira="1" level="ips.head">
+						<ips_id>
+							<annot>
+								<displ_text>Adam TMP 01</displ_text>
+								<ctx>
+									<type>ips</type>
+									<id>370801</id>
+								</ctx>
+							</annot>
+							<val>370801</val>
+						</ips_id>
+						<ips_status_id>
+							<annot>
+								<displ_text>Pending</displ_text>
+								<ctx>
+									<type>code</type>
+									<id>code_obj_class;9511</id>
+								</ctx>
+							</annot>
+							<val>9511</val>
+						</ips_status_id>
+						<last_rebal_user>
+							<annot>
+								<ctx>
+									<type>user</type>
+									<id>18055</id>
+								</ctx>
+							</annot>
+							<val>Young, Adam</val>
+						</last_rebal_user>
+						<last_rebal_date>
+							<val>2016-05-28</val>
+						</last_rebal_date>
+						<imp_cont>
+							<val>1</val>
+						</imp_cont>
+						<rebal_det_cnt>
+							<val>0</val>
+						</rebal_det_cnt>
+					</ips_head>
+				</ips_head_list>
+				<rebal_trig_status_list>
+					<rebal_trig_status>
+						<rebal_trig_status_head_list>
+							<rebal_trig_status_head id="4-2" row_type="subtitle" hira="2" level="rebal_trig_status.head">
+								<rebal_trig_status_id>
+									<annot>
+										<displ_text>Ready</displ_text>
+										<ctx>
+											<type>code</type>
+											<id>btfg$code_rebal_trig_status;1</id>
+										</ctx>
+									</annot>
+									<val>1</val>
+								</rebal_trig_status_id>
+							</rebal_trig_status_head>
+						</rebal_trig_status_head_list>
+						<rebal_grp_list>
+							<rebal_grp>
+								<rebal_grp_head_list>
+									<rebal_grp_head id="6-3" row_type="subtitle" hira="3" level="rebal_grp.head">
+										<rebal_grp_id>
+											<annot>
+												<displ_text>Model Edit</displ_text>
+												<ctx>
+													<type>code</type>
+													<id>btfg$code_ui_rebal_trig_grp;3</id>
+												</ctx>
+											</annot>
+											<val>3</val>
+										</rebal_grp_id>
+										<trx_date>
+											<val>2016-05-28</val>
+										</trx_date>
+										<imp_cont>
+											<val>1</val>
+										</imp_cont>
+										<rebal_det_cnt>
+											<val>0</val>
+										</rebal_det_cnt>
+									</rebal_grp_head>
+								</rebal_grp_head_list>
+								<doc_list>
+									<doc>
+										<doc_head_list>
+											<doc_head id="8-4" row_type="data" hira="4" level="doc.head">
+												<rebal_trig_id>
+													<annot>
+														<displ_text>Model Edit</displ_text>
+														<ctx>
+															<type>code</type>
+															<id>btfg$code_rebal_trig;10</id>
+														</ctx>
+													</annot>
+													<val>10</val>
+												</rebal_trig_id>
+												<trx_date>
+													<val>2016-05-28</val>
+												</trx_date>
+												<imp_cont>
+													<val>1</val>
+												</imp_cont>
+												<rebal_det_cnt>
+													<val>0</val>
+												</rebal_det_cnt>
+											</doc_head>
+										</doc_head_list>
+									</doc>
+								</doc_list>
+							</rebal_grp>
+						</rebal_grp_list>
+					</rebal_trig_status>
+					<rebal_trig_status>
+						<rebal_trig_status_head_list>
+							<rebal_trig_status_head id="10-5" row_type="subtitle" hira="2" level="rebal_trig_status.head">
+								<rebal_trig_status_id>
+									<annot>
+										<displ_text>Processing</displ_text>
+										<ctx>
+											<type>code</type>
+											<id>btfg$code_rebal_trig_status;2</id>
+										</ctx>
+									</annot>
+									<val>2</val>
+								</rebal_trig_status_id>
+							</rebal_trig_status_head>
+						</rebal_trig_status_head_list>
+						<rebal_grp_list>
+							<rebal_grp>
+								<rebal_grp_head_list>
+									<rebal_grp_head id="12-6" row_type="subtitle" hira="3" level="rebal_grp.head">
+										<rebal_grp_id>
+											<annot>
+												<displ_text>Model Edit</displ_text>
+												<ctx>
+													<type>code</type>
+													<id>btfg$code_ui_rebal_trig_grp;3</id>
+												</ctx>
+											</annot>
+											<val>3</val>
+										</rebal_grp_id>
+										<trx_date>
+											<val>2016-05-28</val>
+										</trx_date>
+										<imp_cont>
+											<val>1</val>
+										</imp_cont>
+										<rebal_det_cnt>
+											<val>0</val>
+										</rebal_det_cnt>
+									</rebal_grp_head>
+								</rebal_grp_head_list>
+								<doc_list>
+									<doc>
+										<doc_head_list>
+											<doc_head id="14-7" row_type="data" hira="4" level="doc.head">
+												<rebal_trig_id>
+													<annot>
+														<displ_text>Model Edit</displ_text>
+														<ctx>
+															<type>code</type>
+															<id>btfg$code_rebal_trig;10</id>
+														</ctx>
+													</annot>
+													<val>10</val>
+												</rebal_trig_id>
+												<trx_date>
+													<val>2016-05-28</val>
+												</trx_date>
+												<imp_cont>
+													<val>1</val>
+												</imp_cont>
+												<rebal_det_cnt>
+													<val>0</val>
+												</rebal_det_cnt>
+											</doc_head>
+										</doc_head_list>
+									</doc>
+								</doc_list>
+							</rebal_grp>
+						</rebal_grp_list>
+					</rebal_trig_status>
+					<rebal_trig_status>
+						<rebal_trig_status_head_list>
+							<rebal_trig_status_head id="16-8" row_type="subtitle" hira="2" level="rebal_trig_status.head">
+								<rebal_trig_status_id>
+									<annot>
+										<displ_text>Complete</displ_text>
+										<ctx>
+											<type>code</type>
+											<id>btfg$code_rebal_trig_status;3</id>
+										</ctx>
+									</annot>
+									<val>3</val>
+								</rebal_trig_status_id>
+							</rebal_trig_status_head>
+						</rebal_trig_status_head_list>
+						<rebal_grp_list>
+							<rebal_grp>
+								<rebal_grp_head_list>
+									<rebal_grp_head id="18-9" row_type="subtitle" hira="3" level="rebal_grp.head">
+										<rebal_grp_id>
+											<annot>
+												<displ_text>Inflows</displ_text>
+												<ctx>
+													<type>code</type>
+													<id>btfg$code_ui_rebal_trig_grp;1</id>
+												</ctx>
+											</annot>
+											<val>1</val>
+										</rebal_grp_id>
+										<trx_date>
+											<val>2016-05-28</val>
+										</trx_date>
+										<imp_cont>
+											<val>1</val>
+										</imp_cont>
+										<rebal_det_cnt>
+											<val>0</val>
+										</rebal_det_cnt>
+									</rebal_grp_head>
+								</rebal_grp_head_list>
+								<doc_list>
+									<doc>
+										<doc_head_list>
+											<doc_head id="20-10" row_type="data" hira="4" level="doc.head">
+												<doc_id>
+													<annot>
+														<ctx>
+															<type>doc</type>
+															<id>3014854</id>
+														</ctx>
+													</annot>
+													<val>3014854</val>
+												</doc_id>
+												<rebal_trig_id>
+													<annot>
+														<displ_text>MP Increase</displ_text>
+														<ctx>
+															<type>code</type>
+															<id>btfg$code_rebal_trig;3</id>
+														</ctx>
+													</annot>
+													<val>3</val>
+												</rebal_trig_id>
+												<trx_date>
+													<val>2016-05-28</val>
+												</trx_date>
+												<imp_cont>
+													<val>1</val>
+												</imp_cont>
+												<rebal_det_cnt>
+													<val>0</val>
+												</rebal_det_cnt>
+											</doc_head>
+										</doc_head_list>
+									</doc>
+								</doc_list>
+							</rebal_grp>
+						</rebal_grp_list>
+					</rebal_trig_status>
+				</rebal_trig_status_list>
+			</ips>
+		</ips_list>
+
+	</data>
+</rep:rep>
+            </SuccessResponse>
+         </ResponseDetails>
+      </ns3:AvaloqGatewayResponseMsg>
+   </env:Body>
+</env:Envelope>

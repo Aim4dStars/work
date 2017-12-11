@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fua>
+	<noOfNewAdvisers>3</noOfNewAdvisers>
+	<cashAccountsAmount>345989.00</cashAccountsAmount>
+	<noOfCashAccounts>11</noOfCashAccounts>
+	<tdAccountsAmount>145000.00</tdAccountsAmount>
+	<noOfTDAccounts>7</noOfTDAccounts>
+	<fromDateFuaAmount>679096.00</fromDateFuaAmount>
+	<toDateFuaAmount>999095.00</toDateFuaAmount>
+	<inflowOutflow>
+	<openingFundsAmount>123456.45</openingFundsAmount>
+	<depositCashAccount>1100000.00</depositCashAccount>
+	<paymentCashAccount>775778.00</paymentCashAccount>
+	<taxesAmount>30006.00</taxesAmount>
+	<investmentsEarnings>21002.00</investmentsEarnings>
+	<closingFundsAmount>10363985.00</closingFundsAmount>
+	</inflowOutflow>
+</fua>

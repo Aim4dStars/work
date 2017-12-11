@@ -1,0 +1,59 @@
+CREATE OR REPLACE PROCEDURE insert_or_update_party_id(application_id IN NUMBER, account_id IN NUMBER,
+party_id       IN NUMBER,
+gcm_pan_var    IN VARCHAR2, version_number IN NUMBER) IS
+application_count INTEGER := 0;
+account_count     INTEGER := 0;
+party_count       INTEGER := 0;
+BEGIN
+
+SELECT
+count(*)
+INTO application_count
+FROM application
+WHERE ui_application_id = application_id;
+
+IF application_count = 0
+THEN
+raise_application_error(-20001, CONCAT('Application Not Found. Application ID: ', application_id));
+END IF;
+
+SELECT
+count(*)
+INTO account_count
+FROM account
+WHERE ui_account_id = account_id;
+
+IF account_count = 0
+THEN
+raise_application_error(-20002, CONCAT('Account Not Found. Account ID: ', account_id));
+END IF;
+
+
+SELECT
+count(*)
+INTO party_count
+FROM party
+WHERE ui_party_id = party_id AND
+ui_application_id = application_id AND
+ui_account_id = account_id;
+
+IF party_count = 0
+THEN
+INSERT INTO party (ui_party_id, ui_application_id, ui_account_id, gcm_pan, version)
+VALUES (party_id, application_id, account_id, gcm_pan_var, version_number);
+ELSE
+UPDATE PARTY
+SET gcm_pan = gcm_pan_var, version = version_number
+WHERE
+ui_party_id = party_id;
+END IF;
+
+EXCEPTION
+WHEN OTHERS
+THEN
+DBMS_OUTPUT.put_line(SQLERRM);
+DBMS_OUTPUT.put_line('   ');
+RAISE;
+
+END insert_or_update_party_id;
+/

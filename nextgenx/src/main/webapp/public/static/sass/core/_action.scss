@@ -1,0 +1,1256 @@
+/* #Action Styles and wrappers for action */
+/* 
+###Primary Button non Active
+
+Primary action button :hover state included
+
+
+        <a href="" class="primaryButton" title="Button label here">Button label here </a>
+
+	    <a href="" class="primaryButton primaryButtonDisabled" title="Button label here">Disabled Button label here </a>
+	
+*/
+
+.primaryButton {
+  color:$primaryLabelColor;
+  background:$backgroundColorGamma;
+  min-width:$primeButtonWidth +rem;
+  height:$primeButtonHeight +rem;
+  @include lineHeight($primeButtonHeight);
+  @include fontSize($primaryButton);
+  @include borderRadius(0.5);
+  @extend .inlineBlock;
+  @include blockPadding(0,3,0,3);
+  @include textAlign(center);
+  display: table-cell;
+  vertical-align: middle;
+  @include textDeco(none);
+  @extend %relative;
+      &:hover{
+        background:lighten($backgroundColorGamma, 5%);
+        @include textDeco(none);
+      }
+
+      &:visited{
+        @include textDeco(none);
+      }
+
+      &.primaryButtonDisabled{
+        color: #9f9f9f;
+        //background: $beta4;
+        background: $beta10;
+        //@include allBorders(1px, solid, #9f9f9f);
+        @include allBorders(1px, solid, $beta22);
+        text-decoration:none;
+        &:link{
+          @include textDeco(none);
+        }
+        cursor: default;
+          &:focus {outline: none !important;}
+          .iconWLoader {
+			display:none;
+	      }
+      }
+
+}
+
+.primaryButtonMod1{
+  @include blockMargin(0,1,2,0 );
+}
+.overlayViewInnerContent{
+      .primaryButtonMod1 a{
+        @include blockMargin(0,1,2,0 );
+      }
+}
+
+.primaryButtonLarge {
+  min-width:22rem;
+  @include textAlign(left);
+  em.iconWLoader {
+    left:auto;
+  }
+}
+.stopTransactionPanel .primaryButtonLarge { min-width:19rem; }  
+
+.detailsPanelWrapper .OpenTermDepositMonthly,
+.termDepositPopUp,
+.stopTransactionPanel,
+.updatePasswordTabWrap,
+.updateUsernameTabWrap,
+form.jq-changeLimitPayanyoneForm,
+form.jq-changeLimitBpayForm
+ {
+	em.iconWLoader {
+		@include position(absolute,auto 0 0 auto);
+		margin-top: 20px;
+	}
+}
+
+form#addPayAnyone,
+form#addPayee, 
+form#addBpayBiller,
+form#payeeModel
+ {
+	em.iconWLoader {
+		@include position(relative,auto 0 0 auto);
+	}
+}
+
+/*
+###Action Button with icon
+
+Defines secondary action buttons with icons for hover state please roll over the button
+
+```
+
+<a href="" class="actionButtonIcon" title="Action title"><span>Action</span> <em class="iconmobile"></em></a>
+
+```		
+	
+*/
+
+
+.actionButtonIcon {
+  //min-width:$actionWidth +rem;
+  min-width:14rem; 
+  width:auto;
+  height:$actionHeight +rem;
+  @include borderRadius(2);
+  background:transparent;
+  @include textAlign(left);
+  color:$beta73;
+  @include allBorders(1px, solid, $beta73);
+  @include blockPadding(0.9,1,1.2,1);
+  @include fontSize(1.6);
+  @extend %inlineBlock;
+  @include lineHeight(1.8);
+  vertical-align: middle;
+  @include textDeco(none);
+  @extend %emphasis;
+  box-sizing:border-box;
+      span{
+        @include blockPadding(0.1,1.4,0,1);
+        width:auto;
+        float:left;
+
+      }
+      em{
+        text-align:top;
+        @extend %floatRight;
+        margin: 0;
+        @include blockPadding(0.2,0.5,0,0);
+
+      }
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        em.iconsettings {
+          float: none;
+        }
+      }
+      .iconarrowfulldown {
+        @include blockMargin(-0.5,0,0,-1);
+        @include blockPadding(0,0,0,0);
+        text-decoration: none;
+        @include fontSize(1.2);
+        @extend %floatRight;
+      }
+      &:link{
+        color:$beta73;
+      }
+      &:visited{
+        color:$beta73;
+      }
+      &:hover{
+          @include allBorders(4px, solid, $actionActive);
+          color:$gamma;
+          @extend %emphasis;
+          height:$actionHeight +rem!important;
+          /*@include blockPadding(0.8,0.7,0.7,0.7);*/
+          @include blockPadding(0.6,0.7,0.8,0.7);
+            @media screen and (-webkit-min-device-pixel-ratio:0) {
+              /*@include blockPadding(0.8,0.7,0.7,0.68);*/
+              @include blockPadding(0.6,0.7,0.8,0.68);
+            }
+          @include textDeco(none);
+          box-sizing:border-box;
+
+      }
+      &:active{
+          color:$textColorDark;
+          @include allBorders(4px, solid, $textColorDark);
+      }
+
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        span{
+         @extend %inlineBlock;
+          vertical-align: baseline;
+          zoom: 1;
+          *display: inline;
+          *vertical-align: auto;
+
+          width:auto!important;
+          float:left;
+        }
+        em{
+          @extend %block;
+        }
+        
+        /* Safari only override */
+        ::i-block-chrome,&:hover{
+          @include blockPadding(0.6,0.7,0.8,0.7);
+        }
+        
+     }
+
+}
+.actionButtonIcon.actionButtonIconDisabled,
+.xtoolAction.actionButtonIconDisabled{
+  color:$beta44;
+  @include allBorders(1px, solid, $beta44);
+  cursor: default;
+
+}
+.iconSetBorder.actionButtonIconDisabled:hover{
+  color:$beta44;
+  @include allBorders(1px, solid, $beta44);
+  cursor: default;
+  em{
+    color:$beta44;
+  }
+}
+.actionButtonIconDisabled:hover{
+  @include blockPadding(0.9,1,0,1);
+}
+.linkIconStyle.iconDisabled{
+  color:$beta22!important;
+  cursor: default;
+  .iconbpay{
+    color:$beta22!important;
+  }
+}
+
+.actionButtonIcon.actionButtonIconModMinWidth {
+  min-width: 14.2rem;
+}
+
+.confirmationMsgItem{
+  .actionButtonIcon{
+    float: left;
+    @include blockMargin(0,2,0,0);
+  }
+
+}
+
+
+
+/* 
+###Menu Button non active
+
+Defines menu action buttons
+
+	<a href="" class="menuAction" title="Label her">Label here</a>
+	
+<p>
+
+	<a href="" class="menuAction menuActionActive" title="Label her">Label here</a>
+
+Defines secondary action buttons without icons ina ctive state	
+	
+*/
+.menuAction{
+  min-width:$actionHeight +rem;
+  /*background:$menuSecondStop;*/
+  background:$beta4;
+  height:$actionHeight +rem;
+  @include textAlign(center);
+  @include blockPadding(0,4,0,4);
+  color:$beta73;
+  @include borderRadius(2);
+  @include allBorders(0, solid, $menuBorder);
+  @include multiShadow($menuInActiveShadow);
+  display: table-cell;
+  vertical-align: middle;
+  @extend %emphasis;
+  text-decoration:none;
+  @include fontSize(1.4);
+  letter-spacing:0.05rem;
+     &:hover{
+       background:#ededed;
+     }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .toggleMenuLineWrapMod2 .menuAction {letter-spacing: 1px}
+}
+
+.expandedViewFull .menuAction{
+  background: #ededed;
+  &:hover{background: #e1e1e1;}
+}
+
+.menuAction.menuActionActive{
+  background:$beta73;
+  color:$menuActiveLabel;
+  @include multiShadow($menuActiveShadow);
+  @include allBorders(1px, solid, $menuActiveBorder);
+}
+
+.ui-state-active .menuAction,
+.expandedViewFull .ui-state-active .menuAction{
+  background:$beta73;
+  color:$menuActiveLabel;
+  @include multiShadow($menuActiveNoShadow);
+  @include allBorders(0px, solid, $menuActiveBorder);
+    &:hover{
+      background:$beta73;
+    }
+}
+/*.ui-state-active .menuAction {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}*/
+
+/*
+##Action link
+
+###Defines primary action link
+
+	<a href="" class="primaryLink" title="Label her"><span class="iconlink"></span> Label here</a>
+
+###Defines primary action link
+
+	<a href="" class="baseLink" title="Label her"><span class="iconlink"></span> Label here</a>
+
+Defines econdary action buttons without icons ina ctive state	
+	
+*/
+.primaryLink {
+  /*color:$actionColor;*/
+  color:$actionActive;
+  text-decoration:none;
+  &:hover{color: $beta73;}
+}
+
+// with underline on hover
+.primaryLinkMod2{
+  &:hover{border-bottom: 1px solid $beta27}
+}
+
+.primaryLinkMod1{
+  @include blockMargin(2,0,0,0);
+  @extend %inlineBlock;
+}
+
+.primaryLinkMod3{
+  &:hover{
+    color:$actionActive;
+    border-bottom: 2px solid $actionActive;
+    .betaC1 {color:$actionActive;}
+  }
+}
+
+.primaryLinkMod4 {
+   border-bottom: 1px solid $actionActive;
+  &:hover{border-bottom-color: $beta73;}
+}
+
+
+
+// Updated to include borders and hover colors
+// text decoration is ignored
+.baseLink{
+    color:$beta73;
+    text-decoration:none;
+    border-bottom: 1px solid $beta27;
+  &:link{
+    //color:$beta73;
+    //border-color: $beta27;
+  }
+
+  &:active{
+    color:$gamma;
+    border-color: $gamma90;
+  }
+  &:visited{
+    color:$beta73;
+    border-color: $beta27;
+  }
+    &:hover{
+    color:$gamma;
+    border-color: $gamma90;
+  }
+  .iconlink{
+      @extend %floatLeft;
+  }
+  // No border
+  &.baseLinkClear{
+    border:0;
+
+  }
+}
+
+// without hover color
+.baseLinkMod2{
+  &:hover {color: $beta73}
+}
+
+// without border but border appears on hover
+.baseLinkMod4 {
+  border:0;
+  &:hover {
+    border-bottom: 1px solid $gamma90;
+  }
+}
+
+.buttonWidget {
+  @include blockPadding(1,1,1,1);
+  @include blockMargin(0,0.5,0,0);
+  color:$beta56;
+  background:#FAFAFA;
+  @include boxShadow( 0px 2px 2px 1px $beta22);
+  @include borderRadius(0.5);
+  text-decoration:none;  
+}
+
+.formFooterWrap{
+  @include blockMargin(4,0,4,0);
+  .formFooterAction{
+
+    .formFooterActionItem{
+      @include blockMargin(1,0,2,0);
+      @extend %inlineBlock;
+    }
+  }
+}
+
+// Creates a Ancho around  a block
+.actionBlockAnchor{
+  @extend %inlineBlock;
+  height:100%;
+  width: 100%;
+
+    &:hover{
+      color:$beta73;
+
+    }
+}
+
+/*
+
+## Link icons with text
+
+```
+<a class="linkIcon" title="Title of the link" href="#">
+    <em class="iconindividual"></em>
+    <span class="linkIconText">Title of the link</span>
+</a> 
+
+```
+
+*/
+
+
+
+/*
+
+## Link icons 
+
+These elements are used in top navigation menu and also in utility bar ( left sidebar)
+
+```
+<a class="linkIcon" title="Title of the link" href="#">
+	<em class="iconalertsalt"></em>
+</a> 
+
+```
+*/
+
+.linkIconStyle{
+  text-decoration: none;
+  vertical-align: middle;
+  line-height: inherit;
+  display: table-cell;
+
+}
+.linkIconStyleModBpay{
+  color: #243366;  //TODO:: move colour to _colour.sass
+  &:hover{
+    color: #243366;  //TODO:: move colour to _colour.sass
+  }
+  &:active{
+    color: #243366;  //TODO:: move colour to _colour.sass
+  }
+
+}
+
+.linkIcon{
+  @extend .linkIconStyle;
+  .linkIconTextLabel{
+    margin:0 30px 0 0;
+  }
+
+}
+.paraLink{
+	@include lineHeight(1.5);
+}
+
+
+
+
+/* ##Wrappers
+	<ul class="actionWrapper actionWrapPrimary clearFix">
+        <li>
+           	<a href="#" class="primaryButton Next jq-formSubmit" tabindex="11">
+        		<span>Next</span>
+        	</a>
+        </li>
+        <li>
+        	<a href="#" class="primaryLink jq-formClear jq-cashPaymentClear" title="Cancel payment" tabindex="12">Cancel payment</a>
+        </li>
+   </ul>
+
+*/
+
+.actionWrapper{
+   &.sectionHeaderGroup{
+     height:80px ;
+     border-top:1px solid $beta73;
+     border-bottom:1px solid $beta22;
+     @include setSpace(margin,3rem 0 0rem 0);
+     @extend .clearFix;
+   }
+  .sectionHeader{
+    @extend %floatLeft;
+    @extend %inlineBlock;
+    @include setSpace(padding, 25px 0 0 0);
+
+    h2{
+      @extend %inlineBlock;
+      @include fontSize(2.5);
+    }
+  }
+  .sectionAction{
+    @extend %floatRight;
+    @include setSpace(padding, 20px 0 0 0);
+
+  }
+ @include blockMargin(3,0,1,0);
+
+  // Primary Action Wrapper part of
+
+   &.actionWrapPrimary li{
+      @include blockMargin(0,2,0,0);
+      &:last-child{
+        margin-right: 0;
+        }
+      &:last-child a{
+        @include blockMargin(2,0,0,0);
+        @extend %inlineBlock;
+          em {
+           @include setSpace(margin, 2px 4px 0 0);
+                    &.mod1 {
+                     @include setSpace(margin, 0 0px 0 0);
+                    }
+          }
+          em.iconlinkMod1 {
+          	 @include setSpace(margin, -3px 4px 0 0);
+          }
+      }
+   }
+    li{
+      @extend %block;
+      @extend %floatLeft;
+    }
+
+     .actionWithText {
+       @include blockPadding(1.2,2,0,0);
+     }
+
+     .actionWrapperSecondary li:last-child a em {
+       margin-top: 2px;
+     }
+
+
+
+
+}
+.actionWrapper.actionWrapperPrimary {
+  @include blockMargin(1,0,1,0);
+}
+.modalBox .formBlockActions {
+  margin-bottom: 11px;
+  .actionWrapper{
+    @include blockMargin(1.5,0,1.5,0);
+    overflow: hidden;
+  }
+
+  // for headers on a action section
+
+
+
+}
+
+.actionWrapperModal{
+  @include blockMargin(2,0,7,0);
+}
+
+
+
+
+
+
+
+
+.overlayViewInnerContent{
+  .actionWrapper.actionWrapPrimary li:last-child a{
+    @include blockMargin(1.5,0,0,0);
+  }
+}
+.editableTextField{
+  .actionWrapper.actionWrapPrimary li:last-child a{
+    @include blockMargin(1,0,0,0);
+  }
+}
+.actionWrapper li{
+  @include blockMargin(0,1.5,0,0);
+  &:last-child a{
+    //@include blockMargin(1,0,0,0);
+    @extend %inlineBlock;
+  }
+  &:last-child a em{
+    //@include fontSize(1.6);
+    //@include blockMargin(0,0,0,0);
+
+  }
+}
+.actionWrapper .inlineBlockMod1 li {@include blockMargin(0,0,0,1);}
+.actionWrapper .inlineBlockMod2 li {@include blockMargin(1.5,0,0,1);}
+.actionWrapper li.noMargin{
+  @include blockMargin(0,0,0,0);
+}
+
+.actionWrapper.actionWrapperTertiary{
+  @extend %block;
+  @include blockMargin(0,0.5,0,0.5);
+  width: 120px;
+}
+
+
+.actionWrapper.actionWrapperTertiary li{
+  @extend %inlineBlock;
+  @include blockMargin(1,0,0,2);
+  float:right;
+}
+.actionWrapper.actionWrapperTertiaryMod1 li{
+  @include blockMargin(0,0,0,2);
+  float: left;
+}
+
+.actionWrapper.actionWrapperMod4{
+
+  @extend %block;
+  @include blockMargin(0,0,0,0);
+    li{
+
+      @include blockMargin(4,0,2,0);
+    }
+
+
+}
+
+.actionWrapperMod1{
+  @include blockMargin(3,0,2,0);
+}
+
+.actionWrapperMod2{
+  @include blockMargin(2,0,1,0);
+}
+
+.actionWrapperMod3{
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: lighten($backgroundColorBeta, 54%);
+}
+
+.actionWrapperMod6{
+	@include blockMargin(1.5,0,3,0);
+	.logoWrapPos {
+		@include blockMargin(0,0,0,0);
+	}
+}
+
+.actionWrapperMod7{
+ @include blockMargin(3,0,5,0);
+}
+
+.actionWrapperMod5{
+  @include blockMargin(2,0,4,0);
+  width: 100%;
+  @extend %block;
+  @extend .clearFix;
+}
+
+.actionWrapperMod8{
+  @include blockMargin(1,0,0,0);
+}
+
+  .actionWrapperTopGutter {
+       
+       @include blockMargin(8,0,1,0);
+     }
+     
+     
+.actionWrapperNoMargin { 
+  @include blockMargin(0,0,0,0);
+}
+.actionWrapperContainer{
+  @include blockMargin(0,0,0,0);
+  text-align: right;
+  height: 40px;
+    li.actionItem {
+      float: none !important;
+      display: inline-block !important;
+      @include blockMargin(0,0,0,.6);
+      height: 40px;
+      @extend .relative;
+        a.actionItemLink {
+          @extend %inlineBlock;
+          float: none !important;
+          @extend .relative;
+          text-align: left;
+        }
+    }
+  &.actionWrapperContainerMod1 {margin-bottom: 6px}
+}
+
+/*
+
+```
+
+<div class="formFooterWrap formFooterAlpha">
+    <p class="formFooterText">
+          Forgotten username? <strong>Call XXXXX</strong>         
+    </p>
+    <div class="formFooterAction">
+        <a href="#" class="baseLink formFooterActionItem jq-appendErrorAfter jq-forgottenPassword assistInputField" title="Forgotten password?"><span class="iconlink"></span> Forgotten password?</a>
+    </div>
+</div>
+
+
+```
+*/
+.formFooterAlpha{
+  .formFooterText{
+    color: $textColorDark;
+  }
+  /*.formFooterAction a{
+    color: $textColorDark;
+    &:link{
+      color: $textColorDark;
+    }
+    &:visited{
+      color: $textColorDark;
+    }
+    &:hover{
+      color: $textColorLighter;
+    }
+    &:active{
+      color: $textColorDark;
+    }
+  }*/
+ // .iconLinkLabel.iconLinkLabelMod1 {margin-top: -6px}
+}
+
+
+/*
+##Icon with text for screen reader
+
+```
+
+<a class="fieldHelpIconWrap jq-appendErrorAfter"><em class="iconhelp" title="Help"><span>Help</span></em></a>
+
+```
+
+```
+<em class="iconhelp" title="Help"><span>Help</span></em>
+
+```
+
+*/
+
+
+
+
+
+.actionLinkItem{
+    @extend %inlineBlock;;
+    @include blockMargin(1,2,4,0);
+    height:2rem;
+  span{
+      vertical-align:top!important;
+      @extend %inlineBlock;
+      @include blockMargin(0.2,0,0,0);
+  }
+}
+.modalBox .actionLinkItem{
+    margin-bottom: 0;
+    span {
+        @include blockMargin(-0.2,0,0,0.5);
+    }
+}
+
+
+a.linkIconStyle.neutral{
+  color: $beta73;
+  &:hover{
+    color: $beta73;
+  }
+  &:active{
+    color: $beta73;
+  }
+  &:active{
+    color: $beta73;
+  }
+  &:focus{
+    color: $beta73;
+  }
+}
+
+.primaryLinkWrap.primaryLinkWrapMod1 {
+  @include blockMargin(1.2,2,2,1);
+}
+.modalBox .primaryLinkWrap.primaryLinkWrapMod1 {
+  margin-bottom: 0
+}
+
+.primaryLinkWrap.primaryLinkWrapMod2 {
+  @include blockMargin(1,2,2,0);
+}
+
+.primaryLinkWrap.primaryLinkWrapMod3 {
+  @include blockMargin(2.1,2,2,1);
+}
+.primaryLinkWrap.primaryLinkWrapMod4 {
+  @include blockMargin(1.5,0,0,0);
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .primaryLinkWrap.primaryLinkWrapMod4 {
+    @include blockMargin(1.7,0,0,0);
+    a .iconLinkLabel {
+      @include blockMargin(-0.7,0,0,0.5);
+    }
+  }
+}
+/*
+
+##actionWrapMod1
+```
+<div class="actionWrap actionWrapMod1">
+  <a title="Change username & password" class="actionButtonIcon actionButtonIconMod1 jq-changeUsernamePassword" href="#nogo" >
+      <span>Change username & password</span><em class="iconsettings"></em>
+  </a>
+</div>
+
+```
+*/
+
+.actionWrapMod1{
+  @include blockMargin(2,0,0,0);
+  @extend .clearFix;
+  .actionButtonIconMod1{
+    float:right;
+  }
+}
+
+
+/* ##Sub Links
+
+*/
+
+
+.sublinkWrapper {
+  @include blockPadding(0,0,0,0);
+  @extend %block;
+  .linkContainer {
+    margin: 0;
+    li {@include blockMargin(0,0,1,0);}
+  }
+
+}
+
+
+/* ## Add and subscract buttons
+
+*/
+
+.formCalculatorWrapper{
+  @include blockMargin(0,0,0,1);
+
+}
+.formCalculationContainer{
+  width:38px;
+  height:46px;
+  @extend %inlineBlock;
+  border-left:1px solid $borderColorMiddleLighter;
+  &:focus,&:active{
+    border-left:1px solid $beta73;
+  }
+  @include position(absolute, 1px 0px 0 0);
+  .addIconContainer,.subIconContainer{
+    width:36px;
+    height:22px;
+    @extend %block;
+    clear:both;
+    text-align:center;
+    &:hover{
+      background:$backgroundColorAlpha;
+
+    }
+    em{
+      @include fontSize(1.2);
+      @include blockPadding(0.5,0,0,0);
+      @extend %block;
+
+    }
+  }
+  .addIconContainer{
+    @include position(absolute, 0px 1px 0 0);
+    border-bottom:1px solid $borderColorMiddleLighter;
+    border-top-right-radius 	:0.5rem;
+    -moz-border-radius-topright:0.5rem;
+
+
+  }
+  .subIconContainer{
+    @include position(absolute, 0 1px 0px 0);
+    height:24px;
+    border-bottom-right-radius 	:0.5rem;
+    -moz-border-radius-bottomright:0.5rem;
+  }
+}
+
+/*
+
+##Toggle menu
+
+### Type: Line
+
+```
+<div class="toggleMenuLineWrap">
+	<ul class="toggleMenuLine">
+	    <li class="toggleMenuLineItem">
+	    	<a href="transactions" class="textLink">Transactions</a>
+	    </li>
+	    <li class="toggleMenuLineItem">
+	    	<a href="moveMoney" class="textLink">Move Money</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Statements</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Alerts</a></li>
+	</ul><!-- toggleMenuLine -->
+</div><!-- toggleMenuLineWrap -->
+
+```
+
+*/
+
+
+.toggleMenuLineItem{
+  list-style: none;
+  @extend %inlineBlock;
+  @extend %floatLeft;
+  @extend %emphasis;
+  @include setSpace(margin,0 2rem 0 0);
+
+
+
+  .textLink{
+    @include fontSize(1.6);
+    vertical-align: middle;
+    line-height: inherit;
+    @include setSpace(padding, 0 0 1.8rem 0);
+
+
+    border-bottom: 4px solid #ccc;
+    min-width: 140px;
+    @extend %inlineBlock;
+    text-decoration: none;
+        &:link{
+          color: $beta73;  // convert this to var
+        }
+        &:visited{
+          color: $beta73;  // convert this to var
+        }
+        &:hover{
+          color: $beta73;   // MM: I am not sure about this yet.
+          border-bottom: 4px solid #bcbbbb;
+        }
+        &:active{
+          color: $beta73;  // convert this to var
+          .text{
+            background-color: #FFD636;
+          }
+    }
+  }  
+}
+.toggleMenuLineWrap{
+  @include setSpace(margin, 0 0 4rem 0);
+  @extend .clearFix;
+    .toggleMenuLineItem{
+      @extend %floatLeft;
+    }
+}
+
+/*
+
+##Toggle menu Modifier type 1
+
+### toggleMenuLineWrapMod1
+
+```
+<div class="toggleMenuLineWrap toggleMenuLineWrapMod1">
+	<ul class="toggleMenuLine">
+	    <li class="toggleMenuLineItem">
+	    	<a href="transactions" class="textLink">Transactions</a>
+	    </li>
+	    <li class="toggleMenuLineItem">
+	    	<a href="moveMoney" class="textLink">Move Money</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Statements</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Alerts</a></li>
+	</ul><!-- toggleMenuLine -->
+</div><!-- toggleMenuLineWrap -->
+
+```
+
+*/
+
+
+.toggleMenuLineWrapMod1{
+  @include blockMargin(5,0,0,0);
+}
+.toggleMenuLineWrapMod2{
+  @include blockMargin(0,0,0,0);
+  @include blockPadding(0,0,2,0);
+  border-bottom:1px solid $beta22;
+  width:842px;
+  .toggleMenuLineItem{
+    position: relative;
+  }
+}
+
+
+
+.toggleArrowWrap{
+   visibility: hidden;
+}
+.ui-state-active{
+  .toggleArrowWrap{
+    @extend %block;
+    visibility: visible;
+  }
+}
+
+.toggleMenuLineWrapMod3{
+  @include blockMargin(2,0,3,0);
+}
+.toggleMenuLineWrapMod4{
+  @include blockMargin(0,0,5,0);
+}
+.toggleMenuLineWrapMod4Mod{
+  @include blockMargin(0,0,3,0);
+}
+
+.toggleMenuLineWrapMod5{
+  @include blockMargin(0,0,-10,0);
+}
+
+.toggleMenuLineWrapMod6 {
+	@include blockPadding(0,0,2,0);
+	@include blockMargin(2,0,3,0);
+  	border-bottom:1px solid $beta22;
+  	.toggleMenuLine  {
+		@include blockPadding(0,0,0,0);
+	  	.toggleMenuLineItem{
+            height: 41px;
+            position: relative;
+            @include setSpace(margin, 0 1.5rem 0 0);
+            @include setSpace(margin, 0 1.5rem 0 0rem);
+	    	.menuAction {  
+	    		height:4rem;
+                min-width:12rem;
+
+                @include textAlign(left);
+	    		@include blockPadding(0,0.5,0,1.5);
+	    		.desc {
+	    			@include blockPadding(0,0,0,0);
+	    			@extend %floatLeft;
+                    line-height:3.8rem;
+	    		}
+	    		.counts {
+		    		@include textAlign(center);
+		    		@extend %floatRight;
+		    		background:none;
+		    		@include blockMargin(0.4,0,0,1.5);
+					@include borderRadius(100);
+					font-weight:normal;
+					height: 2.8rem;
+                    min-width: 3rem;
+                    line-height:3rem;
+                }
+	    	}	      
+			.expandArrowMod1 {
+				top:4rem;
+				left:37%;
+			}
+            .expandArrowMod4 {
+              @include position(absolute,5.1rem 0 0 50%);
+              margin-left:-17px;
+            }
+		}
+	  	.ui-state-active {
+			.menuAction {
+		    	.counts{
+		    		background:$gamma;
+		    		@extend %emphasis;
+                    @include borderRadius(100);
+		    	}
+		    }
+		} 
+	}
+}
+
+.toggleMenuLineWrapMod7 {
+	@include setSpace(margin, 0 0 0.4rem 0);
+}
+
+.toggleMenuLineWrapMod8 { 
+	@include setSpace(margin, 0 0 3rem 0);
+}
+/*
+
+##Toggle menu
+
+### Type: Line:hover state
+
+```
+<div class="toggleMenuLineWrap">
+	<ul class="toggleMenuLine">
+	    <li class="toggleMenuLineItem toggleMenuLineItemActive">
+	    	<a href="transactions" class="textLink">Transactions</a>
+	    </li>
+	    <li class="toggleMenuLineItem">
+	    	<a href="moveMoney" class="textLink">Move Money</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Statements</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Alerts</a></li>
+	</ul><!-- toggleMenuLine -->
+</div><!-- toggleMenuLineWrap -->
+
+```
+
+*/
+.toggleMenuLineItemActive{
+  .textLink{
+    border-bottom: 4px solid $beta73;
+  }
+}
+
+
+/*
+
+##Toggle menu
+
+### Type: Line:hover state (with jQuery ui plugin)
+
+```
+<div class="toggleMenuLineWrap">
+	<ul class="toggleMenuLine">
+	    <li class="toggleMenuLineItem ui-state-active">
+	    	<a href="transactions" class="textLink">Transactions</a>
+	    </li>
+	    <li class="toggleMenuLineItem">
+	    	<a href="moveMoney" class="textLink">Move Money</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Statements</a></li>
+	    <li class="toggleMenuLineItem"><a href="#" class="textLink">Alerts</a></li>
+	</ul><!-- toggleMenuLine -->
+</div><!-- toggleMenuLineWrap -->
+
+```
+
+*/
+.toggleMenuLine{
+  .ui-state-active{
+    .textLink{
+      border-bottom: 4px solid $beta73;
+    }
+  }
+}
+
+
+
+/* ## Third Level Tab
+
+```
+<div class="toggleMenuLineWrap">
+	<ul class="toggleMenuLine toggleMenuLineThirdlevel">
+        <li class="toggleMenuLineItem toggleMenuLineItemActive toggleMenuLineItemFirst">
+            <a href="" class="textLink" >Portfolio</a>
+        </li>
+	    <li class="toggleMenuLineItem ${navSelection == 'transactions'? 'toggleMenuLineItemActive' : ''}">
+	    	<a href="" class="textLink" >Transaction list</a>
+	    </li>
+	    <li class="toggleMenuLineItem">
+	    	<a href="" class="textLink">Payments &amp; deposits</a></li>
+	    <li class="toggleMenuLineItem">
+            <a href="" class="textLink" >Statements</a>
+        </li>
+	    <li class="toggleMenuLineItem">
+            <a href="" class="textLink" >Reports</a>
+        </li>
+
+	</ul><!-- toggleMenuLine -->
+</div><!-- toggleMenuLineWrap -->
+
+
+```
+
+*/
+
+.toggleMenuLineThirdlevel{
+  height: 60x;
+  @include lineHeight(6);
+  width:100%;
+  @extend .clearFix;
+  border-bottom: 1px solid $beta22;
+    .toggleMenuLineItem{
+       height: 60px;
+       @include setSpace(margin, 0 2rem 0 2rem);
+       @include setSpace(padding, 0 0rem 0 0rem);
+       @extend %inlineBlock;
+       @extend %floatLeft;
+          &:hover{
+            border-bottom:2px solid $beta73;
+          }
+          .textLink{
+            @include fontSize(1.4);
+            border:none;
+            min-width:50px;
+          }
+  }
+
+  .toggleMenuLineItemActive{
+   border-bottom:2px solid $beta73;
+  }
+  .toggleMenuLineItemFirst{
+    .textLink{
+      @include blockMargin(0,2,0,0);
+    }
+
+  }
+
+}
+
+.subText {
+    color: $beta27;
+}
+
+.idpsAccountDetailsContainer {
+	@include blockMargin(-0.7,0,0,0);	
+}

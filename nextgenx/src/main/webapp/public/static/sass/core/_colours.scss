@@ -1,0 +1,660 @@
+/*
+
+#COLOURS
+
+##Core colour scheme variables
+
+###Color mapping
+
+You should always use mapped variable names like **$borderColorDarker**. Never use colour vars directly from the following table. 
+
+There are 4 groups which you can choose from:
+
+* Border colour   
+* Header colour
+* Text colour 
+* Background colour
+
+If you need to set a colour first check and see whaich group is this new colour belongs to. In cases that you can not fond proper group, just use the one that is close to the defined groups here. 
+Then after chooseing the group, use the tint of colour from the available list of defined variables for that group, and use Sass lighten( $theVariableNameForColour, %23), or darken($blahblah, 85%) to generate your colour.
+
+
+|                                                                                                                                                          |             |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #2c2b29; color: #fff; font-weight:bold; padding: 20px;">Charcoal         ($alphaC0)</div> |             |
+
+
+
+
+|                                                                                                                                                   |             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #2c2b29; color: #fff; font-weight:bold; padding: 20px;">Black     ($betaC0)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #454545; color: #fff; font-weight:bold; padding: 20px;">27%       ($betaC1)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #545454; color: #fff; font-weight:bold; padding: 20px;">43%       ($betaC2)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #707070; color: #fff; font-weight:bold; padding: 20px;">54%       ($betaC3)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #949494; color: #fff; font-weight:bold; padding: 20px;">58%       ($betaC4)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #bababa; color: #fff; font-weight:bold; padding: 20px;">73%       ($betaC5)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #c7c7c7; color: #000; font-weight:bold; padding: 20px;">78%       ($betaC6)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #e5e5e5; color: #000; font-weight:bold; padding: 20px;">90%       ($betaC7)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #f5f5f5; color: #000; font-weight:bold; padding: 20px;">96%        ($betaC8)</div> |             |
+      
+
+|                                                                                                                                                   |             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #0095c8; color: #fff; font-weight:bold; padding: 20px;">BT Blue  ($gammaC0)</div>  |             |
+| <div style=" width: 250px; text-align: left; background-color: #189fce; color: #fff; font-weight:bold; padding: 20px;">10%       ($gammaC1)</div> |             |
+
+
+|                                                                                                                                                   |             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #93c6d9; color: #fff; font-weight:bold; padding: 20px;">Sky      ($deltaC0)</div>  |             |
+| <div style=" width: 250px; text-align: left; background-color: #d1ecf5; color: #fff; font-weight:bold; padding: 20px;">82%       ($deltaC1)</div> |             |
+
+
+|                                                                                                                                                     |             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #694e5f; color: #fff; font-weight:bold; padding: 20px;">Plum      ($epsilonC0)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #ccc3c8; color: #000; font-weight:bold; padding: 20px;">64%       ($epsilonC1)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #e1dce0; color: #000; font-weight:bold; padding: 20px;">80%       ($epsilonC2)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #efedf0; color: #000; font-weight:bold; padding: 20px;">90%       ($epsilonC3)</div> |             |
+
+
+|                                                                                                                                                         |             |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #ae93a4; color: #fff; font-weight:bold; padding: 20px;">Lavendar      ($digammaC0)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #f9f7fa; color: #000; font-weight:bold; padding: 20px;">93%            ($digammaC1)</div> |             |
+
+
+|                                                                                                                                                      |             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #6ba33e; color: #fff; font-weight:bold; padding: 20px;">Green         ($zetaC0)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #b5d19e; color: #000; font-weight:bold; padding: 20px;">50%            ($zetaC1)</div> |             |
+| <div style=" width: 250px; text-align: left; background-color: #f6f9f2; color: #000; font-weight:bold; padding: 20px;">93%            ($zetaC2)</div> |             |
+
+
+|                                                                                                                                                      |             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #e87301; color: #fff; font-weight:bold; padding: 20px;">Amber          ($etaC0)</div> |             |
+
+
+|                                                                                                                                                      |             |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------:| -----------:|
+| <div style=" width: 250px; text-align: left; background-color: #e62715; color: #fff; font-weight:bold; padding: 20px;">Red          ($thetaC0)</div> |             |
+
+
+
+
+| Variable      | Colour code   | Colour                                               |
+| ------------- |:-------------:| ----------------------------------------------------:|
+| $alpha        | #2c2a29       | <div style="background-color: #2c2a29;">&nbsp;</div> | 
+| $beta         | #000000       | <div style="background-color: #000000;">&nbsp;</div> | 
+| $gamma        | #0095c8       | <div style="background-color: #0095c8;">&nbsp;</div> | 
+| $delta        | #93c6d9       | <div style="background-color: #93c6d9;">&nbsp;</div> | 
+| $epsilon      | #694e5f       | <div style="background-color: #694e5f;">&nbsp;</div> | 
+| $digamma      | #ae93a4       | <div style="background-color: #ae93a4;">&nbsp;</div> | 
+| $zeta         | #6ba33e       | <div style="background-color: #6ba33e;">&nbsp;</div> | 
+| $eta          | #e87301       | <div style="background-color: #e87301;">&nbsp;</div> | 
+| $theta        | #e62715       | <div style="background-color: #e62715;">&nbsp;</div> | 
+| $bistose      | #2c2a29       | <div style="background-color: #2c2a29;">&nbsp;</div> | 
+| $bistochar    | #444444       | <div style="background-color: #444444;">&nbsp;</div> | 
+| $bistopanj    | #717171       | <div style="background-color: #717171;">&nbsp;</div> | 
+| $bistoshesh   | #dc2a29       | <div style="background-color: #dc2a29;">&nbsp;</div> | 
+| $bistohaft    | #e7731f       | <div style="background-color: #e7731f;">&nbsp;</div> | 
+| $bistohasht   | #586c76       | <div style="background-color: #586c76;">&nbsp;</div> | 
+| $bistonoh     | #959595       | <div style="background-color: #959595;">&nbsp;</div> | 
+| $sie          | #747474       | <div style="background-color: #747474;">&nbsp;</div> | 
+| $sieoyek      | #5d5d5d       | <div style="background-color: #5d5d5d;">&nbsp;</div> | 
+| $iota         | #1b7fa4       | <div style="background-color: #1b7fa4;">&nbsp;</div> | 
+| $kappa        | #565655       | <div style="background-color: #565655;">&nbsp;</div> |  
+| $lambda       | #b8584a       | <div style="background-color: #b8584a;">&nbsp;</div> |  
+| $mu           | #1796c6       | <div style="background-color: #1796c6;">&nbsp;</div> | 
+| $nu           | #996a51       | <div style="background-color: #996a51;">&nbsp;</div> | 
+| $xi           | #737a4e       | <div style="background-color: #737a4e;">&nbsp;</div> | 
+| $omicron      | #4a7a7b       | <div style="background-color: #4a7a7b;">&nbsp;</div> |  
+| $pi           | #85657a       | <div style="background-color: #85657a;">&nbsp;</div> |  
+| $koppa        | #d6d2c5       | <div style="background-color: #d6d2c5;">&nbsp;</div> | 
+| $sigma        | #59707c       | <div style="background-color: #59707c;">&nbsp;</div> | 
+| $tau          | #f0bd53       | <div style="background-color: #f0bd53;">&nbsp;</div> | 
+| $omega        | #e36b58       | <div style="background-color: #e36b58;">&nbsp;</div> |  
+| $sampi        | #6da440       | <div style="background-color: #6da440;">&nbsp;</div> | 
+| $psi          | #2c2a29       | <div style="background-color: #2c2a29;">&nbsp;</div> | 
+| $shi          | #ffffff       | <div style="background-color: #ffffff;">&nbsp;</div> | 
+| $phi          | #107ea6       | <div style="background-color: #107ea6;">&nbsp;</div> |   
+| $upsilon      | #f0f0f0       | <div style="background-color: #f0f0f0;">&nbsp;</div> |  
+| $rho          | #0778af       | <div style="background-color: #0778af;">&nbsp;</div> | 
+| $yek          | #d6d6d6       | <div style="background-color: #d6d6d6;">&nbsp;</div> |  
+| $dou          | #f5f6f7       | <div style="background-color: #f5f6f7;">&nbsp;</div> |  
+| $seh          | #e4e4e4       | <div style="background-color: #e4e4e4;">&nbsp;</div> | 
+| $char         | #ffffcb       | <div style="background-color: #ffffcb;">&nbsp;</div> | 
+| $panj         | #417693       | <div style="background-color: #417693;">&nbsp;</div> | 
+| $shish        | #b7d8e4       | <div style="background-color: #b7d8e4;">&nbsp;</div> | 
+| $haft         | #f8f8f8       | <div style="background-color: #f8f8f8;">&nbsp;</div> |          
+| $hasht        | #0095c8       | <div style="background-color: #0095c8;">&nbsp;</div> | 
+| $noh          | #f2fafc       | <div style="background-color: #f2fafc;">&nbsp;</div> | 
+| $dah          | #f6f7f7       | <div style="background-color: #f6f7f7;">&nbsp;</div> | 
+| $yazdah       | #e5f4f9       | <div style="background-color: #e5f4f9;">&nbsp;</div> |  
+| $davazdah     | #6ba539       | <div style="background-color: #6ba539;">&nbsp;</div> |  
+| $sizdah       | #e97300       | <div style="background-color: #e97300;">&nbsp;</div> |  
+| $chardah      | #e56a54       | <div style="background-color: #e56a54;">&nbsp;</div> | 
+| $panzdah      | #fcf0ee       | <div style="background-color: #fcf0ee;">&nbsp;</div> |  
+| $shanzdah     | #d3081c       | <div style="background-color: #d3081c;">&nbsp;</div> |  
+| $hefdah       | #fef8ec       | <div style="background-color: #fef8ec;">&nbsp;</div> | 
+| $hejdah       | #faacac       | <div style="background-color: #faacac;">&nbsp;</div> | 
+| $noozdah      | #cfcfcf       | <div style="background-color: #cfcfcf;">&nbsp;</div> | 
+| $elibrium     | #eaeaea       | <div style="background-color: #eaeaea;">&nbsp;</div>
+
+
+
+## Colour reference 
+
+| Variable      | Colour code   | Colour                                               |
+| ------------- |:-------------:| ----------------------------------------------------:|
+| $beta         | #000000       | <div style="background-color: #000000;">&nbsp;</div> | 
+| $beta73       | #454545       | <div style="background-color: #454545;">&nbsp;</div> | 
+| $beta67       | #545454       | <div style="background-color: #545454;">&nbsp;</div> | 
+| $beta56       | #707070       | <div style="background-color: #707070;">&nbsp;</div> | 
+| $beta44       | #949494       | <div style="background-color: #949494;">&nbsp;</div> | 
+| $beta27       | #bababa       | <div style="background-color: #bababa;">&nbsp;</div> | 
+| $beta22       | #c7c7c7       | <div style="background-color: #c7c7c7;">&nbsp;</div> | 
+| $beta10       | #e5e5e5       | <div style="background-color: #e5e5e5;">&nbsp;</div> | 
+| $beta4        | #f5f5f5       | <div style="background-color: #f5f5f5;">&nbsp;</div> | 
+| $gamma        | #0095c8       | <div style="background-color: #0095c8;">&nbsp;</div> | 
+| $gamma90      | #199fcd       | <div style="background-color: #199fcd;">&nbsp;</div> | 
+| $gamma7       | #edf8fc       | <div style="background-color: #edf8fc;">&nbsp;</div> | 
+| $delta        | #93c6d9       | <div style="background-color: #93c6d9;">&nbsp;</div> |
+| $delta18      | #d1ecf5       | <div style="background-color: #d1ecf5;">&nbsp;</div> |
+| $epsilon      | #694e5f       | <div style="background-color: #694e5f;">&nbsp;</div> |
+| $epsilon34    | #ccc3c8       | <div style="background-color: #ccc3c8;">&nbsp;</div> |
+| $epsilon20    | #e1dcdf       | <div style="background-color: #e1dcdf;">&nbsp;</div> |
+| $epsilon10    | #f0edef       | <div style="background-color: #f0edef;">&nbsp;</div> |
+| $digamma      | #ad93a4       | <div style="background-color: #ad93a4;">&nbsp;</div> |
+| $digamma7     | #f9f7f9       | <div style="background-color: #f9f7f9;">&nbsp;</div> |
+| $zeta         | #6ba33e       | <div style="background-color: #6ba33e;">&nbsp;</div> |
+| $zeta50       | #b5d19e       | <div style="background-color: #b5d19e;">&nbsp;</div> |
+| $zeta7        | #f5f9f1       | <div style="background-color: #f5f9f1;">&nbsp;</div> |
+| $eta          | #e97300       | <div style="background-color: #e97300;">&nbsp;</div> |
+| $theta        | #e62615       | <div style="background-color: #e62615;">&nbsp;</div> |
+*/
+
+
+
+
+//$alpha:       #2c2a29;
+
+$beta:        #000000;
+$beta73:      lighten($beta , 27%); //#454545
+$beta67:      lighten($beta , 33%); //#545454 
+$beta56:      lighten($beta , 44%); //#707070 
+$beta44:      lighten($beta , 56%); //#949494
+$beta27:      lighten($beta , 73%); //#bababa
+$beta22:      lighten($beta , 78%); //#c7c7c7
+$beta10:      lighten($beta , 90%); //#e5e5e5
+$beta4:       lighten($beta , 96%); //#f5f5f5
+
+$gamma:       #0095c8;
+$gamma90:     #199fcd;
+$gamma7:      #edf8fc;
+
+$delta:       #93c6d9;
+$delta18:     #d1ecf5;
+
+$epsilon:     #694e5f;
+$epsilon34:   #ccc3c8;
+$epsilon20:   #e1dcdf;
+$epsilon10:   #f0edef;
+
+
+
+$digamma:     #ad93a4; //#ae93a4 
+$digamma7:    #f9f7f9;
+
+$zeta:        #6ba33e;
+$zeta50:      #b5d19e;
+$zeta7:       #f5f9f1;
+
+$eta:         #e97300; //e87301
+$theta:       #e62615;
+$shi:         #ffffff;
+//$iota:      reserved
+
+
+$alpha: $beta73;
+.colorEta{
+	color: $eta
+}
+.colorZeta{
+	color: $zeta;
+}
+
+$bistose:     $alpha;
+$beta73:      #454545;  //lighten($beta , 27%);
+$bistopanj:   #717171;
+$bistoshesh:  #dc2a29;
+$bistohaft:   #e7731f;
+$bistohasht:  #586c76;
+$bistonoh:    #959595;
+$sie:         #747474;
+$sieoyek:     #5d5d5d;
+$iota:        #1b7fa4;
+$kappa:       #565655; 
+$lambda:      #b8584a; 
+$mu:          #1796c6;
+$nu:          #996a51;
+$xi:          #737a4e;
+$omicron:     #4a7a7b; 
+$pi:          #85657a; 
+$koppa:       #d6d2c5;
+$sigma:       #59707c;
+$tau:         #f0bd53;
+$omega:       #e36b58; 
+$sampi:       #6da440;
+$psi:         #2c2a29;
+$shi:         #ffffff;
+$phi:         #107ea6;  
+$upsilon:     #f0f0f0; 
+$rho:         #0778af;
+$yek:         #d6d6d6; 
+$dou:         #f5f6f7; 
+$seh:         lighten($beta , 70%); //#e4e4e4;
+$char:        #ffffcb;
+$panj:        #417693;
+$shish:       #b7d8e4;
+$haft:        #f8f8f8;         
+$hasht:       #0095c8;
+$noh:         #f2fafc;
+$dah:         #f6f7f7;
+$yazdah:      #e5f4f9; 
+$davazdah:    #6ba539; 
+$sizdah:      #e97300; 
+$chardah:     #e56a54;
+$panzdah:     #fcf0ee; 
+$shanzdah:    #d3081c; 
+$hefdah:      #fef8ec;
+$hejdah:      #faacac;
+$noozdah:     #cfcfcf;
+$bromide:     #c8c8c8;
+$bist:        #f4f4f4;
+$bistoyek:    #f9f7f8;
+$bistodo:     #cec4ca;
+$elibrium:    #eaeaea;
+$bromide:     #c8c8c8;
+$suz:         #fafafa;
+$bistochar:   $beta73;
+/*
+
+##Boder colours
+
+| Variable                      | Mapped colour  | Colour                                               |
+| ------------------------------|:--------------:| ----------------------------------------------------:|
+| $borderColorAlpha             | $alpha         | <div style="border: 2px solid #2c2b29;">&nbsp;</div> | 
+| $borderColorBeta              | $beta;         | <div style="border: 2px solid #000000;">&nbsp;</div> | 
+| $borderColorGamma             | $gamma         | <div style="border: 2px solid #0095c8;">&nbsp;</div> | 
+| $borderColorDelta             | $delta         | <div style="border: 2px solid #93c6d9;">&nbsp;</div> | 
+| $borderColorEpsilon           | $epsilon       | <div style="border: 2px solid #694e5f;">&nbsp;</div> | 
+| $borderColorDigamma           | $digamma       | <div style="border: 2px solid #ae93a4;">&nbsp;</div> | 
+| $borderColorZeta              | $zeta          | <div style="border: 2px solid #6ba33e;">&nbsp;</div> | 
+| $borderColorEta               | $eta           | <div style="border: 2px solid #e87301;">&nbsp;</div> | 
+| $borderColorTheta             | $theta;        | <div style="border: 2px solid #e62715;">&nbsp;</div> | 
+| $borderColorDarker           | $bistose;        | <div style="border: 2px solid #2c2a29;">&nbsp;</div> | 
+| $borderColorDark             | $bistochar;         | <div style="border: 2px solid #444444;">&nbsp;</div> | 
+| $borderColor                 | $sieoyek;        | <div style="border: 2px solid #5d5d5d;">&nbsp;</div> | 
+| $borderColorLight            | $kappa;        | <div style="border: 2px solid #565655;">&nbsp;</div> | 
+| $borderColorLighter          | $sie;          | <div style="border: 2px solid #747474;">&nbsp;</div> | 
+| $borderColorLighterLight     | $bistonoh;         | <div style="border: 2px solid #959595;">&nbsp;</div> | 
+| $borderColorMiddleLighter	   | $bromide;		| <div style="border: 2px solid #c8c8c8;">&nbsp;</div>
+| $borderColorExtraLight       | $elibrium;     | <div style="border: 2px solid #eaeaea;">&nbsp;</div> | 
+
+
+*/
+
+              
+//$borderColorAlpha:       $alpha;
+//$borderColorBeta:        $beta;
+//$borderColorGamma:       $gamma;
+//$borderColorDelta:       $delta;
+//$borderColorEpsilon:     $epsilon;
+//$borderColorDigamma:     $digamma;
+//$borderColorZeta:        $zeta;
+//$borderColorEta:         $eta;
+//$borderColorTheta:       $theta;
+
+
+
+$borderColorDarker:            $bistose;
+$borderColorDark:              $beta73;
+$borderColor:                  $beta67; //5d5d5d  or $beta67
+$borderColorLight:             $kappa; 
+$borderColorLighter:           $sie;
+$borderColorLighterLight:      $bistonoh;
+$borderColorMiddleLighter:     $bromide; 
+$borderColorExtraLight: 	   $elibrium;
+
+
+
+
+
+
+/*
+
+##Header headerTextText colours
+
+| Variable                     | Mapped colour | Colour                                                         |
+| -------------                |:-------------:| --------------------------------------------------------------:|
+| $headerTextColorAlpha        | $alpha         | <div style="font-weight: bold; color: #2c2b29;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorBeta         | $beta;         | <div style="font-weight: bold; color: #000000;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorGamma        | $gamma         | <div style="font-weight: bold; color: #0095c8;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorDelta        | $delta         | <div style="font-weight: bold; color: #93c6d9;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorEpsilon      | $epsilon       | <div style="font-weight: bold; color: #694e5f;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorDigamma      | $digamma       | <div style="font-weight: bold; color: #ae93a4;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorZeta         | $zeta          | <div style="font-weight: bold; color: #6ba33e;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorEta          | $eta           | <div style="font-weight: bold; color: #e87301;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorTheta        | $theta;        | <div style="font-weight: bold; color: #e62715;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorDarker       | $bistose;      | <div style="font-weight: bold; color: #2c2a29;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorDark         | $bistochar;    | <div style="font-weight: bold; color: #444444;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColor             | $sieoyek;      | <div style="font-weight: bold; color: #5d5d5d;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorLight        | $kappa;        | <div style="font-weight: bold; color: #565655;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorLighter      | $sie;          | <div style="font-weight: bold; color: #747474;">Lorem ipsum dolor sit amet</div> | 
+| $headerTextColorLighterLight | $bistonoh;     | <div style="font-weight: bold; color: #959595;">Lorem ipsum dolor sit amet</div> | 
+
+*/    
+
+
+$headerTextColorAlpha:       $alpha;
+$headerTextColorBeta:        $beta;
+$headerTextColorGamma:       $gamma;
+$headerTextColorDelta:       $delta;
+$headerTextColorEpsilon:     $epsilon;
+$headerTextColorDigamma:     $digamma;
+$headerTextColorZeta:        $zeta;
+$headerTextColorEta:         $eta;
+$headerTextColorTheta:       $theta;
+
+
+
+$headerTextColorDarker:              $alpha;
+$headerTextColorDark:                $beta73; 
+$headerTextColor:                    $kappa; 
+$headerTextColorLight:               $sieoyek; 
+$headerTextColorLighter:             $sie;
+$headerTextColorLighterLight:        $bistonoh; 
+
+
+
+
+/*
+
+##Text colours
+
+| Variable                     | Mapped colour | Colour                                                         |
+| -------------                |:-------------:| --------------------------------------------------------------:|
+| $textColorAlpha              | $alpha         | <div style="color: #2c2b29;">Lorem ipsum dolor sit amet</div> | 
+| $textColorBeta               | $beta;         | <div style="color: #000000;">Lorem ipsum dolor sit amet</div> | 
+| $textColorGamma              | $gamma         | <div style="color: #0095c8;">Lorem ipsum dolor sit amet</div> | 
+| $textColorDelta              | $delta         | <div style="color: #93c6d9;">Lorem ipsum dolor sit amet</div> | 
+| $textColorEpsilon            | $epsilon       | <div style="color: #694e5f;">Lorem ipsum dolor sit amet</div> | 
+| $textColorDigamma            | $digamma       | <div style="color: #ae93a4;">Lorem ipsum dolor sit amet</div> | 
+| $textColorZeta               | $zeta          | <div style="color: #6ba33e;">Lorem ipsum dolor sit amet</div> | 
+| $textColorEta                | $eta           | <div style="color: #e87301;">Lorem ipsum dolor sit amet</div> | 
+| $textColorTheta              | $theta;        | <div style="color: #e62715;">Lorem ipsum dolor sit amet</div> | 
+| $textColorDarker             | $bistose;      | <div style="color: #2c2a29;">Lorem ipsum dolor sit amet</div> | 
+| $textColorDark               | $bistochar;    | <div style="color: #444444;">Lorem ipsum dolor sit amet</div> | 
+| $textColor                   | $sieoyek;      | <div style="color: #5d5d5d;">Lorem ipsum dolor sit amet</div> | 
+| $textColorLight              | $kappa;        | <div style="color: #565655;">Lorem ipsum dolor sit amet</div> | 
+| $textColorLighter            | $sie;          | <div style="color: #747474;">Lorem ipsum dolor sit amet</div> | 
+| $textColorLighterLight       | $bistonoh;     | <div style="color: #959595;">Lorem ipsum dolor sit amet</div> | 
+
+*/    
+
+$textColorAlpha:       $alpha;
+$textColorBeta:        $beta;
+$textColorGamma:       $gamma;
+$textColorDelta:       $delta;
+$textColorEpsilon:     $epsilon;
+$textColorDigamma:     $digamma;
+$textColorZeta:        $zeta;
+$textColorEta:         $eta;
+$textColorTheta:       $theta;
+
+
+
+$textColorDarker:              $alpha;
+$textColorDark:                $bistochar; 
+$textColor:                    $kappa; 
+$textColorLight:               $sieoyek; 
+$textColorLighter:             $sie;
+$textColorLighterLight:        $bistonoh; 
+
+
+
+
+
+/*
+
+##Background colours
+
+| Variable                     | Mapped colour | Colour                                                |
+| -------------                |:-------------:| -----------------------------------------------------:|
+| $backgroundColorAlpha        | $alpha         | <div style="background-color: #2c2b29;">&nbsp;</div> | 
+| $backgroundColorBeta         | $beta;         | <div style="background-color: #000000;">&nbsp;</div> | 
+| $backgroundColorGamma        | $gamma         | <div style="background-color: #0095c8;">&nbsp;</div> | 
+| $backgroundColorDelta        | $delta         | <div style="background-color: #93c6d9;">&nbsp;</div> | 
+| $backgroundColorEpsilon      | $epsilon       | <div style="background-color: #694e5f;">&nbsp;</div> | 
+| $backgroundColorDigamma      | $digamma       | <div style="background-color: #ae93a4;">&nbsp;</div> | 
+| $backgroundColorZeta         | $zeta          | <div style="background-color: #6ba33e;">&nbsp;</div> | 
+| $backgroundColorEta          | $eta           | <div style="background-color: #e87301;">&nbsp;</div> | 
+| $backgroundColorTheta        | $theta;        | <div style="background-color: #e62715;">&nbsp;</div> | 
+| $backgroundColorDarker       | $bistose;      | <div style="background-color: #2c2a29;">&nbsp;</div> | 
+| $backgroundColorDark         | $bistochar;    | <div style="background-color: #444444;">&nbsp;</div> | 
+| $backgroundColor             | $sieoyek;      | <div style="background-color: #5d5d5d;">&nbsp;</div> | 
+| $backgroundColorLight        | $kappa;        | <div style="background-color: #565655;">&nbsp;</div> | 
+| $backgroundColorLighter      | $sie;          | <div style="background-color: #747474;">&nbsp;</div> | 
+| $backgroundColorLighterLight | $bistonoh;     | <div style="background-color: #959595;">&nbsp;</div> | 
+| $backgroundColorAlpha        | $bist;         | <div style="background-color: #f4f4f4;">&nbsp;</div> | 
+| $backgroundColorBeta         | $bistoyek;     | <div style="background-color: #f9f7f8;">&nbsp;</div> |
+| $backgroundColorOmega        | $bistodo;      | <div style="background-color: #cec4ca;">&nbsp;</div> |
+| $backgroundColorBright 	   | $suz;    	    | <div style="background-color: #fafafa;">&nbsp;</div> | 
+| $backgroundColorExtraBright  | $shi;          | <div style="background-color: #ffffff;">&nbsp;</div> | 
+
+*/ 
+
+$backgroundColorAlpha:       $alpha;
+$backgroundColorBeta:        $beta;
+$backgroundColorGamma:       $gamma;
+$backgroundColorDelta:       $delta;
+$backgroundColorEpsilon:     $epsilon;
+$backgroundColorDigamma:     $digamma;
+$backgroundColorZeta:        $zeta;
+$backgroundColorEta:         $eta;
+$backgroundColorTheta:       $theta;
+
+
+
+$backgroundColorDark:          $bistochar;
+$backgroundColor:              $kappa;  
+$backgroundColorLight:         $sieoyek; 
+$backgroundColorLighter:       $sie;
+$backgroundColorLighterLight:  $bistonoh; 
+$backgroundColorBright:		   $suz;
+$backgroundColorExtraBright:   $shi;
+$backgroundColorAlpha:         $bist;
+$backgroundColorBeta:          $bistoyek;
+$backgroundColorOmega:         $bistodo;
+$backgroundColorBright:		   $suz;
+
+/*
+
+##Action colours
+
+| Variable                     | Mapped colour | Colour                                                         |
+| -------------                |:-------------:| --------------------------------------------------------------:|
+| $actionColor:                | $phi          | <div style="color: #107ea6; ">Lorem ipsum dolor sit amet</div> | 
+
+
+*/ 
+
+
+//$actionColorDarker:        $bistoseAction; 
+//$actionColorDark:          $bistocharAction; 
+$actionColor:              $phi; 
+//$actionColorLight:         $bistosheshAction; 
+//$actionColorLighter:       $bistohaftAction; 
+
+
+
+
+$baseFontColor: $beta73;
+
+
+
+
+
+$primaryColor: $sieoyek;
+$primaryIconColor:$phi;
+$primaryLabelColorInactive:$upsilon;
+$secondColor: $rho;
+$alertColor: Green;
+$baseColor:$shi;
+$baseBorderColor: $yek;
+$bgColor: $dou;
+$bgEmphasisColor: $upsilon;
+$primaryLabelColor:$shi;
+
+$shadeOfGrey:$seh;
+$messageBoxColor:$char;
+$unclearedBg:$panj;
+$tableThBg:$bistochar;
+$sidePanelBg:$shi;
+$formFieldFocus:$shish;
+$tableOdds:$haft;
+$calHoverColor:$hasht;
+$hoverSelect:$noh;
+$calDisabledColor:$dah;
+$calendarSpecialState:$yazdah;
+$positive:$davazdah;
+$alert:$sizdah;
+$warning:$theta; //$chardah;
+$dataTableCellBG:$haft;
+$warningBG:$panzdah;
+$infoBG:$noh;
+$contextBG:$dou;
+$actionGradientStep1RGB: rgb(255, 255, 255);
+$actionGradientStep2RGB: rgb(245, 246, 247);
+$activeSecondaryColor:#139dcc;
+$activeSecondaryShadow:#007cb1;
+$secondaryGradientStep1RGB:	rgb(255, 255, 255);
+$secondaryGradientStep2RGB: rgb(220, 220, 220);
+$hoverBGStep1RGB: rgb(255, 255, 255);
+$hoverBGStep2RGB: rgb(230, 230, 230);
+$baseFontSize: 62.5%;
+$lineHeight: 1.5;
+$actionButtonColor:$sieoyek;
+$errorColor: $gamma;
+$errorColorBg:$hefdah;
+$errorColorBorder:$hejdah;
+$shadowColor: $noozdah;
+$transErrorColor:$chardah;
+$transerrorBg:$hefdah;
+$dataTableRowUncleared:$noh;
+$dataTableRowActive:$haft;
+$dataTableRowFailed:$hefdah;
+
+
+
+
+
+/*
+
+###Primary Color defines the overal color used for icons for example 
+	<p class="primaryIconColor"> Element with primary color applied</p>
+	
+###Positive Color defines the overal color used for icons for example 
+	<p class="positive"> Element with positive color applied</p>
+	
+###Alert Color defines the overal color used for icons for example 
+	<p class="alert"> Element with alert color applied</p>
+	
+###Warning Color defines the overal color used for icons for example 
+	<p class="warning"> Element with warning color applied</p>
+
+
+*/
+
+.primaryIconColor{
+	color:$primaryIconColor;
+}
+
+%primaryBg{
+  background: $gamma;
+}
+
+//Green Color
+.positive,
+%positiveColor{
+	//color:$positive;
+	color:$zeta;
+}
+
+%positiveBg{
+  background: $zeta;
+}
+
+// Orange Color
+.alert,
+%alertColor{
+	color:$alert;
+}
+
+// Red Color
+.warning,
+%warningColor{
+	color:$warning;
+}
+
+// Dark Grey Color
+.neutral,
+%neutralColor{
+	color:($alpha);
+}
+
+// Orange Color
+.info,
+%info{
+  color:$eta;
+    em{
+      color: #fff;
+    }
+}
+
+
+
+
+
+/* 
+##Status elements 
+   
+    Status icons generated in html5
+	
+	code example:
+	
+	<statusno title="Status: Not registered"></statusno>
+	
+	
+*/
+
+statusno{
+ 	background:$warning;
+}
+statuscomplete{
+	background:$positive;
+}
+
+statusincomplete{
+	background:$alert;
+}
+
+
+/* ## Body Color 
+
+*/
+
+

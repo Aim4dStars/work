@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse><rep:report xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_fee_avsr_advconeoff" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base">
+
+  <def>
+    <version>1.0</version>
+    <report_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <group_list>
+          <group_def>
+            <name>pos</name>
+            <hira>1</hira>
+            <hasHead>true</hasHead>
+            <hasFoot>false</hasFoot>
+          </group_def>
+        </group_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>textField</type>
+          <label></label>
+        </fld_def>
+        <fld_def>
+          <name>bp</name>
+          <type>textField</type>
+          <label>BP</label>
+        </fld_def>
+        <fld_def>
+          <name>pos</name>
+          <type>textField</type>
+          <label>Position</label>
+        </fld_def>
+        <fld_def>
+          <name>val</name>
+          <type>numberField</type>
+          <label>Fee Amount</label>
+        </fld_def>
+        <fld_def>
+          <name>curry</name>
+          <type>textField</type>
+          <label>Currency</label>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </report_def>
+  </def>
+
+  <data>
+    <report_data>
+      <report_data_head id="1" rowType="title" hira="0" level="report_data.head">
+      </report_data_head>
+  <pos_list>
+    <pos>
+      <pos_head id="2" rowType="data" hira="1" level="pos.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>33147</ctxId></annot><val>Adrian Smith</val></bp>
+          <pos><annot><ctxType>pos</ctxType><ctxId>33314</ctxId></annot><val>Current account AUD 10000001</val></pos>
+          <amt><val val="1,200.00">1200.00</val></amt>
+          <curry><annot><ctxType>asset</ctxType><ctxId>1009</ctxId></annot><val>AUD</val></curry>
+      </pos_head>
+    </pos>
+  </pos_list>
+    </report_data>
+
+  </data>
+</rep:report></SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>
+

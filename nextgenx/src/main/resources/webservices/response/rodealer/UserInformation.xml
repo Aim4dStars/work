@@ -1,0 +1,83 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse><rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_user_user_auth" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-08-21 14:02:58.171689000 on afd030n by 201604751 -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <current_of_time><val>2014-08-21T04:02:58.172666000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>report</name>
+            <hira>1</hira>
+            <has_head>false</has_head>
+            <has_foot>true</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>user_id</name>
+          <type>NrFld</type>
+            <lbl>user</lbl>
+        </fld_def>
+        <fld_def>
+          <name>person_id</name>
+          <type>NrFld</type>
+            <lbl>person</lbl>
+        </fld_def>
+        <fld_def>
+          <name>nat_person_id</name>
+          <type>NrFld</type>
+            <lbl>natural person</lbl>
+        </fld_def>
+        <fld_def>
+          <name>role</name>
+          <type>TextFld</type>
+            <lbl>role</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+    <report>
+      <report_foot_list>
+        <report_foot id="1" row_type="title" hira="-1" level="report.foot">
+          <user_id><annot><displ_text></displ_text><ctx><type>user</type><id>711</id></ctx></annot><val>711</val></user_id>
+          <person_id><annot><displ_text></displ_text><ctx><type>person</type><id>71819</id></ctx></annot><val>71819</val></person_id>
+          <nat_person_id><annot><displ_text></displ_text><ctx><type>person</type><id>45278</id></ctx></annot><val>45278</val></nat_person_id>
+        </report_foot>
+        <report_foot id="2" row_type="title" hira="-1" level="report.foot">
+          <role><annot><ctx><type>user</type><id>5553</id></ctx></annot><val>$UR_DGMGR_RO</val></role>
+        </report_foot>
+      </report_foot_list>
+    </report>
+
+  </data>
+</rep:rep>
+<!-- fe212941-4ec2-34cd-e044-2c768a52a819 at 2014-08-21T04:02:58.228310000Z on AFD030N by 201604751 -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

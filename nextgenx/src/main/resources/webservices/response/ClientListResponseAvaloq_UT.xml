@@ -1,0 +1,443 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/web_ui_clients" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.avaloq.com/abs/screen_rep/hira/web_ui_clients C:\development\avaloq-xsd\xsd\TASK_CRM_PROFILE.BTFG$UI_CLIENTS.XSD">
+	<!-- 2014-05-26 13:45:12.190164000 on NGWD2 by 201601158 -->
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>bp</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+					<grp_def>
+						<name>person</name>
+						<hira>2</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl/>
+					</fld_def>
+					<fld_def>
+						<name>acc</name>
+						<type>TextFld</type>
+						<lbl>Account (BP)</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_name_abbr</name>
+						<type>TextFld</type>
+						<lbl>Account Abbreviation</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_sign_date</name>
+						<type>DateTimeFld</type>
+						<lbl>Account Activation Date</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_acc_struct_type</name>
+						<type>TextFld</type>
+						<lbl>Account Structure Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_acc_prod</name>
+						<type>TextFld</type>
+						<lbl>Account White Label Product</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_acc_status</name>
+						<type>TextFld</type>
+						<lbl>Account Status</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_pri_ctact</name>
+						<type>TextFld</type>
+						<lbl>Primary Contact Person</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_adviser</name>
+						<type>TextFld</type>
+						<lbl>Adviser</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_avsr_fname</name>
+						<type>TextFld</type>
+						<lbl>Adviser First Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_avsr_lname</name>
+						<type>TextFld</type>
+						<lbl>Adviser Last Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_avsr_permission</name>
+						<type>TextFld</type>
+						<lbl>Adviser Permission</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_cash_val</name>
+						<type>NrFld</type>
+						<lbl>Cash Available Value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_portf_val</name>
+						<type>NrFld</type>
+						<lbl>Portfolio Value</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_supp_staff_permission</name>
+						<type>TextFld</type>
+						<lbl>Adviser Permission</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_block_code</name>
+						<type>TextFld</type>
+						<lbl>Block Code</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_block_resp</name>
+						<type>TextFld</type>
+						<lbl>Responsible person</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_block_resp_phone</name>
+						<type>TextFld</type>
+						<lbl>Responsible phone</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_acc_pri</name>
+						<type>TextFld</type>
+						<lbl>Registered Account Is Primary</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_acc_bsb</name>
+						<type>TextFld</type>
+						<lbl>Registered Account BSB</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_acc_nr</name>
+						<type>TextFld</type>
+						<lbl>Registered Account Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_curry</name>
+						<type>TextFld</type>
+						<lbl>Registered Account Currency</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_acc_limit</name>
+						<type>NrFld</type>
+						<lbl>Registered Account Limit</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_acc_name</name>
+						<type>TextFld</type>
+						<lbl>Registered Account Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bp_reg_acc_nickname</name>
+						<type>TextFld</type>
+						<lbl>Registered Account Nickname</lbl>
+					</fld_def>
+					<fld_def>
+						<name>head_type</name>
+						<type>TextFld</type>
+						<lbl>head_type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>ora_user_name</name>
+						<type>TextFld</type>
+						<lbl>Investor User</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr</name>
+						<type>TextFld</type>
+						<lbl>Investor Person</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_fname</name>
+						<type>TextFld</type>
+						<lbl>Investor First Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_mname</name>
+						<type>TextFld</type>
+						<lbl>Investor Middle Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_lname</name>
+						<type>TextFld</type>
+						<lbl>Investor Last Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_type</name>
+						<type>TextFld</type>
+						<lbl>Natural / Legal</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_gender</name>
+						<type>TextFld</type>
+						<lbl>Gender</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_age</name>
+						<type>NrFld</type>
+						<lbl>Age</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_pref_phone_nr</name>
+						<type>TextFld</type>
+						<lbl>Investor Primary Mobile Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_pref_email</name>
+						<type>TextFld</type>
+						<lbl>Investor Preferred Email Address</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_addr</name>
+						<type>TextFld</type>
+						<lbl>Domicile/Registered Address</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_bldg_name</name>
+						<type>TextFld</type>
+						<lbl>Building Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_floor</name>
+						<type>TextFld</type>
+						<lbl>Floor Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_unit</name>
+						<type>TextFld</type>
+						<lbl>Unit Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_street_nr</name>
+						<type>TextFld</type>
+						<lbl>Street Number</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_street_name</name>
+						<type>TextFld</type>
+						<lbl>Street Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_street_type</name>
+						<type>TextFld</type>
+						<lbl>Street Type</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_state</name>
+						<type>TextFld</type>
+						<lbl>State</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_postcode</name>
+						<type>TextFld</type>
+						<lbl>Postcode</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_city</name>
+						<type>TextFld</type>
+						<lbl>Suburb / City</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_dom_country</name>
+						<type>TextFld</type>
+						<lbl>Country</lbl>
+					</fld_def>
+					<fld_def>
+						<name>invstr_permission</name>
+						<type>TextFld</type>
+						<lbl>Investor Permission</lbl>
+					</fld_def>
+					<fld_def>
+						<name>assoc_person</name>
+						<type>TextFld</type>
+						<lbl>Associated Investors</lbl>
+					</fld_def>
+					<fld_def>
+						<name>rel_type</name>
+						<type>TextFld</type>
+						<lbl>Relation Type</lbl>
+					</fld_def>
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+	<data>
+		<bp_list>
+			<bp>
+				<bp_head_list>
+					<bp_head id="17" row_type="title" hira="1" level="bp.head">
+						<acc>
+							<annot>
+								<ctx>
+									<type>person</type>
+									<id>36846</id>
+								</ctx>
+							</annot>
+							<val>10000001</val>
+						</acc>
+						<bp_name_abbr>
+							<val>CLT.01</val>
+						</bp_name_abbr>
+						<bp_sign_date>
+							<annot>
+								<displ_text>10/04/2014</displ_text>
+							</annot>
+							<val>2014-04-10T00:00:00</val>
+						</bp_sign_date>
+						<bp_acc_struct_type>
+							<annot>
+								<ctx>
+									<type>code_clt_type</type>
+									<id>5001</id>
+								</ctx>
+							</annot>
+							<val>Client - Individual Account</val>
+						</bp_acc_struct_type>
+						<bp_acc_prod>
+							<val>Investment</val>
+						</bp_acc_prod>
+						<bp_pri_ctact>
+							<annot>
+								<ctx>
+									<type>person</type>
+									<id>11918</id>
+								</ctx>
+							</annot>
+							<val>Robert Gilby</val>
+						</bp_pri_ctact>
+						<bp_adviser>
+							<annot>
+								<ctx>
+									<type>person</type>
+									<id>30762</id>
+								</ctx>
+							</annot>
+							<val>person-120_114person-120_114person-120_114</val>
+						</bp_adviser>
+						<bp_avsr_fname>
+							<val>person-120_114</val>
+						</bp_avsr_fname>
+						<bp_avsr_lname>
+							<val>person-120_114</val>
+						</bp_avsr_lname>
+						<bp_avsr_permission>
+							<val>Read Only</val>
+						</bp_avsr_permission>
+						<bp_cash_val>
+							<annot>
+								<displ_text>50,000,000.00</displ_text>
+							</annot>
+							<val>50000000</val>
+						</bp_cash_val>
+						<bp_portf_val>
+							<val>50000000</val>
+						</bp_portf_val>
+					</bp_head>
+				</bp_head_list>
+				<person_list>
+					<person>
+						<person_head_list>
+							<person_head id="18" row_type="subtitle" hira="2" level="person.head">
+								<invstr>
+									<annot>
+										<ctx>
+											<type>person</type>
+											<id>11918</id>
+										</ctx>
+									</annot>
+									<val>Robert Gilby</val>
+								</invstr>
+								<invstr_fname>
+									<val>Robert</val>
+								</invstr_fname>
+								<invstr_lname>
+									<val>Gilby</val>
+								</invstr_lname>
+								<invstr_gender>
+									<annot>
+										<ctx>
+											<type>code_gender</type>
+											<id>1</id>
+										</ctx>
+									</annot>
+									<val>male</val>
+								</invstr_gender>
+								<invstr_age>
+									<val>30</val>
+								</invstr_age>
+								<invstr_pref_phone_nr>
+									<val>02-5555-1234</val>
+								</invstr_pref_phone_nr>
+								<invstr_pref_email>
+									<val>robert.gilby@someemail.com</val>
+								</invstr_pref_email>
+								<invstr_dom_street_nr>
+									<val>33</val>
+								</invstr_dom_street_nr>
+								<invstr_dom_street_name>
+									<val>Pitt</val>
+								</invstr_dom_street_name>
+								<invstr_dom_postcode>
+									<val>2000</val>
+								</invstr_dom_postcode>
+								<invstr_dom_city>
+									<val>Sydney</val>
+								</invstr_dom_city>
+								<invstr_dom_country>
+									<annot>
+										<ctx>
+											<type>country</type>
+											<id>2061</id>
+										</ctx>
+									</annot>
+									<val>Australia</val>
+								</invstr_dom_country>
+								<linked_acc_list>
+									<linked_acc id="22" hira="3" row_type="data">
+										<bp_reg_acc_pri>
+											<val>+</val>
+										</bp_reg_acc_pri>
+										<bp_reg_acc_bsb>
+											<val>036081</val>
+										</bp_reg_acc_bsb>
+										<bp_reg_acc_nr>
+											<val>34298347</val>
+										</bp_reg_acc_nr>
+										<bp_reg_curry>
+											<annot>
+												<ctx>
+													<type>curry</type>
+													<id>1009</id>
+												</ctx>
+											</annot>
+											<val>AUD</val>
+										</bp_reg_curry>
+										<bp_reg_acc_name>
+											<val>Demo 1</val>
+										</bp_reg_acc_name>
+									</linked_acc>
+								</linked_acc_list>
+							</person_head>
+						</person_head_list>
+					</person>
+				</person_list>
+			</bp>
+		</bp_list>
+	</data>
+</rep:rep>

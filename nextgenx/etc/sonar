@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+docker pull docker.cloud.btfin-dev.com/tools/maven
+
+docker run --rm -i -e APP_ID=$(cat /etc/app-id) -e WORK_DIR=$(pwd) -e GO_ENVIRONMENT_NAME -e GO_SERVER_URL -e GO_TRIGGER_USER -e GO_PIPELINE_NAME -e GO_PIPELINE_COUNTER -e GO_PIPELINE_LABEL -e GO_STAGE_NAME -e GO_STAGE_COUNTER -e GO_JOB_NAME --volumes-from $(hostname) docker.cloud.btfin-dev.com/tools/maven  mvn -Pci -Dsonar.working.directory=/var/lib/go-agent/pipelines/$GO_PIPELINE_NAME/nextgen/target/.sonar $* sonar:sonar -X

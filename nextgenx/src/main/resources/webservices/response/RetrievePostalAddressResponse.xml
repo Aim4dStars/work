@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap-env:Header>
+        <esbHeader>
+            <messageAttributes>
+                <id>NG-001.52029aef-3fbd-443a-9a6a-4d0e8c5441a31</id>
+                <correlationId>NG-001.52029aef-3fbd-443a-9a6a-4d0e8c5441a3</correlationId>
+                <createdTimestamp>2016-10-25T13:24:44.947</createdTimestamp>
+            </messageAttributes>
+            <channelAttributes>
+                <organisationId>WPAC</organisationId>
+                <brandSilo>WPAC</brandSilo>
+                <channelType>Online</channelType>
+                <originatingSystemId>NG-001</originatingSystemId>
+                <requester>
+                    <requesterType>System</requesterType>
+                    <requesterId>12345</requesterId>
+                </requester>
+                <location>
+                    <locationId>Ws600545</locationId>
+                    <locationType>Machine Name</locationType>
+                </location>
+            </channelAttributes>
+        </esbHeader>
+    </soap-env:Header>
+    <soap-env:Body>
+        <SVC0454:retrievePostalAddressResponse
+                xmlns:SVC0454="http://www.westpac.com.au/gn/locationManagement/services/locationManagement/xsd/retrievePostalAddress/v1/SVC0454/"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <sh:serviceStatus xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/">
+                <sh:statusInfo>
+                    <sh:level>Success</sh:level>
+                    <sh:code>000,00000</sh:code>
+                </sh:statusInfo>
+            </sh:serviceStatus>
+            <hasPostalAddressContactMethod>
+                <hasAddress xsi:type="SVC0454:StandardPostalAddress">
+                    <buildingName>The Clary</buildingName>
+                    <unitNumber>Unit 100</unitNumber>
+                    <streetNumber>308</streetNumber>
+                    <streetName>Pitt</streetName>
+                    <streetType>Street</streetType>
+                    <city>Sydney</city>
+                    <state>NSW</state>
+                    <postCode>2000</postCode>
+                </hasAddress>
+            </hasPostalAddressContactMethod>
+            <hasPostalAddressContactMethod>
+                <hasAddress xsi:type="SVC0454:NonStandardPostalAddress">
+                    <addressLine1>Unit 100</addressLine1>
+                    <addressLine2>Level 2</addressLine2>
+                    <addressLine3>308 Pitt Street</addressLine3>
+                    <city>Sydney</city>
+                    <state>NSW</state>
+                    <postCode>2000</postCode>
+                </hasAddress>
+            </hasPostalAddressContactMethod>
+            <hasProviderAddress>
+                <hasProviderAddressAttribute xsi:type="SVC0454:ProviderAttribute">
+                    <attributeName>Unit</attributeName>
+                    <attributeValue>100</attributeValue>
+                </hasProviderAddressAttribute>
+                <hasProviderAddressAttribute xsi:type="SVC0454:ProviderAttribute">
+                    <attributeName>Street No</attributeName>
+                    <attributeValue>308</attributeValue>
+                </hasProviderAddressAttribute>
+                <hasProviderAddressAttribute xsi:type="SVC0454:ProviderAttribute">
+                    <attributeName>Street Name</attributeName>
+                    <attributeValue>Pitt</attributeValue>
+                </hasProviderAddressAttribute>
+            </hasProviderAddress>
+        </SVC0454:retrievePostalAddressResponse>
+    </soap-env:Body>
+</soap-env:Envelope>

@@ -1,0 +1,1695 @@
+/*
+##Form Elements
+
+*/
+
+
+/* Form Variables 
+$borderValue
+<br>$borderColor
+<br>$borderStyle
+
+*/
+
+$inputBorderValue:1px;
+$inputBorderStyle:solid;
+$inputBg:#fafafa;
+$inputHeight:5;
+$searchInputHeight:6;
+$inputRadius:0.5;
+$inputTextSize:1.6;
+$inputTextColor:#747474;
+
+$inputTextBorderFocus:$beta73;
+$inputTextBgFocus:#fff;
+
+$inputTextBgError:#edf5f7;
+$inputTextBorderError:#92c6d9;
+
+$inputTextBgSuccess:#eff4ea;
+$inputTextBorderSuccess:#99c077;
+
+
+
+
+
+$stageBaseDistance:60px;
+$stageBaseBorderColor:#d4d4d4;
+$stageBaseBgColor:#fff;
+
+$stageInsetDistance:40px;
+$stageInsetBorderColor:#2c2a29;
+$stageInsetDottedColor:#cacaca;
+
+$stageInsetAlertColor:#e62615;
+$stageInsetInfoColor:#e97300;
+$stageInsetOkColor:#6ba539;
+
+$stageInsetBridgeColor:#d4d4d4;
+
+
+
+
+/*
+
+
+
+### Text Input
+Font input fields have a normal state and error and success state 
+
+####Normal State 
+
+  <input type="text" class="formTextInput" name="inputName" value=""/>
+
+
+####Normal Focus State 
+
+  <input type="text" class="formTextInput textInputFocus" name="inputName" value="Input text sample"/>
+  
+####Error State 
+
+  <input type="text" class="formTextInput textInputError" name="inputName" value="Input text sample"/>
+  
+####Success State 
+
+  <input type="text" class="formTextInput textInputSuccess" name="inputName" value="Input text sample"/>
+  
+####Disabled State
+  <input type"text" readonly="readonly" class="formTextInput textInputDisabled" name="inputName" value="Input text sample"/>
+
+
+####Disabled State Modifier 1
+  <input type"text" readonly="readonly" class="formTextInput formTextInputMod1" name="inputName" value="Input text sample"/>
+
+*/
+
+
+.formTextInput {
+
+  @include allBorders($inputBorderValue, $inputBorderStyle , $beta27 );
+  background:$inputTextBgFocus;
+  height:$inputHeight +rem;
+  @include blockPadding(0,0.5,0,1.7);
+  @include  borderRadius($inputRadius);
+  @include fontSize($inputTextSize);
+  color:$beta73;
+
+
+  // Sets focus of text fields
+  &:focus{
+    @include allBorders($inputBorderValue, $inputBorderStyle , $beta73 );
+    background:$inputTextBgFocus;
+          ~ a.selectButton,
+          ~ a.calendarIconLink {
+            border-color: $beta73;
+          }
+  }
+
+  // Error field settings: ;
+    &.textInputError{
+      background:$gamma7;
+      @include allBorders($inputBorderValue, $inputBorderStyle, $inputTextBorderError);
+      ~ a.selectButton,
+      ~ a.calendarIconLink {
+        border-color: $delta;
+        background-color: $gamma7;
+      }
+    }
+
+  // Success field
+
+  &.textInputSuccess{
+    background:$inputTextBgSuccess;
+    @include allBorders($inputBorderValue, $inputBorderStyle, $inputTextBorderSuccess);
+  }
+
+  &[readonly="readonly"]{
+    background:$beta4;
+    @include allBorders($inputBorderValue, $inputBorderStyle, $beta22);
+    color:$beta73;
+  }
+  
+}
+
+
+//.formTextInput
+.editableTextField .formTextInput:hover {
+  background:$shi;
+  border-color: $beta27;
+}
+
+.readOnly{
+  background:$beta4!important;
+}
+
+.formTextInputMod1[readonly="readonly"]{
+  background:$beta4;
+  &:hover{
+    background-color: $shi;
+    cursor: pointer;
+    @include allBorders($inputBorderValue, $inputBorderStyle , $inputTextBorderFocus );
+
+  }
+  &:focus{
+    @include allBorders($inputBorderValue, $inputBorderStyle , $inputTextBorderFocus );
+    background:$inputTextBgFocus; 
+  }
+}
+
+.textInputDisabled {
+  background:$beta4;
+}
+
+
+
+/*###Form Input with
+Construct the size of a form element with adding inputStyleOne to teh input field
+
+#### for Styles
+```
+  <input type="text" class="formTextInput inputStyleOne" name="inputName" value=""/>
+
+*/
+
+
+.inputStyleOne{
+    @include formStyleWith(6);
+}
+.inputStyleTwo{
+    @include formStyleWith(12);
+}
+.inputStyleThree{
+    @include formStyleWith(18);
+ }
+span.inputStyleThreeWrap{
+  display: inline !important;
+}
+
+.inputStyleFour{
+  @include formStyleWith(24);
+}
+
+.inputStyleFive{
+  @include formStyleWith(32);
+}
+
+.inputStyleSix{
+  @include formStyleWith(44);
+}
+
+.inputStyleSeven{
+  @include formStyleWith(9);
+}
+.inputStyleEight{
+  @include formStyleWith(34);
+}
+.inputStyleNine{
+  @include formStyleWith(48);
+}
+
+.inputStyleTen{
+  @include formStyleWith(50.5);
+}
+
+.inputStyleEleven{
+  @include formStyleWith(14.5);
+}
+.inputStyleTwelve{
+    @include formStyleWith(9.5);
+
+}
+
+.inputStyleThirteen{
+    @include formStyleWith(44.5);
+
+}
+
+.inputStyleSearch{
+  @include formStyleWith(66);
+  height:$searchInputHeight +rem;
+}
+
+// Alignes and sets margin for inline forms input fields
+.inputStyleAlignOne{
+  @extend %floatLeft;
+  @include setSpace(margin, 0 2.3rem 0 0);
+  &:last-child{
+    @extend %noMargin;
+  }
+}
+
+/*##Specialty Labels
+
+
+### Stage Base 
+```
+  <label for="" class="stageBaseLabel">From</label>
+```
+### Stage Base with solid inset 
+```
+  <label for="" class="stageBaseLabel"><span class="stageInset stageInsetSolid"></span></label>
+```
+### Stage base wuth dotted inset
+```
+  <label for="" class="stageBaseLabel"><span class="stageInset stageInsetDotted">From</span></label>
+```
+### Stage with Bridge and variation of color and dotted 
+```
+  <ul style="list-style:none;">
+  <li>
+  <label for="" class="stageBaseLabel"><em class="stageInsetBridge"><em class="iconslimarrowdown"></em></em>  <span class="stageInset stageInsetSolid">From</span></label>
+  </li>
+  <li>
+  <label for="" class="stageBaseLabel"><span class="stageInset stageInsetColor colorAlert">To</span></label>
+  </li>
+  </ul>
+  
+  <ul style="list-style:none;">
+  <li>
+  <label for="" class="stageBaseLabel"><em class="stageInsetBridge"><em class="iconslimarrowdown"></em></em>  <span class="stageInset stageInsetSolid">From</span></label>
+  </li>
+  <li>
+  <label for="" class="stageBaseLabel"><span class="stageInset stageInsetColor colorInfo">To</span></label>
+  </li>
+  </ul>
+  
+    
+  <ul style="list-style:none;">
+  <li>
+  <label for="" class="stageBaseLabel"><em class="stageInsetBridge"><em class="iconslimarrowdown"></em></em>  <span class="stageInset stageInsetSolid">From</span></label>
+  </li>
+  <li>
+  <label for="" class="stageBaseLabel"><span class="stageInset stageInsetColor colorOk">To</span></label>
+  </li>
+  </ul>
+  
+  <ul style="list-style:none;">
+  <li>
+  <label for="" class="stageBaseLabel"><em class="stageInsetBridge"><em class="iconslimarrowdown"></em></em>  <span class="stageInset stageInsetSolid">From</span></label>
+  </li>
+  <li>
+  <label for="" class="stageBaseLabel"><span class="stageInset stageInsetDotted">To</span></label>
+  </li>
+  </ul>
+
+```
+*/
+
+.stageBaseLabel{
+  @include borderRadius(100);
+  //line-height: $stageBaseDistance;
+  height:$stageBaseDistance;
+  width:$stageBaseDistance;
+  @extend %inlineBlock;
+  @extend %relative;
+  @include allBorders(1px, solid, $stageBaseBorderColor);
+  background:$stageBaseBgColor;
+  -webkit-font-smoothing: antialiased;
+  @extend %floatLeft;
+}
+
+.stageInset{
+  @include borderRadius(100);
+  width:$stageInsetDistance;
+  height:$stageInsetDistance;
+  @include position(absolute, 9px 9px 0 0);
+  @extend %inlineBlock;
+  @include fontSize(1.0);
+  @include textAlign(center);
+  vertical-align:center;
+  @include textTrans(uppercase);
+  line-height:37px;
+  -webkit-font-smoothing: antialiased;
+  @extend %emphasis;
+  
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .stageInset{
+   font-weight: 100;
+   @include fontSize(0.9);
+  }
+}
+
+.stageInset.stageInsetSolid{
+  @include allBorders(2px, solid, $stageInsetBorderColor);
+}
+
+.stageInset.stageInsetDotted{
+  @include allBorders(2px, dotted, $stageInsetDottedColor);
+}
+.stageInset.stageInsetColor{
+  border:none;
+  color:$shi;
+  @include allBorders(2px, solid, #fff);
+
+
+}
+
+.stageInset.stageInsetColor.colorAlert{
+  background:$stageInsetAlertColor;
+  //@include allBorders(2px, solid, $stageInsetAlertColor);
+
+}
+.stageInset.stageInsetColor.colorInfo{
+  background:$stageInsetInfoColor;
+  //@include allBorders(2px, solid, $stageInsetInfoColor);
+}
+.stageInset.stageInsetColor.colorOk{
+  background:$stageInsetOkColor;
+  //@include allBorders(2px, solid, $stageInsetOkColor);
+
+}
+.stageInsetMod2{
+  @include fontSize(1.8);
+}
+
+
+.stageInsetBridge{
+  width:20px;
+  height:5px;
+  background:$stageBaseBgColor;
+  @include position(absolute, 57px 19px 0 0);
+  border-left:1px solid $stageBaseBorderColor;
+  border-right:1px solid $stageBaseBorderColor;
+  z-index:100;
+  @include  textAlign(center);
+    em{
+      color:$beta;
+            @include fontSize(2.1);
+            @include position(absolute, -7px -1px 0 0);
+      text-shadow:0px 2px 1px #fff;
+    }
+
+  &.stageInsetBridgeMod1 {
+    height: 14px;
+  }
+
+}
+
+.stageInsetBridgeRev{
+     transform:rotate(180deg);
+    -ms-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    @include position(absolute, 57px 19px 0 0);
+}
+
+.contentOutput {
+  @extend %inlineBlock;
+  @include blockMargin(.9, 0, 0, 1.9);
+  @include fontSize($primaryFontSize);
+  .setTopGutter{
+    margin-top:10px;
+  }
+   &.contentOutPutStyleOne{
+     @include setSpace(margin,0.5rem 0 0 0rem);
+   }
+}
+
+
+.formBlock {
+  @extend .clearBoth;
+  @extend %block;
+  /*@include blockMargin(1.5, 0.5, 1.5, 0.5);*/
+    @include blockMargin(1.5, 0.5, 1.5, 0);
+  @extend %relative;
+    height: auto;
+}
+
+
+.modalBox .formBlock.formBlockMod1 {
+  margin-left: 0;
+  &.disclaimer {margin: 0;}
+}
+
+.expandedContent .formBlock{
+  @extend %inlineBlock;
+  @extend %floatLeft;
+  @include blockMargin(1.5, 1, 1.5,1);
+  clear:none;
+  
+}
+
+.expandedContentMod1{
+
+  .formBlockMod3{
+    clear:both;
+  }
+}
+.formBlock .inputContainer{
+  @extend %floatLeft;
+  @include blockMargin(0,2,0,0);
+  
+}
+.formBlock .inputAddContainer{
+  @extend %floatLeft;
+  @include blockMargin(3,0,0,0);
+}
+
+.formBlock span {
+  @extend %inlineBlock; 
+}
+.formLabel, .formLabelCheckBox {
+  text-align: left;
+  @include blockMargin(0.5,0,0.5,0);
+  @include fontSize($sizeValue);
+}
+
+.formLabelCheckBox.tnc {
+	width:95%;
+}
+
+.inputWrapper{
+  @extend %relative;
+  @extend %inlineBlock;
+}
+input[type="checkbox"] {
+  float: left;
+    @include blockMargin(0.8,0.5,0.5,0);
+}
+.dataTable{
+  input[type="checkbox"] {
+    @include blockMargin(0.4,0.5,0.5,0);
+  }
+}
+
+
+.modalCheckBox{
+  input[type="checkbox"] {
+    @include blockMargin(0.4,0.5,0.5,1);
+  }
+}
+
+
+.formLabelCheckBox {
+  @extend %inlineBlock;
+  &.formLabelStyleTwo{
+    @extend .normalText;
+  }
+}
+.formLabel {
+  @extend .block;
+  float:$formLabelFloat;
+  @extend .emphasis;
+
+    &.formLabelStyleOne{
+      @extend %floatLeft;
+      @extend %inlineBlock;
+      width: 8rem;
+        &.formLabelAlignment{
+          @include setSpace(margin, 1.5rem 0 0 0);
+
+        }
+    }
+
+  &.formLabelStyleTwo{
+    @extend %floatLeft;
+    @extend %inlineBlock;
+    width: 8rem;
+    &.formLabelAlignment{
+      @include setSpace(margin, 3.5rem 0 0 0);
+
+    }
+  }
+
+}
+.formLabelAppDetail {
+  @extend .block;
+  float:$formLabelFloat;
+
+  &.formLabelStyleOne{
+    @extend %floatLeft;
+    @extend %inlineBlock;
+    width: 25rem;
+    &.formLabelAlignment{
+      @include setSpace(margin, 1.5rem 0 0 0);
+
+    }
+  }
+}
+
+.formLabelError {
+  color: $beta73;
+}
+.formOutputLabel {
+  @extend .block;
+  float:$formOutputLabelFloat;
+  @include fontSize($primaryFontSize);
+}
+.labelNominee {
+    clear:both;
+    font-weight:normal;
+  font-family:$fontTitle;
+  @extend .italicFont;
+}
+.formOutput {
+    @include textAlign(left);
+  @include blockMargin(0,0.5,0,0);
+  @include fontSize($primaryFontSize);
+}
+
+.formTxtInputSearch {
+  @include blockPadding(0,0,0,4.5);
+}
+.formTxtInputAmount {
+  @include blockPadding(0,0,0,2.9);
+
+}
+.formTextArea {
+  height:$formTextAreHeight;
+  padding:$baseSpacing;
+  @extend .shadow;
+  @extend .borderRadius;
+}
+.formFieldError {
+  border:1px solid $errorColorBorder;
+  background:$errorColorBg;
+}
+.formFieldMessageError {
+  font-style: normal;
+  font-weight:bold;
+  color:$errorColor;
+  @extend %block;
+  clear: both;
+  @include fontSize(1.2);
+  @include blockMargin(0.8,0,0,0);
+}
+.formFieldMessageDisclaimer {
+	font-weight:normal;
+	color:$beta73;
+ 	@include fontSize(1); 
+}
+.repeatEndDateWrapper{
+  width:70%;
+  @include setSpace(margin, 0 0 0 1rem);
+  &.formFieldMessageError{
+    @extend .block;
+  }
+}
+  
+
+.formFieldMessage {
+  @extend %normalFont;
+  @extend .block;
+  clear: both;
+  @include fontSize($sizeValue);
+  @include blockMargin(0.2,0,0,0);
+}
+.formFieldMessageMod1 {line-height: 1}
+.formSelectInput {
+  @include fontSize($sizeValue);
+  @extend .shadow;
+  @extend .borderRadius;
+  :focus{
+    //@extend .glow;
+  }
+}
+.optional {
+  color:$baseFontColor;
+  @include fontSize(1.2);
+  font-style: normal;
+    font-weight: 100;
+  float:$optionalFloat;
+  margin:$optionalSpacing;
+  @extend %normalFont;
+}
+.formCurrency {
+  @include position(absolute, 40px 0 0 1.4rem);
+  @extend %inlineBlock;
+  @include fontSize($primaryFontSize);
+  width: 15px;
+  text-align: center;
+}
+
+
+.setPositionCurrency{
+  @include position(absolute, 13px 0 0 3px);  
+}
+.setPositionCurrencyMod1{
+  @include position(absolute, 16px 0 0 3px);
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .setPositionCurrencyMod1{
+        @include position(absolute, 17px 0 0 3px);
+    }
+}
+.formBoxSpacing {
+  margin:$baseSpacing +10px $baseSpacing;
+}
+
+
+// Selects 
+
+
+.selectSearch, .ui-autocomplete {
+  background:$baseColor;
+  @extend .absolute;
+  @extend .borderRadius;
+  @extend .shadow;
+  z-index:$zindex+120;
+  padding:$baseSpacing;
+  max-height: 250px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.selectSearchMod1{
+  width:100%;
+}
+
+.selectSearch .toggleWidget{
+  @include blockMargin(0.4, 0, 0.5, 0.5); 
+    
+}
+.selectSearch h5{
+  width: 55%;
+}
+.selectOptions {
+  margin-top:5px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.selectOptionsInner {
+  overflow: auto;
+  @extend %relative;
+    background:$shi;
+}
+.selectOptionsInner, .selectTouch .selectOptions {
+  max-height: 145px;
+    min-height: 35px;
+    overflow-y: auto;
+}
+
+
+.dk_input {
+  @extend .formTextInput;
+      cursor:pointer
+   }
+.setSelectContainerGutter {
+     @include blockMargin(3,0,0,0);
+    .selectContainer {
+      @include blockMargin(0,0,3,0);
+    }
+}
+.dk_input:focus + a{
+  border-left: 1px solid $beta73;
+}
+.dk_input:focus + a.selectButton {
+  border-left: 1px solid $borderColorMiddleLighter !important;
+}
+.selectContainer:focus {
+  outline: 0;
+}
+.selectContainer a {
+  @extend %cursor;
+  text-decoration: none;
+}
+.selectToggle {
+}
+.selectToggle:hover {
+}
+.selectOpen {
+  z-index: 10;
+}
+.selectOpen .selectToggle {
+}
+.selectOptions {
+  background:$baseColor;
+}
+.selectOptions a {
+}
+.selectOptions li:last-child a {
+  border-bottom: none;
+}
+
+/******  End Theme ******/
+
+/***** Critical to the continued enjoyment of working dropdowns ******/
+
+.selectContainer {
+  display: none;
+  float: left;
+  @extend %relative;
+    color:$beta73;
+}
+.selectContainer a {
+  outline: 0;
+  padding:$baseSpacing +0.5em;
+  @include fontSize($primaryFontSize);
+}
+/*.selectContainer a.selectToggleButton {
+  @include blockPadding(0,0,0,0);
+  @include blockMargin(0,0,0,-4.5);
+  left:$smallInput - 10;
+}
+*/
+/*.selectToggleButton{
+  top:9px!important;
+}*/
+.selectToggle {
+  display: -moz-inline-stack;
+  display: inline-block;
+  *display: inline;
+  @extend %relative;
+  zoom: 1;
+}
+.selectOpen {
+  @extend %relative;
+}
+.selectOpen .selectOptions {
+  @extend %block;
+}
+.selectOpen .selectLabel {
+  color: inherit;
+}
+.selectOptions {
+  margin-top: -1px;
+    @include position(absolute, 0 0rem 0 0);
+  width: 100%;
+  z-index: -1;
+}
+.selectOptions a,
+.selectOptions a:link,
+.selectOptions a:visited {
+  @extend %block;
+}
+.selectOptionsInner {
+  overflow: auto;
+  @extend %relative;
+  @extend .shadow;
+  @extend .borderRadius;
+  top: 5px;
+}
+.selectTouch .selectOptions {
+  overflow: hidden;
+  margin-top: 4px;
+}
+.selectTouch .selectOptionsInner {
+  max-height: none;
+  overflow: visible;
+}
+.dk_fouc select {
+  @extend %relative;
+  top: -99999em;
+  visibility: hidden;
+}
+
+.resetForm{
+  width:auto;
+  margin:0;
+  float:none;
+}
+
+/*Maturity Instructions*/
+
+
+.maturityInstructionContent fieldset{
+  //@include blockMargin(-1.0,0,0,0);
+}
+
+.maturityInstructionList {
+   width:33rem;
+}
+.maturityInstructionListMod2{
+   width:27rem;
+}
+.maturitySaveSuccess{
+  @include blockMargin(2,0,2,3);
+}
+
+
+/*
+## Tooltip icon for form fields
+```
+<span class="formTextInputWrap">
+    <span>
+        <input id="postcode" name="postcode" class="formTextInput smallInput" maxlength="4"  tabindex="3"/>
+    </span>
+    <a class="fieldHelpIconWrap"><em class="iconhelp" title="Help"></em><span class="screenReaderText">Help</span></a>
+</span> 
+
+```
+
+*/
+
+.formTextInputWrap{
+  position: relative;
+  display: inline-block;
+  .fieldHelpIconWrap{
+    position: absolute;
+    right:-25px;
+    top:0px;
+    @include blockMargin(0,0.5,0,0.5);
+  }
+}
+
+.formBlockContainer{
+  .formBlockMod1{
+    @extend .clearBoth;
+    @extend %block;
+    @include blockMargin(1.5, 0.5, 1.5, 0.5);
+    @extend %relative;
+  }
+  .formBlockMod3{
+    @include blockMargin(1.5, 0.5, 1.5, 0);
+
+  }
+  .formBlockMod4{
+    @extend %inlineBlock;
+    @include blockMargin(1, 0.5, 0, 0);
+
+  }
+}
+
+/* Below CSS Rule written for BGL Download Calender module - Chrome browser only */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .jq-bglDataDownloadOptionsList {
+        overflow:visible !important;
+    }
+}
+
+
+
+/*
+
+## Form fields modifier .formBlockContainerMod1
+
+
+
+*/
+
+
+.formBlockContainerMod1{
+  .formBlock{
+    @include blockMargin(1,0,1,0);
+  }
+  .formBlockFirst{
+    @include blockMargin(1,0,2,0);
+  }
+  .formBlockLast{
+    @include blockMargin(4,0,2,0);
+  }
+}
+
+
+
+
+
+.formBlockContainerMod2{
+  .formBlock{
+    @extend %inlineBlock;
+    @extend %floatLeft;
+    @include blockMargin(1.5, 1, 1.5,1);
+    clear:none;
+  }
+  .formBlockMod1{
+    @include blockMargin(0, 0, 1, 0);
+  }
+  .formBlockMod2{
+    @include blockMargin(1.5, 0.5, 1.5, 0);
+  }
+  .noFirstGutter{
+  	@extend %noFirstGutter;
+  }
+  .noLastGutter{
+  	@extend %noLastGutter;
+  }
+ 
+}
+
+
+
+.formBlockContainerMod3 {
+  @include allBorders(1px, solid, $borderColorMiddleLighter);
+  @include blockMargin(0,0,1,0);
+    @include borderRadius(.3);
+    h2{
+      color:$headerTextColorDark;
+      @include fontSize(3);
+      @include blockMargin(3.3,4.8,3.2,4);
+            width: 13.1rem;
+    }
+  .formBlock{
+    @extend %block;
+    @extend %floatLeft;
+    @include blockMargin(0,0,0,0);
+    clear:none;
+        //.ui-datepicker {margin-top: -18px}
+        //@media screen and (-webkit-min-device-pixel-ratio: 0) {
+          //.ui-datepicker {margin-top: -67px}
+        //}
+  }
+  .formBlockMod3{
+    @include blockMargin(2,1.9,1.5,0);
+        width: 18rem;
+  }
+  .formBlockModButton{
+    @extend %floatRight;
+    @include blockMargin(5.45,4,0,0);
+    @extend %inlineBlock;
+  }
+  .formBlockModButtonLeft{
+    @extend %floatLeft;
+    @include setSpace(margin, 4.2rem 4rem 0 0);
+    @extend %inlineBlock;
+  }
+    .iconWrapper .formTextInput {width: 18rem}
+    .iconWrapper .formTextInput.inputStyleThree{
+      @extend .inputStyleThree;
+  }
+  .iconWrapper .formTextInput.inputStyleFour{
+    @extend .inputStyleFour;
+  } 
+}
+
+.formBlockContainerMod4 {
+  border:none;
+  @include blockMargin(0,0,2,0);
+  label {
+    font-weight:bold;
+    @include setSpace(padding, 0 0 0.5rem 0);
+    @extend %block;
+    .markOptional{
+    	@extend .normalText;
+    	font-weight:normal;
+    	@extend %floatRight;
+    }
+    &.normalText {
+       @extend .normalText;
+       font-weight:normal;   
+       @include fontSize(1.4);  
+    }
+  }
+  .hintDesc {
+    @include fontSize(1.2);
+    @include setSpace(padding, 0.3rem 0 0 0);
+  }
+  .verticalSeparatorText {
+    width:auto;
+    ul {
+      @include blockMargin(2.5,0,0,0);
+      li{
+        margin:0 auto;
+        line-height:10px;
+        @include textAlign(center);
+        @include fontSize(1);
+      }
+      li.line{
+        @include blockPadding(0,0,0,0);
+        line-height:normal;
+        span {
+          @include firstBorder(1px,#c5c5c5,solid);      
+          @include blockPadding(1.3,0,0.5,0);
+        }
+      }
+    } 
+  }
+  .formBlockModButton {
+    @include blockMargin(3.8,0,0,0);
+  }
+  .formBlockMod3 {
+    @include blockMargin(1.5,1.9,0.5,0);
+    .radioGroup {
+        li {
+          @include blockMargin(1,1,0.5,0);
+          @extend %inlineBlock;
+          input {
+            @extend %floatLeft;
+            @include blockMargin(0.2,0.3,1,0);
+          }
+          label {
+            font-weight:normal;
+            @extend %floatLeft;
+            @include blockPadding(0,0,0,0);
+          }
+        }
+      }
+      .radioGroup.secoundLevel {
+        li {
+          @include setSpace(margin, 0rem 1.5rem 0rem 0rem);
+          input {
+            @include setSpace(margin, 0.2rem 0.3rem 0rem 0rem);
+          }         
+        }
+        
+      }
+  }
+  .formBlockFirstLine {
+    @include blockMargin(0.5,1.9,0.5,0); 
+  }
+  //Increase the select/drop-down width from the default one  
+  .formBlockMod2 { 
+      @include width(44);
+      @include setSpace(margin, 1.5rem 1.9rem 0.5rem 0);
+      .iconWrapper .selectDropDown {
+          @include width(44);
+      }
+  }
+  //Increase the select/drop-down width from the default one 
+  .formBlockMod4 { 
+      @include width(24);
+      .iconWrapper .selectDropDown {
+          @include width(24);
+      }
+      .selectContainer .selectOptionsInner {
+        max-height:none; 
+      } 
+  }
+  //Increase the select/drop-down width from the default one 
+  .formBlockMod8 { 
+      @include width(38);
+      .iconWrapper .selectDropDown {
+          @include width(38);
+      }
+      .selectContainer .selectOptionsInner {
+        max-height:none; 
+      } 
+  } 
+  .formBlockMod7 {
+    @include blockMargin(1.5,1.9,0.5,0);
+    .ui-datepicker {
+      margin-top:1px;     
+    }
+    .calendarPlaceHolder .tip {
+      display:none;
+    }
+  }
+  .formBlockMod65 { 
+      @include width(65);
+	  @media screen and (-webkit-min-device-pixel-ratio:0){
+			.dropDownIconPosition {
+				vertical-align:top !important;
+			}
+	  }	  
+	  .iconWrapper .dk_input {
+		//@extend .inputStyleSearch;
+		@include width(63);
+		height:6rem;
+	  }
+	  .iconWrapper a.selectButton {
+		height:5.8rem;
+	  }
+	  .iconHelpPanel {
+		vertical-align:top !important;
+		.iconhelpMod1  {
+			vertical-align:top !important;
+		}
+	  }	  
+  }
+  .formBlockMod17 { 
+      width:17rem;
+	  width:17.6rem\9;
+	  .primaryButton {
+		@extend %floatRight;
+	  }
+  }  
+  .noLastGutter {
+    @extend %noLastGutter;
+  }
+  .noTopGutter {
+    @extend %noTopGutter; 
+  }   
+  &.topGutter {
+   @include blockMargin(1,0,2,0);
+  }
+}
+
+.fieldHelpIconWrap{
+  color: $gamma;
+  em{
+    color: $gamma;
+  }
+}
+
+
+.selectContainer {
+  input[readonly="readonly"]{
+    background-color: #fff;
+  }
+
+
+
+}
+
+%noMargin, 
+.noMargin {
+   @include blockMargin(0, 0, 0, 0);
+}
+
+%noPadding{
+   @include blockPadding(0, 0, 0, 0);
+}
+
+%noMarginPadding{
+    @extend %noMargin;
+    @extend %noPadding;
+}
+
+%noFirstGutter {
+    margin-left:0;
+}
+%noLastGutter {
+    margin-right:0;
+}
+%noTopGutter {
+	margin-top:0; 
+}   
+
+.downloadDropdownPanelMod1:hover .dropDownMenuItem {border-color: $beta73}
+
+.dropDownMenu {
+  width:248px;
+  overflow: visible;
+  zoom: 1;
+  ul{
+    position: relative;
+    zoom: 1;
+  }
+  .dropDownMenuItem {
+     @include startBorder(1px,$beta10,solid);
+     .formBlockContainer {padding-top: 19px}
+     .linkItem {
+       border: 0;
+       @include blockPadding(1.2, 1.2, 1.2, 1.9);
+       display: block;
+       .iconarrowfullright {
+         margin-top: 3px;
+         margin-right: -3px;
+       }
+       .iconarrowfulldown {margin-right: -3px;}
+       .iconhelp {
+         margin-left: 4px;
+         color: $gamma;
+       }
+       em {color: $beta73;}
+     }
+     &.active {
+       border-color: $beta10;
+       .linkItem {
+         background-color: $beta4;
+         @include endBorder(1px,$beta10,solid);
+       }
+     }
+     .formBlock {
+       padding-left: 19px;
+       &:last-child {padding-bottom: 15px}
+     }
+    &:first-child {
+      border: 0;
+    }
+    .selectContainer .iconWrapper .formTextInput {
+      @include width(21);
+	  &.bglStatementDropdown {
+			@include width(27.6);
+		}
+	  
+    }
+   }
+ .errorMessage{
+      @extend %noMarginPadding;
+      width:200px;
+ }
+}
+
+.bglDataDownloadForm .dropDownMenu {
+  @include width(31.7);
+  .errorMessage{
+      @extend %noMarginPadding;
+      @include width(27.8);
+ }
+}
+
+
+
+
+.bglDataDownloadLinkOptionsContainer {
+  @extend %inlineBlock;
+  width: 315px;
+  .formBlock{
+    margin: 0;
+    float: left;
+    .inlineList{
+      float: left;
+      li{
+        margin-left: -2px;
+        width: 100%;
+        &:first-child{padding-top: 0}
+        .inlineRadioMod1{
+          vertical-align:top;
+          @include blockMargin(0.8, 0, 0, 0);
+        }
+        label.formLabelCheckBoxMod1{
+          width:82%;
+        }
+      }
+      li.calenderInputPanel{
+        margin-left: 0;
+        padding-top: 0;
+        .iconWrapper {
+          margin-left: -2px;
+          .formTextInput {width: 27.6rem}
+        }
+        .ui-datepicker{
+          margin-left: -361px;
+          margin-left: -359px\9;
+          margin-top: -209px;
+          z-index: 1;
+        }
+        @media screen and (-webkit-min-device-pixel-ratio: 0) {
+          .ui-datepicker{margin-top: -259px;}
+        }
+      }
+      li.clear{
+        height: 1px;
+        padding: 0
+      }
+    }
+  }
+  .actionButtonIcon {margin-top: 5px}
+}
+
+.calendarPlaceHolder {
+  position:relative;
+  float: left;
+  .tip{
+    width: 14px;
+    height: 44px;
+    background: $backgroundSprite -138px -524px;
+    position: absolute;
+    right: 8px;
+    right: 6px\9;
+    margin-top: 13px;
+    z-index: 2;
+    span {display: none}
+    /*width: 21px;
+    height: 21px;
+    margin-top: 12px;
+    background: #fff;
+    @include rotate(45);
+    @extend %inlineBlock;
+    @include boxShadow( 0px 0px 12px 1px #DFDFDF);
+    position: absolute;
+    right: 13px;
+    right: 11px\9;
+    z-index: $zindex+1001;
+    span{
+      @include rotate(45);
+      backround: #fff;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      width: 77px;
+      height: 42px;
+      background: #fff;
+      @extend %inlineBlock;
+      margin-left: -43px;
+    }*/
+  }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .tip{margin-top: -38px;}
+  }
+}
+
+.inlineList{
+
+  @include blockMargin(0, 0, 0, 0.2);
+  @include blockPadding(0, 0, 0, 0);
+  li{
+      list-style:none;
+    @extend %floatLeft;
+    @include blockMargin(0, 0, 0, 0.5);
+    @include blockPadding(1, 0, 0, 0);
+  }
+
+}
+
+ul.verticalSeparatorText {
+  @include blockMargin(3.4,0,0,0);
+  li{
+    margin:0 auto;
+    text-align:center;
+    @include fontSize(1);
+  }
+  li.line{
+    @include blockPadding(0.4,0,0.4,0);
+    span {
+      @include firstBorder(1px,#c5c5c5,solid);      
+      @include blockPadding(0.6,0,0.6,0);
+    }
+  }
+}
+
+
+/* ## Download Dropdown panel 
+  
+  
+
+*/
+
+.downloadDropdownPanel{
+    background:$shi;
+    @include allBorders(1px, solid, $beta73);
+    @include borderRadius(0.4);
+    @include boxShadow( 0px 0px 12px 1px $beta10);
+    right: 0;
+    top: 0;
+    @include blockMargin(5.1,0,0,0);
+    @include blockPadding(0,0,0,0); 
+    z-index: 999;
+    text-align: left;
+    .calenderInputPanel {
+        position:relative;
+        .ui-datepicker {
+            top:59px;
+        }
+    }
+    
+    &.downloadDropdownPanelLeftPos{
+    left:-209px!important;
+    }
+}
+
+.newDownloadDropdownPanel{
+  background:$shi;
+  @include allBorders(1px, solid, $beta73);
+  @include borderRadius(0.4);
+  @include boxShadow( 0px 0px 12px 1px $beta10);
+  left: 649px !important;
+  position:absolute; 
+  width:180px;
+  @include blockMargin(1,0,0,0);
+  @include blockPadding(0,0,0,0); 
+  z-index: 999;
+  text-align: left;    
+  .expandArrowMod5 {
+    right:70px;
+  }  
+}
+
+.dataDownloadDropdownPanel{
+  background:$shi;
+  @include allBorders(1px, solid, $beta73);
+  @include borderRadius(0.4);
+  @include boxShadow( 0px 0px 12px 1px $beta10);
+  left: 705px !important;
+  position:absolute; 
+  width:120px;
+  @include blockMargin(2,0,0,0);
+  @include blockPadding(0,0,0,0); 
+  z-index: 999;
+  text-align: left;    
+  .expandArrowMod5 {
+    right:2px;
+  }
+  .dropDownMenuItem {
+    .linkItem {
+      @include blockPadding(1.2,1.9,1.2,1.9); 
+    }
+  }  
+} 
+
+.dataDownloadDeleteOverlayViewPanel{
+  position:absolute; 
+  height:58px !important; 
+  width:838px !important;
+  left:1px;  
+  margin-top:-20px;
+  @include blockPadding(1,2,0,2);  
+  background:#f4f4f4;
+  z-index:1;
+  .desc {
+     width:70%;
+     @include textAlign(left);   
+     @extend %block;
+     @extend %floatLeft;
+  }
+  .actionItems {
+     width:30%; 
+     @extend %block;
+     @extend %floatLeft;
+     .actionWrapper {
+          @include blockMargin(0,0,0,0); 
+          @extend %floatRight;
+          li {
+            @include blockMargin(0,1.5,0,0);
+            &:last-child {
+              @include blockMargin(0,0,0,0);
+            }
+            &.primaryLinkWrap {
+              @include blockMargin(1.2,1.5,0,0);
+            }             
+          }
+     }
+  }
+}
+
+
+.listContent.listContentMod2{
+  .xSpace{
+    @include blockMargin(1,0,1,0);
+  }
+  .stringTruncate{
+  @include ellipsis(17.5);
+  }
+}
+.listContent.listContentMod2Summary{
+  width:95%;
+  @extend %floatRight;
+}
+.listContent.listContentMod2Summary li.xSpace{
+  @include blockPadding(1,0,1,0);
+  @include endBorder(1px, #DDDDDD, solid);
+}
+.listContent.listContentMod2Summary li.mod1 {border-bottom: 0;}
+.contentDialogMod1{
+     width:20rem!important;
+     left:-6rem!important;
+     .expandArrow{
+             top: -0.9rem !important;
+             left: 50%;
+             @include blockMargin(0, 0, 0, -1);
+     }
+    .expandArrow.expandArrowMod3{
+      @extend .expandArrow;
+      top: -1.1rem !important;
+    }
+      @include blockPadding(0,0,0,0);
+    .actionButtonIcon em{
+      @include blockPadding(0,0,0,1.5);
+    }
+}
+.contentDialogMod4{
+  left:0rem!important;
+}
+.listContent.listContentMod2SummaryMod1{
+  @include blockMargin(0,0,0,0);
+}
+.contentDialogMod2,
+.contentDialogMultipleAccounts {
+  top: 7.7rem;
+  width: 39.9rem;
+  @include blockPadding(0.3,0,0.3,0);
+  ul li li {@include blockPadding(0,1.8,0,1.8);}
+  ul li:last-child ul {
+    border: 0;
+  }
+}
+.helpContentDialog{
+     width:20rem!important;
+     left:-3.3rem!important;
+     top: 26px!important;
+     .expandArrowMod2{
+             top: -1.6rem !important;
+             left: 92%;
+             @include blockMargin(0, 0, 0, -1.4);
+     }
+      @include blockPadding(2,2,2,2);
+}
+
+.helpContentDialogMod1 {
+  left: auto !important;
+  right: -11px !important;
+  top: 30px !important;
+  em.expandArrowMod2 {left: 95%}
+
+}
+
+.helpContentDialogMod2 {
+  left: auto !important;
+  right: -8px !important;
+  top: 51px !important;
+  em.expandArrowMod2 {left: 95%}
+}
+
+.contentDialogMod3{
+    background-color : $gamma90;
+    @include allBorders(0px, solid, $gamma90);
+    //@include boxShadow(1px 3px 15px 1px $gamma90);
+
+    left:-9.3rem;
+    top:10.3rem;
+    color: $beta4;
+    h3, p{
+       color: $beta4;
+       @include blockPadding(0.5, 1, 0, 0);
+    }
+}
+
+.inlineBulletList{
+  @include blockMargin(0, 0, 0, 0);
+  @include blockPadding(0, 0, 0, 0.1);
+  @include clearfix;
+  li{
+    float:left;
+    @include blockMargin(0, 0, 0, 2);
+    @include blockPadding(0, 0, 0, 0);
+    list-style: disc;
+  }
+    @media screen and (-webkit-min-device-pixel-ratio:0) {
+      li {margin-right: .55rem;}
+    }
+  li:first-child,
+    li.inlineBulletListMod1{
+    list-style:none;
+    @include blockMargin(0, 0, 0, 0);
+    @include blockPadding(0, 0, 0, 0);
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        &:first-child{margin-right: .55rem;}
+      }
+  }
+
+    li.inlineBulletListMod1{clear: both;}
+
+    li.inlineBulletListMod2{
+      list-style:none;
+      margin-left: 5px;
+    }
+    li.inlineBulletListMod3{
+      margin-right: 0;
+    }
+}
+.inlineBulletListFull{
+ @include blockPadding(2,0,2,0);
+  border-bottom: 1px solid #c5c5c5;
+  clear: both;
+  width: 100%;
+  float: left;
+}
+.inlineBulletListFull.inlineBulletListFullMod1 {padding-bottom: 0; border-bottom: 0}
+.inlineBulletListFull.inlineBulletListFullMod2 {padding-top: 0; margin-bottom: 2rem}
+
+.definitionList{
+    @include blockPadding(1, 0, 0, 0);
+    dt{
+       @extend %floatLeft;
+       @include blockPadding(1,2,0,0);
+       width: 25%;
+    }
+    dd {
+       @extend %floatLeft;
+       @include blockPadding(1,2,0,0);
+       width: 75%;
+    }
+}
+.globalNavList{
+  @include borderRadius(0.4);
+  overflow: hidden;
+  .globalNavListHeader{
+        //background-color: $beta4;
+        //border: 0;
+        //&:hover{
+            //@include startBorder(0px, lighten($headerTextColorBeta , 50%), solid);
+          //border-bottom: 0;
+        //}
+    }
+    .centerAlign{
+        text-align:center;
+    }
+    li{
+      @include clearfix;
+      @include blockPadding(1, 1.9, 1, 1.9);
+      @include endBorder(1px, $beta10, solid);
+      @include fontSize(1.6);
+        &:nth-child(3){
+          border: 0;
+        }
+        &.globalNavListHeader {
+          border-top: 1px solid $beta73;
+          padding: 0;
+          &:first-child {border-top: 0}
+          &:hover {
+            border-bottom-color: $beta22;
+            border-top-color: $beta22;
+          }
+          a {
+            @include blockPadding(1, 1.9, 1, 1.9);
+            display: block;
+          }
+        }
+    }
+    li:last-child{
+      @include endBorder(0px, $beta10, solid);
+    }
+  &.globalNavListMod1 {
+    @include width(20);
+  }
+}
+.fixContent{
+    width:31rem;
+    @extend %block;
+}
+.fixContentMod1{
+  //@include setObject(width, 22rem);
+    width:22rem;
+    @extend %block;
+}
+
+.iconWrapper a.disabled{
+  background-color: $bist;
+  &:hover{
+    cursor: default !important;
+  }
+  &:focus{
+    border-left: 1px solid $bromide;
+    outline: none !important
+  }
+
+}
+
+input[type="checkbox"]:focus, input[type="radio"]:focus{
+  outline: 1px dotted #fed648 !important;
+}
+.editContainer{
+  @extend %floatRight;
+  width: 19.5rem;
+  @include setSpace(margin, 1.8rem 0 0 0);
+  @extend  %inlineBlock;
+    &.withTopLabel{
+      @include setSpace(margin, 3.5rem 0 0 0);
+    }
+    &.withNoLabel{
+      @include setSpace(margin, 0.5rem 0 0 0);
+    }
+   .radioOptions{
+      @extend %floatLeft;
+
+    }
+  .radioOptionsLabel{
+    @include setSpace(padding, 0 0 0 1rem);
+    @extend %inlineBlock;
+
+  }
+    .removeOption {
+      @extend %floatRight;
+    }
+
+}
+.selectContainer input.textInputError {
+  background: $gamma7;
+}
+
+.modalTextPadding {
+	padding : 0 0 1rem 0 !important;
+}
+
+

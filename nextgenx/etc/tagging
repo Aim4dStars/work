@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -e
+
+# This is now mastered in ssh://git@stash.btfin.com/os/build-tools.git/build-tools/scripts
+
+export LABEL="$GO_PIPELINE_NAME-$GO_PIPELINE_LABEL"
+curl -##L http://consul.cloud.btfin-dev.com:8500/v1/kv/application/devops/latest/tagging?raw | sh -s -- $LABEL

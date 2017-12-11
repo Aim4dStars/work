@@ -1,0 +1,7 @@
+#!/bin/bash
+set -e
+
+DOCKER_IMAGE=docker.cloud.btfin-dev.com/panorama/maven
+docker pull ${DOCKER_IMAGE}
+
+docker run --rm -i -e APP_ID=$(cat /etc/app-id) -e WORK_DIR=$(pwd) -e "MAVEN_OPTS=$MAVEN_OPTS -Xmx2548m -XX:MaxPermSize=512M -Denvironment=CI -Dtimeout=8" -e GO_ENVIRONMENT_NAME -e GO_SERVER_URL -e GO_TRIGGER_USER -e GO_PIPELINE_NAME -e GO_PIPELINE_COUNTER -e GO_PIPELINE_LABEL -e GO_STAGE_NAME -e GO_STAGE_COUNTER -e GO_JOB_NAME --volumes-from $(hostname) ${DOCKER_IMAGE} mvn -PdatabaseH2 clean test

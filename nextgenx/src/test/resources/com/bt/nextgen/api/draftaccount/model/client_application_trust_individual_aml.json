@@ -1,0 +1,297 @@
+{
+      "version": "1.0.0",
+      "accountType": "individualTrust",
+      "trustType": "family",
+      "trustdetails": {
+        "trustname": "LukeTrust",
+        "businessname": "",
+        "regdate": "01\/10\/2016",
+        "registrationstate": "NSW",
+        "registeredforgst": "no",
+        "settloroftrust": "organisation",
+        "wealthsource": "Business profits",
+        "abn": "",
+        "trusttype": "family",
+        "organisationName": "TestOrganisationName",
+        "industry": {
+          "anzsiccode": "7412",
+          "industry": "7412",
+          "ucmcode": "SIC 0360"
+        },
+        "addressv2": {
+          "addressType": "residential",
+          "country": "AU",
+          "sameasaddress": "0",
+          "valid": true,
+          "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+          "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+          "existingAddressList": [
+            {
+              "country": "AU",
+              "sameasaddress": "0",
+              "valid": true,
+              "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+              "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+              "existingAddressList": [
+
+              ]
+            }
+          ]
+        },
+        "trustverification": {
+          "identitydocument": "letteridv",
+          "letteridv": {
+            "fullname": "TestSolicitorAcct",
+            "documentdate": "01\/10\/2016",
+            "documentnumber": "789012",
+            "verifiedfrom": "original"
+          }
+        },
+        "taxdetails": {
+          "ausTaxDetails": {
+            "tfn": {
+              "valid": false
+            },
+            "taxOption": {
+              "valid": true,
+              "value": "Tax File Number or exemption not provided"
+            },
+            "isTaxCountryAus": {
+              "valid": true,
+              "value": true
+            },
+            "exemptionReason": {
+              "valid": true
+            }
+          },
+          "isOverseasTaxRes": {
+            "valid": true,
+            "value": false
+          },
+          "overseasTaxDetails": [
+
+          ]
+        },
+        "personalinvestmententity": false
+      },
+      "trustees": [
+        {
+          "emails": [
+
+          ],
+          "personRoles": [
+
+          ],
+          "phones": [
+
+          ],
+          "taxdetails": {
+            "ausTaxDetails": {
+              "isTaxCountryAus": {
+                "valid": true,
+                "value": true
+              }
+            },
+            "isOverseasTaxRes": {
+              "valid": true,
+              "value": false
+            },
+            "overseasTaxDetails": [
+
+            ]
+          },
+          "title": "MR",
+          "firstname": "Sam",
+          "middlename": "",
+          "lastname": "Trust",
+          "preferredname": "",
+          "formername": "",
+          "dateofbirth": "01\/10\/1965",
+          "gender": "male",
+          "mobile": {
+            "value": "0456789012"
+          },
+          "email": {
+            "value": "sam@test.com"
+          },
+          "preferredcontact": "mobile",
+          "isvalid": true,
+          "alternatename": "",
+          "accountType": "individualTrust",
+          "identitydocument": {
+            "photodocuments": {
+              "passport": {
+                "documentIssuer": "Australia",
+                "issueDate": "01\/10\/2016",
+                "expiryDate": "01\/10\/2018",
+                "documentNumber": "89012",
+                "verificationSource": "original",
+                "englishTranslation": "Not Applicable",
+                "accreditedenglishtrans": "notapplicable"
+              },
+              "valid": true
+            }
+          },
+          "resaddressv2": {
+            "addressType": "residential",
+            "country": "AU",
+            "sameasaddress": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+            "valid": true,
+            "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+            "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+            "existingAddressList": [
+              {
+                "country": "AU",
+                "sameasaddress": "0",
+                "valid": true,
+                "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+                "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+                "existingAddressList": [
+
+                ]
+              }
+            ]
+          },
+          "postaladdressv2": {
+            "addressType": "postal",
+            "country": "AU",
+            "sameasaddress": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+            "valid": true,
+            "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+            "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+            "existingAddressList": [
+              {
+                "country": "AU",
+                "sameasaddress": "0",
+                "valid": true,
+                "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+                "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+                "existingAddressList": [
+
+                ]
+              }
+            ]
+          },
+          "sameasresaddress": "true"
+        }
+      ],
+      "shareholderandmembers": {
+        "hasbeneficiaryclasses": "no",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "accountType": "individualTrust",
+        "investorsWithRoles": [
+          {
+            "needsShareholder": false,
+            "needsMember": false,
+            "needsBeneficiary": true,
+            "isBeneficiary": "yes"
+          }
+        ],
+        "additionalShareHoldersAndMembers": [
+          {
+            "persontype": [
+              "beneficiaryAndController"
+            ],
+            "selectedpersontype": "beneficiaryAndController",
+            "title": "MR",
+            "firstname": "SamController",
+            "middlename": "",
+            "lastname": "Last",
+            "needsShareholder": false,
+            "needsMember": false,
+            "needsBeneficiary": true,
+            "dateofbirth": "01\/10\/1976",
+            "taxdetails": {
+              "ausTaxDetails": {
+                "isTaxCountryAus": {
+                  "valid": true,
+                  "value": true
+                }
+              },
+              "isOverseasTaxRes": {
+                "valid": true,
+                "value": false
+              },
+              "overseasTaxDetails": [
+
+              ]
+            },
+            "resaddressv2": {
+              "addressType": "residential",
+              "country": "AU",
+              "sameasaddress": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+              "valid": true,
+              "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+              "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+              "existingAddressList": [
+                {
+                  "country": "AU",
+                  "sameasaddress": "0",
+                  "valid": true,
+                  "DisplayText": "Unit 15  1 Clarence Street, STRATHFIELD  NSW  2135",
+                  "AddressIdentifier": "0FOAUEHgvgBwAAAAAIAgEAAAAAtuN1UBAhAIIQAOAAAAAAAAAxNQAA..9kAAAAAP....8AAAAAAAAAAAAAAAAAMTUxIENsYXJlbmNlIFN0AA--",
+                  "existingAddressList": [
+
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "accountsettings": {
+        "professionalspayment": "linkedaccountsonly",
+        "investorAccountSettings": [
+          {
+            "paymentSetting": "linkedaccountsonly",
+            "hasRoles": false,
+            "hasApprovers": true,
+            "isApprover": "true"
+          }
+        ],
+        "primarycontact": 0,
+        "adviserName": "Richard Peterson",
+        "adviserLocation": "New South Wales",
+        "sourceoffunds": "Business profits",
+        "powerofattorney": false
+      },
+      "linkedaccounts": {
+        "primaryLinkedAccount": {
+          "accountname": "TestAccount",
+          "bsb": "062001",
+          "accountnumber": "789012",
+          "bsbValidationResultVal": true
+        },
+        "otherLinkedAccount": [
+
+        ]
+      },
+      "fees": {
+        "estamount": "0.00",
+        "ongoingFees": {
+          "feesComponent": [
+
+          ],
+          "type": "Ongoing advice fee"
+        },
+        "licenseeFees": {
+          "feesComponent": [
+            {
+              "label": "Percentage fee component",
+              "listedSecurities": "2.00",
+              "managedFund": "1.00",
+              "managedPortfolio": "0.00",
+              "cash": "0.00",
+              "termDeposit": "0.00",
+              "slidingScaleFeeTier": [
+
+              ],
+              "valid": true
+            }
+          ],
+          "type": "Licensee advice fee"
+        }
+      }
+}

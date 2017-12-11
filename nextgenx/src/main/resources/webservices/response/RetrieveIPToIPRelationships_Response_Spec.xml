@@ -1,0 +1,124 @@
+<soapenv:Envelope xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:id="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Header xmlns:hdr="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/">
+      <esbHeader xmlns="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:dyn="http://exslt.org/dynamic" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+         <messageAttributes>
+            <id>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f1</id>
+            <correlationId>NG-001.8b47f2e4-35a2-4a9d-b196-78bf29e19a9f</correlationId>
+            <createdTimestamp>2016-07-06T16:26:41.745</createdTimestamp>
+         </messageAttributes>
+         <channelAttributes>
+           <organisationId>WPAC</organisationId>
+            <brandSilo>WPAC</brandSilo>
+            <channelType>Online</channelType>
+            <originatingSystemId>NG-001</originatingSystemId>
+            <requester>
+               <requesterType>Customer</requesterType>
+               <requesterId>201601509</requesterId>
+               <requesterGroupType>711</requesterGroupType>
+            </requester>
+            <location>
+               <locationId>032949</locationId>
+               <locationType>BSB</locationType>
+            </location>
+            <location>
+               <locationId>lnxau2106st0118</locationId>
+               <locationType>Machine Name</locationType>
+            </location>
+            <systemInfo>
+               <codeValue>
+                  <code>Destination</code>
+                  <value>OnboardingStatusUpdateAdapter</value>
+               </codeValue>
+            </systemInfo>
+         </channelAttributes>
+      </esbHeader>
+   </soapenv:Header>
+   <soapenv:Body>
+      <out:retrieveIPToIPRelationshipsResponse xmlns:io="http://schemas.xmlsoap.org/soap/envelope/" xmlns:io3="http://www.westpac.com.au/gn/common/xsd/identifiers/v1/" xmlns:io2="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:out="http://www.westpac.com.au/gn/involvedPartyManagement/services/involvedPartyManagement/xsd/retrieveIPToIPRelationships/v4/SVC0260/">
+         <io2:serviceStatus>
+            <sh:statusInfo xmlns:MVC="http://www.westpac.com.au/gn/MediationService/MVC0113/v02" xmlns:get="wbc.ucm/getIndividualPartyRelationships" xmlns:get1="wbc.ucm/getIndividualPartyRelationshipsV2" xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/">
+               <sh:level>Success</sh:level>
+               <sh:code>000,00000</sh:code>
+            </sh:statusInfo>
+            <sh:statusInfo xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/">
+               <sh:level>Warning</sh:level>
+               <sh:code>480,00001</sh:code>
+               <sh:description>ElementName = subRoleType received as empty from provider, and therefore, is NOT sent in ESB response payload</sh:description>
+            </sh:statusInfo>
+            <sh:statusInfo xmlns:sh="http://www.westpac.com.au/gn/utility/xsd/statusHandling/v1/">
+               <sh:level>Warning</sh:level>
+               <sh:code>480,00001</sh:code>
+               <sh:description>ElementName = effectiveIDVAssessmentMethod received as empty from provider, and therefore, is NOT sent in ESB response payload</sh:description>
+            </sh:statusInfo>
+         </io2:serviceStatus>
+         <involvedPartyRelationshipResult>
+            <individual>
+               <involvedPartyIdentifier>
+                  <io3:identificationScheme>PartyUID</io3:identificationScheme>
+                  <io3:sourceSystem>UCM</io3:sourceSystem>
+                  <io3:involvedPartyId>006ED8D9-DBCA-11e6-AB72-000C00000000</io3:involvedPartyId>
+               </involvedPartyIdentifier>
+               <involvedPartyIdentifier>
+                  <io3:identificationScheme>CISKey</io3:identificationScheme>
+                  <io3:sourceSystem>UCM</io3:sourceSystem>
+                  <io3:involvedPartyId>91085320076</io3:involvedPartyId>
+               </involvedPartyIdentifier>
+               <involvedPartyIdentifier>
+                  <io3:identificationScheme>CrossReferenceId</io3:identificationScheme>
+                  <io3:sourceSystem>UCM</io3:sourceSystem>
+                  <io3:involvedPartyId>1-MS79YG</io3:involvedPartyId>
+               </involvedPartyIdentifier>
+               <hasForName>
+                  <firstName>TRADE</firstName>
+                  <lastName>ONE</lastName>
+                  <prefixTitle>MR</prefixTitle>
+               </hasForName>
+               <isPlayingRole>
+                  <startDate>2016-06-30T00:00:00Z</startDate>
+                  <lifecycleStatus>P</lifecycleStatus>
+               </isPlayingRole>
+               <hasRelationshipRole>
+                  <auditContext>
+                     <versionNumber>0</versionNumber>
+                  </auditContext>
+                  <startDate>1967-08-13T00:00:00Z</startDate>
+                  <endDate>1968-08-13T00:00:00Z</endDate>
+                  <lifecycleStatus>Active</lifecycleStatus>
+                  <roleType>SYN</roleType>
+                  <individual>
+                     <involvedPartyIdentifier>
+                        <io3:identificationScheme>PartyUID</io3:identificationScheme>
+                        <io3:sourceSystem>UCM</io3:sourceSystem>
+                        <io3:involvedPartyId>F7579CF7-DBB0-11e6-B3AA-000C00000000</io3:involvedPartyId>
+                     </involvedPartyIdentifier>
+                     <involvedPartyIdentifier>
+                        <io3:identificationScheme>CISKey</io3:identificationScheme>
+                        <io3:sourceSystem>UCM</io3:sourceSystem>
+                        <io3:involvedPartyId>35371220053</io3:involvedPartyId>
+                     </involvedPartyIdentifier>
+                     <birthDate>1985-03-21</birthDate>
+                     <isPlayingRole>
+                        <roleType>Customer</roleType>
+                        <effectiveIDVAssessmentStatus>No</effectiveIDVAssessmentStatus>
+                     </isPlayingRole>
+                     <hasPostalAddressContactMethod>
+                        <hasAddress xsi:type="out:NonStandardPostalAddress">
+                           <addressLine1>33 PITT ST</addressLine1>
+                           <city>SYDNEY</city>
+                           <state>NSW</state>
+                           <postCode>2000</postCode>
+                           <country>AU</country>
+                        </hasAddress>
+                     </hasPostalAddressContactMethod>
+                     <hasForName>
+                        <firstName>TRADEE</firstName>
+                        <lastName>ONE</lastName>
+                     </hasForName>
+                  </individual>
+               </hasRelationshipRole>
+            </individual>
+         </involvedPartyRelationshipResult>
+      </out:retrieveIPToIPRelationshipsResponse>
+
+   </soapenv:Body>
+</soapenv:Envelope>

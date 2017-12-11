@@ -1,0 +1,70 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>&lt;srch:srch_rsp xmlns:srch="http://btfin.com/ABS/SrchService/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj"&gt;
+                    <srch:srch_rsp xmlns:srch="http://btfin.com/ABS/SrchService/V1_0" xmlns:trx="http://btfin.com/ABS/TrxService/Base/V1_0" xmlns:pobj="http://www.avaloq.com/abs/pobj">
+                        <data>
+                            <person_list>
+                                <person>
+                                    <person>
+                                        <annot>
+                                            <displ_text>Rod DEMO ADVISER Bailey</displ_text>
+                                            <ctx>
+                                                <type>obj_person</type>
+                                                <id>30767</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>30767</val>
+                                    </person>
+                                    <oracle_user>
+                                        <val>201616274</val>
+                                    </oracle_user>
+                                    <first_name>
+                                        <val>Rod</val>
+                                    </first_name>
+                                    <middle_name>
+                                        <val>DEMO ADVISER</val>
+                                    </middle_name>
+                                    <last_name>
+                                        <val>Bailey</val>
+                                    </last_name>
+                                    <full_name>
+                                        <val>Rod DEMO ADVISER Bailey</val>
+                                    </full_name>
+                                    <dealer_group>
+                                        <annot>
+                                            <displ_text>collect--1_434 (Dealer Group)</displ_text>
+                                            <ctx>
+                                                <type>obj_person</type>
+                                                <id>51769</id>
+                                            </ctx>
+                                        </annot>
+                                        <val>51769</val>
+                                    </dealer_group>
+                                    <primary_email>
+                                        <val>rod.bailey@adviser.com</val>
+                                    </primary_email>
+                                    <primary_mobile>
+                                        <val>0414222333</val>
+                                    </primary_mobile>
+                                    <domi_suburb>
+                                        <val>Sydney</val>
+                                    </domi_suburb>
+                                    <domi_state>
+                                        <val>New South Wales</val>
+                                    </domi_state>
+                                    <open_date>
+                                        <val>2015-01-19</val>
+                                    </open_date>
+                                    <user_role>avsr</user_role>
+                                </person>
+                            </person_list>
+                        </data>
+                    </srch:srch_rsp>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

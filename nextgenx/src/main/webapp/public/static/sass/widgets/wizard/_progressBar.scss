@@ -1,0 +1,184 @@
+/* ## Proress Bar 
+Progress bar 
+
+
+
+*/
+
+$progressLineCoreEndImg:url('../images/progressLineCoreEnd.png') no-repeat;
+
+#sfc-container .progressWrapper{
+    visibility: visible!important;
+	@extend %relative;
+	width:620px;
+    display: block;
+	height:4rem;
+	@extend .clearFix;
+	//@include blockMargin(10,0,0,0);
+		ul{
+			list-style:none;
+			@include blockMargin(0,0,0,0);
+		}
+		.progressionLine{
+			//@include position(absolute, 16px 0 0 5px);
+			@include position(absolute, 15px 0 0 5px);
+			border:0.4rem solid!important;
+			}
+
+  @media screen and (min-width:0\0) {
+
+    .progressionLine{
+      @include position(absolute, 16px 0 0 5px);
+      border-left:0.4rem solid!important;
+      border-top:0.4rem solid!important;
+      border-bottom:0.4rem solid!important;
+      border-right:0.4rem solid!important;
+
+
+
+    }
+  }
+
+    .progressLineIndicator,
+		.progressLineCore{
+			@extend .progressionLine;
+			}
+		.progressLineCore{
+			z-index:1;
+			border-color:$beta22!important;
+			width:620px;
+				
+			}
+
+		.progressLineIndicator{
+			border-color:$zeta!important;
+			z-index:2
+		}
+
+		.progressLineIndicator.progressLineIndicatorStep1{
+			width:25%;	
+		}
+
+		.progressLineIndicator.progressLineIndicatorStep2{
+			width:50%;	
+		}
+
+		.progressLineIndicator.progressLineIndicatorStep3{
+			width:75%;	
+		}
+
+		.progressLineCoreEnd{
+					//@include position(absolute, 9px 0 0 625px);
+					@include position(absolute, 8px 0 0 625px);
+					//transform:rotate(-90deg);
+					//-webkit-transform: rotate(-90deg);
+					z-index:4;
+						.iconchevron{
+							//font-size:2.1rem;
+							//color:#999999;
+							//text-shadow:0px -4px 1px #fff;
+                          background: $progressLineCoreEndImg;
+                          width:8px;
+                          height: 8px;
+                          @extend %inlineBlock;
+							
+						}
+
+						
+				}
+  @media screen and (min-width:0\0) {
+    .progressLineCoreEnd{
+      @include position(absolute, 10px 0 0 625px);
+    }
+  }
+		.progressContainer{
+			z-index:3;	
+			width:100%;
+			@include position(absolute, 16px 0 0 0px);
+				@media screen and (-webkit-min-device-pixel-ratio:0) {
+					@include position(absolute, 14px 0 0 0px);
+				}
+
+				.progressLabelWrapper{
+					width:auto;
+					height:80px;
+					@extend .inlineBlock;
+					@extend .floatLeft;
+					
+						.progressLabelContainer{
+							@include position(absolute, 0 0 53px 0);
+
+						}
+					
+						.progressLabel{
+							@include blockMargin(.5,0,1,1);	
+							@extend .emphasis;
+							color:$textColorDarker;
+						}
+						.toolIcons{
+							border:none;
+							height:3.7rem;
+							width:3.7rem;
+                            display: inline-block;
+                            @include borderRadius(100);
+                          @extend %relative;
+
+							@media screen and (-webkit-min-device-pixel-ratio:0) {
+								height:4rem;
+								width:4rem;
+							}
+
+
+						}
+							.toolIcons.toolIconsBorder{
+								background:#fff;
+								@include allBorders(3px, solid, $zeta);
+                                  em{
+                                    display:none;
+                                  }
+								
+								}
+							.toolIcons.toolIconsFull{
+								background:$zeta;
+								@include allBorders(3px, solid, $zeta);
+								color:#fff;
+                                  em{
+                                    @include position(absolute, 50% 0 0 50%);
+                                    margin:-8px 0 0 -8px;
+                                  }
+								}
+							.toolIcons.toolIconsDotted{
+								
+								background:#fff;
+								//border:3px dotted $borderColor!important;
+								@include allBorders(3px, dotted, $beta22);
+                                  em{
+                                    display: none;
+                                  }
+								}
+					
+							}
+				
+		}
+}
+
+
+.progressLabelWrapper.progressLabelWrapperFirst{
+		//@include blockMargin(0,0,0,0);
+        margin:0 0 0 0;
+		}
+
+.progressLabelWrapper.progressLabelWrapperSub{
+		//@include blockMargin(0,0,0,16);
+       // margin: 0 0 0 21rem!important;
+		}
+
+#sfc-container .btfg-wizard-menu ul{
+  @include blockMargin(0,0,0,0.5);
+
+}
+
+.btfg-menuitem{
+  @include fontSize(1.6);
+  @extend .emphasis;
+}

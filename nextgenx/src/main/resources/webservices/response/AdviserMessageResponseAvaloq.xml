@@ -1,0 +1,176 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/ui_get_ntfcn" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def">
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>ntfcn</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>ntfcn_id</name>
+            <type>NrFld</type>
+            <lbl>Notification ID</lbl>
+          </fld_def>
+          <fld_def>
+            <name>timestamp</name>
+            <type>DateTimeFld</type>
+            <lbl>Timestamp</lbl>
+          </fld_def>
+          <fld_def>
+            <name>valid_to</name>
+            <type>DateTimeFld</type>
+            <lbl>Valid to</lbl>
+          </fld_def>
+          <fld_def>
+            <name>resp_sec_user</name>
+            <type>TextFld</type>
+            <lbl>Responsble User</lbl>
+          </fld_def>
+          <fld_def>
+            <name>recp_sec_user</name>
+            <type>TextFld</type>
+            <lbl>Recipient</lbl>
+          </fld_def>
+          <fld_def>
+            <name>event_type</name>
+            <type>TextFld</type>
+            <lbl>Event Type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>event_type_prio</name>
+            <type>TextFld</type>
+            <lbl>Priority</lbl>
+          </fld_def>
+          <fld_def>
+            <name>ntfcn_status</name>
+            <type>TextFld</type>
+            <lbl>Notification Status</lbl>
+          </fld_def>
+          <fld_def>
+            <name>trig_obj</name>
+            <type>TextFld</type>
+            <lbl>Triggering Object</lbl>
+          </fld_def>
+          <fld_def>
+            <name>ctx_doc</name>
+            <type>TextFld</type>
+            <lbl>Order</lbl>
+          </fld_def>
+          <fld_def>
+            <name>msg_text</name>
+            <type>TextFld</type>
+            <lbl>Message Text</lbl>
+          </fld_def>
+          <fld_def>
+            <name>msg_cat</name>
+            <type>TextFld</type>
+            <lbl>Notification Category</lbl>
+          </fld_def>
+          <fld_def>
+            <name>msg_avsr_ctr</name>
+            <type>TextFld</type>
+            <lbl>Message Adviser Center</lbl>
+          </fld_def>
+          <fld_def>
+            <name>bp_name</name>
+            <type>TextFld</type>
+            <lbl>BP Name</lbl>
+          </fld_def>
+          <fld_def>
+            <name>owner_type</name>
+            <type>TextFld</type>
+            <lbl>Owner Type</lbl>
+          </fld_def>
+          <fld_def>
+            <name>macc_nr</name>
+            <type>NrFld</type>
+            <lbl>MACC Number</lbl>
+          </fld_def>
+          <fld_def>
+            <name>person</name>
+            <type>TextFld</type>
+            <lbl>Person</lbl>
+          </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <ntfcn_list>
+    <ntfcn>
+      <ntfcn_head id="1" row_type="data" hira="0" level="ntfcn.head">
+            <ntfcn_id><annot><ctx><type>ntfcn_open</type><id>585</id></ctx></annot><val>585</val></ntfcn_id>
+            <timestamp><annot><displ_text>03/04/2014 14:08:11</displ_text></annot><val>2014-04-03T14:08:11</val></timestamp>
+            <valid_to><annot><displ_text>16/01/2288</displ_text></annot><val>2288-01-16T14:08:11</val></valid_to>
+            <resp_sec_user><annot><ctx><type>user</type><id>1773</id></ctx></annot><val>201602352</val></resp_sec_user>
+            <recp_sec_user><annot><ctx><type>user</type><id>1773</id></ctx></annot><val>201602352</val></recp_sec_user>
+            <event_type><val>Client Details Change (Investor)</val></event_type>
+            <event_type_prio><val>2</val></event_type_prio>
+            <ntfcn_status><val>Open</val></ntfcn_status>
+            <trig_obj><annot><ctx><type>obj</type><id>11918</id></ctx></annot><val>11918</val></trig_obj>
+            <ctx_doc><annot><ctx><type>doc</type><id>15861</id></ctx></annot><val>15861</val></ctx_doc>
+            <msg_text><val>Your personal details have been changed. If you or your advisor didn't make this change, please contact us on 1300 881 716.</val></msg_text>
+            <msg_cat><annot><ctx><type>btfg$code_ntfcn_msg_cat</type><id>1</id></ctx></annot><val>Changes to accounts</val></msg_cat>
+            <msg_avsr_ctr><annot><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>3</id></ctx></annot><val>N/A</val></msg_avsr_ctr>
+            <bp_name><annot><ctx><type>bp</type><id>36846</id></ctx></annot><val>Andy  Barker</val></bp_name>
+            <owner_type><annot><ctx><type>code_clt_type</type><id>5001</id></ctx></annot><val>Client - Individual Account</val></owner_type>
+            <macc_nr><annot><ctx><type>pos</type><id>33891</id></ctx></annot><val>120000229</val></macc_nr>
+            <person><annot><ctx><type>person</type><id>11918</id></ctx></annot><val>Andy  Barker</val></person>
+      </ntfcn_head>
+    </ntfcn>
+    <ntfcn>
+      <ntfcn_head id="2" row_type="data" hira="0" level="ntfcn.head">
+            <ntfcn_id><annot><ctx><type>ntfcn_open</type><id>583</id></ctx></annot><val>583</val></ntfcn_id>
+            <timestamp><annot><displ_text>03/04/2014 14:07:30</displ_text></annot><val>2014-04-03T14:07:30</val></timestamp>
+            <valid_to><annot><displ_text>16/01/2288</displ_text></annot><val>2288-01-16T14:07:30</val></valid_to>
+            <resp_sec_user><annot><ctx><type>user</type><id>1775</id></ctx></annot><val>201602354</val></resp_sec_user>
+            <recp_sec_user><annot><ctx><type>user</type><id>1775</id></ctx></annot><val>201602354</val></recp_sec_user>
+            <event_type><val>Advisor Details Change</val></event_type>
+            <event_type_prio><val>2</val></event_type_prio>
+            <ntfcn_status><val>Open</val></ntfcn_status>
+            <trig_obj><annot><ctx><type>obj</type><id>33892</id></ctx></annot><val>33892</val></trig_obj>
+            <ctx_doc><annot><ctx><type>doc</type><id>15860</id></ctx></annot><val>15860</val></ctx_doc>
+            <msg_text><val>Your personal details have been changed. If you or your team didn't make this change, please contact us on 1300 784 207.</val></msg_text>
+            <msg_cat><annot><ctx><type>btfg$code_ntfcn_msg_cat</type><id>1</id></ctx></annot><val>Changes to accounts</val></msg_cat>
+            <msg_avsr_ctr><annot><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>2</id></ctx></annot><val>My messages</val></msg_avsr_ctr>
+            <bp_name><annot><ctx><type>bp</type><id>33892</id></ctx></annot><val>110001208</val></bp_name>
+      </ntfcn_head>
+    </ntfcn>
+    <ntfcn>
+      <ntfcn_head id="3" row_type="data" hira="0" level="ntfcn.head">
+            <ntfcn_id><annot><ctx><type>ntfcn_open</type><id>582</id></ctx></annot><val>582</val></ntfcn_id>
+            <timestamp><annot><displ_text>03/04/2014 09:32:29</displ_text></annot><val>2014-04-03T09:32:29</val></timestamp>
+            <valid_to><annot><displ_text>16/01/2288</displ_text></annot><val>2288-01-16T09:32:29</val></valid_to>
+            <resp_sec_user><annot><ctx><type>user</type><id>1773</id></ctx></annot><val>201602352</val></resp_sec_user>
+            <recp_sec_user><annot><ctx><type>user</type><id>1773</id></ctx></annot><val>201602352</val></recp_sec_user>
+            <event_type><val>Account Activated Confirmed - When investor logs in for first time.</val></event_type>
+            <event_type_prio><val>1</val></event_type_prio>
+            <ntfcn_status><val>Open</val></ntfcn_status>
+            <trig_obj><annot><ctx><type>obj</type><id>36846</id></ctx></annot><val>36846</val></trig_obj>
+            <ctx_doc><annot><ctx><type>doc</type><id>15726</id></ctx></annot><val>15726</val></ctx_doc>
+            <msg_text><val>Welcome to . Your account is open and ready to go.</val></msg_text>
+            <msg_cat><annot><ctx><type>btfg$code_ntfcn_msg_cat</type><id>1</id></ctx></annot><val>Changes to accounts</val></msg_cat>
+            <msg_avsr_ctr><annot><ctx><type>btfg$code_ntfcn_advsr_msgctr</type><id>3</id></ctx></annot><val>N/A</val></msg_avsr_ctr>
+            <bp_name><annot><ctx><type>bp</type><id>36846</id></ctx></annot><val>Andy  Barker</val></bp_name>
+            <owner_type><annot><ctx><type>code_clt_type</type><id>5001</id></ctx></annot><val>Client - Individual Account</val></owner_type>
+            <macc_nr><annot><ctx><type>pos</type><id>33891</id></ctx></annot><val>120000229</val></macc_nr>
+            <person><annot><ctx><type>person</type><id>11918</id></ctx></annot><val>Andy  Barker</val></person>
+      </ntfcn_head>
+    </ntfcn>
+  </ntfcn_list>
+
+  </data>
+</rep:rep>

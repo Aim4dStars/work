@@ -1,0 +1,41 @@
+CREATE OR REPLACE PROCEDURE onboarding_application_clean(daysAgo IN number) IS
+----USAGE:
+----SET SERVEROUTPUT ON
+----execute onboarding_application_clean(181);
+
+
+-- foreign keys are:
+-- CLIENT_APPLICATION CA.onboarding_application_id -> OA.id
+-- ONBOARDING_ACCOUNT OAc.onboarding_application_id -> OA.id
+-- ONBOARDING_APPLICATION
+-- ONBOARDING_COMMUNICATION (OC.onboarding_application_id, OC.gcm_pan) -> (OP.onboarding_application_id, OP.gcm_pan)
+-- ONBOARDING_PARTY OP.onboarding_application_id -> OA.id
+
+-- appropriate delete order is then:
+-- CLIENT_APPLICATION (drives the others)
+-- ONBOARDING_ACCOUNT
+-- ONBOARDING_COMMUNICATION
+-- ONBOARDING_PARTY
+-- ONBOARDING_APPLICATION
+
+BEGIN
+
+    DBMS_OUTPUT.put_line('===NON ACTIVE===');
+    FOR line IN (SELECT * FROM client_application WHERE NOT status = 'active' AND last_modified <= (SYSDATE -1 * daysAgo))
+    LOOP
+        DBMS_OUTPUT.put_line('cascading delete of NOT ACTIVE Account Applications older than ' || daysAgo || ' days...');
+        dbms_output.put_line(line.CLIENT_APPLICATION_ID || ',' || line.ADVISER_POSITION_ID || ',' || line.LAST_MODIFIED || ',' || line.LAST_MODIFIED_ID || ',' || line.STATUS || ',' || line.ONBOARDING_APPLICATION_ID || ',' || line.PRODUCT_ID);
+        SET TRANSACTION NAME 'oac';
+        DELETE FROM client_application where onboarding_application_id = line.ONBOARDING_APPLICATION_ID;
+
+        DELETE FROM ONBOARDING_ACCOUNT where onboarding_application_id = line.ONBOARDING_APPLICATION_ID;
+        DELETE FROM ONBOARDING_COMMUNICATION where onboarding_application_id = line.ONBOARDING_APPLICATION_ID;
+        DELETE FROM ONBOARDING_PARTY where onboarding_application_id = line.ONBOARDING_APPLICATION_ID;
+        DELETE FROM ONBOARDING_APPLICATION where id = line.ONBOARDING_APPLICATION_ID;
+        COMMIT;
+	
+        DBMS_OUTPUT.put_line('deleted.');
+    END LOOP;
+
+END onboarding_application_clean;
+/

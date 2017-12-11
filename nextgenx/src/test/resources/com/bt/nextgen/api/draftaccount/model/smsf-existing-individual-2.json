@@ -1,0 +1,364 @@
+{
+  "accountType": "individualSMSF",
+  "approvalType": "online",
+  "version": "1.0.0",
+  "smsfdetails": {
+    "smsfabn": "342224",
+    "registrationstate": "NSW",
+    "registeredforgst": "yes",
+    "agree": "Verified",
+    "regdate": "12/12/2010",
+    "industry": {
+      "industry": "7412",
+      "anzsiccode": "7412",
+      "ucmcode": "SIC 0360"
+    },
+    "wealthsource": "Business profits",
+    "smsfname": "dfssf",
+    "smsfaddress": {
+      "componentised": true,
+      "unitNumber": "",
+      "streetNumber": "28",
+      "streetName": "West",
+      "streetType": "STREET",
+      "suburb": "NORTH SYDNEY",
+      "state": "NSW",
+      "postcode": "2060",
+      "country": "AU",
+      "verified": true,
+      "addressType": "residential",
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "id": "329592"
+        }
+      ],
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true
+    },
+    "docissuer": "www.superfundlookup.gov.au",
+    "issuedate": "29 Feb 2016",
+    "documentnumber": "notapplicable",
+    "verificationsource": "Website search",
+    "englishtranslation": "notapplicable",
+    "taxoption": "Exemption Reason provided",
+    "exemptionreason": "norfolk_island_res"
+  },
+  "trustees": [
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "EB216617BFF9C7E2A016FF38340A59263B63FF5C418B815D"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "mail@mail.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0412345678",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": true,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "237329696",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "cisId": "99829910033",
+      "title": "Mr",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "accountType": "individualSMSF",
+      "firstname": "Testoneuser",
+      "formername": "TestFormerNAme",
+      "lastname": "Last",
+      "preferredname": "Perff",
+      "dateofbirth": "09 Aug 1990",
+      "mobile": {
+        "value": "0412345678"
+      },
+      "email": {
+        "value": "mail@mail.com"
+      },
+      "isDuplicate": true
+    },
+    {
+      "isvalid": true,
+      "key": {
+        "clientId": "91FA8353BD01D6228CCE458B26912800FFCFA80B0B8862E3"
+      },
+      "userName": "",
+      "emails": [
+        {
+          "email": "TestCoreSMSFfivetwosixteen@email.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0425462316",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "idVerified": true,
+      "registered": true,
+      "tfnProvided": true,
+      "exemptionreason": "norfolk_island_res",
+      "personRoles": [
+        "Owner"
+      ],
+      "gcmId": "237329650",
+      "investorType": "INDIVIDUAL",
+      "tfnExemptId": "99",
+      "cisId": "20444910070",
+      "title": "Mr",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "accountType": "individualSMSF",
+      "firstname": "Testcoresmsffivetwosixteen",
+      "formername": "FormerName",
+      "lastname": "First",
+      "preferredname": "Prefname",
+      "dateofbirth": "01 May 1986",
+      "mobile": {
+        "value": "0425462316"
+      },
+      "email": {
+        "value": "TestCoreSMSFfivetwosixteen@email.com"
+      },
+      "isDuplicate": true
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "allpayments",
+    "investorAccountSettings": [
+      {
+        "isApprover": "true",
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true
+      },
+      {
+        "isApprover": "true",
+        "hasRoles": false,
+        "hasApprovers": true
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Michelle Hicks",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Business profits"
+  },
+  "shareholderandmembers": {
+    "needsShareholder": false,
+    "needsMember": true,
+    "needsTrustees": true,
+    "needsBeneficiary": false,
+    "accountType": "individualSMSF",
+    "investorsWithRoles": [
+      {
+        "isMember": "yes",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false
+      },
+      {
+        "isMember": "no",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": ["member"],
+        "title": "MR",
+        "firstname": "werw",
+        "middlename": "werw",
+        "lastname": "werew",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "dateofbirth": "02/02/1978",
+        "resaddress": {
+          "componentised": true,
+          "unitNumber": "",
+          "streetNumber": "28",
+          "streetName": "West",
+          "streetType": "STREET",
+          "suburb": "NORTH SYDNEY",
+          "state": "NSW",
+          "postcode": "2060",
+          "country": "AU",
+          "verified": true,
+          "confirmed": true,
+          "valid": true,
+          "sameasaddress": "579112",
+          "addressType": "residential",
+          "id": "579112",
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "unitNumber": "",
+              "streetNumber": "28",
+              "streetName": "West",
+              "streetType": "STREET",
+              "suburb": "NORTH SYDNEY",
+              "state": "NSW",
+              "postcode": "2060",
+              "country": "AU",
+              "verified": true,
+              "confirmed": true,
+              "valid": true,
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "id": "579112"
+            },
+            {
+              "componentised": false,
+              "addressLine1": "Ewewwewe",
+              "addressLine2": "",
+              "country": "DZ",
+              "city": "ewewew",
+              "pin": "3333",
+              "verified": true,
+              "confirmed": true,
+              "valid": true,
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "id": "629744"
+            }
+          ]
+        }
+      },
+      {
+        "persontype": ["member"],
+        "title": "MISS",
+        "firstname": "www",
+        "middlename": "www",
+        "lastname": "www",
+        "needsShareholder": false,
+        "needsMember": true,
+        "needsBeneficiary": false,
+        "dateofbirth": "04/04/1967",
+        "resaddress": {
+          "componentised": false,
+          "addressLine1": "Ewewwewe",
+          "addressLine2": "",
+          "country": "DZ",
+          "city": "ewewew",
+          "pin": "3333",
+          "verified": true,
+          "addressType": "residential",
+          "existingAddressList": [
+            {
+              "componentised": true,
+              "unitNumber": "",
+              "streetNumber": "28",
+              "streetName": "West",
+              "streetType": "STREET",
+              "suburb": "NORTH SYDNEY",
+              "state": "NSW",
+              "postcode": "2060",
+              "country": "AU",
+              "verified": true,
+              "confirmed": true,
+              "valid": true,
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "id": "562451"
+            },
+            {
+              "componentised": false,
+              "addressLine1": "Ewewwewe",
+              "addressLine2": "",
+              "country": "DZ",
+              "city": "ewewew",
+              "pin": "3333",
+              "verified": true,
+              "confirmed": true,
+              "valid": true,
+              "sameasaddress": "0",
+              "addressType": "residential",
+              "id": "668187"
+            }
+          ],
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true
+        }
+      }
+    ]
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "sdsds",
+      "bsb": "23333",
+      "accountnumber": "33333",
+      "nickname": "3333",
+      "directdebitamount": "3333.00"
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+        {
+          "listedSecurities": "true",
+          "managedFund": "true",
+          "termDeposit": "true",
+          "slidingScaleFeeTier": [
+            {
+              "lowerBound": "0.00",
+              "upperBound": "34343434.00",
+              "percentage": "1.00"
+            },
+            {
+              "lowerBound": "34343434.00",
+              "upperBound": "",
+              "percentage": "3.00"
+            }
+          ],
+          "label": "Sliding scale fee component"
+        }
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

@@ -1,0 +1,1091 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse><rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_book_list_bp_cont_pos_evt" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-09-19 15:26:46.369280000 on afd030n by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>25-FEB-2015</val></date_from>
+    <date_to><val>27-FEB-2015</val></date_to>
+    <current_of_time><val>2014-09-18T13:04:48.890181000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>bp</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>cont</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>pos</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>evt</name>
+            <hira>4</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>bp_id</name>
+          <type>NrFld</type>
+            <lbl>BP ID</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cont_type_id</name>
+          <type>NrFld</type>
+            <lbl>Container type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cont_id</name>
+          <type>NrFld</type>
+            <lbl>Container</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_id</name>
+          <type>NrFld</type>
+            <lbl>Asset</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos_name</name>
+          <type>TextFld</type>
+            <lbl>Position</lbl>
+        </fld_def>
+        <fld_def>
+          <name>bal</name>
+          <type>NrFld</type>
+            <lbl>Balance</lbl>
+        </fld_def>
+        <fld_def>
+          <name>pos_curry_id</name>
+          <type>NrFld</type>
+            <lbl>Reference currency</lbl>
+        </fld_def>
+        <fld_def>
+          <name>doc_id</name>
+          <type>NrFld</type>
+            <lbl>Order number</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ui_wfs_id</name>
+          <type>NrFld</type>
+            <lbl>UI workflow status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>evt_status_id</name>
+          <type>NrFld</type>
+            <lbl>Event status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>meta_typ_id</name>
+          <type>NrFld</type>
+            <lbl>Meta type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_type_id</name>
+          <type>NrFld</type>
+            <lbl>Order type</lbl>
+        </fld_def>
+        <fld_def>
+          <name>medium_id</name>
+          <type>NrFld</type>
+            <lbl>Medium</lbl>
+        </fld_def>
+        <fld_def>
+          <name>cancel_status</name>
+          <type>BoolFld</type>
+            <lbl>Cancel status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_trx_timestp</name>
+          <type>DateTimeFld</type>
+            <lbl>Last transaction date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>book_date</name>
+          <type>DateFld</type>
+            <lbl>Book date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>perf_date</name>
+          <type>DateFld</type>
+            <lbl>Performance date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>trx_date</name>
+          <type>DateFld</type>
+            <lbl>Trade date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val_date</name>
+          <type>DateFld</type>
+            <lbl>Value date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>veri_date</name>
+          <type>DateFld</type>
+            <lbl>Verification date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>order_date</name>
+          <type>DateTimeFld</type>
+            <lbl>Order date</lbl>
+        </fld_def>
+        <fld_def>
+          <name>extl_book_text</name>
+          <type>TextFld</type>
+            <lbl>External booking text</lbl>
+        </fld_def>
+        <fld_def>
+          <name>qty</name>
+          <type>NrFld</type>
+            <lbl>Quantity</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ref_asset_id</name>
+          <type>NrFld</type>
+            <lbl>Reference asset</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ins_by_sec_user</name>
+          <type>TextFld</type>
+            <lbl>Last Avaloq user</lbl>
+        </fld_def>
+        <fld_def>
+          <name>key</name>
+          <type>TextFld</type>
+            <lbl>Key</lbl>
+        </fld_def>
+        <fld_def>
+          <name>val</name>
+          <type>TextFld</type>
+            <lbl>Value</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <bp_list>
+    <bp>
+      <bp_head_list>
+        <bp_head id="1" row_type="title" hira="1" level="bp.head">
+          <bp_id><annot><displ_text></displ_text><ctx><type>bp</type><id>69949</id></ctx></annot><val>69949</val></bp_id>
+        </bp_head>
+      </bp_head_list>
+  <cont_list>
+    <cont>
+      <cont_head_list>
+        <cont_head id="2" row_type="subtitle" hira="2" level="cont.head">
+          <cont_type_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>7102</id></ctx></annot><val>7102</val></cont_type_id>
+          <cont_id><annot><displ_text></displ_text><ctx><type>cont</type><id>69950</id></ctx></annot><val>69950</val></cont_id>
+        </cont_head>
+      </cont_head_list>
+  <pos_list>
+    <pos>
+      <pos_head_list>
+        <pos_head id="3" row_type="subtitle" hira="3" level="pos.head">
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>10757</id></ctx></annot><val>10757</val></asset_id>
+          <pos_name><annot><ctx><type>pos</type><id>69952</id></ctx></annot><val>BT Cash</val></pos_name>
+          <bal><val>50045406.87</val></bal>
+          <pos_curry_id><annot><displ_text></displ_text><ctx><type>asset</type><id>1009</id></ctx></annot><val>1009</val></pos_curry_id>
+        </pos_head>
+      </pos_head_list>
+  <evt_list>
+    <evt>
+      <evt_head_list>
+        <evt_head id="4" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>4</id></ctx></annot><val>4</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>186214</id></ctx></annot><val>186214</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1046</id></ctx></annot><val>1046</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>2012</id></ctx></annot><val>2012</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-15T06:23:08+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-25</val></book_date>
+          <perf_date><val>2015-02-25</val></perf_date>
+          <trx_date><val>2015-02-25</val></trx_date>
+          <val_date><val>2015-02-25</val></val_date>
+          <veri_date><val>2015-02-25</val></veri_date>
+          <order_date><val>2014-09-15T06:23:08+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from Linked Account Name 403</val></extl_book_text>
+          <qty><val>50000000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>380</id></ctx></annot><val>Client onboarding Tech. User</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="5" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2017-03-02</val></val>
+            </detail>
+            <detail id="6" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="7" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="8" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="9" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>123456789</val></val>
+            </detail>
+            <detail id="10" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>036158</val></val>
+            </detail>
+            <detail id="11" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Linked Account Name 403</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="12" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>2</id></ctx></annot><val>2</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>197977</id></ctx></annot><val>197977</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1044</id></ctx></annot><val>1044</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>2012</id></ctx></annot><val>2012</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T10:14:05+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T10:11:22+10:00</val></order_date>
+          <extl_book_text><val>Direct Credit </val></extl_book_text>
+          <qty><val>12</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="13" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+            <detail id="14" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2017-02-26</val></val>
+            </detail>
+            <detail id="15" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="16" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="17" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="18" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>23423423</val></val>
+            </detail>
+            <detail id="19" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="20" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>1</id></ctx></annot><val>1</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>197978</id></ctx></annot><val>197978</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1111</id></ctx></annot><val>1111</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>2012</id></ctx></annot><val>2012</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T10:14:45+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2015-02-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Payment to</val></extl_book_text>
+          <qty><val>-10</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="21" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+            <detail id="22" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>23423423</val></val>
+            </detail>
+            <detail id="23" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="24" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+            <detail id="25" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="26" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="27" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="28" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>21</id></ctx></annot><val>21</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>197980</id></ctx></annot><val>197980</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1043</id></ctx></annot><val>1043</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>2012</id></ctx></annot><val>2012</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T10:15:09+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T10:14:50+10:00</val></order_date>
+          <extl_book_text><val>Direct Credit </val></extl_book_text>
+          <qty><val>50000</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="29" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>deepahikha</val></val>
+            </detail>
+            <detail id="30" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2012-02-26</val></val>
+            </detail>
+            <detail id="31" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="32" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="33" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="34" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>457834636</val></val>
+            </detail>
+            <detail id="35" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="36" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>6</id></ctx></annot><val>6</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>197981</id></ctx></annot><val>197981</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1111</id></ctx></annot><val>1111</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T10:21:09+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2015-02-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>Payment to</val></extl_book_text>
+          <qty><val>-13.13</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="37" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Deepshikha Bpay</val></val>
+            </detail>
+            <detail id="38" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="39" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="40" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>DINERS CLUB</val></val>
+            </detail>
+            <detail id="41" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="42" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="43" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="44" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>32</id></ctx></annot><val>32</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>197987</id></ctx></annot><val>197987</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T10:37:18+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2015-02-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>BPAY payment to nab cards</val></extl_book_text>
+          <qty><val>-10</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="45" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>PAY 112</val></val>
+            </detail>
+            <detail id="46" row_type="data" hira="5" level="detail">
+              <key><val>payee_custr_ref</val></key>
+              <val><val>4557016834016904</val></val>
+            </detail>
+            <detail id="47" row_type="data" hira="5" level="detail">
+              <key><val>payee_biller_code</val></key>
+              <val><val>1008</val></val>
+            </detail>
+            <detail id="48" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Ankur Jain</val></val>
+            </detail>
+            <detail id="49" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="50" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="51" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="52" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>7</id></ctx></annot><val>7</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198001</id></ctx></annot><val>198001</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1043</id></ctx></annot><val>1043</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T12:22:35+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T12:22:29+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from deepshikha</val></extl_book_text>
+          <qty><val>123</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="53" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Rent 123</val></val>
+            </detail>
+            <detail id="54" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-03-03</val></val>
+            </detail>
+            <detail id="55" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="56" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="57" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="58" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="59" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="60" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="61" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>9</id></ctx></annot><val>9</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198015</id></ctx></annot><val>198015</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>2012</id></ctx></annot><val>2012</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T14:59:56+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2015-02-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>BPAY payment to nab cards</val></extl_book_text>
+          <qty><val>-100</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="62" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+            <detail id="63" row_type="data" hira="5" level="detail">
+              <key><val>payee_custr_ref</val></key>
+              <val><val>4557016834016904</val></val>
+            </detail>
+            <detail id="64" row_type="data" hira="5" level="detail">
+              <key><val>payee_biller_code</val></key>
+              <val><val>1008</val></val>
+            </detail>
+            <detail id="65" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>DINECLUB</val></val>
+            </detail>
+            <detail id="66" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="67" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="68" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="69" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>10</id></ctx></annot><val>10</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198017</id></ctx></annot><val>198017</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T15:00:36+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2015-02-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>BPAY payment to nab cards</val></extl_book_text>
+          <qty><val>-200</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="70" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Deepshikha</val></val>
+            </detail>
+            <detail id="71" row_type="data" hira="5" level="detail">
+              <key><val>payee_custr_ref</val></key>
+              <val><val>4557016834016904</val></val>
+            </detail>
+            <detail id="72" row_type="data" hira="5" level="detail">
+              <key><val>payee_biller_code</val></key>
+              <val><val>1008</val></val>
+            </detail>
+            <detail id="73" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>DINECLUB</val></val>
+            </detail>
+            <detail id="74" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="75" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="76" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="79" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>72</id></ctx></annot><val>72</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198029</id></ctx></annot><val>198029</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1045</id></ctx></annot><val>1045</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T15:34:53+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T15:34:53+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from deepshikha</val></extl_book_text>
+          <qty><val>123</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="80" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Rent 123</val></val>
+            </detail>
+            <detail id="81" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-03-03</val></val>
+            </detail>
+            <detail id="82" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="83" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="84" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="85" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="86" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="87" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="88" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>5</id></ctx></annot><val>5</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198038</id></ctx></annot><val>198038</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T15:56:09+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T15:56:08+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from deepshikha</val></extl_book_text>
+          <qty><val>123</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="89" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Rent 123</val></val>
+            </detail>
+            <detail id="90" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-03-03</val></val>
+            </detail>
+            <detail id="91" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="92" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="93" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="94" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="95" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="96" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="97" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>11</id></ctx></annot><val>11</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198046</id></ctx></annot><val>198046</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T17:01:34+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T17:01:34+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from deepshikha</val></extl_book_text>
+          <qty><val>123</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="98" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Rent 123</val></val>
+            </detail>
+            <detail id="99" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-03-03</val></val>
+            </detail>
+            <detail id="100" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="101" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="102" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="103" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="104" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="105" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="106" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>56</id></ctx></annot><val>56</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198056</id></ctx></annot><val>198056</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T17:09:52+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T17:09:51+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from deepshikha</val></extl_book_text>
+          <qty><val>123</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="107" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Rent 123</val></val>
+            </detail>
+            <detail id="108" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-03-03</val></val>
+            </detail>
+            <detail id="109" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="110" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="111" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="112" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="113" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="114" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="115" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>99</id></ctx></annot><val>99</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198074</id></ctx></annot><val>198074</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>30</id></ctx></annot><val>30</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1047</id></ctx></annot><val>1047</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-17T14:15:23+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-17T14:15:21+10:00</val></order_date>
+          <extl_book_text><val>Direct Debit Deposit from deepshikha</val></extl_book_text>
+          <qty><val>123</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="116" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>Rent 123</val></val>
+            </detail>
+            <detail id="117" row_type="data" hira="5" level="detail">
+              <key><val>clear_date</val></key>
+              <val><val>2015-03-03</val></val>
+            </detail>
+            <detail id="118" row_type="data" hira="5" level="detail">
+              <key><val>payee_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="119" row_type="data" hira="5" level="detail">
+              <key><val>payee_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="120" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+            <detail id="121" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>12345678</val></val>
+            </detail>
+            <detail id="122" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>012003</val></val>
+            </detail>
+            <detail id="123" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>deepshikha</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+    <evt>
+      <evt_head_list>
+        <evt_head id="124" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>8</id></ctx></annot><val>8</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198086</id></ctx></annot><val>198086</val></doc_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>6</id></ctx></annot><val>6</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>1110</id></ctx></annot><val>1110</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-18T12:01:59+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2015-02-26T00:00:00+11:00</val></order_date>
+          <extl_book_text><val>BPAY payment to nab cards</val></extl_book_text>
+          <qty><val>-10</val></qty>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="125" row_type="data" hira="5" level="detail">
+              <key><val>trx_descn</val></key>
+              <val><val>PAY 112</val></val>
+            </detail>
+            <detail id="126" row_type="data" hira="5" level="detail">
+              <key><val>payee_custr_ref</val></key>
+              <val><val>4557016834016904</val></val>
+            </detail>
+            <detail id="127" row_type="data" hira="5" level="detail">
+              <key><val>payee_biller_code</val></key>
+              <val><val>1008</val></val>
+            </detail>
+            <detail id="128" row_type="data" hira="5" level="detail">
+              <key><val>payee_name</val></key>
+              <val><val>Raju Arumugam</val></val>
+            </detail>
+            <detail id="129" row_type="data" hira="5" level="detail">
+              <key><val>payer_bank_acc_nr</val></key>
+              <val><val>120009311</val></val>
+            </detail>
+            <detail id="130" row_type="data" hira="5" level="detail">
+              <key><val>payer_bsb</val></key>
+              <val><val>262786</val></val>
+            </detail>
+            <detail id="131" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+
+	 <evt>
+      <evt_head_list>
+        <evt_head id="77" row_type="data" hira="4" level="evt.head">
+        <evt_id><annot><ctx><type>doc</type><id>79</id></ctx></annot><val>79</val></evt_id>
+          <doc_id><annot><ctx><type>doc</type><id>198019</id></ctx></annot><val>198019</val></doc_id>
+          <ui_wfs_id><annot><displ_text></displ_text><ctx><type>btfg$code_ui_wf_status</type><id>12</id></ctx></annot><val>12</val></ui_wfs_id>
+          <evt_status_id><annot><displ_text></displ_text><ctx><type>code_evt_status</type><id>35</id></ctx></annot><val>35</val></evt_status_id>
+          <meta_typ_id><annot><displ_text></displ_text><ctx><type>meta_typ</type><id>58</id></ctx></annot><val>58</val></meta_typ_id>
+          <order_type_id><annot><displ_text></displ_text><ctx><type>code_order_type</type><id>780</id></ctx></annot><val>780</val></order_type_id>
+          <medium_id><annot><displ_text></displ_text><ctx><type>code_medium</type><id>34</id></ctx></annot><val>34</val></medium_id>
+          <cancel_status><annot><displ_text>0</displ_text></annot><val>false</val></cancel_status>
+          <last_trx_timestp><val>2014-09-16T15:10:46+10:00</val></last_trx_timestp>
+          <book_date><val>2015-02-26</val></book_date>
+          <perf_date><val>2015-02-26</val></perf_date>
+          <trx_date><val>2015-02-26</val></trx_date>
+          <val_date><val>2015-02-26</val></val_date>
+          <veri_date><val>2015-02-26</val></veri_date>
+          <order_date><val>2014-09-16T15:08:42+10:00</val></order_date>
+          <extl_book_text><val>Opened Bank of Melbourne Term Deposit</val></extl_book_text>
+          <qty><val>-5000</val></qty>
+          <ref_asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>73072</id></ctx></annot><val>73072</val></ref_asset_id>
+          <ins_by_sec_user><annot><ctx><type>user</type><id>319</id></ctx></annot><val>Avaloq</val></ins_by_sec_user>
+          <detail_list>
+            <detail id="78" row_type="data" hira="5" level="detail">
+              <key><val>payer_name</val></key>
+              <val><val>Tom Demo Bertrand</val></val>
+            </detail>
+          </detail_list>
+        </evt_head>
+      </evt_head_list>
+    </evt>
+
+  </evt_list>
+    </pos>
+  </pos_list>
+    </cont>
+  </cont_list>
+    </bp>
+  </bp_list>
+
+  </data>
+</rep:rep>
+<!-- 232-34cd-e044-2c76833a52a819 at 2014-09-19T05:26:46.399212000Z on AFD030N by AVALOQ -->
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

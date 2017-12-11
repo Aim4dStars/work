@@ -1,0 +1,29 @@
+CATEGORY_KEY,CATEGORY_TYPE,OPTION_NAME,VALUE
+#
+#
+#Branded cash asset 
+SUP,PRODUCT, cash.account.description, "Cash account"
+#
+#
+#product config overrides for transaction types
+SUP,PRODUCT, transactions.contribution, true
+SUP,PRODUCT, transactions.rollover, true
+SUP,PRODUCT, transactions.lumpsumwithdrawal, true
+SUP,PRODUCT, transactions.pensionpayment, true
+SUP,PRODUCT, transactions.insurancepayment, true
+SUP,PRODUCT, transactions.insurancepremium, true
+SUP,PRODUCT, transactions.withdrawal, true
+SUP,PRODUCT, transactions.corporateaction, true
+#
+#
+#other overrides
+SUP,PRODUCT, report.accountdetail.bankaccount, false
+SUP,PRODUCT, disclaimer.bttrustee, true
+SUP,PRODUCT, disclaimer.irr, true
+SUP,PRODUCT, declaration.investorguide, true
+SUP,PRODUCT, assettransfer.menu.description, "Intra account transfers"
+SUP,PRODUCT, scheduledtransaction.menu.description, "Scheduled orders"
+SUP,PRODUCT, rip.directdebit, false
+SUP,PRODUCT, assettransfer.internal, true
+SUP,PRODUCT, regular.investment.supported, true
+SUP,PRODUCT, cashmanagement.supported, true

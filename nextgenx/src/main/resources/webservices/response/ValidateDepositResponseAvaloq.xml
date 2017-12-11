@@ -1,0 +1,65 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+        	<inpay:inpay_rsp xmlns:inpay="http://btfin.com/ABS/TrxService/Inpay/V1_0">
+			  <hdr>
+			    <req_id>23232</req_id>
+			  </hdr>
+			  <data>
+			    <cred_macc>
+			      <annot>
+			        <ctx>
+			          <type>obj_macc</type>
+			          <id>60458</id>
+			        </ctx>
+			      </annot>
+			      <auto>false</auto>
+			      <val>60458</val>
+			    </cred_macc>
+			    <payer_acc>
+			      <val>123456789</val>
+			    </payer_acc>
+			    <bsb>
+			      <val>036154</val>
+			    </bsb>
+			    <amount>
+			      <val>123</val>
+			    </amount>
+			    <curry>
+			      <annot>
+			        <displ_text>AUD</displ_text>
+			        <ctx>
+			          <type>obj_curry</type>
+			          <id>1009</id>
+			        </ctx>
+			      </annot>
+			      <val>1009</val>
+			    </curry>
+			    <benef_ref_nr>
+			      <val>Rent 123</val>
+			    </benef_ref_nr>
+			    <trx_date>
+			      <val>2015-01-27</val>
+			    </trx_date>
+			  </data>
+			  <rsp>
+			    <valid>
+			      <action>do</action>
+			      <err_list>
+			        <err>
+			          <type>ovr</type>
+			          <id>100021080</id>
+			          <err_msg>Only linked accounts are allowed</err_msg>
+			        </err>
+			      </err_list>
+			    </valid>
+			  </rsp>
+			</inpay:inpay_rsp>
+        </SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

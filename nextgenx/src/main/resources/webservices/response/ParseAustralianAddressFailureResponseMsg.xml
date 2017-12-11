@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope">
+<SOAP-ENV:Body>
+<ns2:ParseAustralianAddressResponseMsg xmlns:ns2="ns://btfin.com/Party/PartyService/PartyReply/V2_1">
+     <Status>Success</Status>
+    <ResponseDetails>
+        <ResponseDetail>
+            <SuccessResponse>
+                <MatchSuccess>Country not available</MatchSuccess>
+                <!--<MatchSuccess>Full address and postcode found</MatchSuccess>-->
+                <AustralianAddress>
+                     <StructuredAddressDetail>
+                        <AddressTypeDetail>
+                           <PostalAddress>
+                              <POBoxPrefix>Care PO</POBoxPrefix>
+                              <POBoxNumber>0</POBoxNumber>
+                           </PostalAddress>
+                        </AddressTypeDetail>
+                        <City>THE UNIVERSITY OF SYDNEY</City>
+                        <State>NSW</State>
+                        <Postcode>2006</Postcode>
+                        <CountryCode>AUS</CountryCode>
+                     </StructuredAddressDetail>
+                  </AustralianAddress>
+            </SuccessResponse>
+        </ResponseDetail>
+    </ResponseDetails>
+</ns2:ParseAustralianAddressResponseMsg>
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

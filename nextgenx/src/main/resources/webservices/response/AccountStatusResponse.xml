@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<account>
+    <adviserName>Jim Johnson</adviserName>
+    <phone>02 9876 1234</phone>
+    <email>jim.johnson@gmail.com</email>
+    <accountType>SMSF with a Corporate Trustee</accountType>
+    <accountDescription>accountDescription</accountDescription>
+    <client>
+        <addressLine1>addressLine1</addressLine1>
+        <addressLine2>addressLine2</addressLine2>
+        <adviserName>Jane Beecham</adviserName>
+        <age>40</age>
+        <city>Sydney</city>
+        <country>Australia</country>
+        <email>abc@gmail.com</email>
+        <firstName>ABC</firstName>
+        <gender>Female</gender>
+        <lastName>lastName</lastName>
+        <phone>0431888823</phone>
+        <pin>123</pin>
+        <salutation>Mr</salutation>
+        <state>NSW</state>
+        <status>Registered</status>
+        <userName>userName</userName>
+    </client>
+    <client>
+        <addressLine1>addressLine1</addressLine1>
+        <addressLine2>addressLine2</addressLine2>
+        <adviserName>Jane Beecham</adviserName>
+        <age>40</age>
+        <city>Sydney</city>
+        <country>Australia</country>
+        <email>abcd@gmail.com</email>
+        <firstName>XYZ</firstName>
+        <gender>Female</gender>
+        <lastName>lastName</lastName>
+        <phone>04318839033</phone>
+        <pin>123</pin>
+        <salutation>Mrs</salutation>
+        <state>NSW</state>
+        <status>Not Registered</status>
+        <userName>userName</userName>
+    </client>
+    <client>
+        <addressLine1>addressLine1</addressLine1>
+        <addressLine2>addressLine2</addressLine2>
+        <adviserName>Jackson Beecham</adviserName>
+        <age>40</age>
+        <city>Sydney</city>
+        <country>Australia</country>
+        <email>abcd@gmail.com</email>
+        <firstName>Michael</firstName>
+        <gender>Female</gender>
+        <lastName>Jackson</lastName>
+        <phone>04318839033</phone>
+        <pin>123</pin>
+        <state>NSW</state>
+        <status>Approved</status>
+        <userName>userName</userName>
+    </client>
+</account>

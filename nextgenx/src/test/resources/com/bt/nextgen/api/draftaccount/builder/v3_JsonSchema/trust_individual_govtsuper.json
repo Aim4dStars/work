@@ -1,0 +1,412 @@
+{
+  "version": "1.0.0",
+  "accountType": "individualTrust",
+  "trustType": "govsuper",
+  "approvalType": "online",
+  "trustdetails": {
+    "trustname": "trustee three submit",
+    "businessname": "business",
+    "regdate": "09\/08\/2015",
+    "registrationstate": "NSW",
+    "registeredforgst": "yes",
+    "tfn": "123345567",
+    "taxoption": "Tax File Number provided",
+    "wealthsource": "Business income\/earnings",
+    "abn": "67008617203",
+    "nameoflegislation": "legal",
+    "nameofwebsite": "www.test.com",
+    "searchdate": "09\/08\/2015",
+    "trusttype": "govsuper",
+    "industry": {
+      "anzsiccode": "7340",
+      "industry": "7340",
+      "ucmcode": "SIC 0358"
+    },
+    "taxdetails": {
+      "ausTaxDetails": {
+        "isTaxCountryAus": {
+          "valid": true,
+          "value": true
+        }
+      },
+      "isOverseasTaxRes": {
+        "valid": true,
+        "value": false
+      },
+      "overseasTaxDetails": []
+    },
+    "address": {
+      "componentised": true,
+      "addressType": "residential",
+      "unitNumber": "",
+      "streetNumber": "33",
+      "streetName": "Pitt",
+      "streetType": "STREET",
+      "suburb": "SYDNEY",
+      "state": "NSW",
+      "postcode": "2000",
+      "country": "AU",
+      "sameasaddress": "0",
+      "confirmed": true,
+      "valid": true,
+      "verified": true,
+      "existingAddressList": [
+        {
+          "componentised": true,
+          "addressType": "residential",
+          "unitNumber": "",
+          "streetNumber": "33",
+          "streetName": "Pitt",
+          "streetType": "STREET",
+          "suburb": "SYDNEY",
+          "state": "NSW",
+          "postcode": "2000",
+          "country": "AU",
+          "id": "768674",
+          "sameasaddress": "0",
+          "confirmed": true,
+          "valid": true,
+          "verified": true,
+          "existingAddressList": [
+
+          ]
+        }
+      ]
+    }
+  },
+  "directors": [
+
+  ],
+  "trustees": [
+    {
+      "emails": [
+        {
+          "email": "test@c.com",
+          "preferred": false,
+          "emailType": "Primary"
+        }
+      ],
+      "gcmId": "227391050",
+      "exemptionReason": "No exemption",
+      "key": {
+        "clientId": "9576238DEFFE532D6AB557CD7EFE49D65CCB900756757448"
+      },
+      "personRoles": [
+        "Owner"
+      ],
+      "phones": [
+        {
+          "preferred": true,
+          "number": "0414089786",
+          "phoneType": "Primary",
+          "type": "Phone",
+          "label": "Mobile - primary"
+        }
+      ],
+      "gcmTitleLabel": "Mr",
+      "cisId": "93133020035",
+      "userName": "a588-3a48-3d",
+      "idVerified": true,
+      "isDuplicate": false,
+      "registered": true,
+      "tfnProvided": false,
+      "investorType": "INDIVIDUAL",
+      "title": "Mr",
+      "firstname": "Katrinasubmitfix",
+      "lastname": "Test",
+      "dateofbirth": "04 Feb 1989",
+      "gender": "Male",
+      "mobile": {
+        "value": "0414089786"
+      },
+      "email": {
+        "value": "test@c.com"
+      },
+      "taxdetails": {
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": []
+      },
+      "isvalid": true,
+      "accountType": "individualTrust",
+      "resaddress": {
+        "stateAbbr": "NSW",
+        "domicile": true,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": false,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "Street",
+        "suburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "country": "Australia",
+        "existingAddressList": [
+
+        ]
+      },
+      "postaladdress": {
+        "stateAbbr": "NSW",
+        "domicile": false,
+        "countryCode": "2061",
+        "internationalAddress": false,
+        "mailingAddress": true,
+        "standardAddressFormat": false,
+        "addressType": "Postal",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "Street",
+        "suburb": "Sydney",
+        "state": "New South Wales",
+        "postcode": "2000",
+        "country": "Australia",
+        "existingAddressList": [
+
+        ]
+      },
+      "tfnExemptId": "99"
+    },
+    {
+      "emails": [
+
+      ],
+      "personRoles": [
+
+      ],
+      "phones": [
+
+      ],
+      "title": "MR",
+      "firstname": "newTEst",
+      "middlename": "mid",
+      "lastname": "lastname",
+      "preferredname": "perff",
+      "formername": "",
+      "dateofbirth": "09\/08\/1990",
+      "gender": "male",
+      "mobile": {
+        "value": "0411122777"
+      },
+      "email": {
+        "value": "mailtonextmail@mail.com"
+      },
+      "taxdetails": {
+        "ausTaxDetails": {
+          "isTaxCountryAus": {
+            "valid": true,
+            "value": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "valid": true,
+          "value": false
+        },
+        "overseasTaxDetails": []
+      },
+      "preferredcontact": "mobile",
+      "isvalid": true,
+      "alternatename": "alter",
+      "accountType": "individualTrust",
+      "identitydocument": {
+        "photodocuments": {
+          "driverlicence": {
+            "documentIssuer": "ACT",
+            "expiryDate": "09\/08\/2030",
+            "documentNumber": "likoo98",
+            "verificationSource": "original",
+            "englishTranslation": "Not Applicable",
+            "accreditedenglishtrans": "notapplicable"
+          },
+          "valid": true
+        }
+      },
+      "resaddress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "sameasaddress": "0",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "29716",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      },
+      "postaladdress": {
+        "componentised": true,
+        "addressType": "residential",
+        "unitNumber": "",
+        "streetNumber": "33",
+        "streetName": "Pitt",
+        "streetType": "STREET",
+        "suburb": "SYDNEY",
+        "state": "NSW",
+        "postcode": "2000",
+        "country": "AU",
+        "id": "480580",
+        "sameasaddress": "480580",
+        "confirmed": true,
+        "valid": true,
+        "verified": true,
+        "existingAddressList": [
+          {
+            "componentised": true,
+            "addressType": "residential",
+            "unitNumber": "",
+            "streetNumber": "33",
+            "streetName": "Pitt",
+            "streetType": "STREET",
+            "suburb": "SYDNEY",
+            "state": "NSW",
+            "postcode": "2000",
+            "country": "AU",
+            "id": "480580",
+            "sameasaddress": "0",
+            "confirmed": true,
+            "valid": true,
+            "verified": true,
+            "existingAddressList": [
+
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "investors": [
+
+  ],
+  "shareholderandmembers": {
+    "hasbeneficiaryclasses": "yes",
+    "beneficiaryclassdetails": "werwefff",
+    "needsShareholder": false,
+    "needsMember": false,
+    "needsBeneficiary": true,
+    "accountType": "individualTrust",
+    "investorsWithRoles": [
+      {
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isBeneficiary": "yes"
+      },
+      {
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true,
+        "isBeneficiary": "yes"
+      }
+    ],
+    "additionalShareHoldersAndMembers": [
+      {
+        "persontype": ["beneficiary"],
+        "title": "MR",
+        "firstname": "werewf",
+        "middlename": "wecdffvvr",
+        "lastname": "redwer",
+        "needsShareholder": false,
+        "needsMember": false,
+        "needsBeneficiary": true
+      }
+    ]
+  },
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": true,
+        "isApprover": "true"
+      },
+      {
+        "paymentSetting": "nopayments",
+        "hasRoles": false,
+        "hasApprovers": true,
+        "isApprover": "true"
+      }
+    ],
+    "primarycontact": 0,
+    "adviserName": "Qas Akhtar",
+    "adviserLocation": "New South Wales",
+    "sourceoffunds": "Business income\/earnings"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "account",
+      "bsb": "036081",
+      "accountnumber": "232323232",
+      "nickname": "nick",
+      "directdebitamount": "3434.00",
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "1232.00",
+    "ongoingFees": {
+      "feesComponent": [
+        {
+          "cpiindex": false,
+          "amount": "23432.00",
+          "label": "Dollar fee component",
+          "slidingScaleFeeTier": [
+
+          ]
+        },
+        {
+          "label": "Percentage fee component",
+          "listedSecurities": "0.90",
+          "managedFund": "0.98",
+          "managedPortfolio": "0.99",
+          "cash": "0.97",
+          "termDeposit": "0.99",
+          "slidingScaleFeeTier": [
+
+          ],
+          "valid": true
+        }
+      ],
+      "type": "Ongoing advice fee"
+    }
+  }
+}

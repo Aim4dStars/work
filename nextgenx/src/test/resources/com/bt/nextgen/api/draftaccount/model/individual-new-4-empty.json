@@ -1,0 +1,69 @@
+{
+  "accountType": "individual",
+  "version": "1.0.0",
+  "investors": [{
+    "displayTaxOptions": true,
+    "cismandatory": true,
+    "title": "",
+    "firstname": "",
+    "middlename": "",
+    "lastname": "",
+    "preferredname": "",
+    "formername": "",
+    "gender": "",
+    "mobile": {
+      "value": ""
+    },
+    "email": {
+      "value": ""
+    },
+    "preferredcontact": "",
+    "isvalid": false,
+
+    "accountType": "individual",
+    "alternatename": "",
+    "identitydocument": {},
+    "resaddress": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "residential",
+      "sameasaddress": "0",
+      "valid": false
+    },
+    "postaladdress": {
+      "componentised": false,
+      "country": "AU",
+      "addressType": "postal",
+      "sameasaddress": "0",
+      "valid": false
+    },
+    "taxcountry": "AU",
+    "taxoption": ""
+  }],
+  "accountsettings": {
+    "investorAccountSettings": [{
+      "hasRoles": false,
+      "hasApprovers": false
+    }],
+    "primarycontact": 0,
+    "adviserName": "Paul Folks",
+    "adviserLocation": "South Australia"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+    },
+    "otherLinkedAccount": []
+  },
+  "fees": {
+    "estamount": "0.00",
+    "feeTabEnabled":true,
+    "ongoingFees": {
+      "feesComponent": [],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [],
+      "type": "Licensee advice fee"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Panorama</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  <link rel="dns-prefetch" href="//d3jjhqujexdxuf.cloudfront.net">
+  <script>
+      // save the bootstrap start time, consumed in nw.core.common.clientInfo.service
+      window.bt = { bootstrapBeginTime: new Date().getTime() };
+      // AppD config
+      window['adrum-start-time'] = new Date().getTime();
+      window['adrum-config'] = {
+        resTiming: {
+          clearResTimingOnBeaconSend: true
+        },
+        xhr: {
+          exclude: {
+            urls: [{
+              pattern: 'log\\/v1_0\\/client-info',
+              type: 'regex'
+            }]
+          }
+        }
+      };
+    </script>
+  <script>
+    // Following code snippet will force app to run via kernel when not running in local env.
+    (function(win, doc) {
+      "use strict";
+
+      var LOCAL_HOSTS = [
+        /localhost/,
+        /127\.0\.0\.1/,
+        /10\.[0-9]*\.[0-9]*\.[0-9]*/,
+        /192\.168\.[0-9]*\.[0-9]*/
+      ];
+
+      var HOST = win.location.hostname;
+
+      var INDEX_PAGE = /index[-_.]\w+\.html/g;
+
+      function runningLocally () {
+        return LOCAL_HOSTS.some(function(reg){
+          return reg.test(HOST)
+        });
+      }
+
+      function loadingViaKernel () {
+        try {
+          return (win.self !== win.top && /^BT_PANORAMA_/.test(win.name));
+        } catch (e) {
+          return true;
+        }
+      }
+
+      if (!runningLocally() && !loadingViaKernel()) {
+        doc.location.replace(win.location.href.replace(INDEX_PAGE, ''));
+      }
+    })(window, document);
+  </script>
+  </head>
+  <body>
+    <div class="mw-loading-message loading-message"></div>
+    <div ui-view id="nw-app"></div>
+    <script src="nw.aggregator.init.js?9e24ddd217ae0c86d99d"></script>
+  </body>
+</html>

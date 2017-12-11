@@ -1,0 +1,189 @@
+
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bmrk_list_bmrk" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"
+	xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!-- 2014-08-01 15:14:01.298700000 on afd031k by AVALOQ -->
+
+	<metadata>
+		<empty_rep>
+			<val>false</val>
+		</empty_rep>
+		<current_of_time>
+			<val>2014-08-01T05:14:01.392457000Z</val>
+		</current_of_time>
+	</metadata>
+
+	<def>
+		<version>2.0</version>
+		<rep_def>
+			<style>hira</style>
+			<lang id="1">en</lang>
+			<hira_def>
+				<grp_list>
+					<grp_def>
+						<name>bmrk</name>
+						<hira>1</hira>
+						<has_head>true</has_head>
+						<has_foot>false</has_foot>
+					</grp_def>
+				</grp_list>
+			</hira_def>
+			<row_def>
+				<fld_list>
+					<fld_def>
+						<name>dummy</name>
+						<type>TextFld</type>
+						<lbl></lbl>
+					</fld_def>
+					<fld_def>
+						<name>bmrk_id</name>
+						<type>NrFld</type>
+						<lbl>Benchmark Id</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bmrk_name</name>
+						<type>TextFld</type>
+						<lbl>Benchmark Name</lbl>
+					</fld_def>
+					<fld_def>
+						<name>bmrk_sym</name>
+						<type>TextFld</type>
+						<lbl>Benchmark Symbol</lbl>
+					</fld_def>
+
+				</fld_list>
+			</row_def>
+		</rep_def>
+	</def>
+
+	<data>
+		<bmrk_list>
+			<bmrk>
+				<bmrk_head_list>
+					<bmrk_head id="1" row_type="data" hira="1" level="bmrk.head">
+						<bmrk_id>
+							<val>56388</val>
+						</bmrk_id>
+						<bmrk_name>
+							<annot>
+								<ctx>
+									<type>bmrk</type>
+									<id>56388</id>
+								</ctx>
+							</annot>
+							<val>ASX20</val>
+						</bmrk_name>
+						<bmrk_sym>
+							<val>ASX20</val>
+						</bmrk_sym>
+					</bmrk_head>
+				</bmrk_head_list>
+			</bmrk>
+			<bmrk>
+				<bmrk_head_list>
+					<bmrk_head id="2" row_type="data" hira="1" level="bmrk.head">
+						<bmrk_id>
+							<val>56389</val>
+						</bmrk_id>
+						<bmrk_name>
+							<annot>
+								<ctx>
+									<type>bmrk</type>
+									<id>56389</id>
+								</ctx>
+							</annot>
+							<val>ASX50</val>
+						</bmrk_name>
+						<bmrk_sym>
+							<val>ASX50</val>
+						</bmrk_sym>
+					</bmrk_head>
+				</bmrk_head_list>
+			</bmrk>
+			<bmrk>
+				<bmrk_head_list>
+					<bmrk_head id="3" row_type="data" hira="1" level="bmrk.head">
+						<bmrk_id>
+							<val>56390</val>
+						</bmrk_id>
+						<bmrk_name>
+							<annot>
+								<ctx>
+									<type>bmrk</type>
+									<id>56390</id>
+								</ctx>
+							</annot>
+							<val>ASX100</val>
+						</bmrk_name>
+						<bmrk_sym>
+							<val>ASX100</val>
+						</bmrk_sym>
+					</bmrk_head>
+				</bmrk_head_list>
+			</bmrk>
+			<bmrk>
+				<bmrk_head_list>
+					<bmrk_head id="4" row_type="data" hira="1" level="bmrk.head">
+						<bmrk_id>
+							<val>56391</val>
+						</bmrk_id>
+						<bmrk_name>
+							<annot>
+								<ctx>
+									<type>bmrk</type>
+									<id>56391</id>
+								</ctx>
+							</annot>
+							<val>50% ASX20 + 50% ASX100</val>
+						</bmrk_name>
+						<bmrk_sym>
+							<val>ASX20_ASX100</val>
+						</bmrk_sym>
+					</bmrk_head>
+				</bmrk_head_list>
+			</bmrk>
+			<bmrk>
+				<bmrk_head_list>
+					<bmrk_head id="5" row_type="data" hira="1" level="bmrk.head">
+						<bmrk_id>
+							<val>56558</val>
+						</bmrk_id>
+						<bmrk_name>
+							<annot>
+								<ctx>
+									<type>bmrk</type>
+									<id>56558</id>
+								</ctx>
+							</annot>
+							<val>EQR Concentrated Core Equities</val>
+						</bmrk_name>
+						<bmrk_sym>
+							<val>EQR_CONC_CORE_EQ</val>
+						</bmrk_sym>
+					</bmrk_head>
+				</bmrk_head_list>
+			</bmrk>
+			<bmrk>
+				<bmrk_head_list>
+					<bmrk_head id="6" row_type="data" hira="1" level="bmrk.head">
+						<bmrk_id>
+							<val>56603</val>
+						</bmrk_id>
+						<bmrk_name>
+							<annot>
+								<ctx>
+									<type>bmrk</type>
+									<id>56603</id>
+								</ctx>
+							</annot>
+							<val>EQR Core Equities</val>
+						</bmrk_name>
+						<bmrk_sym>
+							<val>EQR_CORE_EQ</val>
+						</bmrk_sym>
+					</bmrk_head>
+				</bmrk_head_list>
+			</bmrk>
+		</bmrk_list>
+
+	</data>
+</rep:rep>

@@ -1,0 +1,34 @@
+<mp_cton:mp_cton_rsp xmlns:mp_cton="http://btfin.com/ABS/TrxService/MP_Cton/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+  <hdr>
+    <req_id>mp024</req_id>
+  </hdr>
+  <data>
+  </data>
+  <rsp>
+    <valid>
+      <action>do</action>
+      <err_list>
+        <err>
+          <type>ui</type>
+          <id>10059</id>
+          <extl_key>btfg$inv_asset_code</extl_key>
+          <err_msg>Invalid asset code: QWERTY</err_msg>
+          <err_par_list>
+            <par_list>
+              <par>
+                <val>QWERTY</val>
+              </par>
+            </par_list>
+          </err_par_list>
+        </err>
+        <err>
+          <type>ui</type>
+          <id>10059</id>
+          <extl_key>btfg$asset_alloc_asset_class_chk</extl_key>
+          <err_msg>asset class error</err_msg>
+          <err_par_list/>
+        </err>
+      </err_list>
+    </valid>
+  </rsp>
+</mp_cton:mp_cton_rsp>

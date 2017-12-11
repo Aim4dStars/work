@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 (x64) (http://www.altova.com) by Mark Chan (BT Financial) -->
+<definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:paysvc="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0" xmlns:payrsp="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentResponse/V1_0" xmlns:payreq="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentRequest/V1_0" xmlns:btfault="ns://btfin.com/SharedServices/Integration/Common/Response/BTFaultDetailsType/V3" xmlns:esbheader="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:ns1="http://www.w3.org/2000/09/xmldsig#" xmlns:ns2="http://www.w3.org/2005/08/addressing" name="PaymentService" targetNamespace="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0">
+	<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+	<types>
+		<xsd:schema targetNamespace="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0" xmlns:paysvc="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0">
+			<xsd:import schemaLocation="PaymentRequestV1_0.xsd" namespace="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentRequest/V1_0"/>
+			<xsd:import schemaLocation="PaymentReplyV1_0.xsd" namespace="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentResponse/V1_0"/>
+			<xsd:import schemaLocation="../../../../Integration/Common/Response/V3/BTFaultDetailsTypeV3.xsd" namespace="ns://btfin.com/SharedServices/Integration/Common/Response/BTFaultDetailsType/V3"/>
+			<xsd:import schemaLocation="../../../../../../External/W3C/ws-addr.xsd" namespace="http://www.w3.org/2005/08/addressing"/>
+			<xsd:import schemaLocation="../../../../../../External/GESB/ESBHeader/ESBHeader_v3.xsd" namespace="http://www.westpac.com.au/gn/utility/xsd/esbHeader/v3/"/>
+		</xsd:schema>
+	</types>
+	<message name="faultMessage">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="SOAPServiceErrorMsg" element="btfault:BTFaultDetails"/>
+	</message>
+	<message name="createPaymentInstructionIn">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="CreatePaymentInstructionRequestMsg" element="payreq:CreatePaymentInstructionRequestMsg"/>
+	</message>
+	<message name="createPaymentInstructionOut">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="CreatePaymentInstructionResponseMsg" element="payrsp:CreatePaymentInstructionResponseMsg"/>
+	</message>
+	<message name="validatePaymentInstructionIn">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="ValidatePaymentInstructionRequestMsg" element="payreq:ValidatePaymentInstructionRequestMsg"/>
+	</message>
+	<message name="validatePaymentInstructionOut">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="ValidatePaymentInstructionResponseMsg" element="payrsp:ValidatePaymentInstructionResponseMsg"/>
+	</message>
+	<message name="validateBPayDetailsIn">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="ValidateBPayDetailsRequestMsg" element="payreq:ValidateBPayDetailsRequestMsg"/>
+	</message>
+	<message name="validateBPayDetailsOut">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="ValidateBPayDetailsResponseMsg" element="payrsp:ValidateBPayDetailsResponseMsg"/>
+	</message>	
+	<message name="searchPaymentInstructionsIn">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="SearchPaymentInstructionsRequestMsg" element="payreq:SearchPaymentInstructionsRequestMsg"/>
+	</message>
+	<message name="searchPaymentInstructionsOut">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<part name="ESBHeader" element="esbheader:esbHeader"/>
+		<part name="SearchPaymentInstructionsResponseMsg" element="payrsp:SearchPaymentInstructionsResponseMsg"/>
+	</message>
+	<portType name="HTTPInterface">
+		<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+		<operation name="CreatePaymentInstruction">
+			<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+			<input message="paysvc:createPaymentInstructionIn" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/CreatePaymentInstructionRequest"/>
+			<output message="paysvc:createPaymentInstructionOut" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/CreatePaymentInstructionResponse"/>
+			<fault name="BTFault" message="paysvc:faultMessage" wsaw:Action="http://www.w3.org/2005/08/addressing/fault"/>
+		</operation>
+		<operation name="ValidatePaymentInstruction">
+			<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+			<input message="paysvc:validatePaymentInstructionIn" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/ValidatePaymentInstructionRequest"/>
+			<output message="paysvc:validatePaymentInstructionOut" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/ValidatePaymentInstructionResponse"/>
+			<fault name="BTFault" message="paysvc:faultMessage" wsaw:Action="http://www.w3.org/2005/08/addressing/fault"/>
+		</operation>
+		<operation name="ValidateBPayDetails">
+			<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+			<input message="paysvc:validateBPayDetailsIn" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/ValidateBPayDetailsRequest"/>
+			<output message="paysvc:validateBPayDetailsOut" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/ValidateBPayDetailsResponse"/>
+			<fault name="BTFault" message="paysvc:faultMessage" wsaw:Action="http://www.w3.org/2005/08/addressing/fault"/>
+		</operation>		
+		<operation name="SearchPaymentInstructions">
+			<documentation xmlns="http://schemas.xmlsoap.org/wsdl/"/>
+			<input message="paysvc:searchPaymentInstructionsIn" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/SearchPaymentInstructionsRequest"/>
+			<output message="paysvc:searchPaymentInstructionsOut" wsaw:Action="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/SearchPaymentInstructionsResponse"/>
+			<fault name="BTFault" message="paysvc:faultMessage" wsaw:Action="http://www.w3.org/2005/08/addressing/fault"/>
+		</operation>
+	</portType>
+	<binding name="HTTPBinding" type="paysvc:HTTPInterface">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<operation name="CreatePaymentInstruction">
+			<soap:operation soapAction="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/CreatePaymentInstructionRequest" soapActionRequired="true" style="document"/>
+			<input>
+				<soap:header message="paysvc:createPaymentInstructionIn" part="ESBHeader" use="literal"/>
+				<soap:body parts="CreatePaymentInstructionRequestMsg" use="literal"/>
+			</input>
+			<output>
+				<soap:header message="paysvc:createPaymentInstructionOut" part="ESBHeader" use="literal"/>
+				<soap:body parts="CreatePaymentInstructionResponseMsg" use="literal"/>
+			</output>
+			<fault name="BTFault">
+				<soap:fault name="BTFault" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="ValidatePaymentInstruction">
+			<soap:operation soapAction="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/ValidatePaymentInstructionRequest" soapActionRequired="true" style="document"/>
+			<input>
+				<soap:header message="paysvc:validatePaymentInstructionIn" part="ESBHeader" use="literal"/>
+				<soap:body parts="ValidatePaymentInstructionRequestMsg" use="literal"/>
+			</input>
+			<output>
+				<soap:header message="paysvc:validatePaymentInstructionOut" part="ESBHeader" use="literal"/>
+				<soap:body parts="ValidatePaymentInstructionResponseMsg" use="literal"/>
+			</output>
+			<fault name="BTFault">
+				<soap:fault name="BTFault" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="ValidateBPayDetails">
+			<soap:operation soapAction="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/ValidateBPayDetailsRequest" soapActionRequired="true" style="document"/>
+			<input>
+				<soap:header message="paysvc:validateBPayDetailsIn" part="ESBHeader" use="literal"/>
+				<soap:body parts="ValidateBPayDetailsRequestMsg" use="literal"/>
+			</input>
+			<output>
+				<soap:header message="paysvc:validateBPayDetailsOut" part="ESBHeader" use="literal"/>
+				<soap:body parts="ValidateBPayDetailsResponseMsg" use="literal"/>
+			</output>
+			<fault name="BTFault">
+				<soap:fault name="BTFault" use="literal"/>
+			</fault>
+		</operation>
+		<operation name="SearchPaymentInstructions">
+			<soap:operation soapAction="ns://btfin.com/SharedServices/Common/Payment/PaymentService/V1_0/HTTPInterface/SearchPaymentInstructionsRequest" soapActionRequired="true" style="document"/>
+			<input>
+				<soap:header message="paysvc:searchPaymentInstructionsIn" part="ESBHeader" use="literal"/>
+				<soap:body parts="SearchPaymentInstructionsRequestMsg" use="literal"/>
+			</input>
+			<output>
+				<soap:header message="paysvc:searchPaymentInstructionsOut" part="ESBHeader" use="literal"/>
+				<soap:body parts="SearchPaymentInstructionsResponseMsg" use="literal"/>
+			</output>
+			<fault name="BTFault">
+				<soap:fault name="BTFault" use="literal"/>
+			</fault>
+		</operation>
+	</binding>
+	<service name="PaymentService">
+		<port name="PaymentServiceHTTPSOAP" binding="paysvc:HTTPBinding">
+			<soap:address location="https://someDummyLocation/"/>
+		</port>
+	</service>
+</definitions>

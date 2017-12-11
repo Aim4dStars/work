@@ -1,0 +1,273 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg
+                xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+                    <rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_clt_hldg"
+                             xmlns:repb="http://www.avaloq.com/abs/screen_rep/base"
+                             xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def"
+                             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                        <!-- 2016-10-04 15:53:31.576805000 on afp020e by 201613232 -->
+
+                        <metadata>
+                            <empty_rep>
+                                <val>false</val>
+                            </empty_rep>
+                            <ref_date>
+                                <val>2016-09-27</val>
+                            </ref_date>
+                        </metadata>
+
+                        <def>
+                            <version>2.0</version>
+                            <rep_def>
+                                <style>hira</style>
+                                <lang id="1">en</lang>
+                                <hira_def>
+                                    <grp_list>
+                                        <grp_def>
+                                            <name>asset</name>
+                                            <hira>1</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                        <grp_def>
+                                            <name>bp</name>
+                                            <hira>2</hira>
+                                            <has_head>true</has_head>
+                                            <has_foot>false</has_foot>
+                                        </grp_def>
+                                    </grp_list>
+                                </hira_def>
+                                <row_def>
+                                    <fld_list>
+                                        <fld_def>
+                                            <name>dummy</name>
+                                            <type>TextFld</type>
+                                            <lbl></lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>asset_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Asset ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>price_date</name>
+                                            <type>DateTimeFld</type>
+                                            <lbl>Price Date</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>price</name>
+                                            <type>NrFld</type>
+                                            <lbl>Price</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>bp_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>BP ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>avsr_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Adviser ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>prod_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Product ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>pos_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>POS ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>acc_type_id</name>
+                                            <type>NrFld</type>
+                                            <lbl>Account Type ID</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>qty</name>
+                                            <type>NrFld</type>
+                                            <lbl>Quantity</lbl>
+                                        </fld_def>
+                                        <fld_def>
+                                            <name>curr_val_ref</name>
+                                            <type>NrFld</type>
+                                            <lbl>Value</lbl>
+                                        </fld_def>
+
+                                    </fld_list>
+                                </row_def>
+                            </rep_def>
+                        </def>
+
+                        <data>
+                            <asset_list>
+                                <asset>
+                                    <asset_head_list>
+                                        <asset_head id="2-1" row_type="title" hira="1" level="asset.head">
+                                            <asset_id>
+                                                <annot>
+                                                    <displ_text>National Australia Bank Limited</displ_text>
+                                                    <ctx>
+                                                        <type>asset</type>
+                                                        <id>110294</id>
+                                                    </ctx>
+                                                </annot>
+                                                <val>110294</val>
+                                            </asset_id>
+                                            <price_date>
+                                                <val>2016-09-27T00:00:00+10:00</val>
+                                            </price_date>
+                                            <price>
+                                                <val>21.43</val>
+                                            </price>
+                                        </asset_head>
+                                    </asset_head_list>
+                                    <bp_list>
+                                        <bp>
+                                            <bp_head_list>
+                                                <bp_head id="4-2" row_type="data" hira="2" level="bp.head">
+                                                    <bp_id>
+                                                        <annot>
+                                                            <displ_text>person-120_8729person-120_8729person-120_8729
+                                                            </displ_text>
+                                                            <ctx>
+                                                                <type>bp</type>
+                                                                <id>57207</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>57207</val>
+                                                    </bp_id>
+                                                    <avsr_id>
+                                                        <annot>
+                                                            <displ_text>OE Michelle Summers (Adviser Position)
+                                                            </displ_text>
+                                                            <ctx>
+                                                                <type>person</type>
+                                                                <id>100756</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>100756</val>
+                                                    </avsr_id>
+                                                    <prod_id>
+                                                        <annot>
+                                                            <displ_text>BT Panorama Investments</displ_text>
+                                                            <ctx>
+                                                                <type>prod</type>
+                                                                <id>108285</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>108285</val>
+                                                    </prod_id>
+                                                    <pos_id>
+                                                        <annot>
+                                                            <displ_text>CLT.2857.PORTF_CASH National Australia Bank
+                                                                Limited AUD CCC.HSBC
+                                                            </displ_text>
+                                                            <ctx>
+                                                                <type>pos</type>
+                                                                <id>416524</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>416524</val>
+                                                    </pos_id>
+                                                    <acc_type_id>
+                                                        <annot>
+                                                            <displ_text>Individual</displ_text>
+                                                            <ctx>
+                                                                <type>code_obj_class</type>
+                                                                <id>20611</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>20611</val>
+                                                    </acc_type_id>
+                                                    <qty>
+                                                        <val>1242</val>
+                                                    </qty>
+                                                    <curr_val_ref>
+                                                        <val>26616.06</val>
+                                                    </curr_val_ref>
+                                                </bp_head>
+                                            </bp_head_list>
+                                        </bp>
+                                        <bp>
+                                            <bp_head_list>
+                                                <bp_head id="6-3" row_type="data" hira="2" level="bp.head">
+                                                    <bp_id>
+                                                        <annot>
+                                                            <displ_text>person-121_3537person-121_3537person-121_3537
+                                                            </displ_text>
+                                                            <ctx>
+                                                                <type>bp</type>
+                                                                <id>64114</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>64114</val>
+                                                    </bp_id>
+                                                    <avsr_id>
+                                                        <annot>
+                                                            <displ_text>OE Michelle Summers (Adviser Position)
+                                                            </displ_text>
+                                                            <ctx>
+                                                                <type>person</type>
+                                                                <id>100756</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>100756</val>
+                                                    </avsr_id>
+                                                    <prod_id>
+                                                        <annot>
+                                                            <displ_text>BT Panorama Investments</displ_text>
+                                                            <ctx>
+                                                                <type>prod</type>
+                                                                <id>108285</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>108285</val>
+                                                    </prod_id>
+                                                    <pos_id>
+                                                        <annot>
+                                                            <displ_text>CLT.3112.PORTF_CASH National Australia Bank
+                                                                Limited AUD CCC.HSBC
+                                                            </displ_text>
+                                                            <ctx>
+                                                                <type>pos</type>
+                                                                <id>413824</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>413824</val>
+                                                    </pos_id>
+                                                    <acc_type_id>
+                                                        <annot>
+                                                            <displ_text>SMSF</displ_text>
+                                                            <ctx>
+                                                                <type>code_obj_class</type>
+                                                                <id>20615</id>
+                                                            </ctx>
+                                                        </annot>
+                                                        <val>20615</val>
+                                                    </acc_type_id>
+                                                    <qty>
+                                                        <val>498</val>
+                                                    </qty>
+                                                    <curr_val_ref>
+                                                        <val>10672.14</val>
+                                                    </curr_val_ref>
+                                                </bp_head>
+                                            </bp_head_list>
+                                        </bp>
+                                    </bp_list>
+                                </asset>
+                            </asset_list>
+
+                        </data>
+                    </rep:rep>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

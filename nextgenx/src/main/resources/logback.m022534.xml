@@ -1,0 +1,85 @@
+<included>
+    <!--<appender name="FILE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./nextgen.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>
+        </encoder>
+        <triggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>100MB</MaxFileSize>
+        </triggeringPolicy>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./nextgen-%d{yyyyMMdd}.log.zip</fileNamePattern>
+            <maxHistory>1</maxHistory>
+        </rollingPolicy>
+    </appender>-->
+
+    <appender name="STDOUT-WIRE" class="ch.qos.logback.core.ConsoleAppender">
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>PERF</marker>
+            </evaluator>
+            <onMatch>DENY</onMatch>
+        </filter>
+        <encoder>
+            <!-- <Pattern>%d{HH:mm:ss.SSS} [%X{header.host:-UNKNOWN}] [%X{header.tam_session_index:-UNKNOWN}] [%X{header.iv-user:-Unauthenticated}] [%X{container.sessionid:-UNKNOWN}] %-5level %logger{36} - %msg%n</Pattern> -->
+            <Pattern>%msg%n</Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE-WIRE"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>./nextgen.log</file>
+        <append>true</append>
+        <filter class="ch.qos.logback.core.filter.EvaluatorFilter">
+            <evaluator class="ch.qos.logback.classic.boolex.OnMarkerEvaluator">
+                <marker>PERF</marker>
+            </evaluator>
+            <onMatch>DENY</onMatch>
+        </filter>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <!-- <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </Pattern>  -->
+            <Pattern>%msg%n</Pattern>
+        </encoder>
+        <triggeringPolicy
+                class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>2MB</MaxFileSize>
+        </triggeringPolicy>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>./nextgen-%d{yyyyMMdd}.log.zip</fileNamePattern>
+            <maxHistory>7</maxHistory> <!-- This keeps six months of archives  http://logback.qos.ch/manual/appenders.html#tbrpMaxHistory -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>200MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+        <!--<appender-ref ref="AUDIT"/>-->
+        <!--<appender-ref ref="PERF"/>-->
+        <appender-ref ref="FILE" />
+    </root>
+    <logger name="com.bt.nextgen.core.webservice.interceptor.ClientPayloadLoggingInterceptor" level="WARN"/>
+    <logger name="com.bt.nextgen.login.util.SamlUtil" level="DEBUG"/>
+    <logger name="com.btfin.panorama.core.security.saml.SamlToken" level="DEBUG"/>
+    <logger name="com.bt.nextgen.core.web.controller.APIReportController" level="DEBUG"/>
+
+    <!-- <logger name="httpclient.wire" level="TRACE"  additivity="true"> -->
+    <logger name="org.apache.http.wire" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE-WIRE" />
+        <appender-ref ref="STDOUT-WIRE" />
+    </logger>
+
+    <!-- <logger name="org.apache.http" level="DEBUG"/> -->
+    <!--<logger name="org.apache.http.impl.conn" level="DEBUG"/>-->
+    <!--<logger name="org.apache.http.wire" level="ERROR"/>-->
+    <logger name="org.springframework.web" level="DEBUG">
+        <appender-ref ref="FILE-WIRE" />
+        <appender-ref ref="STDOUT-WIRE" />
+    </logger>
+
+</included>

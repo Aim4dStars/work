@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?><env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_bp.bp" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base">
+	<metadata>
+			<empty_rep>
+			      <val>false</val>
+			</empty_rep>
+		</metadata>
+  <def>
+    <version>1.0</version>
+    <report_def>
+      <style>flat</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <group_list>
+          <group_def><name>bp</name><hira>1</hira><hasHead>true</hasHead><hasFoot>false</hasFoot></group_def>
+        </group_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>bp</name>
+          <type>textField</type>
+          <label>bp</label>
+        </fld_def>
+        <fld_def>
+          <name>head_type</name>
+          <type>textField</type>
+          <label>head_type</label>
+        </fld_def>
+        <fld_def>
+          <name>name_abbr</name>
+          <type>textField</type>
+          <label>name_abbr</label>
+        </fld_def>
+        <fld_def>
+          <name>open_date</name>
+          <type>dateTimeField</type>
+          <label>open_date</label>
+        </fld_def>
+        <fld_def>
+          <name>sign_date</name>
+          <type>dateTimeField</type>
+          <label>sign_date</label>
+        </fld_def>
+        <fld_def>
+          <name>adviser</name>
+          <type>textField</type>
+          <label>adviser</label>
+        </fld_def>
+        <fld_def>
+          <name>badge</name>
+          <type>textField</type>
+          <label>badge</label>
+        </fld_def>
+        <fld_def>
+          <name>ref_curry</name>
+          <type>textField</type>
+          <label>ref_curry</label>
+        </fld_def>
+        <fld_def>
+          <name>owner_type</name>
+          <type>textField</type>
+          <label>owner_type</label>
+        </fld_def>
+        <fld_def>
+          <name>pri_ctact_person</name>
+          <type>textField</type>
+          <label>pri_ctact_person</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_is_pri</name>
+          <type>booleanField</type>
+          <label>linked_acc_is_pri</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_bsb</name>
+          <type>textField</type>
+          <label>linked_acc_bsb</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_nr</name>
+          <type>textField</type>
+          <label>linked_acc_nr</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_curry</name>
+          <type>textField</type>
+          <label>linked_acc_curry</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_limit</name>
+          <type>numberField</type>
+          <label>linked_acc_limit</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_name</name>
+          <type>textField</type>
+          <label>linked_acc_name</label>
+        </fld_def>
+        <fld_def>
+          <name>linked_acc_nick_name</name>
+          <type>textField</type>
+          <label>linked_acc_nick_name</label>
+        </fld_def>
+        <fld_def>
+          <name>owner</name>
+          <type>textField</type>
+          <label>owner</label>
+        </fld_def>
+        <fld_def>
+          <name>owner_rel_type</name>
+          <type>textField</type>
+          <label>owner_rel_type</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_payee_payee_ident</name>
+          <type>textField</type>
+          <label>reg_payee_payee_ident</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_payee_payee_acc</name>
+          <type>textField</type>
+          <label>reg_payee_payee_acc</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_payee_acc_name</name>
+          <type>textField</type>
+          <label>reg_payee_acc_name</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_payee_acc_nick_name</name>
+          <type>textField</type>
+          <label>reg_payee_acc_nick_name</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_biller_payee_ident</name>
+          <type>textField</type>
+          <label>reg_biller_payee_ident</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_biller_payee_acc</name>
+          <type>textField</type>
+          <label>reg_biller_payee_acc</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_biller_acc_name</name>
+          <type>textField</type>
+          <label>reg_biller_acc_name</label>
+        </fld_def>
+        <fld_def>
+          <name>reg_biller_acc_nick_name</name>
+          <type>textField</type>
+          <label>reg_biller_acc_nick_name</label>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </report_def>
+  </def>
+
+  <data>
+  <bp_list>
+    <bp>
+      <bp_head_list>
+     <!-- <bp_head id="1" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>bp</val></head_type>
+          <open_date><val val="2011-01-01T00:00:00">01.01.2011</val></open_date>
+          <sign_date><val val="2011-01-01T00:00:00">01.01.2011</val></sign_date>
+          <adviser><annot><ctxType>person</ctxType><ctxId>11806</ctxId></annot><val>Salminen Monica</val></adviser>
+          <badge><val>14802</val></badge>
+          <ref_curry><annot><ctxType>curry</ctxType><ctxId>1009</ctxId></annot><val>AUD</val></ref_curry>
+          <pri_ctact_person><annot><ctxType>person</ctxType><ctxId>11861</ctxId></annot><val>Taylor Martin</val></pri_ctact_person>
+      </bp_head>
+      <bp_head id="2" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>owner</val></head_type>
+          <owner><annot><ctxType>person</ctxType><ctxId>11861</ctxId></annot><val>Taylor Martin</val></owner>
+          <person_type><annot><ctxType>code_obj_sub_type</ctxType><ctxId>120</ctxId></annot><val>Natural person</val></person_type>
+          <owner_rel_type><annot><ctxType>code_bp_person_rel_type</ctxType><ctxId>1</ctxId></annot><val>Account owner</val></owner_rel_type>
+      </bp_head>  -->
+      <bp_head id="3" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>linked_acc</val></head_type>
+          <linked_acc_is_pri><val val="+">1</val></linked_acc_is_pri>
+          <linked_acc_bsb><val>012006</val></linked_acc_bsb>
+          <linked_acc_nr><val>2222222</val></linked_acc_nr>
+          <linked_acc_curry><annot><ctxType>curry</ctxType><ctxId>1009</ctxId></annot><val>AUD</val></linked_acc_curry>
+          <linked_acc_limit><val val="100000">100000</val></linked_acc_limit>
+          <linked_acc_name><val>linkedAcc</val></linked_acc_name>
+          <linked_acc_nick_name><val>linkedNick</val></linked_acc_nick_name>
+      </bp_head>
+      <bp_head id="3" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>linked_acc</val></head_type>
+          <linked_acc_is_pri><val >0</val></linked_acc_is_pri>
+          <linked_acc_bsb><val>012003</val></linked_acc_bsb>
+          <linked_acc_nr><val>22212222</val></linked_acc_nr>
+          <linked_acc_curry><annot><ctxType>curry</ctxType><ctxId>1009</ctxId></annot><val>AUD</val></linked_acc_curry>
+          <linked_acc_limit><val val="100000">100000</val></linked_acc_limit>
+          <linked_acc_name><val>AlinkedAcc</val></linked_acc_name>
+          <linked_acc_nick_name><val>AlinkedNick</val></linked_acc_nick_name>
+      </bp_head>
+      <bp_head id="3" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>linked_acc</val></head_type>
+          <linked_acc_is_pri><val >0</val></linked_acc_is_pri>
+          <linked_acc_bsb><val>012003</val></linked_acc_bsb>
+          <linked_acc_nr><val>22212432</val></linked_acc_nr>
+          <linked_acc_curry><annot><ctxType>curry</ctxType><ctxId>1009</ctxId></annot><val>AUD</val></linked_acc_curry>
+          <linked_acc_limit><val val="100000">100000</val></linked_acc_limit>
+          <linked_acc_name><val>BlinkedAcc</val></linked_acc_name>
+          <linked_acc_nick_name><val>BlinkedNick</val></linked_acc_nick_name>
+      </bp_head>
+      <bp_head id="4" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>reg_payee</val></head_type>
+          <reg_payee_payee_ident><val>012006</val></reg_payee_payee_ident>
+          <reg_payee_payee_acc><val>1111111</val></reg_payee_payee_acc>
+          <reg_payee_acc_name><val>payanyoneAcc</val></reg_payee_acc_name>
+          <reg_payee_acc_nick_name><val>payanyonenick</val></reg_payee_acc_nick_name>
+      </bp_head>
+      <bp_head id="5" rowType="data" hira="0" level="bp.head">
+          <bp><annot><ctxType>bp</ctxType><ctxId>12147</ctxId></annot><val>Taylor Martin</val></bp>
+          <head_type><val>reg_biller</val></head_type>
+          <reg_biller_payee_ident><val>3061</val></reg_biller_payee_ident>
+          <reg_biller_payee_acc><val>88641903000121</val></reg_biller_payee_acc>
+          <reg_biller_acc_name><val>bpayAcc</val></reg_biller_acc_name>
+          <reg_biller_acc_nick_name><val>bpayNick</val></reg_biller_acc_nick_name>
+      </bp_head>
+      </bp_head_list>
+    </bp>
+  </bp_list>
+
+  </data>
+</rep:rep>
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

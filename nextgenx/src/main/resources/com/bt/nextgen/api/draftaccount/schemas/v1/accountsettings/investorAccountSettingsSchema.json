@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "javaType" : "com.bt.nextgen.api.draftaccount.schemas.v1.accountsettings.InvestorAccountSettings",
+  "properties": {
+    "paymentSetting": {
+      "$ref": "../base/paymentAuthorityEnum.json"
+    },
+    "hasRoles": {
+      "type": "boolean"
+    },
+    "hasApprovers": {
+      "type": "boolean"
+    },
+    "role": {
+      "$ref": "../base/investorRoleTypeEnum.json",
+      "description": "using the Lower case values from investorRoleTypeEnum"
+    },
+    "isApprover": {
+      "$ref": "../base/booleanTypeEnum.json",
+      "description": "this field indicates if this investor is an 'approver' - possible values: 'true' or 'false'"
+    }
+  },
+  "additionalProperties": false
+}

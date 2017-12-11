@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+        <ns2:UpdatePaymentInstructionResponseMsgType xmlns:ns2="ns://btfin.com/nextgen/services/schemas" xmlns:ns3="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentResponse/V1_0" xmlns:ns4="ns://btfin.com/SharedServices/Common/Payment/PaymentService/PaymentRequest/V1_0" xmlns:ns5="ns://btfin.com/SharedServices/Common/ProductDataTypes/V1_1" xmlns:ns6="ns://btfin.com/SharedServices/Integration/Common/Response/ErrorResponseType/V3" xmlns:ns7="ns://btfin.com/SharedServices/Common/ForeignExchange/V1_0">
+            <Status>Success</Status>
+            <ResponseDetails>
+                <SuccessResponse>
+                    <PaymentInstruction>
+                        <PaymentID>XX</PaymentID>
+                        <PaymentCategory>XXCategory</PaymentCategory>
+                        <PaymentSubCategory>XXSubCategory</PaymentSubCategory>
+                        <PaymentCreationDateTime>2001-12-21T00:00:00.000+11:00</PaymentCreationDateTime>
+                        <PaymentAmount>100.00</PaymentAmount>
+                        <PaymentReferenceNumber>XXX</PaymentReferenceNumber>
+                        <PaymentRemitterIdentifier>XXX</PaymentRemitterIdentifier>
+                    </PaymentInstruction>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns2:UpdatePaymentInstructionResponseMsgType>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

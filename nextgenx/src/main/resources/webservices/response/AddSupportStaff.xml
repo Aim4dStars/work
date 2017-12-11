@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<supportStaff>
+    <adviserId>11840</adviserId>
+    <firstName>samir</firstName>
+    <lastName>bist</lastName>
+    <mobile>9868214732</mobile>
+    <email>a.b@gmail.com</email>
+    <dob>01 Oct 2013</dob>
+    <permissionType>Inherit as adviser</permissionType>
+    <permissionDesc>They’ll be able to do what you can do.</permissionDesc>
+    <suppStaffType>Admin Assitant</suppStaffType>
+    <gender>Male</gender>
+</supportStaff>

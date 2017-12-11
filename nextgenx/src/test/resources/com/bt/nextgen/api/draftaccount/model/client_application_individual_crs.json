@@ -1,0 +1,138 @@
+{
+    "version": "1.0.0",
+    "accountType": "individual",
+    "investors": [
+      {
+        "displayTaxOptions": true,
+        "cismandatory": true,
+        "title": "MR",
+        "firstname": "test",
+        "middlename": "",
+        "lastname": "one",
+        "preferredname": "",
+        "formername": "",
+        "dateofbirth": "11\/11\/1990",
+        "gender": "male",
+        "mobile": {
+          "value": ""
+        },
+        "email": {
+          "value": ""
+        },
+        "preferredcontact": "",
+        "isvalid": false,
+        "accountType": "individual",
+        "alternatename": "",
+        "wealthsource": "Business income\/earnings",
+        "sameasresaddress": "true",
+        "taxdetails": {
+        "ausTaxDetails": {
+          "taxOption": {
+            "value": "Tax File Number or exemption not provided",
+            "valid": true
+          },
+          "exemptionReason": {
+            "valid": true
+          },
+          "tfn": {
+            "valid": false
+          },
+          "isTaxCountryAus": {
+            "value": true,
+            "valid": true
+          }
+        },
+        "isOverseasTaxRes": {
+          "value": true,
+          "valid": true
+        },
+        "overseasTaxDetails": [
+          {
+            "overseasTaxCountry": {
+              "value": "AL",
+              "valid": true
+            },
+            "tinOption": {
+              "value": "Exemption Reason provided",
+              "valid": true
+            },
+            "tinExemptionReason": {
+              "value": "btfg$tin_pend",
+              "valid": true
+            },
+            "tin": {
+              "valid": true
+            }
+          },
+          {
+            "overseasTaxCountry": {
+              "value": "DZ",
+              "valid": true
+            },
+            "tinOption": {
+              "value": "Exemption Reason provided",
+              "valid": true
+            },
+            "tinExemptionReason": {
+              "value": "btfg$tin_never_iss",
+              "valid": true
+            },
+            "tin": {
+              "valid": true
+            }
+          }
+        ]
+      },
+        "identitydocument": {
+          
+        },
+        "resaddressv2": {
+          "country": "AU",
+          "sameasaddress": "0",
+          "addressType": "residential",
+          "DisplayText": "",
+          "valid": false
+        },
+        "postaladdressv2": {
+          "country": "AU",
+          "sameasaddress": "0",
+          "addressType": "postal",
+          "DisplayText": "",
+          "valid": false
+        },
+        "taxcountry": "AU",
+        "taxoption": ""
+      }
+    ],
+    "accountsettings": {
+      "investorAccountSettings": [
+        {
+          "hasRoles": false,
+          "hasApprovers": false
+        }
+      ],
+      "primarycontact": 0,
+      "adviserName": "Edward Revis",
+      "adviserLocation": "New South Wales"
+    },
+    "linkedaccounts": {
+      "primaryLinkedAccount": {
+        
+      },
+      "otherLinkedAccount": [
+        
+      ]
+    },
+    "fees": {
+      "estamount": "0.00",
+      "ongoingFees": {
+        "feesComponent": [
+          
+        ],
+        "type": "Ongoing advice fee"
+      }
+    }
+	}
+  
+
+

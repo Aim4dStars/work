@@ -1,0 +1,71 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header/>
+    <env:Body>
+        <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+            <ResponseDetails>
+                <SuccessResponse>
+<!-- 2016-09-15T09:50:28.498659000Z on NGWD1 by 201664770 -->
+<au_sa_pens:au_sa_pens_rsp xmlns:au_sa_pens="http://btfin.com/ABS/TrxService/AuSaPens/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hdr>
+        <req_id>NG-001.91a964da-6e27-494d-96ac-772be1e5355d.00000000402.000000002</req_id>
+    </hdr>
+    <data>
+        <pens_bp_id>
+            <annot>
+                <displ_text>Pension Non Commenced</displ_text>
+                <ctx>
+                    <type>obj_bp</type>
+                    <id>465487</id>
+                </ctx>
+            </annot>
+            <val>465487</val>
+        </pens_bp_id>
+        <cond_of_release_id>
+            <annot>
+                <displ_text>Attaining Age 65</displ_text>
+                <ctx>
+                    <type>code_au_sa_cond_of_release</type>
+                    <id>2</id>
+                </ctx>
+            </annot>
+            <val>2</val>
+        </cond_of_release_id>
+        <pens_type_id>
+            <annot>
+                <displ_text>Standard</displ_text>
+                <ctx>
+                    <type>code_au_tax_bp_sa_pens_type</type>
+                    <id>1</id>
+                </ctx>
+            </annot>
+            <val>1</val>
+        </pens_type_id>
+        <prc_info>
+            <val>Processed</val>
+        </prc_info>
+    </data>
+    <rsp>
+        <exec>
+            <action>do</action>
+            <err_list>
+                <err>
+                    <type>ui</type>
+                    <id>245001</id>
+                    <err_msg>Australian Tax cannot be booked due to its invalid status: Invalid: Member must be aged 65 or over</err_msg>
+                    <err_par_list>
+                        <par_list>
+                            <par>
+                                <val>AU_TAX_STATUS.182</val>
+                            </par>
+                        </par_list>
+                    </err_par_list>
+                </err>
+            </err_list>
+        </exec>
+    </rsp>
+</au_sa_pens:au_sa_pens_rsp>
+                </SuccessResponse>
+            </ResponseDetails>
+        </ns3:AvaloqGatewayResponseMsg>
+    </env:Body>
+</env:Envelope>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C9C9C9;stroke-width:2;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#0195C8;stroke-width:2;stroke-miterlimit:10;}
+	.st2{fill:#C9C9C9;}
+	.st3{fill:#0195C8;}
+	.st4{fill:#454546;}
+</style>
+<polyline id="XMLID_2_" class="st0" points="90.7,519.1 138,471.8 165,498.9 212.9,450.9 253.6,491.6 351.6,393.6 388,430 
+	542.5,275.5 565.3,298.3 588.3,275.3 "/>
+<polyline id="XMLID_5_" class="st1" points="90.7,519.1 138,449.1 165,474.6 212.9,487.7 253.6,470.7 351.6,432.9 388,380.1 
+	434.6,363.9 490.5,344.1 542.5,260.5 565.3,267.6 588.3,264.7 "/>
+<circle id="XMLID_3_" class="st2" cx="350.2" cy="394.9" r="9.9"/>
+<circle id="XMLID_7_" class="st3" cx="350.2" cy="434.1" r="9.9"/>
+<path id="XMLID_20_" class="st4" d="M235.3,404.9H27.7c-5.5,0-10,4.5-10,10v130.7c0,5.5,4.5,10,10,10h207.6c5.5,0,10-4.5,10-10
+	V414.9C245.3,409.4,240.8,404.9,235.3,404.9z M36.4,490.3c-4.4,0-7.9-3.5-7.9-7.9s3.5-7.9,7.9-7.9s7.9,3.5,7.9,7.9
+	S40.8,490.3,36.4,490.3z M235.8,546.1H53.1V414.4h182.7V546.1z"/>
+<g id="XMLID_4_">
+	<polygon id="XMLID_16_" class="st4" points="495.3,280.7 495.3,269.5 168,269.5 168,394.9 177.7,394.9 177.7,280.7 	"/>
+	<polygon id="XMLID_22_" class="st4" points="567.6,526.5 567.6,358.8 557.9,358.8 557.9,505.9 255.3,505.9 255.3,526.5 
+		337.8,526.5 337.8,542.9 255.3,542.9 255.3,555.6 480.3,555.6 480.3,542.9 397.9,542.9 397.9,526.5 	"/>
+</g>
+<path id="XMLID_30_" class="st4" d="M600.5,190.1h-85.2c-5.5,0-10,4.5-10,10v138.8c0,5.5,4.5,10,10,10h85.2c5.5,0,10-4.5,10-10
+	V200.1C610.5,194.6,606,190.1,600.5,190.1z M568.4,199.3v3h-21v-3H568.4z M557.9,344.1c-2.9,0-5.2-2.3-5.2-5.2s2.3-5.2,5.2-5.2
+	s5.2,2.3,5.2,5.2S560.8,344.1,557.9,344.1z M602.9,330h-90V212.5h90V330z"/>
+</svg>

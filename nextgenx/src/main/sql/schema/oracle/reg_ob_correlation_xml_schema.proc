@@ -1,0 +1,78 @@
+create or replace PROCEDURE reg_ob_correlation_xml_schema IS
+  existingSchema INTEGER;
+  schemaDOC VARCHAR2(5000);
+  schemaURL VARCHAR2(100);
+  BEGIN
+    schemaURL := 'onboarding-correlation-ids.xsd';
+
+    SELECT COUNT(SCHEMA) INTO existingSchema
+    FROM   ALL_XML_SCHEMAS
+    WHERE  SCHEMA_URL = schemaURL;
+
+    IF (existingSchema > 0) THEN
+      dbms_xmlSchema.deleteSchema(schemaURL,dbms_xmlSchema.DELETE_CASCADE_FORCE);
+    END IF;
+    schemaDOC := '<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified"
+                           xmlns="http://www.w3.org/2001/XMLSchema"
+                           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                           targetNamespace="ns://private.btfin.com/Panorama/Onboarding/IDUpdate/V1_0"
+                           version="1.0">
+                    <xs:element name="application">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element type="xs:string" name="application_correlation_id" maxOccurs="1" minOccurs="1"/>
+                                <xs:element type="xs:string" name="avaloq_order_id"  maxOccurs="1" minOccurs="1"/>
+                                <xs:element name="accounts"  maxOccurs="1" minOccurs="0">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="account" maxOccurs="100" minOccurs="1">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element type="xs:string" name="account_correlation_seq" maxOccurs="1" minOccurs="1"/>
+                                                        <xs:element type="xs:string" name="account_number" maxOccurs="1" minOccurs="1"/>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                                <xs:element name="parties" maxOccurs="1" minOccurs="1">
+                                    <xs:complexType>
+                                        <xs:sequence>
+                                            <xs:element name="party" maxOccurs="100" minOccurs="0">
+                                                <xs:complexType>
+                                                    <xs:sequence>
+                                                        <xs:element type="xs:string" name="party_correlation_seq" maxOccurs="1" minOccurs="1"/>
+                                                        <xs:element type="xs:string" name="gcm_pan" maxOccurs="1" minOccurs="1"/>
+                                                        <xs:element name="addresses" maxOccurs="1" minOccurs="0">
+                                                            <xs:complexType>
+                                                                <xs:sequence>
+                                                                    <xs:element name="address" maxOccurs="100" minOccurs="0">
+                                                                        <xs:complexType>
+                                                                            <xs:sequence>
+                                                                                <xs:element type="xs:string" name="address_correlation_seq" maxOccurs="1"  minOccurs="1"/>
+                                                                                <xs:element type="xs:string" name="avaloq_address_id" maxOccurs="1" minOccurs="1"/>
+                                                                            </xs:sequence>
+                                                                        </xs:complexType>
+                                                                    </xs:element>
+                                                                </xs:sequence>
+                                                            </xs:complexType>
+                                                        </xs:element>
+                                                    </xs:sequence>
+                                                </xs:complexType>
+                                            </xs:element>
+                                        </xs:sequence>
+                                    </xs:complexType>
+                                </xs:element>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:schema>';
+
+    dbms_xmlSchema.registerSchema(schemaurl => schemaURL,
+                                  schemadoc => schemaDOC,
+                                  local => true,
+                                  gentypes => false,
+                                  gentables => false );
+ END reg_ob_correlation_xml_schema;
+/

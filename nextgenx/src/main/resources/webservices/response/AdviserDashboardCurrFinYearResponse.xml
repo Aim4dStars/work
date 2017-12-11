@@ -1,0 +1,195 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+  <env:Header/>
+  <env:Body>
+    <ns3:AvaloqGatewayResponseMsg xmlns:ns3="ns://private.btfin.com/Avaloq/AvaloqGateway/AvaloqGatewayResponse/V1_0">
+      <ResponseDetails>
+        <SuccessResponse>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_perf_list_prd_prddet_avsr_dshbrd" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-08-22 10:49:10.219894000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <date_from><val>21-DEC-2014</val></date_from>
+    <date_to><val>19-JAN-2015</val></date_to>
+    <current_of_time><val>2014-08-20T19:09:32.328293000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>period</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>period_det</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_id</name>
+          <type>NrFld</type>
+            <lbl>Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_sop</name>
+          <type>DateFld</type>
+            <lbl>Start of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>period_eop</name>
+          <type>DateFld</type>
+            <lbl>End of Period</lbl>
+        </fld_def>
+        <fld_def>
+          <name>obj_cnt</name>
+          <type>NrFld</type>
+            <lbl>Active accounts</lbl>
+        </fld_def>
+        <fld_def>
+          <name>fua</name>
+          <type>NrFld</type>
+            <lbl>Funds under administration</lbl>
+        </fld_def>
+        <fld_def>
+          <name>inflows</name>
+          <type>NrFld</type>
+            <lbl>Inflows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>outflows</name>
+          <type>NrFld</type>
+            <lbl>Outflows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>net_flows</name>
+          <type>NrFld</type>
+            <lbl>Net Flows</lbl>
+        </fld_def>
+        <fld_def>
+          <name>fee</name>
+          <type>NrFld</type>
+            <lbl>Fees</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <period_list>
+    <period>
+      <period_head_list>
+        <period_head id="1" row_type="title" hira="1" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>8</id></ctx></annot><val>8</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="2" row_type="data" hira="2" level="period_det.head">
+          <period_sop><val>2014-07-03</val></period_sop>
+          <period_eop><val>2014-10-15</val></period_eop>
+          <obj_cnt><val>14</val></obj_cnt>
+          <fua><annot><displ_text></displ_text></annot><val>261104957.86</val></fua>
+          <inflows><annot><displ_text></displ_text></annot><val>103450000.75</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>-39880000</val></outflows>
+          <net_flows><annot><displ_text></displ_text></annot><val>55570000.75</val></net_flows>
+          <fee><annot><displ_text></displ_text></annot><val>1210000</val></fee>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+  </period_det_list>
+    </period>
+    <period>
+      <period_head_list>
+        <period_head id="3" row_type="title" hira="1" level="period.head">
+          <period_id><annot><displ_text></displ_text><ctx><type>code_perf_period</type><id>3</id></ctx></annot><val>3</val></period_id>
+        </period_head>
+      </period_head_list>
+  <period_det_list>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="4" row_type="data" hira="2" level="period_det.head">
+          <period_sop><val>2014-07-03</val></period_sop>
+          <period_eop><val>2014-07-31</val></period_eop>
+          <obj_cnt><val>1400</val></obj_cnt>
+          <fua><annot><displ_text></displ_text></annot><val>60965104.01</val></fua>
+          <inflows><annot><displ_text></displ_text></annot><val>6100000</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>100000</val></outflows>
+          <net_flows><annot><displ_text></displ_text></annot><val>6000000</val></net_flows>
+          <fee><annot><displ_text></displ_text></annot><val>6120</val></fee>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="5" row_type="data" hira="2" level="period_det.head">
+          <period_sop><val>2014-08-01</val></period_sop>
+          <period_eop><val>2014-08-31</val></period_eop>
+          <obj_cnt><val>1400</val></obj_cnt>
+          <fua><annot><displ_text></displ_text></annot><val>60969237.48</val></fua>
+          <inflows><annot><displ_text></displ_text></annot><val>9692370</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>-692370</val></outflows>
+          <net_flows><annot><displ_text></displ_text></annot><val>9000000</val></net_flows>
+          <fee><annot><displ_text></displ_text></annot><val>25640</val></fee>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="6" row_type="data" hira="2" level="period_det.head">
+          <period_sop><val>2014-09-01</val></period_sop>
+          <period_eop><val>2014-09-30</val></period_eop>
+          <obj_cnt><val>1300</val></obj_cnt>
+          <fua><annot><displ_text></displ_text></annot><val>60973370.94</val></fua>
+          <inflows><annot><displ_text></displ_text></annot><val>9456230</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>-456230</val></outflows>
+          <net_flows><annot><displ_text></displ_text></annot><val>9000000</val></net_flows>
+          <fee><annot><displ_text></displ_text></annot><val>81650</val></fee>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    <period_det>
+      <period_det_head_list>
+        <period_det_head id="7" row_type="data" hira="2" level="period_det.head">
+          <period_sop><val>2014-10-01</val></period_sop>
+          <period_eop><val>2014-10-15</val></period_eop>
+          <obj_cnt><val>1200</val></obj_cnt>
+          <fua><annot><displ_text></displ_text></annot><val>60977504.42</val></fua>
+          <inflows><annot><displ_text></displ_text></annot><val>4256120</val></inflows>
+          <outflows><annot><displ_text></displ_text></annot><val>256120</val></outflows>
+          <net_flows><annot><displ_text></displ_text></annot><val>4000000</val></net_flows>
+          <fee><annot><displ_text></displ_text></annot><val>256120</val></fee>
+        </period_det_head>
+      </period_det_head_list>
+    </period_det>
+    
+  </period_det_list>
+    </period>
+  </period_list>
+
+  </data>
+</rep:rep>
+</SuccessResponse>
+      </ResponseDetails>
+    </ns3:AvaloqGatewayResponseMsg>
+  </env:Body>
+</env:Envelope>

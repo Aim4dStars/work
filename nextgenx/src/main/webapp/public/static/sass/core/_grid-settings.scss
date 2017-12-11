@@ -1,0 +1,23 @@
+@import "../plugins/neat/neat-helpers"; 
+
+// Change the grid settings
+$column: 55px;
+$gutter: 20px;
+$grid-columns: 12;
+$max-width: 880rem;
+$visual-grid: false;
+$default-feature: max-width;
+$visual-grid-index: front;
+$visual-grid-color: #FF0000;
+
+
+$gw-column: 2rem;          // Column Width
+$gw-gutter: 2rem;           // Gutter Width
+
+// div {
+//   width: grid-width(4);     // returns 520px;
+//   margin-left: $gw-gutter;  // returns 40px;
+// }
+
+
+

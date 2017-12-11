@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_pos_list_asset_x_wgt" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-10-03 15:48:57.626912000 on afd030a by AVALOQ -->
+
+  <metadata>
+    <empty_rep><val>false</val></empty_rep>
+    <current_of_time><val>2014-10-03T01:38:48.853269000Z</val></current_of_time>
+    <as_at_date><val>2015-03-26</val></as_at_date>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>invst_mgr</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>ips</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>asset_class</name>
+            <hira>3</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>asset</name>
+            <hira>4</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>invst_mgr_id</name>
+          <type>NrFld</type>
+            <lbl>Investment Manager</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_id</name>
+          <type>NrFld</type>
+            <lbl>MP Model</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_class_id</name>
+          <type>NrFld</type>
+            <lbl>Asset Class</lbl>
+        </fld_def>
+        <fld_def>
+          <name>asset_id</name>
+          <type>NrFld</type>
+            <lbl>Asset</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_edit_wgt</name>
+          <type>NrFld</type>
+            <lbl>Last Model Edit Optimum Weight</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ftp_curr_wgt</name>
+          <type>NrFld</type>
+            <lbl>Current FTP Weight</lbl>
+        </fld_def>
+        <fld_def>
+          <name>shdw_qty</name>
+          <type>NrFld</type>
+            <lbl>Shadow Units</lbl>
+        </fld_def>
+        <fld_def>
+          <name>shdw_mv</name>
+          <type>NrFld</type>
+            <lbl>Shadow Market Value $</lbl>
+        </fld_def>
+        <fld_def>
+          <name>shdw_curr_wgt</name>
+          <type>NrFld</type>
+            <lbl>Shadow Client Portfolio %</lbl>
+        </fld_def>
+        <fld_def>
+          <name>shdw_diff_wgt</name>
+          <type>NrFld</type>
+            <lbl>Diff % (Floating - Shadow Client)</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  <invst_mgr_list>
+    <invst_mgr>
+      <invst_mgr_head_list>
+        <invst_mgr_head id="1" row_type="title" hira="1" level="invst_mgr.head">
+          <invst_mgr_id><annot><displ_text></displ_text><ctx><type>person</type><id>73232</id></ctx></annot><val>73232</val></invst_mgr_id>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>10000000</val></shdw_mv>
+        </invst_mgr_head>
+      </invst_mgr_head_list>
+  <ips_list>
+    <ips>
+      <ips_head_list>
+        <ips_head id="2" row_type="subtitle" hira="2" level="ips.head">
+        <annot>
+          <style>avq_std_subtitle</style>
+        </annot>
+          <ips_id><annot><displ_text></displ_text><ctx><type>ips</type><id>77159</id></ctx></annot><val>77159</val></ips_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>100</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>100</val></ftp_curr_wgt>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>10000000</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>100</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>0</val></shdw_diff_wgt>
+        </ips_head>
+      </ips_head_list>
+  <asset_class_list>
+    <asset_class>
+      <asset_class_head_list>
+        <asset_class_head id="3" row_type="subtitle" hira="3" level="asset_class.head">
+        <annot>
+          <style>avq_std_subtitle</style>
+        </annot>
+          <asset_class_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>60661</id></ctx></annot><val>60661</val></asset_class_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>97</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>97.0003533</val></ftp_curr_wgt>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>9700045.31</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>97.0004531</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>-.0000998</val></shdw_diff_wgt>
+        </asset_class_head>
+      </asset_class_head_list>
+  <asset_list>
+    <asset>
+      <asset_head_list>
+        <asset_head id="4" row_type="data" hira="4" level="asset.head">
+        <annot>
+          <style>avq_std_data</style>
+        </annot>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>74440</id></ctx></annot><val>74440</val></asset_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>3.28</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>3.2798322</val></ftp_curr_wgt>
+          <shdw_qty><annot><displ_text></displ_text></annot><val>3141</val></shdw_qty>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>327983.22</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>3.2798322</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>0</val></shdw_diff_wgt>
+        </asset_head>
+      </asset_head_list>
+    </asset>
+    <asset>
+      <asset_head_list>
+        <asset_head id="5" row_type="data" hira="4" level="asset.head">
+        <annot>
+          <style>avq_std_data</style>
+        </annot>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>74414</id></ctx></annot><val>74414</val></asset_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>6.92</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>6.9199922</val></ftp_curr_wgt>
+          <shdw_qty><annot><displ_text></displ_text></annot><val>75794</val></shdw_qty>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>691999.22</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>6.9199922</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>0</val></shdw_diff_wgt>
+        </asset_head>
+      </asset_head_list>
+    </asset>
+    <asset>
+      <asset_head_list>
+        <asset_head id="6" row_type="data" hira="4" level="asset.head">
+        <annot>
+          <style>avq_std_data</style>
+        </annot>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>74423</id></ctx></annot><val>74423</val></asset_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>7.76</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>7.7600988</val></ftp_curr_wgt>
+          <shdw_qty><annot><displ_text></displ_text></annot><val>30636</val></shdw_qty>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>776009.88</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>7.7600988</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>0</val></shdw_diff_wgt>
+        </asset_head>
+      </asset_head_list>
+    </asset>
+   </asset_list>
+    </asset_class>
+    <asset_class>
+      <asset_class_head_list>
+        <asset_class_head id="28" row_type="subtitle" hira="3" level="asset_class.head">
+        <annot>
+          <style>avq_std_subtitle</style>
+        </annot>
+          <asset_class_id><annot><displ_text></displ_text><ctx><type>code_obj_class</type><id>60671</id></ctx></annot><val>60671</val></asset_class_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>3</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>2.9996467</val></ftp_curr_wgt>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>299954.69</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>2.9995469</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>.0000998</val></shdw_diff_wgt>
+        </asset_class_head>
+      </asset_class_head_list>
+  <asset_list>
+    <asset>
+      <asset_head_list>
+        <asset_head id="29" row_type="data" hira="4" level="asset.head">
+        <annot>
+          <style>avq_std_data</style>
+        </annot>
+          <asset_id><annot><displ_text></displ_text><ctx><type>asset</type><id>66722</id></ctx></annot><val>66722</val></asset_id>
+          <last_edit_wgt><annot><displ_text></displ_text></annot><val>3</val></last_edit_wgt>
+          <ftp_curr_wgt><annot><displ_text></displ_text></annot><val>2.9996467</val></ftp_curr_wgt>
+          <shdw_qty><annot><displ_text></displ_text></annot><val>299954.69</val></shdw_qty>
+          <shdw_mv><annot><displ_text></displ_text></annot><val>299954.69</val></shdw_mv>
+          <shdw_curr_wgt><annot><displ_text></displ_text></annot><val>2.9995469</val></shdw_curr_wgt>
+          <shdw_diff_wgt><annot><displ_text></displ_text></annot><val>.0000998</val></shdw_diff_wgt>
+        </asset_head>
+      </asset_head_list>
+    </asset>
+  </asset_list>
+    </asset_class>
+  </asset_class_list>
+    </ips>
+  </ips_list>
+    </invst_mgr>
+  </invst_mgr_list>
+
+  </data>
+</rep:rep>
+<!--  at 2014-10-03T05:48:57.657067000Z on AFD030A by AVALOQ -->

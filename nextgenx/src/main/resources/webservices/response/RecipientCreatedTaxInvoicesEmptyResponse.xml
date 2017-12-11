@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_recp_create_tax_invc_adv" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- 2017-02-24 16:26:01.682026000 on afd030p by AVALOQ -->
+  <metadata>
+    <empty_rep>
+      <val>false</val>
+    </empty_rep>
+    <current_of_time>
+      <val>2017-02-24T05:26:01+11:00</val>
+    </current_of_time>
+  </metadata>
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>
+      hira
+      </style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>bp</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>true</has_foot>
+          </grp_def>
+          <grp_def>
+            <name>doc</name>
+            <hira>2</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+          <fld_def>
+            <name>supl</name>
+            <type>TextFld</type>
+            <lbl>Supplier</lbl>
+          </fld_def>
+          <fld_def>
+            <name>supl_addr</name>
+            <type>TextFld</type>
+            <lbl>Supplier Address</lbl>
+          </fld_def>
+          <fld_def>
+            <name>supl_abn</name>
+            <type>TextFld</type>
+            <lbl>Supplier ABN</lbl>
+          </fld_def>
+          <fld_def>
+            <name>recp</name>
+            <type>TextFld</type>
+            <lbl>Recipient</lbl>
+          </fld_def>
+          <fld_def>
+            <name>recp_addr</name>
+            <type>TextFld</type>
+            <lbl>Recipient Address</lbl>
+          </fld_def>
+          <fld_def>
+            <name>recp_abn</name>
+            <type>TextFld</type>
+            <lbl>Recipient ABN</lbl>
+          </fld_def>
+          <fld_def>
+            <name>doc_id</name>
+            <type>NrFld</type>
+            <lbl>Order ID</lbl>
+          </fld_def>
+          <fld_def>
+            <name>order_type_id</name>
+            <type>NrFld</type>
+            <lbl>Order Type ID</lbl>
+          </fld_def>
+          <fld_def>
+            <name>invc_date</name>
+            <type>DateFld</type>
+            <lbl>Invoice date</lbl>
+          </fld_def>
+          <fld_def>
+            <name>vat</name>
+            <type>NrFld</type>
+            <lbl>GST</lbl>
+          </fld_def>
+          <fld_def>
+            <name>net</name>
+            <type>NrFld</type>
+            <lbl>Fee Excl. GST</lbl>
+          </fld_def>
+          <fld_def>
+            <name>gross</name>
+            <type>NrFld</type>
+            <lbl>Fee Incl. GST</lbl>
+          </fld_def>
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+  <data>
+    <bp_list>
+      <bp>
+        <bp_head_list>
+          <bp_head id="2-1" row_type="title" hira="1" level="bp.head">
+            <supl>
+              <annot>
+                <displ_text>L Westpac Financial Planning (Private Bank)</displ_text>
+                <ctx>
+                  <type>person</type>
+                  <id>10505</id>
+                </ctx>
+              </annot>
+              <val>10505</val>
+            </supl>
+            <supl_addr>
+              <annot>
+                <displ_text>FL 8 33 Pitt St Sydney NSW 2000 AUSTRALIA
+                </displ_text>
+                <ctx>
+                  <type>addr</type>
+                  <id>10484</id>
+                </ctx>
+              </annot>
+              <val>10484</val>
+            </supl_addr>
+            <supl_abn>
+              <val>12004044937</val>
+            </supl_abn>
+            <recp>
+              <annot>
+                <displ_text>L BT Funds Management Limited</displ_text>
+                <ctx>
+                  <type>person</type>
+                  <id>10502</id>
+                </ctx>
+              </annot>
+              <val>10502</val>
+            </recp>
+            <recp_addr>
+              <annot>
+                <displ_text>FL 8 33 Pitt St Sydney NSW 2000 AUSTRALIA
+                </displ_text>
+                <ctx>
+                  <type>addr</type>
+                  <id>10483</id>
+                </ctx>
+              </annot>
+              <val>10483</val>
+            </recp_addr>
+            <recp_abn>
+              <val>12004044937</val>
+            </recp_abn>
+          </bp_head>
+        </bp_head_list>
+        <doc_list>
+        </doc_list>
+        <bp_foot_list>
+          <bp_foot id="10-5" row_type="title" hira="1" level="bp.foot">
+            <vat>
+              <annot>
+                <displ_text/>
+              </annot>
+              <val>7659.99</val>
+            </vat>
+            <net>
+              <annot>
+                <displ_text/>
+              </annot>
+              <val>76599.92</val>
+            </net>
+            <gross>
+              <annot>
+                <displ_text/>
+              </annot>
+              <val>84259.91</val>
+            </gross>
+          </bp_foot>
+          <bp_foot id="12-6" row_type="title" hira="1" level="bp.foot">
+          </bp_foot>
+        </bp_foot_list>
+      </bp>
+    </bp_list>
+  </data>
+</rep:rep>

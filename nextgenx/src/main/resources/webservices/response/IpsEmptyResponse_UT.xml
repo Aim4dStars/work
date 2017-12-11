@@ -1,0 +1,118 @@
+<rep:rep xmlns:rep="http://www.avaloq.com/abs/screen_rep/hira/btfg$ui_ips_list_ips" xmlns:repb="http://www.avaloq.com/abs/screen_rep/base" xmlns:fldb="http://www.avaloq.com/abs/bb/fld_def" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- 2014-06-30 10:00:37.373450000 on afd030k by AVALOQ -->
+
+  <metadata>
+   		<empty_rep>
+			<val>true</val>
+		</empty_rep>
+    <current_of_time><val>2014-06-30T00:00:37.374446000Z</val></current_of_time>
+  </metadata>
+
+  <def>
+    <version>2.0</version>
+    <rep_def>
+      <style>hira</style>
+      <lang id="1">en</lang>
+      <hira_def>
+        <grp_list>
+          <grp_def>
+            <name>ips</name>
+            <hira>1</hira>
+            <has_head>true</has_head>
+            <has_foot>false</has_foot>
+          </grp_def>
+        </grp_list>
+      </hira_def>
+      <row_def>
+        <fld_list>
+        <fld_def>
+          <name>dummy</name>
+          <type>TextFld</type>
+            <lbl></lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_id</name>
+          <type>NrFld</type>
+            <lbl>Model Id</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_name</name>
+          <type>TextFld</type>
+            <lbl>Model Name</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_sym</name>
+          <type>TextFld</type>
+            <lbl>Model Symbol</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_apir</name>
+          <type>TextFld</type>
+            <lbl>APIR Code</lbl>
+        </fld_def>
+        <fld_def>
+          <name>invst_mgr_id</name>
+          <type>NrFld</type>
+            <lbl>Investment Manager</lbl>
+        </fld_def>
+		        <fld_def>
+          <name>ips_asset_class_id</name>
+          <type>NrFld</type>
+            <lbl>Asset Class</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_invst_style_id</name>
+          <type>NrFld</type>
+            <lbl>Investment Style</lbl>
+        </fld_def>
+        <fld_def>
+          <name>ips_status_id</name>
+          <type>NrFld</type>
+            <lbl>Status</lbl>
+        </fld_def>
+        <fld_def>
+          <name>min_init_invst</name>
+          <type>NrFld</type>
+            <lbl>Minimum Initial Investment</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_upd_timestp</name>
+          <type>DateTimeFld</type>
+            <lbl>Last Update Timestamp</lbl>
+        </fld_def>
+        <fld_def>
+          <name>last_upd_from_id</name>
+          <type>NrFld</type>
+            <lbl>Last Update From</lbl>
+        </fld_def>
+        <fld_def>
+          <name>im_fee_factor_re1</name>
+          <type>NrFld</type>
+            <lbl>Invst. Mngt. Fee Factor - RE1</lbl>
+        </fld_def>
+        <fld_def>
+          <name>im_fee_factor_re2</name>
+          <type>NrFld</type>
+            <lbl>Invst. Mngt. Fee Factor - RE2</lbl>
+        </fld_def>
+        <fld_def>
+          <name>im_fee_factor_im</name>
+          <type>NrFld</type>
+            <lbl>Invst. Mngt. Fee Factor - IM</lbl>
+        </fld_def>
+        <fld_def>
+          <name>im_fee_factor</name>
+          <type>NrFld</type>
+            <lbl>Invst. Mngt. Fee Factor - Total</lbl>
+        </fld_def>
+
+        </fld_list>
+      </row_def>
+    </rep_def>
+  </def>
+
+  <data>
+  </data>
+</rep:rep>
+
+

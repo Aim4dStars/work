@@ -1,0 +1,314 @@
+{
+  "accountType": "individual",
+  "investors": [
+    {
+      "displayTaxOptions": true,
+      "taxcountry": "AU",
+      "taxoption": "Tax File Number or exemption not provided",
+      "fullName": "Saurabh Bharghavtest",
+      "state": "ACT",
+      "country": "Australia",
+      "userName": "74945474",
+      "addresses": [
+        {
+          "careOf": null,
+          "unitNumber": null,
+          "floor": null,
+          "streetNumber": null,
+          "streetName": null,
+          "streetType": null,
+          "streetTypeUserId": null,
+          "building": null,
+          "suburb": null,
+          "state": "ACT",
+          "stateAbbr": null,
+          "poBox": null,
+          "city": "Canberra",
+          "stateCode": null,
+          "postcode": "2601",
+          "countryCode": "AU",
+          "country": "Australia",
+          "countryAbbr": null,
+          "modificationSeq": null,
+          "poBoxPrefix": null,
+          "domicile": true,
+          "mailingAddress": true,
+          "addressType": null,
+          "addressKey": null,
+          "gcmAddress": true,
+          "internationalAddress": false,
+          "addressLine1": "Canberra House",
+          "addressLine2": "40 Alinga Street",
+          "addressLine3": null,
+          "standardAddressFormat": false,
+          "gcmStreetType": null,
+          "type": "Address"
+        }
+      ],
+      "idVerified": true,
+      "registered": false,
+      "tfnProvided": false,
+      "tfnEntered": false,
+      "investorType": "individual",
+      "nominatedFlag": false,
+      "cisId": "37454910075",
+      "title": "MR",
+      "gcmTitleLabel": "Mr",
+      "gender": "Male",
+      "age": 0,
+      "active": false,
+      "accountType": "individual",
+      "firstname": "Saurabh",
+      "lastname": "Bharghavtest",
+      "dateofbirth": "02\/08\/1984",
+      "resaddress": {
+        "state": "ACT",
+        "city": "Canberra",
+        "postcode": "2601",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "gcmAddress": true,
+        "internationalAddress": false,
+        "addressLine1": "Canberra House",
+        "addressLine2": "40 Alinga Street",
+        "standardAddressFormat": false,
+        "type": "Address"
+      },
+      "postaladdress": {
+        "state": "ACT",
+        "city": "Canberra",
+        "postcode": "2601",
+        "countryCode": "AU",
+        "country": "Australia",
+        "domicile": true,
+        "mailingAddress": true,
+        "gcmAddress": true,
+        "internationalAddress": false,
+        "addressLine1": "Canberra House",
+        "addressLine2": "40 Alinga Street",
+        "standardAddressFormat": false,
+        "type": "Address"
+      },
+      "identitydocument": "Verified",
+      "isDuplicate": false,
+      "existing": true,
+      "showTFNMessage": false,
+      "email": {
+        "value": "bharghav@test.com"
+      },
+      "modified": true,
+      "mobile": {
+        "value": "0425836111"
+      },
+      "isvalid": true,
+      "contactdetails": {
+        "value": "othernumber_0258962666",
+        "saveObject": {
+          "preferred": false,
+          "number": "58962666",
+          "countryCode": "61",
+          "areaCode": "02",
+          "phoneType": "Other",
+          "gcmPhone": true,
+          "type": "Phone",
+          "concatenatedNumber": "0258962666",
+          "value": "58962666"
+        },
+        "label": "(02) 5896 2666",
+        "type": "PHONE",
+        "groupsConfiguration": {
+          "key": "group",
+          "html": "<div class=\"{{label}} deemphasis\">{{type}}<\/div><div>{{label}}<\/div>",
+          "view_value": "{{label}}",
+          "annotation": "",
+          "match": "label,value,type"
+        }
+      },
+      "preferredcontact": "othernumber",
+      "othernumber": {
+        "preferred": false,
+        "number": "58962666",
+        "countryCode": "61",
+        "areaCode": "02",
+        "phoneType": "Other",
+        "gcmPhone": true,
+        "type": "Phone",
+        "concatenatedNumber": "0258962666",
+        "value": "58962666"
+      },
+      "phones": [
+        {
+          "preferred": false,
+          "number": "25836111",
+          "countryCode": "61",
+          "areaCode": "04",
+          "modificationSeq": null,
+          "phoneType": "Secondary",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "25896222",
+          "countryCode": "61",
+          "areaCode": "04",
+          "modificationSeq": null,
+          "phoneType": "Secondary",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "54545333",
+          "countryCode": "61",
+          "areaCode": "04",
+          "modificationSeq": null,
+          "phoneType": "Secondary",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "56565444",
+          "countryCode": "61",
+          "areaCode": "04",
+          "modificationSeq": null,
+          "phoneType": "Secondary",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "12121555",
+          "countryCode": "61",
+          "areaCode": "02",
+          "modificationSeq": null,
+          "phoneType": "Home",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "58962666",
+          "countryCode": "61",
+          "areaCode": "02",
+          "modificationSeq": null,
+          "phoneType": "Other",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "58963777",
+          "countryCode": "61",
+          "areaCode": "02",
+          "modificationSeq": null,
+          "phoneType": "Work",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        },
+        {
+          "preferred": false,
+          "number": "58974888",
+          "countryCode": "61",
+          "areaCode": "02",
+          "modificationSeq": null,
+          "phoneType": "Work",
+          "phoneKey": null,
+          "requestedAction": null,
+          "gcmPhone": true,
+          "fullPhoneNumber": null,
+          "phoneCategory": null,
+          "type": "Phone"
+        }
+      ],
+      "emails": [
+        {
+          "email": "bharghav@test.com",
+          "modificationSeq": null,
+          "preferred": false,
+          "emailType": null,
+          "emailKey": null,
+          "gcmMastered": true,
+          "emailActionCode": null,
+          "emailPriority": null,
+          "oldAddress": null,
+          "addressMedium": null,
+          "type": "Email"
+        }
+      ]
+    }
+  ],
+  "accountsettings": {
+    "professionalspayment": "linkedaccountsonly",
+    "investorAccountSettings": [
+      {
+        "paymentSetting": "linkedaccountsonly",
+        "hasRoles": false,
+        "hasApprovers": false
+      }
+    ],
+    "primarycontact": "0",
+    "adviserName": "Angela Gelonesi",
+    "adviserLocation": "South Australia",
+    "sourceoffunds": "Business profits"
+  },
+  "linkedaccounts": {
+    "primaryLinkedAccount": {
+      "accountname": "TestAccount",
+      "bsb": "062001",
+      "accountnumber": "25896314",
+      "directdebitamount": "10.00",
+      "existing": true,
+      "bsbValidationResultVal": true
+    },
+    "otherLinkedAccount": [
+
+    ]
+  },
+  "fees": {
+    "estamount": "0.00",
+    "ongoingFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Ongoing advice fee"
+    },
+    "licenseeFees": {
+      "feesComponent": [
+
+      ],
+      "type": "Licensee advice fee"
+    }
+  }
+}

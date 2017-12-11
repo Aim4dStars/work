@@ -1,0 +1,12 @@
+CATEGORY_TYPE,DESCRIPTION
+PRODUCT,"The base product of the tree (eg IDPS)"
+PRIVATE_LABEL,"The private label product of the tree (eg BT IDPS)"
+WHITE_LABEL,"The white label product of the tree (eg BT Panorama Investments"
+STRUCTURE,"The account structure of the the product (eg SMSF)"
+ACCOUNT_SUB_TYPE,"The account subtype of the the product (eg accumulation, pension)"
+OFFER,"The offer of the product associated to the account(eg DIRE.BTPI.SIMPLE)"
+SUPER_DEALER,The super dealer of the heirarchy
+DEALER,The dealer of the heirarchy
+PRACTICE,The practice of the heirarchy
+OFFICE,The office of the heirarchy
+ADVISER,The adviser of the heirarchy

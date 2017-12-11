@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 2016-03-20T23:01:39.898899000Z on NGWD2 by 201601509 -->
+<person:person_rsp xmlns:person="http://btfin.com/ABS/TrxService/Person/V1_0" xmlns:avqxsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hdr>
+        <req_id>NG-001.0ac39728-eeec-11e5-a458-32784669e80a.00000000155.000000002</req_id>
+    </hdr>
+    <data>
+        <doc>
+            <val>2074943</val>
+        </doc>
+        <wfc_status>
+            <annot>
+                <displ_text>PERSON: Done</displ_text>
+                <ctx>
+                    <type>wfc_status_v</type>
+                    <id>1250090</id>
+                </ctx>
+            </annot>
+            <val>1250090</val>
+        </wfc_status>
+        <person_id>
+            <annot>
+                <displ_text>Jack comes</displ_text>
+                <ctx>
+                    <type>obj_person</type>
+                    <id>285007</id>
+                </ctx>
+            </annot>
+            <val>285007</val>
+        </person_id>
+        <person_modi_seq_nr>
+            <val>2</val>
+        </person_modi_seq_nr>
+        <addr_list>
+            <addr>
+                <addr_id>
+                    <val>285004</val>
+                </addr_id>
+                <addr_modi_seq_nr>
+                    <val>1</val>
+                </addr_modi_seq_nr>
+            </addr>
+            <addr>
+                <addr_id>
+                    <val>285005</val>
+                </addr_id>
+                <addr_modi_seq_nr>
+                    <val>1</val>
+                </addr_modi_seq_nr>
+            </addr>
+            <addr>
+                <addr_id>
+                    <val>285006</val>
+                </addr_id>
+                <addr_catg_id>
+                    <val>1</val>
+                </addr_catg_id>
+                <is_mail>
+                    <val>false</val>
+                </is_mail>
+                <addr_modi_seq_nr>
+                    <val>1</val>
+                </addr_modi_seq_nr>
+            </addr>
+            <addr>
+                <addr_id>
+                    <val>287801</val>
+                </addr_id>
+                <addr_catg_id>
+                    <val>1</val>
+                </addr_catg_id>
+                <is_mail>
+                    <val>false</val>
+                </is_mail>
+                <unit_nr>
+                    <val avqxsi:nil="true"/>
+                </unit_nr>
+                <floor_nr>
+                    <val avqxsi:nil="true"/>
+                </floor_nr>
+                <street_nr>
+                    <val avqxsi:nil="true"/>
+                </street_nr>
+                <street_name>
+                    <val>32 Street St</val>
+                </street_name>
+                <street_type_id>
+                    <val avqxsi:nil="true"/>
+                </street_type_id>
+                <building_name>
+                    <val>Greenland</val>
+                </building_name>
+                <suburb>
+                    <val>asdad</val>
+                </suburb>
+                <state_id>
+                    <auto>false</auto>
+                    <val avqxsi:nil="true"/>
+                </state_id>
+                <state_other>
+                    <val avqxsi:nil="true"/>
+                </state_other>
+                <cty_id>
+                    <annot>
+                        <displ_text>Algeria</displ_text>
+                        <ctx>
+                            <type>obj_country</type>
+                            <id>2049</id>
+                        </ctx>
+                    </annot>
+                    <val>2049</val>
+                </cty_id>
+                <zip>
+                    <val>20002</val>
+                </zip>
+                <po_box_pref>
+                    <val avqxsi:nil="true"/>
+                </po_box_pref>
+                <po_box>
+                    <val avqxsi:nil="true"/>
+                </po_box>
+                <addr_modi_seq_nr>
+                    <val>1</val>
+                </addr_modi_seq_nr>
+            </addr>
+        </addr_list>
+    </data>
+    <rsp>
+        <exec>
+            <action>do</action>
+        </exec>
+    </rsp>
+</person:person_rsp>

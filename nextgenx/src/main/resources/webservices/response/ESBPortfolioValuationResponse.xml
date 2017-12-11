@@ -1,0 +1,827 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+	<env:Header />
+	<env:Body>
+		<n2:RetrievePortfolioValuationResponseMsg
+			xsi:schemaLocation="ns://btfin.com/Product/Common/InvestmentAccount/InvestmentAccountService/InvestmentAccountReply/V2_0/InvestmentAccountReplyV2_0.xsd"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+			xmlns:n2="ns://btfin.com/Product/Common/InvestmentAccount/InvestmentAccountService/InvestmentAccountReply/V2_0">
+			<Status>Success</Status>
+			<ResponseDetails>
+				<ResponseDetail>
+					<SuccessResponse>
+						<PortfolioValuation>
+							<AccountID>10000001</AccountID>
+							<AccountIDIssuer />
+							<AccountName>Smith Adrian</AccountName>
+							<AccountStatus>Open</AccountStatus>
+							<AccountCreationDate>2012-02-01</AccountCreationDate>
+							<Portfolios>
+								<Portfolio>
+									<PortfolioNumber>12172</PortfolioNumber>
+									<PortfolioNumberIssuer />
+									<PortfolioName>CUSTR Smith Adrian</PortfolioName>
+									<InvestmentAccounts>
+										<CashAccount>
+											<CashAccountNumber>121</CashAccountNumber>
+											<CashAccountNumberIssuer />
+											<CashAccount>
+												<AccountNumber>10000001</AccountNumber>
+												<AccountName>CACC AUD</AccountName>
+												<BSB>262-786</BSB>
+												<Description>Money account</Description>
+											</CashAccount>
+											<InterestRate>0.6045345</InterestRate>											
+											<CashBalance>
+												<Amount>40000.00</Amount>
+												<ValueDate />
+												<Type>Current</Type>
+											</CashBalance>
+											<CashBalance>
+												<Amount>10000.00</Amount>
+												<ValueDate />
+												<Type>Available</Type>
+											</CashBalance>
+											<Currency>AUD</Currency>
+											<PerformanceData>
+												<StartDate>2014-02-19</StartDate>
+												<EndDate>2014-02-19</EndDate>
+												<CurrencyCode>AUS</CurrencyCode>
+												<OpeningBalance>20000.00</OpeningBalance>
+												<ClosingBalance>20000.00</ClosingBalance>
+												<Income>320.00</Income>
+											</PerformanceData>
+										</CashAccount>
+										<CashAccount>
+											<CashAccountNumber>121</CashAccountNumber>
+											<CashAccountNumberIssuer />
+											<CashAccount>
+												<AccountNumber>10000001</AccountNumber>
+												<AccountName>CACC AUD</AccountName>
+												<BSB>262786</BSB>
+												<Description>Investment Portfolio</Description>
+											</CashAccount>
+											<InterestRate>0.90</InterestRate>											
+											<CashBalance>
+												<Amount>50111968.68</Amount>
+												<ValueDate />
+												<Type>Current</Type>
+											</CashBalance>
+											<CashBalance>
+												<Amount>50111968.68</Amount>
+												<ValueDate />
+												<Type>Available</Type>
+											</CashBalance>
+											<Currency>AUD</Currency>
+											<PerformanceData>
+												<StartDate>2014-02-19</StartDate>
+												<EndDate>2014-02-19</EndDate>
+												<CurrencyCode>AUS</CurrencyCode>
+												<OpeningBalance>20000.00</OpeningBalance>
+												<ClosingBalance>20000.00</ClosingBalance>
+												<Income>320.00</Income>
+											</PerformanceData>
+										</CashAccount>
+										<FixedInvestment>
+											<FixedTermDepositSystem>
+												<ProductCode>80000052</ProductCode>
+												<ProductCodeIssuer>SGB</ProductCodeIssuer>
+											</FixedTermDepositSystem>
+											<FixedTermDepositAccount>
+												<AccountNumber>156</AccountNumber>
+												<AccountName>SGB Term Deposit AUD 3Y Intr Pay Monthly 0.65%,
+													17.04.2012-17.04.2015</AccountName>
+												<Description>CLT.01.2 SGB Term Deposit AUD 3Y Intr Pay
+													Monthly 0.65%, 17.04.2012-17.04.2015</Description>
+											</FixedTermDepositAccount>
+											<StartDate>2012-04-17</StartDate>
+											<Term>P12M</Term>
+											<MaturityDate>2015-04-17</MaturityDate>
+											<InterestPaymentFrequency>Monthly</InterestPaymentFrequency>
+											<CurrencyAmount>450000.00</CurrencyAmount>
+											<Rate>3.10</Rate>
+											<InterestPaid>50.00</InterestPaid>
+											<InterestAccruedSinceLastPayment>200.00</InterestAccruedSinceLastPayment>
+											<PerformanceData>
+												<StartDate>2014-02-24</StartDate>
+												<EndDate>2014-02-24</EndDate>
+												<CurrencyCode>AUD</CurrencyCode>
+												<OpeningBalance>450000.00</OpeningBalance>
+												<ClosingBalance>450050.00</ClosingBalance>
+												<Income>50.00</Income>
+											</PerformanceData>
+										</FixedInvestment>
+										<FixedInvestment>
+											<FixedTermDepositSystem>
+												<ProductCode>80000056</ProductCode>
+												<ProductCodeIssuer>BT</ProductCodeIssuer>
+											</FixedTermDepositSystem>
+											<FixedTermDepositAccount>
+												<AccountNumber>121</AccountNumber>
+												<AccountName>BSA Term Deposit AUD 3M Intr Pay on Maturity
+													3.1%, 17.04.2012-17.07.2012</AccountName>
+												<Description>CLT.01.2 BSA Term Deposit AUD 3M Intr Pay on
+													Maturity 3.1%, 17.04.2012-17.07.2012</Description>
+											</FixedTermDepositAccount>
+											<StartDate>2014-02-17</StartDate>
+											<Term>P33D</Term>
+											<MaturityDate>2014-03-17</MaturityDate>
+											<InterestPaymentFrequency>Monthly</InterestPaymentFrequency>
+											<CurrencyAmount>5000.00</CurrencyAmount>
+											<Rate>0.65</Rate>
+											<InterestPaid>150.00</InterestPaid>
+											<InterestAccruedSinceLastPayment>62.00
+											</InterestAccruedSinceLastPayment>
+											<MaturityInstruction>
+												<ReinvestPrincipal>
+													<CurrencyAmount></CurrencyAmount>
+													<Term>P33D</Term>
+													<MaturityDate>2012-08-17</MaturityDate>
+												</ReinvestPrincipal>
+											</MaturityInstruction>
+											<PerformanceData>
+												<StartDate>2014-02-24</StartDate>
+												<EndDate>2014-02-24</EndDate>
+												<CurrencyCode>AUD</CurrencyCode>
+												<OpeningBalance>5000.00</OpeningBalance>
+												<ClosingBalance>5150.00</ClosingBalance>
+												<Income>150.00</Income>
+											</PerformanceData>
+										</FixedInvestment>
+										<ManagedAccount>
+											<ManagedAccountName>BlackRock Global Small Managed Account
+											</ManagedAccountName>
+											<ManagedAccountCode>BT45678</ManagedAccountCode>
+											<ManagedAccountNumber>123</ManagedAccountNumber>
+											<ManagedAccountNumberIssuer>BR0001</ManagedAccountNumberIssuer>
+											<ProductCode>14410</ProductCode>
+											<Status>Open</Status>
+											<CashAccount>
+												<CashAccountNumber>990</CashAccountNumber>
+												<CashAccountNumberIssuer />
+												<CashAccount>
+													<AccountNumber>990</AccountNumber>
+													<AccountName>CACC AUD</AccountName>
+													<BSB>262-786</BSB>
+													<Description>Cash account</Description>
+												</CashAccount>
+												<InterestRate>0.02045345</InterestRate>											
+												<CashBalance>
+													<Amount>10010.00</Amount>
+													<ValueDate />
+													<Type>Current</Type>
+												</CashBalance>
+												<Currency>AUD</Currency>
+												<PerformanceData>
+													<StartDate>2014-02-19</StartDate>
+													<EndDate>2014-02-19</EndDate>
+													<CurrencyCode>AUS</CurrencyCode>
+													<OpeningBalance>10000.00</OpeningBalance>
+													<ClosingBalance>10010.00</ClosingBalance>
+													<Income>10.00</Income>
+												</PerformanceData>
+											</CashAccount>
+											<Holdings>
+												<Holding>
+													<HoldingName>AGL Energy Ltd</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>2000</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>200</Units>
+													<PortfolioPercent>0.01</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>AGK</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>AGL Energy Ltd</SecurityName>
+														<SecurityShortName>AGK</SecurityShortName>
+														<InvestmentCode />
+														<InvestmentCodeIssuer>Other</InvestmentCodeIssuer>
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate>2014-02-19</EndDate>
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>12000.00</MarketValueAmount>
+															<MarketValuePercentage />
+															<EstimatedYieldPercentage />
+															<WeightedAverageCost>210.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>11789.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>100
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+											</Holdings>
+											<PerformanceData>
+												<EndDate>2014-02-19</EndDate>
+												<CurrencyCode>AUD</CurrencyCode>
+												<OpeningBalance />
+												<ClosingBalance>26000.00</ClosingBalance>
+												<Income>1000.00</Income>
+												<Contributions />
+												<Withdrawals />
+												<Purchases />
+												<Sales />
+												<InternalRateOfReturnPercent />
+												<ModifiedDietzReturnPercent />
+												<CapitalGains>
+													<CurrencyCode />
+													<OverallTotal />
+													<AustralianTotal />
+													<AustralianIndexation />
+													<AustralianOther />
+													<AustralianDiscounted />
+													<AustralianConcession />
+													<ForeignTotal />
+													<ForeignIndexation />
+													<ForeignOther />
+													<ForeignDiscounted />
+													<ForeignConcession />
+												</CapitalGains>
+												<MarketValueAmount>25000.00</MarketValueAmount>
+												<MarketValuePercentage>0.10</MarketValuePercentage>
+												<EstimatedYieldPercentage>3.00</EstimatedYieldPercentage>
+												<WeightedAverageCost>35000.00</WeightedAverageCost>
+												<EstimatedGainOrLossAmount>-10000.00</EstimatedGainOrLossAmount>
+												<EstimatedGainOrLossPercentage>-0.2857</EstimatedGainOrLossPercentage>																								
+											</PerformanceData>
+										</ManagedAccount>
+										<ManagedAccount>
+											<ManagedAccountName>DWS Global Managed Account
+											</ManagedAccountName>
+											<ManagedAccountCode>DW12345</ManagedAccountCode>
+											<ManagedAccountNumber>122</ManagedAccountNumber>
+											<ManagedAccountNumberIssuer>DW0001</ManagedAccountNumberIssuer>
+											<ProductCode>14410</ProductCode>
+											<Status>Pending</Status>
+											<Holdings>
+												<Holding>
+													<HoldingName>AGL Energy Ltd</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>2000</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>200</Units>
+													<PortfolioPercent>28.57</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>AGK</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>AGL Energy Ltd</SecurityName>
+														<SecurityShortName>AGK</SecurityShortName>
+														<InvestmentCode />
+														<InvestmentCodeIssuer>Other</InvestmentCodeIssuer>
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate>2014-02-19</EndDate>
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>12000.00</MarketValueAmount>
+															<MarketValuePercentage />
+															<EstimatedYieldPercentage />
+															<WeightedAverageCost>210.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>11789.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>100
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+													<Status>Pending</Status>
+												</Holding>
+												<Holding>
+													<HoldingName>ANZ</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>6000.00</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>100</Units>
+													<PortfolioPercent>14.29</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>ANZ</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>ANZ</SecurityName>
+														<SecurityShortName />
+														<InvestmentCode />
+														<InvestmentCodeIssuer />
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate />
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>6000.00</MarketValueAmount>
+															<WeightedAverageCost>410.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>5589.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>1361.63
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+												<Holding>
+													<HoldingName>BHP</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>6000</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>100</Units>
+													<PortfolioPercent>14.29</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>BHP</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>BHP Biliton</SecurityName>
+														<SecurityShortName />
+														<InvestmentCode />
+														<InvestmentCodeIssuer />
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate />
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>6000.00</MarketValueAmount>
+															<WeightedAverageCost>410.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>5589.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>1361.63
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+												<Holding>
+													<HoldingName>LEX</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>6000.00</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>100</Units>
+													<PortfolioPercent>14.29</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>LEX</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>Lexus Corporation</SecurityName>
+														<SecurityShortName />
+														<InvestmentCode />
+														<InvestmentCodeIssuer />
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate />
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>6000.00</MarketValueAmount>
+															<WeightedAverageCost>410.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>5589.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>1361.63
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+												<Holding>
+													<HoldingName>NIB</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>6000.00</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>100</Units>
+													<PortfolioPercent>14.29</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>NIB</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>NIB Private Insurance</SecurityName>
+														<SecurityShortName />
+														<InvestmentCode />
+														<InvestmentCodeIssuer />
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate />
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>6000.00</MarketValueAmount>
+															<WeightedAverageCost>410.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>5589.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>1361.63
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+												<Holding>
+													<HoldingName>WBC</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>6000.00</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>100</Units>
+													<PortfolioPercent>14.29</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>WBC</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>Westpac Banking Corporation</SecurityName>
+														<SecurityShortName />
+														<InvestmentCode />
+														<InvestmentCodeIssuer />
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate />
+															<CurrencyCode />
+															<OpeningBalance />
+															<ClosingBalance />
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>6000.00</MarketValueAmount>
+															<WeightedAverageCost>410.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>5589.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>1361.63
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+											</Holdings>
+											<PerformanceData>
+												<EndDate>2014-02-19</EndDate>
+												<CurrencyCode>AUD</CurrencyCode>
+												<OpeningBalance />
+												<ClosingBalance>33000.00</ClosingBalance>
+												<Income>1000.00</Income>
+												<Contributions />
+												<Withdrawals />
+												<Purchases />
+												<Sales />
+												<InternalRateOfReturnPercent />
+												<ModifiedDietzReturnPercent />
+												<CapitalGains />
+												<MarketValueAmount>32000.00</MarketValueAmount>
+												<MarketValuePercentage>0.10</MarketValuePercentage>
+												<EstimatedYieldPercentage>5.05</EstimatedYieldPercentage>
+												<WeightedAverageCost>45000.00</WeightedAverageCost>
+												<EstimatedGainOrLossAmount>-13000.00</EstimatedGainOrLossAmount>
+												<EstimatedGainOrLossPercentage>-0.2889</EstimatedGainOrLossPercentage>	
+											</PerformanceData>
+										</ManagedAccount>
+										<ManagedAccount>
+											<ManagedAccountName>ABC Managed Account</ManagedAccountName>
+											<ManagedAccountCode>AB0001</ManagedAccountCode>
+											<ManagedAccountNumber>156</ManagedAccountNumber>
+											<ManagedAccountNumberIssuer>AB0001</ManagedAccountNumberIssuer>
+											<ProductCode>14410</ProductCode>
+											<Holdings>
+												<Holding>
+													<HoldingName>AGL Energy Ltd</HoldingName>
+													<CurrencyCode>AUD</CurrencyCode>
+													<Value>2000</Value>
+													<AsAtDate>2014-02-19</AsAtDate>
+													<Units>200</Units>
+													<PortfolioPercent>100.00</PortfolioPercent>
+													<Security>
+														<ISIN />
+														<SecurityCode>AGK</SecurityCode>
+														<SecurityCodeIssuer>ASX</SecurityCodeIssuer>
+														<SecurityName>AGL Energy Ltd</SecurityName>
+														<SecurityShortName>AGK</SecurityShortName>
+														<InvestmentCode />
+														<InvestmentCodeIssuer>Other</InvestmentCodeIssuer>
+														<SecurityPrices>
+															<SecurityPrice>
+																<CurrencyCode>AUD</CurrencyCode>
+																<UnitPrice>60.00</UnitPrice>
+																<PricedDateTime />
+																<BuyUnitPrice />
+															</SecurityPrice>
+														</SecurityPrices>
+													</Security>
+													<PerformanceData>
+														<InvestmentPerformance>
+															<StartDate />
+															<EndDate>2014-02-19</EndDate>
+															<CurrencyCode>AUD</CurrencyCode>
+															<OpeningBalance />
+															<ClosingBalance>12000.00</ClosingBalance>
+															<Income />
+															<Contributions />
+															<Withdrawals />
+															<Purchases />
+															<Sales />
+															<InternalRateOfReturnPercent />
+															<ModifiedDietzReturnPercent />
+															<CapitalGains>
+																<CurrencyCode />
+																<OverallTotal />
+																<AustralianTotal />
+																<AustralianIndexation />
+																<AustralianOther />
+																<AustralianDiscounted />
+																<AustralianConcession />
+																<ForeignTotal />
+																<ForeignIndexation />
+																<ForeignOther />
+																<ForeignDiscounted />
+																<ForeignConcession />
+															</CapitalGains>
+															<MarketValueAmount>12000.00</MarketValueAmount>
+															<MarketValuePercentage />
+															<EstimatedYieldPercentage />
+															<WeightedAverageCost>210.50</WeightedAverageCost>
+															<EstimatedGainOrLossAmount>11789.50
+															</EstimatedGainOrLossAmount>
+															<EstimatedGainOrLossPercentage>100
+															</EstimatedGainOrLossPercentage>
+														</InvestmentPerformance>
+													</PerformanceData>
+													<AcquisitionCost />
+													<CapitalAppreciation />
+													<CapitalAppreciationPercent />
+												</Holding>
+											</Holdings>
+											<PerformanceData>
+												<EndDate>2014-02-19</EndDate>
+												<CurrencyCode>AUD</CurrencyCode>
+												<OpeningBalance />
+												<ClosingBalance>66000.00</ClosingBalance>
+												<Income>1000.00</Income>
+												<Contributions />
+												<Withdrawals />
+												<Purchases />
+												<Sales />
+												<InternalRateOfReturnPercent />
+												<ModifiedDietzReturnPercent />
+												<CapitalGains />
+												<MarketValueAmount>65000.00</MarketValueAmount>
+												<MarketValuePercentage>0.10</MarketValuePercentage>
+												<EstimatedYieldPercentage>7.05</EstimatedYieldPercentage>
+												<WeightedAverageCost>45000.00</WeightedAverageCost>
+												<EstimatedGainOrLossAmount>20000.00</EstimatedGainOrLossAmount>
+												<EstimatedGainOrLossPercentage>0.4444</EstimatedGainOrLossPercentage>	
+											</PerformanceData>
+										</ManagedAccount>
+									</InvestmentAccounts>
+									<PerformanceData>
+										<InvestmentPerformance>
+											<StartDate>2014-02-19</StartDate>
+											<EndDate>2014-02-19</EndDate>
+											<CurrencyCode>AUD</CurrencyCode>
+											<OpeningBalance>779479.73</OpeningBalance>
+											<ClosingBalance>779479.73</ClosingBalance>
+										</InvestmentPerformance>
+									</PerformanceData>
+								</Portfolio>
+							</Portfolios>
+							<InvestmentProduct>
+								<InvestmentCode />
+								<InvestmentCodeIssuer />
+								<Name />
+								<Type />
+								<Badge>
+									<BadgeID />
+									<BadgeIDIssuer />
+									<BadgeName />
+								</Badge>
+							</InvestmentProduct>
+						</PortfolioValuation>
+					</SuccessResponse>
+				</ResponseDetail>
+			</ResponseDetails>
+		</n2:RetrievePortfolioValuationResponseMsg>
+	</env:Body>
+</env:Envelope>
