@@ -1,5 +1,0 @@
-create table application(ui_application_id number(19) primary key, status varchar2(30),document_id varchar2(30), version number(3));
-create table account(ui_account_id number(19) not null, ui_application_id number(19) not null, business_partner_id varchar2(20) not null,status varchar2(100),version number(3), primary key(ui_account_id), foreign key(ui_application_id) references application(ui_application_id));
-create table party(ui_party_id number(19), ui_application_id number(19) not null, ui_account_id number(19) not null,gcm_pan varchar2(20) not null, status varchar2(100), version number(3),primary key(ui_party_id), foreign key(ui_application_id) references application(ui_application_id), foreign key(ui_account_id) references account(ui_account_id));
-create table address(ui_address_id number(19), ui_party_id number(19) not null, address_id varchar2(20) not null, version number(3), primary key(ui_address_id), foreign key (ui_party_id) references party(ui_party_id));
-create table communication( ui_party_id number(19) not null, communication_id varchar2(20));

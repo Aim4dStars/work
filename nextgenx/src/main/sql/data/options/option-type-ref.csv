@@ -1,4 +1,0 @@
-OPTION_TYPE,DESCRIPTION
-PRODUCT_OPTION,"Use the product hierarchy to resolve string values (eg For Product X, use the String Y to describe a field)"
-PRODUCT_TOGGLE,"Use the product hierarchy to resolve on/off values (eg Does Product X, support the feature Y)"
-BROKER_OPTION,"Use the broker hierarchy to resolve string values(eg for Broker X, use the url Y for the logo)"

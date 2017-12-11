@@ -1,4 +1,0 @@
-DROP SEQUENCE acl_entry_seq;
-
-CREATE SEQUENCE acl_entry_seq;
-

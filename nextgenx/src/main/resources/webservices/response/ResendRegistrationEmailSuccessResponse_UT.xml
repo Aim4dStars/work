@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-        <ns2:CreateOneTimePasswordAndSendEmailResponseMsg xmlns:ns2="ns://private.btfin.com/NextGen/Onboarding/OnboardingResponse/V1_0">
-            <Status>Success</Status>
-            <ResponseDetails>
-                <SuccessResponse>Success</SuccessResponse>
-            </ResponseDetails>
-        </ns2:CreateOneTimePasswordAndSendEmailResponseMsg>
-  
